@@ -129,6 +129,20 @@
             background: #333;
         }
         
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 80px;
+        }
+        
+        .screenshot {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
         main {
             padding: 0;
         }
@@ -247,12 +261,25 @@
                 font-size: 1rem;
             }
             
+            .screenshots {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+                margin-bottom: 60px;
+            }
+            
             section {
                 margin-bottom: 48px;
             }
             
             h2 {
                 font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .screenshots {
+                grid-template-columns: 1fr;
+                gap: 20px;
             }
         }
     </style>
@@ -265,6 +292,13 @@
             <p class="subtitle">Quickly Locate Your Lost Devices</p>
             <a href="https://apps.apple.com/app/id6756609274" class="cta-button" rel="noopener noreferrer">Download on App Store</a>
         </header>
+        
+        <div class="screenshots">
+            <img src="1_cover_12_framed.png" alt="Bluetooth Finder App - Cover Screen" class="screenshot">
+            <img src="2_scan_12_framed.png" alt="Bluetooth Finder App - Scan Screen" class="screenshot">
+            <img src="3_track_12_framed.png" alt="Bluetooth Finder App - Track Screen" class="screenshot">
+            <img src="4_info_12_framed.png" alt="Bluetooth Finder App - Info Screen" class="screenshot">
+        </div>
         
         <main>
             <section>
