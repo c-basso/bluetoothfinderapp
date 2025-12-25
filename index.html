@@ -1,1 +1,325 @@
-bluetoothfinderapp
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Bluetooth Finder - Quickly Locate Your Lost Devices | AirPods Tracker App</title>
+    <meta name="title" content="Bluetooth Finder - Quickly Locate Your Lost Devices | AirPods Tracker App">
+    <meta name="description" content="Bluetooth Finder helps you quickly locate AirPods, smartwatches, headphones, and other Bluetooth devices. Use hot & cold guidance and proximity tracking to find lost gadgets instantly.">
+    <meta name="keywords" content="bluetooth finder, bluetooth tracker, find airpods, locate bluetooth devices, bluetooth locator app, find lost airpods, bluetooth device tracker, find headphones, smartwatch finder, bluetooth scanner">
+    <meta name="author" content="Bluetooth Finder">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bluetoothfinderapp.com/">
+    <meta property="og:title" content="Bluetooth Finder - Quickly Locate Your Lost Devices">
+    <meta property="og:description" content="Find AirPods, smartwatches, headphones, and other Bluetooth devices quickly with hot & cold guidance and proximity tracking.">
+    <meta property="og:image" content="https://bluetoothfinderapp.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bluetoothfinderapp.com/">
+    <meta property="twitter:title" content="Bluetooth Finder - Quickly Locate Your Lost Devices">
+    <meta property="twitter:description" content="Find AirPods, smartwatches, headphones, and other Bluetooth devices quickly with hot & cold guidance and proximity tracking.">
+    <meta property="twitter:image" content="https://bluetoothfinderapp.com/og-image.jpg">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bluetoothfinderapp.com/">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Bluetooth Finder",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "iOS",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
+      },
+      "description": "Bluetooth Finder helps you quickly locate AirPods, smartwatches, headphones, and other Bluetooth devices using hot & cold guidance and proximity tracking.",
+      "featureList": [
+        "Scan and detect Bluetooth devices instantly",
+        "Hot & cold guidance system",
+        "Proximity percentage indicator",
+        "Detailed device information",
+        "Works everywhere"
+      ]
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #ffffff;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .logo {
+            max-width: 120px;
+            height: auto;
+            margin: 0 auto 30px;
+            display: block;
+            border-radius: 20px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #1a1a1a;
+            color: white;
+            padding: 14px 32px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        
+        .cta-button:hover {
+            background: #333;
+        }
+        
+        main {
+            padding: 0;
+        }
+        
+        section {
+            margin-bottom: 60px;
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+            color: #1a1a1a;
+            margin-bottom: 24px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+        
+        h3 {
+            font-size: 1.25rem;
+            color: #1a1a1a;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1rem;
+            color: #4a4a4a;
+        }
+        
+        ul {
+            margin-left: 24px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            font-size: 1rem;
+            color: #4a4a4a;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            margin-top: 32px;
+        }
+        
+        .feature-card {
+            padding: 0;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 32px;
+        }
+        
+        .feature-card:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.15rem;
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+        
+        .feature-card p {
+            margin-bottom: 0;
+        }
+        
+        a {
+            color: #1a1a1a;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 60px 0 40px;
+            color: #999;
+            margin-top: 80px;
+            border-top: 1px solid #e5e5e5;
+        }
+        
+        footer a {
+            color: #666;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            header {
+                margin-bottom: 60px;
+            }
+            
+            .logo {
+                max-width: 100px;
+                margin-bottom: 24px;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            section {
+                margin-bottom: 48px;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Bluetooth Finder Logo" class="logo">
+            <h1>Bluetooth Finder</h1>
+            <p class="subtitle">Quickly Locate Your Lost Devices</p>
+            <a href="https://apps.apple.com/app/id6756609274" class="cta-button" rel="noopener noreferrer">Download on App Store</a>
+        </header>
+        
+        <main>
+            <section>
+                <p>Losing your Bluetooth devices can be frustrating. <strong>Bluetooth Finder</strong> helps you quickly locate AirPods, smartwatches, headphones, and other Bluetooth-enabled gadgets nearby. Quickly scan your surroundings and track nearby Bluetooth devices using clear, real-time guidance.</p>
+            </section>
+            
+            <section>
+                <h2>Features</h2>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Scan and Detect Devices Instantly</h3>
+                        <p>Automatically detects all powered-on Bluetooth devices within range. No complicated setup. Just instant results.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Hot & Cold Guidance</h3>
+                        <p>Intuitive hot & cold system gives you feedback as you move closer. Cold (far). Warm (closer). Hot (near). Very Hot (almost there!).</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Proximity Percentage Indicator</h3>
+                        <p>See the percentage of closeness to your device for precise feedback. The higher the percentage, the closer you are.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Detailed Device Information</h3>
+                        <p>Get manufacturer, model, and device name for every nearby Bluetooth device.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>Works Everywhere</h3>
+                        <p>Perfect for lost AirPods at home, office, or on public transport. Works with any powered-on Bluetooth device.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>How to Use</h2>
+                <p>Open the app and scan for nearby Bluetooth devices. Choose your device from the list. Move around following the hot & cold signals and proximity percentage until you find it. Once the app indicates "very hot," your device is right near you.</p>
+            </section>
+            
+            <section>
+                <h2>Download</h2>
+                <p>Finding AirPods, smartwatches, headphones, or any powered-on Bluetooth device has never been easier. <a href="https://apps.apple.com/app/id6756609274" rel="noopener noreferrer">Download now</a> and take the stress out of losing your devices.</p>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="https://apps.apple.com/app/id6756609274" class="cta-button" rel="noopener noreferrer">Download on App Store</a>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Bluetooth Finder. All rights reserved.</p>
+            <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+        </footer>
+    </div>
+</body>
+</html>
