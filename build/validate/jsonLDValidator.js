@@ -51,6 +51,36 @@ function normalizeTypes(typeValue) {
   return [String(typeValue)];
 }
 
+function checkDuplicatesInBlock(obj, path = '', duplicates = []) {
+  if (typeof obj !== 'object' || obj === null || Array.isArray(obj)) {
+    return duplicates;
+  }
+
+  const keys = Object.keys(obj);
+  const seenKeys = new Set();
+
+  for (const key of keys) {
+    const currentPath = path ? `${path}.${key}` : key;
+    
+    // Check for duplicate keys at the same level
+    if (seenKeys.has(key)) {
+      duplicates.push({
+        path: currentPath,
+        key: key,
+        message: `Duplicate property "${key}" found at path "${path || 'root'}"`
+      });
+    }
+    seenKeys.add(key);
+
+    // Recursively check nested objects
+    if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
+      checkDuplicatesInBlock(obj[key], currentPath, duplicates);
+    }
+  }
+
+  return duplicates;
+}
+
 function validateJsonLD() {
   const projectRoot = path.join(__dirname, '..', '..');
   const results = [];
@@ -73,6 +103,8 @@ function validateJsonLD() {
     const html = fs.readFileSync(htmlPath, 'utf8');
     const blocks = extractJsonLdBlocks(html);
     const foundTypes = new Set();
+    const typeCounts = {};
+    const typeBlocks = {}; // Track blocks by type for duplicate detection
 
     if (blocks.length === 0) {
       results.push({
@@ -91,9 +123,42 @@ function validateJsonLD() {
       }
 
       const types = normalizeTypes(res.type);
-      for (const t of types) foundTypes.add(t);
+      for (const t of types) {
+        foundTypes.add(t);
+        typeCounts[t] = (typeCounts[t] || 0) + 1;
+        
+        // Track blocks by type
+        if (!typeBlocks[t]) {
+          typeBlocks[t] = [];
+        }
+        typeBlocks[t].push({ index: i + 1, obj: res.obj });
+      }
       const printableType = types.length ? types.join(', ') : '(missing @type)';
       console.log(`${lang}: ${path.relative(projectRoot, htmlPath)} block #${i + 1} @type=${printableType}`);
+
+      // Check for duplicate properties within this block
+      const blockDuplicates = checkDuplicatesInBlock(res.obj);
+      if (blockDuplicates.length > 0) {
+        for (const dup of blockDuplicates) {
+          results.push({
+            ok: false,
+            error: `Duplicate property in JSON-LD block #${i + 1}: ${dup.message}`,
+            meta: { file: htmlPath, lang, index: i + 1, path: dup.path },
+          });
+        }
+      }
+    }
+
+    // Check for duplicate @type blocks (same type appearing multiple times)
+    for (const [type, blocks] of Object.entries(typeBlocks)) {
+      if (blocks.length > 1) {
+        const blockIndices = blocks.map(b => `#${b.index}`).join(', ');
+        results.push({
+          ok: false,
+          error: `Duplicate JSON-LD @type "${type}" found in ${blocks.length} blocks: ${blockIndices}`,
+          meta: { file: htmlPath, lang, type, count: blocks.length },
+        });
+      }
     }
 
     const missing = (EXPECTED_JSON_LD_TYPES || []).filter((t) => !foundTypes.has(t));
