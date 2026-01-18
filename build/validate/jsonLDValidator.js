@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { LANGUAGES, DEFAULT_LANGUAGE, EXPECTED_JSON_LD_TYPES } = require('./constants');
+const { LANGUAGES, DEFAULT_LANGUAGE, EXPECTED_JSON_LD_TYPES } = require('../constants');
 
 function extractJsonLdBlocks(html) {
   const blocks = [];
@@ -51,8 +51,8 @@ function normalizeTypes(typeValue) {
   return [String(typeValue)];
 }
 
-(function main() {
-  const projectRoot = path.join(__dirname, '..');
+function validateJsonLD() {
+  const projectRoot = path.join(__dirname, '..', '..');
   const results = [];
 
   for (const lang of LANGUAGES) {
@@ -107,11 +107,11 @@ function normalizeTypes(typeValue) {
   }
 
   if (results.length === 0) {
-    console.log(`✅ Structured data OK: all JSON-LD blocks parse in ${LANGUAGES.length} pages`);
-    process.exit(0);
+    console.log(`✅ JSON-LD validation OK: all blocks parse correctly in ${LANGUAGES.length} page(s)`);
+    return { ok: true };
   }
 
-  console.error(`❌ Structured data validation failed: ${results.length} issue(s)`);
+  console.error(`❌ JSON-LD validation failed: ${results.length} issue(s)`);
   for (const r of results) {
     const file = r.meta?.file || '(unknown file)';
     const lang = r.meta?.lang || '(unknown lang)';
@@ -123,6 +123,7 @@ function normalizeTypes(typeValue) {
       console.error(`  --- context ---\n${r.context}\n  --- end context ---`);
     }
   }
-  process.exit(1);
-})();
+  return { ok: false, errors: results };
+}
 
+module.exports = { validateJsonLD };
