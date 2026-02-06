@@ -76,7 +76,7 @@
   <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png">
   
   <!-- Application Name -->
-  <meta name="application-name" content="{{header.app_name}} – {{header.app_name_suffix}}">
+  <meta name="application-name" content="{{header.application_name}}">
   
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -755,9 +755,9 @@
     <!-- Main Content -->
     <main role="main">
       <!-- Summary / TL;DR for GEO -->
-      <section class="content-section summary-tldr" aria-label="Summary">
+      <section class="content-section summary-tldr" aria-label="{{content.summary_label}}">
         <div class="tldr-box fade-in">
-          <p class="tldr-label">Summary</p>
+          <p class="tldr-label">{{content.summary_label}}</p>
           <p class="tldr-text">{{content.summary_tldr}}</p>
         </div>
       </section>
@@ -853,10 +853,10 @@
           <table class="comparison-table">
             <thead>
               <tr>
-                <th scope="col">Feature</th>
-                <th scope="col">Bluetooth Finder</th>
-                <th scope="col">Find My</th>
-                <th scope="col">Generic scanner</th>
+                <th scope="col">{{seo.comparison_col_feature}}</th>
+                <th scope="col">{{seo.comparison_col_bluetooth_finder}}</th>
+                <th scope="col">{{seo.comparison_col_find_my}}</th>
+                <th scope="col">{{seo.comparison_col_generic}}</th>
               </tr>
             </thead>
             <tbody>
@@ -909,7 +909,7 @@
     <footer role="contentinfo">
       <p>{{footer.copyright}}</p>
       <p><a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
-      <p class="last-updated" aria-label="Content last updated">Last updated: {{seo.last_updated}}</p>
+      <p class="last-updated" aria-label="{{seo.last_updated_label}}">{{seo.last_updated_label}} {{seo.last_updated}}</p>
     </footer>
   </div>
 

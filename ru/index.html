@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="dns-prefetch" href="https://apps.apple.com">
+  <link rel="dns-prefetch" href="https://mc.yandex.ru">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <title>Bluetooth Finder — приложение для поиска потерянных устройств | Найти AirPods и наушники</title>
+  
+  <!-- App Store Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=6756609274">
+  
+  <!-- Core SEO -->
+  <meta name="description" content="Приложение для поиска bluetooth устройств: быстро найти AirPods, умные часы, наушники и другие устройства. Поиск по принципу «горячо — холодно» и индикатор приближения. Локатор bluetooth для iPhone.">
+  <meta name="keywords" content="приложение найти bluetooth устройства, найти airpods, поиск наушников по bluetooth, трекер bluetooth устройств, приложение поиск по блютуз, найти потерянные наушники, локатор bluetooth, найти умные часы, приложение найти наушники, bluetooth сканер">
+  <meta name="author" content="Bluetooth Finder">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <link rel="canonical" href="https://bluetoothfinderapp.com/ru/">
+  
+  <!-- Alternate Language Links -->
+  
+  <link rel="alternate" hreflang="en" href="https://bluetoothfinderapp.com/" />
+  
+  <link rel="alternate" hreflang="ru" href="https://bluetoothfinderapp.com/ru/" />
+  
+  <link rel="alternate" hreflang="x-default" href="https://bluetoothfinderapp.com/" />
+  
+  <!-- PWA & Theming -->
+  <meta name="theme-color" content="#0A0E27">
+  <meta name="msapplication-TileColor" content="#0A0E27">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bluetooth Finder — приложение для поиска потерянных устройств">
+  <meta property="og:description" content="Приложение для поиска bluetooth: найти AirPods, умные часы, наушники. Подсказки «горячо — холодно» и процент приближения.">
+  <meta property="og:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta property="og:image:alt" content="Bluetooth Finder — найдите потерянные устройства">
+  <meta property="og:image:width" content="1140">
+  <meta property="og:image:height" content="599">
+  <meta property="og:logo" content="https://bluetoothfinderapp.com/img/logo.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluetoothfinderapp.com/ru/">
+  <meta property="og:site_name" content="Bluetooth Finder">
+  <meta property="og:locale" content="ru_RU">
+  
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://bluetoothfinderapp.com/ru/">
+  <meta property="twitter:title" content="Bluetooth Finder — найти потерянные устройства">
+  <meta property="twitter:description" content="Приложение для поиска bluetooth устройств: найти AirPods, умные часы, наушники. Поиск по принципу «горячо — холодно» и индикатор приближения.">
+  <meta property="twitter:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta name="twitter:image:alt" content="Bluetooth Finder — найдите потерянные устройства">
+  <meta name="twitter:image:width" content="1140">
+  <meta name="twitter:image:height" content="599">
+  <meta name="twitter:site" content="@c__basso">
+  <meta name="twitter:creator" content="@c__basso">
+  
+  <!-- Icons & Manifest -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="mask-icon" href="/img/favicon.svg" color="#0A0E27">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png">
+  
+  <!-- Application Name -->
+  <meta name="application-name" content="Bluetooth Finder – Поиск bluetooth устройств">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary-blue: #0066FF;
+      --primary-cyan: #00D4FF;
+      --primary-purple: #7B61FF;
+      --dark-bg: #0A0E27;
+      --dark-surface: #141B3D;
+      --text-primary: #FFFFFF;
+      --text-secondary: #B8C5E6;
+      --accent-glow: rgba(0, 212, 255, 0.3);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: var(--text-primary);
+      background: var(--dark-bg);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Animated gradient background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(0, 102, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(123, 97, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+      animation: gradientShift 20s ease infinite;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.1); }
+    }
+
+    /* Noise texture overlay */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 120px 0 80px;
+      position: relative;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo-wrapper {
+      margin-bottom: 40px;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 32px;
+      box-shadow: 
+        0 20px 60px rgba(0, 102, 255, 0.4),
+        0 0 80px rgba(0, 212, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.05) rotate(5deg);
+    }
+
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-cyan) 50%, var(--primary-blue) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 24px;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      color: var(--text-secondary);
+      margin-bottom: 48px;
+      font-weight: 400;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-purple) 100%);
+      color: white;
+      padding: 18px 40px;
+      text-decoration: none;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 
+        0 10px 30px rgba(0, 102, 255, 0.4),
+        0 0 40px rgba(0, 102, 255, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-button span,
+    .cta-button svg {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+      transition: left 0.5s ease;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .cta-button:hover::before {
+      left: 100%;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 
+        0 15px 40px rgba(0, 102, 255, 0.5),
+        0 0 60px rgba(0, 212, 255, 0.3);
+      color: white;
+      background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-purple) 100%);
+    }
+
+    .cta-button:hover span,
+    .cta-button:hover svg {
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    }
+
+    .cta-button:active {
+      transform: translateY(0);
+    }
+
+    /* Screenshots Grid */
+    .screenshots-section {
+      padding: 100px 0;
+      position: relative;
+    }
+
+    .screenshots-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 60px;
+      perspective: 1000px;
+    }
+
+    .screenshot-wrapper {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      transform-style: preserve-3d;
+      transition: transform 0.4s ease;
+      animation: fadeInUp 1s ease-out backwards;
+    }
+
+    .screenshot-wrapper:nth-child(1) { animation-delay: 0.1s; }
+    .screenshot-wrapper:nth-child(2) { animation-delay: 0.2s; }
+    .screenshot-wrapper:nth-child(3) { animation-delay: 0.3s; }
+    .screenshot-wrapper:nth-child(4) { animation-delay: 0.4s; }
+
+    .screenshot-wrapper:hover {
+      transform: translateY(-12px) rotateX(5deg);
+    }
+
+    .screenshot {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 24px;
+      box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(0, 102, 255, 0.2);
+      transition: all 0.4s ease;
+    }
+
+    .screenshot-wrapper:hover .screenshot {
+      box-shadow: 
+        0 30px 80px rgba(0, 0, 0, 0.5),
+        0 0 60px rgba(0, 212, 255, 0.4);
+    }
+
+    /* Content Sections */
+    .content-section {
+      padding: 100px 0;
+      position: relative;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .intro-text {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto 80px;
+      text-align: center;
+    }
+
+    .intro-text strong {
+      color: var(--primary-cyan);
+      font-weight: 600;
+    }
+
+    /* Features Grid */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+      margin-top: 60px;
+    }
+
+    .feature-card {
+      background: linear-gradient(135deg, var(--dark-surface) 0%, rgba(20, 27, 61, 0.5) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.1);
+      border-radius: 24px;
+      padding: 40px;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(0, 102, 255, 0.1) 0%, rgba(123, 97, 255, 0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .feature-card:hover::before {
+      opacity: 1;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(0, 212, 255, 0.3);
+      box-shadow: 
+        0 20px 60px rgba(0, 102, 255, 0.2),
+        0 0 40px rgba(0, 212, 255, 0.1);
+    }
+
+    .feature-number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--primary-blue), var(--primary-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+      opacity: 0.3;
+    }
+
+    .feature-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .feature-card p {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Key facts (by the numbers) for GEO */
+    .key-facts-list {
+      list-style: none;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px 32px;
+    }
+    .key-facts-list li {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+      padding: 16px 20px;
+      background: rgba(20, 27, 61, 0.5);
+      border-radius: 16px;
+      border: 1px solid rgba(0, 212, 255, 0.1);
+    }
+    .key-facts-list strong {
+      color: var(--primary-cyan);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    /* Summary / TL;DR for GEO */
+    .summary-tldr { padding-top: 60px; }
+    .tldr-box {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 28px 36px;
+      background: linear-gradient(135deg, rgba(0, 102, 255, 0.08) 0%, rgba(123, 97, 255, 0.08) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: 20px;
+    }
+    .tldr-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+    .tldr-text {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    /* Comparison table for GEO */
+    .comparison-table-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .comparison-table th,
+    .comparison-table td {
+      padding: 14px 16px;
+      text-align: left;
+      border: 1px solid rgba(0, 212, 255, 0.15);
+    }
+    .comparison-table th {
+      background: rgba(20, 27, 61, 0.8);
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+    .comparison-table td {
+      color: var(--text-secondary);
+      background: rgba(20, 27, 61, 0.4);
+    }
+    .comparison-table tbody tr:nth-child(even) td {
+      background: rgba(20, 27, 61, 0.5);
+    }
+    .comparison-table th:first-child,
+    .comparison-table td:first-child {
+      color: var(--primary-cyan);
+      font-weight: 500;
+    }
+
+    /* FAQ section for GEO */
+    .faq-section .section-subtitle { margin-bottom: 0; }
+    .faq-list {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+    .faq-item {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+    }
+    .faq-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+    .faq-item dt {
+      font-size: 1.1rem;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .faq-item dd {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin: 0;
+    }
+    footer .last-updated {
+      margin-top: 16px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
+    /* How to Use Section */
+    .how-to-section {
+      background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(123, 97, 255, 0.05) 100%);
+      border-radius: 48px;
+      padding: 80px 60px;
+      margin: 100px 0;
+      border: 1px solid rgba(0, 212, 255, 0.1);
+    }
+
+    .how-to-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .how-to-content p {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    /* Download Section */
+    .download-section {
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .download-content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .download-content p {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+
+    .download-content a {
+      color: var(--primary-cyan);
+      text-decoration: none;
+      border-bottom: 2px solid var(--primary-cyan);
+      transition: all 0.3s ease;
+    }
+
+    .download-content a:hover {
+      color: var(--text-primary);
+      border-bottom-color: var(--primary-blue);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 80px 0 40px;
+      color: var(--text-secondary);
+      border-top: 1px solid rgba(0, 212, 255, 0.1);
+      margin-top: 100px;
+    }
+
+    footer a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: var(--primary-cyan);
+    }
+
+    footer p {
+      margin-bottom: 12px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .screenshots-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 80px 0 60px;
+      }
+
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+
+      .screenshots-section,
+      .content-section {
+        padding: 60px 0;
+      }
+
+      .section-header {
+        margin-bottom: 50px;
+      }
+
+      .screenshots-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .how-to-section {
+        padding: 50px 30px;
+        border-radius: 32px;
+      }
+
+      .feature-card {
+        padding: 30px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
+
+      .cta-button {
+        padding: 16px 32px;
+        font-size: 1rem;
+      }
+    }
+
+    /* Scroll animations */
+    @media (prefers-reduced-motion: no-preference) {
+      .fade-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+      <div class="hero-content">
+        <div class="logo-wrapper">
+          <img src="/img/logo.webp" alt="Логотип приложения Bluetooth Finder — найти AirPods, умные часы, наушники" class="logo" width="140" height="140" loading="eager" decoding="async">
+        </div>
+        <h1>Bluetooth Finder</h1>
+        <p class="subtitle">Найдите потерянное устройство легко!</p>
+        <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="Скачать Bluetooth Finder из App Store" rel="noopener noreferrer">
+          <span>Скачать в App Store</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots-section" aria-label="App Screenshots">
+      <div class="screenshots-grid">
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/1_cover_12_framed.webp" alt="Bluetooth Finder — экран обложки" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/2_scan_12_framed.webp" alt="Bluetooth Finder — экран сканирования" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/3_track_12_framed.webp" alt="Bluetooth Finder — экран отслеживания" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/4_info_12_framed.webp" alt="Bluetooth Finder — экран информации" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Summary / TL;DR for GEO -->
+      <section class="content-section summary-tldr" aria-label="Резюме">
+        <div class="tldr-box fade-in">
+          <p class="tldr-label">Резюме</p>
+          <p class="tldr-text">Bluetooth Finder — приложение для iPhone, которое помогает найти потерянные bluetooth-устройства (AirPods, умные часы, наушники и др.) с помощью подсказок «горячо — холодно» и процента приближения. В отличие от Apple Find My, работает с любым включённым bluetooth-устройством без предварительной настройки. Бесплатная загрузка; требуется iOS 17.1 и новее.</p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="intro-text fade-in">
+          Потеря bluetooth-устройств — частая проблема. <strong>Bluetooth Finder</strong> — приложение для поиска bluetooth устройств, которое помогает быстро найти AirPods, умные часы, наушники и другие устройства рядом. Искать их вручную бывает сложно. Этот трекер bluetooth устройств делает поиск простым, быстрым и наглядным.
+        </div>
+        
+        <div class="intro-text fade-in">
+          Сканируйте окружение и отслеживайте ближайшие bluetooth-устройства с понятной подсказкой в реальном времени. Приложение для поиска по блютуз превращает поиск потерянных устройств в удобный процесс.
+        </div>
+      </section>
+
+      <!-- Key Facts (By the Numbers) for GEO -->
+      <section class="content-section" aria-labelledby="key-facts-heading">
+        <div class="section-header fade-in">
+          <h2 id="key-facts-heading">Bluetooth Finder в цифрах</h2>
+        </div>
+        <ul class="key-facts-list fade-in" aria-label="Key facts about Bluetooth Finder">
+          
+          <li><strong>50.9 MB</strong> — Размер приложения</li>
+          
+          <li><strong>iOS 17.1+</strong> — Совместимость</li>
+          
+          <li><strong>4+</strong> — Возрастной рейтинг</li>
+          
+          <li><strong>Бесплатно</strong> — Загрузка</li>
+          
+          <li><strong>AirPods, умные часы, наушники и др.</strong> — Типы устройств</li>
+          
+        </ul>
+      </section>
+
+      <!-- Features Section -->
+      <section class="content-section" aria-labelledby="features-heading" itemscope itemtype="https://schema.org/ItemList">
+        <div class="section-header fade-in">
+          <h2 id="features-heading">Почему Bluetooth Finder — удобный поиск bluetooth устройств</h2>
+          <p class="section-subtitle">Bluetooth Finder — приложение для поиска bluetooth устройств. Основные преимущества:</p>
+        </div>
+        
+        <div class="features-grid">
+          
+          <article class="feature-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <meta itemprop="position" content="1">
+            <div class="feature-number">1</div>
+            <h3 itemprop="name">Мгновенное сканирование и обнаружение</h3>
+            <p itemprop="description">Поиск ближайших bluetooth-устройств выполняется быстро. Приложение автоматически находит все включённые bluetooth-устройства в зоне доступа. Без сложной настройки — только результат.</p>
+          </article>
+          
+          <article class="feature-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <meta itemprop="position" content="2">
+            <div class="feature-number">2</div>
+            <h3 itemprop="name">Подсказки «горячо — холодно»</h3>
+            <p itemprop="description">Система подсказок реагирует на ваше приближение: холодно (далеко), тепло (ближе), горячо (рядом), очень горячо (почти у цели). Так проще найти потерянные наушники или часы.</p>
+          </article>
+          
+          <article class="feature-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <meta itemprop="position" content="3">
+            <div class="feature-number">3</div>
+            <h3 itemprop="name">Процент приближения</h3>
+            <p itemprop="description">Отображается процент близости к устройству. Чем выше процент — тем ближе вы к цели. Работает вместе с «горячо — холодно» для точного поиска.</p>
+          </article>
+          
+          <article class="feature-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <meta itemprop="position" content="4">
+            <div class="feature-number">4</div>
+            <h3 itemprop="name">Информация об устройстве</h3>
+            <p itemprop="description">Для каждого устройства показываются производитель, модель и имя. Всегда понятно, какое именно устройство вы ищете.</p>
+          </article>
+          
+          <article class="feature-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <meta itemprop="position" content="5">
+            <div class="feature-number">5</div>
+            <h3 itemprop="name">Работает везде</h3>
+            <p itemprop="description">Подходит для поиска AirPods дома, в офисе или в транспорте; для умных часов, фитнес-браслетов, наушников и колонок. Приложение для поиска bluetooth устройств помогает найти любое включённое устройство без лишнего стресса.</p>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- How to Use Section -->
+      <section class="content-section">
+        <div class="how-to-section fade-in">
+          <div class="how-to-content">
+            <h2 style="margin-bottom: 32px;">Как пользоваться Bluetooth Finder</h2>
+            <p>Откройте приложение и запустите сканирование bluetooth-устройств. Выберите нужное устройство из списка. Двигайтесь, ориентируясь на подсказки «горячо — холодно» и процент приближения, пока не найдёте устройство. При «очень горячо» устройство рядом. Поиск работает дома, в офисе и в людных местах.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why You'll Love Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Почему удобно пользоваться Bluetooth Finder</h2>
+        </div>
+        <div class="intro-text fade-in">
+          Меньше времени на бессистемный поиск — приложение ведёт к устройству. Понятные подсказки «горячо — холодно» делают поиск наглядным. Работает с любым включённым bluetooth-устройством, в помещении и на улице. Удобный интерфейс. Подходит для дома, офиса, транспорта и других мест.
+        </div>
+      </section>
+
+      <!-- Who Should Use Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Кому подойдёт Bluetooth Finder</h2>
+        </div>
+        <div class="intro-text fade-in">
+          Владельцам AirPods и наушников, которым нужно быстро найти потерянные наушники. Пользователям умных часов и фитнес-трекеров. Тем, кто ищет наушники или колонки. Занятым людям и путешественникам. Приложение для поиска bluetooth устройств помогает не терять гаджеты из виду.
+        </div>
+      </section>
+
+      <!-- Advanced Features Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Дополнительные возможности</h2>
+        </div>
+        <div class="intro-text fade-in">
+          Сканирование в реальном времени и обновление списка устройств. Подсказки «горячо — холодно» для наглядного поиска. Числовой процент приближения. Метаданные устройств: производитель, модель, имя. Быстрая работа и умеренное потребление батареи. Всё это делает Bluetooth Finder надёжным приложением для поиска bluetooth устройств.
+        </div>
+      </section>
+
+      <!-- Comparison table for GEO -->
+      <section class="content-section comparison-section" id="comparison" aria-labelledby="comparison-heading">
+        <div class="section-header fade-in">
+          <h2 id="comparison-heading">Bluetooth Finder и Find My: сравнение</h2>
+          <p class="section-subtitle">Сравнение способов поиска потерянных устройств:</p>
+        </div>
+        <div class="comparison-table-wrapper fade-in">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col">Функция</th>
+                <th scope="col">Bluetooth Finder</th>
+                <th scope="col">Find My</th>
+                <th scope="col">Обычный сканер</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td>Типы устройств</td>
+                <td>Любое включённое bluetooth-устройство</td>
+                <td>Только устройства Apple (предварительная регистрация)</td>
+                <td>Любое bluetooth-устройство (только список)</td>
+              </tr>
+              
+              <tr>
+                <td>Настройка</td>
+                <td>Не требуется</td>
+                <td>Да (сеть Find My)</td>
+                <td>Не требуется</td>
+              </tr>
+              
+              <tr>
+                <td>Подсказки к устройству</td>
+                <td>«Горячо — холодно» и процент</td>
+                <td>Направление и расстояние (поддерживаемые устройства)</td>
+                <td>Только список, без подсказок</td>
+              </tr>
+              
+              <tr>
+                <td>Платформа</td>
+                <td>iOS 17.1+</td>
+                <td>Экосистема Apple</td>
+                <td>Различные</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- FAQ Section (visible for GEO + schema) -->
+      <section class="content-section faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="section-header fade-in">
+          <h2 id="faq-heading">Частые вопросы о Bluetooth Finder</h2>
+        </div>
+        <dl class="faq-list fade-in">
+          
+          <div class="faq-item">
+            <dt><strong>Что такое Bluetooth Finder?</strong></dt>
+            <dd>Bluetooth Finder — приложение для поиска bluetooth устройств на iPhone. Оно помогает быстро находить AirPods, умные часы, наушники и другие включённые bluetooth-устройства рядом. Поиск по принципу «горячо — холодно» и процент приближения делают поиск простым и наглядным.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Как работает Bluetooth Finder?</strong></dt>
+            <dd>Приложение сканирует ближайшие bluetooth-устройства и даёт подсказки в реальном времени. Используется система «горячо — холодно» (холодно, тепло, горячо, очень горячо) и процент приближения. Показываются производитель, модель и имя устройства.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Можно ли найти потерянные AirPods с Bluetooth Finder?</strong></dt>
+            <dd>Да. Приложение подходит для поиска AirPods. Оно находит все включённые bluetooth-устройства в зоне доступа, в том числе AirPods, и ведёт к ним с помощью «горячо — холодно» и процента приближения.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Работает ли Bluetooth Finder с другими bluetooth-устройствами?</strong></dt>
+            <dd>Да. Приложение работает с любым включённым bluetooth-устройством: умные часы, фитнес-трекеры, наушники, колонки и др. Поиск возможен дома, в офисе и в транспорте.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Bluetooth Finder бесплатный?</strong></dt>
+            <dd>Приложение можно бесплатно скачать в App Store. Доступны дополнительные покупки в приложении для расширенных функций.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>С какими устройствами совместим Bluetooth Finder?</strong></dt>
+            <dd>Требуется iPhone с iOS 17.1 или новее. Приложение оптимизировано для iPhone и умеренно расходует батарею.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Насколько точен поиск по приближению?</strong></dt>
+            <dd>Приложение показывает процент приближения к устройству. Чем выше процент — тем ближе вы к цели. Вместе с подсказками «горячо — холодно» поиск становится понятным и эффективным.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Можно ли использовать Bluetooth Finder в людных местах?</strong></dt>
+            <dd>Да. Приложение работает в людных местах и дома. Отображаются производитель, модель и имя устройства, поэтому вы всегда знаете, какое устройство отслеживаете, даже при большом количестве bluetooth-устройств рядом.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Чем Bluetooth Finder отличается от Apple Find My?</strong></dt>
+            <dd>Find My работает только с устройствами Apple и требует предварительной настройки. Bluetooth Finder работает с любым включённым bluetooth-устройством (AirPods, умные часы, наушники, колонки) без предварительного сопряжения. Используются подсказки «горячо — холодно» и процент приближения. Bluetooth Finder удобен, когда нужно быстро найти любое bluetooth-устройство, в том числе не от Apple.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Подходит ли Bluetooth Finder как замена Find My для не-Apple устройств?</strong></dt>
+            <dd>Да. Bluetooth Finder — удобная альтернатива для поиска bluetooth-устройств, не входящих в сеть Find My. Приложение находит любое включённое bluetooth-устройство, показывает производителя и модель, ведёт с помощью «горячо — холодно» и процента приближения. Работает на iPhone с iOS 17.1 и новее, скачивается бесплатно.</dd>
+          </div>
+          
+        </dl>
+      </section>
+
+      <!-- Download Section -->
+      <section class="download-section">
+        <div class="download-content fade-in">
+          <h2 style="margin-bottom: 24px;">Скачайте Bluetooth Finder</h2>
+          <p>Тратить меньше времени на поиск AirPods, умных часов, наушников или любого включённого bluetooth-устройства. Дома, в офисе или в общественных местах — приложение для поиска bluetooth устройств помогает быстро находить потерянные устройства. <a href="https://apps.apple.com/app/id6756609274" rel="noopener noreferrer">Скачать</a> и избавиться от стресса из-за потери гаджетов.</p>
+          <div style="margin-top: 48px;">
+            <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="Скачать Bluetooth Finder из App Store" rel="noopener noreferrer">
+              <span>Скачать в App Store</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>© 2026 Bluetooth Finder. Все права защищены.</p>
+      <p><a href="/privacy.html">Политика конфиденциальности</a> | <a href="/terms.html">Условия использования</a></p>
+      <p class="last-updated" aria-label="Обновлено">Обновлено Февраль 2026</p>
+    </footer>
+  </div>
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"MobileApplication","name":"Bluetooth Finder","alternateName":"Приложение для поиска bluetooth устройств","applicationCategory":"UtilityApplication","operatingSystem":"iOS","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://apps.apple.com/app/id6756609274"},"description":"Bluetooth Finder — приложение для iPhone для поиска потерянных AirPods, умных часов, наушников и других bluetooth-устройств. Использует подсказки «горячо — холодно» и процент приближения. Функции: сканирование в реальном времени, информация об устройстве, работа дома, в офисе и в транспорте.","image":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/logo.webp","width":140,"height":140,"caption":"Логотип Bluetooth Finder"},"screenshot":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/1_cover_12_framed.webp","width":390,"height":844},"url":"https://bluetoothfinderapp.com/ru/","author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"publisher":{"@type":"Person","name":"Vladimir Ivakhnenko"},"keywords":"приложение найти bluetooth устройства, найти airpods, поиск наушников по bluetooth, трекер bluetooth устройств, приложение поиск по блютуз, найти потерянные наушники, локатор bluetooth","inLanguage":"ru","datePublished":"2024-12-31","dateModified":"2025-01-09","softwareVersion":"1.1","fileSize":"50.9MB","softwareRequirements":"iOS 17.1 или новее","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","ratingCount":"100"},"downloadUrl":"https://apps.apple.com/app/id6756609274"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/ru/","logo":"https://bluetoothfinderapp.com/img/logo.webp","description":"Bluetooth Finder — приложение для поиска bluetooth устройств: найти AirPods, умные часы, наушники. Подсказки «горячо — холодно» и процент приближения."}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/ru/","description":"Bluetooth Finder — приложение для поиска bluetooth устройств. Найти AirPods, умные часы, наушники с помощью подсказок «горячо — холодно» и процента приближения.","potentialAction":{"@type":"SearchAction","target":"https://bluetoothfinderapp.com/ru/?q={search_term_string}","query-input":"required name=search_term_string"}}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"HowTo","name":"Как найти потерянные устройства с Bluetooth Finder","description":"Как пользоваться приложением для поиска bluetooth устройств: найти AirPods, умные часы, наушники. Пошаговая инструкция с подсказками «горячо — холодно» и процентом приближения.","step":[{"@type":"HowToStep","position":1,"name":"Скачать Bluetooth Finder","text":"Скачайте приложение из App Store на iPhone. Требуется iOS 17.1 или новее. Загрузка бесплатная.","url":"https://apps.apple.com/app/id6756609274"},{"@type":"HowToStep","position":2,"name":"Открыть приложение и сканировать","text":"Запустите приложение и разрешите доступ к Bluetooth. Будет выполнен поиск ближайших bluetooth-устройств."},{"@type":"HowToStep","position":3,"name":"Выбрать устройство","text":"Выберите потерянное устройство из списка. Приложение показывает производителя, модель и имя для точной идентификации."},{"@type":"HowToStep","position":4,"name":"Следовать подсказкам «горячо — холодно»","text":"Двигайтесь, ориентируясь на индикатор: холодно (далеко), тепло (ближе), горячо (рядом), очень горячо (почти у цели)."},{"@type":"HowToStep","position":5,"name":"Смотреть процент приближения","text":"Следите за процентом приближения. Чем выше процент — тем ближе вы к устройству. Используйте вместе с «горячо — холодно»."},{"@type":"HowToStep","position":6,"name":"Найти устройство","text":"При «очень горячо» устройство рядом. Процент приближения максимальный. Осмотрите эту зону, чтобы найти устройство."}]}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Что такое Bluetooth Finder?","acceptedAnswer":{"@type":"Answer","text":"Bluetooth Finder — приложение для поиска bluetooth устройств на iPhone. Оно помогает быстро находить AirPods, умные часы, наушники и другие включённые bluetooth-устройства рядом. Поиск по принципу «горячо — холодно» и процент приближения делают поиск простым и наглядным."}},{"@type":"Question","name":"Как работает Bluetooth Finder?","acceptedAnswer":{"@type":"Answer","text":"Приложение сканирует ближайшие bluetooth-устройства и даёт подсказки в реальном времени. Используется система «горячо — холодно» (холодно, тепло, горячо, очень горячо) и процент приближения. Показываются производитель, модель и имя устройства."}},{"@type":"Question","name":"Можно ли найти потерянные AirPods с Bluetooth Finder?","acceptedAnswer":{"@type":"Answer","text":"Да. Приложение подходит для поиска AirPods. Оно находит все включённые bluetooth-устройства в зоне доступа, в том числе AirPods, и ведёт к ним с помощью «горячо — холодно» и процента приближения."}},{"@type":"Question","name":"Работает ли Bluetooth Finder с другими bluetooth-устройствами?","acceptedAnswer":{"@type":"Answer","text":"Да. Приложение работает с любым включённым bluetooth-устройством: умные часы, фитнес-трекеры, наушники, колонки и др. Поиск возможен дома, в офисе и в транспорте."}},{"@type":"Question","name":"Bluetooth Finder бесплатный?","acceptedAnswer":{"@type":"Answer","text":"Приложение можно бесплатно скачать в App Store. Доступны дополнительные покупки в приложении для расширенных функций."}},{"@type":"Question","name":"С какими устройствами совместим Bluetooth Finder?","acceptedAnswer":{"@type":"Answer","text":"Требуется iPhone с iOS 17.1 или новее. Приложение оптимизировано для iPhone и умеренно расходует батарею."}},{"@type":"Question","name":"Насколько точен поиск по приближению?","acceptedAnswer":{"@type":"Answer","text":"Приложение показывает процент приближения к устройству. Чем выше процент — тем ближе вы к цели. Вместе с подсказками «горячо — холодно» поиск становится понятным и эффективным."}},{"@type":"Question","name":"Можно ли использовать Bluetooth Finder в людных местах?","acceptedAnswer":{"@type":"Answer","text":"Да. Приложение работает в людных местах и дома. Отображаются производитель, модель и имя устройства, поэтому вы всегда знаете, какое устройство отслеживаете, даже при большом количестве bluetooth-устройств рядом."}},{"@type":"Question","name":"Чем Bluetooth Finder отличается от Apple Find My?","acceptedAnswer":{"@type":"Answer","text":"Find My работает только с устройствами Apple и требует предварительной настройки. Bluetooth Finder работает с любым включённым bluetooth-устройством (AirPods, умные часы, наушники, колонки) без предварительного сопряжения. Используются подсказки «горячо — холодно» и процент приближения. Bluetooth Finder удобен, когда нужно быстро найти любое bluetooth-устройство, в том числе не от Apple."}},{"@type":"Question","name":"Подходит ли Bluetooth Finder как замена Find My для не-Apple устройств?","acceptedAnswer":{"@type":"Answer","text":"Да. Bluetooth Finder — удобная альтернатива для поиска bluetooth-устройств, не входящих в сеть Find My. Приложение находит любое включённое bluetooth-устройство, показывает производителя и модель, ведёт с помощью «горячо — холодно» и процента приближения. Работает на iPhone с iOS 17.1 и новее, скачивается бесплатно."}}]}
+  </script>
+  
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://bluetoothfinderapp.com/ru/"}]}
+  </script>
+
+  <!-- Scroll animations -->
+  <script>
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(106104643, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/106104643" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+</body>
+
+</html>
