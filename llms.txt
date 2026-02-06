@@ -1,0 +1,38 @@
+# Bluetooth Finder
+
+> Bluetooth Finder is an iOS app that helps you quickly locate lost Bluetooth devices—AirPods, smartwatches, headphones, and other Bluetooth gadgets—using hot & cold guidance and a proximity percentage. Free to download on the App Store; works on iPhone with iOS 17.1 or later.
+
+## Main Page
+
+- Home: https://bluetoothfinderapp.com/
+- App Store: https://apps.apple.com/app/id6756609274
+
+## Key Facts
+
+- App name: Bluetooth Finder (Bluetooth Finder App)
+- Platform: iOS (iPhone), requires iOS 17.1 or later
+- App size: 50.9 MB
+- Age rating: 4+
+- Download: Free (optional in-app purchases)
+- Device types: AirPods, smartwatches, headphones, speakers, and any powered-on Bluetooth device
+- Features: Real-time scan, hot & cold guidance, proximity percentage, device info (manufacturer, model, name)
+- Use cases: Find lost AirPods at home or on the go, misplaced smartwatches or fitness trackers, headphones and speakers
+- Developer: Vladimir Ivakhnenko
+
+## How It Works
+
+1. Download the app from the App Store and open it.
+2. Scan for nearby Bluetooth devices and select your lost device.
+3. Follow the hot & cold signals (Cold, Warm, Hot, Very Hot) and proximity percentage to locate it.
+
+## Comparison
+
+Bluetooth Finder works with any powered-on Bluetooth device; it does not require prior pairing like Apple Find My. Use it to find AirPods, non-Apple smartwatches, headphones, and other Bluetooth gadgets quickly.
+
+## Contact
+
+- Website: https://bluetoothfinderapp.com/
+- Privacy: https://bluetoothfinderapp.com/privacy.html
+- Terms: https://bluetoothfinderapp.com/terms.html
+
+Last updated: February 2026

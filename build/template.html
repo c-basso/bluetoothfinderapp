@@ -453,6 +453,120 @@
       z-index: 1;
     }
 
+    /* Key facts (by the numbers) for GEO */
+    .key-facts-list {
+      list-style: none;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px 32px;
+    }
+    .key-facts-list li {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+      padding: 16px 20px;
+      background: rgba(20, 27, 61, 0.5);
+      border-radius: 16px;
+      border: 1px solid rgba(0, 212, 255, 0.1);
+    }
+    .key-facts-list strong {
+      color: var(--primary-cyan);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    /* Summary / TL;DR for GEO */
+    .summary-tldr { padding-top: 60px; }
+    .tldr-box {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 28px 36px;
+      background: linear-gradient(135deg, rgba(0, 102, 255, 0.08) 0%, rgba(123, 97, 255, 0.08) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: 20px;
+    }
+    .tldr-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+    .tldr-text {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    /* Comparison table for GEO */
+    .comparison-table-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .comparison-table th,
+    .comparison-table td {
+      padding: 14px 16px;
+      text-align: left;
+      border: 1px solid rgba(0, 212, 255, 0.15);
+    }
+    .comparison-table th {
+      background: rgba(20, 27, 61, 0.8);
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+    .comparison-table td {
+      color: var(--text-secondary);
+      background: rgba(20, 27, 61, 0.4);
+    }
+    .comparison-table tbody tr:nth-child(even) td {
+      background: rgba(20, 27, 61, 0.5);
+    }
+    .comparison-table th:first-child,
+    .comparison-table td:first-child {
+      color: var(--primary-cyan);
+      font-weight: 500;
+    }
+
+    /* FAQ section for GEO */
+    .faq-section .section-subtitle { margin-bottom: 0; }
+    .faq-list {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+    .faq-item {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+    }
+    .faq-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+    .faq-item dt {
+      font-size: 1.1rem;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .faq-item dd {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin: 0;
+    }
+    footer .last-updated {
+      margin-top: 16px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
     /* How to Use Section */
     .how-to-section {
       background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(123, 97, 255, 0.05) 100%);
@@ -640,6 +754,14 @@
 
     <!-- Main Content -->
     <main role="main">
+      <!-- Summary / TL;DR for GEO -->
+      <section class="content-section summary-tldr" aria-label="Summary">
+        <div class="tldr-box fade-in">
+          <p class="tldr-label">Summary</p>
+          <p class="tldr-text">{{content.summary_tldr}}</p>
+        </div>
+      </section>
+
       <section class="content-section">
         <div class="intro-text fade-in">
           {{content.intro1}}
@@ -648,6 +770,18 @@
         <div class="intro-text fade-in">
           {{content.intro2}}
         </div>
+      </section>
+
+      <!-- Key Facts (By the Numbers) for GEO -->
+      <section class="content-section" aria-labelledby="key-facts-heading">
+        <div class="section-header fade-in">
+          <h2 id="key-facts-heading">{{seo.key_facts_title}}</h2>
+        </div>
+        <ul class="key-facts-list fade-in" aria-label="Key facts about Bluetooth Finder">
+          {{#each seo.key_facts as |fact|}}
+          <li><strong>{{fact.value}}</strong> — {{fact.label}}</li>
+          {{/each}}
+        </ul>
       </section>
 
       <!-- Features Section -->
@@ -709,6 +843,51 @@
         </div>
       </section>
 
+      <!-- Comparison table for GEO -->
+      <section class="content-section comparison-section" id="comparison" aria-labelledby="comparison-heading">
+        <div class="section-header fade-in">
+          <h2 id="comparison-heading">{{seo.comparison_title}}</h2>
+          <p class="section-subtitle">{{seo.comparison_intro}}</p>
+        </div>
+        <div class="comparison-table-wrapper fade-in">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Bluetooth Finder</th>
+                <th scope="col">Find My</th>
+                <th scope="col">Generic scanner</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each seo.comparison_rows as |row|}}
+              <tr>
+                <td>{{row.feature}}</td>
+                <td>{{row.bluetooth_finder}}</td>
+                <td>{{row.find_my}}</td>
+                <td>{{row.generic}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- FAQ Section (visible for GEO + schema) -->
+      <section class="content-section faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="section-header fade-in">
+          <h2 id="faq-heading">{{seo.faq_title}}</h2>
+        </div>
+        <dl class="faq-list fade-in">
+          {{#each seo.faq as |faq|}}
+          <div class="faq-item">
+            <dt><strong>{{faq.question}}</strong></dt>
+            <dd>{{faq.answer}}</dd>
+          </div>
+          {{/each}}
+        </dl>
+      </section>
+
       <!-- Download Section -->
       <section class="download-section">
         <div class="download-content fade-in">
@@ -730,6 +909,7 @@
     <footer role="contentinfo">
       <p>{{footer.copyright}}</p>
       <p><a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
+      <p class="last-updated" aria-label="Content last updated">Last updated: {{seo.last_updated}}</p>
     </footer>
   </div>
 
