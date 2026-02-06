@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "lang": "it",
+    "title": "App Trovare Dispositivi Bluetooth - Localizza AirPods e Gadget Persi | iPhone",
+    "description": "App per trovare dispositivi Bluetooth: localizza AirPods, smartwatch, cuffie e altri dispositivi Bluetooth con guida caldo-freddo e percentuale di vicinanza. Trova i tuoi gadget persi subito.",
+    "keywords": "trovare dispositivi bluetooth, app trovare airpods, localizzatore bluetooth, trovare airpods persi, app bluetooth iPhone, trovare cuffie bluetooth, trovare smartwatch, localizzatore dispositivi bluetooth, cercare airpods, scanner bluetooth, app trovare auricolari",
+    "author": "Bluetooth Finder",
+    "og_url": "https://bluetoothfinderapp.com/it/",
+    "og_title": "App Trovare Dispositivi Bluetooth - Localizza Dispositivi Persi",
+    "og_description": "App per trovare dispositivi Bluetooth: AirPods, smartwatch, cuffie. Guida caldo-freddo e percentuale di vicinanza per ritrovare i gadget.",
+    "og_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "og_image_alt": "Bluetooth Finder App - Trova i Tuoi Dispositivi Persi",
+    "og_image_width": "1140",
+    "og_image_height": "599",
+    "og_locale": "it_IT",
+    "twitter_url": "https://bluetoothfinderapp.com/it/",
+    "twitter_title": "App Trovare Dispositivi Bluetooth - Localizza Dispositivi Persi",
+    "twitter_description": "App per trovare dispositivi Bluetooth: AirPods, smartwatch, cuffie. Guida caldo-freddo e percentuale di vicinanza per ritrovare i gadget persi.",
+    "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "twitter_image_alt": "Bluetooth Finder App - Trova i Tuoi Dispositivi Persi",
+    "twitter_image_width": "1140",
+    "twitter_image_height": "599",
+    "canonical": "https://bluetoothfinderapp.com/it/",
+    "app_store_id": "6756609274",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#0A0E27",
+    "apple_mobile_web_app_status_bar_style": "default",
+    "alternate_languages": [
+      { "lang": "en", "url": "https://bluetoothfinderapp.com/" },
+      { "lang": "it", "url": "https://bluetoothfinderapp.com/it/" }
+    ],
+    "alternate_default": "https://bluetoothfinderapp.com/"
+  },
+  "header": {
+    "application_name": "Bluetooth Finder – App per Trovare Dispositivi Bluetooth",
+    "app_name_suffix": "App per Trovare Dispositivi Bluetooth",
+    "logo_alt": "Logo app Bluetooth Finder - trovare AirPods, smartwatch e cuffie persi",
+    "app_name": "Bluetooth Finder",
+    "title": "Bluetooth Finder",
+    "tagline": "Trova il Tuo Dispositivo Perso Facilmente!",
+    "download_text": "Scarica su App Store",
+    "download_url": "https://apps.apple.com/app/id6756609274",
+    "download_aria_label": "Scarica l'app Bluetooth Finder da App Store",
+    "download_img_alt": "Scarica Bluetooth Finder su App Store"
+  },
+  "screenshots": {
+    "items": [
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Copertina" },
+      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Scansione" },
+      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Tracciamento" },
+      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Info" }
+    ]
+  },
+  "content": {
+    "summary_label": "Riassunto",
+    "summary_tldr": "Bluetooth Finder è un'app iOS che localizza dispositivi Bluetooth persi (AirPods, smartwatch, cuffie e altri) con guida caldo-freddo e percentuale di vicinanza. A differenza di Trova di Apple, funziona con qualsiasi dispositivo Bluetooth acceso senza configurazione. Download gratuito; richiede iOS 17.1 o successivo.",
+    "intro1": "Perdere i dispositivi Bluetooth è frustrante. <strong>Bluetooth Finder</strong> è l'app per trovare dispositivi Bluetooth che ti aiuta a localizzare rapidamente AirPods, smartwatch, cuffie e altri dispositivi Bluetooth nelle vicinanze. Cercarli può sembrare impossibile, soprattutto quando hai fretta. Questa app per trovare dispositivi Bluetooth rende la ricerca semplice, veloce e persino divertente.",
+    "intro2": "Scansiona l'ambiente e traccia i dispositivi Bluetooth vicini con una guida chiara in tempo reale. Basta perdere tempo a cercare i gadget. L'app per trovare dispositivi Bluetooth trasforma la localizzazione in un'esperienza fluida e piacevole."
+  },
+  "features": {
+    "title": "Perché Bluetooth Finder è la Migliore App per Trovare Dispositivi Bluetooth",
+    "subtitle": "Bluetooth Finder è l'app definitiva per trovare dispositivi Bluetooth. Ecco perché si distingue:",
+    "items": [
+      {
+        "number": "1",
+        "title": "Scansiona e Rileva Dispositivi Subito",
+        "description": "La scansione dei dispositivi Bluetooth nelle vicinanze è rapida e semplice. Questa app rileva automaticamente tutti i dispositivi Bluetooth accesi nel raggio. Nessuna configurazione complicata. Solo risultati immediati."
+      },
+      {
+        "number": "2",
+        "title": "Guida Caldo e Freddo",
+        "description": "Il sistema caldo-freddo ti dà feedback mentre ti avvicini: Freddo (lontano). Tiepido (più vicino). Caldo (vicino). Molto caldo (quasi arrivato!). Questa funzione pratica e divertente accelera il ritrovamento dei gadget persi."
+      },
+      {
+        "number": "3",
+        "title": "Indicatore Percentuale di Vicinanza",
+        "description": "Vedi la percentuale di vicinanza al dispositivo per un feedback preciso. Più alta è la percentuale, più sei vicino. Funziona insieme al sistema caldo-freddo per una localizzazione intuitiva ed efficiente."
+      },
+      {
+        "number": "4",
+        "title": "Informazioni Dettagliate sul Dispositivo",
+        "description": "Ottieni produttore, modello e nome per ogni dispositivo Bluetooth vicino. Saprai sempre quale gadget stai tracciando."
+      },
+      {
+        "number": "5",
+        "title": "Funziona Ovunque",
+        "description": "Perfetta per AirPods persi a casa, in ufficio o sui mezzi. Smartwatch o fitness tracker smarriti. Cuffie, auricolari o qualsiasi dispositivo Bluetooth acceso. Ovunque tu sia, questa app per trovare dispositivi Bluetooth ti aiuta a localizzarli rapidamente senza stress."
+      }
+    ]
+  },
+  "how_to": {
+    "title": "Come Usare l'App Bluetooth Finder",
+    "description": "Apri l'app per trovare dispositivi Bluetooth e scansiona i dispositivi nelle vicinanze. Scegli il tuo dispositivo dalla lista. Muoviti seguendo i segnali caldo-freddo e la percentuale di vicinanza fino a trovarlo. Quando l'app indica \"molto caldo\", il dispositivo è lì vicino. Questa app per trovare dispositivi Bluetooth funziona in luoghi affollati o in casa."
+  },
+  "why_love": {
+    "title": "Perché Ti Piacerà Bluetooth Finder",
+    "description": "Risparmia tempo evitando ricerche a caso. L'app per trovare dispositivi Bluetooth ti guida direttamente al dispositivo. Esperienza senza stress con la guida caldo-freddo. Questa app funziona con qualsiasi dispositivo Bluetooth acceso, in interni o esterni. Interfaccia semplice per tutti. Ideale per casa, ufficio, mezzi pubblici o ovunque tu possa perdere dispositivi."
+  },
+  "who_should_use": {
+    "title": "A Chi Serve l'App Bluetooth Finder?",
+    "description": "Perfetta per chi ha AirPods o auricolari e deve trovare AirPods persi in fretta. Utenti di smartwatch che cercano dispositivi smarriti. Chi ha cuffie o speaker e vuole rintracciarli. Professionisti e viaggiatori. Qualunque sia il tuo stile di vita, questa app per trovare dispositivi Bluetooth ti aiuta a non perdere più i tuoi gadget."
+  },
+  "advanced_features": {
+    "title": "Funzioni Avanzate",
+    "description": "Scansione in tempo reale che aggiorna continuamente i dispositivi vicini. La guida caldo-freddo rende la ricerca divertente e pratica. Feedback di vicinanza con percentuale numerica per un tracciamento preciso. Metadati del dispositivo: produttore, modello e nome. Veloce e leggera, con basso consumo di batteria. Questi strumenti rendono Bluetooth Finder l'app più affidabile e intuitiva per trovare dispositivi Bluetooth."
+  },
+  "final_cta": {
+    "title": "Scarica Bluetooth Finder Oggi",
+    "paragraph1": "Basta perdere tempo a cercare gadget. Trovare AirPods, smartwatch, cuffie o qualsiasi dispositivo Bluetooth acceso non è mai stato così facile. A casa, in ufficio o in spazi pubblici, questa app per trovare dispositivi Bluetooth ti dà gli strumenti per recuperare i dispositivi persi. Divertente, efficiente e affidabile. Bluetooth Finder è l'app per trovare dispositivi Bluetooth che non sapevi di aver bisogno. <a href=\"https://apps.apple.com/app/id6756609274\" rel=\"noopener noreferrer\">Scarica ora</a> e togli lo stress di perdere i dispositivi!",
+    "cta_text": "Scarica su App Store",
+    "cta_url": "https://apps.apple.com/app/id6756609274",
+    "cta_aria_label": "Scarica l'app Bluetooth Finder da App Store",
+    "cta_img_alt": "Scarica Bluetooth Finder su App Store"
+  },
+  "footer": {
+    "copyright": "© 2026 Bluetooth Finder. Tutti i diritti riservati.",
+    "privacy_link": "Privacy Policy",
+    "privacy_url": "/privacy.html",
+    "terms_link": "Termini di Servizio",
+    "terms_url": "/terms.html"
+  },
+  "app_info": {
+    "developer": "Vladimir Ivakhnenko",
+    "category": "Produttività",
+    "age_rating": "4+",
+    "file_size": "50.9 MB",
+    "languages": "Italiano",
+    "compatibility": "Richiede iOS 17.1 o successivo",
+    "platform": "iPhone",
+    "copyright": "© c-basso",
+    "in_app_purchases": true,
+    "subscriptions": [
+      {
+        "name": "Bluetooth Device Finder",
+        "description": "Accesso completo a Bluetooth Finder per 1 settimana",
+        "price": "$5.99",
+        "type": "Prova gratuita"
+      },
+      {
+        "name": "Bluetooth Device Finder",
+        "description": "Accesso completo a Bluetooth Finder",
+        "price": "$19.99",
+        "type": "Pagamento unico"
+      }
+    ]
+  },
+  "seo": {
+    "breadcrumb_home": "Home",
+    "last_updated_label": "Ultimo aggiornamento",
+    "last_updated": "Febbraio 2026",
+    "key_facts_title": "Bluetooth Finder in Cifre",
+    "key_facts": [
+      { "value": "50.9 MB", "label": "Dimensione app" },
+      { "value": "iOS 17.1+", "label": "Compatibilità" },
+      { "value": "4+", "label": "Fascia d'età" },
+      { "value": "Gratis", "label": "Download" },
+      { "value": "AirPods, smartwatch, cuffie e altri", "label": "Tipi di dispositivi" }
+    ],
+    "comparison_title": "Bluetooth Finder vs Trova (Find My) vs Scanner Generico",
+    "comparison_intro": "Confronto tra Bluetooth Finder e altri modi per trovare dispositivi persi:",
+    "comparison_col_feature": "Funzione",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Trova (Find My)",
+    "comparison_col_generic": "Scanner generico",
+    "comparison_rows": [
+      {
+        "feature": "Tipi di dispositivo",
+        "bluetooth_finder": "Qualsiasi dispositivo Bluetooth acceso",
+        "find_my": "Solo dispositivi Apple (pre-registrati)",
+        "generic": "Qualsiasi Bluetooth (solo lista)"
+      },
+      {
+        "feature": "Configurazione richiesta",
+        "bluetooth_finder": "Nessuna",
+        "find_my": "Sì (rete Trova)",
+        "generic": "Nessuna"
+      },
+      {
+        "feature": "Guida verso il dispositivo",
+        "bluetooth_finder": "Caldo-freddo + % vicinanza",
+        "find_my": "Direzione e distanza (dispositivi supportati)",
+        "generic": "Solo lista, nessuna guida"
+      },
+      {
+        "feature": "Piattaforma",
+        "bluetooth_finder": "iOS 17.1+",
+        "find_my": "Ecosistema Apple",
+        "generic": "Variabile"
+      }
+    ],
+    "faq_title": "Domande Frequenti sull'App Bluetooth Finder",
+    "faq": [
+      {
+        "question": "Cos'è l'app Bluetooth Finder?",
+        "answer": "Bluetooth Finder è l'app per trovare dispositivi Bluetooth che ti aiuta a localizzare rapidamente AirPods, smartwatch, cuffie e altri dispositivi Bluetooth nelle vicinanze. Usa la guida caldo-freddo e la percentuale di vicinanza per trovare i dispositivi persi in modo semplice, veloce e divertente."
+      },
+      {
+        "question": "Come funziona Bluetooth Finder?",
+        "answer": "L'app scansiona automaticamente i dispositivi Bluetooth vicini e fornisce una guida in tempo reale. Usa un sistema caldo-freddo (Freddo, Tiepido, Caldo, Molto caldo) insieme a un indicatore di percentuale di vicinanza per guidarti al dispositivo. Mostra informazioni dettagliate: produttore, modello e nome del dispositivo."
+      },
+      {
+        "question": "Posso trovare i miei AirPods persi con Bluetooth Finder?",
+        "answer": "Sì. L'app è ideale per trovare AirPods persi. Rileva automaticamente tutti i dispositivi Bluetooth accesi nel raggio, inclusi gli AirPods, e ti guida con il sistema caldo-freddo e la percentuale di vicinanza."
+      },
+      {
+        "question": "Bluetooth Finder funziona con altri dispositivi Bluetooth?",
+        "answer": "Sì. L'app funziona con qualsiasi dispositivo Bluetooth acceso: smartwatch, fitness tracker, cuffie, speaker e altri. Funziona ovunque: a casa, in ufficio o sui mezzi pubblici."
+      },
+      {
+        "question": "Bluetooth Finder è gratis?",
+        "answer": "L'app è gratuita da scaricare dall'App Store. Include acquisti in-app opzionali per funzioni premium."
+      },
+      {
+        "question": "Quali dispositivi sono compatibili con Bluetooth Finder?",
+        "answer": "L'app richiede iOS 17.1 o successivo e funziona su iPhone. È ottimizzata per tutti i modelli di iPhone e consuma poca batteria."
+      },
+      {
+        "question": "Quanto è preciso il tracciamento per vicinanza?",
+        "answer": "L'app fornisce un feedback di vicinanza con una percentuale numerica: più alta è la percentuale, più sei vicino al dispositivo. Insieme alla guida caldo-freddo, localizzare i dispositivi è intuitivo ed efficiente."
+      },
+      {
+        "question": "Posso usare Bluetooth Finder in luoghi affollati?",
+        "answer": "Sì. L'app funziona in luoghi affollati o in casa. Mostra produttore, modello e nome del dispositivo così sai sempre quale gadget stai tracciando, anche con molti dispositivi Bluetooth intorno."
+      },
+      {
+        "question": "Come si confronta Bluetooth Finder con Trova di Apple?",
+        "answer": "Trova di Apple funziona solo con dispositivi Apple e richiede configurazione preventiva. Bluetooth Finder funziona con qualsiasi dispositivo Bluetooth acceso (AirPods, smartwatch, cuffie, speaker) senza pre-associazione. Usa guida caldo-freddo e percentuale di vicinanza. Usa Bluetooth Finder quando devi trovare rapidamente qualsiasi dispositivo Bluetooth, inclusi i non Apple."
+      },
+      {
+        "question": "Bluetooth Finder è una buona alternativa a Trova per dispositivi non Apple?",
+        "answer": "Sì. Bluetooth Finder è un'alternativa solida per trovare dispositivi Bluetooth non nella rete Trova. Rileva qualsiasi dispositivo Bluetooth acceso, mostra produttore e modello e ti guida con caldo-freddo e percentuale di vicinanza. Funziona su iPhone con iOS 17.1 o successivo ed è gratuito da scaricare."
+      }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Bluetooth Finder App",
+        "alternateName": "Bluetooth Finder",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://apps.apple.com/app/id6756609274"
+        },
+        "description": "Bluetooth Finder è l'app per trovare dispositivi Bluetooth su iOS che aiuta a localizzare AirPods, smartwatch, cuffie e altri dispositivi Bluetooth persi. Usa guida caldo-freddo e percentuale di vicinanza. Include scansione in tempo reale, informazioni dettagliate sul dispositivo e funziona a casa, in ufficio o sui mezzi.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://bluetoothfinderapp.com/img/logo.webp",
+          "width": 140,
+          "height": 140,
+          "caption": "Logo app Bluetooth Finder"
+        },
+        "screenshot": {
+          "@type": "ImageObject",
+          "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
+          "width": 390,
+          "height": 844
+        },
+        "url": "https://bluetoothfinderapp.com/it/",
+        "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "trovare dispositivi bluetooth, app trovare airpods, localizzatore bluetooth, trovare airpods persi, app bluetooth iPhone, trovare cuffie bluetooth, trovare smartwatch, localizzatore dispositivi bluetooth, scanner bluetooth, app trovare auricolari",
+        "inLanguage": "it",
+        "datePublished": "2024-12-31",
+        "dateModified": "2025-01-09",
+        "softwareVersion": "1.1",
+        "fileSize": "50.9MB",
+        "softwareRequirements": "iOS 17.1 o successivo",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/it/",
+        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
+        "description": "Bluetooth Finder App - App per trovare dispositivi Bluetooth: localizza AirPods, smartwatch, cuffie e altri dispositivi. Guida caldo-freddo e percentuale di vicinanza."
+      },
+      "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/it/",
+        "description": "Bluetooth Finder App - App per trovare dispositivi Bluetooth e localizzare AirPods, smartwatch, cuffie e altri dispositivi con guida caldo-freddo e percentuale di vicinanza.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://bluetoothfinderapp.com/it/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Come usare Bluetooth Finder per trovare dispositivi persi",
+        "description": "Guida all'uso dell'app per trovare dispositivi Bluetooth e localizzare AirPods, smartwatch, cuffie e altri dispositivi. Passo dopo passo con guida caldo-freddo e percentuale di vicinanza.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Scarica Bluetooth Finder",
+            "text": "Scarica l'app dall'App Store sul tuo iPhone. Richiede iOS 17.1 o successivo e il download è gratuito.",
+            "url": "https://apps.apple.com/app/id6756609274"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Apri l'app e scansiona",
+            "text": "Apri l'app e consenti l'accesso al Bluetooth. Scansionerà automaticamente i dispositivi Bluetooth nelle vicinanze."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Scegli il tuo dispositivo",
+            "text": "Seleziona il dispositivo perso dalla lista. L'app mostra produttore, modello e nome per identificare il dispositivo corretto."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Segui la guida caldo-freddo",
+            "text": "Muoviti seguendo l'indicatore: Freddo (lontano), Tiepido (più vicino), Caldo (vicino) o Molto caldo (quasi arrivato). Segui i segnali per avvicinarti."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Controlla la percentuale di vicinanza",
+            "text": "Osserva l'indicatore di percentuale. Più alta è la percentuale, più sei vicino. Usalo insieme al sistema caldo-freddo per un tracciamento preciso."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 6,
+            "name": "Trova il tuo dispositivo",
+            "text": "Quando l'app indica \"Molto caldo\", il dispositivo è lì vicino. La percentuale sarà al massimo. Cerca in quell'area per localizzare il dispositivo Bluetooth."
+          }
+        ]
+      },
+      "faqpage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Cos'è l'app Bluetooth Finder?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bluetooth Finder è l'app per trovare dispositivi Bluetooth che aiuta a localizzare rapidamente AirPods, smartwatch, cuffie e altri dispositivi Bluetooth. Usa guida caldo-freddo e percentuale di vicinanza per trovare i dispositivi persi in modo semplice, veloce e divertente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Come funziona Bluetooth Finder?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'app scansiona automaticamente i dispositivi Bluetooth vicini e fornisce una guida in tempo reale. Usa un sistema caldo-freddo (Freddo, Tiepido, Caldo, Molto caldo) con un indicatore di percentuale di vicinanza e mostra produttore, modello e nome del dispositivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso trovare i miei AirPods persi con Bluetooth Finder?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. L'app è ideale per trovare AirPods persi. Rileva tutti i dispositivi Bluetooth accesi nel raggio, inclusi gli AirPods, e ti guida con caldo-freddo e percentuale di vicinanza."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bluetooth Finder funziona con altri dispositivi Bluetooth?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. L'app funziona con qualsiasi dispositivo Bluetooth acceso: smartwatch, fitness tracker, cuffie, speaker e altri. Funziona a casa, in ufficio o sui mezzi pubblici."
+            }
+          }
+        ]
+      },
+      "breadcrumb_list": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bluetoothfinderapp.com/it/" }
+        ]
+      }
+    }
+  }
+}
