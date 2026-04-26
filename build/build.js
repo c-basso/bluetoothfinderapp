@@ -40,7 +40,36 @@ const {
             }
             data.meta.version = buildTimestamp;
             data.meta.alternate_default = SITE_URL;
-            data.meta.alternate_languages = URLS;
+            // Template uses {{lang.lang}} + {{lang.url}}; constants use { hreflang, url }
+            data.meta.alternate_languages = URLS.map(({ hreflang, url }) => ({ lang: hreflang, url }));
+
+            /** BCP 47 <html lang> (path codes jp/cn are not valid language tags). */
+            const HTML_LANG_BY_CODE = {
+                cn: 'zh-CN',
+                jp: 'ja',
+            };
+            data.meta.html_lang = data.meta.html_lang || HTML_LANG_BY_CODE[lang] || data.meta.lang;
+
+            if (!data.meta.og_logo) {
+                data.meta.og_logo = `${SITE_URL}img/logo.webp`;
+            }
+            if (!data.meta.og_site_name) {
+                data.meta.og_site_name = data.header?.app_name || 'Bluetooth Finder';
+            }
+            if (!data.meta.og_locale) {
+                const LOCALE_BY_LANG = {
+                    en: 'en_US',
+                    ru: 'ru_RU',
+                    es: 'es_ES',
+                    fr: 'fr_FR',
+                    de: 'de_DE',
+                    it: 'it_IT',
+                    pt: 'pt_PT',
+                    cn: 'zh_CN',
+                    jp: 'ja_JP',
+                };
+                data.meta.og_locale = LOCALE_BY_LANG[lang] || 'en_US';
+            }
             
             // Replace {year} placeholder in footer.copyright with current year
             const currentYear = new Date().getFullYear();
@@ -75,13 +104,11 @@ const {
             if (data.seo.structured_data.howto && typeof data.seo.structured_data.howto === 'object') {
                 if (Array.isArray(data.how_it_works?.steps)) {
                     data.seo.structured_data.howto.step = data.how_it_works.steps.map((s) => ({
-                        "@type": "HowToStep",
-                        "name": stripHtml(s?.title),
-                        "text": stripHtml(s?.description)
+                        '@type': 'HowToStep',
+                        name: stripHtml(s?.title),
+                        text: stripHtml(s?.description),
                     }));
-                }
-                // Ensure step is always an array
-                if (!data.seo.structured_data.howto.step) {
+                } else if (!data.seo.structured_data.howto.step) {
                     data.seo.structured_data.howto.step = [];
                 }
             }
@@ -130,6 +157,17 @@ const {
                 }
                 
                 return value;
+            }
+            
+            /** Escape string for HTML attribute values (content="", href="", etc.). */
+            function escapeHtmlAttr(str) {
+                if (typeof str !== 'string') return str;
+                return str
+                    .replace(/&/g, '&amp;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
             }
             
             // Function to get value from nested object path, checking context variables first
@@ -185,12 +223,14 @@ const {
                         .map(s => s.trim())
                         .filter(Boolean);
 
-                    let value = getValue(context, pathExpression);
+                    let value = getValueFromContext(context, pathExpression);
                     
                     if (value !== undefined) {
                         for (const filter of filters) {
                             if (filter === 'json') {
                                 value = JSON.stringify(value);
+                            } else if (filter === 'html_attr') {
+                                value = escapeHtmlAttr(String(value));
                             } else {
                                 console.warn(`Warning: Unknown filter "${filter}" in ${rawKey}`);
                             }
@@ -283,7 +323,7 @@ const {
             // Write the result to en.html
             fs.writeFileSync(outputPath, result, 'utf8');
             
-            console.log(`✅ Successfully built ${lang}.html from template and ${lang}.json`);
+            console.log(`✅ Successfully built index.html from template and ${lang}.json`);
             console.log(`📁 Output saved to: ${outputPath}`);
             
         } catch (error) {
