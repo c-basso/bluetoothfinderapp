@@ -21,16 +21,10 @@
     "twitter_image_width": "1140",
     "twitter_image_height": "599",
     "canonical": "https://bluetoothfinderapp.com/it/",
-    "app_store_id": "6756609274",
     "og_type": "website",
     "twitter_card": "summary_large_image",
     "theme_color": "#0A0E27",
-    "apple_mobile_web_app_status_bar_style": "default",
-    "alternate_languages": [
-      { "lang": "en", "url": "https://bluetoothfinderapp.com/" },
-      { "lang": "it", "url": "https://bluetoothfinderapp.com/it/" }
-    ],
-    "alternate_default": "https://bluetoothfinderapp.com/"
+    "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
     "application_name": "Bluetooth Finder – App per Trovare Dispositivi Bluetooth",
@@ -40,16 +34,27 @@
     "title": "Bluetooth Finder",
     "tagline": "Trova il Tuo Dispositivo Perso Facilmente!",
     "download_text": "Scarica su App Store",
-    "download_url": "https://apps.apple.com/app/id6756609274",
     "download_aria_label": "Scarica l'app Bluetooth Finder da App Store",
     "download_img_alt": "Scarica Bluetooth Finder su App Store"
   },
   "screenshots": {
     "items": [
-      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Copertina" },
-      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Scansione" },
-      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Tracciamento" },
-      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder App - Schermata Info" }
+      {
+        "src": "/img/1_cover_12_framed.webp",
+        "alt": "Bluetooth Finder App - Schermata Copertina"
+      },
+      {
+        "src": "/img/2_scan_12_framed.webp",
+        "alt": "Bluetooth Finder App - Schermata Scansione"
+      },
+      {
+        "src": "/img/3_track_12_framed.webp",
+        "alt": "Bluetooth Finder App - Schermata Tracciamento"
+      },
+      {
+        "src": "/img/4_info_12_framed.webp",
+        "alt": "Bluetooth Finder App - Schermata Info"
+      }
     ]
   },
   "content": {
@@ -107,9 +112,8 @@
   },
   "final_cta": {
     "title": "Scarica Bluetooth Finder Oggi",
-    "paragraph1": "Basta perdere tempo a cercare gadget. Trovare AirPods, smartwatch, cuffie o qualsiasi dispositivo Bluetooth acceso non è mai stato così facile. A casa, in ufficio o in spazi pubblici, questa app per trovare dispositivi Bluetooth ti dà gli strumenti per recuperare i dispositivi persi. Divertente, efficiente e affidabile. Bluetooth Finder è l'app per trovare dispositivi Bluetooth che non sapevi di aver bisogno. <a href=\"https://apps.apple.com/app/id6756609274\" rel=\"noopener noreferrer\">Scarica ora</a> e togli lo stress di perdere i dispositivi!",
+    "paragraph1": "Basta perdere tempo a cercare gadget. Trovare AirPods, smartwatch, cuffie o qualsiasi dispositivo Bluetooth acceso non è mai stato così facile. A casa, in ufficio o in spazi pubblici, questa app per trovare dispositivi Bluetooth ti dà gli strumenti per recuperare i dispositivi persi. Divertente, efficiente e affidabile. Bluetooth Finder è l'app per trovare dispositivi Bluetooth che non sapevi di aver bisogno. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Scarica ora</a> e togli lo stress di perdere i dispositivi!",
     "cta_text": "Scarica su App Store",
-    "cta_url": "https://apps.apple.com/app/id6756609274",
     "cta_aria_label": "Scarica l'app Bluetooth Finder da App Store",
     "cta_img_alt": "Scarica Bluetooth Finder su App Store"
   },
@@ -124,37 +128,38 @@
     "developer": "Vladimir Ivakhnenko",
     "category": "Produttività",
     "age_rating": "4+",
-    "file_size": "50.9 MB",
+    "file_size": "25.3 MB",
     "languages": "Italiano",
     "compatibility": "Richiede iOS 17.1 o successivo",
     "platform": "iPhone",
     "copyright": "© c-basso",
-    "in_app_purchases": true,
-    "subscriptions": [
-      {
-        "name": "Bluetooth Device Finder",
-        "description": "Accesso completo a Bluetooth Finder per 1 settimana",
-        "price": "$5.99",
-        "type": "Prova gratuita"
-      },
-      {
-        "name": "Bluetooth Device Finder",
-        "description": "Accesso completo a Bluetooth Finder",
-        "price": "$19.99",
-        "type": "Pagamento unico"
-      }
-    ]
+    "in_app_purchases": true
   },
   "seo": {
     "breadcrumb_home": "Home",
     "last_updated_label": "Ultimo aggiornamento",
     "key_facts_title": "Bluetooth Finder in Cifre",
     "key_facts": [
-      { "value": "50.9 MB", "label": "Dimensione app" },
-      { "value": "iOS 17.1+", "label": "Compatibilità" },
-      { "value": "4+", "label": "Fascia d'età" },
-      { "value": "Gratis", "label": "Download" },
-      { "value": "AirPods, smartwatch, cuffie e altri", "label": "Tipi di dispositivi" }
+      {
+        "value": "25.3 MB",
+        "label": "Dimensione app"
+      },
+      {
+        "value": "iOS 17.1+",
+        "label": "Compatibilità"
+      },
+      {
+        "value": "4+",
+        "label": "Fascia d'età"
+      },
+      {
+        "value": "Gratis",
+        "label": "Download"
+      },
+      {
+        "value": "AirPods, smartwatch, cuffie e altri",
+        "label": "Tipi di dispositivi"
+      }
     ],
     "comparison_title": "Bluetooth Finder vs Trova (Find My) vs Scanner Generico",
     "comparison_intro": "Confronto tra Bluetooth Finder e altri modi per trovare dispositivi persi:",
@@ -243,8 +248,7 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://apps.apple.com/app/id6756609274"
+          "availability": "https://schema.org/InStock"
         },
         "description": "Bluetooth Finder è l'app per trovare dispositivi Bluetooth su iOS che aiuta a localizzare AirPods, smartwatch, cuffie e altri dispositivi Bluetooth persi. Usa guida caldo-freddo e percentuale di vicinanza. Include scansione in tempo reale, informazioni dettagliate sul dispositivo e funziona a casa, in ufficio o sui mezzi.",
         "image": {
@@ -261,16 +265,26 @@
           "height": 844
         },
         "url": "https://bluetoothfinderapp.com/it/",
-        "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
-        "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "author": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
         "keywords": "trovare dispositivi bluetooth, app trovare airpods, localizzatore bluetooth, trovare airpods persi, app bluetooth iPhone, trovare cuffie bluetooth, trovare smartwatch, localizzatore dispositivi bluetooth, scanner bluetooth, app trovare auricolari",
         "inLanguage": "it",
         "datePublished": "2024-12-31",
-        "dateModified": "2025-01-09",
-        "softwareVersion": "1.1",
-        "fileSize": "50.9MB",
+        "dateModified": "2026-03-09",
+        "softwareVersion": "1.3",
+        "fileSize": "25.3MB",
         "softwareRequirements": "iOS 17.1 o successivo",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "100"
+        }
       },
       "organization": {
         "@context": "https://schema.org",
@@ -302,8 +316,7 @@
             "@type": "HowToStep",
             "position": 1,
             "name": "Scarica Bluetooth Finder",
-            "text": "Scarica l'app dall'App Store sul tuo iPhone. Richiede iOS 17.1 o successivo e il download è gratuito.",
-            "url": "https://apps.apple.com/app/id6756609274"
+            "text": "Scarica l'app dall'App Store sul tuo iPhone. Richiede iOS 17.1 o successivo e il download è gratuito."
           },
           {
             "@type": "HowToStep",
@@ -379,7 +392,12 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bluetoothfinderapp.com/it/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://bluetoothfinderapp.com/it/"
+          }
         ]
       }
     }

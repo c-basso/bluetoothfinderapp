@@ -21,18 +21,10 @@
     "twitter_image_width": "1140",
     "twitter_image_height": "599",
     "canonical": "https://bluetoothfinderapp.com/",
-    "app_store_id": "6756609274",
     "og_type": "website",
     "twitter_card": "summary_large_image",
     "theme_color": "#0A0E27",
-    "apple_mobile_web_app_status_bar_style": "default",
-    "alternate_languages": [
-      {
-        "lang": "en",
-        "url": "https://bluetoothfinderapp.com/"
-      }
-    ],
-    "alternate_default": "https://bluetoothfinderapp.com/"
+    "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
     "application_name": "Bluetooth Finder – Bluetooth Device Finder",
@@ -42,7 +34,6 @@
     "title": "Bluetooth Finder",
     "tagline": "Find Your Lost Device Easily!",
     "download_text": "Download on App Store",
-    "download_url": "https://apps.apple.com/app/id6756609274",
     "download_aria_label": "Download Bluetooth Finder app from the App Store",
     "download_img_alt": "Download Bluetooth Finder on the App Store"
   },
@@ -66,7 +57,7 @@
       }
     ]
   },
-    "content": {
+  "content": {
     "summary_label": "Summary",
     "summary_tldr": "Bluetooth Finder is an iOS app that locates lost Bluetooth devices—AirPods, smartwatches, headphones, and more—using hot & cold guidance and a proximity percentage. Unlike Apple Find My, it works with any powered-on Bluetooth device without prior setup. Free to download; requires iOS 17.1 or later.",
     "intro1": "Losing your Bluetooth devices can be frustrating. <strong>Bluetooth Finder</strong> is the bluetooth finder app that helps you quickly locate AirPods, smartwatches, headphones, and other Bluetooth-enabled gadgets nearby. Searching for them can feel impossible—especially when you're in a hurry. This bluetooth device finder makes finding nearby Bluetooth devices simple, fast, and even fun!",
@@ -121,9 +112,8 @@
   },
   "final_cta": {
     "title": "Download Bluetooth Finder App Today",
-    "paragraph1": "Stop wasting time searching for lost gadgets. Finding AirPods, smartwatches, headphones, or any powered-on Bluetooth device has never been easier. Whether at home, office, or public spaces, this bluetooth finder app gives you the tools to quickly recover lost devices. Fun, efficient, and reliable. Bluetooth Finder is the bluetooth device finder you didn't know you needed. <a href=\"https://apps.apple.com/app/id6756609274\" rel=\"noopener noreferrer\">Download now</a> and take the stress out of losing your devices!",
+    "paragraph1": "Stop wasting time searching for lost gadgets. Finding AirPods, smartwatches, headphones, or any powered-on Bluetooth device has never been easier. Whether at home, office, or public spaces, this bluetooth finder app gives you the tools to quickly recover lost devices. Fun, efficient, and reliable. Bluetooth Finder is the bluetooth device finder you didn't know you needed. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Download now</a> and take the stress out of losing your devices!",
     "cta_text": "Download on App Store",
-    "cta_url": "https://apps.apple.com/app/id6756609274",
     "cta_aria_label": "Download Bluetooth Finder app from the App Store",
     "cta_img_alt": "Download Bluetooth Finder on the App Store"
   },
@@ -138,37 +128,38 @@
     "developer": "Vladimir Ivakhnenko",
     "category": "Productivity",
     "age_rating": "4+",
-    "file_size": "50.9 MB",
+    "file_size": "25.3 MB",
     "languages": "English",
     "compatibility": "Requires iOS 17.1 or later",
     "platform": "iPhone",
     "copyright": "© c-basso",
-    "in_app_purchases": true,
-    "subscriptions": [
-      {
-        "name": "Bluetooth Device Finder",
-        "description": "Full Access to Bluetooth Finder for 1 week",
-        "price": "$5.99",
-        "type": "Free Trial"
-      },
-      {
-        "name": "Bluetooth Device Finder",
-        "description": "Full Access to Bluetooth Finder",
-        "price": "$19.99",
-        "type": "One-time"
-      }
-    ]
+    "in_app_purchases": true
   },
   "seo": {
     "breadcrumb_home": "Home",
     "last_updated_label": "Last updated",
     "key_facts_title": "Bluetooth Finder by the Numbers",
     "key_facts": [
-      { "value": "50.9 MB", "label": "App size" },
-      { "value": "iOS 17.1+", "label": "Compatibility" },
-      { "value": "4+", "label": "Age rating" },
-      { "value": "Free", "label": "Download" },
-      { "value": "AirPods, smartwatches, headphones & more", "label": "Device types" }
+      {
+        "value": "25.3 MB",
+        "label": "App size"
+      },
+      {
+        "value": "iOS 17.1+",
+        "label": "Compatibility"
+      },
+      {
+        "value": "4+",
+        "label": "Age rating"
+      },
+      {
+        "value": "Free",
+        "label": "Download"
+      },
+      {
+        "value": "AirPods, smartwatches, headphones & more",
+        "label": "Device types"
+      }
     ],
     "comparison_title": "Bluetooth Finder vs Find My vs Generic Scanner",
     "comparison_intro": "How Bluetooth Finder compares to other ways of finding lost devices:",
@@ -177,10 +168,30 @@
     "comparison_col_find_my": "Find My",
     "comparison_col_generic": "Generic scanner",
     "comparison_rows": [
-      { "feature": "Device types", "bluetooth_finder": "Any powered-on Bluetooth device", "find_my": "Apple devices only (pre-registered)", "generic": "Any Bluetooth device (list only)" },
-      { "feature": "Setup required", "bluetooth_finder": "None", "find_my": "Yes (Find My network)", "generic": "None" },
-      { "feature": "Guidance to device", "bluetooth_finder": "Hot & cold + proximity %", "find_my": "Direction and distance (supported devices)", "generic": "List only, no guidance" },
-      { "feature": "Platform", "bluetooth_finder": "iOS 17.1+", "find_my": "Apple ecosystem", "generic": "Varies" }
+      {
+        "feature": "Device types",
+        "bluetooth_finder": "Any powered-on Bluetooth device",
+        "find_my": "Apple devices only (pre-registered)",
+        "generic": "Any Bluetooth device (list only)"
+      },
+      {
+        "feature": "Setup required",
+        "bluetooth_finder": "None",
+        "find_my": "Yes (Find My network)",
+        "generic": "None"
+      },
+      {
+        "feature": "Guidance to device",
+        "bluetooth_finder": "Hot & cold + proximity %",
+        "find_my": "Direction and distance (supported devices)",
+        "generic": "List only, no guidance"
+      },
+      {
+        "feature": "Platform",
+        "bluetooth_finder": "iOS 17.1+",
+        "find_my": "Apple ecosystem",
+        "generic": "Varies"
+      }
     ],
     "faq_title": "Frequently Asked Questions About Bluetooth Finder App",
     "faq": [
@@ -237,8 +248,7 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://apps.apple.com/app/id6756609274"
+          "availability": "https://schema.org/InStock"
         },
         "description": "Bluetooth Finder is the best bluetooth finder app for iOS that helps users quickly locate lost AirPods, smartwatches, headphones, and other Bluetooth-enabled devices. This bluetooth device finder uses hot & cold guidance system and proximity percentage tracking to make finding lost gadgets simple, fast, and fun. Features include real-time device scanning, detailed device information, and works everywhere - at home, office, or on public transport.",
         "image": {
@@ -266,9 +276,9 @@
         "keywords": "bluetooth finder app, bluetooth device finder, bluetooth tracker, find airpods, locate bluetooth devices, bluetooth locator app, find lost airpods, bluetooth device tracker, find headphones, smartwatch finder, bluetooth scanner",
         "inLanguage": "en",
         "datePublished": "2024-12-31",
-        "dateModified": "2025-01-09",
-        "softwareVersion": "1.1",
-        "fileSize": "50.9MB",
+        "dateModified": "2026-03-09",
+        "softwareVersion": "1.3",
+        "fileSize": "25.3MB",
         "softwareRequirements": "iOS 17.1 or later",
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -306,8 +316,7 @@
             "@type": "HowToStep",
             "position": 1,
             "name": "Download Bluetooth Finder App",
-            "text": "Download the bluetooth finder app from the App Store on your iPhone. This bluetooth device finder requires iOS 17.1 or later and is free to download.",
-            "url": "https://apps.apple.com/app/id6756609274"
+            "text": "Download the bluetooth finder app from the App Store on your iPhone. This bluetooth device finder requires iOS 17.1 or later and is free to download."
           },
           {
             "@type": "HowToStep",

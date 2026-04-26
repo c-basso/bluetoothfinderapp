@@ -41,7 +41,7 @@
 
 ### 2. Quotable Facts (3/10)
 
-- **Strengths:** Some concrete details exist in `app_info` and schema (e.g. 50.9 MB, iOS 17.1, pricing).
+- **Strengths:** Some concrete details exist in `app_info` and schema (e.g. 25.3 MB, iOS 17.1, free + optional IAP, no list prices on site).
 - **Gaps:** No "by the numbers" or key-facts section in the main content; no specific statistics (e.g. "finds devices within X m", "supports X device types") that LLMs can quote. Numbers are not in standalone, easily extractable sentences.
 
 ### 3. FAQ Coverage (6/10)

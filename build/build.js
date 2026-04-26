@@ -6,12 +6,19 @@ const {
     SITE_URL,
     DEFAULT_LANGUAGE,
     LANGUAGES,
+    APP_ID,
+    APP_STORE_URL,
 } = require('./constants');
 
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
 const URLS_PATH = path.join(ROOT_DIR, 'urls.txt');
 const LLMS_PATH = path.join(ROOT_DIR, 'llms.txt');
+const SITE_CSS_PATH = path.join(ROOT_DIR, 'site.css');
+const WEBMANIFEST_PATH = path.join(ROOT_DIR, 'site.webmanifest');
+
+/** Placeholder in `*.json` for App Store product URL; replaced in `applyAppStoreFromConstants`. */
+const APP_STORE_PLACEHOLDER = '__APP_STORE_URL__';
 
 const BUILD_TIMESTAMP = Date.now();
 const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
@@ -58,6 +65,30 @@ const OG_LOCALE_BY_LANGUAGE = {
 
 const CANONICAL_URL_BY_LANGUAGE = new Map(URLS.map(({ code, url }) => [code, url]));
 
+/** Styles for `/site.css` live at repo root; template links with `?v={{meta.version}}`. */
+function assertSiteCssExists() {
+    if (!fs.existsSync(SITE_CSS_PATH)) {
+        throw new Error(`Missing ${SITE_CSS_PATH} (create or restore site.css next to index.html)`);
+    }
+    console.log(`✅ site.css present: ${SITE_CSS_PATH}`);
+    console.log();
+}
+
+function syncWebManifest() {
+    if (!fs.existsSync(WEBMANIFEST_PATH)) {
+        return;
+    }
+    const m = JSON.parse(fs.readFileSync(WEBMANIFEST_PATH, 'utf8'));
+    const rel = Array.isArray(m.related_applications) ? m.related_applications[0] : null;
+    if (rel) {
+        rel.url = APP_STORE_URL;
+        rel.id = String(APP_ID);
+    }
+    fs.writeFileSync(WEBMANIFEST_PATH, `${JSON.stringify(m, null, 2)}\n`, 'utf8');
+    console.log(`✅ site.webmanifest → App Store id ${APP_ID}`);
+    console.log();
+}
+
 function writeUrlsFile() {
     fs.writeFileSync(URLS_PATH, URLS.map(({ url }) => url).join('\n'), 'utf8');
     console.log('✅ Successfully built urls.txt file');
@@ -83,7 +114,6 @@ function writeLlmsFile(defaultLocaleData) {
         ? `${nFeatures} in-page feature highlights (scan, hot & cold, proximity %, device details, and more)`
         : 'Real-time scan, hot & cold guidance, proximity %, and device information';
 
-    const appStoreId = defaultLocaleData.meta?.app_store_id || '6756609274';
     const version = defaultLocaleData.seo?.structured_data?.software_application?.softwareVersion;
 
     const lines = [
@@ -98,7 +128,7 @@ function writeLlmsFile(defaultLocaleData) {
         '',
         '## Key facts',
         `- Product type: iOS app to find lost or nearby Bluetooth devices (e.g. AirPods, smartwatches, headphones)`,
-        `- App Store: https://apps.apple.com/app/id${appStoreId}`,
+        `- App Store: ${APP_STORE_URL} (id ${APP_ID})`,
         `- ${featureLine}`,
         `- OS: ${defaultLocaleData.app_info?.compatibility || 'Requires iOS 17.1 or later'}`,
         `- App size: ${defaultLocaleData.app_info?.file_size || '—'}`,
@@ -226,6 +256,40 @@ function ensureSeoShape(data) {
     data.seo.structured_data = data.seo.structured_data || {};
 }
 
+/**
+ * `meta.app_store_id`, `header.download_url`, `final_cta.cta_url` and
+ * any `__APP_STORE_URL__` in strings come from constants, not from JSON.
+ */
+function applyAppStoreFromConstants(data) {
+    data.meta = data.meta || {};
+    data.meta.app_store_id = String(APP_ID);
+    data.header = data.header || {};
+    data.header.download_url = APP_STORE_URL;
+    if (data.final_cta) {
+        data.final_cta.cta_url = APP_STORE_URL;
+    }
+
+    function visit(node) {
+        if (Array.isArray(node)) {
+            for (const el of node) {
+                visit(el);
+            }
+            return;
+        }
+        if (node && typeof node === 'object') {
+            for (const k of Object.keys(node)) {
+                const v = node[k];
+                if (typeof v === 'string' && v.includes(APP_STORE_PLACEHOLDER)) {
+                    node[k] = v.split(APP_STORE_PLACEHOLDER).join(APP_STORE_URL);
+                } else {
+                    visit(v);
+                }
+            }
+        }
+    }
+    visit(data);
+}
+
 /** Visible footer date; derived from build time (no manual edits in JSON). */
 function localeTagForIntl(lang) {
     const og = OG_LOCALE_BY_LANGUAGE[lang];
@@ -269,6 +333,9 @@ function buildSoftwareApplicationStructuredData(data) {
     }
     app.url = data.meta?.canonical;
     app.downloadUrl = data.header?.download_url;
+    if (app.offers && typeof app.offers === 'object') {
+        app.offers.url = APP_STORE_URL;
+    }
 }
 
 function buildWebsiteStructuredData(data) {
@@ -317,6 +384,10 @@ function buildHowToStructuredData(data) {
     }
     if (!Array.isArray(data.seo.structured_data.howto.step)) {
         data.seo.structured_data.howto.step = [];
+    }
+    const howtoSteps = data.seo.structured_data.howto.step;
+    if (Array.isArray(howtoSteps) && howtoSteps[0] && typeof howtoSteps[0] === 'object') {
+        howtoSteps[0].url = APP_STORE_URL;
     }
 }
 
@@ -368,6 +439,7 @@ function preparePageData(data, lang) {
     normalizeMeta(data, lang);
     normalizeFooter(data);
     ensureSeoShape(data);
+    applyAppStoreFromConstants(data);
     setSeoLastUpdatedFromBuild(data, lang);
     buildOrganizationStructuredData(data);
     buildSoftwareApplicationStructuredData(data);
@@ -547,6 +619,8 @@ function main() {
         );
         process.exit(1);
     }
+    assertSiteCssExists();
+    syncWebManifest();
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
     const defaultData = preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
     writeUrlsFile();

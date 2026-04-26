@@ -30,7 +30,10 @@
       "purpose": "any"
     }
   ],
-  "categories": ["utilities", "productivity"],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
   "screenshots": [
     {
       "src": "/img/1_cover_12_framed.webp",

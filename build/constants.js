@@ -1,6 +1,13 @@
 const SITE_URL = "https://bluetoothfinderapp.com/";
 const DEFAULT_LANGUAGE = 'en';
 
+/**
+ * App Store: https://apps.apple.com/us/app/bluetooth-finder/id6756609274
+ * (short id-URL is locale-agnostic and still valid.)
+ */
+const APP_ID = '6756609274';
+const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
+
 const LANGUAGES = [
     DEFAULT_LANGUAGE,
     'ru',
@@ -60,5 +67,7 @@ module.exports = {
     EXPECTED_JSON_LD_TYPES,
     INDEX_NOW_KEY,
     INDEX_NOW_ENGINES,
-    ADDITIONAL_URLS
+    ADDITIONAL_URLS,
+    APP_ID,
+    APP_STORE_URL,
 };
