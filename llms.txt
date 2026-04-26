@@ -12,7 +12,7 @@
 - App size: 25.3 MB
 - Age rating: 4+
 - Software version: 1.3
-- Supported page languages: 7
+- Supported page languages: 16
 - Last build date: 2026-04-26
 ## How it works
 1. Install from the App Store and allow Bluetooth when prompted.
@@ -20,12 +20,21 @@
 3. Move using hot & cold cues and the proximity percentage until you are next to the device.
 ## Language pages
 - [en](https://bluetoothfinderapp.com/)
-- [ru](https://bluetoothfinderapp.com/ru/)
 - [es](https://bluetoothfinderapp.com/es/)
-- [fr](https://bluetoothfinderapp.com/fr/)
 - [de](https://bluetoothfinderapp.com/de/)
+- [fr](https://bluetoothfinderapp.com/fr/)
 - [it](https://bluetoothfinderapp.com/it/)
+- [ja](https://bluetoothfinderapp.com/jp/)
+- [ko](https://bluetoothfinderapp.com/ko/)
+- [nl](https://bluetoothfinderapp.com/nl/)
+- [pl](https://bluetoothfinderapp.com/pl/)
 - [pt](https://bluetoothfinderapp.com/pt/)
+- [ro](https://bluetoothfinderapp.com/ro/)
+- [ru](https://bluetoothfinderapp.com/ru/)
+- [th](https://bluetoothfinderapp.com/th/)
+- [tr](https://bluetoothfinderapp.com/tr/)
+- [uk](https://bluetoothfinderapp.com/uk/)
+- [vi](https://bluetoothfinderapp.com/vi/)
 ## Contact and policies
 - Website: https://bluetoothfinderapp.com/
 - Developer: Vladimir Ivakhnenko

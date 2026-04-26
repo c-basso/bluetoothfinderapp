@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "lang": "th",
+    "title": "Bluetooth Finder - แอปค้นหาอุปกรณ์ Bluetooth ที่หาย | AirPods นาฬิกา หูฟัง",
+    "description": "แอป Bluetooth Finder สำหรับ iPhone: สแกน AirPods, สมาร์ตวอตช์, หูฟัง และอุปกรณ์ Bluetooth ที่เปิดใช้งานใกล้ ๆ แนะนำแบบร้อน–เย็น บวกเปอร์เซ็นต์ระยะใกล้เคียง ต้องใช้ iOS 17.1 ขึ้นไป ดาวน์โหลดฟรีจาก App Store โดย Vladimir Ivakhnenko",
+    "keywords": "หา bluetooth, แอปหา airpods, แอปค้นหาหูฟัง, bluetooth scanner, ตัวติดตาม bluetooth, iPhone, อุปกรณ์ใกล้ ๆ, หาเครื่องสูญหาย",
+    "author": "Bluetooth Finder",
+    "og_url": "https://bluetoothfinderapp.com/th/",
+    "og_title": "Bluetooth Finder - ค้นหาอุปกรณ์ Bluetooth ใกล้คุณ",
+    "og_description": "สแกน ร้อน-เย็น เปอร์เซ็นต์: หา AirPods/นาฬิกา/หูฟัง BT ใกล้ตัวบน iPhone, iOS 17.1+, App Store ฟรี(อาจ IAP), หน้าไทย 2026 SEO/GEO",
+    "og_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "og_image_alt": "Bluetooth Finder - ค้นหาอุปกรณ์",
+    "og_image_width": "1140",
+    "og_image_height": "599",
+    "og_locale": "th_TH",
+    "twitter_url": "https://bluetoothfinderapp.com/th/",
+    "twitter_title": "Bluetooth Finder - หาอุปกรณ์ Bluetooth ที่หาย",
+    "twitter_description": "AirPods นาฬิกา ลำโพง แอป iOS แนะนำตามสัญญาณ",
+    "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_width": "1140",
+    "twitter_image_height": "599",
+    "canonical": "https://bluetoothfinderapp.com/th/",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#0A0E27",
+    "apple_mobile_web_app_status_bar_style": "default"
+  },
+  "header": {
+    "application_name": "Bluetooth Finder – ค้นหาอุปกรณ์ Bluetooth",
+    "app_name_suffix": "ตัวค้นหา Bluetooth",
+    "logo_alt": "โลโก้ Bluetooth Finder - AirPods นาฬิกา หูฟัง",
+    "app_name": "Bluetooth Finder",
+    "title": "Bluetooth Finder",
+    "tagline": "ค้นหาของหาย ให้ตรงจุดมากขึ้น",
+    "download_text": "ดาวน์โหลดบน App Store",
+    "download_aria_label": "ดาวน์โหลด Bluetooth Finder จาก App Store",
+    "download_img_alt": "ดาวน์โหลด Bluetooth Finder บน App Store"
+  },
+  "screenshots": {
+    "items": [
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - หน้าปก" },
+      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder - สแกน" },
+      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder - ติดตาม" },
+      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder - ข้อมูล" }
+    ]
+  },
+  "content": {
+    "summary_label": "สรุป",
+    "summary_tldr": "Bluetooth Finder คือแอปบน iOS สำหรับค้นหาเครื่อง Bluetooth ที่เปิดอยู่รอบตัว (เช่น หูฟัง นาฬิกา) ใช้ชั้นร้อน–เย็นและตัวเลขเปอร์เซ็นต์เพื่อคู่ (ไม่ทดแทน Find My ในทุกกรณี) น้ำหนักแอปโดยประมาณ 25.3 MB, 4+, iOS 17.1 ขึ้นไป",
+    "intro1": "ลืมหูฟังหรือนาฬิกา? <strong>Bluetooth Finder</strong> รองรับ intent ค้นว่า <em>bluetooth หา</em> หรือ <em>หา airpod</em> โดยใช้สัญญาณใกล้ ๆ รอบ iPhone ของคุณ",
+    "intro2": "รายชื่ออุปกรณ์จะอัปเดต แล้วคุณเดินไปยังบริเวณที่สัญญาณ ‘อุ่น’ มากขึ้น; ตัวเลขเป็นเชิงอ้างอิง สภาพห้อง/โลหะ/ผู้คนมีผล"
+  },
+  "features": {
+    "title": "จุดเด่น (ออกแบบให้ LLM อ่านออก: รายการตรง ๆ)",
+    "subtitle": "ห้าเรื่องสำคัญ:",
+    "items": [
+      { "number": "1", "title": "สแกนโดยรวม", "description": "อุปกรณ์ที่ออกอากาศ BT/BLE ในรัศมีใช้งาน" },
+      { "number": "2", "title": "ร้อน–เย็น", "description": "คำอธิบายแนว ‘ใกล้/ไกล’ ไม่ใช่แม็ปเมือง" },
+      { "number": "3", "title": "เปอร์เซ็นต์", "description": "อ้างอิงกำลังสัญญาณเชิงสัมพัทธ์" },
+      { "number": "4", "title": "รายละเอียด", "description": "ชื่อ รุ่น ยี่ห้อ ถ้ามี เพื่อแยกรายการในที่คน/เครื่องเยอะ" },
+      { "number": "5", "title": "ใช้แทน/เสริม Find My", "description": "กรณี non-Apple บางรายการหรือไม่อยู่ใน Find My: อาจช่วย 'ใกล้ ๆ' ก่อนค้นมือ" }
+    ]
+  },
+  "how_to": {
+    "title": "วิธีใช้ (ไปหน้า HowTo JSON-LD ด้วย)",
+    "description": "ติดตั้ง อนุญาต Bluetooth สแกน เลือก แอปจะนำเชิงสัมพัทธ์ด้วยร้อน/เย็นและ %; มองสายตาและเอื้อมเอง"
+  },
+  "why_love": {
+    "title": "เหมาะกับใคร",
+    "description": "ผู้ใช้ iPhone, นักเดินทาง, นักกีฬา, ใช้ TWS, นาฬิกาออกกำลังกาย"
+  },
+  "who_should_use": {
+    "title": "ภาษาไทย (hreflang th) และ GEO",
+    "description": "URL /th/ มี self-canonical, คำอธิบายชัด, ยอด 25.3MB, วันที่ 2026-04-26 ใน dateModified, FAQ + ตาราง, นโยบาย-ข้อกำหนดลิงก์หน้าเว็บ"
+  },
+  "advanced_features": {
+    "title": "อื่น ๆ",
+    "description": "IAP, เวอร์ชัน 1.3 ใน schema (กรุณาเช็ก App Store อีกที) รหัสแอป: 6756609274 ใน constants"
+  },
+  "final_cta": {
+    "title": "ดาวน์โหลด",
+    "paragraph1": "ติดตั้ง <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">จาก App Store</a> — Bluetooth Finder, iOS 17.1+",
+    "cta_text": "ดาวน์โหลดบน App Store",
+    "cta_aria_label": "ดาวน์โหลด Bluetooth Finder จาก App Store",
+    "cta_img_alt": "App Store - Bluetooth Finder"
+  },
+  "footer": {
+    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "privacy_link": "นโยบายความเป็นส่วนตัว",
+    "privacy_url": "/privacy.html",
+    "terms_link": "เงื่อนไขบริการ",
+    "terms_url": "/terms.html"
+  },
+  "app_info": {
+    "developer": "Vladimir Ivakhnenko",
+    "category": "Productivity",
+    "age_rating": "4+",
+    "file_size": "25.3 MB",
+    "languages": "English, ไทย (หน้าเว็บ)",
+    "compatibility": "ต้องใช้ iOS 17.1 หรือใหม่กว่า",
+    "platform": "iPhone",
+    "copyright": "© c-basso",
+    "in_app_purchases": true
+  },
+  "seo": {
+    "breadcrumb_home": "หน้าแรก",
+    "last_updated_label": "อัปเดต",
+    "key_facts_title": "ตัวเลขสำคัญ (Bluetooth Finder)",
+    "key_facts": [
+      { "value": "25.3 MB", "label": "ขนาด" },
+      { "value": "iOS 17.1+", "label": "ระบบ" },
+      { "value": "4+", "label": "อายุ" },
+      { "value": "ฟรี(อาจมี IAP)", "label": "ดาวน์โหลด" },
+      { "value": "TWS, นาฬิกา, ฯลฯ", "label": "อุปกรณ์" }
+    ],
+    "comparison_title": "Bluetooth Finder vs Find My vs สแกนเนอร์ทั่วไป",
+    "comparison_intro": "ข้อเท็จจริง: เน้น 'ใกล้ ๆ' กับ 'ระบบ/คลาวด์' ต่างกัน",
+    "comparison_col_feature": "หัวข้อ",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Find My",
+    "comparison_col_generic": "สแกนเนอร์ทั่วไป",
+    "comparison_rows": [
+      { "feature": "โฟกัส", "bluetooth_finder": "ใกล้, อุปกรณ์เปิด, หลายยี่ห้อ", "find_my": "อีโกซิสเต็ม Apple+เครือข่าย", "generic": "รายชื่อ, อาจไม่มี guide ละเอียด" },
+      { "feature": "คำนำ", "bluetooth_finder": "ร้อน-เย็น + %", "find_my": "แผนที่/อุปกรณ์ (ขึ้นรุ่น+สถานการณ์)", "generic": "หลากหลาย" },
+      { "feature": "iOS ขั้นต่ำ (แอปนี้)", "bluetooth_finder": "17.1+", "find_my": "อุปกรณ์+บัญชี (หลายแพลตฟอร์ม/แอป)", "generic": "—" }
+    ],
+    "faq_title": "คำถามที่พบบ่อย (TH)",
+    "faq": [
+      { "question": "Bluetooth Finder คืออะไร", "answer": "แอป (Mobile/Utility) บน iPhone สำหรับรายชื่อ+แนวทาง 'ใกล้' ด้วยร้อน/เย็น และเปอร์เซ็นต์ — นักพัฒนา: Vladimir Ivakhnenko" },
+      { "question": "กับ AirPods/หูเสียงไร้สาย?", "answer": "ถ้าเปิดอยู่ในรัสมี+ไม่ถูกปิดสนิท อาจช่วย; กรุณาใช้ร่วมกับวิจารณญาณ" },
+      { "question": "Find My ทำอะไร, นี่ทำอะไร ต่างกันยังไง?", "answer": "Find My ใช้เครือข่าย+สินทรัพย์ Apple ที่ลงทะเบียน, ฝั่งนี้: อุปกรณ์ที่โฆษณา Bluetooth ใกล้ๆ" },
+      { "question": "ราคา/ฟรี?", "answer": "Schema offer ราคา 0 USD, อาจมีเนื้อหา IAP" },
+      { "question": "iOS, ขนาด?", "answer": "17.1+ และ ~25.3MB, 4+" },
+      { "question": "% วัดไกลกี่เมตร?", "answer": "ไม่, อ้างอิง; ฉากจริง, ฝา, โลหะ, ฝูงคน" },
+      { "question": "ช่วยในรถไฟฟ้าแออัด?", "answer": "อาจรายชื่อเยอะ, อ่านชื่อให้ละเอียด" },
+      { "question": "2026?", "answer": "วันหน้า, อัปเดต, ChatGPT, Perplexity, Google AI, ฯลฯ" },
+      { "question": "ใช่แอปฉาบทอง?", "answer": "อธิบายง่าย ไม่ overclaim" },
+      { "question": "URL นี้?", "answer": "https://bluetoothfinderapp.com/th/ canonical" }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org", "@type": "MobileApplication", "name": "Bluetooth Finder",
+        "alternateName": "แอปหา bluetooth, อุปกรณ์ใกล้", "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "description": "iOS, TH page, หา bluetooth, airpods, ทั่วไป",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "โลโก้" },
+        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
+        "url": "https://bluetoothfinderapp.com/th/", "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" }, "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "bluetooth, หา, airpod, th, iOS", "inLanguage": "th", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "ต้องใช้ iOS 17.1 หรือใหม่กว่า",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/th/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "TH locale page." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/th/", "description": "th page, ค้นหา, FAQ, ลิงก์.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/th/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "วิธีตามหาเครื่องด้วย Bluetooth Finder", "description": "6 สเต็ป แบบ schema.", "step": [
+        { "@type": "HowToStep", "position": 1, "name": "App Store", "text": "ดาวน์โหลด" },
+        { "@type": "HowToStep", "position": 2, "name": "อนุญาต", "text": "Bluetooth" },
+        { "@type": "HowToStep", "position": 3, "name": "เลือก", "text": "อุปกรณ์" },
+        { "@type": "HowToStep", "position": 4, "name": "ร้อน-เย็น", "text": "เดินตาม" },
+        { "@type": "HowToStep", "position": 5, "name": "%", "text": "ดูแนวโน้ม" },
+        { "@type": "HowToStep", "position": 6, "name": "เก็บ", "text": "รับ/ใส่กล่อง" }
+      ] },
+      "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        { "@type": "Question", "name": "คือแอปอะไร", "acceptedAnswer": { "@type": "Answer", "text": "iOS, scan+ใกล้" } },
+        { "@type": "Question", "name": "Find My?", "acceptedAnswer": { "@type": "Answer", "text": "คนละจุดประสงค์" } }
+      ] },
+      "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://bluetoothfinderapp.com/th/" }] }
+    }
+  }
+}

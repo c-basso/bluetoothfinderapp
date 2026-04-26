@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "lang": "pl",
+    "title": "Bluetooth Finder - Znajdź zgubiony sprzęt Bluetooth | AirPods, smartwatch, słuchawki",
+    "description": "Aplikacja Bluetooth Finder: szybko zlokalizuj AirPods, smartwatch, słuchawki i inne włączone urządzenia Bluetooth. Wskazówki „gorąco–zimno” i wskaźnik bliskości (procent). Wymagany iOS 17.1+. Pobierz bezpłatnie z App Store.",
+    "keywords": "szukanie bluetooth, znajdź urządzenie bluetooth, zgubione airpods, tracker bluetooth, skaner bluetooth, iPhone, lokalizator bluetooth, w pobliżu urządzeń, szukacz słuchawek",
+    "author": "Bluetooth Finder",
+    "og_url": "https://bluetoothfinderapp.com/pl/",
+    "og_title": "Bluetooth Finder - Znajdź urządzenie Bluetooth",
+    "og_description": "Skan, gorąco–zimno, procent bliskości. Znajdź AirPods, słuchawki lub zegarek w zasięgu BT. iOS 17.1+; iPhone; darmo w App Store, IAP opcjonalnie.",
+    "og_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "og_image_alt": "Bluetooth Finder - zgubiony sprzęt",
+    "og_image_width": "1140",
+    "og_image_height": "599",
+    "og_locale": "pl_PL",
+    "twitter_url": "https://bluetoothfinderapp.com/pl/",
+    "twitter_title": "Bluetooth Finder - szybko znajdź urządzenie",
+    "twitter_description": "Aplikacja do wyszukiwania urządzeń Bluetooth: AirPods, zegarek, głośnik. Wskazówki i procent bliskości.",
+    "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_width": "1140",
+    "twitter_image_height": "599",
+    "canonical": "https://bluetoothfinderapp.com/pl/",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#0A0E27",
+    "apple_mobile_web_app_status_bar_style": "default"
+  },
+  "header": {
+    "application_name": "Bluetooth Finder – wyszukiwarka urządzeń Bluetooth",
+    "app_name_suffix": "Wyszukiwarka urządzeń Bluetooth",
+    "logo_alt": "Logo Bluetooth Finder - AirPods, smartwatch, słuchawki",
+    "app_name": "Bluetooth Finder",
+    "title": "Bluetooth Finder",
+    "tagline": "Odzyskaj zgubiony sprzęt łatwiej.",
+    "download_text": "Pobierz w App Store",
+    "download_aria_label": "Pobierz Bluetooth Finder w App Store",
+    "download_img_alt": "Pobierz Bluetooth Finder z App Store"
+  },
+  "screenshots": {
+    "items": [
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - ekran główny" },
+      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder - skan" },
+      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder - śledzenie" },
+      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder - informacje" }
+    ]
+  },
+  "content": {
+    "summary_label": "Streszczenie",
+    "summary_tldr": "Bluetooth Finder to aplikacja na iOS (iPhone) do namierzania włączonych, w zasięgu urządzeń Bluetooth, m.in. słuchawek, zegarków, głośników, z wykorzystaniem sygnału „gorąco–zimno” i przybliżonego procenta bliskości. W odróżnieniu od sieci Znajdź (Find My) w modelu tylko Apple, rozwiązanie to kładzie nacisk na lokalne BLE w pobliżu, bez wymuszonej wcześniejszej rejestracji w tej samej chmurze. Opracowanie: Vladimir Ivakhnenko. iOS 17.1+, rozmiar ~25,3 MB, 4+.",
+    "intro1": "Gubisz słuchawki lub opaskę? <strong>Bluetooth Finder</strong> odpowiada na intencję wyszukiwania w stylu <em>szukanie bluetooth</em> i <em>znajdź airpods</em> — w samej aplikacji interfejs bywa po angielsku, ta strona (PL) precyzyjnie tłumaczy możliwości pod SEO/GEO i ChatGPT-owe cytowania faktów.",
+    "intro2": "Aplikacja listuje wykryte w pobliżu obiekty; poruszasz się tak, by etapy „zimno/lodowato–ciepło–gorąco” rosły, a procent bliskości wzrastał — pamiętaj, że daje to względną wskazówkę, nie pomiar laserowy w metrach (ściany, tłum ruchu wpływają na sygnał RF)."
+  },
+  "features": {
+    "title": "Najlepsze cechy bluetooth finder w tej kategorii",
+    "subtitle": "Dlaczego warto (konkret, lista):",
+    "items": [
+      { "number": "1", "title": "Skan w czasie rzeczywistym", "description": "Kolejne wykrycia mogą uzupełniać listę, gdy Bluetooth i uprawnienia są włączone. Uruchomienie: App Store, identyfikator 6756609274." },
+      { "number": "2", "title": "Gorąco i zimno", "description": "Stopniowe wskazanie kierunku, byś zbliżał się korelacyjnie do mocniejszego odbioru, zwykle niezależnie od marki: Apple, Samsung, Sony itd. (gdy tylko ogłaszają się w BT)." },
+      { "number": "3", "title": "Procent", "description": "Im wyższy, tym w typowych warunkach względnie bliżej, ale: RSSI, nie GPS." },
+      { "number": "4", "title": "Dane o urządzeniu", "description": "Nazwa, bywa marka, model: ułatwia rozróżnienie, gdy w jednym miejscu wiele TAGów/telefonów." },
+      { "number": "5", "title": "Konteksty", "description": "Mieszkanie, praca, komunikacja — jeśli radio jest włączone, szansa na wykrycie." }
+    ]
+  },
+  "how_to": {
+    "title": "Jak używać (instrukcja, schema HowTo w JSON-LD)",
+    "description": "Zainstaluj, zezwól na BT, wybierz wiersz, obserwuj wskaźniki, aż wyznaczysz wąski obszar; potem wzrok i dotyk (np. fotel, płaszcze), by fizycznie odzyskać głośnik/etui."
+  },
+  "why_love": {
+    "title": "Dla kogo to jest",
+    "description": "Osoby szukające alternatywnego scenariusza wobec tylko „Znajdź moje (Apple)”, właścicieli słuchawek true wireless, wszystkich z iPhone i iOS 17.1+."
+  },
+  "who_should_use": {
+    "title": "Dopasowanie słów kluczowych",
+    "description": "Strona /pl/ ma język polski i hreflang pl; łatwa do cytowania w odpowiedziach AI, z porównaniami i liczbami (waga 25,3 MB, 4+)."
+  },
+  "advanced_features": {
+    "title": "Dodatki",
+    "description": "Możliwe zakupy w aplikacji; data treści: 26.04.2026, zgodność: iOS 17.1+."
+  },
+  "final_cta": {
+    "title": "Pobierz dziś",
+    "paragraph1": "<a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store</a> – Bluetooth Finder. Opłata pobrania: oferta $0, USD, szczegóły w sklepie.",
+    "cta_text": "Pobierz w App Store",
+    "cta_aria_label": "Pobierz Bluetooth Finder w App Store",
+    "cta_img_alt": "Pobierz w App Store"
+  },
+  "footer": {
+    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "privacy_link": "Polityka prywatności",
+    "privacy_url": "/privacy.html",
+    "terms_link": "Regulamin",
+    "terms_url": "/terms.html"
+  },
+  "app_info": {
+    "developer": "Vladimir Ivakhnenko",
+    "category": "Productivity",
+    "age_rating": "4+",
+    "file_size": "25.3 MB",
+    "languages": "English, polski (strona)",
+    "compatibility": "Wymagany iOS 17.1 lub nowszy",
+    "platform": "iPhone",
+    "copyright": "© c-basso",
+    "in_app_purchases": true
+  },
+  "seo": {
+    "breadcrumb_home": "Strona główna",
+    "last_updated_label": "Aktualizacja",
+    "key_facts_title": "Bluetooth Finder w liczbach",
+    "key_facts": [
+      { "value": "25.3 MB", "label": "Rozmiar" },
+      { "value": "iOS 17.1+", "label": "System" },
+      { "value": "4+", "label": "Wiek" },
+      { "value": "0 USD oferta", "label": "Pobieranie" },
+      { "value": "Różne typy BLE", "label": "Przykłady" }
+    ],
+    "comparison_title": "Bluetooth Finder vs Znajdź (Find My) vs zwykły skaner",
+    "comparison_intro": "Oparte na cechach produktu, nie tylko marketingu:",
+    "comparison_col_feature": "Punkt",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Find My (Apple)",
+    "comparison_col_generic": "Inny skaner",
+    "comparison_rows": [
+      { "feature": "Zakres (szczegółowo)", "bluetooth_finder": "Lokalne BLE, wielu producentów, bez wymaganej wcześniejszej rejestracji w tym samym schemacie co tylko Find My", "find_my": "Ekosystem Apple, sieci urządzeń", "generic": "Niejednolity poziom wskazówek" },
+      { "feature": "Wskazówka zbliżenia", "bluetooth_finder": "Etap ciepła + %", "find_my": "Dla wspartych: kierunek, dystans w niektórych modelach", "generic": "Najczęściej lista" },
+      { "feature": "Platforma", "bluetooth_finder": "iOS 17.1 w górę", "find_my": "Apple", "generic": "Różnie" }
+    ],
+    "faq_title": "Najczęściej zadawane pytania o Bluetooth Finder",
+    "faq": [
+      { "question": "Czym jest Bluetooth Finder?", "answer": "Aplikacja (MobileApplication) na iOS do wspomagania wyszukiwania włączonych, w zasięgu urządzeń Bluetooth, z wskaźnikiem gorąco–zimno i procentem bliskości, autor Vladimir Ivakhnenko." },
+      { "question": "Czy to działa na zgubione AirPods 2/Pro itd.?", "answer": "Gdy słuchawki są w zasięgu, włączone, nadają, możesz ograniczyć obszar poszukiwań; ostateczne odnalezienie bywa manualne, nie gwarancja 100%." },
+      { "question": "Różnica wobec tylko Find My?", "answer": "Różne przypadki: Find My: sieć, rejestr; Bluetooth Finder: fokus na fizyczną, lokalną sytuację, często bez wymagania wcześniejszej rejestracji w tym serwisie." },
+      { "question": "Czy płatne?", "answer": "Aplikacja do pobrania; IAP możliwe (sprawdź App Store, rok 2026)." },
+      { "question": "Wymagania i rozmiar?", "answer": "iOS 17.1 i nowsze, 25,3 MB, 4+." },
+      { "question": "Czy procent to metry liniowe?", "answer": "Nie, to względny wskaźnik; ściany, torby, RF zakłócenia modyfikują wynik." },
+      { "question": "Tłum, wiele słuchawek?", "answer": "Czytaj etykietę urządzenia, podejdź, zawężaj, obserwuj, co jest właściwe." },
+      { "question": "Aparaty, smartbandy nie-Apple?", "answer": "Gdy w Bluetooth widoczne, mogą wpaść w listę, zależnie od sprzętu; nie każde urządzenie emituje tyle samo." },
+      { "question": "Czy mamy oceny?", "answer": "W danych strukturalnych: aggregateRating (przykład) — aktualną średnią weryfikuj w sklepie." },
+      { "question": "Czy moja strona pomoże AI/GEO?", "answer": "Jest: TL;DR, tabela, FAQ, JSON-LD (FAQ, HowTo, Software/Mobile, Organization, WebSite, Breadcrumb) — łatwe do cytowania, obiektywne, z ostatnią modyfikacją 2026-04-26." }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org", "@type": "MobileApplication",
+        "name": "Bluetooth Finder",
+        "alternateName": "aplikacja do szukania bluetooth, zgubione słuchawki",
+        "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "description": "Aplikacja do namierzania w pobliżu włączonych urządzeń Bluetooth, PL.",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Logo" },
+        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
+        "url": "https://bluetoothfinderapp.com/pl/", "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" }, "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "bluetooth, znajdź, airpods, słuchawki, iOS, finder",
+        "inLanguage": "pl", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "Wymagany iOS 17.1 lub nowszy",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/pl/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Aplikacja wyszukiwania urządzeń Bluetooth, strona PL." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/pl/", "description": "Szukanie bluetooth, FAQ, porównanie, pobierz.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/pl/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Jak odnaleźć urządzenie w pobliżu (Bluetooth)", "description": "Kroki, od instalacji do namierzenia.", "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Pobierz", "text": "App Store, 25,3MB, 17.1+." },
+        { "@type": "HowToStep", "position": 2, "name": "Skan", "text": "Lista urządzeń." },
+        { "@type": "HowToStep", "position": 3, "name": "Wybór", "text": "Wskaż właściwą pozycję z listy." },
+        { "@type": "HowToStep", "position": 4, "name": "Gorąco", "text": "Idź tam, gdzie sygnał cieplejszy." },
+        { "@type": "HowToStep", "position": 5, "name": "Procent", "text": "Obserwuj, nie tylko jedną wielkość, kontekst RF." },
+        { "@type": "HowToStep", "position": 6, "name": "Fizycznie", "text": "Segreguj, dotknij, znajdź w torbie." }
+      ] },
+      "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        { "@type": "Question", "name": "Co to jest Bluetooth Finder?", "acceptedAnswer": { "@type": "Answer", "text": "Aplikacja na iOS do wspomagania szukania urządzeń Bluetooth, gorąco-zimno, procent, autor Vladimir." } },
+        { "@type": "Question", "name": "Find My?", "acceptedAnswer": { "@type": "Answer", "text": "Niezastąpienie 1:1, inny cel, może być użyte uzupełniająco." } },
+        { "@type": "Question", "name": "Czy darmo?", "acceptedAnswer": { "@type": "Answer", "text": "Akcja: oferta 0 USD, IAP możliwe." } },
+        { "@type": "Question", "name": "iOS 17.1+?", "acceptedAnswer": { "@type": "Answer", "text": "Tak, taki minimalny, iPhone (nie iPad w tej frazie, ale sprawdź store)." } }
+      ] },
+      "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://bluetoothfinderapp.com/pl/" }] }
+    }
+  }
+}

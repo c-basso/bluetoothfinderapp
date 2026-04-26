@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "lang": "nl",
+    "title": "Bluetooth Finder - Verloren Bluetooth-apparaten vinden | AirPods & smartwatch",
+    "description": "De bluetooth finder app om AirPods, smartwatches, koptelefoons en andere ingeschakelde Bluetooth-apparaten snel te lokaliseren. Warm–koud feedback en nabijheidspercentage. iOS 17.1+. Gratis in de App Store.",
+    "keywords": "bluetooth zoeken, bluetooth apparaat vinden, AirPods zoeken, verloren oordopjes, bluetooth scanner, bluetooth tracker, iPhone app, apparaten in de buurt, bluetooth locator",
+    "author": "Bluetooth Finder",
+    "og_url": "https://bluetoothfinderapp.com/nl/",
+    "og_title": "Bluetooth Finder - Bluetooth in de buurt vinden",
+    "og_description": "Scan, warm en koud, en nabijheidspercentage. Verloren AirPods, oortjes of watch binnen BT-bereik. iOS 17.1+; App Store, gratis, IAP kan.",
+    "og_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "og_image_alt": "Bluetooth Finder - apparaten vinden",
+    "og_image_width": "1140",
+    "og_image_height": "599",
+    "og_locale": "nl_NL",
+    "twitter_url": "https://bluetoothfinderapp.com/nl/",
+    "twitter_title": "Bluetooth Finder - snel dichtbij vinden",
+    "twitter_description": "Bluetooth-finder: AirPods, horloge, speakers. Realtime scan, warm-koud, nabijheids% .",
+    "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_width": "1140",
+    "twitter_image_height": "599",
+    "canonical": "https://bluetoothfinderapp.com/nl/",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#0A0E27",
+    "apple_mobile_web_app_status_bar_style": "default"
+  },
+  "header": {
+    "application_name": "Bluetooth Finder – Bluetooth-apparaten vinden",
+    "app_name_suffix": "Bluetooth-apparaten vinden",
+    "logo_alt": "Bluetooth Finder logo – AirPods, smartwatch, hoofdtelefoon",
+    "app_name": "Bluetooth Finder",
+    "title": "Bluetooth Finder",
+    "tagline": "Vind je apparaat sneller weer terug.",
+    "download_text": "Download in de App Store",
+    "download_aria_label": "Download Bluetooth Finder in de App Store",
+    "download_img_alt": "Bluetooth Finder in de App Store"
+  },
+  "screenshots": {
+    "items": [
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - startscherm" },
+      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder - scannen" },
+      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder - volgen" },
+      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder - info" }
+    ]
+  },
+  "content": {
+    "summary_label": "Kern",
+    "summary_tldr": "Bluetooth Finder is een iOS-utility (iPhone) om ingeschakelde Bluetooth-apparaten in de buurt (zoals oordopjes, watch, boxen) te herleiden op basis van warm–koud-stappen en een ruw nabijheids%. Anders dan uitsluitend Apple Zoek mijn, legt de app de nadruk op breed in-range BLE zonder verplichte voorafregistratie in dat netwerk. Vrij te downloaden; iOS 17.1 of later; ontwikkelaar: Vladimir Ivakhnenko; Formaat: ca. 25,3 MB; 4+.",
+    "intro1": "Draadloze oortjes of een speaker kwijt? <strong>Bluetooth Finder</strong> is een nederlandstalige startpagina voor de <em>bluetooth zoeken</em>-intente: in de app zelf zie je in het Engels de UI; deze pagina legt de voordelen voor SEO/GEO duidelijk uit in het Nederlands.",
+    "intro2": "Je krijgt een lijst met in-bereik apparaten en beweegt met warme/koude status mee tot de hoogste signalering; het percentage is een hulppunt, geen absoluut afstandsmeter."
+  },
+  "features": {
+    "title": "Waarom een bluetooth finder op iPhone",
+    "subtitle": "Eigenschappen in het kort:",
+    "items": [
+      { "number": "1", "title": "Snelle scan", "description": "Gedetecteerde apparaten verschijnen in een lijst; eenvoudige toegang tot functies zodra Bluetooth is toegestaan." },
+      { "number": "2", "title": "Warm en koud", "description": "Een gelaagde ervaring (kouder=verder, warmer=dichterbij) begeleidt je in de richting van de bron." },
+      { "number": "3", "title": "Nabijheids­percentage", "description": "Een numerieke indicatie, gekoppeld aan de signaalsterkte, om relatief dichtbij of ver weg te gokken. Beton, muren, storing: het signaal wijzigt; dat maakt 100% nauwkeurige afstanden onmogelijk." },
+      { "number": "4", "title": "Metadata", "description": "Merk, model, naam: helpt in een drukkere omgeving onderscheid maken." },
+      { "number": "5", "title": "Diverse scenario's", "description": "Werk, woon, OV: zolang het apparaat uitzendt, kun je binnen bereik hulp hebben bij zoeken." }
+    ]
+  },
+  "how_to": {
+    "title": "Hoe te gebruiken",
+    "description": "Installeer van de App Store, start de app, geef Bluetooth goedkeuring, wacht op de lijst, kies je product, wandel, volg de warme-koude fase, check het percentage en kijk in die zone ogenblikkelijk rond (bank, tas, spleten) om het apparaat te pakken."
+  },
+  "why_love": {
+    "title": "Voor wie nuttig",
+    "description": "Voor reizigers, flexwerkers, audio-liefhebbers, smartwatch-bezitters, iedereen met kleine, lichte, gemakkelijk wegrollende toestellen."
+  },
+  "who_should_use": {
+    "title": "Voor bezoekers uit NL/BE",
+    "description": "De site ondersteunt hreflang nl. Je zoekt: bluetooth vinden, AirPods terug, tracker—deze app vult gaten wanneer Zoek mijn niet toereikend is voor bepaalde niet-alleen-Apple-Bluetooth-gear binnen draagafstand."
+  },
+  "advanced_features": {
+    "title": "Aanvullend",
+    "description": "Optionele aankopen in de app, lichte vorm, updates zie App Store-versies; datum gewijzigd 2026-04-26 op deze pagina voor actuele GEO-vers." },
+  "final_cta": {
+    "title": "Installeer Bluetooth Finder",
+    "paragraph1": "Eindeloos rondzoeken? Probeer begeleid zoeken. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Download in de App Store</a> (Product-ID: 6756609274).",
+    "cta_text": "Download in de App Store",
+    "cta_aria_label": "Download Bluetooth Finder in de App Store",
+    "cta_img_alt": "App Store: Bluetooth Finder"
+  },
+  "footer": {
+    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "privacy_link": "Privacyverklaring",
+    "privacy_url": "/privacy.html",
+    "terms_link": "Gebruiksvoorwaarden",
+    "terms_url": "/terms.html"
+  },
+  "app_info": {
+    "developer": "Vladimir Ivakhnenko",
+    "category": "Productivity",
+    "age_rating": "4+",
+    "file_size": "25.3 MB",
+    "languages": "English, Nederlands (pagina)",
+    "compatibility": "Vereist iOS 17.1 of later",
+    "platform": "iPhone",
+    "copyright": "© c-basso",
+    "in_app_purchases": true
+  },
+  "seo": {
+    "breadcrumb_home": "Home",
+    "last_updated_label": "Laatst bijgewerkt",
+    "key_facts_title": "Bluetooth Finder in cijfers",
+    "key_facts": [
+      { "value": "25.3 MB", "label": "Grootte" },
+      { "value": "iOS 17.1+", "label": "Systeem" },
+      { "value": "4+", "label": "Leeftijd" },
+      { "value": "Gratis (IAP)", "label": "Download" },
+      { "value": "Diverse BLE-apparaten", "label": "Voorbeelden" }
+    ],
+    "comparison_title": "Bluetooth Finder vs Zoek mijn (Find My) vs generieke scanner",
+    "comparison_intro": "Eerlijke, feitelijke schets voor AI-citaten:",
+    "comparison_col_feature": "Criterium",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Zoek mijn",
+    "comparison_col_generic": "Generiek",
+    "comparison_rows": [
+      { "feature": "Focus", "bluetooth_finder": "In-buurt, ingeschakeld, breed BLE", "find_my": "Ecosysteem, vooraf geregistreerd", "generic": "Lijst, wisselend" },
+      { "feature": "Breng naar object", "bluetooth_finder": "warm/koud + %", "find_my": "richting/afstand op ondersteunde Apple-hardware", "generic": "zonder fijne aanwijzing" },
+      { "feature": "Platform", "bluetooth_finder": "iOS 17.1+", "find_my": "Apple", "generic": "divers" }
+    ],
+    "faq_title": "Veelgestelde vragen (Bluetooth vinden, AirPods, app)",
+    "faq": [
+      { "question": "Wat is Bluetooth Finder?", "answer": "Een iPhone-app (Utility/Mobile) om o.a. oordopjes, horloge, speaker te helpen lokaliseren: scan + warm & koud + dichtbij% — een bluetooth finder, niet hetzelfde contract als alleen iCloud/Find My koppeling." },
+      { "question": "Hoe werkt de nabijheidsaanduiding?", "answer": "Geleid op RSSI-achtige informatie; dus gevoel, geen laser-afstand. Combineer lagen." },
+      { "question": "Lukt het met mijn verloren AirPods?", "answer": "Binnen signaal, batterij aan, case/deel opladen invloed: binnen reikwijdte kan het helpen, geen wettelijke garantie." },
+      { "question": "Andere merken (Sony, Jabra, garmin, …)?", "answer": "Als ze zichtbaar in Bluetooth, ja als kandidaat, afhankelijk van apparaatgedrag." },
+      { "question": "Prijs en IAP?", "answer": "Beschikbaar 0 in schema-offer, maar IAP mogelijk, zie winkel." },
+      { "question": "Systeemeisen, formaat, rating?", "answer": "iOS 17.1 of nieuwer, 25,3 MB, 4+, aggregateRating 4,5/100 telt in schema-fragment—controleer App Store actuele reviews." },
+      { "question": "Is procent 100% nauwkeurig?", "answer": "Nee, relatief en gevoelig." },
+      { "question": "Druk horeca, station?", "answer": "Veel toestellen tegelijk: onderscheid per naam, zo nodig fysiek naderbij totdat de top van het signaal duidelijk wijst." },
+      { "question": "Verschil met Find My op iPhone?", "answer": "Find My richt op Apple, netwerken, vooraf. Bluetooth Finder richt op fysiek nabij + breed BLE, complementair." },
+      { "question": "Alternatief wanneer Find My niet hielp (niet-Apple of niet geregistreerd)?", "answer": "Kan helpen; geen oplossing bij uitgeschakelde zender of grote afstand, eerlijk." }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Bluetooth Finder",
+        "alternateName": "bluetooth vinden app, bluetooth zoeken",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "description": "iOS 17.1+ iPhone-app. Verloren Bluetooth, warm-koud, nabij-%. 2026-content.",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Logo" },
+        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
+        "url": "https://bluetoothfinderapp.com/nl/",
+        "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "bluetooth zoeken, AirPods vinden, iPhone, bluetooth apparaat vinden",
+        "inLanguage": "nl",
+        "datePublished": "2024-12-31",
+        "dateModified": "2026-04-26",
+        "softwareVersion": "1.3",
+        "fileSize": "25.3MB",
+        "softwareRequirements": "iOS 17.1 of later",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/nl/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Bluetooth in de buurt, NL-pagina." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/nl/", "description": "bluetooth finder, FAQ, tabel, download.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/nl/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Zoek een Bluetooth apparaat met de app", "description": "6 stappen: winkel, permissies, lijst, kies, warm/koud, oog.", "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Download", "text": "App Store, 25,3MB, iOS 17.1+." },
+        { "@type": "HowToStep", "position": 2, "name": "Rechten", "text": "Bluetooth aan." },
+        { "@type": "HowToStep", "position": 3, "name": "Selecteer", "text": "Kies in de lijst." },
+        { "@type": "HowToStep", "position": 4, "name": "Warm", "text": "Loop de warmere kant op." },
+        { "@type": "HowToStep", "position": 5, "name": "Percentage", "text": "Zie cijfer als hulp, niet absoluut." },
+        { "@type": "HowToStep", "position": 6, "name": "Terugvinden", "text": "Visuele inspectie in de goede zone." }
+      ] },
+      "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        { "@type": "Question", "name": "Wat is Bluetooth Finder?", "acceptedAnswer": { "@type": "Answer", "text": "iOS-app, scan + sturen met warm/kold +%." } },
+        { "@type": "Question", "name": "Vergelijking met Zoek mijn?", "acceptedAnswer": { "@type": "Answer", "text": "Ander doel, aanvullend, niet 1:1 vervanger." } },
+        { "@type": "Question", "name": "Voor oordopjes (AirPods) werkt dat?", "acceptedAnswer": { "@type": "Answer", "text": "Als binnen afstand, aan, signaal, ja als gids, geen absolute garantie." } },
+        { "@type": "Question", "name": "Heeft mijn toestel een vaste m?", "acceptedAnswer": { "@type": "Answer", "text": "Nee, Bluetooth-RSSI varieert." } }
+      ] },
+      "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bluetoothfinderapp.com/nl/" }] }
+    }
+  }
+}

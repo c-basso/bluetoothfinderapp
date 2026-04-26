@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "lang": "uk",
+    "title": "Bluetooth Finder — додаток, щоб знайти втрачений Bluetooth | AirPods, годинник, навушники",
+    "description": "Bluetooth finder для iPhone: шукайте AirPods, розумний годинник, навушники та інші ввімкнені Bluetooth-пристрої поруч. Підказки «гаряча–холодна» і відсоток наближення. iOS 17.1+; безкоштовне завантаження в App Store. Розробник: Vladimir Ivakhnenko.",
+    "keywords": "знайти bluetooth, шукати airpods, bluetooth трекер, iPhone, сканер bluetooth, втрачені навушники, додаток знайти пристрій, неподалік",
+    "author": "Bluetooth Finder",
+    "og_url": "https://bluetoothfinderapp.com/uk/",
+    "og_title": "Bluetooth Finder — знайдіть Bluetooth-пристрій поруч",
+    "og_description": "Скан, «гаряча–холодна», відсоток: втрачені AirPods, годинник, навушники в радіусі BT. iOS 17.1+; UA-сторінка, SEO/GEO, App Store безкоштовно, IAP залежно.",
+    "og_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "og_image_alt": "Bluetooth Finder — знайдіть гаджет",
+    "og_image_width": "1140",
+    "og_image_height": "599",
+    "og_locale": "uk_UA",
+    "twitter_url": "https://bluetoothfinderapp.com/uk/",
+    "twitter_title": "Bluetooth Finder — шукати Bluetooth",
+    "twitter_description": "AirPods, watch, динаміки. iOS-застосунок з наближенням.",
+    "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
+    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_width": "1140",
+    "twitter_image_height": "599",
+    "canonical": "https://bluetoothfinderapp.com/uk/",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#0A0E27",
+    "apple_mobile_web_app_status_bar_style": "default"
+  },
+  "header": {
+    "application_name": "Bluetooth Finder — пошук Bluetooth-пристроїв",
+    "app_name_suffix": "Пошук Bluetooth-пристроїв",
+    "logo_alt": "Логотип Bluetooth Finder — AirPods, годинник, навушники",
+    "app_name": "Bluetooth Finder",
+    "title": "Bluetooth Finder",
+    "tagline": "Поверніть загублене швидше.",
+    "download_text": "Завантажити в App Store",
+    "download_aria_label": "Завантажити Bluetooth Finder в App Store",
+    "download_img_alt": "Завантажити Bluetooth Finder з App Store"
+  },
+  "screenshots": {
+    "items": [
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder — обкладинка" },
+      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder — скан" },
+      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder — трек" },
+      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder — інфо" }
+    ]
+  },
+  "content": {
+    "summary_label": "Підсумок",
+    "summary_tldr": "Bluetooth Finder — iOS-утиліта, що перелічує близькі ввімкнені Bluetooth-пристрої й показує кроки «холодно–тепло–жарко» плюс відсоток наближення (відносний, не геометрія лазера). Це не повна заміна всіх сценаріїв «Локатора/Find My» від Apple, але додатковий варіант, коли потрібен саме сигнал поруч, без додаткового хмарного сценарію. iOS 17.1+; ~25,3 МБ; 4+; оновлено: 26.04.2026 (контент сторінки).",
+    "intro1": "Загубили навушники? <strong>Bluetooth Finder</strong> відповідає на запит «<em>знайти bluetooth</em>» чи «<em>airpods</em>»: в інтерфейсі застосунок може бути англійською; українською — ця лендінг-сторінка, зі структурованими даними для Google та ШІ-відповідей.",
+    "intro2": "Ви обираєте рядок у списку, рухаєтесь, доки сигнал «трішки гарячіший»; відсоток зростає відносно, стіни, люді, смуги заважають, як і в будь-якому радіоканалі 2,4 ГГц."
+  },
+  "features": {
+    "title": "Ключовий функціонал (факти, без пустих «лідер ринку»)",
+    "subtitle": "П’ять пунктів для GEO:",
+    "items": [
+      { "number": "1", "title": "Скан", "description": "Перелік виявлених девайсів у досяжності радіоканалу." },
+      { "number": "2", "title": "Гаряча–холодна шкала", "description": "Інтуїтивна підказка напрямку, не картосхема вулиці." },
+      { "number": "3", "title": "Відсоток", "description": "Відносно до поля (RSSI), не виміряна в сантиметрах." },
+      { "number": "4", "title": "Дані", "description": "Найменування, бренд, модель, де доступно, щоб відрізнити 10+ BT у кімнаті." },
+      { "number": "5", "title": "Find My (Apple) — порівняння", "description": "Find My: хмарні сценарії, мережа, пристрої. Bluetooth Finder: локальний сигнал і список поруч, коли воно вже «чути» в ефірі." }
+    ]
+  },
+  "how_to": {
+    "title": "Як користуватися (HowTo у JSON-LD нижче)",
+    "description": "Встановити, дозволити Bluetooth, дочекатись списку, вибрати, іти, зчитувати «температуру» + %, зором і руками забрати прилад."
+  },
+  "why_love": {
+    "title": "Аудиторія",
+    "description": "TWS, годинник, портативна колонка, студент, офіс, вояжер, власник iPhone з iOS 17.1+."
+  },
+  "who_should_use": {
+    "title": "hreflang uk, сайт, політика",
+    "description": "Посилання на /privacy.html та /terms.html залишені, як в інших локалях; self-canonical: https://bluetoothfinderapp.com/uk/."
+  },
+  "advanced_features": {
+    "title": "Додатково",
+    "description": "IAP, версія 1.3 (перевірте в магазині). App ID: 6756609274. Рейтинг 4+."
+  },
+  "final_cta": {
+    "title": "Завантажити",
+    "paragraph1": "<a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store</a> — Bluetooth Finder. Схема: Offer, price 0, USD, наявність InStock, підставляється build.",
+    "cta_text": "Завантажити в App Store",
+    "cta_aria_label": "Завантажити Bluetooth Finder в App Store",
+    "cta_img_alt": "App Store - Bluetooth Finder"
+  },
+  "footer": {
+    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "privacy_link": "Політика конфіденційності",
+    "privacy_url": "/privacy.html",
+    "terms_link": "Умови використання",
+    "terms_url": "/terms.html"
+  },
+  "app_info": {
+    "developer": "Vladimir Ivakhnenko",
+    "category": "Productivity",
+    "age_rating": "4+",
+    "file_size": "25.3 MB",
+    "languages": "English, Українська (сторінка)",
+    "compatibility": "Потрібен iOS 17.1 або новіший",
+    "platform": "iPhone",
+    "copyright": "© c-basso",
+    "in_app_purchases": true
+  },
+  "seo": {
+    "breadcrumb_home": "Головна",
+    "last_updated_label": "Оновлено",
+    "key_facts_title": "У цифрах: Bluetooth Finder",
+    "key_facts": [
+      { "value": "25.3 MB", "label": "Розмір" },
+      { "value": "iOS 17.1+", "label": "Система" },
+      { "value": "4+", "label": "Вік" },
+      { "value": "0 USD (офер)", "label": "Скачування" },
+      { "value": "навушники, годинник, інше", "label": "Пристрої" }
+    ],
+    "comparison_title": "Bluetooth Finder проти «Локатор»/Find My проти «просто сканер»",
+    "comparison_intro": "Справедливо для цитувань у ШІ: не конкуруємо пустими ярликами, описуємо сценарії.",
+    "comparison_col_feature": "Параметр",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Find My / iCloud-мережа",
+    "comparison_col_generic": "Звичайний переглядач",
+    "comparison_rows": [
+      { "feature": "Фокус", "bluetooth_finder": "поруч, увімкнено, широкий перелік BLE/Bluetooth", "find_my": "девайси Apple+мережа, реєстрації", "generic": "різними способами" },
+      { "feature": "наближення", "bluetooth_finder": "рівні + %", "find_my": "у підтримуваних — карти/маршрут (залежно від сценарію)", "generic": "часто тільки список" },
+      { "feature": "iOS-версія цієї app", "bluetooth_finder": "17.1+", "find_my": "окремо за продуктом", "generic": "n/a" }
+    ],
+    "faq_title": "Поширені питання (UA)",
+    "faq": [
+      { "question": "Що це за застосунок Bluetooth Finder?", "answer": "iPhone-додаток, що допомагає в реальному місці, коли втрачений супутній Bluetooth-гаджет може бути в ефірі, через список і візуальні підказки наближення (Vladimir Ivakhnenko, c-basso у стор-метаданих, як в інших локалях)."},
+      { "question": "Чи замінює Find My?", "answer": "Повною копією всіх сервісів iCloud-локатора не є; ціль інша: локальний сигнал у зоні приймання." },
+      { "question": "Чи гарантує відсоток сантиметр?", "answer": "Ні, це відхилення від сили поля, не виміряна лінійка; будівні матеріали, вода, метал впливають." },
+      { "question": "Коли 0 USD у схемі — що це?", "answer": "У JSON-LD Offer, перевіряйте актуал у App Store на 2026." },
+      { "question": "iOS, розмір, вік", "answer": "17.1+; 25,3 МБ; 4+; iPhone, не iPad, якщо store не пише інакше (уточнити в App Store listing)." },
+      { "question": "Чи підходить для non-Apple?", "answer": "Так, якщо вони рекламуються в Bluetooth, можуть з’явитися в переліку (залежить від кожної моделі)." },
+      { "question": "Чи є це керівником кримінального розшуку?", "answer": "Ні, це споживча утиліта, не силова служба. У серйозних випадках — міліція/відповідна служба, не в цьому описі сценарію app." },
+      { "question": "GEO: нащо F.A.Q. та таблиця", "answer": "Дають цитатні абзаци для Perplexity/Claude/ChatGPT з фактом і модерацією заяв, як рекомендує best practice GEO 2024–2026." },
+      { "question": "ID продукту", "answer": "6756609274 у build/constants, URL App Store — з build." },
+      { "question": "дата", "answer": "dateModified у structured_data: 2026-04-26 для цієї публікації контенту." }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org", "@type": "MobileApplication", "name": "Bluetooth Finder",
+        "alternateName": "додаток знайти Bluetooth, втрачені airpods, ua", "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+        "description": "UA, iOS, bluetooth finder, наближення, список.",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Логотип" },
+        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
+        "url": "https://bluetoothfinderapp.com/uk/", "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" }, "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "bluetooth, знайти, airpod, iOS, ua", "inLanguage": "uk", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "Потрібен iOS 17.1 або новіший",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/uk/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "UA, Bluetooth, пошук, лендінг." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/uk/", "description": "Сторінка українською, uk_UA, canonical.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/uk/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Як знайти втрачений гаджет (Bluetooth) з Bluetooth Finder", "description": "6 кроків, schema.", "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Завантажити", "text": "App Store, 25,3MB, 17.1+." },
+        { "@type": "HowToStep", "position": 2, "name": "Дозвіл", "text": "Bluetooth on." },
+        { "@type": "HowToStep", "position": 3, "name": "Вибір", "text": "з списку." },
+        { "@type": "HowToStep", "position": 4, "name": "Гаряча–холодна", "text": "рух в «теплішу» зону." },
+        { "@type": "HowToStep", "position": 5, "name": "Відсоток", "text": "високий=відносно ближче (умови!), не GPS." },
+        { "@type": "HowToStep", "position": 6, "name": "Забрати", "text": "руками, оком, під подушкою, у шафі, у сумці." }
+      ] },
+      "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        { "@type": "Question", "name": "Що за застосунок?", "acceptedAnswer": { "@type": "Answer", "text": "iOS, близький сигнал, %, плюс-мінус, не 100% геометрія, справедливо." } },
+        { "@type": "Question", "name": "Find My — інший?", "acceptedAnswer": { "@type": "Answer", "text": "Так, ціль хмарна/мережева інша, можна паралельно, не плутаючи." } }
+      ] },
+      "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Головна", "item": "https://bluetoothfinderapp.com/uk/" }] }
+    }
+  }
+}

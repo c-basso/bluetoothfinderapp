@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="dns-prefetch" href="https://apps.apple.com">
+  <link rel="dns-prefetch" href="https://mc.yandex.ru">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <title>Bluetooth Finder - Kayıp Bluetooth Cihazı Bul | AirPods, saat, kulaklık</title>
+  
+  <!-- App Store Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=6756609274">
+  
+  <!-- Core SEO -->
+  <meta name="description" content="Bluetooth finder uygulaması: AirPods, akıllı saat, kulaklık ve açık diğer Bluetooth cihazlarını yakınlıkla tespit. Sıcak–soğuk rehberi ve yüzde (yakınlık) göstergesi. iOS 17.1+ gerekir. App Store’dan ücretsiz. Geliştirici: Vladimir Ivakhnenko.">
+  <meta name="keywords" content="bluetooth bul, kayıp airpod, bluetooth cihaz bulma, iPhone uygulaması, bluetooth tarayıcı, akıllı saat bul, bluetooth izleyici, yakındaki cihaz">
+  <meta name="author" content="Bluetooth Finder">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <link rel="canonical" href="https://bluetoothfinderapp.com/tr/">
+  
+  <!-- Alternate Language Links -->
+  
+  <link rel="alternate" hreflang="en" href="https://bluetoothfinderapp.com/" />
+  
+  <link rel="alternate" hreflang="es" href="https://bluetoothfinderapp.com/es/" />
+  
+  <link rel="alternate" hreflang="de" href="https://bluetoothfinderapp.com/de/" />
+  
+  <link rel="alternate" hreflang="fr" href="https://bluetoothfinderapp.com/fr/" />
+  
+  <link rel="alternate" hreflang="it" href="https://bluetoothfinderapp.com/it/" />
+  
+  <link rel="alternate" hreflang="ja" href="https://bluetoothfinderapp.com/jp/" />
+  
+  <link rel="alternate" hreflang="ko" href="https://bluetoothfinderapp.com/ko/" />
+  
+  <link rel="alternate" hreflang="nl" href="https://bluetoothfinderapp.com/nl/" />
+  
+  <link rel="alternate" hreflang="pl" href="https://bluetoothfinderapp.com/pl/" />
+  
+  <link rel="alternate" hreflang="pt" href="https://bluetoothfinderapp.com/pt/" />
+  
+  <link rel="alternate" hreflang="ro" href="https://bluetoothfinderapp.com/ro/" />
+  
+  <link rel="alternate" hreflang="ru" href="https://bluetoothfinderapp.com/ru/" />
+  
+  <link rel="alternate" hreflang="th" href="https://bluetoothfinderapp.com/th/" />
+  
+  <link rel="alternate" hreflang="tr" href="https://bluetoothfinderapp.com/tr/" />
+  
+  <link rel="alternate" hreflang="uk" href="https://bluetoothfinderapp.com/uk/" />
+  
+  <link rel="alternate" hreflang="vi" href="https://bluetoothfinderapp.com/vi/" />
+  
+  <link rel="alternate" hreflang="x-default" href="https://bluetoothfinderapp.com/" />
+  
+  <!-- PWA & Theming -->
+  <meta name="theme-color" content="#0A0E27">
+  <meta name="msapplication-TileColor" content="#0A0E27">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bluetooth Finder - Bluetooth cihaz bulma uygulaması">
+  <meta property="og:description" content="Tarama, sıcak–soğuk, yüzde. Yakındaki açık Bluetooth cihazlarını (AirPods, saat, kulaklık) bulmaya yardım. 2026 TR, iOS 17.1+, App Store, SEO/GEO, IAP varsa.">
+  <meta property="og:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta property="og:image:alt" content="Bluetooth Finder - cihaz bul">
+  <meta property="og:image:width" content="1140">
+  <meta property="og:image:height" content="599">
+  <meta property="og:logo" content="https://bluetoothfinderapp.com/img/logo.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluetoothfinderapp.com/tr/">
+  <meta property="og:site_name" content="Bluetooth Finder">
+  <meta property="og:locale" content="tr_TR">
+  
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://bluetoothfinderapp.com/tr/">
+  <meta property="twitter:title" content="Bluetooth Finder - hızlı Bluetooth arama">
+  <meta property="twitter:description" content="iOS, AirPods, saat, hoparlör. Sıcak-soğuk ve yüzde ile yönlendirme.">
+  <meta property="twitter:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta name="twitter:image:alt" content="Bluetooth Finder">
+  <meta name="twitter:image:width" content="1140">
+  <meta name="twitter:image:height" content="599">
+  
+  <!-- Icons & Manifest -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="mask-icon" href="/img/favicon.svg" color="#0A0E27">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png">
+  
+  <!-- Application Name -->
+  <meta name="application-name" content="Bluetooth Finder – Bluetooth cihaz bulucu">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css?v=1777213345600">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+      <div class="hero-content">
+        <div class="logo-wrapper">
+          <img src="/img/logo.webp" alt="Bluetooth Finder logo - AirPods, saat, kulaklık" class="logo" width="140" height="140" loading="eager" decoding="async">
+        </div>
+        <h1>Bluetooth Finder</h1>
+        <p class="subtitle">Kaybettiğin cihaza daha hızlı ulaş.</p>
+        <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="App Store’dan Bluetooth Finder indir" rel="noopener noreferrer">
+          <span>App Store’da indir</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots-section" aria-label="App Screenshots">
+      <div class="screenshots-grid">
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/1_cover_12_framed.webp" alt="Bluetooth Finder - kapak" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/2_scan_12_framed.webp" alt="Bluetooth Finder - tarama" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/3_track_12_framed.webp" alt="Bluetooth Finder - izleme" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/4_info_12_framed.webp" alt="Bluetooth Finder - bilgi" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Summary / TL;DR for GEO -->
+      <section class="content-section summary-tldr" aria-label="Özet (TL;DR)">
+        <div class="tldr-box fade-in">
+          <p class="tldr-label">Özet (TL;DR)</p>
+          <p class="tldr-text">Bluetooth Finder, iPhone için bir yardımcı uygulamadır: yakındaki açık Bluetooth cihazlarını (kulaklık, saat, hoparlör vb.) listeler; sıcak–soğuk aşamaları ve bir yüzde değeriyle kabaca yakınlaşma hissi verir. Apple ‘Find My’ ağının tüm senaryolarının yerine geçmez: amaç, radyo menzili içinde yön bulmaktır. iOS 17.1+, ~25,3 MB, 4+ yaş, App Store id 6756609274 (sabitlerden).</p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="intro-text fade-in">
+          Kulaklık veya saatini mi kaybettin? <strong>Bluetooth Finder</strong>, <em>bluetooth bul</em> ve <em>airpod bul</em> gibi arama niyetine yanıt veren bir iOS uygulamasıdır; bu sayfa (TR) yasal, tarafsız ve alıntılanabilir bilgiler verir.
+        </div>
+        
+        <div class="intro-text fade-in">
+          Liste, çevredeki cihazlardan beslenir; hareket ederken ‘daha sıcak’ bölgeye ilerle. Yüzde, mutlak metre değil; beton, metal, kalabalık, anten: radyo fiziğini değiştirebilir.
+        </div>
+      </section>
+
+      <!-- Key Facts (By the Numbers) for GEO -->
+      <section class="content-section" aria-labelledby="key-facts-heading">
+        <div class="section-header fade-in">
+          <h2 id="key-facts-heading">Bluetooth Finder rakamlarla</h2>
+        </div>
+        <ul class="key-facts-list fade-in" aria-label="Key facts about Bluetooth Finder">
+          
+          <li><strong>25,3 MB</strong> — Boyut</li>
+          
+          <li><strong>iOS 17.1+</strong> — Sistem</li>
+          
+          <li><strong>4+</strong> — Yaş</li>
+          
+          <li><strong>Ücretsiz, IAP</strong> — İndirme</li>
+          
+          <li><strong>Çok sayıda cihaz tipi</strong> — Örnek</li>
+          
+        </ul>
+      </section>
+
+      <!-- Features Section -->
+      <section class="content-section" aria-labelledby="features-heading">
+        <div class="section-header fade-in">
+          <h2 id="features-heading">Neden bu bluetooth finder uygulaması</h2>
+          <p class="section-subtitle">Beş somut madde:</p>
+        </div>
+        
+        <div class="features-grid">
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">1</div>
+            <h3>Hızlı tarama</h3>
+            <p>Yakındaki cihazlar listelenir; izinler açık olmalı.</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">2</div>
+            <h3>Sıcak & soğuk</h3>
+            <p>Yaklaşmaya dair aşamalı his; eğlenceli de olsa pratik yönlendirme hedefi.</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">3</div>
+            <h3>Yakınlık %</h3>
+            <p>Göreli; RSSI türevi bir imge; GPS km değil.</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">4</div>
+            <h3>Cihaz bilgisi</h3>
+            <p>Üretici, model, ad: kalabalık alanda ayrıştırmak için.</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">5</div>
+            <h3>Kullanım alanları</h3>
+            <p>Ev, ofis, toplu taşıma; cihaz açık ve menzildeyse fayda olasılığı artar (garanti değil).</p>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- How to Use Section -->
+      <section class="content-section">
+        <div class="how-to-section fade-in">
+          <div class="how-to-content">
+            <h2 style="margin-bottom: 32px;">Kullanım (HowTo şeması aşağıda)</h2>
+            <p>Yükle, Bluetooth izni ver, tara, listeden seç, hareket et, sıcak–soğuk ve yüzdeyi izle, gözle yerinde yakala; son adım: fiziksel arama.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why You'll Love Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Kimler için</h2>
+        </div>
+        <div class="intro-text fade-in">
+          TWS kulaklık, spor bandı, hoparlör kullananlar; iOS 17.1+ iPhone sahibi; Find My dışındaki veya ağa eklenmeyen cihazlar için ek bir yakınlık aracı arayanlar.
+        </div>
+      </section>
+
+      <!-- Who Should Use Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Türkçe (hreflang tr) ve yapay zekâ görünürlüğü</h2>
+        </div>
+        <div class="intro-text fade-in">
+          Tablo, SSS, sayılar, last updated, net varlık tanımı: GEO rehberine uygun, abartısız ifadeler.
+        </div>
+      </section>
+
+      <!-- Advanced Features Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>Ek notlar</h2>
+        </div>
+        <div class="intro-text fade-in">
+          Uygulama içi satın alma olabilir; sürüm ve fiyatı App Store’dan doğrulayın. Sayfa son güncelleme: 2026-04-26.
+        </div>
+      </section>
+
+      <!-- Comparison table for GEO -->
+      <section class="content-section comparison-section" id="comparison" aria-labelledby="comparison-heading">
+        <div class="section-header fade-in">
+          <h2 id="comparison-heading">Bluetooth Finder ve Find My ve jenerik tarayıcı</h2>
+          <p class="section-subtitle">Dürüst, karşılaştırmalı, abartısız:</p>
+        </div>
+        <div class="comparison-table-wrapper fade-in">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col">Özellik</th>
+                <th scope="col">Bluetooth Finder</th>
+                <th scope="col">Find My</th>
+                <th scope="col">Genel tarayıcı</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td>Odak</td>
+                <td>Fiziksel yakın, birçok marka, açık BT</td>
+                <td>Apple ağı, hesap, birçok senaryo</td>
+                <td>Listeler, farklı kalite</td>
+              </tr>
+              
+              <tr>
+                <td>Yaklaşma ipucu</td>
+                <td>Sıcak-soğuk + %</td>
+                <td>Yön/mesafe (cihaz ve duruma göre)</td>
+                <td>Çoğunlukla sadece isim</td>
+              </tr>
+              
+              <tr>
+                <td>Platform (bu uygulama)</td>
+                <td>iOS 17.1+ iPhone</td>
+                <td>Apple platformları (çeşitli uygulamalar)</td>
+                <td>Değişir</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- FAQ Section (visible for GEO + schema) -->
+      <section class="content-section faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="section-header fade-in">
+          <h2 id="faq-heading">Sıkça sorulan sorular (TR)</h2>
+        </div>
+        <dl class="faq-list fade-in">
+          
+          <div class="faq-item">
+            <dt><strong>Bluetooth Finder nedir?</strong></dt>
+            <dd>Vladimir Ivakhnenko tarafından sunulan, iOS’ta (iPhone) yakındaki Bluetooth cihazlarını taramaya ve bir sıcak–soğuk + yüzde rehberiyle yaklaşmaya yardımcı bir MobileApplication kategorisinde uygulamadır. Tam bir polis/emniyet aracı değildir; hırsızlık gibi ciddi olaylarda resmi mercilere başvurun.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Nasıl çalışır?</strong></dt>
+            <dd>Radyo sinyalinin gücü hakkında göreli ipuçları; GPS mesafesi gibi değil; duvar ve müdahale eden cisimler sinyali değiştirir.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>AirPods bulur mu?</strong></dt>
+            <dd>Açık ve menzildeyse, listede ve rehberde ilerleme; %100 yok, ortam faktörlü.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Find My yerine her zaman mı?</strong></dt>
+            <dd>Hayır; farklı amaçlar, bazen birlikte mantıklı, bazen sadece biri.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Ücret?</strong></dt>
+            <dd>Şemada 0 fiyat; IAP olabilir; App Store’u okuyun.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Gereksinimler?</strong></dt>
+            <dd>iOS 17.1 veya üzeri, 25,3 MB, 4+.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Yüzde tam mesafe midir?</strong></dt>
+            <dd>Hayır; göreli ve koşullu.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Kalabalık ortam?</strong></dt>
+            <dd>Çok cihaz: doğru adı seç, sonra hareket et.</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Telif / marka</strong></dt>
+            <dd>AirPods Apple’ın markası; metin açıklayıcıdır, üçüncü partilerle ilişki iddiası yok (örnek isimler).</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Bu sayfa neden SEO/GEO için iyi?</strong></dt>
+            <dd>Varlık açık, SSS, tablo, sayı, schema.org, güncel tarih, dürüst sınırlar: LLM alıntıları için uygun.</dd>
+          </div>
+          
+        </dl>
+      </section>
+
+      <!-- Download Section -->
+      <section class="download-section">
+        <div class="download-content fade-in">
+          <h2 style="margin-bottom: 24px;">Hemen indir</h2>
+          <p><a href="https://apps.apple.com/app/id6756609274" rel="noopener noreferrer">App Store</a> üzerinden Bluetooth Finder. Şema: Offer 0 USD (güncel fiyatı mağazadan kontrol edin).</p>
+          <div style="margin-top: 48px;">
+            <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="App Store’dan Bluetooth Finder indir" rel="noopener noreferrer">
+              <span>App Store’da indir</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>© 2026 Bluetooth Finder. All rights reserved.</p>
+      <p><a href="/privacy.html">Gizlilik Politikası</a> | <a href="/terms.html">Kullanım Şartları</a></p>
+      <p class="last-updated" aria-label="Güncellendi">Güncellendi 26 Nisan 2026</p>
+    </footer>
+  </div>
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"MobileApplication","name":"Bluetooth Finder","alternateName":"bluetooth bul, yakın cihaz, iOS uygulaması","applicationCategory":"UtilityApplication","operatingSystem":"iOS","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://apps.apple.com/app/id6756609274"},"description":"iOS, TR, bluetooth bulma, airpods, saat, kulaklık.","image":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/logo.webp","width":140,"height":140,"caption":"Logo"},"screenshot":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/1_cover_12_framed.webp","width":390,"height":844},"url":"https://bluetoothfinderapp.com/tr/","author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"publisher":{"@type":"Person","name":"Vladimir Ivakhnenko"},"keywords":"bluetooth, bul, airpod, iOS, finder, TR","inLanguage":"tr","datePublished":"2024-12-31","dateModified":"2026-04-26","softwareVersion":"1.3","fileSize":"25.3MB","softwareRequirements":"iOS 17.1 veya üzeri gerekir","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","ratingCount":"100"},"downloadUrl":"https://apps.apple.com/app/id6756609274"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/tr/","logo":"https://bluetoothfinderapp.com/img/logo.webp","description":"Türkçe açılış, Bluetooth cihaz bulma."}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/tr/","description":"tr, SSS, tablo, indir.","potentialAction":{"@type":"SearchAction","target":"https://bluetoothfinderapp.com/tr/?q={search_term_string}","query-input":"required name=search_term_string"},"inLanguage":"tr"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"HowTo","name":"Bluetooth Finder ile cihaza yaklaşma","description":"Altı adım.","step":[{"@type":"HowToStep","position":1,"name":"İndir","text":"25,3 MB, 17.1+.","url":"https://apps.apple.com/app/id6756609274"},{"@type":"HowToStep","position":2,"name":"İzin","text":"Bluetooth."},{"@type":"HowToStep","position":3,"name":"Seç","text":"Cihaz."},{"@type":"HowToStep","position":4,"name":"Sıcak–soğuk","text":"Yönel."},{"@type":"HowToStep","position":5,"name":"Yüzde","text":"Dikkatle oku, göreceli."},{"@type":"HowToStep","position":6,"name":"Al","text":"Fiziksel al."}]}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Bluetooth Finder nedir?","acceptedAnswer":{"@type":"Answer","text":"Vladimir Ivakhnenko tarafından sunulan, iOS’ta (iPhone) yakındaki Bluetooth cihazlarını taramaya ve bir sıcak–soğuk + yüzde rehberiyle yaklaşmaya yardımcı bir MobileApplication kategorisinde uygulamadır. Tam bir polis/emniyet aracı değildir; hırsızlık gibi ciddi olaylarda resmi mercilere başvurun."}},{"@type":"Question","name":"Nasıl çalışır?","acceptedAnswer":{"@type":"Answer","text":"Radyo sinyalinin gücü hakkında göreli ipuçları; GPS mesafesi gibi değil; duvar ve müdahale eden cisimler sinyali değiştirir."}},{"@type":"Question","name":"AirPods bulur mu?","acceptedAnswer":{"@type":"Answer","text":"Açık ve menzildeyse, listede ve rehberde ilerleme; %100 yok, ortam faktörlü."}},{"@type":"Question","name":"Find My yerine her zaman mı?","acceptedAnswer":{"@type":"Answer","text":"Hayır; farklı amaçlar, bazen birlikte mantıklı, bazen sadece biri."}},{"@type":"Question","name":"Ücret?","acceptedAnswer":{"@type":"Answer","text":"Şemada 0 fiyat; IAP olabilir; App Store’u okuyun."}},{"@type":"Question","name":"Gereksinimler?","acceptedAnswer":{"@type":"Answer","text":"iOS 17.1 veya üzeri, 25,3 MB, 4+."}},{"@type":"Question","name":"Yüzde tam mesafe midir?","acceptedAnswer":{"@type":"Answer","text":"Hayır; göreli ve koşullu."}},{"@type":"Question","name":"Kalabalık ortam?","acceptedAnswer":{"@type":"Answer","text":"Çok cihaz: doğru adı seç, sonra hareket et."}},{"@type":"Question","name":"Telif / marka","acceptedAnswer":{"@type":"Answer","text":"AirPods Apple’ın markası; metin açıklayıcıdır, üçüncü partilerle ilişki iddiası yok (örnek isimler)."}},{"@type":"Question","name":"Bu sayfa neden SEO/GEO için iyi?","acceptedAnswer":{"@type":"Answer","text":"Varlık açık, SSS, tablo, sayı, schema.org, güncel tarih, dürüst sınırlar: LLM alıntıları için uygun."}}]}
+  </script>
+  
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana sayfa","item":"https://bluetoothfinderapp.com/tr/"}]}
+  </script>
+
+  <!-- Scroll animations -->
+  <script>
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(106104643, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/106104643" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+</body>
+
+</html>

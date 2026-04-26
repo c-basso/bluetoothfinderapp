@@ -5,12 +5,21 @@
   
   <url>
     <loc>https://bluetoothfinderapp.com/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://bluetoothfinderapp.com/ru/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://bluetoothfinderapp.com/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://bluetoothfinderapp.com/fr/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://bluetoothfinderapp.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bluetoothfinderapp.com/fr/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://bluetoothfinderapp.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bluetoothfinderapp.com/jp/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bluetoothfinderapp.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bluetoothfinderapp.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bluetoothfinderapp.com/pl/" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://bluetoothfinderapp.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://bluetoothfinderapp.com/ro/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bluetoothfinderapp.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://bluetoothfinderapp.com/th/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bluetoothfinderapp.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://bluetoothfinderapp.com/uk/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://bluetoothfinderapp.com/vi/" />
     <priority>1.0</priority>
   </url>
 

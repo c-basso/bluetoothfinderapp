@@ -10,12 +10,21 @@ const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
 
 const LANGUAGES = [
     DEFAULT_LANGUAGE,
-    'ru',
     'es',
-    'fr',
     'de',
+    'fr',
     'it',
-    'pt'
+    'jp',
+    'ko',
+    'nl',
+    'pl',
+    'pt',
+    'ro',
+    'ru',
+    'th',
+    'tr',
+    'uk',
+    'vi',
 ];
 
 /** BCP 47 hreflang values (URL path stays short: jp, cn, …). */

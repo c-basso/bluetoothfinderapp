@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="dns-prefetch" href="https://apps.apple.com">
+  <link rel="dns-prefetch" href="https://mc.yandex.ru">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <title>Bluetooth Finder｜紛失したBluetooth機器を探すiPhoneアプリ | AirPods・スマートウォッチ</title>
+  
+  <!-- App Store Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=6756609274">
+  
+  <!-- Core SEO -->
+  <meta name="description" content="Bluetoothファインダーアプリで、AirPods、スマートウォッチ、ヘッドホンなど電源の入ったBluetooth機器を素早く探索。温冷（ホット&コールド）案内と接近度（％）表示で、置き忘れた端末の発見を支援。iOS 17.1以降対応。">
+  <meta name="keywords" content="Bluetooth 探す, Bluetooth ファインダー, 紛失 イヤホン 探し, AirPods 探し アプリ, Bluetooth トラッカー, 近くのデバイス 探す, iPhone Bluetooth スキャン, 端末 発見 アプリ">
+  <meta name="author" content="Bluetooth Finder">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <link rel="canonical" href="https://bluetoothfinderapp.com/jp/">
+  
+  <!-- Alternate Language Links -->
+  
+  <link rel="alternate" hreflang="en" href="https://bluetoothfinderapp.com/" />
+  
+  <link rel="alternate" hreflang="es" href="https://bluetoothfinderapp.com/es/" />
+  
+  <link rel="alternate" hreflang="de" href="https://bluetoothfinderapp.com/de/" />
+  
+  <link rel="alternate" hreflang="fr" href="https://bluetoothfinderapp.com/fr/" />
+  
+  <link rel="alternate" hreflang="it" href="https://bluetoothfinderapp.com/it/" />
+  
+  <link rel="alternate" hreflang="ja" href="https://bluetoothfinderapp.com/jp/" />
+  
+  <link rel="alternate" hreflang="ko" href="https://bluetoothfinderapp.com/ko/" />
+  
+  <link rel="alternate" hreflang="nl" href="https://bluetoothfinderapp.com/nl/" />
+  
+  <link rel="alternate" hreflang="pl" href="https://bluetoothfinderapp.com/pl/" />
+  
+  <link rel="alternate" hreflang="pt" href="https://bluetoothfinderapp.com/pt/" />
+  
+  <link rel="alternate" hreflang="ro" href="https://bluetoothfinderapp.com/ro/" />
+  
+  <link rel="alternate" hreflang="ru" href="https://bluetoothfinderapp.com/ru/" />
+  
+  <link rel="alternate" hreflang="th" href="https://bluetoothfinderapp.com/th/" />
+  
+  <link rel="alternate" hreflang="tr" href="https://bluetoothfinderapp.com/tr/" />
+  
+  <link rel="alternate" hreflang="uk" href="https://bluetoothfinderapp.com/uk/" />
+  
+  <link rel="alternate" hreflang="vi" href="https://bluetoothfinderapp.com/vi/" />
+  
+  <link rel="alternate" hreflang="x-default" href="https://bluetoothfinderapp.com/" />
+  
+  <!-- PWA & Theming -->
+  <meta name="theme-color" content="#0A0E27">
+  <meta name="msapplication-TileColor" content="#0A0E27">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bluetooth Finder｜Bluetooth機器の発見アプリ">
+  <meta property="og:description" content="紛失したAirPods、スマートウォッチ、イヤホン、スピーカーなど電源の入ったBluetooth端末を探索。温冷案内（コールド・ウォーム・ホット）と接近度パーセントでiPhoneから近づきを掴みます。iOS 17.1以降。App Storeから無料。">
+  <meta property="og:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta property="og:image:alt" content="Bluetooth Finder – 紛失デバイスの探索">
+  <meta property="og:image:width" content="1140">
+  <meta property="og:image:height" content="599">
+  <meta property="og:logo" content="https://bluetoothfinderapp.com/img/logo.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluetoothfinderapp.com/jp/">
+  <meta property="og:site_name" content="Bluetooth Finder">
+  <meta property="og:locale" content="ja_JP">
+  
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://bluetoothfinderapp.com/jp/">
+  <meta property="twitter:title" content="Bluetooth Finder｜Bluetoothデバイスを素早く発見">
+  <meta property="twitter:description" content="近くのBluetooth機器をスキャン。温冷フィードバックと接近度％で、AirPodsやスマートウォッチ、ヘッドホンを探索。">
+  <meta property="twitter:image" content="https://bluetoothfinderapp.com/site_preview.png">
+  <meta name="twitter:image:alt" content="Bluetooth Finder アプリ">
+  <meta name="twitter:image:width" content="1140">
+  <meta name="twitter:image:height" content="599">
+  
+  <!-- Icons & Manifest -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="mask-icon" href="/img/favicon.svg" color="#0A0E27">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png">
+  
+  <!-- Application Name -->
+  <meta name="application-name" content="Bluetooth Finder – Bluetoothデバイスを探す">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css?v=1777213345600">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+      <div class="hero-content">
+        <div class="logo-wrapper">
+          <img src="/img/logo.webp" alt="Bluetooth Finder ロゴ – AirPods、スマートウォッチ、イヤホンの探索" class="logo" width="140" height="140" loading="eager" decoding="async">
+        </div>
+        <h1>Bluetooth Finder</h1>
+        <p class="subtitle">紛失した端末を、手早く発見。</p>
+        <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="App Storeから Bluetooth Finder をダウンロード" rel="noopener noreferrer">
+          <span>App Storeでダウンロード</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots-section" aria-label="App Screenshots">
+      <div class="screenshots-grid">
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/1_cover_12_framed.webp" alt="Bluetooth Finder – 表紙画面" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/2_scan_12_framed.webp" alt="Bluetooth Finder – スキャン画面" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/3_track_12_framed.webp" alt="Bluetooth Finder – 追跡画面" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+        <div class="screenshot-wrapper">
+          <img src="/img/4_info_12_framed.webp" alt="Bluetooth Finder – 情報画面" class="screenshot" loading="lazy" decoding="async">
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Summary / TL;DR for GEO -->
+      <section class="content-section summary-tldr" aria-label="概要">
+        <div class="tldr-box fade-in">
+          <p class="tldr-label">概要</p>
+          <p class="tldr-text">Bluetooth Finder（Bluetoothファインダー）とは、iPhone向けのユーティリティアプリで、電源の入った近くのBluetooth機器（AirPods、スマートウォッチ、ヘッドホンなど）を、温冷（コールド・ウォーム・ホット）の案内と接近度の数値（％）で導きます。Appleの「探す」ネットワークへの事前登録を除く、任意のBLE機器向け。無料でインストール可能。対応：iOS 17.1以降。</p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="intro-text fade-in">
+          Bluetooth機器の置き忘しは、日常でよく起こります。<strong>Bluetooth Finder</strong>は、身の回りのBluetooth端末を素早く探すアプリで、AirPods、スマートウォッチ、各種イヤフォンに対応します。忙しい朝や移動中でも、探し方がはっきり分かる設計です。
+        </div>
+        
+        <div class="intro-text fade-in">
+          リアルタイムのスキャンで周辺の機器を一覧化し、移動に合わせた温冷と接近度（％）で、目的の端末の方向へ導きます。混雑した部屋から自宅のソファ下まで、Bluetooth端末探しの負担を減らします。
+        </div>
+      </section>
+
+      <!-- Key Facts (By the Numbers) for GEO -->
+      <section class="content-section" aria-labelledby="key-facts-heading">
+        <div class="section-header fade-in">
+          <h2 id="key-facts-heading">Bluetooth Finderの数値・事実</h2>
+        </div>
+        <ul class="key-facts-list fade-in" aria-label="Key facts about Bluetooth Finder">
+          
+          <li><strong>25.3 MB</strong> — アプリのサイズ</li>
+          
+          <li><strong>iOS 17.1+</strong> — 互換性</li>
+          
+          <li><strong>4+</strong> — レーティング</li>
+          
+          <li><strong>無料</strong> — ダウンロード</li>
+          
+          <li><strong>AirPods、スマートウォッチ、他BLE機器</strong> — 想定端末</li>
+          
+        </ul>
+      </section>
+
+      <!-- Features Section -->
+      <section class="content-section" aria-labelledby="features-heading">
+        <div class="section-header fade-in">
+          <h2 id="features-heading">Bluetoothファインダーとして使われる理由</h2>
+          <p class="section-subtitle">Bluetooth Finderの主な特長です。</p>
+        </div>
+        
+        <div class="features-grid">
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">1</div>
+            <h3>近くの機器をすばやくスキャン</h3>
+            <p>Bluetoothがオンで電波圏内にある端末を自動で検出します。難しい設定は不要。結果は即座に更新され、自宅、オフィス、電車内などでも利用可能です。</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">2</div>
+            <h3>温冷（ホット&コールド）案内</h3>
+            <p>遠い・近いの感覚を段階表示（例：コールド＝遠方、ウォーム、ホット、非常にホット＝手の届く距離）で示します。歩きながら、端末に近づいているかを直感的に確認できます。</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">3</div>
+            <h3>接近度の数値（％）</h3>
+            <p>信号強度に基づき、端末に対する相対的な近さをパーセント表示します。数値と温冷を併用することで、探索の手戻りを減らせます。</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">4</div>
+            <h3>端末名・メーカー・モデル</h3>
+            <p>検出した各機器に、可能な範囲で製造元、モデル、表示名を示します。同じ部屋に複数のBluetooth端末があっても、追いかける対象を区別しやすくなります。</p>
+          </article>
+          
+          <article class="feature-card fade-in">
+            <div class="feature-number">5</div>
+            <h3>多様なシーン</h3>
+            <p>在宅、職場、満員の車両内など。Bluetoothの電源が入っていれば、多くのオーディオ端末、ウェアラブル、スピーカー向けの探索補助として使えます。</p>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- How to Use Section -->
+      <section class="content-section">
+        <div class="how-to-section fade-in">
+          <div class="how-to-content">
+            <h2 style="margin-bottom: 32px;">使い方（Bluetooth端末の探索手順）</h2>
+            <p>アプリを開き、Bluetoothの利用を許可してスキャンを実行します。一覧から探している端末を選び、温冷と接近度（％）を見ながら歩きます。表示が最も近い段階になったら、その周辺を目視で確認します。在宅、オフィス、人混みでも同じ手順で利用できます。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why You'll Love Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>こんな人におすすめ</h2>
+        </div>
+        <div class="intro-text fade-in">
+          手探りの探索を減らし、フィードバックに沿って動けるようになります。仕事と移動の多い人、子どもとイヤフォンを共有している家庭、フィットネストラッカーや第3世代のEarbuds利用者に適し、iPhone一台でBluetooth近傍探索の補助を得られます。
+        </div>
+      </section>
+
+      <!-- Who Should Use Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>こんな用途に合います</h2>
+        </div>
+        <div class="intro-text fade-in">
+          紛失しやすい真無線イヤフォン、スマートウォッチ、首掛けヘッドホン、ポータブルスピーカー。Bluetooth端末探し（Bluetooth デバイス 探す）を、短い手順で試したい方へ。
+        </div>
+      </section>
+
+      <!-- Advanced Features Section -->
+      <section class="content-section">
+        <div class="section-header fade-in">
+          <h2>補足機能</h2>
+        </div>
+        <div class="intro-text fade-in">
+          近傍リストの更新、温冷段階と％の併用、比較的軽量な動作を目指した設計。iOS 17.1以降のiPhoneで、App Storeから無料インストール後に利用可能です（アプリ内課金あり）。
+        </div>
+      </section>
+
+      <!-- Comparison table for GEO -->
+      <section class="content-section comparison-section" id="comparison" aria-labelledby="comparison-heading">
+        <div class="section-header fade-in">
+          <h2 id="comparison-heading">Bluetooth Finder、探す、汎用スキャナの比較</h2>
+          <p class="section-subtitle">紛失補助の違い（要旨）：</p>
+        </div>
+        <div class="comparison-table-wrapper fade-in">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col">項目</th>
+                <th scope="col">Bluetooth Finder</th>
+                <th scope="col">探す（Find My）</th>
+                <th scope="col">汎用スキャン</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td>対象</td>
+                <td>近傍で電源の入った多くのBluetooth端末</td>
+                <td>主にApple向け、事前登録を前提</td>
+                <td>端末の一覧中心、距離案内に乏しいことが多い</td>
+              </tr>
+              
+              <tr>
+                <td>あらかじめの紐づけ</td>
+                <td>不要</td>
+                <td>ネットワーク登録等が必要な場合あり</td>
+                <td>多くの場合、不要</td>
+              </tr>
+              
+              <tr>
+                <td>近づき方の手がかり</td>
+                <td>温冷＋接近度（％）</td>
+                <td>対象機器では方向・距離の案内</td>
+                <td>多くは一覧のみ</td>
+              </tr>
+              
+              <tr>
+                <td>プラットフォーム</td>
+                <td>iOS 17.1以降</td>
+                <td>Apple エコシステム</td>
+                <td>アプリごとに異なる</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- FAQ Section (visible for GEO + schema) -->
+      <section class="content-section faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="section-header fade-in">
+          <h2 id="faq-heading">よくある質問（Bluetooth Finder / Bluetooth 探す）</h2>
+        </div>
+        <dl class="faq-list fade-in">
+          
+          <div class="faq-item">
+            <dt><strong>Bluetooth Finder とは何のアプリですか？</strong></dt>
+            <dd>iPhone上で、近くのBLE対応端末（AirPods、各種イヤフォン、スマートウォッチなど）を、スキャンと温冷、接近度の表示を使って探しやすくするアプリカテゴリ（Bluetooth ファインダー、Bluetooth デバイス 探し）向けのユーティリティです。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>どのように近づきを示しますか？</strong></dt>
+            <dd>信号に基づき、温冷の段階と接近度の数値（％）を併用します。メーカー名、モデル、可能な表示名を一覧で示し、同じ部屋の複数端末を区別しやすくします。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>紛失した AirPods やイヤフォン向けに使えますか？</strong></dt>
+            <dd>近傍に電源が入っていてBluetoothが有効であれば、多くのケースで候補として列挙され、案内表示で周辺を絞れます。最終的な目視の確認はユーザーの作業です。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>Apple 以外の端末（Androidスマートウォッチ、サードパーティスピーカー等）の探索に使えますか？</strong></dt>
+            <dd>Bluetoothの電源が入っていれば、近傍のBLE機器として多く表示されます。機種ごとに表記名や信号の振る舞いは異なりますが、汎用の近傍探索の補助として利用可能です。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>料金は？</strong></dt>
+            <dd>App Storeからのダウンロードは無料。一部機能はアプリ内課金の対象となる場合があります。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>動作環境は？</strong></dt>
+            <dd>iOS 17.1以降のiPhone。Bluetoothの使用許可が必要です。アプリサイズは目安 25.3 MB、年齢制限4+。開発者Vladimir Ivakhnenko。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>近接の％表示は、絶対距離ですか？</strong></dt>
+            <dd>信号強度に基づく相対的な目安で、建物内の材質、混信、バッテリー状況で変化します。温冷と併用することを推奨します。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>混雑した場所でも？</strong></dt>
+            <dd>多数の端末が存在する場所では、一覧の識別と、対象端末の選択が重要です。可能な限り、デバイス名で絞り込みます。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>探す（Find My）とどう違いますか？</strong></dt>
+            <dd>探すはApple向けのエコシステムと、事前登録の前提に強いです。Bluetooth Finderは、事前のネットワーク登録なしで、近くの多くのBLE端末向けの温冷＋接近度案内に重点を置きます。</dd>
+          </div>
+          
+          <div class="faq-item">
+            <dt><strong>非Apple向けの「探すの代替」として有効？</strong></dt>
+            <dd>Find Myに載っていない、またはBluetoothの電源が入ったまま手元付近にありそうな状況では、近傍探索の補助手段として有効な場合があります。iOS 17.1+のiPhoneが必要で、完全な保証ではありません（環境要因の影響あり）。</dd>
+          </div>
+          
+        </dl>
+      </section>
+
+      <!-- Download Section -->
+      <section class="download-section">
+        <div class="download-content fade-in">
+          <h2 style="margin-bottom: 24px;">Bluetoothファインダーアプリを今すぐ</h2>
+          <p>AirPodsやスマートウォッチ、身の回りのBluetooth機器の探索に、<a href="https://apps.apple.com/app/id6756609274" rel="noopener noreferrer">App Store</a>から。温冷案内と接近度で、紛失時の手がかりを一つ足します。</p>
+          <div style="margin-top: 48px;">
+            <a href="https://apps.apple.com/app/id6756609274" class="cta-button" aria-label="App Storeから Bluetooth Finder をダウンロード" rel="noopener noreferrer">
+              <span>App Storeでダウンロード</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>© 2026 Bluetooth Finder. All rights reserved.</p>
+      <p><a href="/privacy.html">プライバシーポリシー</a> | <a href="/terms.html">利用規約</a></p>
+      <p class="last-updated" aria-label="最終更新">最終更新 2026年4月26日</p>
+    </footer>
+  </div>
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"MobileApplication","name":"Bluetooth Finder","alternateName":"Bluetoothファインダー / Bluetooth 探す iPhoneアプリ","applicationCategory":"UtilityApplication","operatingSystem":"iOS","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://apps.apple.com/app/id6756609274"},"description":"iPhone向けBluetooth近傍探索アプリ。紛失したAirPods、スマートウォッチ、イヤフォン、スピーカー等の補助に。温冷案内と接近度。無料でダウンロード、iOS 17.1+。","image":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/logo.webp","width":140,"height":140,"caption":"Bluetooth Finder ロゴ"},"screenshot":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/1_cover_12_framed.webp","width":390,"height":844},"url":"https://bluetoothfinderapp.com/jp/","author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"publisher":{"@type":"Person","name":"Vladimir Ivakhnenko"},"keywords":"Bluetooth 探す, AirPods 探し, Bluetooth トラッカー, 近くのデバイス, iOS Bluetooth, 紛失 イヤホン","inLanguage":"ja","datePublished":"2024-12-31","dateModified":"2026-04-26","softwareVersion":"1.3","fileSize":"25.3MB","softwareRequirements":"iOS 17.1 以降","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","ratingCount":"100"},"downloadUrl":"https://apps.apple.com/app/id6756609274"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/jp/","logo":"https://bluetoothfinderapp.com/img/logo.webp","description":"Bluetooth近傍探索アプリ。温冷案内、接近度、多様なBLE端末向け。"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/jp/","description":"Bluetooth ファインダー。紛失補助、FAQ、多言語のランディング。","potentialAction":{"@type":"SearchAction","target":"https://bluetoothfinderapp.com/jp/?q={search_term_string}","query-input":"required name=search_term_string"},"inLanguage":"ja"}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"HowTo","name":"Bluetooth Finderで紛失端末に近づく手順","description":"インストール、スキャン、端末の選択、温冷と接近度（％）で辿る方法。","step":[{"@type":"HowToStep","position":1,"name":"App Storeから入れる","text":"iOS 17.1以降のiPhoneにApp Storeから導入。アプリのサイズ目安 25.3 MB。","url":"https://apps.apple.com/app/id6756609274"},{"@type":"HowToStep","position":2,"name":"Bluetoothを許可しスキャン","text":"起動し、近傍のBluetooth端末の一覧を取得する。"},{"@type":"HowToStep","position":3,"name":"対象を選ぶ","text":"一覧から紛失の疑いのある端末を選択。名前行・型番等を確認する。"},{"@type":"HowToStep","position":4,"name":"温冷を見る","text":"移動し、コールド→ウォーム→ホットと段階が上がる方向に進む。"},{"@type":"HowToStep","position":5,"name":"接近度（％）を併用","text":"％が上がるほど相対的に近い。環境要因に留意する。"},{"@type":"HowToStep","position":6,"name":"最終的に目視で回収","text":"最も高い反応付近のカバン・段差・家具の陰を確認する。"}]}
+  </script>
+  
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Bluetooth Finder とは何のアプリですか？","acceptedAnswer":{"@type":"Answer","text":"iPhone上で、近くのBLE対応端末（AirPods、各種イヤフォン、スマートウォッチなど）を、スキャンと温冷、接近度の表示を使って探しやすくするアプリカテゴリ（Bluetooth ファインダー、Bluetooth デバイス 探し）向けのユーティリティです。"}},{"@type":"Question","name":"どのように近づきを示しますか？","acceptedAnswer":{"@type":"Answer","text":"信号に基づき、温冷の段階と接近度の数値（％）を併用します。メーカー名、モデル、可能な表示名を一覧で示し、同じ部屋の複数端末を区別しやすくします。"}},{"@type":"Question","name":"紛失した AirPods やイヤフォン向けに使えますか？","acceptedAnswer":{"@type":"Answer","text":"近傍に電源が入っていてBluetoothが有効であれば、多くのケースで候補として列挙され、案内表示で周辺を絞れます。最終的な目視の確認はユーザーの作業です。"}},{"@type":"Question","name":"Apple 以外の端末（Androidスマートウォッチ、サードパーティスピーカー等）の探索に使えますか？","acceptedAnswer":{"@type":"Answer","text":"Bluetoothの電源が入っていれば、近傍のBLE機器として多く表示されます。機種ごとに表記名や信号の振る舞いは異なりますが、汎用の近傍探索の補助として利用可能です。"}},{"@type":"Question","name":"料金は？","acceptedAnswer":{"@type":"Answer","text":"App Storeからのダウンロードは無料。一部機能はアプリ内課金の対象となる場合があります。"}},{"@type":"Question","name":"動作環境は？","acceptedAnswer":{"@type":"Answer","text":"iOS 17.1以降のiPhone。Bluetoothの使用許可が必要です。アプリサイズは目安 25.3 MB、年齢制限4+。開発者Vladimir Ivakhnenko。"}},{"@type":"Question","name":"近接の％表示は、絶対距離ですか？","acceptedAnswer":{"@type":"Answer","text":"信号強度に基づく相対的な目安で、建物内の材質、混信、バッテリー状況で変化します。温冷と併用することを推奨します。"}},{"@type":"Question","name":"混雑した場所でも？","acceptedAnswer":{"@type":"Answer","text":"多数の端末が存在する場所では、一覧の識別と、対象端末の選択が重要です。可能な限り、デバイス名で絞り込みます。"}},{"@type":"Question","name":"探す（Find My）とどう違いますか？","acceptedAnswer":{"@type":"Answer","text":"探すはApple向けのエコシステムと、事前登録の前提に強いです。Bluetooth Finderは、事前のネットワーク登録なしで、近くの多くのBLE端末向けの温冷＋接近度案内に重点を置きます。"}},{"@type":"Question","name":"非Apple向けの「探すの代替」として有効？","acceptedAnswer":{"@type":"Answer","text":"Find Myに載っていない、またはBluetoothの電源が入ったまま手元付近にありそうな状況では、近傍探索の補助手段として有効な場合があります。iOS 17.1+のiPhoneが必要で、完全な保証ではありません（環境要因の影響あり）。"}}]}
+  </script>
+  
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://bluetoothfinderapp.com/jp/"}]}
+  </script>
+
+  <!-- Scroll animations -->
+  <script>
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(106104643, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/106104643" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+</body>
+
+</html>
