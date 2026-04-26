@@ -1,0 +1,264 @@
+#!/usr/bin/env python3
+# Regenerate tr_seo.json; shape matches pl.json; TRY for offers.
+import json
+from pathlib import Path
+
+B = Path(__file__).parent
+
+# Dört aşama: soğuk, ılık, sıcak, çok sıcak (Polonya: zimno, ciepło, gorąco, bardzo gorąco ile uyumlu)
+FAQ = [
+    {
+        "question": "Bluetooth Finder nedir?",
+        "answer": "iPhone’daki, yakındaki açık Bluetooth cihazlarını (kulaklık, hoparlör, saat gibi) bulmaya yardımcı uygulamadır. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde değerini kullanarak, rastgele taramak yerine alanı daraltmanızı hedefler.",
+    },
+    {
+        "question": "Nasıl çalışır?",
+        "answer": "Uygulama taramayı yapar, sinyal veren cihazları listeler ve sinyal gücüne göre göstergeleri günceller. Aşamalar: soğuk, ılık, sıcak, çok sıcak, yüzde, mümkünse marka, model, ad etiketleri de gelir.",
+    },
+    {
+        "question": "AirPods gibi cihazları bulabilir miyim?",
+        "answer": "Kutusu veya kulaklıklar menzilde, açık, listede görünüyorsa sıcak–soğuk ipuçlarını izleyip sonra bölgeye gözle ve dikkatle inin. Metre cinsinden kesin garanti değildir; sinyal tabanlı makul alan sınırlamadır, son kontrol sizin.",
+    },
+    {
+        "question": "Sadece Apple değil, başka markalar da mı?",
+        "answer": "Evet: Bluetooth’da açık ve listelenen her türlü cihaz denenebilir; akıllı saat, fitness bilekliği, hoparlör, kulaklık. Üretici uyandırma ve reklam davranışı farklılık gösterir, sonuç cihazdan cihaza değişir.",
+    },
+    {
+        "question": "Uygulama ücretsiz mi?",
+        "answer": "App Store’dan indirme genelde ücretsizdir. Bazı ekler veya özellikler uygulama içi satın alma ister; her zaman App Store açıklamasını kontrol edin.",
+    },
+    {
+        "question": "iPhone’da ne gerekiyor?",
+        "answer": "Uygulamanın bu sürümü iOS 17.1 veya üzeriyle uyumludur; izin açık Bluetooth, uygulama vermiş izin gerekir. Kullanım süresi ve arka planda tüketim, kullanıma ve ortama bağlıdır.",
+    },
+    {
+        "question": "Yüzde, kalan metreyi verir mi?",
+        "answer": "Hayır. Göreli, duvar, metal, kalabalık, vücut, pil gibi faktörlere bağlanır. Yüzdeyi, sıcak–soğuk aşamalarıyla birlikte okuyun, tek sayıyı yeterli saymayın.",
+    },
+    {
+        "question": "Kalabalıkta, istasyonda, mağazada işe yarar mı?",
+        "answer": "Evet; ama listede onlarca cihaz çıkabilir. Doğru cihaz etiketini okuyun, listeyi seçin, sinyal yükselene yaklaşın, sonra bölgeye gözle inin. Ne kadar rastgele kulaklık, o kadar doğru isimlik önemli olur.",
+    },
+    {
+        "question": "Find My hizmetinden farkı ne?",
+        "answer": "Find My, Apple hesabı ve ağ/ kayıt ile bağlanmış cihazlara yöneliktir. Bluetooth Finder öncelikle, o anda Bluetooth yayını veren, fiziksel yakındaki cihazlara yönelir, ön koşulsuz eşleştirme gerekmez. Amaçlar farklıdır, bazen tamamlayıcı, bazen tek başına yeterli değildir.",
+    },
+    {
+        "question": "Find My’de olmayan veya Apple dışı cihazlarda yeterli mi?",
+        "answer": "Açık, menzilde ve taramada görüldüyse, uygulama arama alanını daraltmada yardımcı olabilir. Uzak hırsızlık, kapalı güç, yetkili süreçler: tek başına bu uygulama yeterli olmaz, başka adımlar gerekir.",
+    },
+]
+
+STRUCTURED = {
+    "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Bluetooth Finder",
+        "alternateName": "Bluetooth cihaz bul, yakınlarda tarayıcı, iOS uygulaması",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TRY",
+            "availability": "https://schema.org/InStock",
+        },
+        "description": "iPhone’da (iOS 17.1+) açık ve yakındaki Bluetooth cihazlarını bulmaya destek: kulaklık, hoparlör, saat; «sıcak–soğuk» dört aşamada (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde, mümkünse marka, model, isim etiketleriyle.",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://bluetoothfinderapp.com/img/logo.webp",
+            "width": 140,
+            "height": 140,
+            "caption": "Logo Bluetooth Finder",
+        },
+        "screenshot": {
+            "@type": "ImageObject",
+            "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
+            "width": 390,
+            "height": 844,
+        },
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "author": {"@type": "Person", "name": "Vladimir Ivakhnenko"},
+        "publisher": {"@type": "Person", "name": "Vladimir Ivakhnenko"},
+        "keywords": "bluetooth, bul, AirPods, kulaklık, iOS, tarama, Bluetooth cihaz",
+        "inLanguage": "tr",
+        "datePublished": "2024-12-31",
+        "dateModified": "2026-04-26",
+        "softwareVersion": "1.3",
+        "fileSize": "25.3MB",
+        "softwareRequirements": "iOS 17.1 veya üzeri gerekir",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "100",
+        },
+    },
+    "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
+        "description": "Bluetooth Finder — iPhone, Türkçe sayfada Bluetooth cihaz arama.",
+    },
+    "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "description": "Türkçe: açıklama, tablo, sık sorular, App Store linki.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://bluetoothfinderapp.com/tr/?q={search_term_string}",
+            "query-input": "required name=search_term_string",
+        },
+    },
+    "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Bluetooth Finder ile yakındaki cihazı bulma",
+        "description": "Yükleyin, taramaya izin verin, listeden seçin, soğuk, ılık, sıcak, çok sıcak aşamaları ve yüzdeyi izleyin, nihayet dar alanda göz ve elle kontrol edin.",
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "İndir",
+                "text": "App Store; iOS 17.1 veya üzeri, boyut kabaca 25,3 MB; uygulama indirmesi genellikle ücretsiz başlayabilir, kesin fiyat ve IAP App Store’da yazar.",
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Tarama",
+                "text": "Uygulamayı açın, Bluetooth iznini onaylayın, yakındaki yayın yapan cihazların eklendiği listeyi bekleyin.",
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Seçim",
+                "text": "Listede aradığınız kulaklık, hoparlör veya saat satırını seçin: ad, marka, model görünüyorsa ayrıntıyı not edin.",
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Sıcak–soğuk",
+                "text": "Hareketle aşamayı soğuk’tan, ılık ve sıcak, son olarak çok sıcak yönüne ilerletin: yayındaki sinyal gücü buna göre hızlanır.",
+            },
+            {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Yakınlık yüzdesi",
+                "text": "Yüzdeyi tek başına metreye çevirmeyin; tüm aşamalar, ortam, duvar, kalabalık bilgisine katın.",
+            },
+            {
+                "@type": "HowToStep",
+                "position": 6,
+                "name": "Yerel buluş",
+                "text": "Cihaz çok yakınsa kanepe, çanta, ceket, çekmece gibi dar alanları elle ve gözle tarayın.",
+            },
+        ],
+    },
+    "faqpage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Bluetooth Finder ne işe yarar?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Listeyi taramak, cihazı seçmek ve sinyal gücüne giden sıcak–soğuk dört aşamayı ve yüzdeyı kullanmaktır. Pratik alan sınırlama, odada rast dolaşmak gibi; tek numara kaç metreyi cevap gibi almayın.",
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "Find My hizmetinden farkı nedir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Find My, Apple hesabına ve buluta kayıtlı ağa bağlanmış cihazlara yönelik olabilir. Bluetooth Finder, aynı anda açık Bluetooth sinyalini o anda gösterir, senaryo başına aynı değil.",
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "Yüzdeyi metre gibi almalı mıyım?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hayır; sinyal gücünün göreli yönüdür, duvar, kalabalık, vücut, pil etkiler; tüm aşamalar ve yüzde birlikte okunmalıdır.",
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "İndirme App Store’da paralı mı?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Uygulama indirmesini genellikle ücret ödemeden başlatabilirsiniz; uygulama içi satın alımlar ayrı gösterilir — App Store açıklamasına ve fiyat listesine bakın.",
+                },
+            },
+        ],
+    },
+    "breadcrumb_list": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana sayfa",
+                "item": "https://bluetoothfinderapp.com/tr/",
+            }
+        ],
+    },
+}
+
+TOP = {
+    "breadcrumb_home": "Ana sayfa",
+    "last_updated_label": "Güncellendi",
+    "key_facts_title": "Bluetooth Finder rakamlarla",
+    "key_facts": [
+        {"value": "25.3 MB", "label": "Boyut"},
+        {"value": "iOS 17.1+", "label": "Sistem"},
+        {"value": "4+", "label": "Yaş"},
+        {"value": "Ücretsiz (IAP)", "label": "İndirme"},
+        {"value": "ör. AirPods, akıllı saat, kulaklık", "label": "Örnekler"},
+    ],
+    "comparison_title": "Bluetooth Finder, Find My ve jenerik tarayıcı",
+    "comparison_intro": "Bluetooth Finder’i diğer yöntemlere dürüstçe kıyas:",
+    "comparison_col_feature": "Özellik",
+    "comparison_col_bluetooth_finder": "Bluetooth Finder",
+    "comparison_col_find_my": "Find My",
+    "comparison_col_generic": "Jenerik tarayıcı",
+    "comparison_rows": [
+        {
+            "feature": "Cihaz türü",
+            "bluetooth_finder": "Yakındaki menzilde açık, Bluetooth’da görülen tüm türde",
+            "find_my": "Çoğunlukla Apple; çoğunlukla önceden ağa/hesaba kayıtlı",
+            "generic": "Listede rastgele, sıcak–soğuk yol göstermesi yok",
+        },
+        {
+            "feature": "Önceden hazırlık",
+            "bluetooth_finder": "Çoğu senaryoda özel kurulum yok",
+            "find_my": "Evet, bulut tabanlı Find My ağı",
+            "generic": "Genellikle zorunlu değil",
+        },
+        {
+            "feature": "Cihazı yaklaştırma",
+            "bluetooth_finder": "Dört aşamalı sıcak–soğuk + yüzde yakınlık",
+            "find_my": "Rota ve/veya mesafe (desteklenen modellere göre)",
+            "generic": "Sıklıkla sadece liste, yardım farkı yüksek değil",
+        },
+        {
+            "feature": "Platform (bu uygulama)",
+            "bluetooth_finder": "iOS 17.1+ iPhone",
+            "find_my": "Apple ekosistemi, çeşitli uygulamalar",
+            "generic": "Uygulamaya göre değişir",
+        },
+    ],
+    "faq_title": "Sıkça sorulan sorular: Bluetooth Finder",
+    "faq": FAQ,
+    "structured_data": STRUCTURED,
+}
+
+out = json.dumps(TOP, ensure_ascii=False, indent=2) + "\n"
+path = B / "tr_seo.json"
+path.write_text(out, encoding="utf-8")
+json.loads(out)
+print("Wrote", path, path.stat().st_size)

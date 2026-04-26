@@ -1,21 +1,21 @@
 {
   "meta": {
     "lang": "tr",
-    "title": "Bluetooth Finder - Kayıp Bluetooth Cihazı Bul | AirPods, saat, kulaklık",
-    "description": "Bluetooth finder uygulaması: AirPods, akıllı saat, kulaklık ve açık diğer Bluetooth cihazlarını yakınlıkla tespit. Sıcak–soğuk rehberi ve yüzde (yakınlık) göstergesi. iOS 17.1+ gerekir. App Store’dan ücretsiz. Geliştirici: Vladimir Ivakhnenko.",
-    "keywords": "bluetooth bul, kayıp airpod, bluetooth cihaz bulma, iPhone uygulaması, bluetooth tarayıcı, akıllı saat bul, bluetooth izleyici, yakındaki cihaz",
+    "title": "Bluetooth Finder - Kayıp Bluetooth cihazı | AirPods, saat, kulaklık",
+    "description": "Bluetooth Finder, açık AirPods, saat, kulaklık, hoparlör gibi yakındaki Bluetooth cihazlarını aramanıza yardımcı olur. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde göstergesi. iOS 17.1+ gerekir. App Store’dan indirme genellikle ücretsiz; uygulama içi satın almalar App Store açıklamasındadır.",
+    "keywords": "bluetooth bul, airpods bul, bluetooth tarama, iPhone uygulaması, yakındaki bluetooth, bluetooth cihaz bul, kulaklık arama, akıllı saat bul, bluetooth arayıcı",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/tr/",
-    "og_title": "Bluetooth Finder - Bluetooth cihaz bulma uygulaması",
-    "og_description": "Tarama, sıcak–soğuk, yüzde. Yakındaki açık Bluetooth cihazlarını (AirPods, saat, kulaklık) bulmaya yardım. 2026 TR, iOS 17.1+, App Store, SEO/GEO, IAP varsa.",
+    "og_title": "Bluetooth Finder - Yakındaki Bluetooth cihazı",
+    "og_description": "Tara, sıcak–soğuk, yüzde. AirPods, saat, kulaklık (menzildeyse). iOS 17.1+; iPhone; indirme genellikle ücretsiz, IAP olabilir.",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "og_image_alt": "Bluetooth Finder - cihaz bul",
+    "og_image_alt": "Bluetooth Finder - cihaz arama",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "tr_TR",
     "twitter_url": "https://bluetoothfinderapp.com/tr/",
-    "twitter_title": "Bluetooth Finder - hızlı Bluetooth arama",
-    "twitter_description": "iOS, AirPods, saat, hoparlör. Sıcak-soğuk ve yüzde ile yönlendirme.",
+    "twitter_title": "Bluetooth Finder - Bluetooth cihazını hızlı bul",
+    "twitter_description": "AirPods, saat, hoparlör. Dört aşama: soğuk, ılık, sıcak, çok sıcak ve yüzde.",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
     "twitter_image_alt": "Bluetooth Finder",
     "twitter_image_width": "1140",
@@ -27,77 +27,109 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder – Bluetooth cihaz bulucu",
-    "app_name_suffix": "Bluetooth cihaz bulucu",
-    "logo_alt": "Bluetooth Finder logo - AirPods, saat, kulaklık",
+    "application_name": "Bluetooth Finder – Bluetooth cihaz arayıcı",
+    "app_name_suffix": "Bluetooth cihaz arayıcı",
+    "logo_alt": "Bluetooth Finder logosu: AirPods, saat, kulaklık",
     "app_name": "Bluetooth Finder",
     "title": "Bluetooth Finder",
-    "tagline": "Kaybettiğin cihaza daha hızlı ulaş.",
+    "tagline": "Unuttuğun cihaza daha çabuk ulaş.",
     "download_text": "App Store’da indir",
-    "download_aria_label": "App Store’dan Bluetooth Finder indir",
-    "download_img_alt": "App Store’da Bluetooth Finder"
+    "download_aria_label": "App Store’dan Bluetooth Finder’ı indir",
+    "download_img_alt": "App Store’da Bluetooth Finder’ı indir"
   },
   "screenshots": {
     "items": [
-      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - kapak" },
-      { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder - tarama" },
-      { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder - izleme" },
-      { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder - bilgi" }
+      {
+        "src": "/img/1_cover_12_framed.webp",
+        "alt": "Bluetooth Finder - ana ekran"
+      },
+      {
+        "src": "/img/2_scan_12_framed.webp",
+        "alt": "Bluetooth Finder - tarama"
+      },
+      {
+        "src": "/img/3_track_12_framed.webp",
+        "alt": "Bluetooth Finder - yön"
+      },
+      {
+        "src": "/img/4_info_12_framed.webp",
+        "alt": "Bluetooth Finder - bilgi"
+      }
     ]
   },
   "content": {
-    "summary_label": "Özet (TL;DR)",
-    "summary_tldr": "Bluetooth Finder, iPhone için bir yardımcı uygulamadır: yakındaki açık Bluetooth cihazlarını (kulaklık, saat, hoparlör vb.) listeler; sıcak–soğuk aşamaları ve bir yüzde değeriyle kabaca yakınlaşma hissi verir. Apple ‘Find My’ ağının tüm senaryolarının yerine geçmez: amaç, radyo menzili içinde yön bulmaktır. iOS 17.1+, ~25,3 MB, 4+ yaş, App Store id 6756609274 (sabitlerden).",
-    "intro1": "Kulaklık veya saatini mi kaybettin? <strong>Bluetooth Finder</strong>, <em>bluetooth bul</em> ve <em>airpod bul</em> gibi arama niyetine yanıt veren bir iOS uygulamasıdır; bu sayfa (TR) yasal, tarafsız ve alıntılanabilir bilgiler verir.",
-    "intro2": "Liste, çevredeki cihazlardan beslenir; hareket ederken ‘daha sıcak’ bölgeye ilerle. Yüzde, mutlak metre değil; beton, metal, kalabalık, anten: radyo fiziğini değiştirebilir."
+    "summary_label": "Kısaca",
+    "summary_tldr": "Bluetooth Finder, iPhone (iOS) üzerinde yakındaki açık AirPods, saat, hoparlör ve diğer Bluetooth cihazlarını bulmaya yönelik uygulamadır. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve göreli yüzde değerini okursunuz. Apple «Find My»nın tüm senaryolarda bire bir yerine geçmez: amaç, radyo menzili içinde yönlendirmek. İndirme genellikle ücretsiz; iOS 17.1 veya üzeri gerekir.",
+    "intro1": "Kulaklık, bant mı, hoparlör mı unuttun? <strong>Bluetooth Finder</strong>, tarama yapan, listeden cihaz seçtiren basit bir <em>Bluetooth cihaz aracı</em>dır: listeyi aç, doğru satıra bas, ileri geri yürürken aşamaları ve yüzdeyi izle. Dışarı çıkarken veya odayı taradığında aranacak alanı daraltmana yardımcı olur.",
+    "intro2": "Uygulama, menzilde yayın yapan cihazı neredeyse anlık yansıtır, böylece tüm bölgeyi aynı anda taramak zorunda kalmazsın. Göstergeler yakınsamak içindir; duvar, metal, kalabalık ve bateri sinyal gücünü değiştirir; tüm ipuçlarını birden, tek sayıyı yeterli sayma."
   },
   "features": {
-    "title": "Neden bu bluetooth finder uygulaması",
-    "subtitle": "Beş somut madde:",
+    "title": "Neden Bluetooth Finder fark yaratıyor",
+    "subtitle": "Pratikte neleri alırsın",
     "items": [
-      { "number": "1", "title": "Hızlı tarama", "description": "Yakındaki cihazlar listelenir; izinler açık olmalı." },
-      { "number": "2", "title": "Sıcak & soğuk", "description": "Yaklaşmaya dair aşamalı his; eğlenceli de olsa pratik yönlendirme hedefi." },
-      { "number": "3", "title": "Yakınlık %", "description": "Göreli; RSSI türevi bir imge; GPS km değil." },
-      { "number": "4", "title": "Cihaz bilgisi", "description": "Üretici, model, ad: kalabalık alanda ayrıştırmak için." },
-      { "number": "5", "title": "Kullanım alanları", "description": "Ev, ofis, toplu taşıma; cihaz açık ve menzildeyse fayda olasılığı artar (garanti değil)." }
+      {
+        "number": "1",
+        "title": "Hızlı tarama",
+        "description": "Bluetooth açıkken uygulama menzildeki yayın yapan cihazı duyup listeler. Çoğu kez ağır kurulma gerekmez: sonuç hızla görünür."
+      },
+      {
+        "number": "2",
+        "title": "Sıcak–soğuk: soğuk, ılık, sıcak, çok sıcak",
+        "description": "Soğuk, uzak veya zayıf; ılık ve sıcak, yakınsa; çok sıcak, cihaz elinize çok yakın. Sinyal gücüne dayanır, cetvelle ölçüm değil; doğru yöne gidip gitmediğini aşamalar fark ettirir."
+      },
+      {
+        "number": "3",
+        "title": "Yakınlık (%)",
+        "description": "Daha büyük sayı, tipik sinyal şartında genelde ‘daha yakınsa’ fikrini verir; metre cinsine çevirme. Sayı, sıcak–soğuk aşamalarıyla aynı anda, birlikte oku."
+      },
+      {
+        "number": "4",
+        "title": "Cihaz bilgisi",
+        "description": "Listede marka, model veya ad görünüyorsa, kaybolan cihazı tanımlamak kolaylaşır: özellikle birkaç telefon veya kulaklık varken."
+      },
+      {
+        "number": "5",
+        "title": "Evde, işte, toplu taşımada",
+        "description": "Radyo açık ve menzildeyse aramaya uygundur. AirPods, kordon, hoparlör gibi cihazlarda 'her yeri arama' eğilimini azaltır; sonuç, sinyal ve ortam koşuluna bağlıdır."
+      }
     ]
   },
   "how_to": {
-    "title": "Kullanım (HowTo şeması aşağıda)",
-    "description": "Yükle, Bluetooth izni ver, tara, listeden seç, hareket et, sıcak–soğuk ve yüzdeyi izle, gözle yerinde yakala; son adım: fiziksel arama."
+    "title": "Bluetooth Finder nasıl kullanılır",
+    "description": "Uygulamayı aç, Bluetooth iznini onayla, taramanı bekle, aradığın kulaklık veya hoparlörü seç. Oda veya koridorda yürürken soğuk, ılık, sıcak, çok sıcak aşamaları ve yüzdeye bak. Çok sıcak ve yüksek yüzde, cihaz çok yakındasın. Kalabalıkta önce listede kendi cihazının adını doğrula."
   },
   "why_love": {
-    "title": "Kimler için",
-    "description": "TWS kulaklık, spor bandı, hoparlör kullananlar; iOS 17.1+ iPhone sahibi; Find My dışındaki veya ağa eklenmeyen cihazlar için ek bir yakınlık aracı arayanlar."
+    "title": "Buna neden gerek olsun",
+    "description": "Rastgele aranmayı az; uygulama sinyale göre yön verir. Sıcak–soğuk anlaşılır, yüzde destek, içeride ve dışarı, Bluetooth açıkken. Hızlı arayüz, ofiste, tren, kanepe, küçük cihaz kaybettiğin için pratik."
   },
   "who_should_use": {
-    "title": "Türkçe (hreflang tr) ve yapay zekâ görünürlüğü",
-    "description": "Tablo, SSS, sayılar, last updated, net varlık tanımı: GEO rehberine uygun, abartısız ifadeler."
+    "title": "Kimin için",
+    "description": "AirPods, in-ear kulaklık, bant, hoparlör, iş seyahati, ev, aile: önce alanı daralt, sonra el ve gözle yakala."
   },
   "advanced_features": {
-    "title": "Ek notlar",
-    "description": "Uygulama içi satın alma olabilir; sürüm ve fiyatı App Store’dan doğrulayın. Sayfa son güncelleme: 2026-04-26."
+    "title": "Ek bilgi",
+    "description": "Liste neredeyse canlı yenilenir; sıcak–soğuk ve yüzde birlikte okun; uygulama hafif. Batarya ve arka planda tüketim, kullanıma ve ortama bağlı. Bazı özellikler uygulama içi satın alma olabilir; her zaman App Store açıklamasına bakın."
   },
   "final_cta": {
-    "title": "Hemen indir",
-    "paragraph1": "<a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store</a> üzerinden Bluetooth Finder. Şema: Offer 0 USD (güncel fiyatı mağazadan kontrol edin).",
+    "title": "Bluetooth Finder’ı bugün indir",
+    "paragraph1": "Boş yere dolaşma. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store’dan indir</a> ve «sıcak–soğuk» ile yüzde ipuçlarını kullan; AirPods, saat, hoparlör veya başka açık Bluetooth cihazını menzilde, gereksiz strese yol açmadan yakala.",
     "cta_text": "App Store’da indir",
-    "cta_aria_label": "App Store’dan Bluetooth Finder indir",
-    "cta_img_alt": "App Store - Bluetooth Finder"
+    "cta_aria_label": "App Store’dan Bluetooth Finder’ı indir",
+    "cta_img_alt": "App Store’da Bluetooth Finder’ı indir"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
-    "privacy_link": "Gizlilik Politikası",
+    "copyright": "© 2026 Bluetooth Finder. Tüm hakları saklıdır.",
+    "privacy_link": "Polityka prywatności",
     "privacy_url": "/privacy.html",
-    "terms_link": "Kullanım Şartları",
+    "terms_link": "Regulamin",
     "terms_url": "/terms.html"
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "Productivity",
+    "category": "Verimlilik",
     "age_rating": "4+",
     "file_size": "25.3 MB",
-    "languages": "English, Türkçe (sayfa)",
+    "languages": "Türkçe (bu sayfa), English",
     "compatibility": "iOS 17.1 veya üzeri gerekir",
     "platform": "iPhone",
     "copyright": "© c-basso",
@@ -108,63 +140,266 @@
     "last_updated_label": "Güncellendi",
     "key_facts_title": "Bluetooth Finder rakamlarla",
     "key_facts": [
-      { "value": "25,3 MB", "label": "Boyut" },
-      { "value": "iOS 17.1+", "label": "Sistem" },
-      { "value": "4+", "label": "Yaş" },
-      { "value": "Ücretsiz, IAP", "label": "İndirme" },
-      { "value": "Çok sayıda cihaz tipi", "label": "Örnek" }
+      {
+        "value": "25.3 MB",
+        "label": "Boyut"
+      },
+      {
+        "value": "iOS 17.1+",
+        "label": "Sistem"
+      },
+      {
+        "value": "4+",
+        "label": "Yaş"
+      },
+      {
+        "value": "Ücretsiz (IAP)",
+        "label": "İndirme"
+      },
+      {
+        "value": "ör. AirPods, akıllı saat, kulaklık",
+        "label": "Örnekler"
+      }
     ],
-    "comparison_title": "Bluetooth Finder ve Find My ve jenerik tarayıcı",
-    "comparison_intro": "Dürüst, karşılaştırmalı, abartısız:",
+    "comparison_title": "Bluetooth Finder, Find My ve jenerik tarayıcı",
+    "comparison_intro": "Bluetooth Finder’i diğer yöntemlere dürüstçe kıyas:",
     "comparison_col_feature": "Özellik",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
     "comparison_col_find_my": "Find My",
-    "comparison_col_generic": "Genel tarayıcı",
+    "comparison_col_generic": "Jenerik tarayıcı",
     "comparison_rows": [
-      { "feature": "Odak", "bluetooth_finder": "Fiziksel yakın, birçok marka, açık BT", "find_my": "Apple ağı, hesap, birçok senaryo", "generic": "Listeler, farklı kalite" },
-      { "feature": "Yaklaşma ipucu", "bluetooth_finder": "Sıcak-soğuk + %", "find_my": "Yön/mesafe (cihaz ve duruma göre)", "generic": "Çoğunlukla sadece isim" },
-      { "feature": "Platform (bu uygulama)", "bluetooth_finder": "iOS 17.1+ iPhone", "find_my": "Apple platformları (çeşitli uygulamalar)", "generic": "Değişir" }
+      {
+        "feature": "Cihaz türü",
+        "bluetooth_finder": "Yakındaki menzilde açık, Bluetooth’da görülen tüm türde",
+        "find_my": "Çoğunlukla Apple; çoğunlukla önceden ağa/hesaba kayıtlı",
+        "generic": "Listede rastgele, sıcak–soğuk yol göstermesi yok"
+      },
+      {
+        "feature": "Önceden hazırlık",
+        "bluetooth_finder": "Çoğu senaryoda özel kurulum yok",
+        "find_my": "Evet, bulut tabanlı Find My ağı",
+        "generic": "Genellikle zorunlu değil"
+      },
+      {
+        "feature": "Cihazı yaklaştırma",
+        "bluetooth_finder": "Dört aşamalı sıcak–soğuk + yüzde yakınlık",
+        "find_my": "Rota ve/veya mesafe (desteklenen modellere göre)",
+        "generic": "Sıklıkla sadece liste, yardım farkı yüksek değil"
+      },
+      {
+        "feature": "Platform (bu uygulama)",
+        "bluetooth_finder": "iOS 17.1+ iPhone",
+        "find_my": "Apple ekosistemi, çeşitli uygulamalar",
+        "generic": "Uygulamaya göre değişir"
+      }
     ],
-    "faq_title": "Sıkça sorulan sorular (TR)",
+    "faq_title": "Sıkça sorulan sorular: Bluetooth Finder",
     "faq": [
-      { "question": "Bluetooth Finder nedir?", "answer": "Vladimir Ivakhnenko tarafından sunulan, iOS’ta (iPhone) yakındaki Bluetooth cihazlarını taramaya ve bir sıcak–soğuk + yüzde rehberiyle yaklaşmaya yardımcı bir MobileApplication kategorisinde uygulamadır. Tam bir polis/emniyet aracı değildir; hırsızlık gibi ciddi olaylarda resmi mercilere başvurun." },
-      { "question": "Nasıl çalışır?", "answer": "Radyo sinyalinin gücü hakkında göreli ipuçları; GPS mesafesi gibi değil; duvar ve müdahale eden cisimler sinyali değiştirir." },
-      { "question": "AirPods bulur mu?", "answer": "Açık ve menzildeyse, listede ve rehberde ilerleme; %100 yok, ortam faktörlü." },
-      { "question": "Find My yerine her zaman mı?", "answer": "Hayır; farklı amaçlar, bazen birlikte mantıklı, bazen sadece biri." },
-      { "question": "Ücret?", "answer": "Şemada 0 fiyat; IAP olabilir; App Store’u okuyun." },
-      { "question": "Gereksinimler?", "answer": "iOS 17.1 veya üzeri, 25,3 MB, 4+." },
-      { "question": "Yüzde tam mesafe midir?", "answer": "Hayır; göreli ve koşullu." },
-      { "question": "Kalabalık ortam?", "answer": "Çok cihaz: doğru adı seç, sonra hareket et." },
-      { "question": "Telif / marka", "answer": "AirPods Apple’ın markası; metin açıklayıcıdır, üçüncü partilerle ilişki iddiası yok (örnek isimler)." },
-      { "question": "Bu sayfa neden SEO/GEO için iyi?", "answer": "Varlık açık, SSS, tablo, sayı, schema.org, güncel tarih, dürüst sınırlar: LLM alıntıları için uygun." }
+      {
+        "question": "Bluetooth Finder nedir?",
+        "answer": "iPhone’daki, yakındaki açık Bluetooth cihazlarını (kulaklık, hoparlör, saat gibi) bulmaya yardımcı uygulamadır. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde değerini kullanarak, rastgele taramak yerine alanı daraltmanızı hedefler."
+      },
+      {
+        "question": "Nasıl çalışır?",
+        "answer": "Uygulama taramayı yapar, sinyal veren cihazları listeler ve sinyal gücüne göre göstergeleri günceller. Aşamalar: soğuk, ılık, sıcak, çok sıcak, yüzde, mümkünse marka, model, ad etiketleri de gelir."
+      },
+      {
+        "question": "AirPods gibi cihazları bulabilir miyim?",
+        "answer": "Kutusu veya kulaklıklar menzilde, açık, listede görünüyorsa sıcak–soğuk ipuçlarını izleyip sonra bölgeye gözle ve dikkatle inin. Metre cinsinden kesin garanti değildir; sinyal tabanlı makul alan sınırlamadır, son kontrol sizin."
+      },
+      {
+        "question": "Sadece Apple değil, başka markalar da mı?",
+        "answer": "Evet: Bluetooth’da açık ve listelenen her türlü cihaz denenebilir; akıllı saat, fitness bilekliği, hoparlör, kulaklık. Üretici uyandırma ve reklam davranışı farklılık gösterir, sonuç cihazdan cihaza değişir."
+      },
+      {
+        "question": "Uygulama ücretsiz mi?",
+        "answer": "App Store’dan indirme genelde ücretsizdir. Bazı ekler veya özellikler uygulama içi satın alma ister; her zaman App Store açıklamasını kontrol edin."
+      },
+      {
+        "question": "iPhone’da ne gerekiyor?",
+        "answer": "Uygulamanın bu sürümü iOS 17.1 veya üzeriyle uyumludur; izin açık Bluetooth, uygulama vermiş izin gerekir. Kullanım süresi ve arka planda tüketim, kullanıma ve ortama bağlıdır."
+      },
+      {
+        "question": "Yüzde, kalan metreyi verir mi?",
+        "answer": "Hayır. Göreli, duvar, metal, kalabalık, vücut, pil gibi faktörlere bağlanır. Yüzdeyi, sıcak–soğuk aşamalarıyla birlikte okuyun, tek sayıyı yeterli saymayın."
+      },
+      {
+        "question": "Kalabalıkta, istasyonda, mağazada işe yarar mı?",
+        "answer": "Evet; ama listede onlarca cihaz çıkabilir. Doğru cihaz etiketini okuyun, listeyi seçin, sinyal yükselene yaklaşın, sonra bölgeye gözle inin. Ne kadar rastgele kulaklık, o kadar doğru isimlik önemli olur."
+      },
+      {
+        "question": "Find My hizmetinden farkı ne?",
+        "answer": "Find My, Apple hesabı ve ağ/ kayıt ile bağlanmış cihazlara yöneliktir. Bluetooth Finder öncelikle, o anda Bluetooth yayını veren, fiziksel yakındaki cihazlara yönelir, ön koşulsuz eşleştirme gerekmez. Amaçlar farklıdır, bazen tamamlayıcı, bazen tek başına yeterli değildir."
+      },
+      {
+        "question": "Find My’de olmayan veya Apple dışı cihazlarda yeterli mi?",
+        "answer": "Açık, menzilde ve taramada görüldüyse, uygulama arama alanını daraltmada yardımcı olabilir. Uzak hırsızlık, kapalı güç, yetkili süreçler: tek başına bu uygulama yeterli olmaz, başka adımlar gerekir."
+      }
     ],
     "structured_data": {
       "software_application": {
-        "@context": "https://schema.org", "@type": "MobileApplication", "name": "Bluetooth Finder",
-        "alternateName": "bluetooth bul, yakın cihaz, iOS uygulaması", "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-        "description": "iOS, TR, bluetooth bulma, airpods, saat, kulaklık.",
-        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Logo" },
-        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
-        "url": "https://bluetoothfinderapp.com/tr/", "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" }, "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
-        "keywords": "bluetooth, bul, airpod, iOS, finder, TR", "inLanguage": "tr", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "iOS 17.1 veya üzeri gerekir",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Bluetooth Finder",
+        "alternateName": "Bluetooth cihaz bul, yakınlarda tarayıcı, iOS uygulaması",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "TRY",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "iPhone’da (iOS 17.1+) açık ve yakındaki Bluetooth cihazlarını bulmaya destek: kulaklık, hoparlör, saat; «sıcak–soğuk» dört aşamada (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde, mümkünse marka, model, isim etiketleriyle.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://bluetoothfinderapp.com/img/logo.webp",
+          "width": 140,
+          "height": 140,
+          "caption": "Logo Bluetooth Finder"
+        },
+        "screenshot": {
+          "@type": "ImageObject",
+          "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
+          "width": 390,
+          "height": 844
+        },
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "author": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "keywords": "bluetooth, bul, AirPods, kulaklık, iOS, tarama, Bluetooth cihaz",
+        "inLanguage": "tr",
+        "datePublished": "2024-12-31",
+        "dateModified": "2026-04-26",
+        "softwareVersion": "1.3",
+        "fileSize": "25.3MB",
+        "softwareRequirements": "iOS 17.1 veya üzeri gerekir",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "100"
+        }
       },
-      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/tr/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Türkçe açılış, Bluetooth cihaz bulma." },
-      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/tr/", "description": "tr, SSS, tablo, indir.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/tr/?q={search_term_string}", "query-input": "required name=search_term_string" } },
-      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Bluetooth Finder ile cihaza yaklaşma", "description": "Altı adım.", "step": [
-        { "@type": "HowToStep", "position": 1, "name": "İndir", "text": "25,3 MB, 17.1+." },
-        { "@type": "HowToStep", "position": 2, "name": "İzin", "text": "Bluetooth." },
-        { "@type": "HowToStep", "position": 3, "name": "Seç", "text": "Cihaz." },
-        { "@type": "HowToStep", "position": 4, "name": "Sıcak–soğuk", "text": "Yönel." },
-        { "@type": "HowToStep", "position": 5, "name": "Yüzde", "text": "Dikkatle oku, göreceli." },
-        { "@type": "HowToStep", "position": 6, "name": "Al", "text": "Fiziksel al." }
-      ] },
-      "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "Nedir?", "acceptedAnswer": { "@type": "Answer", "text": "iOS uygulaması, tarama+rehber." } },
-        { "@type": "Question", "name": "Find My farkı?", "acceptedAnswer": { "@type": "Answer", "text": "Amaç ve kapsam farklı, tam ikame değil her zaman." } }
-      ] },
-      "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": "https://bluetoothfinderapp.com/tr/" }] }
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
+        "description": "Bluetooth Finder — iPhone, Türkçe sayfada Bluetooth cihaz arama."
+      },
+      "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Bluetooth Finder",
+        "url": "https://bluetoothfinderapp.com/tr/",
+        "description": "Türkçe: açıklama, tablo, sık sorular, App Store linki.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://bluetoothfinderapp.com/tr/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Bluetooth Finder ile yakındaki cihazı bulma",
+        "description": "Yükleyin, taramaya izin verin, listeden seçin, soğuk, ılık, sıcak, çok sıcak aşamaları ve yüzdeyi izleyin, nihayet dar alanda göz ve elle kontrol edin.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "İndir",
+            "text": "App Store; iOS 17.1 veya üzeri, boyut kabaca 25,3 MB; uygulama indirmesi genellikle ücretsiz başlayabilir, kesin fiyat ve IAP App Store’da yazar."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Tarama",
+            "text": "Uygulamayı açın, Bluetooth iznini onaylayın, yakındaki yayın yapan cihazların eklendiği listeyi bekleyin."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Seçim",
+            "text": "Listede aradığınız kulaklık, hoparlör veya saat satırını seçin: ad, marka, model görünüyorsa ayrıntıyı not edin."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Sıcak–soğuk",
+            "text": "Hareketle aşamayı soğuk’tan, ılık ve sıcak, son olarak çok sıcak yönüne ilerletin: yayındaki sinyal gücü buna göre hızlanır."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Yakınlık yüzdesi",
+            "text": "Yüzdeyi tek başına metreye çevirmeyin; tüm aşamalar, ortam, duvar, kalabalık bilgisine katın."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 6,
+            "name": "Yerel buluş",
+            "text": "Cihaz çok yakınsa kanepe, çanta, ceket, çekmece gibi dar alanları elle ve gözle tarayın."
+          }
+        ]
+      },
+      "faqpage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Bluetooth Finder ne işe yarar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Listeyi taramak, cihazı seçmek ve sinyal gücüne giden sıcak–soğuk dört aşamayı ve yüzdeyı kullanmaktır. Pratik alan sınırlama, odada rast dolaşmak gibi; tek numara kaç metreyi cevap gibi almayın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Find My hizmetinden farkı nedir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Find My, Apple hesabına ve buluta kayıtlı ağa bağlanmış cihazlara yönelik olabilir. Bluetooth Finder, aynı anda açık Bluetooth sinyalini o anda gösterir, senaryo başına aynı değil."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Yüzdeyi metre gibi almalı mıyım?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır; sinyal gücünün göreli yönüdür, duvar, kalabalık, vücut, pil etkiler; tüm aşamalar ve yüzde birlikte okunmalıdır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "İndirme App Store’da paralı mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Uygulama indirmesini genellikle ücret ödemeden başlatabilirsiniz; uygulama içi satın alımlar ayrı gösterilir — App Store açıklamasına ve fiyat listesine bakın."
+            }
+          }
+        ]
+      },
+      "breadcrumb_list": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Ana sayfa",
+            "item": "https://bluetoothfinderapp.com/tr/"
+          }
+        ]
+      }
     }
   }
 }

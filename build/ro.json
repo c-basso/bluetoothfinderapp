@@ -1,21 +1,21 @@
 {
   "meta": {
     "lang": "ro",
-    "title": "Bluetooth Finder - Găsește dispozitive Bluetooth pierdute | AirPods, smartwatch",
-    "description": "Aplicație bluetooth finder: localizează rapid AirPods, ceasuri, căști și alte dispozitive Bluetooth pornite, cu indicii „fierbinte–rece” și procent de proximitate. iOS 17.1+. Gratuit din App Store. Dezvoltator: Vladimir Ivakhnenko.",
-    "keywords": "căutare bluetooth, găsește airpods, dispozitiv pierdut bluetooth, aplicație finder, iPhone, tracker bluetooth, scanare bluetooth, în apropiere",
+    "title": "Bluetooth Finder - găsire dispozitiv Bluetooth pierdut | AirPods, smartwatch, căști",
+    "description": "Bluetooth Finder te ajută să găsești repede dispozitive Bluetooth pornite în apropiere: AirPods, smartwatchuri, căști, boxe. Indicații de tip cald–rece în patru trepte (rece, călduț, cald, foarte cald) și procent de proximitate. Necesită iOS 17.1+. Descărcare gratuită din App Store.",
+    "keywords": "căutare Bluetooth, găsire dispozitiv Bluetooth, AirPods pierduți, scaner Bluetooth, iPhone, localizator Bluetooth, dispozitive în apropiere, găsire căști, tracker Bluetooth",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/ro/",
-    "og_title": "Bluetooth Finder - aplicația pentru a găsi device-uri Bluetooth",
-    "og_description": "Scan, cald–rece, procent. Aplicație iOS: localizezi în apropiere device-uri BT pornite. iOS 17.1+, App Store, IAP posibil, conținut SEO/GEO 2026.",
+    "og_title": "Bluetooth Finder - găsește dispozitive Bluetooth în apropiere",
+    "og_description": "Scan, indicații cald–rece, procent proximitate. AirPods, căști sau ceas, dacă în raza Bluetooth. iOS 17.1+; iPhone; gratuit, cu achiz. opț. în aplicație.",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "og_image_alt": "Bluetooth Finder - găsește device-uri",
+    "og_image_alt": "Bluetooth Finder - dispozitiv pierdut",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "ro_RO",
     "twitter_url": "https://bluetoothfinderapp.com/ro/",
-    "twitter_title": "Bluetooth Finder - găsire dispozitive Bluetooth",
-    "twitter_description": "AirPods, watch, difuzoare. Aplicație iOS, feedback proximitate.",
+    "twitter_title": "Bluetooth Finder - găsește repede dispozitivul",
+    "twitter_description": "Aplicație de căutare dispozitive Bluetooth: AirPods, ceas, căști. Patru trepte rece–călduț–cald–foarte cald și procent de proximitate.",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
     "twitter_image_alt": "Bluetooth Finder",
     "twitter_image_width": "1140",
@@ -27,66 +27,66 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder – locator dispozitive Bluetooth",
-    "app_name_suffix": "Localizare dispozitive Bluetooth",
-    "logo_alt": "Logo Bluetooth Finder - AirPods, smartwatch, căști",
+    "application_name": "Bluetooth Finder – căutare dispozitive Bluetooth",
+    "app_name_suffix": "Căutare dispozitive Bluetooth",
+    "logo_alt": "Logo Bluetooth Finder: AirPods, smartwatch, căști",
     "app_name": "Bluetooth Finder",
     "title": "Bluetooth Finder",
-    "tagline": "Recuperează gadgetul pierdut mai ușor.",
+    "tagline": "Recuperează-ți gadgetul pierdut mai ușor.",
     "download_text": "Descarcă din App Store",
     "download_aria_label": "Descarcă Bluetooth Finder din App Store",
-    "download_img_alt": "App Store - Bluetooth Finder"
+    "download_img_alt": "Descarcă Bluetooth Finder din App Store"
   },
   "screenshots": {
     "items": [
-      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - copertă" },
+      { "src": "/img/1_cover_12_framed.webp", "alt": "Bluetooth Finder - ecran principal" },
       { "src": "/img/2_scan_12_framed.webp", "alt": "Bluetooth Finder - scanare" },
       { "src": "/img/3_track_12_framed.webp", "alt": "Bluetooth Finder - urmărire" },
       { "src": "/img/4_info_12_framed.webp", "alt": "Bluetooth Finder - informații" }
     ]
   },
   "content": {
-    "summary_label": "Rezumat (TL;DR, GEO)",
-    "summary_tldr": "Bluetooth Finder: aplicație iOS pentru iPhone care scanează aparate Bluetooth aflate în apropiere (căști, ceas, boxă), cu stări de proximitate tip cald/rece și procent. Nu înlocuiește 1:1 toate capabilitățile rețelei Find My; se concentrează pe dispozitive alimentate și aflate în raza radio. Sistem: iOS 17.1+, dimensiune ~25,3 MB, clasa de vârstă 4+.",
-    "intro1": "Ați rătăcit o pereche de <strong>căști</strong> sau un <strong>smartwatch</strong>? Acest <em>bluetooth finder</em> pe iPhone oferă listare și ghide vizual, nu o hartă GPS a orașului.",
-    "intro2": "Alegeți rândul corect, mergeți, observați cum crește intensitatea percepută. Procentul aproximativ; mediu, pereți, oameni, interferențe RF: semnalul se schimbă, deci nu așteptați precizia metrică a unui șantier măsurat."
+    "summary_label": "Pe scurt",
+    "summary_tldr": "Bluetooth Finder este o aplicație pentru iPhone (iOS) care te ajută să găsești un dispozitiv Bluetooth pierdut – căști, smartwatchuri, boxe și alte dispozitive pornite în apropiere. Folosești indicațiile de tip cald–rece în patru trepte: rece, călduț, cald, foarte cald, plus un procent aproximativ de proximitate. Spre deosebire de rețeaua Localizare (Find My) de la Apple, adesea nu trebuie din start să fie asociat dispozitivul în același ecosistem ca să-l cauți în raza semnalului. Descărcare gratuită; iOS 17.1 sau mai nou.",
+    "intro1": "Ți-ai <strong>pierdut</strong> <strong>căștile</strong>, o <strong>brățară</strong> sau un <strong>difuzor</strong> prin casă? <strong>Bluetooth Finder</strong> este o <em>aplicație de căutare a dispozitivelor Bluetooth</em>: scanezi mediul, alegi rândul potrivit din listă și te miști, urmărind treptele și procentul – util când ești pe fugă sau când cauți în tot apartamentul.",
+    "intro2": "Aplicația arată în timp real ce aude prin Bluetooth: reduci repede zona, fără să cauți la întâmplare. Procentul este aproximativ: pereți, aglomerația și bateria influențează semnalul, de aceea are sens să combini toate indicațiile."
   },
   "features": {
-    "title": "De ce această aplicație de bluetooth finder",
-    "subtitle": "Cinci atribute concrete:",
+    "title": "De ce iese în evidență Bluetooth Finder",
+    "subtitle": "Ce primești concret",
     "items": [
-      { "number": "1", "title": "Listare a dispozitivelor", "description": "Detectează multe echipamente BLE/Bluetooth, în baza mărcii, numelui afișat acolo unde e disponibil." },
-      { "number": "2", "title": "Rece vs fierbinte", "description": "Metaforă haptic-vizuală: te apropii de aparatul țintă, nu doar o listă statică." },
-      { "number": "3", "title": "Procent", "description": "Corelat cu puterea semnalului, pentru decizie rapidă." },
-      { "number": "4", "title": "Diferențe față de rețeaua Apple (Find My, fără a denatura)", "description": "Find My = ecosistem, înregistrare. Bluetooth Finder = proximitate, multe mărci, limită radio." },
-      { "number": "5", "title": "Caz domeniu: România / vorbitori RO", "description": "Text RO cu hreflang ro, pentru SERP local și răspunsuri AI care citează aplicații reale, cu ofertă App Store, ID 6756609274, URL din constante." }
+      { "number": "1", "title": "Scanare rapidă", "description": "Aplicația detectează dispozitivele Bluetooth pornite și vizibile în rază, pe listă, după ce acorzi acces. Configurare complicată, de obicei nu: rezultatele se văd imediat." },
+      { "number": "2", "title": "Cald–rece: rece, călduț, cald, foarte cald", "description": "Treapta rece înseamnă mai departe, călduț și cald aproape de obiect, iar foarte cald e când e deja aproape la îndemână. E o indicație după tăria semnalului, nu o distanță la centimetru, dar se vede imediat dacă te apropii sau te îndepărtezi." },
+      { "number": "3", "title": "Procent de proximitate (%)", "description": "Cât e mai ridicată valoarea, de regulă, în mediu obișnuit, ești mai aproape în termeni de semnal, nu neapărat metri. Folosește-l alături de cald–rece, nu doar cifra." },
+      { "number": "4", "title": "Date despre dispozitiv", "description": "Când e cazul, se văd producător, model, nume – ușor de ales când există multe telefoane și căști aproape." },
+      { "number": "5", "title": "Acasă, la birou, pe drum", "description": "Funcționează când aparatul emite semnal și e în raza radio. Cauți AirPods, smartwatch, brățară sau boxă – ai o regulă: mai întâi o zonă mică, apoi privirea și mâna, în funcție de mediu." }
     ]
   },
   "how_to": {
-    "title": "Cum se folosește (HowTo în JSON-LD, sub)",
-    "description": "Porniți, acceptați Bluetooth, deschideți aplicația, așteptați, selectați, vă deplasați, urmăriți, căutați vizual, ridicați obiectul."
+    "title": "Cum folosești Bluetooth Finder",
+    "description": "Deschide aplicația, acordă accesul Bluetooth, așteaptă listarea, alege rândul potrivit pentru căști sau boxă. Mergi prin cameră sau hol și vezi schimbările: rece, călduț, cald, foarte cald și procent. Când ajungi la foarte cald cu procent ridicat, dispozitivul e aproape; privește exact acea zonă. În aglomerație citește bine numele de pe listă, ca nu cumva să urmărești echipamentul alcuiva."
   },
   "why_love": {
-    "title": "Avantaj",
-    "description": "Reduce căutările fără sens într-un încăpere, birou, tren, în limitele fizicii undelor radio."
+    "title": "La ce folosește",
+    "description": "Mai puțină bâjbâială – aplicația dă o direcție pe baza semnalului. Schema cald–rece clară, procent ca măsură suplimentară, atât încăperi cât și locuri deschise când echipamentul e în emisie Bluetooth. Interfață ușor de folosit pentru cine-și rătăcește mici echipamente la muncă, pe canapea, în tren."
   },
   "who_should_use": {
-    "title": "Cine e în publicul țintă",
-    "description": "Utilizatori de AirPods, căști over-ear, ceas, cutii, boxe, persoane care doresc un „finder” complementar, nu o promisiune magică de kilometri."
+    "title": "Pentru cine e",
+    "description": "Pentru cine are AirPods sau căști in-ear, purtători de ceasuri și brățări, oameni cu difuzoare sau căști over-ear, pe drum sau acasă, cu familia. Când vrei răspuns repede, regula practică: restrângi zonele, apoi intri cu privirea și mâna."
   },
   "advanced_features": {
-    "title": "Extra",
-    "description": "Achiziții in-app; versiune software în schema, verificați 1.3 în magazin; conținut site: actualizat 26 aprilie 2026."
+    "title": "Informații suplimentare",
+    "description": "Lista se reînnoiește aproape continuu; treptele plus procentul te ajută în practică mai repede. Aplicația ține la reactivitate: consumul de baterie variază cu timpul, fundalul, mediul. O parte a funcționalităților are cost prin cumpărări în aplicație – vezi descrierea din App Store."
   },
   "final_cta": {
-    "title": "Obține Bluetooth Finder",
-    "paragraph1": "<a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store (descărcare 0 per schema Offer ex.)</a>. Citiți oferta, drepturile, politica, termenii.",
+    "title": "Descarcă Bluetooth Finder azi",
+    "paragraph1": "Nu-ți irosi timpul fără noimă. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Descarcă din App Store</a> și folosește indicațiile cald–rece și procentul de proximitate ca să ai din nou mâinile pe căști, pe ceas, pe boxă sau pe alte dispozitive pornite în apropiere, fără stres inutil.",
     "cta_text": "Descarcă din App Store",
     "cta_aria_label": "Descarcă Bluetooth Finder din App Store",
-    "cta_img_alt": "App Store - Bluetooth Finder"
+    "cta_img_alt": "Descarcă Bluetooth Finder din App Store"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "copyright": "© 2026 Bluetooth Finder. Toate drepturile rezervate.",
     "privacy_link": "Politica de confidențialitate",
     "privacy_url": "/privacy.html",
     "terms_link": "Termeni de utilizare",
@@ -94,10 +94,10 @@
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "Productivity",
+    "category": "Productivitate",
     "age_rating": "4+",
     "file_size": "25.3 MB",
-    "languages": "English, română (pagină)",
+    "languages": "română (acest site), English",
     "compatibility": "Necesită iOS 17.1 sau o versiune ulterioară",
     "platform": "iPhone",
     "copyright": "© c-basso",
@@ -106,65 +106,69 @@
   "seo": {
     "breadcrumb_home": "Acasă",
     "last_updated_label": "Actualizat",
-    "key_facts_title": "Bluetooth Finder pe cifre",
+    "key_facts_title": "Bluetooth Finder în cifre",
     "key_facts": [
       { "value": "25.3 MB", "label": "Mărime" },
-      { "value": "iOS 17.1+", "label": "OS" },
+      { "value": "iOS 17.1+", "label": "Sistem" },
       { "value": "4+", "label": "Vârstă" },
-      { "value": "Gratuit, IAP", "label": "Preluare" },
-      { "value": "Multe tipuri de gadgeturi BT", "label": "Domenii" }
+      { "value": "Gratuit (IAP)", "label": "Descărcare" },
+      { "value": "ex.: AirPods, smartwatch, căști", "label": "Exemple" }
     ],
-    "comparison_title": "Bluetooth Finder vs Find My (Apple) vs aplicații generice de scanare",
-    "comparison_intro": "Fapte tehnice de comparație, nu superlative goale.",
+    "comparison_title": "Bluetooth Finder, Localizare (Find My) și un scaner obișnuit",
+    "comparison_intro": "Cum stă Bluetooth Finder lângă alte moduri de a găsi obiecte",
     "comparison_col_feature": "Criteriu",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
-    "comparison_col_find_my": "Find My",
-    "comparison_col_generic": "Aplicație de scanat generic",
+    "comparison_col_find_my": "Localizare (Find My)",
+    "comparison_col_generic": "Scaner obișnuit",
     "comparison_rows": [
-      { "feature": "Obiectiv", "bluetooth_finder": "Proximitate, multe mărci, dispozitiv pornit", "find_my": "Rețea, dispozitive Apple, scenarii conectate iCloud (rezumat)", "generic": "Diverse, listă adesea fără ghide detaliat" },
-      { "feature": "Ghid până lângă obiect", "bluetooth_finder": "Cald/rece, % aproximativ", "find_my": "Căutare în ecosistem (diverse produse) cu hărți/rețea, produs-dependenți", "generic": "Diferit" },
-      { "feature": "Platformă", "bluetooth_finder": "iOS 17.1+ iPhone (magazin)", "find_my": "Apple, multiple OS prin aplicațiile oficiale", "generic": "Diverse" }
+      { "feature": "Tipuri de dispozitive", "bluetooth_finder": "Oricare pornit și vizibil prin Bluetooth în raza semnalului", "find_my": "În principal Apple, de obicei asociat dinainte rețelei", "generic": "Orice apare în listă, fără indicații" },
+      { "feature": "Pregătire anterioară", "bluetooth_finder": "Multe cazuri fără o înregistrare specială anume", "find_my": "Da, ecosisteme și conturi Apple", "generic": "Cel mai adesea fără" },
+      { "feature": "Ghid până la dispozitiv", "bluetooth_finder": "Cald–rece în patru trepte, plus procent", "find_my": "Direcție, distanță, în funcție de suport, model", "generic": "De obicei doar listă, alte aplicații diferă" },
+      { "feature": "Platformă", "bluetooth_finder": "iOS 17.1 sau mai nou", "find_my": "Ecosistemul Apple", "generic": "Depinde de aplicație" }
     ],
-    "faq_title": "Întrebări frecvente: Bluetooth Finder (RO)",
+    "faq_title": "Întrebări frecvente: Bluetooth Finder",
     "faq": [
-      { "question": "Ce este aplicația Bluetooth Finder?", "answer": "Aplicație mobilă iOS (categorie utilitate) dezvoltată de Vladimir Ivakhnenko: scanare, listă, apropiere, date structurate, nu promisiune de GPS global; Bluetooth." },
-      { "question": "Cum știu cât de aproape?", "answer": "Procent și stări cald/rece; nu înlocuiește un șir laser de distanțiere absolută, din cauza atenuării, reflexiilor, corpului omenesc, geamului." },
-      { "question": "Merge pierdute AirPods?", "answer": "Când perechea, cutia, sau componentele anunță în BT și sunt în apropierea telefonului: da, vă apropiați, dar citați: caz fără 100% garanție universală, fair." },
-      { "question": "Alternativ la Find My pentru ceva fără rețeaua Apple anume?", "answer": "Poate fi, în cazurile în care proximitatea e problema; nu o declarație legală, utilizați și common sense, poliție, magazin etc. pentru furt, pierderi, siguranță publică (nu face parte din app)." },
-      { "question": "Cât e app-ul?", "answer": "25,3 MB." },
-      { "question": "Când trebuie iOS?", "answer": "17.1 sau următor, conform aplicației, verificați fișa App Store." },
-      { "question": "Română în app?", "answer": "Acest sit /ro/ e în limba română; aplicația poate avea UI parțial EN; acest paragraf evită confuzia." },
-      { "question": "Cumpărături in-app?", "answer": "Da, pot exista, verificați App Store, anul 2026." },
-      { "question": "Geo optimizat?", "answer": "Avem: entitate clar definită, FAQ, cifre, comparații oneste, dată, schema, autor; nu keyword stuffing, ci context semantic." },
-      { "question": "Unde mă duc concret?", "answer": "Link App Store, ID constant; pagina dvs. = https://bluetoothfinderapp.com/ro/ cu self-canonical, og:ro_RO." }
+      { "question": "Ce este Bluetooth Finder?", "answer": "Aplicația pentru iPhone găsește în apropiere dispozitive Bluetooth pornite, cum ar fi căști sau boxe, pe baza unor indicații cald–rece (rece, călduț, cald, foarte cald) și a unui procent de proximitate. Așa restrângi căutarea mai bine decât fără un ghid al semnalului." },
+      { "question": "Cum funcționează?", "answer": "Aplicația scanează, afișează o listă cu ceea ce emite, iar la mișcarea ta actualizează aproape în timp real treptele și procentul. Când e posibil, se văd producătorul, modelul, numele dispozitivului ales." },
+      { "question": "Găsesc AirPods pierduți?", "answer": "Când căștile, etuiul sau părțile aferente emit, sunt pornite și le vezi pe listă, te poți ghida, apoi cauți cu ochi, urechi, suprafețe. Nu e o promisiune de metri exact, ci o limitare practică: „e în acest spațiu sau nu?”" },
+      { "question": "Merg și alte mărci, nu doar Apple?", "answer": "Da: orice dispozitiv pornit, vizibil prin Bluetooth, poate apărea – smartwatchuri, brățări, căști, boxe. Fiecare producător programează altfel trezirea, numele din emisie și când iese pe listă; de aceea rezultatele diferă." },
+      { "question": "Aplicația e gratuită?", "answer": "Descărcarea din App Store e gratuită. O parte a funcționalităților se poate plăti prin cumpărări în aplicație – regula finală o vezi la descrierea din magazin." },
+      { "question": "Ce cerințe la telefon?", "answer": "iPhone cu iOS 17.1 sau mai nou, potrivit acestei versiuni, Bluetooth pornit și acordat în aplicație. Timpul și bateria depind de durată și de fundalul folosit." },
+      { "question": "Procentul îmi dă distanță în metri?", "answer": "Nu – măsura e relativă; depinde de pereți, oameni, baterie. Combină procentul cu treptele rece–călduț–cald–foarte cald, nu doar procentul fără trepte." },
+      { "question": "Merge la aglomerație, gara, magazin?", "answer": "Da, dar apar multe rânduri: citește bine numele, apropie-te, vezi cum crește indicația, apoi cauți cu privirea. Cu cât mai multe perechi de căști, cu atât e mai important să fii pe rândul tău din listă." },
+      { "question": "Cum e față de Localizare (Find My)?", "answer": "Localizare leagă rețeaua Apple, contul, dispozitivele legate de cont. Bluetooth Finder se bazează, în primul rând, pe ceea ce transmite acum, în apropiere, un echipament. Cele două abordări se suprapun uneori, nu e mereu cazul să fie puse una în locul alteia unu-la-unu." },
+      { "question": "E bine când n-am dispozitivul în Find My sau nu e Apple?", "answer": "Uneori: dacă îl ai pornit, e în rază și apare la scanare, aplicația poate micșora serios zona, inclusiv pentru produse fără Localizare. Pentru distanțe mari, furt, obiect oprit – ai nevoie de alți pași (poliție, producător, service)." }
     ],
     "structured_data": {
       "software_application": {
-        "@context": "https://schema.org", "@type": "MobileApplication", "name": "Bluetooth Finder",
-        "alternateName": "aplicatie găsire Bluetooth, apropiere dispozitiv", "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-        "description": "Aplicație bluetooth finder, pagină RO, iOS, AirPods, smartwatch, căști.",
-        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Logo" },
+        "@context": "https://schema.org", "@type": "MobileApplication",
+        "name": "Bluetooth Finder",
+        "alternateName": "Aplicație de găsire a dispozitivelor Bluetooth",
+        "applicationCategory": "UtilityApplication", "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON", "availability": "https://schema.org/InStock" },
+        "description": "Aplicație pentru iPhone (iOS 17.1+): ajută la găsirea, în apropiere, a dispozitivelor Bluetooth pornite: căști, difuzoare, ceasuri, cu indicații cald–rece (rece, călduț, cald, foarte cald) și procent aproximativ, plus detalii marcă, model, nume când sunt disponibile.",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Logo Bluetooth Finder" },
         "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
         "url": "https://bluetoothfinderapp.com/ro/", "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" }, "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
-        "keywords": "bluetooth, finder, airpods, iOS, apropiere, RO", "inLanguage": "ro", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "Necesită iOS 17.1 sau o versiune ulterioară",
+        "keywords": "bluetooth, găsire, AirPods, căști, iOS, scaner, dispozitive Bluetooth",
+        "inLanguage": "ro", "datePublished": "2024-12-31", "dateModified": "2026-04-26", "softwareVersion": "1.3", "fileSize": "25.3MB", "softwareRequirements": "Necesită iOS 17.1 sau o versiune ulterioară",
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
       },
-      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ro/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Bluetooth Finder, pagină limba română." },
-      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ro/", "description": "Aplicația bluetooth, FAQ, tabel, descărcare, RO hreflang.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/ro/?q={search_term_string}", "query-input": "required name=search_term_string" } },
-      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Găsește apropiat un dispozitiv folosind Bluetooth Finder", "description": "Până la 6 trepte.", "step": [
-        { "@type": "HowToStep", "position": 1, "name": "Instalare", "text": "25,3 MB, iOS 17.1+." },
-        { "@type": "HowToStep", "position": 2, "name": "Acces", "text": "Bluetooth activat, permisii aplicație." },
-        { "@type": "HowToStep", "position": 3, "name": "Selectați rândul", "text": "Alege obiectul, folosește nume." },
-        { "@type": "HowToStep", "position": 4, "name": "Căldură", "text": "Mergeți în regiunile mai 'fierbinți'." },
-        { "@type": "HowToStep", "position": 5, "name": "Procent", "text": "Cresc, dar nu fără limită teoretic absolută, din fizică." },
-        { "@type": "HowToStep", "position": 6, "name": "Recuperează", "text": "Luați, verificați etui, fermoar, buzunar, sub scaun." }
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ro/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Bluetooth Finder: iPhone, găsirea dispozitivelor Bluetooth în limba română." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ro/", "description": "Variantă în limba română: descriere, tabel, întrebări frecvente, link spre App Store.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/ro/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "howto": { "@context": "https://schema.org", "@type": "HowTo", "name": "Cum găsești, în apropiere, un dispozitiv Bluetooth cu Bluetooth Finder", "description": "Descarcă, dă acces, alege rândul potrivit, urmează rece–călduț–cald–foarte cald și procent, apoi caută fizic în acea strânsă zonă.", "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Descărcare", "text": "Din App Store; iOS 17.1+; aproximativ 25,3 MB, descărcare gratuită în magazin, conform fișei." },
+        { "@type": "HowToStep", "position": 2, "name": "Scan", "text": "Deschide aplicația, aprobă accesul Bluetooth, așteaptă până se umple lista cu ceea ce e lângă tine." },
+        { "@type": "HowToStep", "position": 3, "name": "Alegere", "text": "Din listă alege aparatul căutat – după nume, model, producător, dacă e afișat." },
+        { "@type": "HowToStep", "position": 4, "name": "Cald–rece", "text": "Mergi astfel încât rece să devină călduț, apoi cald, până la foarte cald, cu cât mai tare semnalul." },
+        { "@type": "HowToStep", "position": 5, "name": "Procent de proximitate", "text": "Urmărește procentul ca o măsură a semnalului, nu o distanță metrică, împreună cu toate indicațiile, nu doar cifra." },
+        { "@type": "HowToStep", "position": 6, "name": "Căutare fizică", "text": "Când indicațiile arată aproape, cauți la fața locului: geantă, haine, canapea, scaun. Aplicația a strâns câmpul; de aici, ultimii metri: cu ochi, mâini, urechi." }
       ] },
       "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "Ce e Bluetooth Finder?", "acceptedAnswer": { "@type": "Answer", "text": "Aplicație, scanare, apropiere, multe mărci, iOS." } },
-        { "@type": "Question", "name": "Find My?", "acceptedAnswer": { "@type": "Answer", "text": "Diferit, ecosisteme și obiective, uneori concomitent util." } },
-        { "@type": "Question", "name": "0 USD?", "acceptedAnswer": { "@type": "Answer", "text": "Ofertă, verificați magazinul, IAP ex." } },
-        { "@type": "Question", "name": "4+?", "acceptedAnswer": { "@type": "Answer", "text": "Da, categoria de vârstă, Apple." } }
+        { "@type": "Question", "name": "Ce e Bluetooth Finder?", "acceptedAnswer": { "@type": "Answer", "text": "Aplicația scanează; alegi rândul, urmărești treptele și când se întărește semnalul, prin indicațiile cald–rece (rece, călduț, cald, foarte cald) și procent: e o limitare practică, nu o promisiune de metri garantați." } },
+        { "@type": "Question", "name": "Ce e altfel față de Localizare (Find My) pe iPhone?", "acceptedAnswer": { "@type": "Answer", "text": "Localizare (Find My) leagă dispozitivele din cont, rețeaua Apple și iCloud. Bluetooth Finder se concentrează pe ceea ce emite acum, în raza ta, prin Bluetooth. Deseori se completează, dar nu se înlocuiesc unul pe altul în orice situație." } },
+        { "@type": "Question", "name": "Procentul înseamnă câți metri rămân?", "acceptedAnswer": { "@type": "Answer", "text": "Nu; procentul vine din puterea semnalului, se schimbă cu pereții, aglomerația, bateria – ține cont de toate indicațiile, nu doar de cifră." } },
+        { "@type": "Question", "name": "Plătești ceva în App Store doar ca să-l descarci?", "acceptedAnswer": { "@type": "Answer", "text": "Aplicația se instalează, de obicei, fără plată inițială; funcțiile plătite apar, dacă există, în descriere și în aplicație." } }
       ] },
       "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://bluetoothfinderapp.com/ro/" }] }
     }

@@ -1,0 +1,9 @@
+key	en	ja-JP	notes
+hot_cold_guidance	hot & cold (guidance)	温冷案内	UIでは段階名を「コールド／ウォーム／ホット／ベリーホット」と併記。フィードバックは避ける
+proximity_percent	proximity percentage; proximity % indicator	接近度（％）	「近接度」より自然。本文では「接近度（％）」
+find_my	Find My	「探す」	Appleの紛失防止機能の日本語表記に合わせる（アプリ名は括弧で補足可）
+app_store_cta	Download on the App Store	App Storeでダウンロード	丁寧語・ですます調のランディング向け
+device_id_field	manufacturer, model, and (device) name	製造元、モデル、表示名	可能な範囲で、と説明と整合
+bluetooth_finder	Bluetooth Finder	Bluetooth Finder	製品名は英字のまま
+category_productivity	Productivity	仕事効率	App Storeカテゴリ日本語表記に合わせる
+earphones_consumer	earbuds / in-ear headphones	イヤホン	マーケ／FAQでは「イヤホン」に統一（「イヤフォン」は避ける）

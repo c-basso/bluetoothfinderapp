@@ -1,0 +1,9 @@
+key	en	ko-KR	notes
+hot_cold_guidance	hot & cold (guidance)	핫·콜드 안내	단계명은 콜드/웜/핫/베리 핫(제품·UI)과 병기
+proximity_percent	proximity % indicator	근접도(%)	‘근접(%)’ 단독보다 (%) 명시
+find_my	Find My	나의 찾기	iOS·App Store 정식명
+app_store_cta	download on App Store	App Store에서 다운로드	초보면 '받기'이나 스토어 표기와 톤 맞춤
+bluetooth_generic	Bluetooth (technology)	블루투스	본문 기술 일반은 한글 선호, 앱명 Bluetooth Finder는 유지
+category_productivity	Productivity	생산성	App Store 카테고리 한국어(생산성)
+very_hot	very hot (UI stage)	베리 핫	영어 UI·마케 병기 시; 설명엔 ‘거의 잡힘/매우 가까움’
+ble_ad	Bluetooth advertising payload	블루투스 광고	기술독자용에 ‘(Advertising)’ 괄호 병기 가능; BLE는 소비자 본문에서 남용 금지

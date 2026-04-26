@@ -1,0 +1,8 @@
+key	en	ru-RU	notes
+hot_cold	hot & cold	подсказки «холодно — тепло — жарко — очень жарко»; в связке с экраном	4 шага, как в приложении; не говорить «тёплая/холодная обратная связь» в заголовках, если можно проще
+proximity_percent	proximity %	доля сигнала в процентах; оценка близости (%)	относительно силы сигнала, а не дистанция в «метрах по линейке»
+find_my	Find My	Локатор (Find My)	как в интерфейсе iOS, при необходимости в скобках
+app_store_cta	Download on the App Store	Скачать в App Store	как в кнопках Apple
+category	Productivity	Продуктивность	категория в App Store, RU
+currency	—	RUB в offers schema для ru_RU	
+bluetooth	Bluetooth; Bluetooth-устройство	Bluetooth пишем латиницей, как в App Store; «по блютузу» в маркетинге — избегать

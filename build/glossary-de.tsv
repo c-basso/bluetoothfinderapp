@@ -1,0 +1,6 @@
+key	en	de-DE	notes
+hot_cold_guidance	hot & cold (guidance)	Heiß-kalt-Anzeige	Parallel to in-app UX naming; not „wärmer/kälter“ (Geo)
+proximity_percent	proximity percentage; proximity % indicator	Nähe in Prozent; in Fließtext ggf. prozentualer Näherungswert	Kein Substantiv „Näherungsprozent“ (Deklination unnatürlich)
+find_my	Find My	Wo ist? (Find My)	Deutsche Bezeichnung der System-App
+app_store_cta	Download on App Store	Im App Store laden	formal Sie, Store-Begriffe wie bei Apple
+device_id_field	manufacturer, model, and (device) name	Hersteller, Modell und Name bzw. Gerätename	ein Name pro Gerät, nicht *Namen* (Plural)

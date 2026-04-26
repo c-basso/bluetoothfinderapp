@@ -1,0 +1,8 @@
+key	en	pt-PT	notes
+hot_cold	guidance	indicações quente e frio; quatro níveis: frio, morno, quente, muito quente	Consistente com a UI; evitar a anglicismo desnecessário *feedback* em títulos
+proximity_percent	proximity %	percentagem de proximidade	% como auxiliar, não “precisão a laser”
+find_my	Find My	Localizar; rede Localizar	Nomenclatura da Apple (PT-PT/PT-BR: Localizar)
+app_cta	Descarregar na App Store	Descarregar na App Store	Botão/marketing, como a Apple
+app_role	bluetooth finder app	localização de dispositivos via Bluetooth; a app	Concordância com *a app* (feminino em PT comum)
+category	Productivity	Produtividade	Categoria da App Store
+currency schema	EUR	Oferta 0, schema em EUR	Alinhado com a página /pt/ (pt_PT) entre locales EU

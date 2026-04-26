@@ -1,0 +1,8 @@
+key	en	th-TH	notes
+hot_cold	hot & cold	ร้อน–เย็น: เย็น, อุ่น, ร้อน, ร้อนมาก	สี่ระดับให้สอดคล้องกับ UI; ไม่ใช่คำว่า “feedback” ในหัวข้อ
+proximity_percent	proximity %	ค่าเปอร์เซ็นต์ความใกล้ (อ้างอิง)	เทียบสัญญาณ ไม่ใช่ระยะเมตร
+find_my	Find My	ค้นหา (Find My)	ชื่อระบบของ Apple บน iOS
+app_store_cta	Download on the App Store	ดาวน์โหลดบน App Store	ตามปุ่ม App Store
+category	Productivity	การเพิ่มประสิทธิภาพ	แนว “เครื่องมือ/งาน” บน App Store, TH
+currency	—	THB ในฟิลด์ offers สำหรับ th_TH	
+bluetooth	Bluetooth, อุปกรณ์ Bluetooth	คำเทคนิค Bluetooth; อุปกรณ์ — สะกด “Bluetooth” ตาม Apple

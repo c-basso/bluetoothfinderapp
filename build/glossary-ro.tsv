@@ -1,0 +1,8 @@
+key	en	ro-RO	notes
+hot_cold	hot & cold	indicații cald–rece; patru trepte: rece, călduț, cald, foarte cald	Consecvent cu ecranul; a evita „feedback” în titluri, dacă e posibil
+proximity_percent	proximity %	procent de apropiere; proximitate (%)	Indicator relativ, nu distanță în metri exactă
+find_my	Find My	Localizare (Find My)	Terminologie Apple, cu explicație scurtă unde e cazul
+app_store	Descărcați din App Store	Descarcă din App Store	Ca butoanele Apple
+category	Productivity	Productivitate	Categoria din App Store, RO
+currency	—	RON în oferta schema, pentru ro_RO	
+bluetooth	Bluetooth; dispozitiv Bluetooth	Consecvent: „Bluetooth” ca tehnologie; „Bluetooth Finder” ca nume

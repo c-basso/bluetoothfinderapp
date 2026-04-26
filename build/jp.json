@@ -8,7 +8,7 @@
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/jp/",
     "og_title": "Bluetooth Finder｜Bluetooth機器の発見アプリ",
-    "og_description": "紛失したAirPods、スマートウォッチ、イヤホン、スピーカーなど電源の入ったBluetooth端末を探索。温冷案内（コールド・ウォーム・ホット）と接近度パーセントでiPhoneから近づきを掴みます。iOS 17.1以降。App Storeから無料。",
+    "og_description": "紛失したAirPods、スマートウォッチ、イヤホン、スピーカーなど、電源の入ったBluetooth端末を探索。温冷案内（コールド／ウォーム／ホット／ベリーホット）と接近度（％）で近づきを把握。iOS 17.1以降。App Storeから無料。",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
     "og_image_alt": "Bluetooth Finder – 紛失デバイスの探索",
     "og_image_width": "1140",
@@ -16,7 +16,7 @@
     "og_locale": "ja_JP",
     "twitter_url": "https://bluetoothfinderapp.com/jp/",
     "twitter_title": "Bluetooth Finder｜Bluetoothデバイスを素早く発見",
-    "twitter_description": "近くのBluetooth機器をスキャン。温冷フィードバックと接近度％で、AirPodsやスマートウォッチ、ヘッドホンを探索。",
+    "twitter_description": "近くのBluetooth機器をスキャン。温冷の案内と接近度（％）で、AirPodsやスマートウォッチ、ヘッドホンなどを探索。",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
     "twitter_image_alt": "Bluetooth Finder アプリ",
     "twitter_image_width": "1140",
@@ -48,8 +48,8 @@
   },
   "content": {
     "summary_label": "概要",
-    "summary_tldr": "Bluetooth Finder（Bluetoothファインダー）とは、iPhone向けのユーティリティアプリで、電源の入った近くのBluetooth機器（AirPods、スマートウォッチ、ヘッドホンなど）を、温冷（コールド・ウォーム・ホット）の案内と接近度の数値（％）で導きます。Appleの「探す」ネットワークへの事前登録を除く、任意のBLE機器向け。無料でインストール可能。対応：iOS 17.1以降。",
-    "intro1": "Bluetooth機器の置き忘しは、日常でよく起こります。<strong>Bluetooth Finder</strong>は、身の回りのBluetooth端末を素早く探すアプリで、AirPods、スマートウォッチ、各種イヤフォンに対応します。忙しい朝や移動中でも、探し方がはっきり分かる設計です。",
+    "summary_tldr": "Bluetooth Finder（Bluetoothファインダー）は、iPhone向けのユーティリティアプリです。電源の入った近くのBluetooth機器（AirPods、スマートウォッチ、ヘッドホンなど）を、温冷（コールド／ウォーム／ホット／ベリーホット）の段階と接近度（％）で探しやすくします。Appleの「探す」と違い、事前のネットワーク登録なしで幅広いBluetooth機器を対象にできます。App Storeから無料で入手可能。iOS 17.1以降が必要です。",
+    "intro1": "Bluetooth機器の置き忘しは、日常でよく起こります。<strong>Bluetooth Finder</strong>は、身の回りのBluetooth端末を素早く探すアプリで、AirPods、スマートウォッチ、各種イヤホンに対応します。忙しい朝や移動中でも、探し方がはっきり分かる設計です。",
     "intro2": "リアルタイムのスキャンで周辺の機器を一覧化し、移動に合わせた温冷と接近度（％）で、目的の端末の方向へ導きます。混雑した部屋から自宅のソファ下まで、Bluetooth端末探しの負担を減らします。"
   },
   "features": {
@@ -63,8 +63,8 @@
       },
       {
         "number": "2",
-        "title": "温冷（ホット&コールド）案内",
-        "description": "遠い・近いの感覚を段階表示（例：コールド＝遠方、ウォーム、ホット、非常にホット＝手の届く距離）で示します。歩きながら、端末に近づいているかを直感的に確認できます。"
+        "title": "温冷（コールド／ウォーム／ホット／ベリーホット）案内",
+        "description": "遠い・近いの感覚を段階で示します（例：コールド＝遠い、ウォーム＝やや近い、ホット＝近い、ベリーホット＝すぐそこ）。歩きながら、端末に近づいているかを直感的に確認できます。"
       },
       {
         "number": "3",
@@ -89,25 +89,25 @@
   },
   "why_love": {
     "title": "こんな人におすすめ",
-    "description": "手探りの探索を減らし、フィードバックに沿って動けるようになります。仕事と移動の多い人、子どもとイヤフォンを共有している家庭、フィットネストラッカーや第3世代のEarbuds利用者に適し、iPhone一台でBluetooth近傍探索の補助を得られます。"
+    "description": "手探りの探索を減らし、画面の案内に沿って動けます。仕事と移動の多い方、家族でイヤホンを共有している家庭、フィットネストラッカーやワイヤレスイヤホン利用者におすすめ。iPhone一台でBluetooth近傍探索の補助になります。"
   },
   "who_should_use": {
     "title": "こんな用途に合います",
-    "description": "紛失しやすい真無線イヤフォン、スマートウォッチ、首掛けヘッドホン、ポータブルスピーカー。Bluetooth端末探し（Bluetooth デバイス 探す）を、短い手順で試したい方へ。"
+    "description": "紛失しやすい真無線イヤホン、スマートウォッチ、首掛けヘッドホン、ポータブルスピーカー。Bluetooth端末探し（Bluetooth デバイス 探す）を、短い手順で試したい方へ。"
   },
   "advanced_features": {
     "title": "補足機能",
     "description": "近傍リストの更新、温冷段階と％の併用、比較的軽量な動作を目指した設計。iOS 17.1以降のiPhoneで、App Storeから無料インストール後に利用可能です（アプリ内課金あり）。"
   },
   "final_cta": {
-    "title": "Bluetoothファインダーアプリを今すぐ",
+    "title": "今すぐBluetoothファインダーアプリを入手",
     "paragraph1": "AirPodsやスマートウォッチ、身の回りのBluetooth機器の探索に、<a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store</a>から。温冷案内と接近度で、紛失時の手がかりを一つ足します。",
     "cta_text": "App Storeでダウンロード",
     "cta_aria_label": "App Storeから Bluetooth Finder をダウンロード",
     "cta_img_alt": "App Storeで Bluetooth Finder を取得"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "copyright": "© 2026 Bluetooth Finder. 無断転載を禁じます。",
     "privacy_link": "プライバシーポリシー",
     "privacy_url": "/privacy.html",
     "terms_link": "利用規約",
@@ -115,10 +115,10 @@
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "Productivity",
+    "category": "仕事効率",
     "age_rating": "4+",
     "file_size": "25.3 MB",
-    "languages": "English, 日本語（ページ表記）",
+    "languages": "日本語（本ページ）、English",
     "compatibility": "iOS 17.1 以降が必要です",
     "platform": "iPhone",
     "copyright": "© c-basso",
@@ -133,9 +133,9 @@
       { "value": "iOS 17.1+", "label": "互換性" },
       { "value": "4+", "label": "レーティング" },
       { "value": "無料", "label": "ダウンロード" },
-      { "value": "AirPods、スマートウォッチ、他BLE機器", "label": "想定端末" }
+      { "value": "AirPods、スマートウォッチ、その他Bluetooth機器", "label": "想定端末" }
     ],
-    "comparison_title": "Bluetooth Finder、探す、汎用スキャナの比較",
+    "comparison_title": "Bluetooth Finderと「探す」、汎用スキャナの比較",
     "comparison_intro": "紛失補助の違い（要旨）：",
     "comparison_col_feature": "項目",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
@@ -171,14 +171,14 @@
     "faq": [
       {
         "question": "Bluetooth Finder とは何のアプリですか？",
-        "answer": "iPhone上で、近くのBLE対応端末（AirPods、各種イヤフォン、スマートウォッチなど）を、スキャンと温冷、接近度の表示を使って探しやすくするアプリカテゴリ（Bluetooth ファインダー、Bluetooth デバイス 探し）向けのユーティリティです。"
+        "answer": "iPhone上で、近くのBluetooth対応端末（AirPods、各種イヤホン、スマートウォッチなど）を、スキャンと温冷案内、接近度（％）の表示で探しやすくするユーティリティアプリです。"
       },
       {
         "question": "どのように近づきを示しますか？",
         "answer": "信号に基づき、温冷の段階と接近度の数値（％）を併用します。メーカー名、モデル、可能な表示名を一覧で示し、同じ部屋の複数端末を区別しやすくします。"
       },
       {
-        "question": "紛失した AirPods やイヤフォン向けに使えますか？",
+        "question": "紛失した AirPods やイヤホン向けに使えますか？",
         "answer": "近傍に電源が入っていてBluetoothが有効であれば、多くのケースで候補として列挙され、案内表示で周辺を絞れます。最終的な目視の確認はユーザーの作業です。"
       },
       {
@@ -191,7 +191,7 @@
       },
       {
         "question": "動作環境は？",
-        "answer": "iOS 17.1以降のiPhone。Bluetoothの使用許可が必要です。アプリサイズは目安 25.3 MB、年齢制限4+。開発者Vladimir Ivakhnenko。"
+        "answer": "iOS 17.1以降のiPhoneが必要です。Bluetoothの利用許可が必要です。アプリのサイズは目安25.3 MB、年齢レーティングは4+です。"
       },
       {
         "question": "近接の％表示は、絶対距離ですか？",
@@ -221,10 +221,10 @@
         "offers": {
           "@type": "Offer",
           "price": "0",
-          "priceCurrency": "USD",
+          "priceCurrency": "JPY",
           "availability": "https://schema.org/InStock"
         },
-        "description": "iPhone向けBluetooth近傍探索アプリ。紛失したAirPods、スマートウォッチ、イヤフォン、スピーカー等の補助に。温冷案内と接近度。無料でダウンロード、iOS 17.1+。",
+        "description": "iPhone向けBluetooth近傍探索アプリ。紛失したAirPods、スマートウォッチ、イヤホン、スピーカー等の補助に。温冷案内と接近度。無料でダウンロード、iOS 17.1+。",
         "image": {
           "@type": "ImageObject",
           "url": "https://bluetoothfinderapp.com/img/logo.webp",
@@ -323,7 +323,7 @@
             "name": "Bluetooth Finder とは何ですか？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "iPhone上で、近くのBLE端末（AirPods、各種イヤフォン、スマートウォッチ等）を、スキャンと温冷、接近度で探しやすくするアプリ。事前のFind My登録不要で多くの近傍端末に対応。"
+              "text": "iPhone上で、近くのBluetooth端末（AirPods、各種イヤホン、スマートウォッチ等）を、スキャンと温冷案内、接近度で探しやすくするアプリ。事前の「探す」登録不要で多くの近傍端末に対応。"
             }
           },
           {

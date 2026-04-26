@@ -1,21 +1,21 @@
 {
   "meta": {
     "lang": "ko",
-    "title": "Bluetooth Finder - 분실한 블루투스 기기 찾기 | AirPods·스마트워치 앱",
-    "description": "Bluetooth 파인더 앱: AirPods, 스마트워치, 이어폰·헤드폰 등 켜진 Bluetooth 기기를 빠르게 탐색. 핫·콜드 안내와 근접도(퍼센트)로 길잡이. iOS 17.1 이상. App Store 무료.",
-    "keywords": "Bluetooth 찾기, 블루투스 기기 찾기, AirPods 찾기, 분실 이어폰, Bluetooth 스캐너, Bluetooth 트래커, iPhone 앱, 근처 기기, 블루투스 로케이터",
+    "title": "Bluetooth Finder - 잃어버린 블루투스 기기 찾기 | AirPods·스마트워치",
+    "description": "Bluetooth Finder는 AirPods, 스마트워치, 이어폰 등 전원이 켜진 블루투스 기기를 빨리 찾는 iPhone 앱입니다. 콜드, 웜, 핫, 베리 핫(핫·콜드) 네 단계와 근접도(%)로 수색을 돕습니다. iOS 17.1 이상, App Store 무료 다운로드.",
+    "keywords": "Bluetooth 찾기, 블루투스 기기 찾기, AirPods 찾기, 분실 이어폰, Bluetooth 스캐너, Bluetooth 트래커, iPhone 앱, 근처 기기, 블루투스",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/ko/",
-    "og_title": "Bluetooth Finder - 분실 Bluetooth 기기 탐색",
-    "og_description": "핫·콜드 안내와 근접도(퍼센트), 실시간 스캔으로 AirPods·스마트워치·이어폰을 찾는 iPhone용 앱. 전원 켜진 Bluetooth 기기, iOS 17.1 이상. App Store 무료(인앱 옵션 가능).",
+    "og_title": "Bluetooth Finder - 분실 블루투스 기기 찾기",
+    "og_description": "전원이 켜진 AirPods·스마트워치·이어폰·스피커 등을 탐색. 콜드, 웜, 핫, 베리 핫 핫·콜드 안내와 근접도(%)로 가까이 갑니다. iOS 17.1 이상. App Store에서 무료(인앱 구매 가능).",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
     "og_image_alt": "Bluetooth Finder - 분실 기기 찾기",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "ko_KR",
     "twitter_url": "https://bluetoothfinderapp.com/ko/",
-    "twitter_title": "Bluetooth Finder - Bluetooth 기기를 빠르게 찾기",
-    "twitter_description": "주변 Bluetooth 기기 스캔, AirPods·스마트워치·이어폰. 핫·콜드, 근접도(%) 안내.",
+    "twitter_title": "Bluetooth Finder - 블루투스 기기를 빨리 찾기",
+    "twitter_description": "주변 블루투스 기기 스캔, AirPods·스마트워치·이어폰. 콜드/웜/핫/베리 핫·근접도(%) 안내.",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
     "twitter_image_alt": "Bluetooth Finder 앱",
     "twitter_image_width": "1140",
@@ -27,12 +27,12 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder - Bluetooth 기기 찾기",
-    "app_name_suffix": "Bluetooth 기기 찾기",
+    "application_name": "Bluetooth Finder - 블루투스 기기 찾기",
+    "app_name_suffix": "블루투스 기기 찾기",
     "logo_alt": "Bluetooth Finder 로고 - AirPods, 스마트워치, 이어폰",
     "app_name": "Bluetooth Finder",
     "title": "Bluetooth Finder",
-    "tagline": "잃어버린 기기, 더 쉽게 찾으세요!",
+    "tagline": "잃어버린 기기, 더 쉽게 찾으세요.",
     "download_text": "App Store에서 다운로드",
     "download_aria_label": "App Store에서 Bluetooth Finder 다운로드",
     "download_img_alt": "App Store에서 Bluetooth Finder 받기"
@@ -47,46 +47,46 @@
   },
   "content": {
     "summary_label": "한눈에 보기",
-    "summary_tldr": "Bluetooth Finder는 iPhone용 유틸리티 앱으로, 켜진 Bluetooth 기기(예: AirPods, 스마트워치, 헤드폰)에 대해 핫·콜드(원거리·근거리) 단계와 근접도(%)를 제시해 분실·근처 기기를 찾도록 돕습니다. Apple '나의 찾기' 사전 등록이 없는 많은 BLE 기기에도 활용 가정. iOS 17.1+ 필요, 무료 다운로드(인앱 구매 가능), 앱 크기 약 25.3 MB, 연령 4+.",
-    "intro1": "이어폰이나 웨어러블을 자주 잃어버리는 경우가 많죠. <strong>Bluetooth Finder</strong>는 주변의 Bluetooth 기기를 빨리 찾는 데 쓰는 <em>bluetooth 찾기</em> 앱이며, AirPods, 스마트워치, 오디오 기기 등 켜진 기기에 적합합니다.",
-    "intro2": "주변을 스캔하고, 리스트에서 대상을 고른 뒤, 이동하면서 핫·콜드와 근접도(%)에 따라 가까이 가면 됩니다. 집, 사무실, 대중교통에서도 사용할 수 있도록 구성되었습니다."
+    "summary_tldr": "Bluetooth Finder는 iPhone용 앱으로, 켜져 있고 전파 범위에 있는 블루투스 기기(AirPods, 스마트워치, 헤드폰 등)에 대해, 콜드·웜·핫·베리 핫(멀다~거의 닿음)의 핫·콜드 안내와 근접도(%)로 수색하도록 돕습니다. Apple 나의 찾기(사전 등록)와 달리, 미리 맞춤 설정이 없어도 많은 인근 기기에 쓰기 쉽게 설계했습니다(제품·전원·배터리·환경에 따라 달라질 수 있음). iOS 17.1 이상, 무료 다운로드(인앱 구매 가능), 앱 약 25.3MB, 연령 4+.",
+    "intro1": "이어폰이나 웨어러블을 자주 잃어버릴 수 있습니다. <strong>Bluetooth Finder</strong>는 주변의 <em>블루투스 기기</em>를 빨리 찾는 데 쓰는 앱이며, AirPods, 스마트워치, 이어폰, 스피커 등 전원이 켜진 기기에 맞게 설계되어 있습니다.",
+    "intro2": "주변을 스캔한 뒤 목록에서 기기를 고르고, 이동하며 콜드/웜/핫/베리 핫·근접도(%)를 보면서 가깝게 갑니다. “베리 핫”이면 곁에 있을 수 있습니다. 집, 사무실, 대중교통에서도 같은 방식으로 쓸 수 있습니다."
   },
   "features": {
-    "title": "이 Bluetooth 기기 찾기 앱을 쓰는 이유",
-    "subtitle": "핵심 특징:",
+    "title": "이 앱이 특별한 이유",
+    "subtitle": "핵심 기능",
     "items": [
-      { "number": "1", "title": "즉시 스캔", "description": "무선 범위 내에서 전원이 켜진 Bluetooth 기기를 자동으로 감지합니다. 복잡한 사전 쌍 없이 목록이 채워집니다." },
-      { "number": "2", "title": "핫 & 콜드 안내", "description": "멀다(콜드)에서 가깝다(핫)까지 단계로 피드백해, 직선 거리 측정이 아닌, 방향·신호 기반의 근접 느낌을 전달합니다." },
-      { "number": "3", "title": "근접도(%)", "description": "신호 강도에 따른 백분율로, 상대적으로 가까울수록 수치가 높아집니다. 콘크리트·인파 환경에서는 달라질 수 있음에 유의하십시오." },
-      { "number": "4", "title": "기기 상세", "description": "제조사, 모델, 표시 이름(가용 시)로 어떤 기기인지 구분하기 쉽게 합니다." },
-      { "number": "5", "title": "다양한 사용처", "description": "이동 중·실내·사무에서 분실·근처에 있을 가정이 있을 때, <em>bluetooth 기기 찾기</em>를 보완 수단으로 둡니다." }
+      { "number": "1", "title": "빠른 스캔", "description": "무선 범위 내에서 전원이 켜진 블루투스 기기를 자동으로 잡아 목록에 띄웁니다. 복잡한 수동 쌍없이 바로 쓸 수 있습니다." },
+      { "number": "2", "title": "핫·콜드(콜드·웜·핫·베리 핫) 안내", "description": "멀다(콜드)에서 거의 잡히는(베리 핫)까지 네 단계로 방향·신호에 따른 근접 느낌을 돕습니다. 측정이 아닌, 이동하며 따르는 안내입니다." },
+      { "number": "3", "title": "근접도(%)", "description": "신호 강도에 따른 백분율이 높을수록 상대적으로 가깝다는 뜻입니다. 콘크리트·많은 사람, 간섭이 있는 곳에서는 달라질 수 있습니다." },
+      { "number": "4", "title": "기기 정보", "description": "감지된 기기에 대해, 가능한 경우 제조사, 모델, 표시 이름을 보여 같은 공간에 여러 기기가 있어도 구분하기 쉽습니다." },
+      { "number": "5", "title": "다양한 상황", "description": "이동 중·실내·사무실, 분실했거나 근처에 둔 것으로 의심될 때, 전원만 켜진 블루투스 기기 수색을 돕는 보완 수단이 될 수 있습니다." }
     ]
   },
   "how_to": {
     "title": "사용 방법",
-    "description": "앱을 열고 Bluetooth 권한을 허용한 뒤 스캔합니다. 목록에서 잃은 기기를 선택하고, 핫·콜드와 근접도(%)에 따라 주변을 움직입니다. 가장 '핫'에 가깝다고 느껴지는 구역을 눈으로 확인합니다. 나의 찾기와 달리, 광범한 서드파티 BLE에 대해 '근처 탐색'에 초점을 둡니다(앱: Vladimir Ivakhnenko, c-basso 저작권은 앱스토어 표기 따름)."
+    "description": "앱을 열고 블루투스 권한을 허용한 뒤 스캔합니다. 목록에서 잃은 기기를 고르고, 핫·콜드(콜드/웜/핫/베리 핫)와 근접도(%)를 보며 주변을 움직이다가 ‘베리 핫’에 가깝다고 느껴지는 쪽의 자리·가방 주변을 눈·귀로 확인합니다. 사람이 많을 때는 목록의 기기명으로 먼저 골라야 합니다."
   },
   "why_love": {
-    "title": "이렇게 도움이 될 수 있어요",
-    "description": "무작위 뒤지기를 줄이고, 신호 기반 단서로 수색 구역을 좁힙니다. iPhone(iOS 17.1 이상) 전용, 배터리 사용을 염두에 둔 경량 설계입니다."
+    "title": "이렇게 쓰면 좋아요",
+    "description": "눈에 보이는 대로 뒤지는 시간을 줄이고, 신호 단서로 수색 범위를 좁힙니다. iPhone(iOS 17.1 이상) 전용이며, 배터리·속도를 고려한 흐름으로 설계했습니다. 실내·실외, 혼잡한 곳을 포함해 전원이 켜진 기기에 맞는 보조가 될 수 있습니다."
   },
   "who_should_use": {
-    "title": "권장 사용자",
-    "description": "무선 이어폰·스마트워치·휴대용 스피커를 자주 쓰는 직장인·학생, 이동이 잦은 사용자. 'Bluetooth로 찾기'와 유사 키워드로 AI 검색·쇼핑을 하는 이용자."
+    "title": "이런 분께 맞아요",
+    "description": "에어팟·이어폰을 잃기 쉬운 분, 스마트워치·피트니스 밴드 사용자, 헤드폰·휴대용 스피커·바쁘게 이동하는 직장인·여행객. 블루투스 기기를 잃지 않기 위해, 한 번에 손쉬운 흐름을 원하는 경우에 맞게 쓰실 수 있습니다."
   },
   "advanced_features": {
-    "title": "고급·보완",
-    "description": "리스트는 실시간에 가깝게 갱신될 수 있으며, 인앱 구매로 일부 기능이 잠겨 있을 수 있습니다(앱스토어 설명을 확인하십시오). 소프트웨어 버전 1.3(예시) 등은 스토어와 동기화하십시오."
+    "title": "추가로 알아두기",
+    "description": "근처 목록이 실시간에 가깝게 갱신될 수 있고, 수치(%)·핫·콜드를 함께 보면 감이 잡히기 쉬운 편입니다. 가벼운 느낌을 지향하며(배터리·환경에 따라 달라질 수 있음) 인앱 구매로 일부가 잠기는 항목이 있을 수 있으니 App Store 설명을 함께 확인하십시오."
   },
   "final_cta": {
-    "title": "지금 App Store에서 받기",
-    "paragraph1": "AirPods, 시계, 헤드폰—켜진 Bluetooth를 더 빨리 좁히고 싶다면 <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">다운로드</a>하세요. 핫·콜드, 근접도(%)는 길잡이일 뿐, 100% 보장은 환경에 좌우됩니다.",
+    "title": "지금 Bluetooth Finder 받기",
+    "paragraph1": "AirPods, 시계, 이어폰—전원이 켜진 블루투스를 더 빨리 좁히고 싶다면 <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store</a>에서 내려받으세요. 핫·콜드·근접도(%)는 ‘길잡이’에 가깝고, 100% 보장은 전파·벽·간섭·배터리에 따라 달라질 수 있습니다.",
     "cta_text": "App Store에서 다운로드",
     "cta_aria_label": "App Store에서 Bluetooth Finder 다운로드",
-    "cta_img_alt": "App Store에서 Bluetooth Finder"
+    "cta_img_alt": "App Store에서 Bluetooth Finder 받기"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. All rights reserved.",
+    "copyright": "© 2026 Bluetooth Finder. 무단 복제·배포를 금지합니다.",
     "privacy_link": "개인정보처리방침",
     "privacy_url": "/privacy.html",
     "terms_link": "이용 약관",
@@ -94,10 +94,10 @@
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "Productivity",
+    "category": "생산성",
     "age_rating": "4+",
     "file_size": "25.3 MB",
-    "languages": "English, 한국어(페이지)",
+    "languages": "한국어(본 페이지), English",
     "compatibility": "iOS 17.1 이상",
     "platform": "iPhone",
     "copyright": "© c-basso",
@@ -114,47 +114,47 @@
       { "value": "무료(인앱)", "label": "가격" },
       { "value": "AirPods·스마트워치·이어폰 등", "label": "기기" }
     ],
-    "comparison_title": "Bluetooth Finder vs 나의 찾기(Find My) vs 일반 스캐너",
-    "comparison_intro": "분실·근처 수색 보조 측면의 요약 비교(2026년 기준 일반론).",
+    "comparison_title": "Bluetooth Finder, 나의 찾기, 일반 스캐너 비교",
+    "comparison_intro": "잃은 기기를 수색·근처에 찾을 때의 차이를 짧게 정리한 내용(일반론)입니다.",
     "comparison_col_feature": "항목",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
     "comparison_col_find_my": "나의 찾기",
-    "comparison_col_generic": "일반 Bluetooth 스캐너",
+    "comparison_col_generic": "일반 블루투스 스캐너",
     "comparison_rows": [
-      { "feature": "대상", "bluetooth_finder": "근처에서 전원·BLE가 켜진 많은 기기", "find_my": "주로 Apple 생태·사전 네트워크 등", "generic": "목록 위주, 거리 안내 약한 경우多" },
-      { "feature": "사전 페어링", "bluetooth_finder": "불필요(일반 케이스)", "find_my": "필요한 경우 多", "generic": "대개 불필요" },
-      { "feature": "근접 가이드", "bluetooth_finder": "핫/콜드 + %", "find_my": "지원 기기에서 방향·거리(제품별)", "generic": "스캐너마다 상이" },
-      { "feature": "플랫폼", "bluetooth_finder": "iOS 17.1 이상", "find_my": "Apple", "generic": "앱에 따라" }
+      { "feature": "대상", "bluetooth_finder": "가까이에 전원·블루투스가 켜진 다양한 기기", "find_my": "많은 경우 Apple 생태·망·사전 설정에 맞는 기기", "generic": "기기가 목록에 뜨는 수준, 안내는 앱마다 다름" },
+      { "feature": "사전 설정", "bluetooth_finder": "대부분의 경우 불필요", "find_my": "많은 기기·망 연동이 필요", "generic": "대체로 불필요" },
+      { "feature": "기기까지의 안내", "bluetooth_finder": "콜드/웜/핫/베리 핫 + 근접도(%)", "find_my": "지원 기기·상황에 따른 방향·거리(제품별)", "generic": "목록 위주, 거리 안내는 약한 경우가 많음" },
+      { "feature": "플랫폼", "bluetooth_finder": "iOS 17.1 이상", "find_my": "Apple", "generic": "앱마다 다름" }
     ],
-    "faq_title": "자주 묻는 질문(Bluetooth 기기 찾기)",
+    "faq_title": "자주 묻는 질문(Bluetooth Finder)",
     "faq": [
-      { "question": "Bluetooth Finder는 무엇인가요?", "answer": "iPhone용 모바일 앱으로, 주변의 켜진 Bluetooth(및 일반 Bluetooth) 기기를 스캔하고, 핫·콜드 단계와 근접도(%)로 분실·근접을 좁혀 'bluetooth 기기 찾기'·'bluetooth 찾기' 의도에 맞는 보조를 제공합니다." },
-      { "question": "작동 원리는요?", "answer": "광고 데이터와 신호 강도에 기반한 근접 느낌을 UI로 제시합니다. 절대 거리(mm)가 아닐 수 있으며, 벽·인파·배터리에 영향받습니다." },
-      { "question": "분실 AirPods·이어폰에 맞나요?", "answer": "케이스/이어폰이 켜져 있고 RF 범위에 있을 때, 목록에서 후보를 고르고 안내에 따라 수색합니다. 최종 확인은 눈으로 합니다." },
-      { "question": "다른 제조사·비 Apple 기기도요?", "answer": "가능한 한 BLE가 노출하는 한 목록에 나올 수 있습니다. 제품마다 다릅니다." },
-      { "question": "무료인가요?", "answer": "다운로드 0 USD 가격(오퍼 기준)이며, 인앱 항목이 있을 수 있습니다(스키마: Offer price 0, USD)." },
-      { "question": "필수 환경은?", "answer": "iOS 17.1 이상 iPhone, 약 25.3 MB, 연령 4+, 앱 id는 상수(6756609274)와 App Store URL을 사용합니다." },
-      { "question": "근접(%)이 정확한 거리를 보장하나요?", "answer": "아니요, 상대적·환경의존적 지표입니다. 핫·콜드와 함께 사용하십시오." },
-      { "question": "인파 많은 곳은?", "answer": "다수의 기기가 뜰 수 있어, 기기명으로 선별이 중요합니다." },
-      { "question": "Find My과 차이는?", "answer": "Find My는 Apple 네트워크·기기에 최적. Bluetooth Finder는 '근처·켜짐' BLE를 넓게 스캔·안내. 목적이 다르며 병행 가능." },
-      { "question": "Find My에 없는 기기에 대체물이 되나요?", "answer": "가능한 경우(전원, 거리) 보완책이 될 수 있으나, 도난·끄기 등 한계는 있습니다(공정·사실 기반 서술)." }
+      { "question": "Bluetooth Finder는 무엇인가요?", "answer": "iPhone용 앱으로, 주변의 전원이 켜진 블루투스 기기를 스캔하고, 콜드·웜·핫·베리 핫 핫·콜드 안내와 근접도(%)로 잃은 기기를 찾는 데 도움을 줍니다. 근접(%)이 아주 정확한 ‘미터’가 아니라, 움직이며 따라가는 보조에 가깝다는 점에 유의하십시오." },
+      { "question": "작동 방식은 어떻게 되나요?", "answer": "기기가 보내는 블루투스 광고(Advertising)·신호 강도에 기반해, 화면에 근접 느낌과 %를 띄웁니다. 벽, 사람, 배터리·RF 조건에 따라 달라질 수 있으며, 제조·모델·이름(가용 시)으로 기기를 구분하는 데도 도움이 될 수 있습니다." },
+      { "question": "잃은 AirPods·이어폰에도 쓰나요?", "answer": "이어버드·케이스 등이 켜져 있고 전파가 닿는 범위에 있을 때, 목록에서 골라 안내에 따라 수색하실 수 있습니다. 수색은 ‘베리 핫’ 근처를 끝으로, 최종은 눈·귀 확인이 됩니다." },
+      { "question": "다른 제조사·애플이 아닌 기기는요?", "answer": "블루투스가 광고를 내고 목록에 잡히는 한 후보에 오를 수 있습니다. 제품·펌웨어·꺼짐/절전마다 달라질 수 있어, 보장이 아닌 ‘보완’에 맞는지 보시는 편이 좋습니다." },
+      { "question": "무료인가요?", "answer": "App Store에서 무료로 받을 수 있고(같은 날·지역·오퍼는 스토어 기준), 일부는 인앱으로 열릴 수 있습니다. 스키마·표시 가격이 무료(0)인 점은 스토어/오퍼와 같이 확인하십시오." },
+      { "question": "필수 환경은 무엇인가요?", "answer": "iOS 17.1 이상의 iPhone, 블루투스 사용 권한이 필요합니다. 앱은 대략 25.3MB, 연령 4+입니다. 배터리·기기·환경에 따라 사용 시간은 달라질 수 있습니다." },
+      { "question": "근접도(%)가 정확한 거리를 말해주나요?", "answer": "절대 거리(mm)가 아니라, 상대적이고 환경에 민감한 지표에 가깝습니다. 콜드/웜/핫/베리 핫·근접도(%)를 함께 보는 것이 좋습니다." },
+      { "question": "인파·혼잡한 곳에서는요?", "answer": "여러 기기가 뜨기 쉬우므로, 목록·기기명으로 먼저 맞는 것을 골라야 합니다. 한 번에 ‘그 기기’만 쫓는 모델이 아닐 수 있습니다." },
+      { "question": "Apple 나의 찾기(Find My)와 뭐가 다른가요?", "answer": "나의 찾기는 Apple 생태·기기·망·사전 연동이 중심이고, Bluetooth Finder는 켜져 있고 광고가 잡히는 ‘근처’ 블루투스에 초점을 둡니다. 쓰임이 다르며, 필요에 따라 둘 다 쓰실 수 있습니다(보장·도난·꺼짐 등의 한계는 앱·제품·법적 상황마다 다릅니다)." },
+      { "question": "나의 찾기에 없는 기기를 대체할 수 있나요?", "answer": "전원·광고·범위가 맞는 경우, 잃기 직전의 ‘가까이’를 좁는 데는 보완책이 될 수 있습니다. 도난, 전원 끄기, 멀리 떨어진 기기, 망·법적 절차가 필요한 경우엔, 제조사·나의 찾기·신고·보험 등이 따로 적용될 수 있어, 그때는 해당 안내만 믿으시기 바랍니다." }
     ],
     "structured_data": {
       "software_application": {
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "Bluetooth Finder",
-        "alternateName": "Bluetooth 기기 찾기 앱",
+        "alternateName": "블루투스 기기 찾기",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "iOS",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-        "description": "iOS 17.1+ iPhone용. 분실·근접한 Bluetooth 기기(이어폰, 워치, 스피커) 보조. 핫/콜드, %.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW", "availability": "https://schema.org/InStock" },
+        "description": "iOS 17.1 이상 iPhone용. 잃었거나 가까이 둔 블루투스 기기(이어폰, 시계, 스피커 등)를 수색하도록 돕는 앱. 콜드/웜/핫/베리 핫, 근접도(%).",
         "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/logo.webp", "width": 140, "height": 140, "caption": "Bluetooth Finder 로고" },
         "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp", "width": 390, "height": 844 },
         "url": "https://bluetoothfinderapp.com/ko/",
         "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
         "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
-        "keywords": "Bluetooth 찾기, AirPods, 블루투스 기기 찾기, Bluetooth 스캐너, iOS",
+        "keywords": "Bluetooth 찾기, AirPods, 블루투스, 스캐너, iOS",
         "inLanguage": "ko",
         "datePublished": "2024-12-31",
         "dateModified": "2026-04-26",
@@ -163,26 +163,26 @@
         "softwareRequirements": "iOS 17.1 이상",
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "100" }
       },
-      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ko/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "Bluetooth 근접·분실 수색용 iOS 앱(페이지: 한국어)" },
-      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ko/", "description": "bluetooth 기기 찾기 - FAQ, 비교, 다운로드(한국어).", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/ko/?q={search_term_string}", "query-input": "required name=search_term_string" } },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ko/", "logo": "https://bluetoothfinderapp.com/img/logo.webp", "description": "iPhone용 블루투스 근접·수색 앱(한국어 페이지)." },
+      "website": { "@context": "https://schema.org", "@type": "WebSite", "name": "Bluetooth Finder", "url": "https://bluetoothfinderapp.com/ko/", "description": "Bluetooth Finder 한국어 페이지. 자주 묻는 질문, 비교, App Store로 받기.", "potentialAction": { "@type": "SearchAction", "target": "https://bluetoothfinderapp.com/ko/?q={search_term_string}", "query-input": "required name=search_term_string" } },
       "howto": {
         "@context": "https://schema.org", "@type": "HowTo",
-        "name": "Bluetooth Finder로 기기에 가까이 가는 방법",
-        "description": "다운로드, 스캔, 기기 선택, 핫/콜드·% 따라 이동, 최종 확인.",
+        "name": "Bluetooth Finder로 잃은 기기에 가까이 가는 방법",
+        "description": "App Store에서 받기, 권한 후 스캔, 목록에서 기기 선택, 콜드/웜/핫/베리 핫·%를 보며 이동, ‘베리 핫’ 근처에서 직접 찾기.",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "App Store", "text": "iOS 17.1+ iPhone, 무료(오퍼), 약 25.3MB." },
-          { "@type": "HowToStep", "position": 2, "name": "스캔", "text": "권한 허용 후 주변 Bluetooth 목록." },
-          { "@type": "HowToStep", "position": 3, "name": "선택", "text": "이름/제조로 대상을 고릅니다." },
-          { "@type": "HowToStep", "position": 4, "name": "핫·콜드", "text": "따뜻해지는 쪽으로 이동." },
-          { "@type": "HowToStep", "position": 5, "name": "%", "text": "수치 상승 = 상대적 근접(환경에 따라 변동)." },
-          { "@type": "HowToStep", "position": 6, "name": "회수", "text": "시각·청각으로 직접 찾기." }
+          { "@type": "HowToStep", "position": 1, "name": "다운로드", "text": "iOS 17.1 이상 iPhone에서 App Store. 무료 다운로드(인앱 가능), 약 25.3MB." },
+          { "@type": "HowToStep", "position": 2, "name": "스캔", "text": "앱을 열고 블루투스 권한을 허용한 뒤, 주변 기기를 스캔합니다." },
+          { "@type": "HowToStep", "position": 3, "name": "기기 선택", "text": "이름·제조사(가용 시)로 잃은 기기를 고릅니다." },
+          { "@type": "HowToStep", "position": 4, "name": "핫·콜드", "text": "콜드에서 웜, 핫, 베리 핫으로 갈수록 가까이 움직입니다. 안내는 이동하며 따릅니다." },
+          { "@type": "HowToStep", "position": 5, "name": "근접도(%)", "text": "%는 상대적·환경에 따라 변합니다. 콜드/웜/핫/베리 핫과 함께 보는 것이 좋습니다." },
+          { "@type": "HowToStep", "position": 6, "name": "수색 완료", "text": "“베리 핫”에 가깝다면 그 자리, 가방·쿠션 주변을 눈·귀로 확인하십시오." }
         ]
       },
       "faqpage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "이 앱은 뭡니까?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone용 Bluetooth 근접 보조. 핫/콜드와 %, 다수 BLE, Find My 사전 등록 없이 쓸 수 있는 경우도." } },
-        { "@type": "Question", "name": "Find My vs?", "acceptedAnswer": { "@type": "Answer", "text": "Apple vs broad nearby BLE. 용도 다름." } },
-        { "@type": "Question", "name": "AirPods?", "acceptedAnswer": { "@type": "Answer", "text": "주변·전원·범위 조건이 맞을 때." } },
-        { "@type": "Question", "name": "비-Apple 기기?", "acceptedAnswer": { "@type": "Answer", "text": "스캔·안내 후보, 제각각." } }
+        { "@type": "Question", "name": "Bluetooth Finder는 어떤 앱인가요?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone용 블루투스 수색·근접 보조 앱입니다. 켜지고 광고가 잡히는 ‘근처’에 초점하며, 콜드·웜·핫·베리 핫과 %로 움직이는 안내를 씁니다(나의 찾기·제품·환경·전원·도난 등에 따라 쓰임·한계는 다릅니다)." } },
+        { "@type": "Question", "name": "나의 찾기와 뭐가 다른가요?", "acceptedAnswer": { "@type": "Answer", "text": "나의 찾기는 Apple 생태·기기·망에 맞춤. Bluetooth Finder는 켜진 ‘근처’에 공통적으로 스캔·안내를 다룹니다. 쓰임이 다르며, 필요에 따라 둘 다 쓰실 수 있고, ‘대체’가 아닌 ‘보완’에 맞는지 먼저 판단하십시오." } },
+        { "@type": "Question", "name": "AirPods에 쓰나요?", "acceptedAnswer": { "@type": "Answer", "text": "전원·광고·RF 범위·간섭·제품·펌웨어·전원(슬립 등)이 맞을 때 후보·안내에 도움이 될 수 있습니다(보장·도난·멀리 있는 사건은 Apple·신고·보험·법 흐름이 따로 있습니다)." } },
+        { "@type": "Question", "name": "애플이 아닌 기기도 되나요?", "acceptedAnswer": { "@type": "Answer", "text": "블루투스가 광고를 내며 목록에 뜨는 한 후보만 볼 수 있습니다(제마다 광고·꺼짐·절전·동작이 다릅니다)." } }
       ] },
       "breadcrumb_list": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "홈", "item": "https://bluetoothfinderapp.com/ko/" }] }
     }
