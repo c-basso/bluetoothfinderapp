@@ -336,6 +336,8 @@ function buildSoftwareApplicationStructuredData(data) {
     if (app.offers && typeof app.offers === 'object') {
         app.offers.url = APP_STORE_URL;
     }
+    delete app.aggregateRating;
+    app.dateModified = BUILD_DATE_ISO;
 }
 
 function buildWebsiteStructuredData(data) {
@@ -358,6 +360,7 @@ function buildWebsiteStructuredData(data) {
         w.name = w.name || fallbackName;
         w.description = w.description || stripHtml(data.meta?.description);
         w.inLanguage = w.inLanguage || data.meta?.lang;
+        delete w.potentialAction;
     }
 }
 

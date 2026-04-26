@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
+const { SITE_URL, URLS, ADDITIONAL_URLS } = require('./constants');
 
 (function main() {
   const sitemapPath = path.join(__dirname, '..', 'sitemap.xml');
@@ -13,14 +13,31 @@ const { SITE_URL, URLS, DEFAULT_LANGUAGE } = require('./constants');
   lines.push('  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
   lines.push('  xmlns:xhtml="http://www.w3.org/1999/xhtml">');
   lines.push('  ');
-  lines.push('  <url>');
-  lines.push(`    <loc>${SITE_URL}</loc>`);
-  for (const { code, hreflang, url } of URLS.filter(({code}) => code !== DEFAULT_LANGUAGE)) {
-    lines.push(`    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${url}" />`);
+
+  function pushHreflangBlock() {
+    for (const { hreflang, url } of URLS) {
+      lines.push(`    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${url}" />`);
+    }
+    lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}" />`);
   }
-  lines.push('    <priority>1.0</priority>');
-  lines.push('  </url>');
-  lines.push('');
+
+  for (const { url } of URLS) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${url}</loc>`);
+    pushHreflangBlock();
+    lines.push('    <priority>1.0</priority>');
+    lines.push('  </url>');
+    lines.push('');
+  }
+
+  for (const loc of ADDITIONAL_URLS) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${loc}</loc>`);
+    lines.push('    <priority>0.4</priority>');
+    lines.push('  </url>');
+    lines.push('');
+  }
+
   lines.push('</urlset>');
 
   fs.writeFileSync(sitemapPath, lines.join('\n') + '\n', 'utf8');
