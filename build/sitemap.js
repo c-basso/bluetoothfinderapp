@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { SITE_URL, URLS, ADDITIONAL_URLS } = require('./constants');
+const BUILD_DATE_ISO = new Date().toISOString().slice(0, 10);
 
 (function main() {
   const sitemapPath = path.join(__dirname, '..', 'sitemap.xml');
@@ -24,6 +25,7 @@ const { SITE_URL, URLS, ADDITIONAL_URLS } = require('./constants');
   for (const { url } of URLS) {
     lines.push('  <url>');
     lines.push(`    <loc>${url}</loc>`);
+    lines.push(`    <lastmod>${BUILD_DATE_ISO}</lastmod>`);
     pushHreflangBlock();
     lines.push('    <priority>1.0</priority>');
     lines.push('  </url>');
@@ -33,6 +35,7 @@ const { SITE_URL, URLS, ADDITIONAL_URLS } = require('./constants');
   for (const loc of ADDITIONAL_URLS) {
     lines.push('  <url>');
     lines.push(`    <loc>${loc}</loc>`);
+    lines.push(`    <lastmod>${BUILD_DATE_ISO}</lastmod>`);
     lines.push('    <priority>0.4</priority>');
     lines.push('  </url>');
     lines.push('');
