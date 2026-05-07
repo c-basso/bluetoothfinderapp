@@ -9,6 +9,7 @@ const {
     APP_ID,
     APP_STORE_URL,
 } = require('./constants');
+const { readImageDimensions } = require('./lib/imageDimensions');
 
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
@@ -197,11 +198,18 @@ function getMissingTranslationFiles() {
 /**
  * Per-locale `site_preview.png` under `/{lang}/` if present, else default at site root.
  */
-function getPreviewImageUrl(lang) {
+function getPreviewImageRelativePath(lang) {
     const relative = lang === DEFAULT_LANGUAGE ? 'site_preview.png' : `${lang}/site_preview.png`;
     const absolute = path.join(ROOT_DIR, relative);
-    const usePath = fs.existsSync(absolute) ? relative : 'site_preview.png';
-    return `${SITE_URL}${usePath}`;
+    return fs.existsSync(absolute) ? relative : 'site_preview.png';
+}
+
+function getPreviewImageUrl(lang) {
+    return `${SITE_URL}${getPreviewImageRelativePath(lang)}`;
+}
+
+function getPreviewImageLocalPath(lang) {
+    return path.join(ROOT_DIR, getPreviewImageRelativePath(lang));
 }
 
 function getCanonicalUrl(meta, lang) {
@@ -222,12 +230,13 @@ function removeAlternateMetaFields(meta) {
     }
 }
 
-function normalizeMeta(data, lang) {
+async function normalizeMeta(data, lang) {
     data.meta = data.meta || {};
     removeAlternateMetaFields(data.meta);
 
     const canonicalUrl = getCanonicalUrl(data.meta, lang);
     const previewUrl = getPreviewImageUrl(lang);
+    const previewLocalPath = getPreviewImageLocalPath(lang);
 
     data.meta.lang = data.meta.lang || lang;
     data.meta.html_lang = data.meta.html_lang || HTML_LANG_BY_CODE[lang] || data.meta.lang;
@@ -243,6 +252,14 @@ function normalizeMeta(data, lang) {
     data.meta.og_site_name = data.meta.og_site_name || data.header?.app_name || DEFAULT_SITE_NAME;
     data.meta.og_locale = data.meta.og_locale || OG_LOCALE_BY_LANGUAGE[lang] || OG_LOCALE_BY_LANGUAGE.en;
     data.meta.last_updated_iso = BUILD_DATE_ISO;
+
+    const { width, height } = await readImageDimensions(previewLocalPath);
+    const w = String(width);
+    const h = String(height);
+    data.meta.og_image_width = w;
+    data.meta.og_image_height = h;
+    data.meta.twitter_image_width = w;
+    data.meta.twitter_image_height = h;
 }
 
 function normalizeFooter(data) {
@@ -438,8 +455,8 @@ function buildBreadcrumbStructuredData(data) {
     };
 }
 
-function preparePageData(data, lang) {
-    normalizeMeta(data, lang);
+async function preparePageData(data, lang) {
+    await normalizeMeta(data, lang);
     normalizeFooter(data);
     ensureSeoShape(data);
     applyAppStoreFromConstants(data);
@@ -601,18 +618,18 @@ function renderTemplate(template, data, lang) {
     );
 }
 
-function buildPage(template, lang) {
+async function buildPage(template, lang) {
     const outDir = getOutputDirectory(lang);
     const outPath = getOutputPath(lang);
     const jsonPath = getJsonPath(lang);
     ensureDirectoryExists(outDir);
-    const data = preparePageData(readJsonFile(jsonPath), lang);
+    const data = await preparePageData(readJsonFile(jsonPath), lang);
     fs.writeFileSync(outPath, renderTemplate(template, data, lang), 'utf8');
     console.log(`✅ Successfully built index.html from template and ${lang}.json`);
     console.log(`📁 Output saved to: ${outPath}`);
 }
 
-function main() {
+async function main() {
     const missing = getMissingTranslationFiles();
     if (missing.length > 0) {
         console.error(
@@ -625,12 +642,12 @@ function main() {
     assertSiteCssExists();
     syncWebManifest();
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
-    const defaultData = preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
+    const defaultData = await preparePageData(readJsonFile(getJsonPath(DEFAULT_LANGUAGE)), DEFAULT_LANGUAGE);
     writeUrlsFile();
     writeLlmsFile(defaultData);
     for (const lang of LANGUAGES) {
         try {
-            buildPage(template, lang);
+            await buildPage(template, lang);
         } catch (e) {
             console.error(`❌ Error building ${lang}:`, e.message);
             process.exit(1);
@@ -638,4 +655,7 @@ function main() {
     }
 }
 
-main();
+main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+});
