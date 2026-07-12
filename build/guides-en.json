@@ -1,0 +1,746 @@
+{
+  "shared": {
+    "site_name": "Bluetooth Finder",
+    "labels": {
+      "home": "Home",
+      "guides": "Guides",
+      "logo_alt": "Find Bluetooth Device app icon",
+      "nav_cta": "Get the App",
+      "quick_answer": "Quick answer",
+      "tips_title": "Tips That Improve Your Odds",
+      "faq_title": "Frequently Asked Questions",
+      "related_title": "Related Guides",
+      "read_label": "Read the guide →",
+      "updated": "Last updated",
+      "cta_button": "Download on App Store",
+      "cta_aria": "Download Find Bluetooth Device from the App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. All rights reserved.",
+      "privacy_link": "Privacy Policy",
+      "terms_link": "Terms of Service"
+    },
+    "hub": {
+      "h1": "Lost Device Guides",
+      "meta_title": "Lost Bluetooth Device Guides – AirPods, Earbuds, Headphones",
+      "meta_description": "Step-by-step guides for finding lost AirPods, earbuds, headphones, smartwatches and speakers with your iPhone — including devices that aren't in Find My.",
+      "intro_label": "What's here",
+      "intro": "Practical, honest guides for every lost-device situation: AirPods with or without Find My, a single missing earbud, non-Apple headphones and earbuds, smartwatches, speakers, and dead batteries. Each guide explains what actually works and walks you through finding the device with the Find Bluetooth Device app on iPhone.",
+      "cta_title": "One app for every guide on this page",
+      "cta_text": "Find Bluetooth Device scans nearby Bluetooth signals and guides you to any powered-on device with hot–cold feedback and a proximity percentage. Free, 24.2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "how-to-find-lost-airpods",
+      "breadcrumb": "How to Find Lost AirPods",
+      "meta_title": "How to Find Lost AirPods (With or Without Find My) – 2026",
+      "meta_description": "Lost your AirPods? Use Find My for the map location, then track the live Bluetooth signal to pinpoint them. Step-by-step guide that works even without Find My.",
+      "keywords": "how to find lost airpods, find my lost airpods, find lost airpods, lost airpods at home, track lost airpods iphone",
+      "h1": "How to Find Lost AirPods",
+      "quick_answer": "If Find My was enabled, open the Find My app first — it shows your AirPods on a map and can play a sound while they're out of the case and charged. If Find My isn't available, only shows a stale location, or the sound is too quiet to hear, use a Bluetooth finder app: AirPods broadcast a Bluetooth signal whenever they're powered on, and following that signal's strength leads you to within arm's reach.",
+      "sections": [
+        {
+          "title": "Start With Find My — Then Know Its Limits",
+          "paragraphs": [
+            "Apple's Find My is the right first step for AirPods that were paired to your iPhone: open Find My → Devices → your AirPods, check the map, and tap Play Sound if they're nearby. AirPods Pro 2 and later can even give directional guidance.",
+            "But Find My has three common failure modes. The map location is often accurate only to a building — it can't tell you which couch cushion. The sound alert is quiet and won't play if the AirPods are in the case. And if the AirPods were never set up with Find My, belong to another Apple Account (secondhand pairs), or show \"Offline,\" the app can't do anything at all."
+          ]
+        },
+        {
+          "title": "Why Bluetooth Signal Tracking Finds What Find My Can't",
+          "paragraphs": [
+            "Whenever AirPods are out of their case and have battery, each earbud broadcasts Bluetooth Low Energy signals. Those signals reach roughly 10–30 meters indoors, and their strength rises sharply as you get closer to the source.",
+            "A Bluetooth finder app reads that signal directly — no Apple Account, no prior setup, no Find My network. That makes it the practical tool for the last 30 meters of the search: Find My gets you to the right room, signal tracking gets you to the right cushion."
+          ]
+        }
+      ],
+      "steps_title": "Find Your AirPods With the Find Bluetooth Device App",
+      "steps": [
+        {
+          "title": "Download and open the app",
+          "description": "Install Find Bluetooth Device from the App Store (free, 24.2 MB, iOS 17.1+) and allow Bluetooth access when prompted."
+        },
+        {
+          "title": "Scan for nearby devices",
+          "description": "Start a scan. Every powered-on Bluetooth device in range appears in a list with live signal strength — look for your AirPods by name."
+        },
+        {
+          "title": "Select your AirPods",
+          "description": "Tap your AirPods in the list. If they don't show a name, check the device details for the Apple manufacturer label."
+        },
+        {
+          "title": "Walk the search area slowly",
+          "description": "Move through the rooms where you last had them. The hot–cold indicator shifts from Cold to Warm to Hot as the signal strengthens."
+        },
+        {
+          "title": "Pinpoint at Very Hot",
+          "description": "When the app shows Very Hot and the proximity percentage passes 90%, your AirPods are within arm's reach — check cushions, pockets, bags and under furniture."
+        }
+      ],
+      "tips": [
+        "Search one room at a time; note the highest percentage you see in each room, then focus on the best one.",
+        "Hold your iPhone at different heights — signal is strongest with a clear line to the device.",
+        "AirPods sleep in the closed case. If you suspect they're in the case somewhere, open Find My and check the case's last known location instead.",
+        "Search sooner rather than later: an AirPod outside the case keeps broadcasting until the battery runs out."
+      ],
+      "faq": [
+        {
+          "question": "Can I find lost AirPods without the Find My app?",
+          "answer": "Yes, while they're out of the case and charged. AirPods broadcast Bluetooth signals that a Bluetooth finder app can track by signal strength — no Find My setup or iCloud account needed."
+        },
+        {
+          "question": "How far away can lost AirPods be detected?",
+          "answer": "Bluetooth range is typically 10–30 meters indoors, depending on walls and interference. Outdoors with a clear line of sight it can reach farther. If nothing shows up, move to the next room and scan again."
+        },
+        {
+          "question": "Do AirPods have to be charged to be found?",
+          "answer": "Yes. A fully dead AirPod stops broadcasting and cannot be detected by any app or by Find My in real time. If they might be dead, search the last known location from Find My and re-scan periodically."
+        }
+      ],
+      "cta_title": "Your AirPods are probably in Bluetooth range right now",
+      "cta_text": "Scan for them and follow the hot–cold guidance until you're right on top of them. Free download, no setup.",
+      "related": [
+        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" },
+        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
+        { "url": "/guides/find-dead-airpods/", "title": "How to Find Dead AirPods" }
+      ]
+    },
+    {
+      "slug": "find-airpods-without-find-my",
+      "breadcrumb": "Find AirPods Without Find My",
+      "meta_title": "How to Find AirPods Without Find My or iCloud (It Works)",
+      "meta_description": "No Find My, no iCloud, secondhand AirPods? You can still find them: AirPods broadcast Bluetooth while powered on. Track the signal with an iPhone — here's how.",
+      "keywords": "find airpods without find my, find airpods without icloud, find lost airpods no find my, secondhand airpods find, track airpods without apple id",
+      "h1": "How to Find AirPods Without Find My",
+      "quick_answer": "You can find lost AirPods without Find My by tracking their Bluetooth signal. Whenever AirPods are out of the case and charged, they broadcast Bluetooth Low Energy signals with a range of roughly 10–30 meters indoors. A Bluetooth finder app on your iPhone reads the live signal strength and guides you toward the earbuds — no iCloud account, Apple ID, or prior Find My setup required.",
+      "sections": [
+        {
+          "title": "Why You Might Be Locked Out of Find My",
+          "paragraphs": [
+            "Find My only works for AirPods that were paired to your Apple Account before they went missing. That leaves a lot of people with no first-party option:"
+          ],
+          "list": [
+            "Find My was never enabled, or the AirPods were reset",
+            "The AirPods are secondhand and still tied to the previous owner's Apple Account",
+            "You're signed out of iCloud or can't access the account",
+            "The AirPods show \"Offline\" or \"No location found\" in Find My",
+            "You're trying to find AirPods that were paired to an Android phone or a computer"
+          ]
+        },
+        {
+          "title": "The Signal Is Still There — You Just Need a Reader",
+          "paragraphs": [
+            "None of those situations stop the AirPods themselves from broadcasting. Bluetooth advertising is how AirPods stay discoverable, and it happens independently of Apple's network. As long as an earbud is out of its case and has battery, it announces itself several times per second.",
+            "A Bluetooth finder app turns your iPhone into a receiver for those announcements. Signal strength (RSSI) rises predictably as you approach the source, so the app can tell you — in plain hot-and-cold terms — whether each step takes you closer or farther."
+          ]
+        }
+      ],
+      "steps_title": "Track Your AirPods by Signal, Step by Step",
+      "steps": [
+        {
+          "title": "Install Find Bluetooth Device",
+          "description": "Free on the App Store, 24.2 MB, iOS 17.1+. No account or sign-in — it works entirely from live Bluetooth scanning."
+        },
+        {
+          "title": "Scan where you last had the AirPods",
+          "description": "Start in the most likely room. The scan lists every powered-on Bluetooth device in range with its signal strength."
+        },
+        {
+          "title": "Identify your AirPods in the list",
+          "description": "Look for their name or the Apple manufacturer tag in device details. Unnamed Apple devices with a steady signal are strong candidates."
+        },
+        {
+          "title": "Follow the hot–cold guidance",
+          "description": "Select the device and move slowly. Cold means walk elsewhere; Hot means you're closing in; the percentage confirms the trend."
+        },
+        {
+          "title": "Search the hotspot",
+          "description": "At Very Hot / 90%+, stop and search a one-meter radius: under cushions, in coat pockets, between car seats, inside bags."
+        }
+      ],
+      "tips": [
+        "If several Apple devices appear, put your own iPhone-connected gear in a drawer to reduce clutter, then re-scan.",
+        "Scanning from the middle of each room gives cleaner readings than scanning from doorways.",
+        "AirPods inside a closed case don't broadcast — if you got the case back but one earbud is missing, this method finds the earbud."
+      ],
+      "faq": [
+        {
+          "question": "Can I find AirPods that are linked to someone else's Apple Account?",
+          "answer": "Yes. Bluetooth signal tracking doesn't touch the Apple Account at all — it reads the public Bluetooth advertisements the AirPods broadcast while powered on. This is the standard way to physically locate secondhand AirPods."
+        },
+        {
+          "question": "Do I need an internet connection?",
+          "answer": "No. Bluetooth scanning is entirely local to your iPhone. It works in basements, parking garages and anywhere else without a signal."
+        },
+        {
+          "question": "Will this work if the AirPods are in the case?",
+          "answer": "Not reliably. AirPods sleep inside a closed case and stop advertising. If the whole case is lost, see our guide on finding a lost AirPods case for what actually works."
+        }
+      ],
+      "cta_title": "No iCloud needed — just the live signal",
+      "cta_text": "Scan, pick your AirPods, and follow the signal. Most searches end in a few minutes.",
+      "related": [
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
+        { "url": "/guides/find-lost-airpods-case/", "title": "Find a Lost AirPods Case" },
+        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" }
+      ]
+    },
+    {
+      "slug": "find-one-lost-airpod",
+      "breadcrumb": "Find One Lost AirPod",
+      "meta_title": "Lost One AirPod? How to Find a Single Missing Earbud",
+      "meta_description": "One AirPod missing? Each earbud broadcasts its own Bluetooth signal while charged. Track it with your iPhone using hot–cold signal guidance — step-by-step guide.",
+      "keywords": "find one lost airpod, lost one airpod, find single airpod, lost left airpod, lost right airpod, find missing earbud",
+      "h1": "How to Find One Lost AirPod",
+      "quick_answer": "A single AirPod can be found because each earbud broadcasts its own Bluetooth signal while it's out of the case and charged. Use Find My's Play Sound if the AirPods were registered (it can chirp the missing bud individually), and use a Bluetooth finder app to follow the earbud's signal strength when the sound is too quiet, muffled by a cushion, or Find My isn't an option.",
+      "sections": [
+        {
+          "title": "The Single-Earbud Problem",
+          "paragraphs": [
+            "Losing one AirPod is the most common AirPods loss — a bud falls out on the couch, slips into a jacket pocket, or rolls under the car seat. It's also the hardest to find by ear: a lone earbud is tiny, usually lands somewhere padded, and its speaker faces a random direction. The Play Sound chirp gets absorbed by exactly the fabrics it tends to fall into.",
+            "The good news: each AirPod is an independent Bluetooth transmitter. The left and right buds advertise separately, so the missing one keeps announcing itself as long as it has charge — typically several hours of standby after falling out."
+          ]
+        },
+        {
+          "title": "Sound First, Signal Second",
+          "paragraphs": [
+            "If your AirPods are in Find My, try Play Sound first and mute the earbud you still have so only the lost one chirps. Walk the area in silence and listen.",
+            "If you can't hear it — or Find My isn't available — switch to signal tracking. Signal strength doesn't care about cushions: it rises as you get physically closer, whether the bud is inside a sofa, a shoe, or a coat pocket."
+          ]
+        }
+      ],
+      "steps_title": "Track the Missing Earbud by Signal",
+      "steps": [
+        {
+          "title": "Keep the found earbud in its case",
+          "description": "Close the case with the remaining bud inside. It stops broadcasting, so the only AirPods signal left in the room is the lost one."
+        },
+        {
+          "title": "Scan with Find Bluetooth Device",
+          "description": "Open the app and scan. Your lost AirPod appears in the device list with its live signal strength."
+        },
+        {
+          "title": "Select it and start moving",
+          "description": "Walk a slow loop of the room. Watch the hot–cold indicator: Cold means wrong direction, Hot means keep going."
+        },
+        {
+          "title": "Zero in with the percentage",
+          "description": "The proximity percentage climbs as you approach. At 90%+, the earbud is within about an arm's reach of where you're standing."
+        },
+        {
+          "title": "Search low and soft",
+          "description": "Single earbuds end up low: between cushions, under furniture edges, in shoes, in the car seat rails. Sweep the hotspot with your hand."
+        }
+      ],
+      "tips": [
+        "Search the room where it disconnected first — your iPhone kept a connection until the bud went out of range.",
+        "A lone AirPod on standby can broadcast for hours, but not days. Search the same day if you can.",
+        "If the signal is strong everywhere in a small room, check pockets of clothes you wore — the bud may be moving with you."
+      ],
+      "faq": [
+        {
+          "question": "Can Find My locate just one AirPod?",
+          "answer": "Yes, if the AirPods were registered before the loss. Put the found earbud in the case, and Find My will show and chirp only the missing one. Without Find My, Bluetooth signal tracking is the alternative."
+        },
+        {
+          "question": "Does one AirPod broadcast a different signal than the pair?",
+          "answer": "Each earbud advertises independently over Bluetooth Low Energy. A finder app sees the missing bud as its own signal source, so you can track it even while the other bud is put away."
+        },
+        {
+          "question": "What if I lost one AirPod outside?",
+          "answer": "Retrace your route while scanning. Bluetooth reaches farther outdoors — often 30+ meters with a clear line of sight — so walk the path slowly and watch for the signal to appear, then follow the hot–cold guidance."
+        }
+      ],
+      "cta_title": "That earbud is still broadcasting",
+      "cta_text": "Put the found bud in its case, scan, and follow the signal to the missing one.",
+      "related": [
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
+        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" },
+        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" }
+      ]
+    },
+    {
+      "slug": "find-dead-airpods",
+      "breadcrumb": "Find Dead AirPods",
+      "meta_title": "How to Find Dead AirPods – What Works & What Doesn't",
+      "meta_description": "Dead AirPods can't be tracked live — no app can detect a device that isn't broadcasting. Here's what actually works: last known location, smart searching, and catching residual charge.",
+      "keywords": "find dead airpods, find airpods dead battery, find airpods that are dead, dead airpods location, find offline airpods",
+      "h1": "How to Find Dead AirPods",
+      "quick_answer": "AirPods with a fully dead battery cannot be tracked in real time — they stop broadcasting Bluetooth, so no app (including Find My) can detect them live. What works: check Find My for the last known location and search there; re-scan with a Bluetooth finder periodically, because earbuds sometimes wake briefly with residual charge; and search the physical places dead AirPods usually end up. This guide covers all three.",
+      "sections": [
+        {
+          "title": "The Honest Physics of a Dead AirPod",
+          "paragraphs": [
+            "Every method of finding AirPods — Find My, Precision Finding, sound alerts, Bluetooth scanning — depends on the earbuds transmitting a radio signal. A dead battery means no transmission, and no transmission means nothing to detect. Any app that claims to locate a completely dead AirPod live is overpromising.",
+            "That doesn't mean the search is hopeless. It means the strategy changes from tracking a signal to narrowing the physical search area — and being ready to catch the signal if it comes back."
+          ]
+        },
+        {
+          "title": "Three Things That Actually Work",
+          "paragraphs": [
+            "First, the last known location. If Find My was set up, it recorded where the AirPods were last online. That pin is your search zone — go there and search methodically.",
+            "Second, residual charge. \"Dead\" batteries often recover a small amount of voltage after resting, and AirPods returned to a charged case even briefly will broadcast again. Scanning the search zone with a Bluetooth finder every few hours costs nothing and regularly pays off.",
+            "Third, probability. Dead AirPods are found in the same places over and over: laundry (check the machine drum), couch and car-seat gaps, jacket and bag pockets, under beds, and inside shoes. Search these first in your zone."
+          ]
+        }
+      ],
+      "steps_title": "The Recovery Routine (15 Minutes a Day)",
+      "steps": [
+        {
+          "title": "Pin the last known location",
+          "description": "Open Find My → Devices → your AirPods. Note the timestamp and address of the last location, even if it says Offline."
+        },
+        {
+          "title": "Scan the zone with Find Bluetooth Device",
+          "description": "At the location, run a Bluetooth scan. If any charge remains and the buds are out of the case, they'll appear in the list — follow the hot–cold guidance immediately."
+        },
+        {
+          "title": "Do the physical sweep",
+          "description": "No signal? Search high-probability spots: cushions, pockets, laundry, under furniture, car seat rails, bag linings."
+        },
+        {
+          "title": "Re-scan on a schedule",
+          "description": "Repeat the scan morning and evening for a few days. Brief battery recovery or someone moving the buds can put a signal back on the air."
+        },
+        {
+          "title": "Be ready for next time",
+          "description": "Keep a Bluetooth finder installed and enable Find My separation alerts. Devices caught while still broadcasting take minutes to find instead of days."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can any app find AirPods with a completely dead battery?",
+          "answer": "No. A dead AirPod emits no Bluetooth signal, so live tracking is physically impossible for any app. Tools can only show the last known location and detect the earbuds again if they regain any charge."
+        },
+        {
+          "question": "How long until lost AirPods go dead?",
+          "answer": "An earbud out of its case lasts up to roughly 5–7 hours of standby depending on model and battery health. Inside a charged case they stay topped up for weeks — but a closed case doesn't broadcast, so search for the case by location, not signal."
+        },
+        {
+          "question": "Is it worth scanning if they've been dead for days?",
+          "answer": "Yes, occasionally. If anyone returns the buds to a case with charge, or residual voltage briefly revives one, a scan will catch it. A 30-second scan of the search zone costs nothing."
+        }
+      ],
+      "cta_title": "Catch the signal the moment it comes back",
+      "cta_text": "Keep Find Bluetooth Device installed and scan your search zone daily — and next time, catch your devices while they're still broadcasting.",
+      "related": [
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
+        { "url": "/guides/find-lost-airpods-case/", "title": "Find a Lost AirPods Case" },
+        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" }
+      ]
+    },
+    {
+      "slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Find Lost Bluetooth Headphones",
+      "meta_title": "How to Find Lost Bluetooth Headphones (Beats, Sony, Bose)",
+      "meta_description": "Most Bluetooth headphones can't be tracked with Find My. If they're powered on, you can follow their Bluetooth signal with your iPhone. Works with Sony, Bose, Beats, JBL and more.",
+      "keywords": "find lost bluetooth headphones, find my headphones app, lost sony headphones, lost bose headphones, find beats headphones, track bluetooth headphones",
+      "h1": "How to Find Lost Bluetooth Headphones",
+      "quick_answer": "Most Bluetooth headphones — Sony, Bose, JBL, Sennheiser and many Beats models — are not in Apple's Find My network, so there's no map to check. But while they're powered on, they broadcast a Bluetooth signal with a 10–30 meter indoor range. A Bluetooth finder app on your iPhone tracks that signal's strength and guides you to the headphones with hot–cold feedback.",
+      "sections": [
+        {
+          "title": "Why There's No \"Find My\" for Most Headphones",
+          "paragraphs": [
+            "Apple's Find My network covers Apple audio gear and a short list of certified accessories. Nearly everything else — including most premium headphones from Sony, Bose and Sennheiser — has no network tracking at all. Some brands' companion apps show a last-connected timestamp, but nothing that guides you to the device.",
+            "What every Bluetooth headphone does have is the radio itself. Powered-on headphones advertise over Bluetooth continuously (that's how your phone finds them to connect), and many stay on for hours after you set them down — auto-off timers of 15 minutes to several hours are typical, and plenty of models default to staying on."
+          ]
+        },
+        {
+          "title": "Headphones Are Easy Targets for Signal Tracking",
+          "paragraphs": [
+            "Compared to a single earbud, headphones are a best-case scenario: bigger antennas, stronger transmit power, and batteries that last 30–60 hours. If your headphones were on when you misplaced them, there's a good chance they're still broadcasting right now.",
+            "The signal also carries useful identity data — device name (often \"WH-1000XM5\" or \"Bose QC\"), manufacturer and model — so you can confirm you're tracking your own headphones and not a neighbor's speaker."
+          ]
+        }
+      ],
+      "steps_title": "Find Your Headphones With the App",
+      "steps": [
+        {
+          "title": "Install and scan",
+          "description": "Get Find Bluetooth Device from the App Store (free, iOS 17.1+), open it, and start a scan where you think you left the headphones."
+        },
+        {
+          "title": "Spot your model in the list",
+          "description": "Headphones usually appear under their model name. Check device details for manufacturer and model if the name is generic."
+        },
+        {
+          "title": "Select and follow hot–cold",
+          "description": "Walk the area slowly. The indicator warms as the signal strengthens; the proximity percentage confirms you're headed the right way."
+        },
+        {
+          "title": "Pinpoint the spot",
+          "description": "At Very Hot / 90%+, you're within arm's reach. Check bags, desk drawers, car back seats, gym lockers and coat hooks."
+        }
+      ],
+      "tips": [
+        "If nothing appears, the headphones may have auto-powered off. Search where you last used them — and next time, catch them before the timer.",
+        "Many headphones broadcast while charging too; don't rule out the charging cable behind the desk.",
+        "In an office full of Bluetooth devices, use the manufacturer field to filter out monitors, mice and other people's gear."
+      ],
+      "faq": [
+        {
+          "question": "Can I use Apple Find My for Sony or Bose headphones?",
+          "answer": "No. Non-Apple headphones aren't part of the Find My network (Beats are the main exception). For everything else, live Bluetooth signal tracking is the way to physically locate them."
+        },
+        {
+          "question": "What if my headphones turned themselves off?",
+          "answer": "Powered-off headphones don't broadcast and can't be detected. Search the last place you used them, and check spots with auto-off in mind: they were on when you set them down, so they're usually within a room of where you last listened."
+        },
+        {
+          "question": "How close do I need to be to detect them?",
+          "answer": "Typically within 10–30 meters indoors — about the size of an apartment or an office floor section. Walk between rooms while scanning; the moment they're in range, they appear in the list."
+        }
+      ],
+      "cta_title": "30–60 hour batteries mean they're probably still on",
+      "cta_text": "Scan now, pick your headphones from the list, and follow the signal to wherever you left them.",
+      "related": [
+        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" },
+        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
+      ]
+    },
+    {
+      "slug": "find-lost-earbuds",
+      "breadcrumb": "Find Lost Earbuds",
+      "meta_title": "How to Find Lost Earbuds – Galaxy Buds, Jabra, JBL & More",
+      "meta_description": "Lost wireless earbuds of any brand? While they're out of the case and powered on, they broadcast Bluetooth. Track the signal with your iPhone — here's the full method.",
+      "keywords": "find lost earbuds, find my earbuds, lost galaxy buds, lost jabra earbuds, find wireless earbuds, earbud finder app",
+      "h1": "How to Find Lost Earbuds (Any Brand)",
+      "quick_answer": "Lost earbuds can be found while they're out of their case and charged: every wireless earbud broadcasts Bluetooth Low Energy signals that a finder app can track by strength. This works for Galaxy Buds, Jabra, JBL, Anker Soundcore, Nothing Ear and every other brand — on an iPhone, without the brand's own companion app or an account.",
+      "sections": [
+        {
+          "title": "The Cross-Brand Problem",
+          "paragraphs": [
+            "Each earbud brand has its own finding story: Samsung's SmartThings Find works mainly with Galaxy phones, Jabra's app shows a last-known map pin, and many budget brands offer nothing at all. If you use iPhone with non-Apple earbuds — a very common combination — you often fall through every crack: no Find My, and the brand's finder is Android-first or nonexistent.",
+            "Bluetooth itself is the common denominator. Every wireless earbud speaks it, and every powered-on earbud advertises its presence several times a second. One signal-tracking method covers every brand."
+          ]
+        },
+        {
+          "title": "What You Need to Know Before Searching",
+          "paragraphs": [
+            "Earbuds broadcast when they're out of the case and charged; inside a closed case they sleep. A single dropped bud typically keeps advertising for several hours of standby.",
+            "Range is 10–30 meters indoors. That's small enough that you should search room by room, and large enough that one scan usually covers the whole apartment or your section of the office."
+          ]
+        }
+      ],
+      "steps_title": "Track Any Earbud With Find Bluetooth Device",
+      "steps": [
+        {
+          "title": "Scan the likely area",
+          "description": "Open the app in the room where you last had the earbuds and start a scan. All powered-on Bluetooth devices in range appear with signal strength."
+        },
+        {
+          "title": "Identify your buds",
+          "description": "Look for the product name (e.g. \"Galaxy Buds3 Pro\", \"Jabra Elite\") or match the manufacturer in device details."
+        },
+        {
+          "title": "Reduce the noise",
+          "description": "Put your own connected devices in another room if the list is crowded — what remains steady in the list is your target."
+        },
+        {
+          "title": "Follow hot–cold to the source",
+          "description": "Select the earbuds and move slowly. Watch the indicator warm and the percentage climb as you approach."
+        },
+        {
+          "title": "Sweep the hotspot",
+          "description": "At Very Hot, search soft, low places within arm's reach — earbuds sink into cushions, pockets, bags and car seat gaps."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Do I need the brand's companion app?",
+          "answer": "No. Bluetooth advertising is part of the standard every earbud implements. A Bluetooth finder app reads it directly, regardless of brand or which phone the earbuds were paired to."
+        },
+        {
+          "question": "Can I find earbuds that were paired to an Android phone?",
+          "answer": "Yes. Pairing history doesn't matter — the app detects the earbuds' broadcast signal, not their connection. This makes an iPhone with a finder app a practical search tool for any household's earbuds."
+        },
+        {
+          "question": "What if the earbuds are in their case?",
+          "answer": "Closed cases put earbuds to sleep, so they won't appear in a scan. Search for the case visually in the usual spots, and scan again if there's a chance the case is open or a bud fell out separately."
+        }
+      ],
+      "cta_title": "One method, every earbud brand",
+      "cta_text": "Scan, identify, follow the signal. Find Bluetooth Device is free on the App Store.",
+      "related": [
+        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
+        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
+        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" }
+      ]
+    },
+    {
+      "slug": "find-lost-smartwatch",
+      "breadcrumb": "Find Lost Smartwatch",
+      "meta_title": "How to Find a Lost Smartwatch or Fitness Tracker (Fitbit, Garmin)",
+      "meta_description": "Fitbit, Garmin, Amazfit and most fitness trackers can't play a sound or show a map. Track their Bluetooth signal with your iPhone instead — a step-by-step guide.",
+      "keywords": "find lost smartwatch, find my fitbit, lost garmin watch, find fitness tracker, lost apple watch at home, smartwatch finder",
+      "h1": "How to Find a Lost Smartwatch or Fitness Tracker",
+      "quick_answer": "Smartwatches and fitness trackers are among the easiest lost devices to find by Bluetooth: they broadcast almost constantly and their batteries last days or weeks. Scan with a Bluetooth finder app, select your watch from the list, and follow the hot–cold signal guidance. For an Apple Watch, try Find My first; for Fitbit, Garmin, Amazfit and most others, signal tracking is the main option.",
+      "sections": [
+        {
+          "title": "Watches Are Always Talking",
+          "paragraphs": [
+            "Unlike earbuds that sleep in a case, a smartwatch's whole job is staying connected — so it advertises over Bluetooth nearly continuously, whether it's on a nightstand, in a gym bag, or between couch cushions. Combined with multi-day battery life (often 5–14 days for fitness trackers), a misplaced watch usually stays findable for a long time.",
+            "Brand tools vary widely: Apple Watch has full Find My support with sound and a map; Fitbit's app can show a rough last-synced location; many Garmin, Amazfit and budget trackers offer little more than a \"last connected\" note. Signal tracking works the same for all of them."
+          ]
+        },
+        {
+          "title": "Where Watches Actually Hide",
+          "paragraphs": [
+            "Watches get taken off in predictable moments: charging, showering, washing dishes, sleeping, and workouts. That means the usual suspects are chargers (including behind furniture), bathroom shelves, kitchen counters, bedside tables, gym bags and jacket sleeves. Scan first to confirm the watch is in range, then let the hot–cold guidance choose the room for you."
+          ]
+        }
+      ],
+      "steps_title": "Locate Your Watch With Find Bluetooth Device",
+      "steps": [
+        {
+          "title": "Scan your home or gym bag radius",
+          "description": "Open the app and scan. Watches show up reliably thanks to their frequent advertising — look for the model name or manufacturer."
+        },
+        {
+          "title": "Select your watch",
+          "description": "Confirm it's yours via the device details (name, manufacturer, model) — useful in a home with several wearables."
+        },
+        {
+          "title": "Walk the rooms",
+          "description": "Move from room to room watching the indicator. The room where it jumps from Warm to Hot is your room."
+        },
+        {
+          "title": "Pinpoint and check the usual spots",
+          "description": "At Very Hot / 90%+, check chargers, shelves, pockets, bag compartments and under the bed within arm's reach."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I make my Fitbit or Garmin play a sound?",
+          "answer": "Most Fitbit and Garmin models have no remote sound feature (some Garmin watches can trigger a chime from their app if still connected). When sound isn't available, following signal strength is the practical way to physically find the watch."
+        },
+        {
+          "question": "How long will a lost tracker keep broadcasting?",
+          "answer": "As long as its battery lasts — typically 5–14 days for fitness bands and 1–3 days for full smartwatches. Search early for smartwatches; fitness bands give you a wide window."
+        },
+        {
+          "question": "Should I use Find My for a lost Apple Watch?",
+          "answer": "Yes, start there: Find My shows a map and plays a sound. If the watch is offline, silenced, or the ping is inaudible, a Bluetooth scan can still detect and track its signal while it's powered on and in range."
+        }
+      ],
+      "cta_title": "Your watch is broadcasting right now",
+      "cta_text": "Days of battery life mean a lost watch stays findable. Scan and follow the signal.",
+      "related": [
+        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
+        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
+        { "url": "/guides/find-lost-bluetooth-speaker/", "title": "Find a Lost Bluetooth Speaker" }
+      ]
+    },
+    {
+      "slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Find Lost Bluetooth Speaker",
+      "meta_title": "How to Find a Lost Bluetooth Speaker – JBL, Bose, Anker",
+      "meta_description": "A powered-on Bluetooth speaker is the easiest device to track: strong signal, big battery. Find your JBL, Bose or Anker speaker with an iPhone in minutes.",
+      "keywords": "find lost bluetooth speaker, lost jbl speaker, find bluetooth speaker, track bluetooth speaker, bluetooth speaker finder",
+      "h1": "How to Find a Lost Bluetooth Speaker",
+      "quick_answer": "A Bluetooth speaker that's still powered on is the easiest lost device to find: speakers transmit stronger signals than earbuds and their batteries run 12–24 hours. Scan with a Bluetooth finder app, select the speaker, and follow the hot–cold guidance — the strong signal makes the trail obvious. If it's powered off, connect-to-play a sound isn't possible; search where it was last used.",
+      "sections": [
+        {
+          "title": "Speakers: The Best-Case Search",
+          "paragraphs": [
+            "Bluetooth speakers are built to be discoverable across a room and through furniture, so their advertising signal is strong and steady. Where an earbud's signal flickers at 20 meters, a speaker often reads clearly across an entire floor — which makes hot–cold tracking fast and unambiguous.",
+            "They're also identifiable: speakers almost always broadcast their product name (\"JBL Flip 6\", \"Bose SoundLink\"), so there's no guessing which list entry is yours."
+          ]
+        },
+        {
+          "title": "The One Catch: Auto-Off",
+          "paragraphs": [
+            "Many speakers power down after 10–20 idle minutes to save battery — JBL and Anker models commonly do. If your scan finds nothing, the speaker is probably off, not gone. Search the last place it played, and remember: if someone finds and turns it on, your next scan will catch it instantly.",
+            "A bonus trick: if the speaker is on and still paired to your phone, tap play on any audio. A speaker blasting music in a closet finds itself."
+          ]
+        }
+      ],
+      "steps_title": "Track the Speaker's Signal",
+      "steps": [
+        {
+          "title": "Try the pairing trick first",
+          "description": "If your iPhone still shows the speaker as connected, play audio through it and listen. This alone often ends the search."
+        },
+        {
+          "title": "Scan with Find Bluetooth Device",
+          "description": "No sound? Scan the area. A powered-on speaker appears with a strong signal and usually its full product name."
+        },
+        {
+          "title": "Follow the hot–cold trail",
+          "description": "Select the speaker and walk. Strong speaker signals make the gradient clear — the percentage climbs quickly as you close in."
+        },
+        {
+          "title": "Check enclosed spots at the hotspot",
+          "description": "Speakers get shelved and bagged: closets, cabinets, car trunks, picnic bags, under towels. At Very Hot, open things near you."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I find a Bluetooth speaker that's turned off?",
+          "answer": "No — a powered-off speaker doesn't broadcast, so it can't be detected. Search where it was last used and re-scan later; the moment anyone powers it on within ~30 meters, a scan will catch it."
+        },
+        {
+          "question": "How far away can a speaker be detected?",
+          "answer": "Farther than most devices: often the full 30 meters indoors and beyond outdoors, thanks to speakers' stronger Bluetooth transmitters. One scan can cover a whole house."
+        },
+        {
+          "question": "My speaker was stolen — can this track it?",
+          "answer": "Only while it's within Bluetooth range (roughly 30 meters). Bluetooth finders are for misplaced devices, not remote tracking; for theft, check whether the brand offers network tracking and file a report."
+        }
+      ],
+      "cta_title": "If it's on, you'll find it in minutes",
+      "cta_text": "Speakers have the strongest signals of any Bluetooth gadget. Scan and follow the trail.",
+      "related": [
+        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
+        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
+        { "url": "/guides/find-lost-smartwatch/", "title": "Find a Lost Smartwatch" }
+      ]
+    },
+    {
+      "slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Bluetooth Scanner for iPhone",
+      "meta_title": "Bluetooth Scanner for iPhone – See All Devices Near You",
+      "meta_description": "iPhone Settings only shows paired devices. A Bluetooth scanner app reveals every device around you with signal strength, manufacturer and model — here's how to use one.",
+      "keywords": "bluetooth scanner iphone, see all bluetooth devices near me, bluetooth scanner app, detect bluetooth devices, nearby bluetooth devices iphone, BLE scanner",
+      "h1": "Bluetooth Scanner for iPhone: See Every Device Around You",
+      "quick_answer": "The iPhone's Settings → Bluetooth screen only shows devices that are paired or in pairing mode — not the full picture. A Bluetooth scanner app like Find Bluetooth Device reveals every device broadcasting nearby: name, manufacturer, model and live signal strength. People use it to find lost gadgets, identify unknown devices, and see what's actually transmitting in their space.",
+      "sections": [
+        {
+          "title": "What iPhone Settings Doesn't Show You",
+          "paragraphs": [
+            "iOS deliberately keeps the Bluetooth settings list short: your paired devices, plus accessories currently in pairing mode. Meanwhile the airwaves around you are full of other transmissions — earbuds in standby, smartwatches, TVs, fitness trackers, speakers, and devices belonging to people nearby. None of that appears in Settings.",
+            "A scanner app listens to the same Bluetooth Low Energy advertisements your iPhone already receives and shows them all: every device, its signal strength, and identifying details when the device broadcasts them."
+          ]
+        },
+        {
+          "title": "What You Can Do With a Full Scan",
+          "paragraphs": [
+            "The scan list turns out to be useful in a lot of everyday situations:"
+          ],
+          "list": [
+            "Find lost gear — spot your earbuds or watch in the list, then track them by signal strength",
+            "Identify mystery devices — the manufacturer and model fields tell you what that unnamed signal actually is",
+            "Check a space — see what's transmitting in a rental, hotel room or meeting room",
+            "Confirm a device is alive — if it broadcasts, it's powered on and in range, which instantly narrows any search",
+            "Watch signal behavior — signal strength rising as you move tells you you're getting closer to the source"
+          ]
+        }
+      ],
+      "steps_title": "Scan and Read the Results",
+      "steps": [
+        {
+          "title": "Open the app and scan",
+          "description": "Find Bluetooth Device starts detecting immediately — every advertising device in range appears in a live list."
+        },
+        {
+          "title": "Sort by signal strength",
+          "description": "The strongest signals are physically closest to you. Your own pocket devices top the list; distant gear sits near the bottom."
+        },
+        {
+          "title": "Inspect device details",
+          "description": "Tap any entry to see its name, manufacturer and model when available — usually enough to know exactly what it is."
+        },
+        {
+          "title": "Track anything that matters",
+          "description": "Select a device and use hot–cold guidance with the proximity percentage to walk straight to its physical location."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why doesn't my iPhone show all Bluetooth devices in Settings?",
+          "answer": "iOS Settings only lists paired devices and accessories in pairing mode, by design. Seeing all nearby broadcasts requires a scanner app that reads Bluetooth Low Energy advertisements directly."
+        },
+        {
+          "question": "Can a Bluetooth scanner see devices that aren't in pairing mode?",
+          "answer": "Yes — that's the point. Most Bluetooth devices advertise their presence continuously while powered on, not just during pairing. A scanner shows those advertisements with signal strength and device details."
+        },
+        {
+          "question": "Is scanning for Bluetooth devices legal and private?",
+          "answer": "Yes. Scanning passively receives public advertisements that devices broadcast to everyone by design — the same signals your phone processes constantly. The app doesn't connect to or alter other devices."
+        }
+      ],
+      "cta_title": "See what's really around you",
+      "cta_text": "Every powered-on Bluetooth device, with signal strength and details — one scan away.",
+      "related": [
+        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
+        { "url": "/guides/find-lost-smartwatch/", "title": "Find a Lost Smartwatch" },
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
+      ]
+    },
+    {
+      "slug": "find-lost-airpods-case",
+      "breadcrumb": "Find Lost AirPods Case",
+      "meta_title": "How to Find a Lost AirPods Case – The Honest Guide",
+      "meta_description": "A closed AirPods case with buds inside doesn't broadcast Bluetooth. Here's when a lost case IS findable, how to search for it, and how Find My handles cases by model.",
+      "keywords": "find lost airpods case, lost airpods case only, find airpods charging case, airpods case finder, track airpods case",
+      "h1": "How to Find a Lost AirPods Case",
+      "quick_answer": "Whether a lost AirPods case is trackable depends on the model. The AirPods Pro 2 case has its own speaker and Find My support — use Find My and play a sound. Standard cases have no electronics for tracking, and a closed case puts the earbuds inside to sleep, so nothing broadcasts. Your options: open-case moments (a case with the lid open and buds inside briefly advertises), searching by the buds if they're out of the case, and a smart physical search.",
+      "sections": [
+        {
+          "title": "Why Cases Are the Hardest AirPods Loss",
+          "paragraphs": [
+            "The charging case is mostly a battery with a lid. On every model except the AirPods Pro 2 (and later) case, it has no speaker and no independent Find My presence — Apple tracks the earbuds, not the box. And when the buds are inside with the lid shut, they sleep to save power, which silences the only transmitters in the package.",
+            "That's why \"lost the case with the buds inside\" is the worst-case scenario, and honest advice matters: no Bluetooth finder can detect a fully closed, sleeping case. What you can do is exploit the moments when the package does transmit."
+          ]
+        },
+        {
+          "title": "When a Lost Case IS Findable",
+          "paragraphs": [
+            "Three situations put a signal back on the air:"
+          ],
+          "list": [
+            "AirPods Pro 2 / later case: it participates in Find My directly — play a sound from the app and follow the beeps",
+            "Lid open: with the lid open (or ajar in a bag), the earbuds inside wake and advertise over Bluetooth — a scanner can catch them",
+            "Empty case, buds with you: track nothing — but the case is wherever you last charged or pocketed it, which narrows the physical search dramatically"
+          ]
+        }
+      ],
+      "steps_title": "The Search Plan, In Order",
+      "steps": [
+        {
+          "title": "Check Find My first",
+          "description": "For AirPods Pro 2 and later, select the case and play a sound. For other models, note the last known location of the earbuds — the case is usually with them."
+        },
+        {
+          "title": "Scan with Find Bluetooth Device",
+          "description": "Run a scan in the search area. If the lid is open or ajar, the buds inside may be advertising — if they appear, follow the hot–cold guidance."
+        },
+        {
+          "title": "Search charge-and-pocket spots",
+          "description": "No signal? Cases live in predictable places: chargers, desk edges, jacket and jeans pockets, bag side pouches, car cup holders and couch gaps."
+        },
+        {
+          "title": "Re-scan after moving things",
+          "description": "Shaking out a bag or moving cushions can pop a lid open. Scan again after each area you disturb."
+        },
+        {
+          "title": "Prevent the next loss",
+          "description": "Keep a Bluetooth finder installed and consider a Find My-capable case model — the difference in findability is enormous."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I track an empty AirPods case?",
+          "answer": "Standard cases (AirPods 2/3, original Pro): no — an empty closed case has no active transmitter. The AirPods Pro 2 and later case is the exception: it has Find My support and a built-in speaker for sound alerts."
+        },
+        {
+          "question": "Does the case broadcast Bluetooth when the buds are inside?",
+          "answer": "Only while the lid is open — the earbuds wake and advertise briefly. With the lid closed, everything sleeps and nothing is detectable. This is why scanning can work for a case in a bag with a flipped-open lid, but not a shut one."
+        },
+        {
+          "question": "I found the case but an earbud is missing — now what?",
+          "answer": "That's the easy version: the missing bud broadcasts on its own while charged. See our guide to finding one lost AirPod — put the found bud in the case and track the missing one by signal."
+        }
+      ],
+      "cta_title": "Catch the case in its talkative moments",
+      "cta_text": "Scan while you search — an open lid is all it takes for the buds inside to give themselves away.",
+      "related": [
+        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
+        { "url": "/guides/find-dead-airpods/", "title": "How to Find Dead AirPods" },
+        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
+      ]
+    }
+  ]
+}

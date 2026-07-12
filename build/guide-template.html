@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="dns-prefetch" href="https://apps.apple.com">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <title>{{meta.title}}</title>
+
+  <!-- App Store Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id={{meta.app_store_id}}">
+
+  <!-- Core SEO -->
+  <meta name="description" content="{{meta.description}}">
+  <meta name="keywords" content="{{meta.keywords}}">
+  <meta name="author" content="{{meta.author}}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="{{meta.canonical}}">
+
+  <!-- PWA & Theming -->
+  <meta name="theme-color" content="#0A0E27">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:image" content="{{meta.og_image}}">
+  <meta property="og:image:alt" content="{{meta.og_image_alt}}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{meta.canonical}}">
+  <meta property="og:site_name" content="{{meta.og_site_name|html_attr}}">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{meta.canonical}}">
+  <meta name="twitter:title" content="{{meta.title}}">
+  <meta name="twitter:description" content="{{meta.description}}">
+  <meta name="twitter:image" content="{{meta.og_image}}">
+
+  <!-- Icons & Manifest -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css?v={{meta.version}}">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Top navigation -->
+    <nav class="guide-nav" aria-label="Site">
+      <a class="guide-nav-brand" href="/">
+        <img src="/img/appstore/icon-192.webp" alt="{{shared.labels.logo_alt}}" width="40" height="40" loading="eager" decoding="async">
+        <span>{{shared.site_name}}</span>
+      </a>
+      <a class="cta-button guide-nav-cta" href="{{meta.app_store_url}}" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
+        <span>{{shared.labels.nav_cta}}</span>
+      </a>
+    </nav>
+
+    <main role="main">
+      <article class="guide-article">
+        <!-- Breadcrumbs -->
+        <nav class="guide-breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">{{shared.labels.home}}</a>
+          <span aria-hidden="true">/</span>
+          <a href="/guides/">{{shared.labels.guides}}</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">{{guide.breadcrumb}}</span>
+        </nav>
+
+        <header class="guide-header">
+          <h1>{{guide.h1}}</h1>
+          <p class="guide-updated">{{shared.labels.updated}} {{meta.last_updated}}</p>
+        </header>
+
+        <!-- Quick answer for featured snippets -->
+        <div class="tldr-box guide-answer">
+          <p class="tldr-label">{{shared.labels.quick_answer}}</p>
+          <p class="tldr-text">{{guide.quick_answer}}</p>
+        </div>
+
+        {{#each guide.sections as |section|}}
+        <section class="guide-section">
+          <h2>{{section.title}}</h2>
+          {{#each section.paragraphs as |para|}}
+          <p>{{para}}</p>
+          {{/each}}
+          {{#if section.list}}
+          <ul>
+            {{#each section.list as |item|}}
+            <li>{{item}}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </section>
+        {{/each}}
+
+        <!-- Steps with the app -->
+        <section class="guide-section" id="steps">
+          <h2>{{guide.steps_title}}</h2>
+          <ol class="steps-list guide-steps">
+            {{#each guide.steps as |step|}}
+            <li class="step-card">
+              <h3>{{step.title}}</h3>
+              <p>{{step.description}}</p>
+            </li>
+            {{/each}}
+          </ol>
+        </section>
+
+        {{#if guide.tips}}
+        <section class="guide-section">
+          <h2>{{shared.labels.tips_title}}</h2>
+          <ul>
+            {{#each guide.tips as |tip|}}
+            <li>{{tip}}</li>
+            {{/each}}
+          </ul>
+        </section>
+        {{/if}}
+
+        <!-- CTA -->
+        <aside class="guide-cta" aria-label="{{shared.labels.cta_aria}}">
+          <img src="/img/appstore/icon-192.webp" alt="{{shared.labels.logo_alt}}" width="72" height="72" loading="lazy" decoding="async">
+          <div class="guide-cta-copy">
+            <h2>{{guide.cta_title}}</h2>
+            <p>{{guide.cta_text}}</p>
+          </div>
+          <a href="{{meta.app_store_url}}" class="cta-button" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
+            <span>{{shared.labels.cta_button}}</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </aside>
+
+        <!-- FAQ -->
+        <section class="guide-section" id="faq">
+          <h2>{{shared.labels.faq_title}}</h2>
+          <dl class="faq-list">
+            {{#each guide.faq as |faq|}}
+            <div class="faq-item">
+              <dt><strong>{{faq.question}}</strong></dt>
+              <dd>{{faq.answer}}</dd>
+            </div>
+            {{/each}}
+          </dl>
+        </section>
+
+        <!-- Related guides -->
+        <section class="guide-section" id="related">
+          <h2>{{shared.labels.related_title}}</h2>
+          <div class="guides-grid guide-related-grid">
+            {{#each guide.related as |related|}}
+            <a class="guide-card" href="{{related.url}}">
+              <h3>{{related.title}}</h3>
+              <span class="guide-card-link">{{shared.labels.read_label}}</span>
+            </a>
+            {{/each}}
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>{{shared.footer.copyright}}</p>
+      <p><a href="/guides/">{{shared.labels.guides}}</a> | <a href="/privacy.html">{{shared.footer.privacy_link}}</a> | <a href="/terms.html">{{shared.footer.terms_link}}</a></p>
+      <p class="last-updated">{{shared.labels.updated}} {{meta.last_updated}}</p>
+    </footer>
+  </div>
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+    {{structured_data.article|json}}
+  </script>
+
+  <script type="application/ld+json">
+    {{structured_data.howto|json}}
+  </script>
+
+  <script type="application/ld+json">
+    {{structured_data.faqpage|json}}
+  </script>
+
+  <script type="application/ld+json">
+    {{structured_data.breadcrumb_list|json}}
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(106104643, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/106104643" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+</body>
+
+</html>

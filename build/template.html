@@ -88,7 +88,7 @@
     <section class="hero" role="banner">
       <div class="hero-content">
         <div class="logo-wrapper">
-          <img src="/img/logo.webp" alt="{{header.logo_alt}}" class="logo" width="140" height="140" loading="eager" decoding="async">
+          <img src="/img/appstore/icon-512.webp" alt="{{header.logo_alt}}" class="logo" width="140" height="140" loading="eager" decoding="async">
         </div>
         <h1>{{header.title}}</h1>
         <p class="subtitle">{{header.tagline}}</p>
@@ -98,6 +98,9 @@
             <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </a>
+        {{#if header.meta_line}}
+        <p class="hero-meta">{{header.meta_line}}</p>
+        {{/if}}
       </div>
     </section>
 
@@ -105,9 +108,12 @@
     <section class="screenshots-section" aria-label="App Screenshots">
       <div class="screenshots-grid">
         {{#each screenshots.items as |screenshot|}}
-        <div class="screenshot-wrapper">
+        <figure class="screenshot-wrapper">
           <img src="{{screenshot.src}}" alt="{{screenshot.alt}}" class="screenshot" loading="lazy" decoding="async">
-        </div>
+          {{#if screenshot.caption}}
+          <figcaption class="screenshot-caption">{{screenshot.caption}}</figcaption>
+          {{/if}}
+        </figure>
         {{/each}}
       </div>
     </section>
@@ -162,6 +168,25 @@
         </div>
       </section>
 
+      {{#if how_it_works}}
+      <!-- How It Works Section (step-by-step) -->
+      <section class="content-section" id="how-it-works" aria-labelledby="how-it-works-heading">
+        <div class="section-header fade-in">
+          <h2 id="how-it-works-heading">{{how_it_works.title}}</h2>
+          <p class="section-subtitle">{{how_it_works.subtitle}}</p>
+        </div>
+        <ol class="steps-list">
+          {{#each how_it_works.steps as |step|}}
+          <li class="step-card fade-in">
+            <h3>{{step.title}}</h3>
+            <p>{{step.description}}</p>
+          </li>
+          {{/each}}
+        </ol>
+      </section>
+      {{/if}}
+
+      {{#if how_to}}
       <!-- How to Use Section -->
       <section class="content-section">
         <div class="how-to-section fade-in">
@@ -171,7 +196,28 @@
           </div>
         </div>
       </section>
+      {{/if}}
 
+      {{#if guides}}
+      <!-- Guides Section -->
+      <section class="content-section" id="guides" aria-labelledby="guides-heading">
+        <div class="section-header fade-in">
+          <h2 id="guides-heading">{{guides.title}}</h2>
+          <p class="section-subtitle">{{guides.subtitle}}</p>
+        </div>
+        <div class="guides-grid">
+          {{#each guides.items as |guide|}}
+          <a class="guide-card fade-in" href="{{guide.url}}">
+            <h3>{{guide.title}}</h3>
+            <p>{{guide.teaser}}</p>
+            <span class="guide-card-link">{{guides.read_label}}</span>
+          </a>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
+      {{#if why_love}}
       <!-- Why You'll Love Section -->
       <section class="content-section">
         <div class="section-header fade-in">
@@ -181,7 +227,9 @@
           {{why_love.description}}
         </div>
       </section>
+      {{/if}}
 
+      {{#if who_should_use}}
       <!-- Who Should Use Section -->
       <section class="content-section">
         <div class="section-header fade-in">
@@ -191,7 +239,9 @@
           {{who_should_use.description}}
         </div>
       </section>
+      {{/if}}
 
+      {{#if advanced_features}}
       <!-- Advanced Features Section -->
       <section class="content-section">
         <div class="section-header fade-in">
@@ -201,6 +251,7 @@
           {{advanced_features.description}}
         </div>
       </section>
+      {{/if}}
 
       <!-- Comparison table for GEO -->
       <section class="content-section comparison-section" id="comparison" aria-labelledby="comparison-heading">
@@ -241,7 +292,7 @@
           {{#each seo.faq as |faq|}}
           <div class="faq-item">
             <dt><strong>{{faq.question}}</strong></dt>
-            <dd>{{faq.answer}}</dd>
+            <dd>{{faq.answer}}{{#if faq.learn_more_url}} <a class="faq-learn-more" href="{{faq.learn_more_url}}">{{faq.learn_more_text}}</a>{{/if}}</dd>
           </div>
           {{/each}}
         </dl>
@@ -267,7 +318,7 @@
     <!-- Footer -->
     <footer role="contentinfo">
       <p>{{footer.copyright}}</p>
-      <p><a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
+      <p>{{#if footer.guides_url}}<a href="{{footer.guides_url}}">{{footer.guides_link}}</a> | {{/if}}<a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
       <p class="last-updated" aria-label="{{seo.last_updated_label}}">{{seo.last_updated_label}} {{seo.last_updated}}</p>
     </footer>
   </div>

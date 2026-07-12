@@ -43,6 +43,13 @@ const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`
 ];
 
+/** English guide pages (see build/guides-en.json); included in sitemap and IndexNow. */
+const GUIDE_SLUGS = require('./guides-en.json').guides.map(({ slug }) => slug);
+const GUIDE_URLS = [
+    `${SITE_URL}guides/`,
+    ...GUIDE_SLUGS.map((slug) => `${SITE_URL}guides/${slug}/`),
+];
+
 // Expected JSON-LD types that should be present on each generated page.
 // Keep this list in sync with `build/template.html` structured data scripts.
 // Note: MobileApplication is a subtype of SoftwareApplication and is acceptable
@@ -77,6 +84,8 @@ module.exports = {
     INDEX_NOW_KEY,
     INDEX_NOW_ENGINES,
     ADDITIONAL_URLS,
+    GUIDE_SLUGS,
+    GUIDE_URLS,
     APP_ID,
     APP_STORE_URL,
 };

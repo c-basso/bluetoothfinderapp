@@ -8,11 +8,15 @@ const {
     LANGUAGES,
     APP_ID,
     APP_STORE_URL,
+    GUIDE_URLS,
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
 
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
+const GUIDE_TEMPLATE_PATH = path.join(__dirname, 'guide-template.html');
+const GUIDES_HUB_TEMPLATE_PATH = path.join(__dirname, 'guides-hub-template.html');
+const GUIDES_DATA_PATH = path.join(__dirname, 'guides-en.json');
 const URLS_PATH = path.join(ROOT_DIR, 'urls.txt');
 const LLMS_PATH = path.join(ROOT_DIR, 'llms.txt');
 const SITE_CSS_PATH = path.join(ROOT_DIR, 'site.css');
@@ -26,7 +30,7 @@ const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
 const CURRENT_YEAR = new Date().getFullYear();
 
 const DEFAULT_SITE_NAME = 'Bluetooth Finder';
-const DEFAULT_OG_LOGO = `${SITE_URL}img/logo.webp`;
+const DEFAULT_OG_LOGO = `${SITE_URL}img/appstore/icon-512.webp`;
 
 /**
  * `lang` = hreflang for the alternate link template
@@ -91,7 +95,7 @@ function syncWebManifest() {
 }
 
 function writeUrlsFile() {
-    fs.writeFileSync(URLS_PATH, URLS.map(({ url }) => url).join('\n'), 'utf8');
+    fs.writeFileSync(URLS_PATH, URLS.map(({ url }) => url).concat(GUIDE_URLS).join('\n'), 'utf8');
     console.log('✅ Successfully built urls.txt file');
     console.log(`📁 Output saved to: ${URLS_PATH}`);
     console.log();
@@ -124,8 +128,14 @@ function writeLlmsFile(defaultLocaleData) {
         '',
         '## Main sections',
         `- [Home](${SITE_URL}): Bluetooth device finder app — landing, features, and download`,
+        `- [Guides](${SITE_URL}guides/): Step-by-step guides for finding lost AirPods, earbuds, headphones, smartwatches and speakers`,
         `- [FAQ](${SITE_URL}#faq): Questions about the app, accuracy, and supported devices`,
         `- [Localized pages](${SITE_URL}): Hreflang landing pages for supported markets`,
+        '',
+        '## Guides',
+        ...readGuidesData().guides.map(
+            (g) => `- [${g.breadcrumb}](${SITE_URL}guides/${g.slug}/): ${stripHtml(g.meta_description)}`,
+        ),
         '',
         '## Key facts',
         `- Product type: iOS app to find lost or nearby Bluetooth devices (e.g. AirPods, smartwatches, headphones)`,
@@ -513,7 +523,21 @@ function warnForTemplateIssue(lang, message) {
     console.warn(`Warning [${lang}]: ${message}`);
 }
 
-const LOOP_PLACEHOLDER_ROOTS = new Set(['item', 'feature', 'section', 'lang', 'screenshot', 'fact', 'row', 'faq']);
+const LOOP_PLACEHOLDER_ROOTS = new Set([
+    'item',
+    'feature',
+    'section',
+    'lang',
+    'screenshot',
+    'fact',
+    'row',
+    'faq',
+    'step',
+    'guide',
+    'para',
+    'tip',
+    'related',
+]);
 
 function shouldWarnMissingVar(pathExpression) {
     if (pathExpression.startsWith('seo.structured_data.')) {
@@ -555,7 +579,7 @@ function applyFilters(value, filters, rawKey, lang) {
 function replaceVariables(template, context, lang) {
     return template.replace(/\{\{([^}]+)\}\}/g, (match, key) => {
         const rawKey = key.trim();
-        if (rawKey.startsWith('#each') || rawKey === '/each') {
+        if (rawKey.startsWith('#') || rawKey.startsWith('/')) {
             return match;
         }
         const [pathExpression, ...filters] = rawKey
@@ -579,43 +603,296 @@ function cleanupJsonArtifacts(s) {
         .replace(/,\s*\]/g, ']');
 }
 
-function processEachBlocks(template, context, lang) {
-    const eachPattern = /\{\{#each\s+([^\s]+)\s+as\s+\|([^|]+)\|\}\}([\s\S]*?)\{\{\/each\}\}/;
-    let result = template;
-    let match = result.match(eachPattern);
-    while (match) {
-        const [full, arrayPathRaw, varNameRaw, block] = match;
-        const arrayPath = arrayPathRaw.trim();
-        const varName = varNameRaw.trim();
-        const array = getValueFromContext(context, arrayPath);
-        if (!Array.isArray(array)) {
-            if (array != null) {
-                warnForTemplateIssue(lang, `${arrayPath} is not an array (got ${typeof array})`);
-            } else if (!arrayPath.includes('.')) {
-                warnForTemplateIssue(lang, `${arrayPath} is not an array or not found`);
+/**
+ * Finds the index of the `{{/tag}}` matching the block opened right before
+ * `fromIndex`, accounting for nested blocks of the same tag.
+ */
+function findMatchingClose(template, tag, fromIndex) {
+    const openRe = new RegExp(`\\{\\{#${tag}[^}]*\\}\\}`, 'g');
+    const closeToken = `{{/${tag}}}`;
+    let depth = 1;
+    let cursor = fromIndex;
+    while (depth > 0) {
+        const closeIdx = template.indexOf(closeToken, cursor);
+        if (closeIdx === -1) {
+            return -1;
+        }
+        openRe.lastIndex = cursor;
+        const openMatch = openRe.exec(template);
+        if (openMatch && openMatch.index < closeIdx) {
+            depth += 1;
+            cursor = openMatch.index + openMatch[0].length;
+        } else {
+            depth -= 1;
+            cursor = closeIdx + closeToken.length;
+            if (depth === 0) {
+                return closeIdx;
             }
-            result = result.replace(full, '');
-            match = result.match(eachPattern);
+        }
+    }
+    return -1;
+}
+
+function isTruthyTemplateValue(value) {
+    if (Array.isArray(value)) {
+        return value.length > 0;
+    }
+    if (value && typeof value === 'object') {
+        return Object.keys(value).length > 0;
+    }
+    return Boolean(value);
+}
+
+const BLOCK_OPEN_RE = /\{\{#(each|if)\s+([^}]+?)\s*\}\}/;
+
+/**
+ * Processes `{{#each arr as |var|}}` and `{{#if path}}` blocks with proper
+ * nesting support. `#if` renders its body only when the path resolves to a
+ * truthy value (non-empty array/object, non-empty string, etc.), which lets
+ * locales opt in to sections by simply having the data present.
+ */
+function processBlocks(template, context, lang) {
+    let result = '';
+    let rest = template;
+    let match = rest.match(BLOCK_OPEN_RE);
+    while (match) {
+        const [full, tag, expression] = match;
+        const openStart = match.index;
+        const openEnd = openStart + full.length;
+        const closeIdx = findMatchingClose(rest, tag, openEnd);
+        if (closeIdx === -1) {
+            warnForTemplateIssue(lang, `Unclosed {{#${tag}}} block for "${expression}"`);
+            result += rest.slice(0, openEnd);
+            rest = rest.slice(openEnd);
+            match = rest.match(BLOCK_OPEN_RE);
             continue;
         }
-        const rendered = cleanupJsonArtifacts(
-            array
-                .map((item) => {
-                    const ctx = { ...context, [varName]: item };
-                    return replaceVariables(processEachBlocks(block, ctx, lang), ctx, lang);
-                })
-                .join(''),
-        );
-        result = result.replace(full, rendered);
-        match = result.match(eachPattern);
+        result += rest.slice(0, openStart);
+        const inner = rest.slice(openEnd, closeIdx);
+        rest = rest.slice(closeIdx + `{{/${tag}}}`.length);
+
+        if (tag === 'if') {
+            if (isTruthyTemplateValue(getValueFromContext(context, expression.trim()))) {
+                result += processBlocks(inner, context, lang);
+            }
+        } else {
+            const eachMatch = expression.match(/^([^\s]+)\s+as\s+\|([^|]+)\|$/);
+            if (!eachMatch) {
+                warnForTemplateIssue(lang, `Malformed #each expression "${expression}"`);
+            } else {
+                const arrayPath = eachMatch[1].trim();
+                const varName = eachMatch[2].trim();
+                const array = getValueFromContext(context, arrayPath);
+                if (!Array.isArray(array)) {
+                    if (array != null) {
+                        warnForTemplateIssue(lang, `${arrayPath} is not an array (got ${typeof array})`);
+                    } else if (!arrayPath.includes('.')) {
+                        warnForTemplateIssue(lang, `${arrayPath} is not an array or not found`);
+                    }
+                } else {
+                    result += cleanupJsonArtifacts(
+                        array
+                            .map((item) => {
+                                const ctx = { ...context, [varName]: item };
+                                return replaceVariables(processBlocks(inner, ctx, lang), ctx, lang);
+                            })
+                            .join(''),
+                    );
+                }
+            }
+        }
+        match = rest.match(BLOCK_OPEN_RE);
     }
-    return result;
+    return result + rest;
 }
 
 function renderTemplate(template, data, lang) {
     return cleanupJsonArtifacts(
-        replaceVariables(processEachBlocks(template, data, lang), data, lang),
+        replaceVariables(processBlocks(template, data, lang), data, lang),
     );
+}
+
+/* ------------------------------------------------------------------ */
+/* Guide pages (English only for now): /guides/ and /guides/<slug>/    */
+/* ------------------------------------------------------------------ */
+
+let cachedGuidesData = null;
+
+function readGuidesData() {
+    if (!cachedGuidesData) {
+        cachedGuidesData = readJsonFile(GUIDES_DATA_PATH);
+        const { shared } = cachedGuidesData;
+        if (typeof shared.footer?.copyright === 'string') {
+            shared.footer.copyright = shared.footer.copyright.replace(/\{year\}/g, String(CURRENT_YEAR));
+        }
+    }
+    return cachedGuidesData;
+}
+
+function guideCanonicalUrl(slug) {
+    return `${SITE_URL}guides/${slug}/`;
+}
+
+function guideLastUpdatedLabel() {
+    const d = new Date(BUILD_TIMESTAMP);
+    try {
+        return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    } catch {
+        return BUILD_DATE_ISO;
+    }
+}
+
+function buildGuideMeta({ title, description, keywords, canonical, ogImageAlt, siteName }) {
+    return {
+        title,
+        description,
+        keywords: keywords || '',
+        author: siteName,
+        canonical,
+        og_image: `${SITE_URL}site_preview.png`,
+        og_image_alt: ogImageAlt,
+        og_site_name: siteName,
+        app_store_id: String(APP_ID),
+        app_store_url: APP_STORE_URL,
+        version: BUILD_TIMESTAMP,
+        last_updated: guideLastUpdatedLabel(),
+    };
+}
+
+function buildGuideStructuredData(guide, canonical, shared) {
+    const publisher = {
+        '@type': 'Organization',
+        name: shared.site_name,
+        url: SITE_URL,
+        logo: { '@type': 'ImageObject', url: DEFAULT_OG_LOGO },
+    };
+    return {
+        article: {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: stripHtml(guide.h1),
+            description: stripHtml(guide.meta_description),
+            mainEntityOfPage: canonical,
+            url: canonical,
+            inLanguage: 'en',
+            dateModified: BUILD_DATE_ISO,
+            image: `${SITE_URL}site_preview.png`,
+            author: publisher,
+            publisher,
+        },
+        howto: {
+            '@context': 'https://schema.org',
+            '@type': 'HowTo',
+            name: stripHtml(guide.steps_title),
+            description: stripHtml(guide.quick_answer),
+            step: (guide.steps || []).map((s, i) => ({
+                '@type': 'HowToStep',
+                position: i + 1,
+                name: stripHtml(s.title),
+                text: stripHtml(s.description),
+                ...(i === 0 ? { url: APP_STORE_URL } : {}),
+            })),
+        },
+        faqpage: {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: (guide.faq || []).map((f) => ({
+                '@type': 'Question',
+                name: stripHtml(f.question),
+                acceptedAnswer: { '@type': 'Answer', text: stripHtml(f.answer) },
+            })),
+        },
+        breadcrumb_list: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                { '@type': 'ListItem', position: 1, name: shared.labels.home, item: SITE_URL },
+                { '@type': 'ListItem', position: 2, name: shared.labels.guides, item: `${SITE_URL}guides/` },
+                { '@type': 'ListItem', position: 3, name: stripHtml(guide.breadcrumb), item: canonical },
+            ],
+        },
+    };
+}
+
+function buildGuidesHubStructuredData(guides, shared) {
+    const canonical = `${SITE_URL}guides/`;
+    return {
+        collection_page: {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: stripHtml(shared.hub.meta_title),
+            description: stripHtml(shared.hub.meta_description),
+            url: canonical,
+            inLanguage: 'en',
+            dateModified: BUILD_DATE_ISO,
+            hasPart: guides.map((g) => ({
+                '@type': 'Article',
+                headline: stripHtml(g.h1),
+                url: guideCanonicalUrl(g.slug),
+            })),
+        },
+        breadcrumb_list: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                { '@type': 'ListItem', position: 1, name: shared.labels.home, item: SITE_URL },
+                { '@type': 'ListItem', position: 2, name: shared.labels.guides, item: canonical },
+            ],
+        },
+    };
+}
+
+function buildGuidePages() {
+    const { shared, guides } = readGuidesData();
+    const guideTemplate = fs.readFileSync(GUIDE_TEMPLATE_PATH, 'utf8');
+    const hubTemplate = fs.readFileSync(GUIDES_HUB_TEMPLATE_PATH, 'utf8');
+
+    for (const guide of guides) {
+        const canonical = guideCanonicalUrl(guide.slug);
+        const data = {
+            meta: buildGuideMeta({
+                title: guide.meta_title,
+                description: guide.meta_description,
+                keywords: guide.keywords,
+                canonical,
+                ogImageAlt: guide.h1,
+                siteName: shared.site_name,
+            }),
+            shared,
+            guide,
+            structured_data: buildGuideStructuredData(guide, canonical, shared),
+        };
+        const outDir = path.join(ROOT_DIR, 'guides', guide.slug);
+        ensureDirectoryExists(outDir);
+        fs.writeFileSync(
+            path.join(outDir, 'index.html'),
+            renderTemplate(guideTemplate, data, `guides/${guide.slug}`),
+            'utf8',
+        );
+    }
+    console.log(`✅ Successfully built ${guides.length} guide page(s) in /guides/<slug>/`);
+
+    const hubData = {
+        meta: buildGuideMeta({
+            title: shared.hub.meta_title,
+            description: shared.hub.meta_description,
+            canonical: `${SITE_URL}guides/`,
+            ogImageAlt: shared.hub.h1,
+            siteName: shared.site_name,
+        }),
+        shared,
+        hub_items: guides.map((g) => ({
+            url: `/guides/${g.slug}/`,
+            title: g.breadcrumb,
+            teaser: g.meta_description,
+        })),
+        structured_data: buildGuidesHubStructuredData(guides, shared),
+    };
+    const hubDir = path.join(ROOT_DIR, 'guides');
+    ensureDirectoryExists(hubDir);
+    fs.writeFileSync(path.join(hubDir, 'index.html'), renderTemplate(hubTemplate, hubData, 'guides'), 'utf8');
+    console.log('✅ Successfully built guides hub page at /guides/');
+    console.log();
 }
 
 async function buildPage(template, lang) {
@@ -652,6 +929,12 @@ async function main() {
             console.error(`❌ Error building ${lang}:`, e.message);
             process.exit(1);
         }
+    }
+    try {
+        buildGuidePages();
+    } catch (e) {
+        console.error('❌ Error building guide pages:', e.message);
+        process.exit(1);
     }
 }
 

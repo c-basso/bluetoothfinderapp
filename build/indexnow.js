@@ -8,7 +8,8 @@ const {
     URLS,
     SITE_URL,
     INDEX_NOW_ENGINES,
-    ADDITIONAL_URLS
+    ADDITIONAL_URLS,
+    GUIDE_URLS
 } = require('./constants');
 
 const indexNow = async (engine) => {
@@ -19,6 +20,7 @@ const indexNow = async (engine) => {
         key: INDEX_NOW_KEY,
         urlList: URLS
             .map(({url}) => url)
+            .concat(GUIDE_URLS)
             .concat(ADDITIONAL_URLS)
     };
 
