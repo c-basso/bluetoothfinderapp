@@ -263,9 +263,9 @@
     {
       "slug": "find-dead-airpods",
       "breadcrumb": "Find Dead AirPods",
-      "meta_title": "How to Find Dead AirPods – What Works & What Doesn't",
-      "meta_description": "Dead AirPods can't be tracked live — no app can detect a device that isn't broadcasting. Here's what actually works: last known location, smart searching, and catching residual charge.",
-      "keywords": "find dead airpods, find airpods dead battery, find airpods that are dead, dead airpods location, find offline airpods",
+      "meta_title": "How to Find a Dead AirPod – Last Location, Signs & What Works",
+      "meta_description": "Dead AirPods stop broadcasting, so no app can track them live. Here's how to tell if your AirPods are dead, use Find My's last location, and catch them the moment they get any charge.",
+      "keywords": "how to find a dead airpod, find dead airpods, how to know if airpods are dead, find airpods if they are dead, will find my find dead airpods, dead airpods location",
       "h1": "How to Find Dead AirPods",
       "quick_answer": "AirPods with a fully dead battery cannot be tracked in real time — they stop broadcasting Bluetooth, so no app (including Find My) can detect them live. What works: check Find My for the last known location and search there; re-scan with a Bluetooth finder periodically, because earbuds sometimes wake briefly with residual charge; and search the physical places dead AirPods usually end up. This guide covers all three.",
       "sections": [
@@ -274,6 +274,13 @@
           "paragraphs": [
             "Every method of finding AirPods — Find My, Precision Finding, sound alerts, Bluetooth scanning — depends on the earbuds transmitting a radio signal. A dead battery means no transmission, and no transmission means nothing to detect. Any app that claims to locate a completely dead AirPod live is overpromising.",
             "That doesn't mean the search is hopeless. It means the strategy changes from tracking a signal to narrowing the physical search area — and being ready to catch the signal if it comes back."
+          ]
+        },
+        {
+          "title": "How to Tell If Your AirPods Are Dead",
+          "paragraphs": [
+            "Before you change strategy, confirm the battery is actually the problem. Dead AirPods show a few clear signs: in Find My they appear as Offline or \"No location found\" with only a past time, Play Sound fails or never starts, they don't show up in your iPhone's Bluetooth list or the battery widget, and a Bluetooth scan doesn't detect them.",
+            "If Find My shows a live location or a recent time like \"Now\" or \"2 minutes ago\", they aren't dead — use Play Sound and a Bluetooth scan right away. If the last time is hours old, assume the battery ran out around then, and treat that place and time as your search zone."
           ]
         },
         {
@@ -310,6 +317,14 @@
       ],
       "faq": [
         {
+          "question": "Will Find My show my AirPods if they're dead?",
+          "answer": "It shows where they were last online, with a timestamp — not where they are now. Dead AirPods can't play a sound or update their location until they get some charge, so search around that last location and re-scan with a Bluetooth finder in case they wake up."
+        },
+        {
+          "question": "How do I know if my AirPods are dead or just out of range?",
+          "answer": "Check Find My: if it shows Offline with an old timestamp, the battery is probably dead. If it shows a recent time, they're likely just out of range — move around that location and scan; they'll appear the moment you're within about 10–20 meters."
+        },
+        {
           "question": "Can any app find AirPods with a completely dead battery?",
           "answer": "No. A dead AirPod emits no Bluetooth signal, so live tracking is physically impossible for any app. Tools can only show the last known location and detect the earbuds again if they regain any charge."
         },
@@ -333,9 +348,9 @@
     {
       "slug": "find-lost-bluetooth-headphones",
       "breadcrumb": "Find Lost Bluetooth Headphones",
-      "meta_title": "How to Find Lost Bluetooth Headphones (Beats, Sony, Bose)",
-      "meta_description": "Most Bluetooth headphones can't be tracked with Find My. If they're powered on, you can follow their Bluetooth signal with your iPhone. Works with Sony, Bose, Beats, JBL and more.",
-      "keywords": "find lost bluetooth headphones, find my headphones app, lost sony headphones, lost bose headphones, find beats headphones, track bluetooth headphones",
+      "meta_title": "How to Find Lost Bluetooth Headphones (On or Turned Off)",
+      "meta_description": "Lost Bose, Sony, Beats or JBL headphones? If they're on, follow their Bluetooth signal with your iPhone. If they're turned off, here's how to narrow the search and catch them when they wake.",
+      "keywords": "find lost bluetooth headphones, how to find lost bluetooth headphones that are turned off, can you track bose headphones, find my bose headphones, lost sony headphones, find beats headphones, track bluetooth headphones",
       "h1": "How to Find Lost Bluetooth Headphones",
       "quick_answer": "Most Bluetooth headphones — Sony, Bose, JBL, Sennheiser and many Beats models — are not in Apple's Find My network, so there's no map to check. But while they're powered on, they broadcast a Bluetooth signal with a 10–30 meter indoor range. A Bluetooth finder app on your iPhone tracks that signal's strength and guides you to the headphones with hot–cold feedback.",
       "sections": [
@@ -351,6 +366,15 @@
           "paragraphs": [
             "Compared to a single earbud, headphones are a best-case scenario: bigger antennas, stronger transmit power, and batteries that last 30–60 hours. If your headphones were on when you misplaced them, there's a good chance they're still broadcasting right now.",
             "The signal also carries useful identity data — device name (often \"WH-1000XM5\" or \"Bose QC\"), manufacturer and model — so you can confirm you're tracking your own headphones and not a neighbor's speaker."
+          ]
+        },
+        {
+          "title": "How to Find Headphones That Are Turned Off",
+          "paragraphs": [
+            "Honest answer first: headphones that are switched off don't transmit anything, so no app can detect them live — not a Bluetooth scanner, and not Find My. What you can do is shrink the search area and catch them the moment they wake up.",
+            "Start with time and place. Your iPhone and most brand apps (Bose, Sony, JBL) know when the headphones last connected — match that moment to where you were. Auto-off usually kicks in 5 to 30 minutes after the music stops, so the headphones are almost always within a room or two of where you last listened, or wherever you went right after.",
+            "Then search the usual spots: bag and backpack pockets, car seats and door pockets, under the bed, the sofa, desk drawers, gym lockers and coat hooks. Headphones that are charging often stay discoverable, so check near chargers too.",
+            "Finally, keep scanning. If someone moves them, presses a button or plugs them in, they power on and start broadcasting again. A 30-second scan with Find Bluetooth Device in each room you suspect will show them in the list the moment that happens."
           ]
         }
       ],
@@ -380,12 +404,16 @@
       ],
       "faq": [
         {
+          "question": "Can you track Bose headphones if they're lost?",
+          "answer": "Not on a map. Bose headphones aren't part of Apple's Find My network, and the Bose app doesn't offer live location tracking. While they're powered on and within roughly 10–30 meters, you can track their Bluetooth signal with a finder app and walk to them."
+        },
+        {
           "question": "Can I use Apple Find My for Sony or Bose headphones?",
           "answer": "No. Non-Apple headphones aren't part of the Find My network (Beats are the main exception). For everything else, live Bluetooth signal tracking is the way to physically locate them."
         },
         {
           "question": "What if my headphones turned themselves off?",
-          "answer": "Powered-off headphones don't broadcast and can't be detected. Search the last place you used them, and check spots with auto-off in mind: they were on when you set them down, so they're usually within a room of where you last listened."
+          "answer": "Powered-off headphones don't broadcast and can't be detected by any app. Check when they last connected to your iPhone, search within a room or two of that spot, and re-scan regularly: if anyone moves them or plugs them in, they'll power on and appear in the list."
         },
         {
           "question": "How close do I need to be to detect them?",
@@ -536,12 +564,19 @@
     {
       "slug": "find-lost-bluetooth-speaker",
       "breadcrumb": "Find Lost Bluetooth Speaker",
-      "meta_title": "How to Find a Lost Bluetooth Speaker – JBL, Bose, Anker",
-      "meta_description": "A powered-on Bluetooth speaker is the easiest device to track: strong signal, big battery. Find your JBL, Bose or Anker speaker with an iPhone in minutes.",
-      "keywords": "find lost bluetooth speaker, lost jbl speaker, find bluetooth speaker, track bluetooth speaker, bluetooth speaker finder",
+      "meta_title": "Can You Track a Lost JBL Speaker? How to Find Any Bluetooth Speaker",
+      "meta_description": "Yes — if your JBL, Bose or Anker speaker is powered on and within ~30 m, you can track its Bluetooth signal with your iPhone and walk straight to it. Here's how, plus what to do if it's off.",
+      "keywords": "can you track a jbl speaker, find lost jbl speaker, find my speaker, find lost bluetooth speaker, track bluetooth speaker, lost speaker, bluetooth speaker finder",
       "h1": "How to Find a Lost Bluetooth Speaker",
-      "quick_answer": "A Bluetooth speaker that's still powered on is the easiest lost device to find: speakers transmit stronger signals than earbuds and their batteries run 12–24 hours. Scan with a Bluetooth finder app, select the speaker, and follow the hot–cold guidance — the strong signal makes the trail obvious. If it's powered off, connect-to-play a sound isn't possible; search where it was last used.",
+      "quick_answer": "Yes, you can track a lost JBL (or Bose, Anker, Sony) speaker — as long as it's powered on and within Bluetooth range, roughly 30 meters. Most speakers have no GPS and no map tracking, but they constantly broadcast a strong Bluetooth signal. Scan with a Bluetooth finder app, select the speaker and follow the hot–cold guidance. If it's powered off, nothing can detect it: search where it was last used and re-scan later.",
       "sections": [
+        {
+          "title": "Can You Track a JBL Speaker?",
+          "paragraphs": [
+            "Yes, with one condition: it has to be powered on. Most JBL speakers — Flip, Charge, Clip, Go, Xtreme — have no GPS, and most aren't part of Apple Find My or Google's Find Hub, so there's no map showing where they are. The JBL app controls sound and settings; it isn't a tracker.",
+            "What every JBL speaker does have is a Bluetooth radio that keeps advertising while it's on. A Bluetooth finder app reads that signal's strength and tells you whether you're getting warmer or colder, so you can walk to the speaker even though no app can pin it on a map. The same works for Bose SoundLink, Anker Soundcore, Sony, UE and Marshall speakers."
+          ]
+        },
         {
           "title": "Speakers: The Best-Case Search",
           "paragraphs": [
@@ -577,6 +612,10 @@
         }
       ],
       "faq": [
+        {
+          "question": "Can you track a JBL speaker?",
+          "answer": "Only nearby. JBL speakers don't have GPS and most don't support Find My, so they can't be tracked on a map. While a JBL speaker is powered on and within about 30 meters, a Bluetooth finder app can follow its signal to the exact spot."
+        },
         {
           "question": "Can I find a Bluetooth speaker that's turned off?",
           "answer": "No — a powered-off speaker doesn't broadcast, so it can't be detected. Search where it was last used and re-scan later; the moment anyone powers it on within ~30 meters, a scan will catch it."

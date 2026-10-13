@@ -1,5 +1,5 @@
 # Bluetooth Finder
-> Find lost AirPods, earbuds, headphones and any powered-on Bluetooth device with your iPhone. Hot–cold proximity guidance, signal strength scanner, no setup. Free download.
+> Bluetooth finder app for iPhone: find lost AirPods, earbuds, earphones, headphones and speakers by following their live signal. Hot–cold guidance, no setup. Free download.
 ## Main sections
 - [Home](https://bluetoothfinderapp.com/): Bluetooth device finder app — landing, features, and download
 - [Guides](https://bluetoothfinderapp.com/guides/): Step-by-step guides for finding lost AirPods, earbuds, headphones, smartwatches and speakers
@@ -9,11 +9,11 @@
 - [How to Find Lost AirPods](https://bluetoothfinderapp.com/guides/how-to-find-lost-airpods/): Lost your AirPods? Use Find My for the map location, then track the live Bluetooth signal to pinpoint them. Step-by-step guide that works even without Find My.
 - [Find AirPods Without Find My](https://bluetoothfinderapp.com/guides/find-airpods-without-find-my/): No Find My, no iCloud, secondhand AirPods? You can still find them: AirPods broadcast Bluetooth while powered on. Track the signal with an iPhone — here's how.
 - [Find One Lost AirPod](https://bluetoothfinderapp.com/guides/find-one-lost-airpod/): One AirPod missing? Each earbud broadcasts its own Bluetooth signal while charged. Track it with your iPhone using hot–cold signal guidance — step-by-step guide.
-- [Find Dead AirPods](https://bluetoothfinderapp.com/guides/find-dead-airpods/): Dead AirPods can't be tracked live — no app can detect a device that isn't broadcasting. Here's what actually works: last known location, smart searching, and catching residual charge.
-- [Find Lost Bluetooth Headphones](https://bluetoothfinderapp.com/guides/find-lost-bluetooth-headphones/): Most Bluetooth headphones can't be tracked with Find My. If they're powered on, you can follow their Bluetooth signal with your iPhone. Works with Sony, Bose, Beats, JBL and more.
+- [Find Dead AirPods](https://bluetoothfinderapp.com/guides/find-dead-airpods/): Dead AirPods stop broadcasting, so no app can track them live. Here's how to tell if your AirPods are dead, use Find My's last location, and catch them the moment they get any charge.
+- [Find Lost Bluetooth Headphones](https://bluetoothfinderapp.com/guides/find-lost-bluetooth-headphones/): Lost Bose, Sony, Beats or JBL headphones? If they're on, follow their Bluetooth signal with your iPhone. If they're turned off, here's how to narrow the search and catch them when they wake.
 - [Find Lost Earbuds](https://bluetoothfinderapp.com/guides/find-lost-earbuds/): Lost wireless earbuds of any brand? While they're out of the case and powered on, they broadcast Bluetooth. Track the signal with your iPhone — here's the full method.
 - [Find Lost Smartwatch](https://bluetoothfinderapp.com/guides/find-lost-smartwatch/): Fitbit, Garmin, Amazfit and most fitness trackers can't play a sound or show a map. Track their Bluetooth signal with your iPhone instead — a step-by-step guide.
-- [Find Lost Bluetooth Speaker](https://bluetoothfinderapp.com/guides/find-lost-bluetooth-speaker/): A powered-on Bluetooth speaker is the easiest device to track: strong signal, big battery. Find your JBL, Bose or Anker speaker with an iPhone in minutes.
+- [Find Lost Bluetooth Speaker](https://bluetoothfinderapp.com/guides/find-lost-bluetooth-speaker/): Yes — if your JBL, Bose or Anker speaker is powered on and within ~30 m, you can track its Bluetooth signal with your iPhone and walk straight to it. Here's how, plus what to do if it's off.
 - [Bluetooth Scanner for iPhone](https://bluetoothfinderapp.com/guides/bluetooth-scanner-iphone/): iPhone Settings only shows paired devices. A Bluetooth scanner app reveals every device around you with signal strength, manufacturer and model — here's how to use one.
 - [Find Lost AirPods Case](https://bluetoothfinderapp.com/guides/find-lost-airpods-case/): A closed AirPods case with buds inside doesn't broadcast Bluetooth. Here's when a lost case IS findable, how to search for it, and how Find My handles cases by model.
 ## Key facts
@@ -23,9 +23,9 @@
 - OS: Requires iOS 17.1 or later
 - App size: 24.2 MB
 - Age rating: 4+
-- Software version: 1.4.1
+- Software version: 1.4.2
 - Supported page languages: 16
-- Last build date: 2026-07-12
+- Last build date: 2026-10-13
 ## How it works
 1. Install from the App Store and allow Bluetooth when prompted.
 2. Scan for devices and pick the one you are looking for.

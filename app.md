@@ -1,6 +1,6 @@
 # Find Bluetooth Device — App Store Listing & SEO Reference
 
-> Source of truth for the marketing site. Pulled from the App Store listing on 2026-07-12.
+> Source of truth for the marketing site. Pulled from the App Store listing on 2026-07-12; re-checked 2026-10-13.
 > Listing: https://apps.apple.com/app/id6756609274
 
 ## App identity
@@ -13,9 +13,9 @@
 | Developer / Seller | Vladimir Ivakhnenko |
 | Copyright | © c-basso |
 | Category | Productivity (secondary: Utilities) |
-| Price | Free, with in-app purchases (subscription "Bluetooth Device Finder": $5.99 / $29.99, free trial) |
+| Price | Free, with in-app purchases (subscription "Bluetooth Device Finder": $4.99 / $29.99, free trial — App Store only, never shown on the site) |
 | Rating | 5.0 (1 rating) — do not publish aggregateRating until ≥ ~10 ratings |
-| Current version | 1.4.1 (released 2026-06-23) |
+| Current version | 1.4.2 (released 2026-08-04) |
 | First release | 1.0 on 2025-12-30 |
 | Size | 24.2 MB |
 | Requires | iOS 17.1 or later, iPhone only |
@@ -26,6 +26,7 @@
 
 ## Version history
 
+- 1.4.2 (2026-08-04) — small minor fixes
 - 1.4.1 (2026-06-23) — small fixes and improvements
 - 1.4 (2026-05-23) — new locales, bug fixes
 - 1.3 (2026-03-09) — new in-app locales, localized screenshots, small fixes
