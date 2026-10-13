@@ -43,6 +43,25 @@ const ALTERNATE_LANGUAGE_LINKS = URLS.map(({ code, hreflang, url }) => ({
     url,
 }));
 
+/** Native language names for the footer language switcher. */
+const LANGUAGE_NATIVE_NAMES = {
+    en: 'English', es: 'Español', de: 'Deutsch', fr: 'Français', it: 'Italiano',
+    jp: '日本語', ko: '한국어', nl: 'Nederlands', pl: 'Polski', pt: 'Português',
+    ro: 'Română', ru: 'Русский', th: 'ไทย', tr: 'Türkçe', uk: 'Українська',
+    vi: 'Tiếng Việt', cn: '简体中文',
+};
+
+/** Footer language links (site-relative URLs); `current` marks the page's own locale. */
+function footerLanguageLinks(currentCode) {
+    return URLS.map(({ code, hreflang }) => ({
+        code,
+        hreflang,
+        name: LANGUAGE_NATIVE_NAMES[code] || code.toUpperCase(),
+        url: code === DEFAULT_LANGUAGE ? '/' : `/${code}/`,
+        current: code === currentCode,
+    }));
+}
+
 const HTML_LANG_BY_CODE = {
     cn: 'zh-CN',
     jp: 'ja',
@@ -254,6 +273,7 @@ async function normalizeMeta(data, lang) {
     data.meta.canonical = canonicalUrl;
     data.meta.alternate_default = SITE_URL;
     data.meta.alternate_languages = ALTERNATE_LANGUAGE_LINKS;
+    data.footer_languages = footerLanguageLinks(lang);
     data.meta.og_url = canonicalUrl;
     data.meta.twitter_url = canonicalUrl;
     data.meta.og_image = previewUrl;
@@ -860,6 +880,7 @@ function buildGuidePages() {
             }),
             shared,
             guide,
+            footer_languages: footerLanguageLinks(DEFAULT_LANGUAGE),
             structured_data: buildGuideStructuredData(guide, canonical, shared),
         };
         const outDir = path.join(ROOT_DIR, 'guides', guide.slug);
@@ -881,6 +902,7 @@ function buildGuidePages() {
             siteName: shared.site_name,
         }),
         shared,
+        footer_languages: footerLanguageLinks(DEFAULT_LANGUAGE),
         hub_items: guides.map((g) => ({
             url: `/guides/${g.slug}/`,
             title: g.breadcrumb,

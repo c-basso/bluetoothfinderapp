@@ -317,6 +317,7 @@
 
     <!-- Footer -->
     <footer role="contentinfo">
+      <nav class="footer-languages" aria-label="Languages"><ul>{{#each footer_languages as |l|}}<li><a href="{{l.url}}" hreflang="{{l.hreflang}}" lang="{{l.hreflang}}"{{#if l.current}} aria-current="true"{{/if}}>{{l.name}}</a></li>{{/each}}</ul></nav>
       <p>{{footer.copyright}}</p>
       <p>{{#if footer.guides_url}}<a href="{{footer.guides_url}}">{{footer.guides_link}}</a> | {{/if}}<a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
       <p class="last-updated" aria-label="{{seo.last_updated_label}}">{{seo.last_updated_label}} {{seo.last_updated}}</p>

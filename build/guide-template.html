@@ -175,6 +175,7 @@
 
     <!-- Footer -->
     <footer role="contentinfo">
+      <nav class="footer-languages" aria-label="Languages"><ul>{{#each footer_languages as |l|}}<li><a href="{{l.url}}" hreflang="{{l.hreflang}}" lang="{{l.hreflang}}"{{#if l.current}} aria-current="true"{{/if}}>{{l.name}}</a></li>{{/each}}</ul></nav>
       <p>{{shared.footer.copyright}}</p>
       <p><a href="/guides/">{{shared.labels.guides}}</a> | <a href="/privacy.html">{{shared.footer.privacy_link}}</a> | <a href="/terms.html">{{shared.footer.terms_link}}</a></p>
       <p class="last-updated">{{shared.labels.updated}} {{meta.last_updated}}</p>
