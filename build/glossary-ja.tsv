@@ -1,9 +1,24 @@
 key	en	ja-JP	notes
-hot_cold_guidance	hot & cold (guidance)	温冷案内	UIでは段階名を「コールド／ウォーム／ホット／ベリーホット」と併記。フィードバックは避ける
-proximity_percent	proximity percentage; proximity % indicator	接近度（％）	「近接度」より自然。本文では「接近度（％）」
-find_my	Find My	「探す」	Appleの紛失防止機能の日本語表記に合わせる（アプリ名は括弧で補足可）
-app_store_cta	Download on the App Store	App Storeでダウンロード	丁寧語・ですます調のランディング向け
-device_id_field	manufacturer, model, and (device) name	製造元、モデル、表示名	可能な範囲で、と説明と整合
-bluetooth_finder	Bluetooth Finder	Bluetooth Finder	製品名は英字のまま
-category_productivity	Productivity	仕事効率	App Storeカテゴリ日本語表記に合わせる
-earphones_consumer	earbuds / in-ear headphones	イヤホン	マーケ／FAQでは「イヤホン」に統一（「イヤフォン」は避ける）
+app_name_site	Bluetooth Finder	Bluetooth Finder	サイト本文での製品名（ストアの説明文と同じ）。英字のまま
+app_name_store	App Store name (JP)	device finder 探す ヘッドフォン	ストア遷移の直前（meta line、要点、FAQ 1、JSON-LD alternateName）で一度だけ併記：「App Storeでは『device finder 探す ヘッドフォン』の名前で配信中」
+hot_cold_guidance	hot & cold (guidance)	ホット・コールド（ガイド）	ストアのサブタイトル「ホット・コールド近接ガイド」に合わせる。段階名は「コールド／ウォーム／ホット／ベリーホット」。旧訳「温冷案内」は使わない
+proximity_percent	proximity percentage; proximity % indicator	距離パーセンテージ	ストア説明文の表記に合わせる。旧訳「接近度（％）」は使わない
+signal_strength	signal strength	信号強度	
+device_id_field	manufacturer, model, and (device) name	名前・メーカー・モデル	ストア表記の順番。「取得できる場合」と補足可
+find_my	Find My	「探す」	Appleの機能名は必ず「」で囲み、動詞の「探す」と区別する
+play_sound	Play Sound	サウンドを再生	Apple「探す」のUI表記
+precision_finding	Precision Finding	正確な場所を見つける	Apple「探す」のUI表記
+notify_left_behind	Notify When Left Behind	置き忘れたときに通知	Apple「探す」のUI表記
+offline_no_location	Offline / No location found	オフライン／位置情報が見つかりません	Apple「探す」のUI表記
+apple_account	Apple Account	Apple Account	日本語UIでも英字表記
+app_store_cta	Download on the App Store	App Storeでダウンロード	です・ます調
+category_productivity	Productivity	仕事効率化	App Storeの日本語カテゴリ名
+earphones_consumer	earbuds / in-ear headphones	イヤホン／ワイヤレスイヤホン	「イヤフォン」は避ける。検索語は「ワイヤレスイヤホン」が最多
+one_earbud	one (lost) earbud	片方／片耳	検索語「片方 無くした」「片耳」
+headphones	headphones	ヘッドホン	ストア名の「ヘッドフォン」はkeywordsに表記ゆれとして残す
+charging_case	charging case	ケース／充電ケース	
+speaker	Bluetooth speaker	Bluetoothスピーカー	
+smartwatch	smartwatch / fitness band	スマートウォッチ／スマートバンド	
+bluetooth_katakana	Bluetooth (search variant)	ブルートゥース	「bluetooth」と同程度検索されるため、keywordsとmetaで併用
+free	free	無料	アプリ系クエリの約4割に付く。title・meta・H2に入れる
+tone	register	です・ます調	ストアの説明文に合わせる

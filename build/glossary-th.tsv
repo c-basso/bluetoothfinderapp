@@ -1,8 +1,30 @@
 key	en	th-TH	notes
-hot_cold	hot & cold	ร้อน–เย็น: เย็น, อุ่น, ร้อน, ร้อนมาก	สี่ระดับให้สอดคล้องกับ UI; ไม่ใช่คำว่า “feedback” ในหัวข้อ
-proximity_percent	proximity %	ค่าเปอร์เซ็นต์ความใกล้ (อ้างอิง)	เทียบสัญญาณ ไม่ใช่ระยะเมตร
-find_my	Find My	ค้นหา (Find My)	ชื่อระบบของ Apple บน iOS
-app_store_cta	Download on the App Store	ดาวน์โหลดบน App Store	ตามปุ่ม App Store
-category	Productivity	การเพิ่มประสิทธิภาพ	แนว “เครื่องมือ/งาน” บน App Store, TH
-currency	—	THB ในฟิลด์ offers สำหรับ th_TH	
-bluetooth	Bluetooth, อุปกรณ์ Bluetooth	คำเทคนิค Bluetooth; อุปกรณ์ — สะกด “Bluetooth” ตาม Apple
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Finder	App Store ไทยแสดงชื่ออังกฤษ; บน /th/ ใช้แบรนด์ Bluetooth Finder (อันดับ 1.3 ใน GSC), alternateName = Find Bluetooth Device
+tone	tone	สุภาพ เป็นกลาง; ใช้ “คุณ” เมื่อจำเป็น; ไม่ใส่ ครับ/ค่ะ	
+hot_cold_guidance	hot & cold (guidance)	ระบบบอก ร้อน–เย็น; ระดับ: เย็น, อุ่น, ร้อน, ร้อนมาก	ตาม UI ในแอป
+proximity_percent	proximity %	เปอร์เซ็นต์ความใกล้	เทียบสัญญาณ ไม่ใช่ระยะเมตร
+signal_strength	signal strength	ความแรงสัญญาณ	
+device_id_field	manufacturer, model, and name	ชื่อ ผู้ผลิต และรุ่น; ข้อมูลอุปกรณ์	
+scan	start a scan	เริ่มสแกน	
+find_my	Find My	แอปค้นหาของฉัน	Apple TH (support.apple.com/th-th/109020); เครือข่ายค้นหาของฉัน
+find_my_play_sound	Play Sound	เล่นเสียง	Apple TH
+precision_finding	Precision Finding	ค้นหาใกล้เคียง	Apple TH
+left_behind	Notify When Left Behind	แจ้งเตือนเมื่อลืมทิ้งไว้	Apple TH
+devices_tab	Devices	อุปกรณ์	แถบในแอปค้นหาของฉัน
+offline	offline / no location found	ออฟไลน์ / ไม่พบตำแหน่งที่ตั้ง	Apple TH
+apple_account	Apple Account	บัญชี Apple	
+settings_bluetooth	Settings > Bluetooth	การตั้งค่า > Bluetooth	
+left_right	left / right AirPod	ข้างซ้าย / ข้างขวา	Apple TH
+case	charging case	เคสชาร์จ; เคส AirPods	Apple TH
+app_store_cta	Download on the App Store	ดาวน์โหลดบน App Store	ป้าย Apple ภาษาไทย
+nav_cta	Get the app	ดาวน์โหลดแอป	
+bluetooth_tech	Bluetooth	Bluetooth (ในเนื้อหา); บลูทูธ (ในหัวข้อ/คีย์เวิร์ด ตามที่คนค้นหา)	
+headphones	headphones	หูฟัง; หูฟังครอบหู	
+earbuds	earbuds	หูฟังไร้สาย; หูฟัง TWS; หูฟังอินเอียร์	“หายข้างเดียว”
+speaker	Bluetooth speaker	ลำโพงบลูทูธ	“ลำโพง JBL”
+smartwatch	smartwatch / fitness tracker	สมาร์ทวอทช์; สายรัดข้อมือฟิตเนส	“Mi Band”
+dead	dead battery	แบตหมด; ปิดเครื่อง	
+lost	lost	หาย; ทำหาย; วิธีหา; ตามหา	
+category_productivity	Productivity	ประสิทธิภาพการผลิต	ชื่อหมวด App Store ภาษาไทย
+numbers	number format	24.2 MB; 90%; 10–30 เมตร	
+guides	guides	คู่มือ	URL /th/guides/ (slug ภาษาอังกฤษ เหมือน /jp/ /ko/)

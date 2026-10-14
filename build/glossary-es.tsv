@@ -5,3 +5,6 @@ app_role	bluetooth finder app	la app localizadora de dispositivos Bluetooth	Conc
 find_my	Find My	Buscar; la red Buscar	UI de Apple en España
 formality	—	tú	Coherente con el resto del copy
 offers currency	—	EUR en schema	para sitio en es_ES; alinear con otras localizaciones EU si aplica
+app_name	Find Bluetooth Device	Buscador Bluetooth Perdido	Nombre del App Store ES; usar en /es/ y /es/guias/. «Bluetooth Finder» solo como og:site_name / Organization
+find_my_play_sound	Play Sound	Reproducir sonido	UI de Buscar
+headphones_latam	headphones / speaker	auriculares (audífonos) / altavoz (bocina, parlante)	Sinónimos LATAM una vez por página para SEO

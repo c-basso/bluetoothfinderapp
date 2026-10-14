@@ -1,23 +1,23 @@
 {
   "meta": {
     "lang": "th",
-    "title": "Bluetooth Finder - อุปกรณ์ Bluetooth หาย | AirPods, นาฬิกา, หูฟัง",
-    "description": "Bluetooth Finder ช่วยตามหา AirPods, นาฬิกา, หูฟัง, ลำโพง Bluetooth ที่เปิดทำงานรอบตัว: คำแนะนำ «ร้อน-เย็น» สี่ขั้น (เย็น, อุ่น, ร้อน, ร้อนมาก) และตัวบ่งใกล้แบบเปอร์เซ็นต์ ต้อง iOS 17.1+ ดาวน์โหลดฟรีจาก App Store อาจซื้อเพิ่มในแอป",
-    "keywords": "ค้นหา Bluetooth, หา AirPods, อุปกรณ์ Bluetooth, สแกน Bluetooth, iPhone, ตัวติดตาม, อุปกรณ์ใกล้ ๆ, ลำโพง Bluetooth, นาฬิกา, แอปหาเครื่อง",
+    "title": "หูฟังบลูทูธหาย? แอปหาหูฟังและ AirPods – Bluetooth Finder",
+    "description": "หูฟังบลูทูธ AirPods หรือสมาร์ทวอทช์หาย? Bluetooth Finder ช่วยหาด้วย iPhone จากสัญญาณ Bluetooth ไม่ต้องตั้งค่า ดาวน์โหลดฟรี",
+    "keywords": "หูฟังบลูทูธหาย, วิธีหาหูฟังที่หาย, แอปหาหูฟัง, airpods หาย, หูฟังไร้สายหาย, หูฟังหายข้างเดียว, แอปหาอุปกรณ์บลูทูธ, สแกนบลูทูธ iphone, bluetooth finder",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/th/",
-    "og_title": "Bluetooth Finder - อุปกรณ์ Bluetooth รอบตัว",
-    "og_description": "สแกน, ร้อน-เย็น, ตัวเลขเปอร์เซ็นต์. AirPods, หูฟังหรือนาฬิกา หากยังอยู่ในสัญญาณ. iOS 17.1+; iPhone; ดาวน์โหลดฟรี อาจมีการซื้อเพิ่มในแอป",
+    "og_title": "Bluetooth Finder – แอปหาหูฟังและอุปกรณ์บลูทูธที่หาย",
+    "og_description": "หา AirPods หูฟังไร้สาย หูฟังครอบหู และอุปกรณ์ Bluetooth ที่เปิดอยู่ด้วย iPhone สแกนแล้วเดินตามระบบบอก ร้อน–เย็น ไม่ต้องตั้งค่าอะไร",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "og_image_alt": "Bluetooth Finder - ค้นหาอุปกรณ์",
+    "og_image_alt": "Bluetooth Finder: สแกนอุปกรณ์ Bluetooth ใกล้ตัวเพื่อหา AirPods และหูฟังที่หาย",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "th_TH",
     "twitter_url": "https://bluetoothfinderapp.com/th/",
-    "twitter_title": "Bluetooth Finder - รู้ว่าใกล้หรือยัง",
-    "twitter_description": "AirPods, นาฬิกา, หูฟัง. สี่ขั้น: เย็น-อุ่น-ร้อน-ร้อนมาก กับเปอร์เซ็นต์",
+    "twitter_title": "Bluetooth Finder – แอปหาหูฟังและอุปกรณ์บลูทูธที่หาย",
+    "twitter_description": "หา AirPods หูฟัง และอุปกรณ์ Bluetooth ที่เปิดอยู่ด้วย iPhone ระบบบอก ร้อน–เย็น และความแรงสัญญาณ ไม่ต้องตั้งค่า",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_alt": "Bluetooth Finder: สแกนอุปกรณ์ Bluetooth ใกล้ตัวเพื่อหา AirPods และหูฟังที่หาย",
     "twitter_image_width": "1140",
     "twitter_image_height": "599",
     "canonical": "https://bluetoothfinderapp.com/th/",
@@ -27,213 +27,352 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder – ค้นหาอุปกรณ์ Bluetooth",
-    "app_name_suffix": "เครื่องมือหาอุปกรณ์ Bluetooth",
-    "logo_alt": "โลโก้ Bluetooth Finder: AirPods, นาฬิกา, หูฟัง",
+    "application_name": "Bluetooth Finder – แอปหาอุปกรณ์บลูทูธที่หาย",
+    "app_name_suffix": "หาหูฟังและอุปกรณ์บลูทูธที่หาย",
+    "logo_alt": "ไอคอนแอป Bluetooth Finder: ตัวช่วยหา AirPods หูฟัง และสมาร์ทวอทช์ที่หาย",
     "app_name": "Bluetooth Finder",
-    "title": "Bluetooth Finder",
-    "tagline": "เอาเครื่องที่ลืม กลับมาใช้ง่ายขึ้น",
+    "title": "Bluetooth Finder: แอปหาหูฟังบลูทูธที่หาย",
+    "tagline": "แอปบน iPhone ที่ช่วยคุณหาอุปกรณ์ Bluetooth ที่หาย ไม่ว่าจะเป็น AirPods หูฟังไร้สาย หูฟังครอบหู สมาร์ทวอทช์ หรือลำโพง เดินตามสัญญาณด้วยระบบบอก ร้อน–เย็น จนเจอตัว โดยไม่ต้องตั้งค่าล่วงหน้าและไม่ต้องใช้แอปค้นหาของฉัน",
     "download_text": "ดาวน์โหลดบน App Store",
-    "download_aria_label": "ดาวน์โหลด Bluetooth Finder จาก App Store",
-    "download_img_alt": "ดาวน์โหลด Bluetooth Finder จาก App Store"
+    "download_aria_label": "ดาวน์โหลด Bluetooth Finder บน App Store",
+    "download_img_alt": "ดาวน์โหลดบน App Store: Bluetooth Finder",
+    "meta_line": "ดาวน์โหลดฟรี · iOS 17.1 ขึ้นไป · 24.2 MB · รองรับภาษาไทยและอีก 30 ภาษา"
   },
   "screenshots": {
     "items": [
       {
-        "src": "/img/1_cover_12_framed.webp",
-        "alt": "Bluetooth Finder - หน้าหลัก"
+        "src": "/img/appstore/screenshot-1-cover.webp",
+        "alt": "Bluetooth Finder บน iPhone: หน้าจอเริ่มต้นสำหรับหา AirPods และหูฟังที่หาย",
+        "caption": "สแกนได้ในแตะเดียว"
       },
       {
-        "src": "/img/2_scan_12_framed.webp",
-        "alt": "Bluetooth Finder - สแกน"
+        "src": "/img/appstore/screenshot-2-track.webp",
+        "alt": "หน้าจอค้นหาที่มีระบบบอก ร้อน–เย็น และเปอร์เซ็นต์ความใกล้ไปยังอุปกรณ์ Bluetooth ที่หาย",
+        "caption": "ร้อน–เย็น พร้อมเปอร์เซ็นต์ความใกล้"
       },
       {
-        "src": "/img/3_track_12_framed.webp",
-        "alt": "Bluetooth Finder - ตามหา"
+        "src": "/img/appstore/screenshot-3-scan.webp",
+        "alt": "สแกนบลูทูธบน iPhone: รายการอุปกรณ์ Bluetooth ใกล้ตัวพร้อมความแรงสัญญาณ",
+        "caption": "อุปกรณ์ใกล้ตัวทั้งหมดพร้อมความแรงสัญญาณ"
       },
       {
-        "src": "/img/4_info_12_framed.webp",
-        "alt": "Bluetooth Finder - ข้อมูล"
+        "src": "/img/appstore/screenshot-4-info.webp",
+        "alt": "ข้อมูลอุปกรณ์ Bluetooth: ชื่อ ผู้ผลิต และรุ่น",
+        "caption": "ชื่อ ผู้ผลิต และรุ่น"
       }
     ]
   },
   "content": {
-    "summary_label": "สรุป",
-    "summary_tldr": "Bluetooth Finder เป็นแอปบน iPhone (iOS) สำหรับตามหา AirPods, นาฬิกา, ลำโพง, อุปกรณ์ Bluetooth อื่น ๆ ที่ยังส่งสัญญาณ ใกล้ ๆ: ร้อน-เย็น สี่ขั้น (เย็น, อุ่น, ร้อน, ร้อนมาก) กับตัวบ่งแบบเปอร์เซ็นต์. ต่างจาก ค้นหา (Find My) ของ Apple มักไม่ต้องลงทะเบียนล่วงหน้า ดาวน์โหลดฟรี; ต้อง iOS 17.1 หรือใหม่กว่า",
-    "intro1": "เผลอ <strong>ลืมหูฟัง</strong> สาย <strong>รัดข้อมือ</strong> หรือ <strong>ลำโพง</strong> บ้างไหม? <strong>Bluetooth Finder</strong> คือ <em>ตัวช่วยหา Bluetooth รอบตัว</em>: สแกน, เลือกรายการ, ดูระดับร้อน-เย็น กับเปอร์เซ็นต์ ว่าเดินใกล้หรือห่าง",
-    "intro2": "รายชื่ออัปเดตกับสัญญาณ; กำแพง ฝูงคน แบต มีผล. อ่านทุกบ่งชี้รวม ๆ กัน อย่าดูเฉพาะเปอร์เซ็นต์ แล้วเทียบ “เมตร” ลวง ๆ"
+    "summary_label": "สรุปสั้น ๆ",
+    "summary_tldr": "Bluetooth Finder เป็นแอป iOS ฟรี (24.2 MB, iOS 17.1 ขึ้นไป) ที่ช่วยหาอุปกรณ์ Bluetooth ที่หาย เช่น AirPods หูฟังไร้สาย หูฟังครอบหู สมาร์ทวอทช์ และลำโพง จากความแรงของสัญญาณ ต่างจากแอปค้นหาของฉันของ Apple ตรงที่ไม่ต้องตั้งค่าอะไรไว้ก่อน และใช้ได้กับอุปกรณ์ Bluetooth ทุกยี่ห้อที่เปิดอยู่ ทั้ง Sony, JBL, Samsung และ Xiaomi แค่เลือกอุปกรณ์จากรายการ แล้วเดินตามระบบบอก ร้อน–เย็น และเปอร์เซ็นต์ความใกล้",
+    "intro1": "ลืม AirPods ไว้ที่ไหนสักแห่งในบ้าน? หูฟังไร้สายตกลงไปในซอกโซฟา? <strong>Bluetooth Finder</strong> สแกนสัญญาณ Bluetooth รอบตัว แล้วพาคุณไปยังอุปกรณ์ที่เปิดอยู่ในระยะ โดยไม่ต้องใช้เครือข่ายค้นหาของฉัน ไม่ต้องใช้ iCloud และไม่ต้องจับคู่อุปกรณ์ไว้ก่อน",
+    "intro2": "แอปทำงานเหมือนเครื่องตรวจจับโลหะสำหรับอุปกรณ์ของคุณ เลือกอุปกรณ์จากรายการ เดินไปรอบ ๆ แล้วตัวบอกจะแสดงว่าคุณกำลังเข้าใกล้ (อุ่นขึ้น) หรือห่างออกไป (เย็นลง) เปอร์เซ็นต์ความใกล้ช่วยยืนยันว่ามาถูกทาง ส่วนชื่อ ผู้ผลิต และรุ่นช่วยให้มั่นใจว่ากำลังตามอุปกรณ์ของคุณจริง ๆ แม้รอบตัวจะมีสัญญาณ Bluetooth อยู่หลายสิบตัว"
   },
   "features": {
-    "title": "ทำไม Bluetooth Finder โดดเด่น",
-    "subtitle": "สิ่งที่คุณได้รับจริง ๆ",
+    "title": "หาอุปกรณ์บลูทูธ: AirPods หูฟัง และสมาร์ทวอทช์",
+    "subtitle": "สร้างมาเพื่องานเดียว คือช่วยให้คุณหาอุปกรณ์ Bluetooth ที่หายได้เร็วที่สุด",
     "items": [
       {
         "number": "1",
-        "title": "สแกนเร็ว",
-        "description": "เมื่ออนุญาต Bluetooth แอปจะรับอุปกรณ์ที่ยังออกอากาศ อยู่รอบ ๆ แล้วแสดงในรายชื่อ มักไม่ต้องตั้งค่าซับซ้อน — ผลขึ้นตามที"
+        "title": "สแกนบลูทูธในไม่กี่วินาที",
+        "description": "แตะครั้งเดียว แอปจะหาอุปกรณ์ Bluetooth ที่เปิดอยู่รอบตัวทั้งหมด และแสดงความแรงสัญญาณแบบเรียลไทม์ ทั้ง AirPods หูฟังไร้สาย หูฟังครอบหู สมาร์ทวอทช์ สายรัดข้อมือฟิตเนส และลำโพง อะไรที่ส่งสัญญาณ Bluetooth จะขึ้นในรายการ"
       },
       {
         "number": "2",
-        "title": "ร้อน-เย็น: เย็น, อุ่น, ร้อน, ร้อนมาก",
-        "description": "เย็น = ห่าง/อ่อน, อุ่น-ร้อน = กำลังใกล้, ร้อนมาก = ใกล้พอจะหยิบได้ นี่อิงกำลังสัญญาณ ไม่ใช่เอาเมตรวัด แต่รู้ได้ว่ากำลังกระชิดลงหรือถอย"
+        "title": "ระบบบอก ร้อน–เย็น",
+        "description": "เดินไปรอบ ๆ แล้วแอปจะบอกว่า เย็น อุ่น ร้อน หรือร้อนมาก ตามสัญญาณที่วัดได้ตอนนั้น แทนที่จะรื้อทุกลิ้นชัก คุณแค่เล่นเกมร้อน–เย็นไม่กี่นาทีแล้วก็เจอ"
       },
       {
         "number": "3",
-        "title": "ค่าเปอร์เซ็นต์ความใกล้ (%)",
-        "description": "โดยทั่วไปค่ายิ่งสูงยิ่ง “ใกล้” ตามสัญญาณ ไม่ใช่ตัวแทนเมตร. อ่านคู่กับขั้น ร้อน-เย็น ดีกว่าเลขเดี่ยว"
+        "title": "เปอร์เซ็นต์ความใกล้",
+        "description": "ตัวเลขเปอร์เซ็นต์บอกว่าคุณอยู่ใกล้แค่ไหน ดูมันเพิ่มจาก 40% เป็น 95% ขณะที่คุณเดินเข้าใกล้หมอนที่หูฟังไปซุกอยู่ข้างใต้"
       },
       {
         "number": "4",
-        "title": "ข้อมูลอุปกรณ์",
-        "description": "หากมียี่ห้อ รุ่น หรือชื่อในรายการ จะง่ายต่อการมองหา โดยเฉพาะเวลาโทรศัพท์-หลายอุปกรณ์มีหูฟังคู่"
+        "title": "ข้อมูลอุปกรณ์ ไม่สับสน",
+        "description": "ชื่อ ผู้ผลิต และรุ่นของอุปกรณ์แต่ละตัว ช่วยให้คุณตาม AirPods Pro ของตัวเอง ไม่ใช่ทีวีของห้องข้าง ๆ แม้ในที่ที่มีสัญญาณเยอะ"
       },
       {
         "number": "5",
-        "title": "วันนี้ที่บ้าน พรุ่งนี้นอกบ้าน",
-        "description": "ดีได้เมื่อวิทยุอุปกรณ์เปิดและอยู่บริเวณ. ตาม AirPods, นาฬิกา, ลำโพง ฯลฯ มักลด “ค้นสำรวจ” กว้าง ๆ — ขึ้นกับสัญญาณและบรรยากาศ"
+        "title": "ไม่ต้องตั้งค่า ไม่ต้องมีบัญชี",
+        "description": "ไม่ต้องเตรียมอะไรไว้ก่อนของหาย แอปหาอุปกรณ์จากสัญญาณ Bluetooth ที่ส่งอยู่ตอนนั้น จึงใช้ได้กับ AirPods มือสอง หูฟัง Sony, JBL หรือ Bose และอุปกรณ์ที่ไม่เคยอยู่ในแอปค้นหาของฉัน"
+      },
+      {
+        "number": "6",
+        "title": "ใช้ได้ทุกที่ที่ของมักหาย",
+        "description": "ที่บ้าน ที่ทำงาน ฟิตเนส ในรถ บนรถไฟฟ้า หรือร้านกาแฟ ในอาคาร สัญญาณ Bluetooth มักไปได้ราว 10–30 เมตร ซึ่งเป็นรัศมีที่ของส่วนใหญ่หายอยู่พอดี"
       }
     ]
   },
-  "how_to": {
-    "title": "วิธีใช้งาน Bluetooth Finder",
-    "description": "เปิดแอป, อนุญาต Bluetooth, รอสแกน, แล้วแตะรายการที่ตรงกับหูฟังหรือลำโพง. เดินในห้องหรือทางเดิน มอง ร้อน-เย็น (เย็น, อุ่น, ร้อน, ร้อนมาก) พร้อม % เมื่อถึง ร้อนมาก กับตัวเลขสูง แสดงว่าใกล้พอค้น แล้วเช็กจุดนั้น. ฝูงแออัด: เลือกก่อนให้ตรงชื่อในรายชื่อ"
+  "how_it_works": {
+    "title": "วิธีใช้งาน",
+    "subtitle": "ตั้งแต่ดาวน์โหลดจนเจอของ ใช้เวลาราวสองนาที",
+    "steps": [
+      {
+        "title": "ดาวน์โหลดแอป",
+        "description": "ดาวน์โหลด Bluetooth Finder ฟรีจาก App Store ต้องใช้ iOS 17.1 ขึ้นไป ขนาดเพียง 24.2 MB ติดตั้งผ่าน Wi-Fi ได้ในไม่กี่วินาที"
+      },
+      {
+        "title": "สแกนอุปกรณ์ใกล้ตัว",
+        "description": "เปิดแอปแล้วเริ่มสแกน อุปกรณ์ Bluetooth ที่เปิดอยู่ในระยะทั้งหมดจะขึ้นในรายการพร้อมความแรงสัญญาณ"
+      },
+      {
+        "title": "เลือกอุปกรณ์ที่หาย",
+        "description": "ดูจากชื่อ ผู้ผลิต หรือรุ่น ถ้าไม่แน่ใจ มักเป็นสัญญาณแรงที่ไม่มีชื่อ และเปลี่ยนไปเมื่อคุณเดินจากห้องหนึ่งไปอีกห้อง"
+      },
+      {
+        "title": "เดินตามระบบบอก ร้อน–เย็น",
+        "description": "ค่อย ๆ เดินไปรอบห้อง ตัวบอกจะเปลี่ยนจาก เย็น เป็น อุ่น และ ร้อน เมื่อสัญญาณแรงขึ้น และเปอร์เซ็นต์ความใกล้จะเพิ่มขึ้นเมื่อคุณเข้าใกล้"
+      },
+      {
+        "title": "เจอแล้วหยิบได้เลย",
+        "description": "เมื่อขึ้น ร้อนมาก และเกิน 90% อุปกรณ์อยู่ใกล้แค่เอื้อมมือ ลองดูใต้หมอน ในกระเป๋าเสื้อ กระเป๋าถือ และลิ้นชักรอบตัว"
+      }
+    ]
   },
-  "why_love": {
-    "title": "ช่วยอะไร",
-    "description": "ลดการ “เดาแล้วค้น” — แอปบอกทิศจากสัญญาณ: ร้อน-เย็น อ่านง่าย เปอร์เซ็นต์ช่วยเสริม ใช้ได้ทั้งในห้องและกลางแจ้งเมื่ออุปกรณ์ยังออกอากาศ Bluetooth อินเทอร์เฟซเร็ว สำหรับคนหูฟัง/แกดเจ็ตหาย ที่ออฟฟิศ รถไฟ หรือโซฟา"
-  },
-  "who_should_use": {
-    "title": "เหมาะกับใคร",
-    "description": "เจ้าของ AirPods/หูฟังอินเอียร์, นาฬิกา-สายรัดข้อมือ, ลำโพงพก หรือหูฟังครอบหู ทั้งเวลาเดินทางหรือบ้านที่วุ่นวาย ทุกวันที่ต้องรู้เรื่องเร็ว: รู้ “พื้นที่แคบ” ก่อน ค่อยใช้มือกับสายตาตาม"
-  },
-  "advanced_features": {
-    "title": "ข้อมูลเพิ่มเติม",
-    "description": "รายชื่ออัปเดตแทบตามเวลาจริง; รวมขั้น ร้อน-เย็น กับเปอร์เซ็นต์ ช่วยให้จับอาการได้ไว แอปออกแบบเบา-เร็ว แบตลดขึ้นกับเวลาใช้-พื้นหลัง-สิ่งกีดขวาง บางฟีเจอร์อาจเสียเงินในแอป — ดูคำอธิบายใน App Store ทุกครั้ง"
+  "guides": {
+    "title": "คู่มือ: วิธีหาอุปกรณ์ที่หาย",
+    "subtitle": "คู่มือทีละขั้นตอนสำหรับสถานการณ์ที่เจอบ่อย อะไรได้ผล อะไรไม่ได้ผล และจะเอาของคืนมาได้อย่างไร",
+    "read_label": "อ่านคู่มือ →",
+    "items": [
+      {
+        "url": "/th/guides/how-to-find-lost-airpods/",
+        "title": "AirPods หาย หายังไง",
+        "teaser": "ทุกวิธีที่ได้ผลจริง ทั้งแอปค้นหาของฉัน การเล่นเสียง และการตามสัญญาณ Bluetooth เมื่อแอปค้นหาของฉันช่วยไม่ได้"
+      },
+      {
+        "url": "/th/guides/find-airpods-without-find-my/",
+        "title": "หา AirPods โดยไม่ใช้แอปค้นหาของฉัน",
+        "teaser": "ไม่มี iCloud, AirPods มือสอง หรือไม่เคยเปิดค้นหาของฉัน ก็ยังตามหาได้จากสัญญาณ Bluetooth"
+      },
+      {
+        "url": "/th/guides/find-one-lost-airpod/",
+        "title": "AirPods หายข้างเดียว",
+        "teaser": "หูฟังข้างเดียวทั้งเล็กและเงียบ แต่ยังส่งสัญญาณ Bluetooth อยู่ นี่คือวิธีตามหา"
+      },
+      {
+        "url": "/th/guides/find-dead-airpods/",
+        "title": "AirPods แบตหมดหรือปิดอยู่",
+        "teaser": "แบตหมดหรือปิดเครื่อง อะไรที่ยังช่วยได้จริง และเตรียมตัวอย่างไรสำหรับครั้งหน้า"
+      },
+      {
+        "url": "/th/guides/find-lost-bluetooth-headphones/",
+        "title": "หูฟังบลูทูธหาย",
+        "teaser": "Sony, JBL, Bose หรือ Beats หูฟังส่วนใหญ่ไม่อยู่ในแอปค้นหาของฉัน แต่ตามหาได้จากความแรงสัญญาณ"
+      },
+      {
+        "url": "/th/guides/find-lost-earbuds/",
+        "title": "หูฟังไร้สายหาย",
+        "teaser": "Galaxy Buds, Xiaomi, JBL หรือยี่ห้อไหนก็ตาม วิธีเดียวหาได้ทุกยี่ห้อ ขอแค่ยังเปิดอยู่"
+      },
+      {
+        "url": "/th/guides/find-lost-smartwatch/",
+        "title": "สมาร์ทวอทช์หรือ Mi Band หาย",
+        "teaser": "Mi Band, Garmin, Huawei หรือ Apple Watch หาเจอในบ้านหรือในกระเป๋าฟิตเนสจากสัญญาณ Bluetooth"
+      },
+      {
+        "url": "/th/guides/find-lost-bluetooth-speaker/",
+        "title": "ลำโพงบลูทูธหาย",
+        "teaser": "หาลำโพง JBL ได้ไหม ได้ ถ้ายังเปิดอยู่ เดินตามสัญญาณแรง ๆ ของมันจนเจอ"
+      },
+      {
+        "url": "/th/guides/bluetooth-scanner-iphone/",
+        "title": "สแกนบลูทูธบน iPhone",
+        "teaser": "ดูอุปกรณ์ Bluetooth ทั้งหมดรอบตัว พร้อมความแรงสัญญาณ ผู้ผลิต และรุ่น แล้วรู้ว่าตัวไหนเป็นอะไร"
+      },
+      {
+        "url": "/th/guides/find-lost-airpods-case/",
+        "title": "เคส AirPods หาย",
+        "teaser": "คำตอบตรง ๆ เรื่องเคสชาร์จ เมื่อไหร่หาได้ เมื่อไหร่หาไม่ได้ และควรทำอย่างไร"
+      }
+    ]
   },
   "final_cta": {
-    "title": "ดาวน์โหลด Bluetooth Finder วันนี้",
-    "paragraph1": "อย่าเสียเวลาไปกับการเดาเสีย ๆ <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">ดาวน์โหลดจาก App Store</a> แล้วใช้คำแนะนำ ร้อน-เย็น กับตัวบ่งความใกล้ เพื่อเอา AirPods, นาฬิกา, ลำโพง หรืออุปกรณ์ Bluetooth อื่น ๆ ที่ยังออกอากาศ กลับมา โดยไม่เครียดจนเกินไป",
-    "cta_text": "ดาวน์โหลดจาก App Store",
-    "cta_aria_label": "ดาวน์โหลด Bluetooth Finder จาก App Store",
-    "cta_img_alt": "ดาวน์โหลด Bluetooth Finder จาก App Store"
+    "title": "อุปกรณ์ของคุณยังอยู่ใกล้ ๆ ไปเอาคืนกัน",
+    "paragraph1": "อุปกรณ์ Bluetooth ที่ “หาย” ส่วนใหญ่อยู่ห่างคุณไม่ถึง 30 เมตร ไม่ว่าจะในซอกโซฟา กระเป๋าเสื้อ กระเป๋าฟิตเนส หรือระหว่างเบาะรถ Bluetooth Finder เปลี่ยนรัศมีนั้นให้เป็นการค้นหาแบบมีตัวช่วย ซึ่งปกติจบได้ในไม่กี่นาที ฟรี ไม่ต้องตั้งค่า <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">ดาวน์โหลดแอปบน App Store</a> แล้วเลิกหาแบบมืด ๆ ได้เลย",
+    "cta_text": "ดาวน์โหลดบน App Store",
+    "cta_aria_label": "ดาวน์โหลด Bluetooth Finder บน App Store",
+    "cta_img_alt": "ดาวน์โหลดบน App Store: Bluetooth Finder"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. สงวนลิขสิทธิ์",
+    "copyright": "© {year} Bluetooth Finder สงวนลิขสิทธิ์",
+    "guides_link": "คู่มือ",
+    "guides_url": "/th/guides/",
     "privacy_link": "นโยบายความเป็นส่วนตัว",
     "privacy_url": "/privacy.html",
-    "terms_link": "ข้อกำหนด",
+    "terms_link": "ข้อกำหนดการใช้งาน",
     "terms_url": "/terms.html"
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "ผลิตภาพ",
+    "category": "ประสิทธิภาพการผลิต",
     "age_rating": "4+",
-    "file_size": "25.3 MB",
-    "languages": "ไทย (หน้านี้), English",
-    "compatibility": "ต้องใช้ iOS 17.1 หรือใหม่กว่า",
+    "file_size": "24.2 MB",
+    "languages": "ภาษาไทยและอีก 30 ภาษา",
+    "compatibility": "ต้องใช้ iOS 17.1 ขึ้นไป",
     "platform": "iPhone",
     "copyright": "© c-basso",
     "in_app_purchases": true
   },
   "seo": {
     "breadcrumb_home": "หน้าแรก",
-    "last_updated_label": "อัปเดต",
+    "last_updated_label": "อัปเดตล่าสุด",
     "key_facts_title": "Bluetooth Finder ในตัวเลข",
     "key_facts": [
       {
-        "value": "25.3 MB",
-        "label": "ขนาด"
+        "value": "ฟรี",
+        "label": "ดาวน์โหลดฟรี มีสมัครสมาชิกพรีเมียมเสริม"
+      },
+      {
+        "value": "24.2 MB",
+        "label": "ขนาดแอป ติดตั้งในไม่กี่วินาที"
       },
       {
         "value": "iOS 17.1+",
-        "label": "ระบบ"
+        "label": "ใช้งานบน iPhone"
       },
       {
-        "value": "4+",
-        "label": "อายุ"
+        "value": "10–30 ม.",
+        "label": "ระยะ Bluetooth ทั่วไปในอาคาร"
       },
       {
-        "value": "ฟรี (IAP)",
-        "label": "ดาวน์โหลด"
+        "value": "31 ภาษา",
+        "label": "ภาษาไทยและอีก 30 ภาษา"
       },
       {
-        "value": "เช่น AirPods, นาฬิกา, หูฟัง",
-        "label": "ตัวอย่าง"
+        "value": "0 การตั้งค่า",
+        "label": "ไม่ต้องมีบัญชี ไม่ต้องจับคู่ ไม่ต้องใช้แอปค้นหาของฉัน"
       }
     ],
-    "comparison_title": "Bluetooth Finder, ค้นหา (Find My) กับสแกนทั่วไป",
-    "comparison_intro": "เทียบแบบเน้นการใช้ ไม่เอาโฆษณาเปล่า:",
-    "comparison_col_feature": "หัวข้อ",
+    "comparison_title": "Bluetooth Finder เทียบกับแอปค้นหาของฉันของ Apple และแอปสแกน Bluetooth ทั่วไป",
+    "comparison_intro": "สามวิธีหาอุปกรณ์ที่หาย และควรใช้วิธีไหนเมื่อไหร่",
+    "comparison_col_feature": "คุณสมบัติ",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
-    "comparison_col_find_my": "ค้นหา (Find My)",
-    "comparison_col_generic": "สแกนทั่วไป",
+    "comparison_col_find_my": "ค้นหาของฉัน (Apple)",
+    "comparison_col_generic": "แอปสแกนทั่วไป",
     "comparison_rows": [
       {
-        "feature": "ชนิดอุปกรณ์",
-        "bluetooth_finder": "อุปกรณ์ที่เปิด — เห็นใน Bluetooth รอบตัว ตามเครื่องที่ออกอากาศ",
-        "find_my": "ส่วนใหญ่เป็น Apple และมักลงทะเบียน/ผูกบัญชีมาก่อน",
-        "generic": "อะไรก็ตามที่โผล่ในรายชื่อ แต่ไม่มีคู่ ร้อน-เย็น นำทาง"
+        "feature": "ประเภทอุปกรณ์",
+        "bluetooth_finder": "อุปกรณ์ Bluetooth ทุกยี่ห้อที่เปิดอยู่",
+        "find_my": "เฉพาะอุปกรณ์ Apple และอุปกรณ์เสริมที่รองรับเครือข่ายค้นหาของฉัน",
+        "generic": "อุปกรณ์ Bluetooth ทุกตัว (แสดงเป็นรายการเท่านั้น)"
       },
       {
-        "feature": "เตรียมตั้งค่าล่วงหน้า",
-        "bluetooth_finder": "มักไม่ต้องตั้งพิเศษ",
-        "find_my": "ต้อง (เครือข่าย) ค้นหา / Find My",
-        "generic": "มักไม่บังคับ"
+        "feature": "ต้องตั้งค่าก่อนของหาย",
+        "bluetooth_finder": "ไม่ต้อง",
+        "find_my": "ต้องผูกกับบัญชี Apple ไว้ก่อน",
+        "generic": "ไม่ต้อง"
       },
       {
-        "feature": "พาใกล้เครื่อง",
-        "bluetooth_finder": "ร้อน-เย็น: เย็น, อุ่น, ร้อน, ร้อนมาก กับเปอร์เซ็นต์",
-        "find_my": "ทิศ/ระยะ บนรุ่นที่รองรับ",
-        "generic": "มักแค่รายชื่อ บางตัวช่วยน้อยมาก"
+        "feature": "การนำทางไปหาอุปกรณ์",
+        "bluetooth_finder": "ระบบบอก ร้อน–เย็น + เปอร์เซ็นต์ความใกล้",
+        "find_my": "แผนที่ เสียง และค้นหาใกล้เคียงในบางรุ่น",
+        "generic": "รายการสัญญาณ ไม่มีการนำทาง"
       },
       {
-        "feature": "แพลตฟอร์ม",
-        "bluetooth_finder": "iOS 17.1 หรือใหม่กว่า",
-        "find_my": "ระบบ Apple",
-        "generic": "ขึ้นกับแอป"
+        "feature": "หูฟังยี่ห้ออื่น",
+        "bluetooth_finder": "ได้",
+        "find_my": "ไม่ได้",
+        "generic": "เห็น แต่ไม่พาไปหา"
+      },
+      {
+        "feature": "อุปกรณ์อยู่ไกลหรือปิดอยู่",
+        "bluetooth_finder": "ไม่ได้ อุปกรณ์ต้องเปิดอยู่และอยู่ในระยะ",
+        "find_my": "ได้ ผ่านเครือข่ายค้นหาของฉัน",
+        "generic": "ไม่ได้"
+      },
+      {
+        "feature": "เหมาะกับ",
+        "bluetooth_finder": "หาของใกล้ตัว ทุกยี่ห้อ ไม่ต้องเตรียมตัว",
+        "find_my": "อุปกรณ์ Apple ที่ลงทะเบียนไว้และหายไกล",
+        "generic": "ตรวจสอบทางเทคนิค"
       }
     ],
-    "faq_title": "คำถามที่พบ: Bluetooth Finder",
+    "faq_title": "คำถามที่พบบ่อย",
     "faq": [
       {
-        "question": "Bluetooth Finder คืออะไร?",
-        "answer": "แอปบน iPhone สำหรับมองหาอุปกรณ์ Bluetooth รอบตัวที่ยังออกอากาศ โดยใช้ ร้อน-เย็น สี่ขั้น (เย็น, อุ่น, ร้อน, ร้อนมาก) กับเปอร์เซ็นต์ ช่วยบีบมุมก่อน แล้วค่อยหาแบบมอง-มือ แทนเดาไปมั่ว"
+        "question": "Bluetooth Finder คือแอปอะไร?",
+        "answer": "Bluetooth Finder เป็นแอป iOS ฟรีที่ช่วยหาอุปกรณ์ Bluetooth ที่หายจากสัญญาณแบบเรียลไทม์ แอปจะสแกน AirPods หูฟังไร้สาย หูฟังครอบหู สมาร์ทวอทช์ สายรัดข้อมือฟิตเนส และลำโพงรอบตัว แล้วพาคุณไปยังอุปกรณ์ที่เลือกด้วยระบบบอก ร้อน–เย็น และเปอร์เซ็นต์ความใกล้ ต้องใช้ iOS 17.1 ขึ้นไป ขนาด 24.2 MB ใน App Store ใช้ชื่อว่า “Find Bluetooth Device”",
+        "learn_more_url": "/th/guides/",
+        "learn_more_text": "อ่านเพิ่มเติม: คู่มือทั้งหมด →"
       },
       {
-        "question": "มันทำงานยังไง?",
-        "answer": "แอปสแกน แสดงรายชื่อที่ออกอากาศ อัปเดตตามเวลา อ่านขั้น เย็น, อุ่น, ร้อน, ร้อนมาก กับเปอร์เซ็นต์ ถ้ามี — ยี่ห้อ รุ่น ชื่อ"
+        "question": "จะหาอุปกรณ์บลูทูธด้วย iPhone ได้อย่างไร?",
+        "answer": "ใช้แอปอย่าง Bluetooth Finder เริ่มสแกน แล้วอุปกรณ์ Bluetooth ที่เปิดอยู่ในระยะทั้งหมดจะขึ้นพร้อมความแรงสัญญาณ เลือกอุปกรณ์ของคุณแล้วเดินไปทางที่ตัวบอกเปลี่ยนจาก เย็น เป็น ร้อน ส่วนหน้า การตั้งค่า > Bluetooth บน iPhone จะแสดงเฉพาะอุปกรณ์ที่จับคู่แล้วหรืออยู่ในโหมดจับคู่ และไม่บอกว่าอุปกรณ์อยู่ตรงไหน",
+        "learn_more_url": "/th/guides/bluetooth-scanner-iphone/",
+        "learn_more_text": "อ่านเพิ่มเติม: สแกนบลูทูธบน iPhone →"
       },
       {
-        "question": "เจอ AirPods หาย ได้มั้ย?",
-        "answer": "ถ้าหูหรือกล่องยังส่งสัญญาณ เปิดทำงาน และปรากฏในรายชื่อ ก็เดินไล่ตาม ร้อน-เย็น รู้มุมก่อน แล้วมอง-มือ-สายตา. นี่บอกกำลังสัญญาณ ไม่รับประกันห่างกี่เมตร แต่ลดพื้นที่กว้าง ก่อนไปมอง ค้น ตัวจริง ๆ"
+        "question": "หูฟังบลูทูธหาย มีวิธีหาอย่างไร?",
+        "answer": "ถ้าหูฟังยังเปิดอยู่และอยู่ในระยะ ก็หาได้จากสัญญาณ Bluetooth หูฟังที่เปิดอยู่ทุกยี่ห้อ ทั้ง AirPods, Galaxy Buds, JBL, Sony หรือ Xiaomi จะส่งสัญญาณที่แรงขึ้นเมื่อคุณเข้าใกล้ แอปจะอ่านสัญญาณนั้นแล้วพาคุณไปหา หูฟังที่หายมักอยู่ใกล้ ๆ เช่น ในซอกโซฟา กระเป๋าเสื้อ หรือกระเป๋าเป้",
+        "learn_more_url": "/th/guides/find-lost-bluetooth-headphones/",
+        "learn_more_text": "อ่านเพิ่มเติม: หูฟังบลูทูธหาย →"
       },
       {
-        "question": "ยี่ห้ออื่น นอก Apple ก็เจอได้มั้ย?",
-        "answer": "ได้ — อะไรก็ตามที่เปิดและปรากฏใน Bluetooth นาฬิกา, รัดข้อ, ลำโพง, หูฟัง. แต่ละยี่ห้อออกเวกอัป-ชื่อ-สัญญาณ ไม่เท่ารุ่นกัน ผลอาจต่าง"
+        "question": "หูฟังไร้สายหาย หาเจอได้ไหม?",
+        "answer": "ได้ ตราบที่ยังเปิดอยู่และอยู่ในระยะ หูฟังไร้สายที่อยู่นอกเคสจะส่งสัญญาณ Bluetooth ตราบที่แบตยังเหลือ สแกน เลือกหูฟังจากรายการตามชื่อหรือผู้ผลิต แล้วเดินตามระบบบอก ร้อน–เย็น จนเปอร์เซ็นต์ความใกล้เกิน 90%",
+        "learn_more_url": "/th/guides/find-lost-earbuds/",
+        "learn_more_text": "อ่านเพิ่มเติม: หูฟังไร้สายหาย →"
       },
       {
-        "question": "แอปฟรีมั้ย?",
-        "answer": "ดาวน์โหลดใน App Store มักไม่เสียค่าเริ่ม บางส่วนเสริมอาจซื้อในแอป — อ่านรายละเอียดและราคาใน App Store ทุกครั้ง"
+        "question": "AirPods หาย จะหาด้วย iPhone ได้อย่างไร?",
+        "answer": "ถ้าเปิดค้นหาของฉันไว้ ให้เริ่มจากแอปค้นหาของฉันก่อน คุณจะเห็นตำแหน่งบนแผนที่และสั่งเล่นเสียงได้ ถ้า AirPods ไม่อยู่ในค้นหาของฉัน หรือแผนที่บอกแค่ตัวอาคาร ให้สแกนด้วย Bluetooth Finder เมื่ออยู่นอกเคสและยังมีแบต AirPods จะส่งสัญญาณ Bluetooth ที่คุณเดินตามได้ทีละห้อง",
+        "learn_more_url": "/th/guides/how-to-find-lost-airpods/",
+        "learn_more_text": "อ่านเพิ่มเติม: AirPods หาย →"
       },
       {
-        "question": "มือถือต้องใช้อะไร?",
-        "answer": "ต้อง iPhone ที่ iOS 17.1 หรือใหม่กว่า ตามรุ่นนี้ของแอป เปิด Bluetooth และอนุญาตแอป; เวลาใช้, แบต, การทำงานเบื้องหลัง ขึ้นกับการใช้"
+        "question": "หา AirPods โดยไม่ใช้แอปค้นหาของฉันหรือ iCloud ได้ไหม?",
+        "answer": "ได้ AirPods จะส่งสัญญาณ Bluetooth ทันทีที่ออกจากเคสและเปิดอยู่ แอปจะตามสัญญาณนั้นโดยตรง โดยไม่ต้องใช้เครือข่ายค้นหาของฉัน ไม่ต้องใช้ iCloud และไม่ต้องจับคู่ไว้ก่อน ใช้ได้กับ AirPods มือสองที่ยังผูกกับบัญชี Apple ของเจ้าของเดิมด้วย",
+        "learn_more_url": "/th/guides/find-airpods-without-find-my/",
+        "learn_more_text": "อ่านเพิ่มเติม: หา AirPods โดยไม่ใช้ค้นหาของฉัน →"
       },
       {
-        "question": "ตัวเลขเปอร์เซ็นต์ บอกเหลือกี่เมตร?",
-        "answer": "ไม่ — เป็นสัมพัทธ์จากกำลังรับ แปรตาม กำแพง, ฝูงคน, ร่าง, แบต. อ่านรวมกับ ร้อน-เย็น มากกว่าเลขเฉย ๆ"
+        "question": "AirPods หายข้างเดียว หาได้ไหม?",
+        "answer": "ได้ AirPods แต่ละข้างส่งสัญญาณ Bluetooth ของตัวเอง ตราบที่อยู่นอกเคสและยังมีแบต สแกนด้วยแอป เลือก AirPods จากรายการ แล้วเดินตามระบบบอก ร้อน–เย็น เปอร์เซ็นต์ความใกล้จะพุ่งขึ้นเมื่อคุณอยู่ใกล้หูฟังข้างที่หาย",
+        "learn_more_url": "/th/guides/find-one-lost-airpod/",
+        "learn_more_text": "อ่านเพิ่มเติม: AirPods หายข้างเดียว →"
       },
       {
-        "question": "ฝูงแอ สถานี ห้าง ใช้ได้มั้ย?",
-        "answer": "ใช้ แต่รายชื่ออาจยาว — เลือกตามป้าย อุปกรณ์, เข้าใกล้, มองเปอร์เซ็นต์, อ่านขั้น-ก่อน. ยิ่งหูหลายคู่ ยิ่งสำคัญที่ตรงชื่อในรายชื่อ"
+        "question": "หาอุปกรณ์บลูทูธที่ปิดอยู่หรือแบตหมดได้ไหม?",
+        "answer": "หาแบบเรียลไทม์ไม่ได้ อุปกรณ์ที่ปิดอยู่หรือแบตหมดเกลี้ยงจะไม่ส่งสัญญาณใด ๆ ที่แอปหาบลูทูธหรือแอปค้นหาของฉันจับได้ ให้ดูตำแหน่งล่าสุดในค้นหาของฉันหรือแอปของผู้ผลิต ค้นตรงนั้นอย่างเป็นระบบ และสแกนใหม่เป็นระยะ หูฟังหลายรุ่นที่แบตเหลือนิดหน่อยจะตื่นขึ้นมาชั่วครู่",
+        "learn_more_url": "/th/guides/find-dead-airpods/",
+        "learn_more_text": "อ่านเพิ่มเติม: AirPods แบตหมด →"
       },
       {
-        "question": "ต่างจาก ค้นหา (Find My) ยังไง?",
-        "answer": "Find My ใช้ ecosystem Apple อุปกรณ์ที่ลงทะเบียน-ผูกบัญชี. Bluetooth Finder เน้นอะไรที่ออกอากาศ ณ นั้น อาจเติมกัน แต่ไม่แทนกันครบทุกกรณี"
+        "question": "สมาร์ทวอทช์หรือ Mi Band หาย หาได้ไหม?",
+        "answer": "ได้ สมาร์ทวอทช์และสายรัดข้อมืออย่าง Mi Band, Garmin หรือ Huawei ส่งสัญญาณ Bluetooth แทบตลอดเวลา จึงตรวจจับได้ง่าย สแกน เลือกนาฬิกาตามชื่อหรือผู้ผลิต แล้วเดินไปหาสัญญาณที่แรงที่สุด",
+        "learn_more_url": "/th/guides/find-lost-smartwatch/",
+        "learn_more_text": "อ่านเพิ่มเติม: สมาร์ทวอทช์หาย →"
       },
       {
-        "question": "เครื่องไม่อยู่ใน Find My ก็ยังดีมั้ย?",
-        "answer": "บางที ถ้าเปิดอยู่ ใกล้ และปรากฏในสแกน แอปจะบีบมุมหาได้. กรณีห่าง ขโมย ปิดเครื่อง ตามขั้นของเจ้าของหรือเจ้าหน้าที่ ยังต้องวิธีนอกนี้ด้วย"
+        "question": "หาลำโพง JBL หรือลำโพงบลูทูธได้ไหม?",
+        "answer": "ได้ ถ้ายังเปิดอยู่ ลำโพง JBL, Sony, Bose หรือ Anker มีตัวส่งสัญญาณ Bluetooth แรงกว่าหูฟัง และมักขึ้นในรายการได้จากแทบทุกมุมของบ้าน สแกน เลือกลำโพง แล้วเดินตามระบบบอก ร้อน–เย็น ทีละห้องจนเปอร์เซ็นต์ความใกล้สูงที่สุด",
+        "learn_more_url": "/th/guides/find-lost-bluetooth-speaker/",
+        "learn_more_text": "อ่านเพิ่มเติม: ลำโพงบลูทูธหาย →"
+      },
+      {
+        "question": "เคส AirPods หาย หาได้ไหม?",
+        "answer": "บางครั้ง เคสที่ปิดอยู่และมี AirPods อยู่ข้างในจะอยู่ในโหมดพักและไม่ส่งสัญญาณ ส่วนเคสธรรมดาที่ว่างเปล่าไม่มีตัวส่งสัญญาณ ถ้าฝาเปิดอยู่ AirPods ข้างในจะตื่นและส่งสัญญาณ การสแกนจึงจะเจอ เคสของ AirPods Pro 2 และรุ่นใหม่กว่าหาได้ในแอปค้นหาของฉันด้วย",
+        "learn_more_url": "/th/guides/find-lost-airpods-case/",
+        "learn_more_text": "อ่านเพิ่มเติม: เคส AirPods หาย →"
+      },
+      {
+        "question": "การหาด้วย Bluetooth แม่นแค่ไหน?",
+        "answer": "แอปแปลงความแรงสัญญาณแบบเรียลไทม์เป็นเปอร์เซ็นต์และระดับ ร้อน–เย็น Bluetooth ไม่ใช่ GPS จึงไม่แสดงจุดบนแผนที่ แต่ในระยะ 10–30 เมตรภายในอาคาร มันช่วยบีบพื้นที่ค้นหาลงจนเหลือแค่เอื้อมมือได้อย่างน่าเชื่อถือ ระดับ ร้อนมาก และเกิน 90% หมายถึงอุปกรณ์อยู่ข้างตัวคุณ",
+        "learn_more_url": "/th/guides/bluetooth-scanner-iphone/",
+        "learn_more_text": "อ่านเพิ่มเติม: ความแรงสัญญาณทำงานอย่างไร →"
+      },
+      {
+        "question": "Bluetooth Finder ฟรีไหม?",
+        "answer": "ฟรี ดาวน์โหลดได้จาก App Store และมีสมัครสมาชิกพรีเมียมเสริมพร้อมช่วงทดลองใช้ฟรี ต้องใช้ iOS 17.1 ขึ้นไปบน iPhone ขนาด 24.2 MB",
+        "learn_more_url": "/th/guides/how-to-find-lost-airpods/",
+        "learn_more_text": "อ่านเพิ่มเติม: เริ่มหาเลยตอนนี้ →"
+      },
+      {
+        "question": "ต่างจากแอปค้นหาของฉันของ Apple อย่างไร?",
+        "answer": "ค้นหาของฉันระบุตำแหน่งอุปกรณ์ Apple ที่ผูกกับบัญชี Apple ไว้ก่อนหาย และหาได้แม้อยู่ไกลผ่านเครือข่ายของมัน Bluetooth Finder ไม่ต้องลงทะเบียนและใช้ได้ทุกยี่ห้อ แต่ต้องเป็นอุปกรณ์ที่เปิดอยู่และอยู่ในระยะ Bluetooth สรุปง่าย ๆ ค้นหาของฉันพาคุณไปถึงตึกที่ถูก ส่วนแอปหาบลูทูธพาไปถึงหมอนใบที่ถูกบนโซฟา",
+        "learn_more_url": "/th/guides/find-airpods-without-find-my/",
+        "learn_more_text": "อ่านเพิ่มเติม: หาโดยไม่ใช้ค้นหาของฉัน →"
       }
     ],
     "structured_data": {
@@ -241,7 +380,7 @@
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "Bluetooth Finder",
-        "alternateName": "แอปสำหรับตามหา Bluetooth อุปกรณ์รอบตัว",
+        "alternateName": "Find Bluetooth Device",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "iOS",
         "offers": {
@@ -250,19 +389,19 @@
           "priceCurrency": "THB",
           "availability": "https://schema.org/InStock"
         },
-        "description": "แอปบน iPhone (iOS 17.1 ขึ้นไป) ช่วยมองหา AirPods, ลำโพง, นาฬิกา และอื่น ๆ ที่ยังเปิดและอยู่ใกล้: กับ ร้อน-เย็น สี่ขั้น (เย็น, อุ่น, ร้อน, ร้อนมาก) และตัวเลขเปอร์เซ็นต์ความใกล้ พร้อม ยี่ห้อ รุ่น ชื่อ หากมียืนยันจากอุปกรณ์",
+        "description": "Bluetooth Finder เป็นแอป iOS ฟรีที่ช่วยหาอุปกรณ์ Bluetooth ที่หาย ทั้ง AirPods หูฟังไร้สาย หูฟังครอบหู สมาร์ทวอทช์ สายรัดข้อมือฟิตเนส และลำโพง จากความแรงสัญญาณแบบเรียลไทม์ แอปสแกนสัญญาณ Bluetooth รอบตัว แสดงอุปกรณ์พร้อมชื่อ ผู้ผลิต และรุ่น แล้วพาไปยังอุปกรณ์ที่เลือกด้วยระบบบอก ร้อน–เย็น และเปอร์เซ็นต์ความใกล้ ไม่ต้องใช้เครือข่ายค้นหาของฉัน ไม่ต้องมีบัญชี iCloud และไม่ต้องตั้งค่า",
         "image": {
           "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/logo.webp",
-          "width": 140,
-          "height": 140,
-          "caption": "Logo Bluetooth Finder"
+          "url": "https://bluetoothfinderapp.com/img/appstore/icon-512.webp",
+          "width": 512,
+          "height": 512,
+          "caption": "ไอคอนแอป Bluetooth Finder"
         },
         "screenshot": {
           "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
-          "width": 390,
-          "height": 844
+          "url": "https://bluetoothfinderapp.com/img/appstore/screenshot-2-track.webp",
+          "width": 640,
+          "height": 1385
         },
         "url": "https://bluetoothfinderapp.com/th/",
         "author": {
@@ -273,132 +412,18 @@
           "@type": "Person",
           "name": "Vladimir Ivakhnenko"
         },
-        "keywords": "bluetooth, ตามหา, AirPods, หูฟัง, iOS, สแกน, อุปกรณ์ Bluetooth",
+        "keywords": "หูฟังบลูทูธหาย, วิธีหาหูฟังที่หาย, แอปหาหูฟัง, airpods หาย, หูฟังหายข้างเดียว, หูฟังไร้สายหาย, สมาร์ทวอทช์หาย, ลำโพง jbl หาย, สแกนบลูทูธ iphone, bluetooth finder",
         "inLanguage": "th",
-        "datePublished": "2024-12-31",
-        "dateModified": "2026-04-26",
-        "softwareVersion": "1.3",
-        "fileSize": "25.3MB",
-        "softwareRequirements": "ต้องใช้ iOS 17.1 หรือใหม่กว่า",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "100"
-        }
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/th/",
-        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
-        "description": "Bluetooth Finder — iPhone, ค้นหาอุปกรณ์ Bluetooth บนหน้าไทย"
-      },
-      "website": {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/th/",
-        "description": "เวอร์ชันไทย: อธิบาย, ตาราง, คำถาม, ลิงก์ App Store",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://bluetoothfinderapp.com/th/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "datePublished": "2025-12-30",
+        "softwareVersion": "1.4.2",
+        "fileSize": "24.2MB",
+        "softwareRequirements": "iOS 17.1 ขึ้นไป"
       },
       "howto": {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": "วิธีหาเครื่อง Bluetooth ใกล้ ๆ ด้วย Bluetooth Finder",
-        "description": "ดาวน์โหลด, อนุญาตสแกน, เลือกรายการ, ตาม ร้อน-เย็น (เย็น, อุ่น, ร้อน, ร้อนมาก) อ่านเปอร์เซ็นต์, มองหาในจุดแคบ ด้วยตาและมือ",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "ดาวน์โหลด",
-            "text": "จาก App Store, ต้อง iOS 17.1 หรือใหม่กว่า, มักลงทะเบียนได้โดยไม่เสียเงิน, ไฟล์ประมาณ 25.3 MB"
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "สแกน",
-            "text": "เปิดแอป, อนุญาต Bluetooth, รอให้รายชื่ออุปกรณ์รอบตัวเติม"
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "เลือก",
-            "text": "จากรายชื่อ แตะ หูฟัง ลำโพง นาฬิกา หรือรายการที่ตรง — อ่านชื่อ ยี่ห้อ รุ่น หากมองเห็น"
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "ร้อน-เย็น",
-            "text": "เคลื่อนตัวให้ขั้น ขยับจากเย็น ไป อุ่น ร้อน ร้อนมาก — ยิ่งออกอากาศมาก ยิ่งน่าใกล้"
-          },
-          {
-            "@type": "HowToStep",
-            "position": 5,
-            "name": "เปอร์เซ็นต์",
-            "text": "อ่านเปอร์เซ็นต์เสริม ไม่เท่ากับเมตร, อ่านคู่กับทุกขั้น-สัญญาณ-สภาพ"
-          },
-          {
-            "@type": "HowToStep",
-            "position": 6,
-            "name": "รับเอง",
-            "text": "พอรู้ว่า ใกล้มาก ก็ก้มมอง โซฟา กระเป๋า กระเป๋าเสื้อ ช่องวาง, ฯลฯ ด้วยมือกับสายตา"
-          }
-        ]
-      },
-      "faqpage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Bluetooth Finder ทำอะไร",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "สแกน เลือกจากรายชื่อ แล้วเดินหาตาม ร้อน-เย็น สี่ขั้น (เย็น, อุ่น, ร้อน, ร้อนมาก) กับเปอร์เซ็นต์ — บีบมุมก่อน ไม่ใช่เดาไปรอบ ๆ ลำพัง"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "ต่างจาก ค้นหา ของ Apple ยังไง",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Find My ผูก account และฝั่ง cloud; Bluetooth Finder เน้นสิ่งที่ออกอากาศ Bluetooth รอบตัว ณ นี้. อาจใช้คู่กัน แต่ไม่แทนกันทุกกรณี"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "เปอร์เซ็นต์ แทนระยะหรือยัง",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "ไม่ — มาจากกำลังรับ กำแพง ฝูง ร่าง แบต ก็เปลี่ยนค่า อ่านรวมกับ ร้อน-เย็น"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "ดาวน์โหลดเสียเงินไหม",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "มักลง App Store ได้ก่อนโดยไม่เสียค่า; ออปชัน ใน-แอป อาจเสียเงิน — ดูใน App Store"
-            }
-          }
-        ]
-      },
-      "breadcrumb_list": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "หน้าแรก",
-            "item": "https://bluetoothfinderapp.com/th/"
-          }
-        ]
+        "name": "วิธีหาอุปกรณ์ Bluetooth ที่หายด้วยแอป Bluetooth Finder",
+        "description": "ทีละขั้นตอน: วิธีใช้แอป Bluetooth Finder บน iPhone หา AirPods หูฟัง สมาร์ทวอทช์ และลำโพงที่หาย ด้วยระบบบอก ร้อน–เย็น และความแรงสัญญาณเป็นเปอร์เซ็นต์"
       }
     }
   }

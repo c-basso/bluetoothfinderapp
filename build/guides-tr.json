@@ -1,0 +1,892 @@
+{
+  "shared": {
+    "lang": "tr",
+    "og_locale": "tr_TR",
+    "date_locale": "tr-TR",
+    "home_url": "/tr/",
+    "guides_url": "/tr/rehberler/",
+    "guides_path": "tr/rehberler",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Finder",
+    "labels": {
+      "home": "Ana sayfa",
+      "guides": "Rehberler",
+      "logo_alt": "Bluetooth Finder uygulama simgesi",
+      "nav_cta": "Uygulamayı indirin",
+      "quick_answer": "Kısa cevap",
+      "tips_title": "Şansınızı artıran ipuçları",
+      "faq_title": "Sık sorulan sorular",
+      "related_title": "İlgili rehberler",
+      "read_label": "Rehberi okuyun →",
+      "updated": "Son güncelleme",
+      "cta_button": "App Store'dan İndirin",
+      "cta_aria": "Bluetooth Finder'ı App Store'dan indirin"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Tüm hakları saklıdır.",
+      "privacy_link": "Gizlilik Politikası",
+      "terms_link": "Kullanım Koşulları"
+    },
+    "hub": {
+      "h1": "Rehberler: kaybolan cihazlar nasıl bulunur",
+      "meta_title": "Rehberler: kaybolan kulaklık, AirPods ve akıllı saat nasıl bulunur",
+      "meta_description": "iPhone ile kaybolan AirPods, kablosuz ve kulak üstü kulaklık, akıllı saat ve hoparlörü bulmak için adım adım rehberler – Bul uygulamasında olmayan cihazlar dahil.",
+      "intro_label": "Burada neler var",
+      "intro": "Her duruma uygun pratik ve dürüst rehberler: Bul uygulamasıyla veya onsuz AirPods, tek tarafı kaybolan kulaklık, Sony, JBL ve Samsung kulaklıklar, akıllı saatler, hoparlörler ve biten piller. Her rehber gerçekte neyin işe yaradığını açıklar ve cihazı iPhone'da Bluetooth Finder uygulamasıyla nasıl bulacağınızı gösterir.",
+      "cta_title": "Bu sayfadaki tüm rehberler için tek uygulama",
+      "cta_text": "Bluetooth Finder yakındaki Bluetooth sinyallerini tarar ve sıcak–soğuk yönlendirmesi ile yakınlık yüzdesiyle sizi açık her cihaza götürür. Ücretsiz, 24,2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "kaybolan-airpods-nasil-bulunur",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "Kaybolan AirPods",
+      "meta_title": "Kaybolan AirPods nasıl bulunur? (Bul ile ve Bul olmadan)",
+      "meta_description": "AirPods'unuzu mu kaybettiniz? Konumu Bul uygulamasında görün, sonra canlı Bluetooth sinyalini elinize alana kadar takip edin – Bul hiç olmasa bile.",
+      "keywords": "kaybolan airpods nasıl bulunur, airpods bulma, airpods kayboldu, evde kaybolan airpods, iphone ile airpods bulma",
+      "h1": "Kaybolan AirPods nasıl hızlıca bulunur",
+      "quick_answer": "Bul açıksa önce Bul uygulamasını açın: AirPods kutu dışında ve şarjlı olduğu sürece haritada gösterir ve ses çalabilir. Bul kullanılamıyorsa, yalnızca eski bir konum gösteriyorsa veya ses çok kısıksa bir Bluetooth bulucu uygulaması kullanın: açık AirPods bir Bluetooth sinyali yayar ve bu sinyalin gücünü takip ettiğinizde tam yanlarına varırsınız.",
+      "sections": [
+        {
+          "title": "Bul uygulamasıyla başlayın – ve sınırlarını bilin",
+          "paragraphs": [
+            "iPhone'unuzla eşlenmiş AirPods için ilk adım Apple'ın Bul uygulamasıdır: Bul > Aygıtlar > AirPods'unuz; haritaya bakın ve yakındaysa Ses Çal'a dokunun. AirPods Pro 2 ve daha yeni modellerde yön oku gösteren Yakındakini Bul da vardır.",
+            "Üç yaygın durumda Bul işe yaramaz. Haritadaki konum genellikle yalnızca bina düzeyinde doğrudur – hangi yastığın altında olduğunu söylemez. Ses kısıktır ve AirPods kutudayken çalışmaz. AirPods Bul'a hiç eklenmemişse, başka bir Apple Hesabı'na bağlıysa (ikinci el) ya da Çevrimdışı görünüyorsa uygulama hiçbir şey yapamaz."
+          ]
+        },
+        {
+          "title": "Bluetooth sinyali neden Bul'un göremediğini bulur",
+          "paragraphs": [
+            "AirPods kutu dışında ve şarjlı olduğu sürece her kulaklık Bluetooth Low Energy sinyalleri yayar. Kapalı alanda bu sinyaller yaklaşık 10–30 metreye ulaşır ve yaklaştıkça belirgin şekilde güçlenir.",
+            "Bir Bluetooth bulucu uygulaması bu sinyali doğrudan okur – Apple Hesabı, kurulum ve Bul ağı gerekmeden. Bu yüzden son 30 metre için ideal araçtır: Bul sizi doğru odaya, sinyal doğru yastığa götürür."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile AirPods nasıl bulunur",
+      "steps": [
+        {
+          "title": "Uygulamayı indirip açın",
+          "description": "Bluetooth Finder'ı App Store'dan yükleyin (ücretsiz, 24,2 MB, iOS 17.1+) ve uygulama istediğinde Bluetooth erişimine izin verin."
+        },
+        {
+          "title": "Yakındaki cihazları tarayın",
+          "description": "Taramayı başlatın. Menzildeki açık tüm Bluetooth cihazları canlı sinyal güçleriyle listelenir – AirPods'unuzu adından bulun."
+        },
+        {
+          "title": "AirPods'unuzu seçin",
+          "description": "Listede AirPods'a dokunun. Ad görünmüyorsa cihaz bilgilerinde üretici olarak Apple yazıp yazmadığına bakın."
+        },
+        {
+          "title": "Odada yavaşça dolaşın",
+          "description": "AirPods'u en son kullandığınız odaları gezin. Sinyal güçlendikçe gösterge soğuktan ılığa ve sıcağa döner."
+        },
+        {
+          "title": "„Çok sıcak”ta alın",
+          "description": "Uygulama „çok sıcak” gösterdiğinde ve yakınlık yüzdesi %90'ı geçtiğinde AirPods elinizin altındadır: yastıkların altına, ceplere, çantalara ve mobilyaların altına bakın."
+        }
+      ],
+      "tips": [
+        "Oda oda arayın, her odadaki en yüksek yüzdeyi aklınızda tutun ve en iyisine odaklanın.",
+        "iPhone'u farklı yüksekliklerde tutun: aranızda engel olmadığında sinyal en güçlüdür.",
+        "Kapalı kutudaki AirPods uykudadır. Kutuda olduklarını düşünüyorsanız Bul'daki son konuma bakın.",
+        "Mümkün olduğunca hızlı arayın: kutu dışındaki bir kulaklık yalnızca pili bitene kadar sinyal yayar."
+      ],
+      "faq": [
+        {
+          "question": "Kaybolan AirPods, Bul uygulaması olmadan bulunabilir mi?",
+          "answer": "Evet, kutu dışında ve şarjlıysa. AirPods, bir bulucu uygulamanın gücünü takip edebileceği Bluetooth sinyalleri yayar – Bul ayarı ve iCloud hesabı olmadan."
+        },
+        {
+          "question": "Kaybolan AirPods ne kadar uzaktan görünür?",
+          "answer": "Kapalı alanda Bluetooth menzili genellikle 10–30 metredir; duvarlara ve parazite bağlıdır. Engelsiz açık alanda daha fazla olabilir. Hiçbir şey görünmüyorsa sonraki odaya geçip yeniden tarayın."
+        },
+        {
+          "question": "AirPods'u bulmak için şarjlı olması gerekir mi?",
+          "answer": "Evet. Pili tamamen bitmiş bir AirPods artık hiçbir şey yaymaz ve hiçbir uygulama – Bul dahil – onu canlı olarak göremez. Pil bitmiş olabilirse Bul'daki son bilinen konumun çevresinde arayın ve ara ara yeniden tarayın."
+        }
+      ],
+      "cta_title": "AirPods'unuz büyük ihtimalle şu an menzilde",
+      "cta_text": "Tarayın ve sıcak–soğuk yönlendirmesini onları görene kadar izleyin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/bul-olmadan-airpods-bulma/",
+          "title": "Bul uygulaması olmadan AirPods bulma"
+        },
+        {
+          "url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/",
+          "title": "AirPods'un tek tarafı kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/sarji-biten-airpods-bulma/",
+          "title": "Şarjı biten veya kapalı AirPods"
+        }
+      ]
+    },
+    {
+      "slug": "bul-olmadan-airpods-bulma",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "Bul olmadan AirPods",
+      "meta_title": "Bul uygulaması ve iCloud olmadan AirPods nasıl bulunur",
+      "meta_description": "Bul hiç açılmadı, ikinci el AirPods ya da iCloud erişimi yok mu? AirPods'u iPhone ile Bluetooth sinyalinden adım adım bulun.",
+      "keywords": "bul uygulaması olmadan airpods bulma, icloud olmadan airpods, ikinci el airpods kayboldu, airpods bul'da görünmüyor, apple hesabı olmadan airpods bulma",
+      "h1": "Bul uygulaması olmadan AirPods nasıl bulunur",
+      "quick_answer": "Mümkün. Bul uygulaması yalnızca Apple Hesabınıza bağlı AirPods ile çalışır, ama kutu dışındaki açık her AirPods bir Bluetooth sinyali yayar. Bluetooth Finder gibi bir Bluetooth bulucu uygulaması bu sinyali doğrudan okur ve sizi sıcak–soğuk yönlendirmesiyle kulaklıklara götürür – iCloud, hesap ve önceden kurulum olmadan.",
+      "sections": [
+        {
+          "title": "Bul uygulamasının yardımcı olamadığı durumlar",
+          "paragraphs": [
+            "Bul, AirPods'u yalnızca önceden Apple Hesabınıza bağlandıysa gösterir. İkinci el aldıysanız ve hâlâ önceki sahibine bağlıysa, Bul'u hiç açmadıysanız, başkasının iPhone'unu kullanıyorsanız ya da Apple Hesabı parolanızı hatırlamıyorsanız orada görünmez.",
+            "AirPods Bul'da olsa bile çoğu zaman Çevrimdışı ya da saatler öncesine ait bir konumla görünür. Tüm bu durumlarda hesaptan bağımsız çalışan tek bir şey kalır: kulaklıkların kendisinin yaydığı Bluetooth sinyali."
+          ]
+        },
+        {
+          "title": "Bluetooth sinyaliyle arama nasıl çalışır",
+          "paragraphs": [
+            "Kutudan çıkmış ve şarjlı AirPods düzenli olarak kısa Bluetooth Low Energy paketleri gönderir. Yakındaki her telefon bunları alabilir – sahibi olmanız ya da eşlemiş olmanız gerekmez.",
+            "Bluetooth Finder bu sinyalin gücünü canlı ölçer ve yakınlık yüzdesine ve soğuk, ılık, sıcak, çok sıcak seviyelerine dönüştürür. Haritada bir nokta görmezsiniz ama 10–30 metrelik yarıçapta kulaklıklara evi rastgele karıştırmaktan çok daha hızlı ulaşırsınız."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile Bul olmadan AirPods bulma",
+      "steps": [
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+). AirPods'a bağlı Apple Hesabı'na ya da iCloud'a ihtiyacınız yok."
+        },
+        {
+          "title": "Kaybettiğiniz yere dönün",
+          "description": "AirPods'u en son kullandığınız yere gidin – ev, ofis, araba. Bluetooth sinyali yalnızca 10–30 metreye ulaşır."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "Yakındaki açık tüm Bluetooth cihazları listede görünür. AirPods genellikle bir ada sahiptir ve üretici olarak Apple görünür."
+        },
+        {
+          "title": "Sıcak–soğuk yönlendirmesini izleyin",
+          "description": "AirPods'u seçip yavaşça ilerleyin. Gösterge soğuktan sıcağa dönüyor ve yüzde artıyorsa doğru yoldasınız."
+        },
+        {
+          "title": "„Çok sıcak”ta çevreyi arayın",
+          "description": "%90'ın üzerinde kulaklıklar hemen yanınızdadır – koltuk aralarına, ceplere, çantalara ve mobilyaların altına bakın."
+        }
+      ],
+      "tips": [
+        "AirPods kapalı kutudaysa sinyal yaymaz – o zaman son konum ve kutunun bulunduğu yeri dikkatle aramak işe yarar.",
+        "Önceki sahibinin hesabına bağlı ikinci el AirPods Bluetooth yaymaya devam eder – tarayıcı onları görür.",
+        "Listede doğru cihazı daha kolay tanımak için yakındaki diğer kulaklıkları kısa süreliğine kapatın.",
+        "Bulduktan sonra kendi Apple Hesabınızda Bul'u açın – bir dahaki sefere son konumu da görürsünüz."
+      ],
+      "faq": [
+        {
+          "question": "Apple Hesabı olmadan AirPods bulunabilir mi?",
+          "answer": "Evet, yakındaysa. Bluetooth sinyali hesaptan bağımsız yayılır; bu yüzden bir Bluetooth bulucu uygulaması, kutu dışındaki açık AirPods'u oturum açmadan ve iCloud olmadan algılar."
+        },
+        {
+          "question": "İkinci el alınan AirPods bulunabilir mi?",
+          "answer": "Evet, açık ve menzildeyse. Önceki sahibinin hesabına bağlılık yalnızca Bul uygulamasını engeller – Bluetooth Finder'ın okuduğu Bluetooth sinyalini değil."
+        },
+        {
+          "question": "AirPods uzaktaysa işe yarar mı?",
+          "answer": "Hayır. Bluetooth kapalı alanda yaklaşık 10–30 metrelik bir yarıçapta çalışır. Uzakta kaybolan AirPods için Bul ağı ve önceden Apple Hesabı bağlantısı gerekir."
+        }
+      ],
+      "cta_title": "Hesap yok, iCloud yok – yalnızca sinyal",
+      "cta_text": "Çevrenizi tarayın ve sıcak–soğuk yönlendirmesiyle AirPods'unuza gidin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/",
+          "title": "Kaybolan AirPods nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/",
+          "title": "AirPods'un tek tarafı kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/bluetooth-tarayici-iphone/",
+          "title": "iPhone için Bluetooth tarayıcı"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-tek-tarafi-kayboldu",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "AirPods'un tek tarafı",
+      "meta_title": "AirPods'un tek tarafı kayboldu: nasıl bulunur",
+      "meta_description": "AirPods'un tek tarafını mı kaybettiniz? Her kulaklık kendi Bluetooth sinyalini yayar. Sağ veya sol AirPods'u iPhone ile adım adım bulun.",
+      "keywords": "airpods tek tarafı kayboldu, airpods sağ teki kayboldu, airpods sol teki kayboldu, tek airpods bulma, kulaklığın tek tarafı kayboldu",
+      "h1": "AirPods'un tek tarafı kayboldu – nasıl bulunur",
+      "quick_answer": "AirPods'un her tarafı, kutu dışında ve şarjlı olduğu sürece kendi Bluetooth sinyalini yayar. Diğer tarafı kutuya koyup kapağı kapatın ki sinyali karıştırmasın; ardından Bluetooth Finder ile çevrenizi tarayın ve sıcak–soğuk yönlendirmesini izleyin – kaybolan tarafa çok yaklaştığınızda yakınlık yüzdesi hızla yükselir.",
+      "sections": [
+        {
+          "title": "Bul uygulaması tek kulaklık için ne yapabilir",
+          "paragraphs": [
+            "Bul uygulamasında sesi yalnızca sol ya da yalnızca sağ kulaklıkta çalabilirsiniz – AirPods Apple Hesabınıza bağlıysa ve o kulaklığın pili varsa iyi bir ilk adımdır.",
+            "Ancak ses kısıktır ve tek bir kulaklık koltuk arasına, mont cebine ya da yatak örtüsüne kolayca saklanır; orada sesi duymazsınız. Harita en fazla binayı gösterir. İşte burada, ses olmasa bile kulaklığın yaymaya devam ettiği Bluetooth sinyali devreye girer."
+          ]
+        },
+        {
+          "title": "Diğer taraf neden kutuda olmalı",
+          "paragraphs": [
+            "İki taraf da aynı adla yayın yapar. Diğeri yanınızdaysa uygulama, aradığınız yerine onun güçlü sinyalini gösterebilir.",
+            "Elinizdeki tarafı kutuya koyup kapağı kapatın – kapalı kutudaki AirPods yayını durdurur. Böylece listede yalnızca kaybolan taraf kalır ve yüzdedeki her değişiklik ona aittir."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile AirPods'un tek tarafını bulma",
+      "steps": [
+        {
+          "title": "Diğer tarafı kutuya koyun",
+          "description": "Elinizdeki AirPods'u kutuya koyup kapağı kapatın; listede yalnızca kaybolanın sinyali kalsın."
+        },
+        {
+          "title": "Bluetooth Finder'ı açın",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+) ve kulaklığı en son kullandığınız yerde taramayı başlatın."
+        },
+        {
+          "title": "Listeden AirPods'u seçin",
+          "description": "Kaybolan taraf AirPods'unuzun adıyla ya da üretici olarak Apple ile görünür."
+        },
+        {
+          "title": "Alanı adım adım daraltın",
+          "description": "Birkaç adımda bir durarak yavaşça yürüyün. Göstergenin ılıktan sıcağa döndüğü yöne gidin."
+        },
+        {
+          "title": "„Çok sıcak”ta alçakta arayın",
+          "description": "%90'ın üzerinde kulaklık elinizin altındadır – koltuk aralarına, yatağın altına, ceplere ve mont kapüşonuna bakın."
+        }
+      ],
+      "tips": [
+        "Yerde veya koltukta duran kulaklığın sinyali daha zayıftır – yüzde artmayı bıraktığında iPhone'u aşağı indirin.",
+        "Hemen arayın: tek bir kulaklığın pili küçüktür ve birkaç saat sonra yayını durdurur.",
+        "Şapka, atkı veya sweatshirt çıkardığınız yerlere de bakın – kulaklıklar en çok o anda düşer.",
+        "Bulamazsanız Apple, tek bir AirPods kulaklığını ücretli olarak değiştirir."
+      ],
+      "faq": [
+        {
+          "question": "AirPods'un tek tarafı sinyal yayar mı?",
+          "answer": "Evet. Her kulaklığın kendi Bluetooth modülü vardır ve kutu dışında, şarjlıyken yayın yapar – bu yüzden tarayıcı onu ayrıca algılayabilir."
+        },
+        {
+          "question": "Uygulamada sol ve sağ taraf nasıl ayırt edilir?",
+          "answer": "İki taraf da aynı adla yayın yapar. En kolayı elinizdeki tarafı kapalı kutuya koymaktır – o zaman listedeki tek AirPods sinyali kaybolan tarafa aittir."
+        },
+        {
+          "question": "Kulaklığın şarjı bittiyse ne olur?",
+          "answer": "Şarjı bitmiş bir kulaklık yayın yapmaz ve canlı olarak bulunamaz. Bul uygulamasındaki son bilinen konumun çevresinde arayın ve ara ara yeniden tarayın."
+        }
+      ],
+      "cta_title": "Küçük kulaklık, güçlü ipucu",
+      "cta_text": "Çevrenizi tarayın ve yakınlık yüzdesinin sizi kaybolan tarafa götürmesine izin verin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/",
+          "title": "Kaybolan AirPods nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/sarji-biten-airpods-bulma/",
+          "title": "Şarjı biten veya kapalı AirPods"
+        },
+        {
+          "url": "/tr/rehberler/airpods-kutusu-bulma/",
+          "title": "AirPods kutusu kayboldu"
+        }
+      ]
+    },
+    {
+      "slug": "sarji-biten-airpods-bulma",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "Şarjı biten AirPods",
+      "meta_title": "Şarjı biten AirPods nasıl bulunur? Dürüst cevap",
+      "meta_description": "Pili bitmiş AirPods veya kulaklık mı kayboldu? Canlı olarak bulunamaz. İşe yarayanlar: son konum, tekrar tarama ve akıllı arama.",
+      "keywords": "şarjı biten airpods nasıl bulunur, kapalı kulaklık nasıl bulunur, şarjı bitmiş bluetooth kulaklık, airpods çevrimdışı, airpods konum bulunamadı",
+      "h1": "Şarjı biten veya kapalı AirPods nasıl bulunur",
+      "quick_answer": "Dürüst olmak gerekirse: şarjı biten ya da kapalı AirPods canlı olarak bulunamaz – Bul dahil hiçbir uygulamanın kullanabileceği bir sinyal yaymazlar. Bul uygulamasında son bilinen konuma bakın, orayı düzenli olarak arayın ve ara ara Bluetooth Finder ile tarayın: biraz pili kalan kulaklıklar çoğu zaman kısa süreliğine uyanır ve o an sinyali yakalarsınız.",
+      "sections": [
+        {
+          "title": "Pil bittiğinde ne olur",
+          "paragraphs": [
+            "AirPods yalnızca enerjisi varken Bluetooth yayar. Pil sıfıra indiğinde kulaklık susar: ses çalmaz, Bul ağında konumunu güncellemez ve hiçbir tarayıcıda görünmez. Bul uygulamasında Çevrimdışı ya da Konum bulunamadı ya da yalnızca son konum görürsünüz.",
+            "İyi haber: „şarjı bitti” nadiren tam sıfır demektir. Kulaklıklar genellikle birkaç yüzde kala kapanır ve örneğin hareket ettirildiklerinde kısa süreliğine uyanır. Bu yüzden bir kez değil, birkaç kez taramaya değer."
+          ]
+        },
+        {
+          "title": "Son konum en iyi başlangıç noktasıdır",
+          "paragraphs": [
+            "AirPods Bul'da kayıtlıysa uygulama son bağlantının nerede olduğunu gösterir. Bu, aramayı bir eve, arabaya ya da ofise indirir.",
+            "Ardından düzenli arayın: oturduğunuz veya üstünüzü değiştirdiğiniz yerlerden başlayın, alçak yerlere ve aralıklara bakın ve birkaç dakikada bir Bluetooth Finder ile yeniden tarayın. Yakınlık yüzdesiyle gelen tek bir sinyal parıltısı doğru odayı göstermeye yeter."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile şarjı biten AirPods'u arama",
+      "steps": [
+        {
+          "title": "Son konuma bakın",
+          "description": "Bul > Aygıtlar > AirPods'u açın ve bilinen son yeri ve saati not edin."
+        },
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Herhangi bir sinyal parıltısını anında yakalamak için uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Aralıklarla tarayın",
+          "description": "Son konumda taramayı başlatın ve odayı ararken birkaç dakikada bir tekrarlayın."
+        },
+        {
+          "title": "AirPods görünürse sinyali takip edin",
+          "description": "Kulaklıklar bir anlığına uyanırsa seçin ve yeniden sönmeden önce sıcak–soğuk yönlendirmesini izleyin."
+        },
+        {
+          "title": "Bir dahaki sefere hazırlanın",
+          "description": "Bulduktan sonra şarj edin, Bul'u açın ve Bluetooth Finder'ı iPhone'da tutun – sonraki arama iki dakika sürer."
+        }
+      ],
+      "tips": [
+        "Pilin bitmiş olabileceği yerlere bakın: uzun bir antrenmanda, yolculukta ya da kulaklıkla uyurken.",
+        "İçinde kulaklık olan kapalı kutu da sinyal yaymaz – çantalarda ve ceplerde gözle ve elle arayın.",
+        "Ev halkından, odayı düzenli olarak arayana kadar eşyaları yerinden oynatmamalarını isteyin.",
+        "Hiçbiri işe yaramazsa uğradığınız yerlerin – kafe, spor salonu, toplu taşıma – kayıp eşya bürosuna sorun."
+      ],
+      "faq": [
+        {
+          "question": "Uygulama pili tamamen bitmiş AirPods'u bulur mu?",
+          "answer": "Hayır. Enerji olmadan kulaklıklar Bluetooth sinyali yaymaz; bu yüzden hiçbir uygulama ve Bul ağı onları canlı göremez. İşe yarayan, son konum ve düzenli aramadır."
+        },
+        {
+          "question": "Bul'da „Çevrimdışı” ne demek?",
+          "answer": "AirPods'un bir süredir hiçbir aygıta bağlanmadığı anlamına gelir – çoğunlukla pil bittiği ya da kutu kapalı olduğu için. Harita yalnızca bilinen son yeri gösterir."
+        },
+        {
+          "question": "Başka markaların kapalı Bluetooth kulaklıkları bulunabilir mi?",
+          "answer": "Canlı olarak hayır. Kapalı Sony, JBL veya Samsung kulaklıklar yayın yapmaz. Üreticinin uygulaması sunuyorsa son bağlantı yerine bakın ve kulaklık açıldığında yeniden tarayın."
+        }
+      ],
+      "cta_title": "Bir dahaki sefere iki dakikada bulursunuz",
+      "cta_text": "Bluetooth Finder'ı şimdi yükleyin – kulaklıklar açıkken sizi sıcak–soğuk yönlendirmesiyle onlara götürür. Ücretsiz.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/",
+          "title": "Kaybolan AirPods nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/airpods-kutusu-bulma/",
+          "title": "AirPods kutusu kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/",
+          "title": "Kaybolan Bluetooth kulaklık nasıl bulunur"
+        }
+      ]
+    },
+    {
+      "slug": "kaybolan-bluetooth-kulaklik-bulma",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Kaybolan Bluetooth kulaklık",
+      "meta_title": "Kaybolan Bluetooth kulaklık nasıl bulunur? (Sony, JBL, Bose)",
+      "meta_description": "Kulaklık bul: Sony, JBL, Bose veya Beats Bluetooth kulaklığınızı iPhone ile Bluetooth sinyalinden bulun – Bul uygulamasında olmasa bile.",
+      "keywords": "kaybolan kulaklık nasıl bulunur, kaybolan bluetooth kulaklık nasıl bulunur, kulaklık bul, bluetooth kulaklık bulma, kulaklık bulma uygulaması, jbl kulaklık kayboldu, sony kulaklık kayboldu",
+      "h1": "Kaybolan Bluetooth kulaklık nasıl bulunur",
+      "quick_answer": "Kulaklık açık ve menzildeyse Bluetooth sinyaliyle bulunabilir. Açık her kulaklık – Sony, JBL, Bose, Beats, Sennheiser – yaklaştıkça güçlenen bir sinyal yayar. Bluetooth Finder ile çevrenizi tarayın, kulaklığı listeden seçin ve yakınlık yüzdesi %90'ı geçene kadar sıcak–soğuk yönlendirmesini izleyin.",
+      "sections": [
+        {
+          "title": "Kulaklıkların çoğu neden Bul uygulamasında yok",
+          "paragraphs": [
+            "Apple'ın Bul uygulaması AirPods, bazı Beats modelleri ve Bul ağı sertifikalı az sayıda aksesuarla çalışır. Sony, JBL, Bose veya Sennheiser kulaklıklar genellikle orada yoktur ve üreticilerin uygulamaları en fazla telefona son bağlandıkları yeri gösterir.",
+            "Bu yüzden „kaybolan kulaklık nasıl bulunur” diye aradığınızda çoğunlukla Bul uygulamasında biten önerilere ulaşırsınız. Kulaklığınız orada değilse her markayla çalışan bir yönteme ihtiyacınız var: Bluetooth sinyali."
+          ]
+        },
+        {
+          "title": "Sinyal sizi kulaklığa nasıl götürür",
+          "paragraphs": [
+            "Açık Bluetooth kulaklıklar düzenli olarak sinyal yayar – özellikle telefona bağlı değilken ve bağlantı ararken. Kapalı alanda bu sinyal 10–30 metreye ulaşır.",
+            "Bluetooth Finder bu sinyali ad, üretici ve modelle gösterir; gücünü yakınlık yüzdesine ve soğuk, ılık, sıcak, çok sıcak seviyelerine çevirir. Kulak üstü kulaklıkların antenleri kulak içilerden büyüktür, bu yüzden genellikle daha uzaktan algılanırlar."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile kulaklık nasıl bulunur",
+      "steps": [
+        {
+          "title": "Kulaklığın telefonla bağlantısını kesin",
+          "description": "Ayarlar > Bluetooth'ta kulaklığın bağlantısını kesin (silmeyin). Bağlı olmayan kulaklıklar daha sık yayın yapar ve daha kolay algılanır."
+        },
+        {
+          "title": "Bluetooth Finder'ı açın",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+) ve taramayı başlatın."
+        },
+        {
+          "title": "Kulaklığı listede bulun",
+          "description": "Model adını (ör. WH-1000XM5, Tune 510BT, QC45) veya üreticiyi arayın – Sony, JBL, Bose."
+        },
+        {
+          "title": "Sıcak–soğuk yönlendirmesini izleyin",
+          "description": "Odadan odaya geçin. Göstergenin soğuktan sıcağa döndüğü yerde daha yakınsınız."
+        },
+        {
+          "title": "„Çok sıcak”ta çevreyi arayın",
+          "description": "%90'ın üzerinde kulaklık hemen yanınızdadır – yastıkların altına, koltuğun arkasına, sırt çantasına ve dolaba bakın."
+        }
+      ],
+      "tips": [
+        "Kulaklık kendiliğinden kapanıyorsa hızlı arayın – bağlantısız birkaç dakika sonra kapanabilir.",
+        "Üreticinin uygulamasına bakın (ör. Sony Headphones Connect): bazen son bağlantı yerini gösterir.",
+        "Kılıfta veya çantadaki açık kulak üstü kulaklık yayın yapmaya devam eder – kumaş sinyali yalnızca biraz zayıflatır.",
+        "Yüzde artmayı bıraktığında iPhone'un yüksekliğini değiştirin ve olduğunuz yerde yavaşça dönün."
+      ],
+      "faq": [
+        {
+          "question": "Bul uygulamasında olmayan bir kulaklık bulunabilir mi?",
+          "answer": "Evet, açık ve menzildeyse. Bluetooth Finder her markanın Bluetooth sinyalini okur – Bul kaydı ya da üretici hesabı gerekmez."
+        },
+        {
+          "question": "Kulaklığın iPhone'umla eşli olması gerekir mi?",
+          "answer": "Hayır. Tarayıcı menzildeki açık her Bluetooth cihazını görür. Kulaklığın telefonla bağlantısını kesmek çoğu zaman yardımcı da olur, çünkü daha sık yayın yapmaya başlar."
+        },
+        {
+          "question": "Kapalı bir kulaklık nasıl bulunur?",
+          "answer": "Kapalı kulaklık yayın yapmaz, bu yüzden canlı olarak bulunamaz. Üreticinin uygulamasında son bağlantı yerine bakın ve orayı düzenli olarak arayın."
+        }
+      ],
+      "cta_title": "Kulaklığınızı bulun – her marka",
+      "cta_text": "Çevrenizi tarayın ve sinyali Sony, JBL, Bose veya Beats kulaklığınıza kadar takip edin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kablosuz-kulaklik-bulma/",
+          "title": "Kablosuz kulaklık kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/sarji-biten-airpods-bulma/",
+          "title": "Şarjı biten veya kapalı AirPods"
+        },
+        {
+          "url": "/tr/rehberler/bluetooth-tarayici-iphone/",
+          "title": "iPhone için Bluetooth tarayıcı"
+        }
+      ]
+    },
+    {
+      "slug": "kablosuz-kulaklik-bulma",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Kablosuz kulaklık",
+      "meta_title": "Kablosuz kulaklık kayboldu: Galaxy Buds, Xiaomi, JBL bulma",
+      "meta_description": "Galaxy Buds, Xiaomi, JBL veya AirPods kablosuz kulaklığınız mı kayboldu? iPhone ile Bluetooth sinyalinden bulun – her marka için tek yöntem.",
+      "keywords": "kablosuz kulaklık kayboldu, kablosuz kulaklık bulma, galaxy buds kayboldu, buds sağ teki kayboldu, xiaomi kulaklık kayboldu, tws kulaklık bulma, kulak içi kulaklık kayboldu",
+      "h1": "Kaybolan kablosuz kulaklık nasıl bulunur",
+      "quick_answer": "Kutu dışındaki açık kablosuz kulaklıklar, markası ne olursa olsun pili oldukça Bluetooth sinyali yayar. Bluetooth Finder ile çevrenizi tarayın, kulaklığı adına veya üreticisine göre seçin ve sıcak–soğuk yönlendirmesini izleyin. Yakınlık yüzdesi %90'ı geçtiğinde kulaklık elinizin altındadır.",
+      "sections": [
+        {
+          "title": "Her marka için tek yöntem",
+          "paragraphs": [
+            "Galaxy Buds'ı SmartThings Find'da, AirPods'u Bul uygulamasında arayabilirsiniz; birçok markanın kendi uygulaması da vardır – ama yalnızca aynı markanın telefonunu kullanıyor ve her şeyi önceden ayarlamışsanız. iPhone ile Samsung, Xiaomi veya JBL kulaklık kullanıyorsanız genellikle elinizde araç kalmaz. Samsung forumlarındaki „Buds sağ teki kayboldu” konuları bunu çok iyi gösterir.",
+            "Bluetooth sinyali hepsinde ortaktır. Her kablosuz kulaklık aynı şekilde yayın yapar; bu yüzden Bluetooth Finder Galaxy Buds, Redmi Buds, JBL Tune, Sony WF, Soundcore ve AirPods ile aynı şekilde çalışır."
+          ]
+        },
+        {
+          "title": "Kablosuz kulaklıklar en çok nerede kaybolur",
+          "paragraphs": [
+            "Kablosuz kulaklıklar küçük ve hafiftir: kapüşon, bere ya da sweatshirt çıkarırken düşer, koltuk ve araba koltuğu aralarına kayar, mont ceplerinde ve spor çantasında unutulur.",
+            "Çoğu zaman en son kullandığınız yerin birkaç metre yakınındadır. Bluetooth sinyaliyle arama için tam uygun yarıçap."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile kablosuz kulaklık bulma",
+      "steps": [
+        {
+          "title": "Bluetooth Finder'ı indirin",
+          "description": "Uygulamayı App Store'dan yükleyin (ücretsiz, 24,2 MB, iOS 17.1+) ve Bluetooth erişimine izin verin."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "Yakındaki açık tüm Bluetooth cihazları sinyal güçleriyle görünür. Model adını veya üreticiyi arayın: Samsung, Xiaomi, JBL."
+        },
+        {
+          "title": "Kulaklığınızı seçin",
+          "description": "Tek tarafı kaybettiyseniz diğerini kapalı kutuya koyun; sonucu karıştırmasın."
+        },
+        {
+          "title": "Sıcak–soğuk yönlendirmesini izleyin",
+          "description": "Yavaşça ilerleyin. Gösterge soğuktan ılığa ve sıcağa döner, yakınlık yüzdesi artar."
+        },
+        {
+          "title": "„Çok sıcak”ta çevreyi arayın",
+          "description": "%90'ın üzerinde koltuk aralarına, ceplere, kapüşona, araba tabanına ve çantaya bakın."
+        }
+      ],
+      "tips": [
+        "Ayarlar > Bluetooth'ta kulaklığın telefonla bağlantısını kesin – bağlı değilken daha sık yayın yapar.",
+        "Arabada her koltuktan sırayla tarayın: metal gövde sinyali çok etkiler.",
+        "Kapalı kutudaki kulaklıklar genellikle yayın yapmaz – kutuyla birlikte kaybettiyseniz en son kullandığınız yere bakın.",
+        "Hemen arayın: kablosuz kulaklıkların pili beklemede yalnızca birkaç saat dayanır."
+      ],
+      "faq": [
+        {
+          "question": "Galaxy Buds iPhone ile bulunabilir mi?",
+          "answer": "Evet, açık ve kutu dışındaysa. Galaxy Buds her kulaklık gibi Bluetooth yayar ve Bluetooth Finder onları Samsung uygulaması olmadan algılar."
+        },
+        {
+          "question": "Kutudaki kulaklıklar algılanabilir mi?",
+          "answer": "Genellikle hayır. Çoğu kablosuz kulaklık kapalı kutuda Bluetooth'u kapatır. Kutu açıkken uyanır ve algılanabilir."
+        },
+        {
+          "question": "Kulaklığı listede görmek için ne kadar yakın olmalıyım?",
+          "answer": "Kapalı alanda genellikle 10–30 metre. Kulak içi kulaklıkların antenleri kulak üstülerden zayıftır; bu yüzden taramaya en son kullandığınız yerin yakınında başlayın."
+        }
+      ],
+      "cta_title": "Her marka, tek uygulama",
+      "cta_text": "Çevrenizi tarayın ve sinyali kablosuz kulaklığınıza kadar takip edin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/",
+          "title": "Kaybolan Bluetooth kulaklık nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/",
+          "title": "AirPods'un tek tarafı kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/",
+          "title": "Kaybolan AirPods nasıl bulunur"
+        }
+      ]
+    },
+    {
+      "slug": "akilli-saat-bulma",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Akıllı saat",
+      "meta_title": "Akıllı saat veya Mi Band kayboldu: nasıl bulunur",
+      "meta_description": "Akıllı saatiniz, Mi Band, Huawei veya Garmin mi kayboldu? Evde, arabada ya da spor çantasında iPhone ile Bluetooth sinyalinden bulun.",
+      "keywords": "akıllı saat kayboldu, akıllı saat bulma, mi band bulma, akıllı bileklik kayboldu, huawei saat kayboldu, garmin kayboldu",
+      "h1": "Akıllı saat veya akıllı bileklik nasıl bulunur",
+      "quick_answer": "Akıllı saatler ve bileklikler telefonla eşitlenmek için neredeyse sürekli Bluetooth yayar – bu yüzden kolayca algılanır. Bluetooth Finder ile çevrenizi tarayın, saati adına veya üreticisine göre seçin (Xiaomi, Huawei, Garmin, Amazfit) ve sıcak–soğuk yönlendirmesiyle en güçlü sinyale gidin.",
+      "sections": [
+        {
+          "title": "Üreticilerin uygulamaları ne sunar",
+          "paragraphs": [
+            "Apple Watch, Bul uygulamasında; Galaxy Watch, SmartThings Find'da bulunur. Mi Band, Huawei, Garmin veya Amazfit genellikle en fazla bilekliği titreten bir „bilekliği bul” işlevi sunar – ama yalnızca telefona bağlıyken ve titreşim bir yastığın altında zor duyulur.",
+            "Bileklik bağlantıyı kaybettiyse üreticinin uygulaması artık yardımcı olmaz. Ancak saatin yaymaya devam ettiği Bluetooth sinyali hâlâ okunabilir."
+          ]
+        },
+        {
+          "title": "Saatler sinyalle neden kolay bulunur",
+          "paragraphs": [
+            "Giyilebilir cihazlar sık ve düzenli yayın yapar, çünkü adımları, nabzı ve bildirimleri sürekli göndermeye çalışırlar. Bluetooth Finder'da genellikle tam adlarıyla görünürler, ör. „Xiaomi Smart Band 8” veya „HUAWEI WATCH FIT”.",
+            "Pilleri günlerce dayanır; dün kaybolan bir saat bile genellikle hâlâ yayın yapar. Bu, kulaklıklara göre size daha fazla zaman tanır."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile akıllı saat bulma",
+      "steps": [
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Saatin uygulamasıyla bağlantıyı kesin",
+          "description": "Saatin uygulamasında eşitlemeyi veya Bluetooth'u geçici olarak kapatın – bağlı olmayan saat daha sık yayın yapar ve daha kolay bulunur."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "Model adını veya üreticiyi arayın: Xiaomi, Huawei, Garmin, Amazfit."
+        },
+        {
+          "title": "Sıcak–soğuk yönlendirmesini izleyin",
+          "description": "Yakınlık yüzdesini izleyerek odadan odaya geçin. En yüksek değeri gösteren odayı seçin."
+        },
+        {
+          "title": "„Çok sıcak”ta çevreyi arayın",
+          "description": "Spor çantasına, ceplere, yatak örtüsüne, banyoya ve saati şarja taktığınız yerlere bakın."
+        }
+      ],
+      "tips": [
+        "Saatler sıklıkla banyoda, lavabonun yanında ve komodinde kaybolur – oradan başlayın.",
+        "Apple Watch ise önce Bul > Aygıtlar > Ses Çal'ı kullanın.",
+        "Spor salonu soyunma odasında birçok kişi saat takar – doğru saati takip etmek için ad ve modeli kontrol edin.",
+        "Yatağın altındaki veya çekmecedeki saatin sinyali daha zayıftır – iPhone'u aşağı indirin."
+      ],
+      "faq": [
+        {
+          "question": "Mi Band iPhone ile bulunabilir mi?",
+          "answer": "Evet, şarjlı ve menzildeyse. Mi Band her bileklik gibi Bluetooth yayar ve Bluetooth Finder onu Xiaomi uygulaması olmadan algılar."
+        },
+        {
+          "question": "Huawei veya Garmin saat üretici uygulaması olmadan bulunabilir mi?",
+          "answer": "Evet. Bir Bluetooth bulucu uygulaması saatin sinyalini doğrudan okur; Huawei Health veya Garmin Connect bağlantısına gerek yoktur."
+        },
+        {
+          "question": "Kaybolan akıllı saat ne kadar süre yayın yapar?",
+          "answer": "Genellikle pil bitene kadar – modele göre bir günden birkaç haftaya kadar. Akıllı bileklikler çoğunlukla büyük ekranlı akıllı saatlerden daha uzun dayanır."
+        }
+      ],
+      "cta_title": "Saatiniz hâlâ yayın yapıyor",
+      "cta_text": "Çevrenizi tarayın ve sinyali akıllı saatinize veya bilekliğinize kadar takip edin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/bluetooth-tarayici-iphone/",
+          "title": "iPhone için Bluetooth tarayıcı"
+        },
+        {
+          "url": "/tr/rehberler/kablosuz-kulaklik-bulma/",
+          "title": "Kablosuz kulaklık kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/bluetooth-hoparlor-bulma/",
+          "title": "Bluetooth hoparlör kayboldu"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-hoparlor-bulma",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Bluetooth hoparlör",
+      "meta_title": "Bluetooth hoparlör veya JBL kayboldu: nasıl bulunur",
+      "meta_description": "JBL hoparlör bulunabilir mi? Açıksa evet. Kaybolan Bluetooth hoparlörü iPhone ile sinyal gücünden adım adım bulun.",
+      "keywords": "bluetooth hoparlör kayboldu, jbl hoparlör bulma, jbl hoparlör kayboldu, bluetooth hoparlör bulma, taşınabilir hoparlör kayboldu",
+      "h1": "Kaybolan Bluetooth hoparlör nasıl bulunur",
+      "quick_answer": "Hoparlör açıksa bulunabilir. JBL, Sony, Bose veya Anker hoparlörlerin güçlü Bluetooth vericileri vardır ve çoğu zaman evin ya da bahçenin her yerinden listede görünür. Bluetooth Finder ile çevrenizi tarayın, hoparlörü seçin ve yakınlık yüzdesi en yüksek değere ulaşana kadar sıcak–soğuk yönlendirmesini izleyin.",
+      "sections": [
+        {
+          "title": "Önce sesi deneyin",
+          "paragraphs": [
+            "Hoparlör menzildeyse ve hâlâ telefonunuzla eşliyse bağlanıp müzik açın – en hızlı yol budur. JBL Portable veya Sony Music Center uygulamaları da yardımcı olur, ama yalnızca etkin bir bağlantıyla.",
+            "Hoparlör bağlanmıyorsa, sesi kapalıysa ya da başka biri bağlıysa başka bir yönteme ihtiyacınız var: Bluetooth sinyalini takip etmek."
+          ]
+        },
+        {
+          "title": "Hoparlörler neden kolay algılanır",
+          "paragraphs": [
+            "Taşınabilir hoparlörlerin pilleri daha büyük, antenleri kulaklıklardan daha güçlüdür; sinyalleri daha uzağa ulaşır – evde çoğu zaman birkaç duvarın ötesine, bahçede onlarca metreye.",
+            "Bu, hoparlörün listede hızlı göründüğü ama sinyal gücünün daha yumuşak değiştiği anlamına gelir. Bu yüzden hoparlörlerde yakınlık yüzdesini adım adım değil, odalar arasında karşılaştırmak daha iyidir."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile hoparlör bulma",
+      "steps": [
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "Model adını (ör. JBL Flip 6, JBL Charge 5, JBL Go 3, SRS-XB) veya üreticiyi arayın."
+        },
+        {
+          "title": "Odaları karşılaştırın",
+          "description": "Her odada durup yakınlık yüzdesini not edin. En yüksek değeri gösteren odayı seçin."
+        },
+        {
+          "title": "Sıcak–soğuk ile alanı daraltın",
+          "description": "En iyi odada gösterge „çok sıcak” olana kadar yavaşça dolaşın."
+        },
+        {
+          "title": "Saklanma yerlerine bakın",
+          "description": "Hoparlörler sık sık dolaplara, yatak altına, bagaja, plaj çantasına veya bahçe deposuna gider."
+        }
+      ],
+      "tips": [
+        "Birçok hoparlör birkaç dakika kullanılmayınca kendiliğinden kapanır – hâlâ yayın yaparken hızlı arayın.",
+        "Açık alanda menzil daha geniştir; önce alanı dolaşıp yüzdenin nerede arttığına bakın.",
+        "Komşunun aynı modeli varsa cihaza verdiğiniz adı kontrol edin.",
+        "Kapalı bagajdaki açık hoparlörün sinyali belirgin şekilde zayıftır – daha da yaklaşın."
+      ],
+      "faq": [
+        {
+          "question": "JBL hoparlör bulunabilir mi?",
+          "answer": "Evet, açık ve Bluetooth menzilindeyse. Bluetooth Finder sinyalini gösterir ve sizi sıcak–soğuk yönlendirmesiyle ona götürür. Kapalı bir hoparlör canlı olarak bulunamaz."
+        },
+        {
+          "question": "Bluetooth hoparlör ne kadar uzaktan görünür?",
+          "answer": "Evde genellikle 15–30 metre, engelsiz açık alanda çoğu zaman daha fazla. Hoparlörlerin antenleri kulaklıklardan daha güçlüdür."
+        },
+        {
+          "question": "JBL uygulaması hoparlörün yerini gösterir mi?",
+          "answer": "Üretici uygulamaları çoğunlukla etkin bağlantıyla çalışır ve genellikle haritada konum göstermez. Bluetooth tarayıcı bağlantı olmadan çalışır."
+        }
+      ],
+      "cta_title": "Hoparlör orada – sadece sessiz",
+      "cta_text": "Çevrenizi tarayın ve güçlü sinyalini takip edin. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/bluetooth-tarayici-iphone/",
+          "title": "iPhone için Bluetooth tarayıcı"
+        },
+        {
+          "url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/",
+          "title": "Kaybolan Bluetooth kulaklık nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/akilli-saat-bulma/",
+          "title": "Akıllı saat veya Mi Band kayboldu"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-tarayici-iphone",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Bluetooth tarayıcı",
+      "meta_title": "iPhone için Bluetooth tarayıcı: yakındaki cihazları görün",
+      "meta_description": "iPhone için Bluetooth tarayıcı: yakındaki tüm Bluetooth cihazlarını sinyal gücü, üretici ve modelle görün ve aradığınızı bulun.",
+      "keywords": "bluetooth tarayıcı iphone, bluetooth tarayıcı, yakındaki bluetooth cihazları, bluetooth cihaz bulucu, bluetooth unutulan aygıtı bulma, bluetooth cihaz bulma uygulaması",
+      "h1": "iPhone için Bluetooth tarayıcı: yakınınızdaki cihazları görün",
+      "quick_answer": "iPhone, Ayarlar > Bluetooth'ta yalnızca eşlenmiş veya eşleme modundaki cihazları gösterir. Yakındaki açık tüm Bluetooth cihazlarını – sinyal gücü, ad, üretici ve modelle – görmek için Bluetooth Finder gibi bir tarayıcı uygulamasına ihtiyacınız var. Listeden herhangi bir cihazı seçin, sıcak–soğuk yönlendirmesi sizi ona götürür.",
+      "sections": [
+        {
+          "title": "iPhone ayarlarının göstermedikleri",
+          "paragraphs": [
+            "Ayarlar > Bluetooth'taki liste bir bağlantı listesidir, tarayıcı değil. Orada eşlenmiş cihazlarınızı ve o anda eşleme modunda olanları görürsünüz – ama komşunun kulaklığını, çekmecede unutulan saati ya da sinyal gücünü görmezsiniz.",
+            "Bir tarayıcı uygulaması menzildeki tüm Bluetooth Low Energy paketlerini okur. Böylece çevrenizde gerçekte neyin yayın yaptığını görür ve ne kadar yakın olduğunu ölçebilirsiniz."
+          ]
+        },
+        {
+          "title": "Sinyal gücü nasıl okunur",
+          "paragraphs": [
+            "Sinyal gücü (RSSI) mesafeyle azalır, ama duvarlar, vücut ve metal de etkiler. Bluetooth Finder bunu anlaşılır bir yakınlık yüzdesine ve soğuk, ılık, sıcak, çok sıcak seviyelerine çevirir; dBm değerlerini yorumlamanıza gerek kalmaz.",
+            "En önemlisi eğilimdir: bir yöne yürürken yüzde artıyorsa yaklaşıyorsunuz. %90'ın üzerinde cihaz genellikle elinizin altındadır."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile Bluetooth cihazlarını tarama",
+      "steps": [
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+) ve Bluetooth erişimine izin verin."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "Birkaç saniye içinde menzildeki açık tüm Bluetooth cihazlarının listesini canlı sinyal güçleriyle görürsünüz."
+        },
+        {
+          "title": "Cihaz bilgilerine bakın",
+          "description": "Ad, üretici ve modeli görmek için bir cihaza dokunun – böylece kulaklıkları, saatleri, hoparlörleri ve diğer cihazları tanırsınız."
+        },
+        {
+          "title": "Bulunacak cihazı seçin",
+          "description": "Aradığınızı bulduğunuzda sıcak–soğuk yönlendirmeli arama moduna geçin."
+        },
+        {
+          "title": "Yakınlık yüzdesini izleyin",
+          "description": "Gösterge „çok sıcak” olana kadar yüzdenin arttığı yöne ilerleyin."
+        }
+      ],
+      "tips": [
+        "Adı olmayan cihazlar çoğunlukla enerji tasarrufu modundaki aksesuarlardır – cihaz bilgilerinde üreticiye bakın.",
+        "Birkaç adım atın ve hangi sinyallerin değiştiğine bakın – kendi cihazınızı komşularınkinden ayırmaya yardımcı olur.",
+        "Tarayıcı yalnızca kapalı alanda 10–30 metre içindeki açık cihazları görür.",
+        "Bluetooth Finder başkalarının cihazlarına bağlanmaz – yalnızca herkese açık yayınlanan sinyalleri okur."
+      ],
+      "faq": [
+        {
+          "question": "iPhone'da yakındaki tüm Bluetooth cihazları nasıl görülür?",
+          "answer": "Bluetooth Finder gibi bir Bluetooth tarayıcı uygulaması kullanın. iPhone ayarları yalnızca eşlenmiş veya eşleme modundaki cihazları gösterir; tarayıcı ise menzildeki açık tüm cihazları gösterir."
+        },
+        {
+          "question": "Bluetooth tarayıcı mesafeyi metre olarak gösterir mi?",
+          "answer": "Kesin olarak hayır. Sinyal gücü engellere bağlıdır; bu yüzden uygulama metre yerine yakınlık yüzdesi ve sıcak–soğuk seviyeleri gösterir. Cihaza ulaşmak için bu yeterlidir."
+        },
+        {
+          "question": "Bluetooth tarayıcı yasal ve güvenli mi?",
+          "answer": "Evet. Uygulama yalnızca cihazların kendilerinin herkese açık yayınladığı sinyalleri alır ve onlara bağlanmaz. Hesap veya eşleme gerektirmez."
+        }
+      ],
+      "cta_title": "Çevrenizde neyin yayın yaptığını görün",
+      "cta_text": "Yakındaki Bluetooth cihazlarını tarayın ve aradığınızı bulun. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/",
+          "title": "Kaybolan Bluetooth kulaklık nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/akilli-saat-bulma/",
+          "title": "Akıllı saat veya Mi Band kayboldu"
+        },
+        {
+          "url": "/tr/rehberler/bul-olmadan-airpods-bulma/",
+          "title": "Bul uygulaması olmadan AirPods bulma"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-kutusu-bulma",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "AirPods kutusu",
+      "meta_title": "AirPods kutusu kayboldu: nasıl bulunur? Dürüst cevap",
+      "meta_description": "AirPods kutusunu mu kaybettiniz? Ne zaman bulunabilir, ne zaman bulunamaz ve ne yapmalı – Bul uygulaması ve iPhone'da Bluetooth tarayıcıyla.",
+      "keywords": "airpods kutusu kayboldu, kaybolan airpods kutusu nasıl bulunur, airpods şarj kutusu bulma, airpods pro kutusu kayboldu, airpods kutusunu kaybettim",
+      "h1": "AirPods kutusu kayboldu – nasıl bulunur",
+      "quick_answer": "Modele ve içinde ne olduğuna bağlı. AirPods Pro 2 ve daha yeni modellerin şarj kutusunun kendi hoparlörü vardır ve Bul uygulamasında bulunabilir. İçinde kulaklık olan kapalı kutu genellikle hiçbir şey yaymaz; boş standart kutunun da etkin vericisi yoktur. Kapak açıksa ya da kulaklıklar yakındaysa Bluetooth Finder AirPods'u algılar ve sizi kutuya götürür.",
+      "sections": [
+        {
+          "title": "Hangi kutular bulunabilir",
+          "paragraphs": [
+            "AirPods Pro 2, aktif gürültü engellemeli AirPods 4 ve daha yeni modellerin şarj kutusunda kendi Bul ağı modülü ve hoparlörü vardır: Bul uygulamasında haritada ayrı görünür ve ses çaldırabilirsiniz. Bu modellerden birine sahipseniz en iyi yol budur.",
+            "Eski kutular (AirPods 1–3, 1. nesil AirPods Pro) kendi başına yayın yapmaz. Yerleri yalnızca dolaylı olarak bulunabilir – içindeyken ve kapak açıkken kulaklıklar aracılığıyla ya da kutunun iPhone'a son bağlandığı son konumla."
+          ]
+        },
+        {
+          "title": "Bluetooth tarayıcı ne zaman işe yarar",
+          "paragraphs": [
+            "Kutu açıkken AirPods uyanır ve Bluetooth sinyali yayar – o zaman Bluetooth Finder onları algılar ve siz sıcak–soğuk yönlendirmesiyle kutuya ulaşırsınız. Kulaklıklar kutudan düşüp yakında duruyorsa da aynısı geçerlidir.",
+            "Dürüst olmak gerekirse: içinde kulaklık olan kapalı kutu ya da boş eski kutu, hiçbir tarayıcının göremeyeceği bir şeydir. O zaman Bul'daki son konum ve yerinde düzenli arama yardımcı olur."
+          ]
+        }
+      ],
+      "steps_title": "Bluetooth Finder ile AirPods kutusunu arama",
+      "steps": [
+        {
+          "title": "Bul uygulamasına bakın",
+          "description": "Bul > Aygıtlar: AirPods Pro 2 ve daha yeni modellerde kutu ayrı görünür – kutuda ses çalın."
+        },
+        {
+          "title": "Bluetooth Finder'ı yükleyin",
+          "description": "Uygulamayı App Store'dan indirin (ücretsiz, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Taramayı başlatın",
+          "description": "AirPods açık kutudaysa ya da kutunun yanındaysa listede üretici olarak Apple ile görünür."
+        },
+        {
+          "title": "Sıcak–soğuk yönlendirmesini izleyin",
+          "description": "AirPods'u seçin ve göstergenin soğuktan sıcağa döndüğü yöne gidin."
+        },
+        {
+          "title": "Hiçbir şey görünmüyorsa düzenli arayın",
+          "description": "Son konumdan başlayın: çantalar, mont cepleri, araba, koltuk araları – ve ara ara yeniden tarayın."
+        }
+      ],
+      "tips": [
+        "Kutu çoğu zaman mont ya da çantayla birlikte kaybolur – iç cepler dahil tüm ceplere bakın.",
+        "Kulaklıklar sizdeyse ve yalnızca kutuyu kaybettiyseniz Apple yalnızca kutuyu ücretli olarak değiştirir.",
+        "Bulduktan sonra, modeliniz destekliyorsa Bul uygulamasında Unutulduğunda Bildir'i açın.",
+        "Arabada kutu koltukların altına ve kapı ceplerine kaymayı sever."
+      ],
+      "faq": [
+        {
+          "question": "Kapalı AirPods kutusu sinyal yayar mı?",
+          "answer": "Eski kutular yaymaz. İçinde kulaklık olan kapalı kutu genellikle kulaklıkları uyku moduna alır. İstisna, Bul uygulamasında bulunabilen AirPods Pro 2 ve daha yeni modellerin kutularıdır."
+        },
+        {
+          "question": "Boş AirPods kutusu bulunabilir mi?",
+          "answer": "Eski modellerin boş kutusunda etkin verici yoktur, bu yüzden tarayıcı onu algılamaz. Bul'daki son konum ve düzenli arama yardımcı olur."
+        },
+        {
+          "question": "Yalnızca AirPods kutusu satın alınabilir mi?",
+          "answer": "Evet, Apple çoğu AirPods modeli için kaybolan şarj kutusunu ücretli olarak değiştirir."
+        }
+      ],
+      "cta_title": "Kulaklıklar kutunun yanında mı? Bulursunuz",
+      "cta_text": "Çevrenizi tarayın – AirPods yayın yapıyorsa sizi kutuya götürür. Ücretsiz, kurulum yok.",
+      "related": [
+        {
+          "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/",
+          "title": "Kaybolan AirPods nasıl bulunur"
+        },
+        {
+          "url": "/tr/rehberler/sarji-biten-airpods-bulma/",
+          "title": "Şarjı biten veya kapalı AirPods"
+        },
+        {
+          "url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/",
+          "title": "AirPods'un tek tarafı kayboldu"
+        }
+      ]
+    }
+  ]
+}

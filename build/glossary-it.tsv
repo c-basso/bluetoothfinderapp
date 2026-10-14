@@ -1,7 +1,27 @@
 key	en	it-IT	notes
-hot_cold	hot & cold	guida / indicatore caldo-freddo; freddo, tiepido, caldo, molto caldo	Allineare i livelli a hot & cold
-proximity	proximity percentage, feedback	percentuale di vicinanza; segnalazioni (evitare «feedback» d’ufficio)
-find_my	Find My (Apple)	Trova	UI iOS
-form_tu	—	tu	Coerente con il testo
+app_name	Find Bluetooth Device (store name)	Trovare Cuffie Bluetooth	Nome dell'app sullo store IT; nel testo: «l'app Trovare Cuffie Bluetooth». "Bluetooth Finder" solo come og:site_name / Organization
+subtitle	—	Scanner e guida prossimità	Sottotitolo App Store IT
+hot_cold	hot & cold	guida caldo-freddo; livelli Freddo → Tiepido → Caldo → Molto caldo	"molto caldo" è nel testo dello store
+proximity	proximity percentage	percentuale di prossimità	Termine dello store (non «vicinanza»)
+signal	signal strength	intensità del segnale
+details	name, manufacturer, model	nome, produttore e modello	Come nello store
+find_my	Find My (Apple)	Dov'è	Nome ufficiale Apple in italiano (NON «Trova»); senza virgolette
+play_sound	Play Sound	Riproduci suono	UI di Dov'è
+devices_tab	Devices	Dispositivi	UI di Dov'è
+precision_finding	Precision Finding	ricerca di precisione
+notify_left_behind	Notify When Left Behind	Avvisa se dimenticato	UI di Dov'è
+offline	Offline / No location found	"Offline" / "Nessuna posizione trovata"
+apple_account	Apple Account	Account Apple
+settings	Settings	Impostazioni
+headphones	headphones (over-ear)	cuffie	Anche termine generico di ricerca («trovare cuffie bluetooth»)
+earbuds	earbuds	auricolari (singolare: auricolare)
+case	AirPods case	custodia (di ricarica)
+speaker	speaker	cassa Bluetooth (ricerca) / speaker	«cassa» è il termine più cercato; «speaker» come sinonimo
+smartwatch	smartwatch / fitness band	smartwatch, orologio; smartband, fitness tracker
+sleep	sleep (in case)	in stop
+pairing	pairing	abbinamento / abbinato
+form_tu	—	tu	Tono informale coerente con il testo dello store
+download	Download on the App Store	Scarica su App Store	Badge ufficiale Apple IT
 currency_EUR	—	EUR	Schema allineato a it_IT
-terms_privacy	—	Condizioni d'uso, Informativa sulla privacy	Link legali in italiano
+terms_privacy	—	Termini di utilizzo, Informativa sulla privacy	Come nel testo dello store
+guides_path	/guides/	/it/guide/	Hub guide IT

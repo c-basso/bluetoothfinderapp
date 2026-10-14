@@ -1,8 +1,26 @@
 key	en	pl-PL	notes
-hot_cold_guidance	hot & cold	gorące i zimne; cztery etapy: zimno, ciepło, gorąco, bardzo gorąco	Spójne z opisem produktu; brak słowa „feedback”
-proximity_percent	proximity %	wskaźnik bliskości w procentach; „% bliskości”	Naturalnie, bez nadmiernych skrótów
-find_my	Find My	Znajdź	Oficjalna nazwa w iOS (PL)
-app_store_cta	download in App Store	Pobierz w App Store	Spójnie z Apple
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Finder	Sklep PL pokazuje angielską nazwę; na /pl/ marka Bluetooth Finder (zapytanie GSC), alternateName = Find Bluetooth Device
+address	you	ty (forma nieformalna)	Jak na dotychczasowej stronie /pl/; bez „Państwo”
+hot_cold_guidance	hot & cold (guidance)	wskazówki gorąco–zimno; poziomy: zimno, ciepło, gorąco, bardzo gorąco	Jak w polskiej wersji aplikacji
+very_hot	very hot	bardzo gorąco	Najwyższy poziom
+proximity_percent	proximity %	wskaźnik bliskości w procentach; procent bliskości	Zapis „90%” (bez spacji)
+signal_strength	signal strength	siła sygnału	
+device_id_field	manufacturer, model, and (device) name	nazwa, producent i model; dane urządzenia	
+scan	start a scan	rozpocznij skanowanie	
+find_my	Find My	Znajdź	Oficjalna nazwa w iOS (PL): aplikacja Znajdź, sieć Znajdź
+find_my_play_sound	Play Sound	Odtwórz dźwięk	Apple PL
+precision_finding	Precision Finding	Precyzyjne znajdowanie	Apple PL
+devices_tab	Devices (tab)	Urządzenia	Karta w aplikacji Znajdź
+apple_account	Apple Account	Konto Apple	Dawniej Apple ID
+settings_bluetooth	Settings → Bluetooth	Ustawienia → Bluetooth	
+app_store_cta	Download on the App Store	Pobierz w App Store	Tekst oficjalnej polskiej plakietki Apple
+nav_cta	Get the app	Pobierz aplikację	
+headphones	headphones	słuchawki; słuchawki nauszne (over-ear)	„słuchawki” obejmuje też douszne
+earbuds	earbuds	słuchawki douszne; słuchawki bezprzewodowe; dokanałowe	„jedna słuchawka” = pojedynczy AirPod
+case	charging case	etui; etui ładujące	„etui od AirPods”
+speaker	Bluetooth speaker	głośnik Bluetooth	„głośnik JBL”
+smartwatch	smartwatch / fitness tracker	smartwatch / opaska sportowa	„opaska Mi Band”
+lost	lost	zgubiony/zgubiona/zgubione; jak znaleźć; namierzyć	Najczęstsze formy wyszukiwań
 category_productivity	Productivity	Produktywność	Kategoria App Store w PL
-bluetooth_tech	Bluetooth	Bluetooth; „urządzenie Bluetooth”	Marka: Bluetooth Finder; technika: Bluetooth/Bluetooth
-very_hot	very hot	bardzo gorąco	W treści: możliwość „na wskroś gorące” tylko jeśli tłumaczy UI
+bluetooth_tech	Bluetooth	Bluetooth (wielką literą); urządzenie Bluetooth	
+guides	guides	poradniki	Ścieżka URL /pl/poradniki/

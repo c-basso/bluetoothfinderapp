@@ -1,23 +1,23 @@
 {
   "meta": {
     "lang": "tr",
-    "title": "Bluetooth Finder - Kayıp Bluetooth cihazı | AirPods, saat, kulaklık",
-    "description": "Bluetooth Finder, açık AirPods, saat, kulaklık, hoparlör gibi yakındaki Bluetooth cihazlarını aramanıza yardımcı olur. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde göstergesi. iOS 17.1+ gerekir. App Store’dan indirme genellikle ücretsiz; uygulama içi satın almalar App Store açıklamasındadır.",
-    "keywords": "bluetooth bul, airpods bul, bluetooth tarama, iPhone uygulaması, yakındaki bluetooth, bluetooth cihaz bul, kulaklık arama, akıllı saat bul, bluetooth arayıcı",
+    "title": "Kaybolan kulaklık nasıl bulunur? Bluetooth Finder (iPhone)",
+    "description": "Kaybolan Bluetooth kulaklık, AirPods veya akıllı saat mi? Bluetooth Finder, iPhone ile sinyalden bulur. Kurulum gerektirmez. Ücretsiz.",
+    "keywords": "kaybolan kulaklık nasıl bulunur, kulaklık bul, bluetooth kulaklık bulma, bluetooth cihaz bulucu, kaybolan airpods nasıl bulunur, airpods tek tarafı kayboldu, kablosuz kulaklık bulma, bluetooth tarayıcı iphone, bluetooth finder",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/tr/",
-    "og_title": "Bluetooth Finder - Yakındaki Bluetooth cihazı",
-    "og_description": "Tara, sıcak–soğuk, yüzde. AirPods, saat, kulaklık (menzildeyse). iOS 17.1+; iPhone; indirme genellikle ücretsiz, IAP olabilir.",
+    "og_title": "Bluetooth Finder – kaybolan kulaklık ve Bluetooth cihazlarını bulun",
+    "og_description": "AirPods, kablosuz kulaklık, kulak üstü kulaklık ve açık her Bluetooth cihazını iPhone ile bulun. Tarayın ve sıcak–soğuk yönlendirmesini izleyin, kurulum yok.",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "og_image_alt": "Bluetooth Finder - cihaz arama",
+    "og_image_alt": "Bluetooth Finder: yakındaki Bluetooth cihazlarını tarayarak kaybolan AirPods ve kulaklıkları bulma",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "tr_TR",
     "twitter_url": "https://bluetoothfinderapp.com/tr/",
-    "twitter_title": "Bluetooth Finder - Bluetooth cihazını hızlı bul",
-    "twitter_description": "AirPods, saat, hoparlör. Dört aşama: soğuk, ılık, sıcak, çok sıcak ve yüzde.",
+    "twitter_title": "Bluetooth Finder – kaybolan kulaklık ve Bluetooth cihazlarını bulun",
+    "twitter_description": "AirPods, kulaklık ve açık her Bluetooth cihazını iPhone ile bulun. Sıcak–soğuk yönlendirmesi ve sinyal gücü, kurulum yok.",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_alt": "Bluetooth Finder: yakındaki Bluetooth cihazlarını tarayarak kaybolan AirPods ve kulaklıkları bulma",
     "twitter_image_width": "1140",
     "twitter_image_height": "599",
     "canonical": "https://bluetoothfinderapp.com/tr/",
@@ -27,378 +27,168 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder – Bluetooth cihaz arayıcı",
-    "app_name_suffix": "Bluetooth cihaz arayıcı",
-    "logo_alt": "Bluetooth Finder logosu: AirPods, saat, kulaklık",
+    "application_name": "Bluetooth Finder – Bluetooth cihaz bulucu",
+    "app_name_suffix": "Kaybolan kulaklık ve Bluetooth cihazlarını bulun",
+    "logo_alt": "Bluetooth Finder uygulama simgesi: kaybolan AirPods, kulaklık ve akıllı saatleri bulun",
     "app_name": "Bluetooth Finder",
-    "title": "Bluetooth Finder",
-    "tagline": "Unuttuğun cihaza daha çabuk ulaş.",
-    "download_text": "App Store’da indir",
-    "download_aria_label": "App Store’dan Bluetooth Finder’ı indir",
-    "download_img_alt": "App Store’da Bluetooth Finder’ı indir"
+    "title": "Bluetooth Finder: kaybolan kulaklığınızı bulun",
+    "tagline": "Kaybolan Bluetooth cihazınızı iPhone ile bulmanıza yardımcı olan uygulama: AirPods, kablosuz ya da kulak üstü kulaklık, akıllı saat veya hoparlör. Sıcak–soğuk yönlendirmesiyle sinyali takip edin ve cihazın yanına varın – önceden hiçbir kurulum yapmadan ve Bul uygulaması olmadan.",
+    "download_text": "App Store'dan İndirin",
+    "download_aria_label": "Bluetooth Finder'ı App Store'dan indirin",
+    "download_img_alt": "App Store'dan İndirin: Bluetooth Finder",
+    "meta_line": "Ücretsiz indirme · iOS 17.1 veya üstü · 24,2 MB · Türkçe ve 30 dil daha"
   },
   "screenshots": {
     "items": [
-      {
-        "src": "/img/1_cover_12_framed.webp",
-        "alt": "Bluetooth Finder - ana ekran"
-      },
-      {
-        "src": "/img/2_scan_12_framed.webp",
-        "alt": "Bluetooth Finder - tarama"
-      },
-      {
-        "src": "/img/3_track_12_framed.webp",
-        "alt": "Bluetooth Finder - yön"
-      },
-      {
-        "src": "/img/4_info_12_framed.webp",
-        "alt": "Bluetooth Finder - bilgi"
-      }
+      { "src": "/img/appstore/screenshot-1-cover.webp", "alt": "iPhone'da Bluetooth Finder: kaybolan AirPods ve kulaklıkları bulmak için başlangıç ekranı", "caption": "Tek dokunuşla tarama" },
+      { "src": "/img/appstore/screenshot-2-track.webp", "alt": "Kaybolan bir Bluetooth cihazına sıcak–soğuk yönlendirmesi ve yakınlık yüzdesi gösteren arama ekranı", "caption": "Sıcak–soğuk ve yakınlık yüzdesi" },
+      { "src": "/img/appstore/screenshot-3-scan.webp", "alt": "iPhone'da Bluetooth tarayıcı: yakındaki Bluetooth cihazlarının sinyal gücüyle listesi", "caption": "Yakındaki tüm cihazlar ve sinyal güçleri" },
+      { "src": "/img/appstore/screenshot-4-info.webp", "alt": "Bir Bluetooth cihazının bilgileri: ad, üretici ve model", "caption": "Ad, üretici ve model" }
     ]
   },
   "content": {
     "summary_label": "Kısaca",
-    "summary_tldr": "Bluetooth Finder, iPhone (iOS) üzerinde yakındaki açık AirPods, saat, hoparlör ve diğer Bluetooth cihazlarını bulmaya yönelik uygulamadır. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve göreli yüzde değerini okursunuz. Apple «Find My»nın tüm senaryolarda bire bir yerine geçmez: amaç, radyo menzili içinde yönlendirmek. İndirme genellikle ücretsiz; iOS 17.1 veya üzeri gerekir.",
-    "intro1": "Kulaklık, bant mı, hoparlör mı unuttun? <strong>Bluetooth Finder</strong>, tarama yapan, listeden cihaz seçtiren basit bir <em>Bluetooth cihaz aracı</em>dır: listeyi aç, doğru satıra bas, ileri geri yürürken aşamaları ve yüzdeyi izle. Dışarı çıkarken veya odayı taradığında aranacak alanı daraltmana yardımcı olur.",
-    "intro2": "Uygulama, menzilde yayın yapan cihazı neredeyse anlık yansıtır, böylece tüm bölgeyi aynı anda taramak zorunda kalmazsın. Göstergeler yakınsamak içindir; duvar, metal, kalabalık ve bateri sinyal gücünü değiştirir; tüm ipuçlarını birden, tek sayıyı yeterli sayma."
+    "summary_tldr": "Bluetooth Finder, kaybolan Bluetooth cihazlarını – AirPods, kablosuz ve kulak üstü kulaklıklar, akıllı saatler ve hoparlörler – sinyal gücüne göre bulan ücretsiz bir iOS uygulamasıdır (24,2 MB, iOS 17.1+). Apple'ın Bul uygulamasından farklı olarak önceden hiçbir şey ayarlamanız gerekmez ve uygulama Sony, JBL, Samsung veya Xiaomi dahil açık olan her Bluetooth cihazıyla çalışır. Listeden cihazınızı seçin, sıcak–soğuk yönlendirmesini ve yakınlık yüzdesini izleyin – hepsi bu.",
+    "intro1": "AirPods'unuzu evde bir yerde mi unuttunuz? Kablosuz kulaklığınız koltuk minderlerinin arasına mı kaçtı? <strong>Bluetooth Finder</strong> yakındaki Bluetooth sinyallerini tarar ve sizi menzildeki açık her cihaza götürür – Bul ağı olmadan, iCloud olmadan ve cihazı önceden eşlemeden.",
+    "intro2": "Uygulama, cihazlarınız için bir metal dedektörü gibi çalışır: listeden cihazınızı seçin, odada dolaşın; gösterge yaklaştığınızı (sıcak) ya da uzaklaştığınızı (soğuk) söyler. Yakınlık yüzdesi doğru yönde ilerlediğinizi doğrular; ad, üretici ve model bilgisi de etrafta onlarca Bluetooth sinyali olsa bile gerçekten kendi cihazınızı takip ettiğinizden emin olmanızı sağlar."
   },
   "features": {
-    "title": "Neden Bluetooth Finder fark yaratıyor",
-    "subtitle": "Pratikte neleri alırsın",
+    "title": "Bluetooth cihazlarını bulun: AirPods, kulaklık ve akıllı saat",
+    "subtitle": "Tek bir iş için tasarlandı: kaybolan Bluetooth cihazınızı hızla bulmak.",
     "items": [
-      {
-        "number": "1",
-        "title": "Hızlı tarama",
-        "description": "Bluetooth açıkken uygulama menzildeki yayın yapan cihazı duyup listeler. Çoğu kez ağır kurulma gerekmez: sonuç hızla görünür."
-      },
-      {
-        "number": "2",
-        "title": "Sıcak–soğuk: soğuk, ılık, sıcak, çok sıcak",
-        "description": "Soğuk, uzak veya zayıf; ılık ve sıcak, yakınsa; çok sıcak, cihaz elinize çok yakın. Sinyal gücüne dayanır, cetvelle ölçüm değil; doğru yöne gidip gitmediğini aşamalar fark ettirir."
-      },
-      {
-        "number": "3",
-        "title": "Yakınlık (%)",
-        "description": "Daha büyük sayı, tipik sinyal şartında genelde ‘daha yakınsa’ fikrini verir; metre cinsine çevirme. Sayı, sıcak–soğuk aşamalarıyla aynı anda, birlikte oku."
-      },
-      {
-        "number": "4",
-        "title": "Cihaz bilgisi",
-        "description": "Listede marka, model veya ad görünüyorsa, kaybolan cihazı tanımlamak kolaylaşır: özellikle birkaç telefon veya kulaklık varken."
-      },
-      {
-        "number": "5",
-        "title": "Evde, işte, toplu taşımada",
-        "description": "Radyo açık ve menzildeyse aramaya uygundur. AirPods, kordon, hoparlör gibi cihazlarda 'her yeri arama' eğilimini azaltır; sonuç, sinyal ve ortam koşuluna bağlıdır."
-      }
+      { "number": "1", "title": "Saniyeler içinde Bluetooth tarayıcı", "description": "Tek dokunuş yeterli: uygulama yakındaki açık tüm Bluetooth cihazlarını bulur ve anlık sinyal güçleriyle gösterir. AirPods, kablosuz ve kulak üstü kulaklıklar, akıllı saatler, akıllı bileklikler, hoparlörler – Bluetooth yayan her şey listede görünür." },
+      { "number": "2", "title": "Sıcak–soğuk yönlendirmesi", "description": "Odada dolaşın; uygulama anlık sinyale göre soğuk, ılık, sıcak veya çok sıcak gösterir. Bütün çekmeceleri karıştırmak yerine birkaç dakikalık bir sıcak–soğuk oyunu oynar ve kazanırsınız." },
+      { "number": "3", "title": "Yakınlık yüzdesi", "description": "Bir yüzde ne kadar yakın olduğunuzu gösterir. Kulaklığın altına kaydığı yastığa yaklaştıkça değerin %40'tan %95'e çıktığını izleyin." },
+      { "number": "4", "title": "Karışıklığa son veren cihaz bilgileri", "description": "Bulunan her cihazın adı, üreticisi ve modeli, komşunun televizyonunu değil kendi AirPods Pro'nuzu takip etmenizi sağlar – sinyal dolu yerlerde bile." },
+      { "number": "5", "title": "Kurulum yok, hesap yok", "description": "Bir şeyi kaybetmeden önce hiçbir ayar yapmanız gerekmez. Uygulama cihazları canlı Bluetooth sinyalinden bulur – ikinci el AirPods, Sony, JBL veya Bose kulaklıklar ve Bul uygulamasına hiç eklenmemiş cihazlar dahil." },
+      { "number": "6", "title": "Eşyaları kaybettiğiniz her yerde çalışır", "description": "Evde, ofiste, spor salonunda, arabada, metroda veya kafede. Kapalı alanda Bluetooth genellikle 10–30 metreye ulaşır – cihazların çoğunun kaybolduğu yarıçap tam olarak budur." }
     ]
   },
-  "how_to": {
-    "title": "Bluetooth Finder nasıl kullanılır",
-    "description": "Uygulamayı aç, Bluetooth iznini onayla, taramanı bekle, aradığın kulaklık veya hoparlörü seç. Oda veya koridorda yürürken soğuk, ılık, sıcak, çok sıcak aşamaları ve yüzdeye bak. Çok sıcak ve yüksek yüzde, cihaz çok yakındasın. Kalabalıkta önce listede kendi cihazının adını doğrula."
+  "how_it_works": {
+    "title": "Nasıl çalışır",
+    "subtitle": "İndirmeden bulmaya yaklaşık iki dakika.",
+    "steps": [
+      { "title": "Uygulamayı indirin", "description": "Bluetooth Finder'ı App Store'dan ücretsiz indirin. iOS 17.1 veya üstü gerekir ve yalnızca 24,2 MB'tır – Wi-Fi ile birkaç saniyede yüklenir." },
+      { "title": "Yakındaki cihazları tarayın", "description": "Uygulamayı açın ve taramayı başlatın. Menzildeki açık tüm Bluetooth cihazları sinyal güçleriyle bir listede görünür." },
+      { "title": "Kaybolan cihazı seçin", "description": "Adından, üreticisinden veya modelinden tanıyın. Emin değil misiniz? Genellikle odadan odaya geçtiğinizde değişen, adı olmayan güçlü sinyaldir." },
+      { "title": "Sıcak–soğuk yönlendirmesini izleyin", "description": "Odada yavaşça dolaşın. Sinyal güçlendikçe gösterge soğuktan ılığa ve sıcağa döner, yaklaştıkça yakınlık yüzdesi artar." },
+      { "title": "Bulun ve alın", "description": "„Çok sıcak” ve %90'ın üzerinde cihaz elinizin altındadır. Yastıkların altına, mont ceplerine, çantalara ve çevrenizdeki çekmecelere bakın." }
+    ]
   },
-  "why_love": {
-    "title": "Buna neden gerek olsun",
-    "description": "Rastgele aranmayı az; uygulama sinyale göre yön verir. Sıcak–soğuk anlaşılır, yüzde destek, içeride ve dışarı, Bluetooth açıkken. Hızlı arayüz, ofiste, tren, kanepe, küçük cihaz kaybettiğin için pratik."
-  },
-  "who_should_use": {
-    "title": "Kimin için",
-    "description": "AirPods, in-ear kulaklık, bant, hoparlör, iş seyahati, ev, aile: önce alanı daralt, sonra el ve gözle yakala."
-  },
-  "advanced_features": {
-    "title": "Ek bilgi",
-    "description": "Liste neredeyse canlı yenilenir; sıcak–soğuk ve yüzde birlikte okun; uygulama hafif. Batarya ve arka planda tüketim, kullanıma ve ortama bağlı. Bazı özellikler uygulama içi satın alma olabilir; her zaman App Store açıklamasına bakın."
+  "guides": {
+    "title": "Rehberler: cihazınızı nasıl bulursunuz",
+    "subtitle": "En sık yaşanan durumlar için adım adım rehberler: ne işe yarar, ne yaramaz ve cihazınızı nasıl geri alırsınız.",
+    "read_label": "Rehberi okuyun →",
+    "items": [
+      { "url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/", "title": "Kaybolan AirPods nasıl bulunur", "teaser": "Gerçekten işe yarayan tüm yöntemler: Bul uygulaması, ses çalma ve Bul yetmediğinde Bluetooth sinyalini takip etmek." },
+      { "url": "/tr/rehberler/bul-olmadan-airpods-bulma/", "title": "Bul uygulaması olmadan AirPods bulma", "teaser": "iCloud yok, ikinci el AirPods ya da Bul hiç açılmamış mı? Bluetooth sinyaliyle yine de bulabilirsiniz." },
+      { "url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/", "title": "AirPods'un tek tarafı kayboldu", "teaser": "Tek bir kulaklık minicik ve sessizdir – ama Bluetooth yaymaya devam eder. İşte nasıl bulacağınız." },
+      { "url": "/tr/rehberler/sarji-biten-airpods-bulma/", "title": "Şarjı biten veya kapalı AirPods", "teaser": "Pil bitti ya da cihaz kapalı mı? Hâlâ gerçekten işe yarayanlar – ve bir dahaki sefere nasıl hazırlıklı olursunuz." },
+      { "url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/", "title": "Kaybolan Bluetooth kulaklık nasıl bulunur", "teaser": "Sony, JBL, Bose veya Beats: kulaklıkların çoğu Bul uygulamasında yoktur. Sinyal gücüyle bulun." },
+      { "url": "/tr/rehberler/kablosuz-kulaklik-bulma/", "title": "Kablosuz kulaklık kayboldu", "teaser": "Galaxy Buds, Xiaomi, JBL veya başka bir marka: açık oldukları sürece tek yöntem hepsini bulur." },
+      { "url": "/tr/rehberler/akilli-saat-bulma/", "title": "Akıllı saat veya Mi Band kayboldu", "teaser": "Mi Band, Huawei, Garmin veya Apple Watch: evde ya da spor çantasında Bluetooth sinyaliyle bulun." },
+      { "url": "/tr/rehberler/bluetooth-hoparlor-bulma/", "title": "Bluetooth hoparlör kayboldu", "teaser": "JBL hoparlör bulunabilir mi? Açıksa evet. Güçlü sinyalini bulana kadar takip edin." },
+      { "url": "/tr/rehberler/bluetooth-tarayici-iphone/", "title": "iPhone için Bluetooth tarayıcı", "teaser": "Çevrenizdeki tüm Bluetooth cihazlarını sinyal gücü, üretici ve modeliyle görün – hangisinin ne olduğunu öğrenin." },
+      { "url": "/tr/rehberler/airpods-kutusu-bulma/", "title": "AirPods kutusu kayboldu", "teaser": "Şarj kutusu hakkında dürüst cevap: ne zaman bulunabilir, ne zaman bulunamaz ve o zaman ne yapmalı." }
+    ]
   },
   "final_cta": {
-    "title": "Bluetooth Finder’ı bugün indir",
-    "paragraph1": "Boş yere dolaşma. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">App Store’dan indir</a> ve «sıcak–soğuk» ile yüzde ipuçlarını kullan; AirPods, saat, hoparlör veya başka açık Bluetooth cihazını menzilde, gereksiz strese yol açmadan yakala.",
-    "cta_text": "App Store’da indir",
-    "cta_aria_label": "App Store’dan Bluetooth Finder’ı indir",
-    "cta_img_alt": "App Store’da Bluetooth Finder’ı indir"
+    "title": "Cihazınız hâlâ yakında. Geri alın.",
+    "paragraph1": "„Kaybolan” Bluetooth cihazlarının çoğu sizden 30 metreden daha yakındadır: koltukta, mont cebinde, spor çantasında ya da araba koltuklarının arasında. Bluetooth Finder bu yarıçapı, genellikle birkaç dakikada sonuçlanan yönlendirmeli bir aramaya dönüştürür. Ücretsiz, kurulum yok. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Uygulamayı App Store'dan indirin</a> ve körlemesine aramayı bırakın.",
+    "cta_text": "App Store'dan İndirin",
+    "cta_aria_label": "Bluetooth Finder'ı App Store'dan indirin",
+    "cta_img_alt": "App Store'dan İndirin: Bluetooth Finder"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. Tüm hakları saklıdır.",
-    "privacy_link": "Polityka prywatności",
+    "copyright": "© {year} Bluetooth Finder. Tüm hakları saklıdır.",
+    "guides_link": "Rehberler",
+    "guides_url": "/tr/rehberler/",
+    "privacy_link": "Gizlilik Politikası",
     "privacy_url": "/privacy.html",
-    "terms_link": "Regulamin",
+    "terms_link": "Kullanım Koşulları",
     "terms_url": "/terms.html"
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
     "category": "Verimlilik",
     "age_rating": "4+",
-    "file_size": "25.3 MB",
-    "languages": "Türkçe (bu sayfa), English",
-    "compatibility": "iOS 17.1 veya üzeri gerekir",
+    "file_size": "24,2 MB",
+    "languages": "Türkçe ve 30 dil daha",
+    "compatibility": "iOS 17.1 veya üstü gerekir",
     "platform": "iPhone",
     "copyright": "© c-basso",
     "in_app_purchases": true
   },
   "seo": {
     "breadcrumb_home": "Ana sayfa",
-    "last_updated_label": "Güncellendi",
-    "key_facts_title": "Bluetooth Finder rakamlarla",
+    "last_updated_label": "Son güncelleme",
+    "key_facts_title": "Rakamlarla Bluetooth Finder",
     "key_facts": [
-      {
-        "value": "25.3 MB",
-        "label": "Boyut"
-      },
-      {
-        "value": "iOS 17.1+",
-        "label": "Sistem"
-      },
-      {
-        "value": "4+",
-        "label": "Yaş"
-      },
-      {
-        "value": "Ücretsiz (IAP)",
-        "label": "İndirme"
-      },
-      {
-        "value": "ör. AirPods, akıllı saat, kulaklık",
-        "label": "Örnekler"
-      }
+      { "value": "Ücretsiz", "label": "İndirme, isteğe bağlı premium abonelik" },
+      { "value": "24,2 MB", "label": "Uygulama boyutu – saniyeler içinde yüklenir" },
+      { "value": "iOS 17.1+", "label": "iPhone'da çalışır" },
+      { "value": "10–30 m", "label": "Kapalı alanda tipik Bluetooth menzili" },
+      { "value": "31 dil", "label": "Türkçe ve 30 dil daha" },
+      { "value": "0 kurulum", "label": "Hesap yok, eşleme yok, Bul uygulaması gerekmez" }
     ],
-    "comparison_title": "Bluetooth Finder, Find My ve jenerik tarayıcı",
-    "comparison_intro": "Bluetooth Finder’i diğer yöntemlere dürüstçe kıyas:",
+    "comparison_title": "Bluetooth Finder, Apple'ın Bul uygulaması ve sıradan bir Bluetooth tarayıcı karşılaştırması",
+    "comparison_intro": "Kaybolan bir cihazı aramanın üç yolu – ve hangisini ne zaman kullanmalı:",
     "comparison_col_feature": "Özellik",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
-    "comparison_col_find_my": "Find My",
-    "comparison_col_generic": "Jenerik tarayıcı",
+    "comparison_col_find_my": "Apple Bul",
+    "comparison_col_generic": "Sıradan tarayıcı",
     "comparison_rows": [
-      {
-        "feature": "Cihaz türü",
-        "bluetooth_finder": "Yakındaki menzilde açık, Bluetooth’da görülen tüm türde",
-        "find_my": "Çoğunlukla Apple; çoğunlukla önceden ağa/hesaba kayıtlı",
-        "generic": "Listede rastgele, sıcak–soğuk yol göstermesi yok"
-      },
-      {
-        "feature": "Önceden hazırlık",
-        "bluetooth_finder": "Çoğu senaryoda özel kurulum yok",
-        "find_my": "Evet, bulut tabanlı Find My ağı",
-        "generic": "Genellikle zorunlu değil"
-      },
-      {
-        "feature": "Cihazı yaklaştırma",
-        "bluetooth_finder": "Dört aşamalı sıcak–soğuk + yüzde yakınlık",
-        "find_my": "Rota ve/veya mesafe (desteklenen modellere göre)",
-        "generic": "Sıklıkla sadece liste, yardım farkı yüksek değil"
-      },
-      {
-        "feature": "Platform (bu uygulama)",
-        "bluetooth_finder": "iOS 17.1+ iPhone",
-        "find_my": "Apple ekosistemi, çeşitli uygulamalar",
-        "generic": "Uygulamaya göre değişir"
-      }
+      { "feature": "Cihaz türleri", "bluetooth_finder": "Açık olan her Bluetooth cihazı, her marka", "find_my": "Yalnızca Apple aygıtları ve Bul ağıyla uyumlu aksesuarlar", "generic": "Her Bluetooth cihazı (yalnızca liste olarak)" },
+      { "feature": "Kaybetmeden önce kurulum", "bluetooth_finder": "Gerekmez", "find_my": "Önceden Apple Hesabı'na bağlanmış olmalı", "generic": "Gerekmez" },
+      { "feature": "Cihaza yönlendirme", "bluetooth_finder": "Sıcak–soğuk + yakınlık yüzdesi", "find_my": "Harita, ses ve bazı modellerde Yakındakini Bul", "generic": "Yönlendirmesiz sinyal listesi" },
+      { "feature": "Başka markaların kulaklıkları", "bluetooth_finder": "Evet", "find_my": "Hayır", "generic": "Görür ama götürmez" },
+      { "feature": "Uzaktaki veya kapalı cihazlar", "bluetooth_finder": "Hayır – cihaz açık ve menzilde olmalı", "find_my": "Evet, Bul ağı üzerinden", "generic": "Hayır" },
+      { "feature": "En uygun olduğu durum", "bluetooth_finder": "Yakında arama, her marka, hazırlıksız", "find_my": "Uzakta kaybolan kayıtlı Apple aygıtları", "generic": "Teknik teşhis" }
     ],
-    "faq_title": "Sıkça sorulan sorular: Bluetooth Finder",
+    "faq_title": "Sık sorulan sorular",
     "faq": [
-      {
-        "question": "Bluetooth Finder nedir?",
-        "answer": "iPhone’daki, yakındaki açık Bluetooth cihazlarını (kulaklık, hoparlör, saat gibi) bulmaya yardımcı uygulamadır. «Sıcak–soğuk» dört aşama (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde değerini kullanarak, rastgele taramak yerine alanı daraltmanızı hedefler."
-      },
-      {
-        "question": "Nasıl çalışır?",
-        "answer": "Uygulama taramayı yapar, sinyal veren cihazları listeler ve sinyal gücüne göre göstergeleri günceller. Aşamalar: soğuk, ılık, sıcak, çok sıcak, yüzde, mümkünse marka, model, ad etiketleri de gelir."
-      },
-      {
-        "question": "AirPods gibi cihazları bulabilir miyim?",
-        "answer": "Kutusu veya kulaklıklar menzilde, açık, listede görünüyorsa sıcak–soğuk ipuçlarını izleyip sonra bölgeye gözle ve dikkatle inin. Metre cinsinden kesin garanti değildir; sinyal tabanlı makul alan sınırlamadır, son kontrol sizin."
-      },
-      {
-        "question": "Sadece Apple değil, başka markalar da mı?",
-        "answer": "Evet: Bluetooth’da açık ve listelenen her türlü cihaz denenebilir; akıllı saat, fitness bilekliği, hoparlör, kulaklık. Üretici uyandırma ve reklam davranışı farklılık gösterir, sonuç cihazdan cihaza değişir."
-      },
-      {
-        "question": "Uygulama ücretsiz mi?",
-        "answer": "App Store’dan indirme genelde ücretsizdir. Bazı ekler veya özellikler uygulama içi satın alma ister; her zaman App Store açıklamasını kontrol edin."
-      },
-      {
-        "question": "iPhone’da ne gerekiyor?",
-        "answer": "Uygulamanın bu sürümü iOS 17.1 veya üzeriyle uyumludur; izin açık Bluetooth, uygulama vermiş izin gerekir. Kullanım süresi ve arka planda tüketim, kullanıma ve ortama bağlıdır."
-      },
-      {
-        "question": "Yüzde, kalan metreyi verir mi?",
-        "answer": "Hayır. Göreli, duvar, metal, kalabalık, vücut, pil gibi faktörlere bağlanır. Yüzdeyi, sıcak–soğuk aşamalarıyla birlikte okuyun, tek sayıyı yeterli saymayın."
-      },
-      {
-        "question": "Kalabalıkta, istasyonda, mağazada işe yarar mı?",
-        "answer": "Evet; ama listede onlarca cihaz çıkabilir. Doğru cihaz etiketini okuyun, listeyi seçin, sinyal yükselene yaklaşın, sonra bölgeye gözle inin. Ne kadar rastgele kulaklık, o kadar doğru isimlik önemli olur."
-      },
-      {
-        "question": "Find My hizmetinden farkı ne?",
-        "answer": "Find My, Apple hesabı ve ağ/ kayıt ile bağlanmış cihazlara yöneliktir. Bluetooth Finder öncelikle, o anda Bluetooth yayını veren, fiziksel yakındaki cihazlara yönelir, ön koşulsuz eşleştirme gerekmez. Amaçlar farklıdır, bazen tamamlayıcı, bazen tek başına yeterli değildir."
-      },
-      {
-        "question": "Find My’de olmayan veya Apple dışı cihazlarda yeterli mi?",
-        "answer": "Açık, menzilde ve taramada görüldüyse, uygulama arama alanını daraltmada yardımcı olabilir. Uzak hırsızlık, kapalı güç, yetkili süreçler: tek başına bu uygulama yeterli olmaz, başka adımlar gerekir."
-      }
+      { "question": "Bluetooth Finder nedir?", "answer": "Bluetooth Finder, kaybolan Bluetooth cihazlarını canlı sinyalleriyle bulan ücretsiz bir iOS uygulamasıdır. Yakındaki AirPods, kablosuz ve kulak üstü kulaklıkları, akıllı saatleri, akıllı bileklikleri ve hoparlörleri tarar; sizi sıcak–soğuk yönlendirmesi ve yakınlık yüzdesiyle seçtiğiniz cihaza götürür. iOS 17.1 veya üstü gerekir, boyutu 24,2 MB'tır. App Store'da „Find Bluetooth Device” adıyla yer alır.", "learn_more_url": "/tr/rehberler/", "learn_more_text": "Devamını okuyun: tüm rehberler →" },
+      { "question": "iPhone ile Bluetooth cihazları nasıl aranır?", "answer": "Bluetooth Finder gibi bir uygulamayla: taramayı başlatın, menzildeki açık tüm Bluetooth cihazları sinyal güçleriyle görünür. Kendinizinkini seçin ve göstergenin soğuktan sıcağa döndüğü yöne yürüyün. iPhone'da Ayarlar > Bluetooth yalnızca eşlenmiş veya eşleme modundaki cihazları gösterir – nerede olduklarını söylemez.", "learn_more_url": "/tr/rehberler/bluetooth-tarayici-iphone/", "learn_more_text": "Devamını okuyun: iPhone için Bluetooth tarayıcı →" },
+      { "question": "Kaybolan kulaklık nasıl bulunur?", "answer": "Açık ve menzildeyse Bluetooth sinyaliyle. Açık her kulaklık – AirPods, Galaxy Buds, JBL, Sony, Xiaomi – yaklaştıkça güçlenen bir sinyal yayar. Uygulama bu sinyali okur ve sizi kulaklığa götürür. Kaybolan kulaklık genellikle yakındadır: koltukta, mont cebinde ya da sırt çantasında.", "learn_more_url": "/tr/rehberler/kaybolan-bluetooth-kulaklik-bulma/", "learn_more_text": "Devamını okuyun: kaybolan Bluetooth kulaklık →" },
+      { "question": "Kaybolan kablosuz kulaklık bulunabilir mi?", "answer": "Evet, açık ve menzilde olduğu sürece. Kutudan çıkarılmış kablosuz kulaklıklar pili oldukça Bluetooth yayar. Tarayın, kulaklığı listeden adına veya üreticisine göre seçin ve yakınlık yüzdesi %90'ı geçene kadar sıcak–soğuk yönlendirmesini izleyin.", "learn_more_url": "/tr/rehberler/kablosuz-kulaklik-bulma/", "learn_more_text": "Devamını okuyun: kablosuz kulaklık bulma →" },
+      { "question": "AirPods'umu kaybettim – iPhone ile nasıl bulurum?", "answer": "Bul açıksa önce onu kullanın: konumu haritada görür ve ses çaldırabilirsiniz. AirPods Bul'da yoksa veya harita yalnızca binayı gösteriyorsa Bluetooth Finder ile tarayın: kutu dışında ve şarjlıyken AirPods, oda oda takip edebileceğiniz bir Bluetooth sinyali yayar.", "learn_more_url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/", "learn_more_text": "Devamını okuyun: kaybolan AirPods →" },
+      { "question": "Bul uygulaması veya iCloud olmadan AirPods bulunur mu?", "answer": "Evet. AirPods kutudan çıkıp açıldığı anda Bluetooth yayar ve uygulama bu sinyali doğrudan takip eder – Bul ağı, iCloud ve önceden eşleme olmadan. Önceki sahibinin Apple Hesabı'na hâlâ bağlı olan ikinci el AirPods ile de çalışır.", "learn_more_url": "/tr/rehberler/bul-olmadan-airpods-bulma/", "learn_more_text": "Devamını okuyun: Bul olmadan AirPods →" },
+      { "question": "AirPods'un tek tarafı kayboldu – bulunabilir mi?", "answer": "Evet. AirPods'un her tarafı, kutu dışında ve şarjlı olduğu sürece kendi Bluetooth sinyalini yayar. Uygulamayla tarayın, AirPods'u listeden seçin ve sıcak–soğuk yönlendirmesini izleyin: kaybolan tarafa çok yaklaştığınızda yakınlık yüzdesi hızla yükselir.", "learn_more_url": "/tr/rehberler/airpods-tek-tarafi-kayboldu/", "learn_more_text": "Devamını okuyun: AirPods'un tek tarafı →" },
+      { "question": "Kapalı veya şarjı bitmiş Bluetooth cihazları bulunabilir mi?", "answer": "Canlı olarak hayır: kapalı ya da pili tamamen bitmiş bir cihaz, bir Bluetooth bulucunun – veya Bul uygulamasının – yakalayabileceği bir sinyal yaymaz. Bul'da ya da üreticinin uygulamasında son bilinen konuma bakın, orayı düzenli olarak arayın ve ara ara yeniden tarayın: biraz pili kalan birçok kulaklık kısa süreliğine uyanır.", "learn_more_url": "/tr/rehberler/sarji-biten-airpods-bulma/", "learn_more_text": "Devamını okuyun: şarjı biten AirPods →" },
+      { "question": "Kaybolan akıllı saat veya Mi Band bulunabilir mi?", "answer": "Evet. Mi Band, Huawei veya Garmin gibi akıllı saatler ve bileklikler neredeyse sürekli Bluetooth yayar, bu yüzden kolayca algılanır. Tarayın, saati adına veya üreticisine göre seçin ve en güçlü sinyale doğru yürüyün.", "learn_more_url": "/tr/rehberler/akilli-saat-bulma/", "learn_more_text": "Devamını okuyun: akıllı saat bulma →" },
+      { "question": "JBL hoparlör veya başka bir Bluetooth hoparlör bulunabilir mi?", "answer": "Evet, açıksa. JBL, Sony, Bose veya Anker hoparlörlerin Bluetooth vericileri kulaklıklardan daha güçlüdür ve çoğu zaman evin her yerinden listede görünür. Tarayın, hoparlörü seçin ve yakınlık yüzdesi en yüksek değere ulaşana kadar oda oda sıcak–soğuk yönlendirmesini izleyin.", "learn_more_url": "/tr/rehberler/bluetooth-hoparlor-bulma/", "learn_more_text": "Devamını okuyun: Bluetooth hoparlör bulma →" },
+      { "question": "AirPods kutusu bulunabilir mi?", "answer": "Bazen. İçinde AirPods olan kapalı bir kutu uyku modundadır ve hiçbir şey yaymaz; boş standart bir kutunun da etkin vericisi yoktur. Kapak açıkken içindeki AirPods uyanır ve sinyal yayar – o zaman tarama onları bulur. AirPods Pro 2 ve daha yeni modellerin şarj kutusu Bul uygulamasında da bulunabilir.", "learn_more_url": "/tr/rehberler/airpods-kutusu-bulma/", "learn_more_text": "Devamını okuyun: AirPods kutusu →" },
+      { "question": "Bluetooth ile arama ne kadar hassas?", "answer": "Uygulama canlı sinyal gücünü bir yüzdeye ve sıcak–soğuk seviyesine dönüştürür. Bluetooth GPS değildir ve haritada kesin bir nokta göstermez – ancak kapalı alandaki 10–30 metrelik menzilde arama alanınızı güvenilir şekilde elinizin uzanacağı mesafeye indirir: „çok sıcak” ve %90'ın üzeri, cihazın hemen yanınızda olduğu anlamına gelir.", "learn_more_url": "/tr/rehberler/bluetooth-tarayici-iphone/", "learn_more_text": "Devamını okuyun: sinyal gücü nasıl çalışır →" },
+      { "question": "Bluetooth Finder ücretsiz mi?", "answer": "Evet, uygulama App Store'da ücretsizdir ve ücretsiz deneme süresi olan isteğe bağlı bir premium abonelik sunar. iPhone'da iOS 17.1 veya üstü gerekir, boyutu 24,2 MB'tır.", "learn_more_url": "/tr/rehberler/kaybolan-airpods-nasil-bulunur/", "learn_more_text": "Devamını okuyun: hemen aramaya başlayın →" },
+      { "question": "Apple'ın Bul uygulamasından farkı ne?", "answer": "Bul, kaybolmadan önce Apple Hesabınıza bağlanmış Apple aygıtlarını bulur ve ağı sayesinde uzaktayken bile konumlandırır. Bluetooth Finder kayıt gerektirmez ve her markayla çalışır, ancak yalnızca cihaz açık ve Bluetooth menzilindeyken. Kısacası: Bul sizi doğru binaya, bir Bluetooth bulucu ise doğru koltuk minderine götürür.", "learn_more_url": "/tr/rehberler/bul-olmadan-airpods-bulma/", "learn_more_text": "Devamını okuyun: Bul olmadan arama →" }
     ],
     "structured_data": {
       "software_application": {
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "Bluetooth Finder",
-        "alternateName": "Bluetooth cihaz bul, yakınlarda tarayıcı, iOS uygulaması",
+        "alternateName": "Find Bluetooth Device",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "iOS",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "TRY",
-          "availability": "https://schema.org/InStock"
-        },
-        "description": "iPhone’da (iOS 17.1+) açık ve yakındaki Bluetooth cihazlarını bulmaya destek: kulaklık, hoparlör, saat; «sıcak–soğuk» dört aşamada (soğuk, ılık, sıcak, çok sıcak) ve yakınlık için yüzde, mümkünse marka, model, isim etiketleriyle.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/logo.webp",
-          "width": 140,
-          "height": 140,
-          "caption": "Logo Bluetooth Finder"
-        },
-        "screenshot": {
-          "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
-          "width": 390,
-          "height": 844
-        },
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY", "availability": "https://schema.org/InStock" },
+        "description": "Bluetooth Finder, kaybolan Bluetooth cihazlarını – AirPods, kablosuz ve kulak üstü kulaklıklar, akıllı saatler, akıllı bileklikler ve hoparlörler – canlı sinyal gücüyle bulan ücretsiz bir iOS uygulamasıdır. Yakındaki Bluetooth sinyallerini tarar, cihazları ad, üretici ve modelle gösterir ve sıcak–soğuk yönlendirmesi ile yakınlık yüzdesiyle seçilen cihaza götürür. Bul ağı, iCloud hesabı ve kurulum gerekmez.",
+        "image": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/appstore/icon-512.webp", "width": 512, "height": 512, "caption": "Bluetooth Finder uygulama simgesi" },
+        "screenshot": { "@type": "ImageObject", "url": "https://bluetoothfinderapp.com/img/appstore/screenshot-2-track.webp", "width": 640, "height": 1385 },
         "url": "https://bluetoothfinderapp.com/tr/",
-        "author": {
-          "@type": "Person",
-          "name": "Vladimir Ivakhnenko"
-        },
-        "publisher": {
-          "@type": "Person",
-          "name": "Vladimir Ivakhnenko"
-        },
-        "keywords": "bluetooth, bul, AirPods, kulaklık, iOS, tarama, Bluetooth cihaz",
+        "author": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "publisher": { "@type": "Person", "name": "Vladimir Ivakhnenko" },
+        "keywords": "kaybolan kulaklık nasıl bulunur, kulaklık bul, bluetooth kulaklık bulma, bluetooth cihaz bulucu, kaybolan airpods nasıl bulunur, airpods tek tarafı kayboldu, kablosuz kulaklık bulma, akıllı saat bulma, jbl hoparlör bulma, bluetooth tarayıcı iphone",
         "inLanguage": "tr",
-        "datePublished": "2024-12-31",
-        "dateModified": "2026-04-26",
-        "softwareVersion": "1.3",
-        "fileSize": "25.3MB",
-        "softwareRequirements": "iOS 17.1 veya üzeri gerekir",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "100"
-        }
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/tr/",
-        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
-        "description": "Bluetooth Finder — iPhone, Türkçe sayfada Bluetooth cihaz arama."
-      },
-      "website": {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/tr/",
-        "description": "Türkçe: açıklama, tablo, sık sorular, App Store linki.",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://bluetoothfinderapp.com/tr/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "datePublished": "2025-12-30",
+        "softwareVersion": "1.4.2",
+        "fileSize": "24.2MB",
+        "softwareRequirements": "iOS 17.1 veya üstü"
       },
       "howto": {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": "Bluetooth Finder ile yakındaki cihazı bulma",
-        "description": "Yükleyin, taramaya izin verin, listeden seçin, soğuk, ılık, sıcak, çok sıcak aşamaları ve yüzdeyi izleyin, nihayet dar alanda göz ve elle kontrol edin.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "İndir",
-            "text": "App Store; iOS 17.1 veya üzeri, boyut kabaca 25,3 MB; uygulama indirmesi genellikle ücretsiz başlayabilir, kesin fiyat ve IAP App Store’da yazar."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Tarama",
-            "text": "Uygulamayı açın, Bluetooth iznini onaylayın, yakındaki yayın yapan cihazların eklendiği listeyi bekleyin."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Seçim",
-            "text": "Listede aradığınız kulaklık, hoparlör veya saat satırını seçin: ad, marka, model görünüyorsa ayrıntıyı not edin."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Sıcak–soğuk",
-            "text": "Hareketle aşamayı soğuk’tan, ılık ve sıcak, son olarak çok sıcak yönüne ilerletin: yayındaki sinyal gücü buna göre hızlanır."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 5,
-            "name": "Yakınlık yüzdesi",
-            "text": "Yüzdeyi tek başına metreye çevirmeyin; tüm aşamalar, ortam, duvar, kalabalık bilgisine katın."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 6,
-            "name": "Yerel buluş",
-            "text": "Cihaz çok yakınsa kanepe, çanta, ceket, çekmece gibi dar alanları elle ve gözle tarayın."
-          }
-        ]
-      },
-      "faqpage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Bluetooth Finder ne işe yarar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Listeyi taramak, cihazı seçmek ve sinyal gücüne giden sıcak–soğuk dört aşamayı ve yüzdeyı kullanmaktır. Pratik alan sınırlama, odada rast dolaşmak gibi; tek numara kaç metreyi cevap gibi almayın."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Find My hizmetinden farkı nedir?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Find My, Apple hesabına ve buluta kayıtlı ağa bağlanmış cihazlara yönelik olabilir. Bluetooth Finder, aynı anda açık Bluetooth sinyalini o anda gösterir, senaryo başına aynı değil."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Yüzdeyi metre gibi almalı mıyım?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hayır; sinyal gücünün göreli yönüdür, duvar, kalabalık, vücut, pil etkiler; tüm aşamalar ve yüzde birlikte okunmalıdır."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "İndirme App Store’da paralı mı?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Uygulama indirmesini genellikle ücret ödemeden başlatabilirsiniz; uygulama içi satın alımlar ayrı gösterilir — App Store açıklamasına ve fiyat listesine bakın."
-            }
-          }
-        ]
-      },
-      "breadcrumb_list": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Ana sayfa",
-            "item": "https://bluetoothfinderapp.com/tr/"
-          }
-        ]
+        "name": "Bluetooth Finder ile kaybolan bir Bluetooth cihazı nasıl bulunur",
+        "description": "Adım adım: iPhone'da Bluetooth Finder uygulamasıyla kaybolan AirPods, kulaklık, akıllı saat ve hoparlörü sıcak–soğuk yönlendirmesi ve yüzde olarak sinyal gücüyle bulma."
       }
     }
   }

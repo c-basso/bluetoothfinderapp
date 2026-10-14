@@ -1,9 +1,28 @@
 key	en	ko-KR	notes
-hot_cold_guidance	hot & cold (guidance)	핫·콜드 안내	단계명은 콜드/웜/핫/베리 핫(제품·UI)과 병기
-proximity_percent	proximity % indicator	근접도(%)	‘근접(%)’ 단독보다 (%) 명시
-find_my	Find My	나의 찾기	iOS·App Store 정식명
-app_store_cta	download on App Store	App Store에서 다운로드	초보면 '받기'이나 스토어 표기와 톤 맞춤
-bluetooth_generic	Bluetooth (technology)	블루투스	본문 기술 일반은 한글 선호, 앱명 Bluetooth Finder는 유지
-category_productivity	Productivity	생산성	App Store 카테고리 한국어(생산성)
-very_hot	very hot (UI stage)	베리 핫	영어 UI·마케 병기 시; 설명엔 ‘거의 잡힘/매우 가까움’
-ble_ad	Bluetooth advertising payload	블루투스 광고	기술독자용에 ‘(Advertising)’ 괄호 병기 가능; BLE는 소비자 본문에서 남용 금지
+app_name_site	Bluetooth Finder	Bluetooth Finder	사이트 본문의 제품명(로고·OG·JSON-LD name). 영문 그대로
+app_name_store	App Store name (KO)	분실 블루투스 기기 찾기	스토어로 이동하기 직전(제목, meta line, 핵심 요약, 사용 방법 1단계, FAQ 1, 가이드 1단계, JSON-LD alternateName)에 병기: 「App Store에서는 ‘분실 블루투스 기기 찾기’라는 이름으로 제공됩니다」
+hot_cold_guidance	hot & cold (guidance)	핫·콜드 안내	스토어 표기. 단계명은 콜드/웜/핫/베리 핫
+very_hot	very hot (UI stage)	베리 핫	작은따옴표로 표기: ‘베리 핫’
+proximity_percent	proximity percentage; proximity % indicator	거리 퍼센트	스토어 설명문 표기. 구 번역 「근접도(%)」는 사용하지 않음
+signal_strength	signal strength	신호 강도	
+device_id_field	manufacturer, model, and (device) name	이름·제조사·모델	스토어 표기 순서. 「가능한 경우」 보충 가능
+find_my	Find My	나의 찾기	iOS 정식 명칭. 따옴표 없이 사용
+play_sound	Play Sound	사운드 재생	Apple 나의 찾기 UI
+precision_finding	Precision Finding	정밀 탐색	Apple 나의 찾기 UI
+lost_mode	Lost Mode	분실 모드	Apple 나의 찾기 UI
+offline	Offline	오프라인	Apple 나의 찾기 UI
+devices_tab	Devices	기기	나의 찾기 탭 이름
+apple_account	Apple Account	Apple 계정	
+app_store_cta	Download on the App Store	App Store에서 다운로드	
+category_productivity	Productivity	생산성	App Store 한국어 카테고리
+airpods	AirPods	에어팟	검색어는 한글 「에어팟」이 압도적. 모델명은 영문(AirPods Pro 2)
+one_earbud	one (lost) earbud	(에어팟/이어폰) 한쪽	검색어 「에어팟 한쪽 잃어버렸을 때」
+charging_case	charging case	케이스 / 본체	한국 사용자는 케이스를 「본체」라고 부름 → 제목·키워드에 병기
+earbuds	earbuds / wireless earphones	무선 이어폰 / 블루투스 이어폰	둘 다 검색됨 → 둘 다 사용
+headphones	headphones	헤드폰	
+speaker	Bluetooth speaker	블루투스 스피커	
+smartwatch	smartwatch / fitness band	스마트워치 / 스마트밴드	브랜드: 갤럭시 워치, 미밴드, 핏빗, 가민
+bluetooth_generic	Bluetooth (technology)	블루투스	본문은 한글. 앱명·기술 용어만 영문
+ble	Bluetooth Low Energy	저전력 블루투스(BLE)	소비자 본문에서 BLE 남용 금지
+ble_ad	Bluetooth advertising	블루투스 광고(advertising) 신호	보통은 「블루투스 신호」로 충분
+register	tone	합니다체 + ~하세요	스토어 설명문과 동일한 존댓말

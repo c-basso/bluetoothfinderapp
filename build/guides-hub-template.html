@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{shared.lang}}">
 
 <head>
   <meta charset="UTF-8">
@@ -19,6 +19,8 @@
   <meta name="author" content="{{meta.author}}">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="{{meta.canonical}}">
+{{#each meta.alternates as |lang|}}  <link rel="alternate" hreflang="{{lang.hreflang}}" href="{{lang.url}}" />
+{{/each}}
 
   <meta name="theme-color" content="#0A0E27">
 
@@ -29,7 +31,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{meta.canonical}}">
   <meta property="og:site_name" content="{{meta.og_site_name|html_attr}}">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="{{shared.og_locale}}">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
@@ -53,9 +55,9 @@
   <div class="container">
     <!-- Top navigation -->
     <nav class="guide-nav" aria-label="Site">
-      <a class="guide-nav-brand" href="/">
+      <a class="guide-nav-brand" href="{{shared.home_url}}">
         <img src="/img/appstore/icon-192.webp" alt="{{shared.labels.logo_alt}}" width="40" height="40" loading="eager" decoding="async">
-        <span>{{shared.site_name}}</span>
+        <span>{{shared.nav_name}}</span>
       </a>
       <a class="cta-button guide-nav-cta" href="{{meta.app_store_url}}" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
         <span>{{shared.labels.nav_cta}}</span>
@@ -65,7 +67,7 @@
     <main role="main">
       <article class="guide-article guide-hub">
         <nav class="guide-breadcrumbs" aria-label="Breadcrumb">
-          <a href="/">{{shared.labels.home}}</a>
+          <a href="{{shared.home_url}}">{{shared.labels.home}}</a>
           <span aria-hidden="true">/</span>
           <span aria-current="page">{{shared.labels.guides}}</span>
         </nav>
@@ -111,7 +113,7 @@
     <footer role="contentinfo">
       <nav class="footer-languages" aria-label="Languages"><ul>{{#each footer_languages as |l|}}<li><a href="{{l.url}}" hreflang="{{l.hreflang}}" lang="{{l.hreflang}}"{{#if l.current}} aria-current="true"{{/if}}>{{l.name}}</a></li>{{/each}}</ul></nav>
       <p>{{shared.footer.copyright}}</p>
-      <p><a href="/">{{shared.labels.home}}</a> | <a href="/privacy.html">{{shared.footer.privacy_link}}</a> | <a href="/terms.html">{{shared.footer.terms_link}}</a></p>
+      <p><a href="{{shared.home_url}}">{{shared.labels.home}}</a> | <a href="/privacy.html">{{shared.footer.privacy_link}}</a> | <a href="/terms.html">{{shared.footer.terms_link}}</a></p>
       <p class="last-updated">{{shared.labels.updated}} {{meta.last_updated}}</p>
     </footer>
   </div>

@@ -1,23 +1,23 @@
 {
   "meta": {
     "lang": "vi",
-    "title": "Bluetooth Finder - Tìm thiết bị Bluetooth thất lạc | AirPods, đồng hồ, tai nghe",
-    "description": "Bluetooth Finder giúp tìm AirPods, đồng hồ, tai nghe, loa Bluetooth đang bật gần bạn. Cặp nóng–lạnh bốn bước (lạnh, ấm, nóng, rất nóng) và phần trăm gần. Cần iOS 17.1 trở lên. Tải trên App Store thường miễn phí; mua trong ứng dụng theo mô tả tại store.",
-    "keywords": "tìm bluetooth, tìm airpod, ứng dụng tìm tai nghe, quét bluetooth, iPhone, thiết bị gần, tìm đồ bluetooth, theo dõi bluetooth, loa bluetooth",
+    "title": "Cách tìm tai nghe Bluetooth bị mất – Bluetooth Finder iPhone",
+    "description": "Mất tai nghe Bluetooth, AirPods hay đồng hồ thông minh? Bluetooth Finder tìm lại bằng iPhone qua tín hiệu Bluetooth. Không cần cài đặt. Miễn phí.",
+    "keywords": "cách tìm tai nghe bluetooth bị mất, tìm lại tai nghe, ứng dụng tìm tai nghe, cách tìm airpods bị mất, mất 1 bên tai nghe, tai nghe không dây bị mất, tìm thiết bị bluetooth, quét bluetooth iphone, bluetooth finder",
     "author": "Bluetooth Finder",
     "og_url": "https://bluetoothfinderapp.com/vi/",
-    "og_title": "Bluetooth Finder - Tìm thiết bị Bluetooth gần bạn",
-    "og_description": "Quét, nóng–lạnh, %: AirPods, đồng hồ, tai nghe khi còn trong tầm. iOS 17.1+; iPhone; tải thường miễn phí, có thể mua thêm trong app.",
+    "og_title": "Bluetooth Finder – tìm tai nghe và thiết bị Bluetooth bị mất",
+    "og_description": "Tìm AirPods, tai nghe không dây, tai nghe chụp tai và mọi thiết bị Bluetooth đang bật bằng iPhone. Quét rồi đi theo chỉ dẫn nóng–lạnh, không cần cài đặt.",
     "og_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "og_image_alt": "Bluetooth Finder - tìm thiết bị",
+    "og_image_alt": "Bluetooth Finder: quét thiết bị Bluetooth ở gần để tìm AirPods và tai nghe bị mất",
     "og_image_width": "1140",
     "og_image_height": "599",
     "og_locale": "vi_VN",
     "twitter_url": "https://bluetoothfinderapp.com/vi/",
-    "twitter_title": "Bluetooth Finder - Tìm nhanh thiết bị Bluetooth",
-    "twitter_description": "AirPods, đồng hồ, loa. Bốn bước: lạnh, ấm, nóng, rất nóng, và %.",
+    "twitter_title": "Bluetooth Finder – tìm tai nghe và thiết bị Bluetooth bị mất",
+    "twitter_description": "Tìm AirPods, tai nghe và mọi thiết bị Bluetooth đang bật bằng iPhone. Chỉ dẫn nóng–lạnh và cường độ tín hiệu, không cần cài đặt.",
     "twitter_image": "https://bluetoothfinderapp.com/site_preview.png",
-    "twitter_image_alt": "Bluetooth Finder",
+    "twitter_image_alt": "Bluetooth Finder: quét thiết bị Bluetooth ở gần để tìm AirPods và tai nghe bị mất",
     "twitter_image_width": "1140",
     "twitter_image_height": "599",
     "canonical": "https://bluetoothfinderapp.com/vi/",
@@ -27,213 +27,352 @@
     "apple_mobile_web_app_status_bar_style": "default"
   },
   "header": {
-    "application_name": "Bluetooth Finder – tìm thiết bị Bluetooth",
-    "app_name_suffix": "Tìm thiết bị Bluetooth",
-    "logo_alt": "Logo Bluetooth Finder: AirPods, smartwatch, tai nghe",
+    "application_name": "Bluetooth Finder – ứng dụng tìm thiết bị Bluetooth bị mất",
+    "app_name_suffix": "Tìm tai nghe và thiết bị Bluetooth bị mất",
+    "logo_alt": "Biểu tượng ứng dụng Bluetooth Finder: tìm AirPods, tai nghe và đồng hồ thông minh bị mất",
     "app_name": "Bluetooth Finder",
-    "title": "Bluetooth Finder",
-    "tagline": "Lấy lại đồ bị mất dễ hơn.",
-    "download_text": "Tải trên App Store",
-    "download_aria_label": "Tải Bluetooth Finder từ App Store",
-    "download_img_alt": "Tải Bluetooth Finder trên App Store"
+    "title": "Bluetooth Finder: tìm lại tai nghe bị mất",
+    "tagline": "Ứng dụng trên iPhone giúp bạn tìm lại thiết bị Bluetooth bị mất: AirPods, tai nghe không dây hoặc chụp tai, đồng hồ thông minh hay loa. Đi theo tín hiệu với chỉ dẫn nóng–lạnh cho đến khi đứng ngay cạnh nó – không cần cài đặt trước và không cần ứng dụng Tìm.",
+    "download_text": "Tải về trên App Store",
+    "download_aria_label": "Tải Bluetooth Finder về trên App Store",
+    "download_img_alt": "Tải về trên App Store: Bluetooth Finder",
+    "meta_line": "Tải miễn phí · iOS 17.1 trở lên · 24,2 MB · tiếng Việt và 30 ngôn ngữ khác"
   },
   "screenshots": {
     "items": [
       {
-        "src": "/img/1_cover_12_framed.webp",
-        "alt": "Bluetooth Finder - màn hình chính"
+        "src": "/img/appstore/screenshot-1-cover.webp",
+        "alt": "Bluetooth Finder trên iPhone: màn hình bắt đầu để tìm AirPods và tai nghe bị mất",
+        "caption": "Quét chỉ với một chạm"
       },
       {
-        "src": "/img/2_scan_12_framed.webp",
-        "alt": "Bluetooth Finder - quét"
+        "src": "/img/appstore/screenshot-2-track.webp",
+        "alt": "Màn hình tìm kiếm với chỉ dẫn nóng–lạnh và phần trăm khoảng cách gần tới thiết bị Bluetooth bị mất",
+        "caption": "Nóng–lạnh kèm phần trăm khoảng cách gần"
       },
       {
-        "src": "/img/3_track_12_framed.webp",
-        "alt": "Bluetooth Finder - theo dõi"
+        "src": "/img/appstore/screenshot-3-scan.webp",
+        "alt": "Quét Bluetooth trên iPhone: danh sách thiết bị Bluetooth ở gần kèm cường độ tín hiệu",
+        "caption": "Mọi thiết bị ở gần kèm cường độ tín hiệu"
       },
       {
-        "src": "/img/4_info_12_framed.webp",
-        "alt": "Bluetooth Finder - thông tin"
+        "src": "/img/appstore/screenshot-4-info.webp",
+        "alt": "Thông tin thiết bị Bluetooth: tên, nhà sản xuất và kiểu máy",
+        "caption": "Tên, nhà sản xuất và kiểu máy"
       }
     ]
   },
   "content": {
     "summary_label": "Tóm tắt",
-    "summary_tldr": "Bluetooth Finder là ứng dụng trên iPhone (iOS) hỗ trợ tìm AirPods, đồng hồ, loa và thiết bị Bluetooth đang bật gần. Cặp nóng–lạnh bốn bước (lạnh, ấm, nóng, rất nóng) cùng phần trăm ước lượng. Khác với Find My — không thay mọi kịch bản một-một, mà hướng tới tìm theo tín hiệu trong vùng phủ. Tải thường miễn phí, cần iOS 17.1+.",
-    "intro1": "Bạn từng bỏ quên <strong>tai nghe in-ear</strong>, <strong>vòng đeo</strong> hay <strong>loa</strong> không? <strong>Bluetooth Finder</strong> là công cụ <em>quét và tìm Bluetooth gần</em>: mở danh sách, chọn đúng dòng, đi theo cặp bước và %, biết bạn đang tới gần hay rời — tiện khi vội ra khỏi phòng hoặc lục tìm cả gian phòng.",
-    "intro2": "Danh sách gần cập nhật nhanh, bớt phải tìm từng nơi mù. Chỉ số mang tính gợi ý: tường, kim loại, đám đông và pin làm tín hiệu đổi — đọc tổng hợp, đừng tách một con số mà tưởng tượng từng mét."
+    "summary_tldr": "Bluetooth Finder là ứng dụng iOS miễn phí (24,2 MB, iOS 17.1 trở lên) giúp tìm lại thiết bị Bluetooth bị mất – AirPods, tai nghe không dây và chụp tai, đồng hồ thông minh và loa – dựa trên cường độ tín hiệu. Khác với ứng dụng Tìm của Apple, bạn không cần cài đặt gì trước, và ứng dụng hoạt động với mọi thiết bị Bluetooth đang bật, kể cả Sony, JBL, Samsung hay Xiaomi. Chọn thiết bị trong danh sách, đi theo chỉ dẫn nóng–lạnh và phần trăm khoảng cách gần – vậy là xong.",
+    "intro1": "Để quên AirPods đâu đó trong nhà? Tai nghe không dây rơi vào khe sofa? <strong>Bluetooth Finder</strong> quét các tín hiệu Bluetooth xung quanh và dẫn bạn tới bất kỳ thiết bị nào đang bật trong phạm vi – không cần mạng Tìm, không cần iCloud và không cần ghép đôi trước.",
+    "intro2": "Ứng dụng hoạt động như một máy dò kim loại cho thiết bị của bạn: chọn thiết bị trong danh sách, đi quanh phòng, chỉ báo sẽ cho biết bạn đang lại gần (ấm hơn) hay ra xa (lạnh hơn). Phần trăm khoảng cách gần xác nhận bạn đang đi đúng hướng, còn tên, nhà sản xuất và kiểu máy giúp bạn chắc chắn đang theo dõi đúng thiết bị của mình – kể cả khi xung quanh có hàng chục tín hiệu Bluetooth."
   },
   "features": {
-    "title": "Tại sao Bluetooth Finder nổi bật",
-    "subtitle": "Bạn nhận được thực tế",
+    "title": "Tìm thiết bị Bluetooth: AirPods, tai nghe và đồng hồ thông minh",
+    "subtitle": "Được tạo ra cho một việc duy nhất: tìm lại thiết bị Bluetooth bị mất thật nhanh.",
     "items": [
       {
         "number": "1",
-        "title": "Quét nhanh",
-        "description": "Sau khi bật quyền, ứng dụng bắt thiết bị đang phát trong tầm và lấp danh sách, thường không cần cài đặt phức tạp: kết quả hiện sớm."
+        "title": "Quét Bluetooth trong vài giây",
+        "description": "Chỉ một chạm: ứng dụng tìm mọi thiết bị Bluetooth đang bật ở gần và hiển thị cường độ tín hiệu theo thời gian thực. AirPods, tai nghe không dây và chụp tai, đồng hồ thông minh, vòng đeo tay, loa – mọi thứ phát Bluetooth đều xuất hiện trong danh sách."
       },
       {
         "number": "2",
-        "title": "Nóng–lạnh: lạnh, ấm, nóng, rất nóng",
-        "description": "Các bước mô tả: lạnh tức tín hiệu yếu hoặc xa; ấm và nóng — bạn tới gần; rất nóng — tầm tới tay. Dựa cường độ, không bằng thước, nhưng cảm nhận tới gần hay lùi xa hơn."
+        "title": "Chỉ dẫn nóng–lạnh",
+        "description": "Đi quanh phòng, ứng dụng sẽ hiển thị lạnh, ấm, nóng hoặc rất nóng theo tín hiệu thực tế. Thay vì lục tung mọi ngăn kéo, bạn chơi trò nóng–lạnh vài phút là thắng."
       },
       {
         "number": "3",
-        "title": "Phần trăm gần (%)",
-        "description": "Cao hơn thường gợi ý gần hơn theo tín hiệu, nhưng không tương đương bảng đo. Đọc cùng cặp nóng–lạnh, không tách số lẻ."
+        "title": "Phần trăm khoảng cách gần",
+        "description": "Con số phần trăm cho biết bạn đang ở gần đến mức nào. Hãy xem nó tăng từ 40% lên 95% khi bạn tiến lại chiếc gối mà tai nghe đã trượt xuống bên dưới."
       },
       {
         "number": "4",
-        "title": "Thông tin thiết bị",
-        "description": "Có tên, hãng, mẫu trên danh sách thì dễ tách cả chục tai nghe trong cùng phòng hay văn phòng."
+        "title": "Thông tin thiết bị, không nhầm lẫn",
+        "description": "Tên, nhà sản xuất và kiểu máy của từng thiết bị giúp bạn theo dõi đúng AirPods Pro của mình, chứ không phải TV nhà hàng xóm – kể cả ở nơi có nhiều tín hiệu."
       },
       {
         "number": "5",
-        "title": "Hôm nay ở nhà, mai trên tàu",
-        "description": "Hiệu quả khi sóng bật và còn trong tầm. Tìm AirPods, vòng, loa giúp bớt lục từng hộc khi tín hiệu và cảnh quan hợp, không bảo đảm mọi tình."
+        "title": "Không cần cài đặt, không cần tài khoản",
+        "description": "Bạn không phải thiết lập gì trước khi làm mất đồ. Ứng dụng tìm thiết bị qua tín hiệu Bluetooth đang phát – kể cả AirPods mua lại, tai nghe Sony, JBL hay Bose và thiết bị chưa từng có trong ứng dụng Tìm."
+      },
+      {
+        "number": "6",
+        "title": "Hoạt động ở nơi bạn hay làm mất đồ",
+        "description": "Ở nhà, văn phòng, phòng gym, trên xe, trên tàu hay ở quán cà phê. Trong nhà, Bluetooth thường phủ khoảng 10–30 mét – đúng phạm vi mà phần lớn thiết bị bị thất lạc."
       }
     ]
   },
-  "how_to": {
-    "title": "Cách dùng Bluetooth Finder",
-    "description": "Mở app, cho quyền Bluetooth, đợi quét, chạm dòng đúng tai nghe hoặc loa. Bước quanh phòng, xem: lạnh, ấm, nóng, rất nóng và %; khi rất nóng và % cao, thiết bị rất gần, kiểm tra thử điểm. Chỗ đông, chọn tên bạn ở danh sách trước."
+  "how_it_works": {
+    "title": "Cách hoạt động",
+    "subtitle": "Từ lúc tải về đến khi tìm thấy chỉ mất khoảng hai phút.",
+    "steps": [
+      {
+        "title": "Tải ứng dụng",
+        "description": "Tải Bluetooth Finder miễn phí trên App Store. Ứng dụng cần iOS 17.1 trở lên và chỉ nặng 24,2 MB – cài qua Wi-Fi trong vài giây."
+      },
+      {
+        "title": "Quét thiết bị ở gần",
+        "description": "Mở ứng dụng và bắt đầu quét. Mọi thiết bị Bluetooth đang bật trong phạm vi sẽ hiện ra kèm cường độ tín hiệu."
+      },
+      {
+        "title": "Chọn thiết bị bị mất",
+        "description": "Nhận ra nó qua tên, nhà sản xuất hoặc kiểu máy. Chưa chắc? Thường đó là tín hiệu mạnh không có tên và thay đổi khi bạn đi từ phòng này sang phòng khác."
+      },
+      {
+        "title": "Đi theo chỉ dẫn nóng–lạnh",
+        "description": "Đi chậm quanh phòng. Chỉ báo chuyển từ lạnh sang ấm rồi nóng khi tín hiệu mạnh lên, và phần trăm khoảng cách gần tăng dần khi bạn lại gần."
+      },
+      {
+        "title": "Tìm thấy và nhặt lên",
+        "description": "Khi hiện „rất nóng” và trên 90%, thiết bị nằm trong tầm tay. Hãy kiểm tra dưới gối, trong túi áo khoác, túi xách và ngăn kéo quanh bạn."
+      }
+    ]
   },
-  "why_love": {
-    "title": "Dùng để làm gì",
-    "description": "Ít đi vòng, nhiều tín hiệu: cặp nóng–lạnh, % hỗ trợ, trong phòng, ngoài sân, thiết bị vẫn phát Bluetooth, giao diện mau. Phù hợp mất thứ nhỏ: văn phòng, tàu, sofa."
-  },
-  "who_should_use": {
-    "title": "Dành cho ai",
-    "description": "Người dùng AirPods, in-ear, đồng hồ, dây đeo, loa, đi làm, đi học, ồn ào: trước hết thu hẹp vùng, sau đó tìm bằng tay và mắt."
-  },
-  "advanced_features": {
-    "title": "Thông tin thêm",
-    "description": "Danh sách gần cập nhật trực tiếp, bước + % tóm nhanh hơn, ứng dụng nhẹ. Một số tính năng mua thêm, luôn xem App Store. Tải, pin, nền, phụ thuộc cách dùng."
+  "guides": {
+    "title": "Hướng dẫn: cách tìm lại thiết bị",
+    "subtitle": "Hướng dẫn từng bước cho các tình huống thường gặp: cách nào hiệu quả, cách nào không và làm sao lấy lại thiết bị.",
+    "read_label": "Đọc hướng dẫn →",
+    "items": [
+      {
+        "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+        "title": "Cách tìm AirPods bị mất",
+        "teaser": "Mọi cách thực sự hiệu quả: ứng dụng Tìm, phát âm thanh và đi theo tín hiệu Bluetooth khi ứng dụng Tìm không đủ."
+      },
+      {
+        "url": "/vi/huong-dan/tim-airpods-khong-can-ung-dung-tim/",
+        "title": "Tìm AirPods không cần ứng dụng Tìm",
+        "teaser": "Không có iCloud, AirPods mua lại hay chưa từng bật Tìm? Vẫn tìm được qua tín hiệu Bluetooth."
+      },
+      {
+        "url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+        "title": "Mất 1 bên tai nghe AirPods",
+        "teaser": "Một bên tai nghe rất nhỏ và im lặng – nhưng vẫn phát Bluetooth. Đây là cách tìm."
+      },
+      {
+        "url": "/vi/huong-dan/tim-airpods-het-pin/",
+        "title": "AirPods hết pin hoặc đã tắt",
+        "teaser": "Hết pin hay tắt nguồn? Điều gì vẫn thực sự giúp được – và cách chuẩn bị cho lần sau."
+      },
+      {
+        "url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+        "title": "Cách tìm tai nghe Bluetooth bị mất",
+        "teaser": "Sony, JBL, Bose hay Beats: phần lớn tai nghe không có trong ứng dụng Tìm. Hãy tìm qua cường độ tín hiệu."
+      },
+      {
+        "url": "/vi/huong-dan/tim-tai-nghe-khong-day-bi-mat/",
+        "title": "Tai nghe không dây bị mất",
+        "teaser": "Galaxy Buds, Xiaomi, JBL hay bất kỳ hãng nào: một cách tìm được tất cả, miễn là còn bật."
+      },
+      {
+        "url": "/vi/huong-dan/tim-dong-ho-thong-minh-bi-mat/",
+        "title": "Đồng hồ thông minh hoặc Mi Band bị mất",
+        "teaser": "Mi Band, Huawei, Garmin hay Apple Watch: tìm trong nhà hoặc trong túi tập gym qua tín hiệu Bluetooth."
+      },
+      {
+        "url": "/vi/huong-dan/tim-loa-bluetooth-bi-mat/",
+        "title": "Loa Bluetooth bị mất",
+        "teaser": "Có tìm được loa JBL không? Có, nếu loa còn bật. Đi theo tín hiệu mạnh của nó cho đến khi thấy."
+      },
+      {
+        "url": "/vi/huong-dan/quet-bluetooth-iphone/",
+        "title": "Quét Bluetooth trên iPhone",
+        "teaser": "Xem mọi thiết bị Bluetooth quanh bạn kèm cường độ tín hiệu, nhà sản xuất và kiểu máy – và biết cái nào là cái nào."
+      },
+      {
+        "url": "/vi/huong-dan/tim-hop-sac-airpods-bi-mat/",
+        "title": "Mất hộp sạc AirPods",
+        "teaser": "Câu trả lời thật về hộp sạc: khi nào tìm được, khi nào không và nên làm gì."
+      }
+    ]
   },
   "final_cta": {
-    "title": "Tải Bluetooth Finder hôm nay",
-    "paragraph1": "Đừng tốn thời gian đi vòng. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Mở App Store</a> dùng cặp nóng–lạnh và % để lấy lại AirPods, đồng hồ, loa hoặc thiết bị Bluetooth đang bật trong tầm, bớt căng thay vì tìm mò.",
-    "cta_text": "Tải trên App Store",
-    "cta_aria_label": "Tải Bluetooth Finder từ App Store",
-    "cta_img_alt": "Tải Bluetooth Finder trên App Store"
+    "title": "Thiết bị của bạn vẫn ở gần. Hãy lấy lại nó.",
+    "paragraph1": "Phần lớn thiết bị Bluetooth „bị mất” nằm cách bạn chưa đến 30 mét: trong sofa, túi áo khoác, túi tập gym hay giữa các ghế xe. Bluetooth Finder biến phạm vi đó thành một cuộc tìm kiếm có chỉ dẫn, thường kết thúc chỉ sau vài phút. Miễn phí, không cần cài đặt. <a href=\"__APP_STORE_URL__\" rel=\"noopener noreferrer\">Tải ứng dụng trên App Store</a> và thôi tìm mò.",
+    "cta_text": "Tải về trên App Store",
+    "cta_aria_label": "Tải Bluetooth Finder về trên App Store",
+    "cta_img_alt": "Tải về trên App Store: Bluetooth Finder"
   },
   "footer": {
-    "copyright": "© 2026 Bluetooth Finder. Bảo lưu mọi quyền.",
-    "privacy_link": "Polityka prywatności",
+    "copyright": "© {year} Bluetooth Finder. Bảo lưu mọi quyền.",
+    "guides_link": "Hướng dẫn",
+    "guides_url": "/vi/huong-dan/",
+    "privacy_link": "Chính sách quyền riêng tư",
     "privacy_url": "/privacy.html",
-    "terms_link": "Regulamin",
+    "terms_link": "Điều khoản sử dụng",
     "terms_url": "/terms.html"
   },
   "app_info": {
     "developer": "Vladimir Ivakhnenko",
-    "category": "Hiệu suất",
+    "category": "Năng suất",
     "age_rating": "4+",
-    "file_size": "25.3 MB",
-    "languages": "Tiếng Việt (trang này), English",
-    "compatibility": "Cần iOS 17.1 trở lên",
+    "file_size": "24,2 MB",
+    "languages": "Tiếng Việt và 30 ngôn ngữ khác",
+    "compatibility": "Yêu cầu iOS 17.1 trở lên",
     "platform": "iPhone",
     "copyright": "© c-basso",
     "in_app_purchases": true
   },
   "seo": {
     "breadcrumb_home": "Trang chủ",
-    "last_updated_label": "Cập nhật",
-    "key_facts_title": "Bluetooth Finder qua số liệu",
+    "last_updated_label": "Cập nhật lần cuối",
+    "key_facts_title": "Bluetooth Finder qua các con số",
     "key_facts": [
       {
-        "value": "25.3 MB",
-        "label": "Dung lượng"
+        "value": "Miễn phí",
+        "label": "Tải về, gói premium tùy chọn"
+      },
+      {
+        "value": "24,2 MB",
+        "label": "Dung lượng ứng dụng – cài trong vài giây"
       },
       {
         "value": "iOS 17.1+",
-        "label": "Hệ thống"
+        "label": "Hoạt động trên iPhone"
       },
       {
-        "value": "4+",
-        "label": "Độ tuổi"
+        "value": "10–30 m",
+        "label": "Phạm vi Bluetooth thông thường trong nhà"
       },
       {
-        "value": "Miễn phí (IAP)",
-        "label": "Tải về"
+        "value": "31 ngôn ngữ",
+        "label": "Tiếng Việt và 30 ngôn ngữ khác"
       },
       {
-        "value": "ví dụ: AirPods, đồng hồ, tai nghe",
-        "label": "Ví dụ"
+        "value": "0 cài đặt",
+        "label": "Không tài khoản, không ghép đôi, không cần ứng dụng Tìm"
       }
     ],
-    "comparison_title": "Bluetooth Finder, Find My và trình quét thông thường",
-    "comparison_intro": "So sánh công bằng, không nói quá:",
-    "comparison_col_feature": "Tiêu chí",
+    "comparison_title": "Bluetooth Finder so với ứng dụng Tìm của Apple và ứng dụng quét Bluetooth thông thường",
+    "comparison_intro": "Ba cách tìm thiết bị bị mất – và khi nào nên dùng cách nào:",
+    "comparison_col_feature": "Tính năng",
     "comparison_col_bluetooth_finder": "Bluetooth Finder",
-    "comparison_col_find_my": "Find My",
-    "comparison_col_generic": "Quét chung",
+    "comparison_col_find_my": "Tìm của Apple",
+    "comparison_col_generic": "Ứng dụng quét thông thường",
     "comparison_rows": [
       {
         "feature": "Loại thiết bị",
-        "bluetooth_finder": "Bật, thấy trong Bluetooth trong vùng phủ, nhiều hãng",
-        "find_my": "Chủ yếu Apple, thường đã đăng ký trước với tài khoản",
-        "generic": "Bất kỳ trên danh sách, thiếu cặp nóng–lạnh dẫn đường"
+        "bluetooth_finder": "Mọi thiết bị Bluetooth đang bật, mọi hãng",
+        "find_my": "Chỉ thiết bị Apple và phụ kiện tương thích mạng Tìm",
+        "generic": "Mọi thiết bị Bluetooth (chỉ dạng danh sách)"
       },
       {
-        "feature": "Chuẩn bị trước",
-        "bluetooth_finder": "Hầu hết không cần thiết lập đặc biệt",
-        "find_my": "Có, theo tình huống mạng Find My / iCloud",
-        "generic": "Thường không bắt buộc"
+        "feature": "Cài đặt trước khi mất",
+        "bluetooth_finder": "Không cần",
+        "find_my": "Phải liên kết trước với Tài khoản Apple",
+        "generic": "Không cần"
       },
       {
-        "feature": "Dẫn tới thiết bị",
-        "bluetooth_finder": "Bốn bước nóng–lạnh + % gần",
-        "find_my": "Hướng/khoảng cách ở máy hỗ trợ",
-        "generic": "Nhiều khi chỉ danh sách, mức hỗ trợ khác nhau"
+        "feature": "Dẫn đường tới thiết bị",
+        "bluetooth_finder": "Nóng–lạnh + phần trăm khoảng cách gần",
+        "find_my": "Bản đồ, âm thanh và Tìm ở gần trên một số mẫu",
+        "generic": "Danh sách tín hiệu, không dẫn đường"
       },
       {
-        "feature": "Nền tảng (ứng dụng này)",
-        "bluetooth_finder": "iOS 17.1+ trên iPhone",
-        "find_my": "Hệ sinh thái Apple",
-        "generic": "Tùy ứng dụng"
+        "feature": "Tai nghe hãng khác",
+        "bluetooth_finder": "Có",
+        "find_my": "Không",
+        "generic": "Thấy nhưng không dẫn tới"
+      },
+      {
+        "feature": "Thiết bị ở xa hoặc đã tắt",
+        "bluetooth_finder": "Không – thiết bị phải đang bật và trong phạm vi",
+        "find_my": "Có, qua mạng Tìm",
+        "generic": "Không"
+      },
+      {
+        "feature": "Phù hợp nhất cho",
+        "bluetooth_finder": "Tìm ở gần, mọi hãng, không cần chuẩn bị",
+        "find_my": "Thiết bị Apple đã đăng ký bị mất ở xa",
+        "generic": "Chẩn đoán kỹ thuật"
       }
     ],
-    "faq_title": "Câu hỏi thường gặp: Bluetooth Finder",
+    "faq_title": "Câu hỏi thường gặp",
     "faq": [
       {
-        "question": "Bluetooth Finder là gì?",
-        "answer": "Đây là ứng dụng trên iPhone giúp tìm thiết bị Bluetooth đang bật gần bạn — tai nghe, loa, đồng hồ — với cặp nóng–lạnh bốn bước (lạnh, ấm, nóng, rất nóng) và phần trăm gần. Trước hết thu hẹp vùng, rồi tìm bằng mắt và tay thay vì đoán bừa."
+        "question": "Bluetooth Finder là ứng dụng gì?",
+        "answer": "Bluetooth Finder là ứng dụng iOS miễn phí giúp tìm lại thiết bị Bluetooth bị mất qua tín hiệu theo thời gian thực. Ứng dụng quét AirPods, tai nghe không dây và chụp tai, đồng hồ thông minh, vòng đeo tay và loa ở gần, rồi dẫn bạn tới thiết bị đã chọn bằng chỉ dẫn nóng–lạnh và phần trăm khoảng cách gần. Cần iOS 17.1 trở lên, dung lượng 24,2 MB. Trên App Store, ứng dụng có tên „Find Bluetooth Device”.",
+        "learn_more_url": "/vi/huong-dan/",
+        "learn_more_text": "Tìm hiểu thêm: tất cả hướng dẫn →"
       },
       {
-        "question": "Cách hoạt động thế nào?",
-        "answer": "Ứng dụng quét, liệt kê thiết bị đang phát, cập nhật theo tín hiệu. Có bước: lạnh, ấm, nóng, rất nóng, phần trăm, và nếu có thì tên hãng, mẫu, tên thiết bị."
+        "question": "Làm sao tìm thiết bị Bluetooth bằng iPhone?",
+        "answer": "Dùng một ứng dụng như Bluetooth Finder: bắt đầu quét, mọi thiết bị Bluetooth đang bật trong phạm vi sẽ hiện ra kèm cường độ tín hiệu. Chọn thiết bị của bạn rồi đi theo hướng chỉ báo chuyển từ lạnh sang nóng. Mục Cài đặt > Bluetooth trên iPhone chỉ hiển thị thiết bị đã ghép đôi hoặc đang ở chế độ ghép đôi – và không cho biết chúng nằm ở đâu.",
+        "learn_more_url": "/vi/huong-dan/quet-bluetooth-iphone/",
+        "learn_more_text": "Tìm hiểu thêm: quét Bluetooth trên iPhone →"
       },
       {
-        "question": "Có tìm được AirPods bị mất không?",
-        "answer": "Nếu hộp hoặc tai còn phát, đang bật và thấy trong danh sách, bạn có thể theo hướng dẫn nóng–lạnh rồi thu hẹp vùng, dùng mắt và tai. Đây không phải bảo đảm từng mét, mà thu hẹp thực tế trước khi tìm chính xác."
+        "question": "Cách tìm tai nghe Bluetooth bị mất?",
+        "answer": "Nếu tai nghe còn bật và trong phạm vi – hãy tìm qua tín hiệu Bluetooth. Mọi tai nghe đang bật – AirPods, Galaxy Buds, JBL, Sony, Xiaomi – đều phát tín hiệu mạnh dần khi bạn lại gần. Ứng dụng đọc tín hiệu đó và dẫn bạn tới tai nghe. Tai nghe bị mất thường ở gần: trong sofa, túi áo khoác hoặc balo.",
+        "learn_more_url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: tìm tai nghe Bluetooth bị mất →"
       },
       {
-        "question": "Hãng khác, không chỉ Apple?",
-        "answer": "Có: mọi thiết bị bật và thấy trong Bluetooth có thể lên danh sách — đồng hồ, vòng tay, loa, tai nghe. Mỗi hãng bật và quảng bá khác nhau, kết quả khác nhau."
+        "question": "Tai nghe không dây bị mất có tìm lại được không?",
+        "answer": "Được, miễn là còn bật và trong phạm vi. Tai nghe không dây đã lấy ra khỏi hộp sẽ phát Bluetooth khi còn pin. Hãy quét, chọn tai nghe trong danh sách theo tên hoặc nhà sản xuất, rồi đi theo chỉ dẫn nóng–lạnh cho đến khi phần trăm khoảng cách gần vượt 90%.",
+        "learn_more_url": "/vi/huong-dan/tim-tai-nghe-khong-day-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: tai nghe không dây bị mất →"
       },
       {
-        "question": "Ứng dụng có miễn phí không?",
-        "answer": "Tải trên App Store thường miễn phí. Một số tính năng hoặc gói mở rộng có thể mua trong ứng dụng — luôn xem mô tả trong store."
+        "question": "Mất AirPods – tìm bằng iPhone như thế nào?",
+        "answer": "Nếu đã bật Tìm, hãy bắt đầu từ đó: bạn sẽ thấy vị trí trên bản đồ và có thể phát âm thanh. Nếu AirPods không có trong Tìm hoặc bản đồ chỉ hiện tòa nhà, hãy quét bằng Bluetooth Finder: khi ở ngoài hộp và còn pin, AirPods phát tín hiệu Bluetooth để bạn lần theo từng phòng.",
+        "learn_more_url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: cách tìm AirPods bị mất →"
       },
       {
-        "question": "Điện thoại cần gì?",
-        "answer": "iPhone iOS 17.1 trở lên theo bản ứng dụng này, bật Bluetooth, cấp quyền. Thời lượng và pin phụ thuộc cách dùng và nền."
+        "question": "Tìm AirPods không cần ứng dụng Tìm hay iCloud được không?",
+        "answer": "Được. AirPods phát Bluetooth ngay khi ra khỏi hộp và được bật, ứng dụng đi theo tín hiệu đó trực tiếp – không cần mạng Tìm, không cần iCloud và không cần ghép đôi trước. Cách này cũng dùng được với AirPods mua lại vẫn còn liên kết với Tài khoản Apple của chủ cũ.",
+        "learn_more_url": "/vi/huong-dan/tim-airpods-khong-can-ung-dung-tim/",
+        "learn_more_text": "Tìm hiểu thêm: tìm AirPods không cần ứng dụng Tìm →"
       },
       {
-        "question": "Phần trăm có nghĩa còn bao nhiêu mét?",
-        "answer": "Không — đó là mức tương đối, phụ thuộc tường, kim loại, đám đông và nhiều yếu tố. Kết hợp với bước nóng–lạnh, đừng tin một con số."
+        "question": "Mất 1 bên tai nghe AirPods có tìm được không?",
+        "answer": "Được. Mỗi bên AirPods phát tín hiệu Bluetooth riêng khi ở ngoài hộp và còn pin. Quét bằng ứng dụng, chọn AirPods trong danh sách và đi theo chỉ dẫn nóng–lạnh: phần trăm khoảng cách gần tăng vọt khi bạn ở ngay cạnh bên tai nghe bị mất.",
+        "learn_more_url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+        "learn_more_text": "Tìm hiểu thêm: mất 1 bên tai nghe AirPods →"
       },
       {
-        "question": "Dùng được ở chỗ đông, ga, siêu thị không?",
-        "answer": "Có, nhưng danh sách có thể dài: đọc nhãn thiết bị, lại gần, xem %, rồi tìm. Càng nhiều tai nghe lạ, càng cần đúng tên trên danh sách."
+        "question": "Có tìm được thiết bị Bluetooth đã tắt hoặc hết pin không?",
+        "answer": "Không theo thời gian thực: thiết bị đã tắt hoặc cạn pin hoàn toàn không phát tín hiệu nào mà ứng dụng tìm Bluetooth – hay ứng dụng Tìm – có thể bắt được. Hãy xem vị trí cuối cùng trong Tìm hoặc ứng dụng của nhà sản xuất, tìm kỹ ở đó và thỉnh thoảng quét lại: nhiều tai nghe còn chút pin sẽ thức dậy trong giây lát.",
+        "learn_more_url": "/vi/huong-dan/tim-airpods-het-pin/",
+        "learn_more_text": "Tìm hiểu thêm: AirPods hết pin →"
       },
       {
-        "question": "Khác gì với Find My của Apple?",
-        "answer": "Find My thuộc hệ sinh thái Apple, cần tài khoản và nhiều khi đăng ký trước. Bluetooth Finder ưu tiên thiết bị đang phát Bluetooth gần điện thoại, không bắt ghép sẵn. Đó là tình huống khác, đôi khi bổ sung, không thay thế 1-1 mọi lúc."
+        "question": "Đồng hồ thông minh hoặc Mi Band bị mất có tìm được không?",
+        "answer": "Được. Đồng hồ thông minh và vòng đeo tay như Mi Band, Huawei hay Garmin phát Bluetooth gần như liên tục nên rất dễ phát hiện. Hãy quét, chọn đồng hồ theo tên hoặc nhà sản xuất và đi tới chỗ tín hiệu mạnh nhất.",
+        "learn_more_url": "/vi/huong-dan/tim-dong-ho-thong-minh-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: đồng hồ thông minh bị mất →"
       },
       {
-        "question": "Có ổn khi thiết bị không nằm trong Find My hoặc không phải Apple?",
-        "answer": "Đôi khi, nếu bật, gần và thấy khi quét — ứng dụng thu hẹp vùng. Trộm xa, tắt nguồn, thủ tục khác: cần bước ngoài một app này."
+        "question": "Có tìm được loa JBL hoặc loa Bluetooth khác không?",
+        "answer": "Được, nếu loa còn bật. Loa JBL, Sony, Bose hay Anker có bộ phát Bluetooth mạnh hơn tai nghe và thường hiện trong danh sách từ hầu hết mọi chỗ trong nhà. Hãy quét, chọn loa và đi theo chỉ dẫn nóng–lạnh qua từng phòng cho đến khi phần trăm khoảng cách gần đạt mức cao nhất.",
+        "learn_more_url": "/vi/huong-dan/tim-loa-bluetooth-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: loa Bluetooth bị mất →"
+      },
+      {
+        "question": "Có tìm được hộp sạc AirPods không?",
+        "answer": "Đôi khi. Hộp sạc đóng nắp có AirPods bên trong sẽ ở chế độ nghỉ và không phát gì, còn hộp sạc thường để trống không có bộ phát. Khi nắp mở, AirPods bên trong thức dậy và phát tín hiệu – lúc đó quét sẽ thấy. Hộp sạc của AirPods Pro 2 và các đời mới hơn cũng có thể tìm trong ứng dụng Tìm.",
+        "learn_more_url": "/vi/huong-dan/tim-hop-sac-airpods-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: mất hộp sạc AirPods →"
+      },
+      {
+        "question": "Tìm bằng Bluetooth chính xác đến mức nào?",
+        "answer": "Ứng dụng chuyển cường độ tín hiệu theo thời gian thực thành phần trăm và mức nóng–lạnh. Bluetooth không phải GPS nên không hiện một điểm chính xác trên bản đồ – nhưng trong phạm vi 10–30 mét trong nhà, nó thu hẹp vùng tìm kiếm đến tầm tay một cách đáng tin cậy: „rất nóng” và trên 90% nghĩa là thiết bị ở ngay cạnh bạn.",
+        "learn_more_url": "/vi/huong-dan/quet-bluetooth-iphone/",
+        "learn_more_text": "Tìm hiểu thêm: cường độ tín hiệu hoạt động thế nào →"
+      },
+      {
+        "question": "Bluetooth Finder có miễn phí không?",
+        "answer": "Có, ứng dụng miễn phí trên App Store và có gói premium tùy chọn kèm thời gian dùng thử miễn phí. Cần iOS 17.1 trở lên trên iPhone, dung lượng 24,2 MB.",
+        "learn_more_url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+        "learn_more_text": "Tìm hiểu thêm: bắt đầu tìm ngay →"
+      },
+      {
+        "question": "Khác gì so với ứng dụng Tìm của Apple?",
+        "answer": "Tìm định vị thiết bị Apple đã liên kết với Tài khoản Apple của bạn trước khi mất và nhờ mạng lưới của mình có thể tìm cả khi ở xa. Bluetooth Finder không cần đăng ký và dùng được với mọi hãng, nhưng chỉ khi thiết bị đang bật và trong phạm vi Bluetooth. Nói ngắn gọn: Tìm đưa bạn tới đúng tòa nhà, còn công cụ tìm Bluetooth đưa bạn tới đúng chiếc gối trên sofa.",
+        "learn_more_url": "/vi/huong-dan/tim-airpods-khong-can-ung-dung-tim/",
+        "learn_more_text": "Tìm hiểu thêm: tìm không cần ứng dụng Tìm →"
       }
     ],
     "structured_data": {
@@ -241,7 +380,7 @@
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "Bluetooth Finder",
-        "alternateName": "Ứng dụng tìm thiết bị Bluetooth gần bạn",
+        "alternateName": "Find Bluetooth Device",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "iOS",
         "offers": {
@@ -250,19 +389,19 @@
           "priceCurrency": "VND",
           "availability": "https://schema.org/InStock"
         },
-        "description": "Ứng dụng trên iPhone (iOS 17.1 trở lên) tìm tai nghe, loa, đồng hồ Bluetooth đang bật gần: cặp nóng–lạnh bốn bước (lạnh, ấm, nóng, rất nóng) và % gần, cộng tên hãng, mẫu, tên khi có.",
+        "description": "Bluetooth Finder là ứng dụng iOS miễn phí giúp tìm lại thiết bị Bluetooth bị mất – AirPods, tai nghe không dây và chụp tai, đồng hồ thông minh, vòng đeo tay và loa – qua cường độ tín hiệu theo thời gian thực. Ứng dụng quét tín hiệu Bluetooth xung quanh, hiển thị thiết bị kèm tên, nhà sản xuất và kiểu máy, rồi dẫn tới thiết bị đã chọn bằng chỉ dẫn nóng–lạnh và phần trăm khoảng cách gần. Không cần mạng Tìm, không cần tài khoản iCloud và không cần cài đặt.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/logo.webp",
-          "width": 140,
-          "height": 140,
-          "caption": "Logo Bluetooth Finder"
+          "url": "https://bluetoothfinderapp.com/img/appstore/icon-512.webp",
+          "width": 512,
+          "height": 512,
+          "caption": "Biểu tượng ứng dụng Bluetooth Finder"
         },
         "screenshot": {
           "@type": "ImageObject",
-          "url": "https://bluetoothfinderapp.com/img/1_cover_12_framed.webp",
-          "width": 390,
-          "height": 844
+          "url": "https://bluetoothfinderapp.com/img/appstore/screenshot-2-track.webp",
+          "width": 640,
+          "height": 1385
         },
         "url": "https://bluetoothfinderapp.com/vi/",
         "author": {
@@ -273,132 +412,18 @@
           "@type": "Person",
           "name": "Vladimir Ivakhnenko"
         },
-        "keywords": "bluetooth, tìm, AirPods, tai nghe, iOS, quét, thiết bị Bluetooth",
+        "keywords": "cách tìm tai nghe bluetooth bị mất, tìm lại tai nghe, ứng dụng tìm tai nghe, cách tìm airpods bị mất, mất 1 bên tai nghe airpods, tai nghe không dây bị mất, đồng hồ thông minh bị mất, tìm loa jbl, quét bluetooth iphone, bluetooth finder",
         "inLanguage": "vi",
-        "datePublished": "2024-12-31",
-        "dateModified": "2026-04-26",
-        "softwareVersion": "1.3",
-        "fileSize": "25.3MB",
-        "softwareRequirements": "Cần iOS 17.1 trở lên",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "100"
-        }
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/vi/",
-        "logo": "https://bluetoothfinderapp.com/img/logo.webp",
-        "description": "Bluetooth Finder — iPhone, tìm thiết bị Bluetooth, trang tiếng Việt."
-      },
-      "website": {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Bluetooth Finder",
-        "url": "https://bluetoothfinderapp.com/vi/",
-        "description": "Bản tiếng Việt: mô tả, bảng, câu hỏi, liên kết App Store.",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://bluetoothfinderapp.com/vi/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "datePublished": "2025-12-30",
+        "softwareVersion": "1.4.2",
+        "fileSize": "24.2MB",
+        "softwareRequirements": "iOS 17.1 trở lên"
       },
       "howto": {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": "Cách tìm thiết bị Bluetooth gần bằng Bluetooth Finder",
-        "description": "Cài, cho phép quét, chọn mục, theo cặp nóng–lạnh: lạnh, ấm, nóng, rất nóng, xem %, cuối cùng tìm trong vùng hẹp bằng mắt và tay.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Tải về",
-            "text": "Từ App Store, cần iOS 17.1 trở lên, dung lượng khoảng 25,3 MB; tải thường miễn phí, chi tiết và mua trong app xem tại store."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Quét",
-            "text": "Mở ứng dụng, cấp quyền Bluetooth, đợi danh sách thiết bị gần lấp đầy."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Chọn",
-            "text": "Chạm dòng đúng tai nghe, loa hoặc đồng hồ, đọc tên, hãng, mẫu nếu hiện."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Nóng–lạnh",
-            "text": "Di chuyển sao bước tăng: lạnh, ấm, nóng, rất nóng — tín hiệu phát càng mạnh, càng gần hơn."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 5,
-            "name": "Phần trăm",
-            "text": "Xem % bổ sung, đừng coi như mét; gộp với mọi bước, không chỉ con số."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 6,
-            "name": "Lấy thật",
-            "text": "Khi tín hiệu rất gần, kiểm tra khu hẹp: sofa, túi, túi áo, ngăn, thực tế bằng tay và mắt."
-          }
-        ]
-      },
-      "faqpage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Bluetooth Finder làm gì?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Quét, chọn trong danh sách, bước tới tín hiệu mạnh hơn với bốn bước nóng–lạnh và % — thu hẹp vùng, không dò từng thử phòng, không tưởng tượng con số là thước dây."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Khác Find My trên iPhone thế nào?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Find My nối thiết bị với tài khoản và mạng Apple. Bluetooth Finder ưu tiên thiết bị đang bật Bluetooth, thấy ngay quanh bạn, không phải tình huống 1-1 mọi lúc."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Phần trăm thay cho mét à?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Không, % từ cường độ tín hiệu; tường, đám đông, tư thế, pin thay đổi. Đọc gộp cả cặp nóng–lạnh."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Tải từ App Store có tính phí không?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Thường bắt đầu tải miễn phí; mua thêm có thể trong ứng dụng — xem mô tả và bảng giá trong store."
-            }
-          }
-        ]
-      },
-      "breadcrumb_list": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Trang chủ",
-            "item": "https://bluetoothfinderapp.com/vi/"
-          }
-        ]
+        "name": "Cách tìm thiết bị Bluetooth bị mất bằng ứng dụng Bluetooth Finder",
+        "description": "Từng bước: cách dùng ứng dụng Bluetooth Finder trên iPhone để tìm AirPods, tai nghe, đồng hồ thông minh và loa bị mất bằng chỉ dẫn nóng–lạnh và cường độ tín hiệu theo phần trăm."
       }
     }
   }

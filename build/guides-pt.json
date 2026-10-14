@@ -1,0 +1,892 @@
+{
+  "shared": {
+    "lang": "pt-BR",
+    "og_locale": "pt_BR",
+    "date_locale": "pt-BR",
+    "home_url": "/pt/",
+    "guides_url": "/pt/guias/",
+    "guides_path": "pt/guias",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Localizar Bluetooth Perdido",
+    "labels": {
+      "home": "Início",
+      "guides": "Guias",
+      "logo_alt": "Ícone do app Localizar Bluetooth Perdido",
+      "nav_cta": "Baixar o app",
+      "quick_answer": "Resposta rápida",
+      "tips_title": "Dicas para aumentar as chances",
+      "faq_title": "Perguntas frequentes",
+      "related_title": "Guias relacionados",
+      "read_label": "Ler o guia →",
+      "updated": "Última atualização",
+      "cta_button": "Baixar na App Store",
+      "cta_aria": "Baixar Localizar Bluetooth Perdido na App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Todos os direitos reservados.",
+      "privacy_link": "Política de Privacidade",
+      "terms_link": "Termos de Uso"
+    },
+    "hub": {
+      "h1": "Guias: como encontrar aparelhos perdidos",
+      "meta_title": "Guias: como encontrar fone Bluetooth, AirPods e smartwatch perdidos",
+      "meta_description": "Guias passo a passo para achar com o iPhone AirPods, fones sem fio, headphones, smartwatches e caixas de som perdidos – inclusive aparelhos fora do app Buscar.",
+      "intro_label": "O que você encontra aqui",
+      "intro": "Guias práticos e honestos para cada situação: AirPods com ou sem o app Buscar, um lado do fone perdido, fones JBL, Sony e QCY, smartwatches, caixas de som e bateria descarregada. Cada guia explica o que funciona de verdade e mostra como localizar o aparelho com o app Localizar Bluetooth Perdido no iPhone.",
+      "cta_title": "Um app para todos os guias desta página",
+      "cta_text": "O Localizar Bluetooth Perdido faz a varredura dos sinais Bluetooth próximos e leva você até qualquer aparelho ligado com a indicação quente e frio e a porcentagem de proximidade. Grátis, 24,2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "como-encontrar-airpods-perdidos",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "AirPods perdidos",
+      "meta_title": "Como encontrar AirPods perdidos (com e sem o app Buscar)",
+      "meta_description": "Perdeu os AirPods? Veja a localização no app Buscar e depois siga o sinal Bluetooth ao vivo até pegar eles na mão – mesmo sem o Buscar.",
+      "keywords": "como encontrar airpods perdidos, como achar airpods, perdi meus airpods, airpods perdido em casa, localizar airpods, encontrar airpods pelo iphone",
+      "h1": "Como encontrar AirPods perdidos rapidinho",
+      "quick_answer": "Se o Buscar estava ativado, abra primeiro o app Buscar: ele mostra os AirPods no mapa e reproduz um som, desde que estejam fora do estojo e com bateria. Se o Buscar não estiver disponível, mostrar só uma localização antiga ou o som for baixo demais, use um app localizador Bluetooth: AirPods ligados transmitem um sinal Bluetooth, e seguindo a força dele você chega exatamente neles.",
+      "sections": [
+        {
+          "title": "Comece pelo app Buscar – e conheça os limites",
+          "paragraphs": [
+            "Para AirPods pareados com o seu iPhone, o app Buscar da Apple é o primeiro passo: Buscar > Dispositivos > seus AirPods, veja o mapa e toque em Reproduzir Som se estiverem por perto. AirPods Pro 2 e mais novos têm até Localização Precisa, com uma seta de direção.",
+            "Em três situações comuns o Buscar não resolve. A localização no mapa costuma ser precisa só no nível do prédio – embaixo de qual almofada, ele não diz. O som é baixo e não funciona com os AirPods dentro do estojo. E se os AirPods nunca foram adicionados ao Buscar, estão vinculados a outra Conta Apple (comprados usados) ou aparecem sem localização, o app não ajuda."
+          ]
+        },
+        {
+          "title": "Por que o sinal Bluetooth acha o que o Buscar não acha",
+          "paragraphs": [
+            "Enquanto os AirPods estão fora do estojo e com bateria, cada lado transmite sinais Bluetooth Low Energy. Em ambientes internos, eles alcançam cerca de 10–30 metros, e a força aumenta claramente conforme você chega perto.",
+            "Um app localizador Bluetooth lê esse sinal diretamente – sem Conta Apple, sem configurar e sem a rede Buscar. Por isso ele é a ferramenta ideal para os últimos 30 metros: o Buscar leva você ao cômodo certo, o sinal leva à almofada certa."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar os AirPods com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Baixe e abra o app",
+          "description": "Instale o Localizar Bluetooth Perdido pela App Store (grátis, 24,2 MB, iOS 17.1+) e permita o acesso ao Bluetooth quando o app pedir."
+        },
+        {
+          "title": "Faça a varredura por perto",
+          "description": "Inicie a varredura. Todos os dispositivos Bluetooth ligados dentro do alcance aparecem em uma lista com a força do sinal ao vivo – procure os seus AirPods pelo nome."
+        },
+        {
+          "title": "Escolha os seus AirPods",
+          "description": "Toque nos AirPods na lista. Se não aparecer nome, confira nos dados do dispositivo se o fabricante mostrado é a Apple."
+        },
+        {
+          "title": "Ande devagar pelo ambiente",
+          "description": "Passe pelos cômodos onde você estava com eles por último. O indicador vai de frio para morno e quente conforme o sinal fica mais forte."
+        },
+        {
+          "title": "Pegue eles no “muito quente”",
+          "description": "Quando o app mostrar “muito quente” e a porcentagem de proximidade passar de 90%, os AirPods estão ao alcance da mão: olhe embaixo de almofadas, em bolsos, bolsas e debaixo dos móveis."
+        }
+      ],
+      "tips": [
+        "Procure cômodo por cômodo, anote a maior porcentagem de cada um e concentre-se no melhor.",
+        "Segure o iPhone em alturas diferentes: o sinal é mais forte quando não há nada entre você e o aparelho.",
+        "Dentro do estojo fechado, os AirPods ficam em repouso. Se acha que estão no estojo, veja a última localização no app Buscar.",
+        "Procure o quanto antes: um lado fora do estojo só transmite até a bateria acabar."
+      ],
+      "faq": [
+        {
+          "question": "Dá para encontrar AirPods perdidos sem o app Buscar?",
+          "answer": "Sim, se estiverem fora do estojo e com bateria. Os AirPods transmitem sinais Bluetooth cuja força um app localizador consegue seguir – sem configurar o Buscar e sem conta iCloud."
+        },
+        {
+          "question": "De que distância dá para ver AirPods perdidos?",
+          "answer": "O alcance do Bluetooth em ambientes internos costuma ser de 10–30 metros, dependendo das paredes e interferências. Ao ar livre, sem obstáculos, pode ser maior. Se nada aparecer, vá para o próximo cômodo e faça a varredura de novo."
+        },
+        {
+          "question": "Os AirPods precisam ter bateria para serem encontrados?",
+          "answer": "Sim. Um AirPod totalmente descarregado não transmite mais nada, e nenhum app – nem o Buscar – consegue vê-lo ao vivo. Se a bateria pode ter acabado, procure ao redor da última localização conhecida no Buscar e repita a varredura de vez em quando."
+        }
+      ],
+      "cta_title": "Seus AirPods provavelmente estão no alcance agora",
+      "cta_text": "Faça a varredura e siga a indicação quente e frio até ver eles. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/encontrar-airpods-sem-app-buscar/",
+          "title": "Encontrar AirPods sem o app Buscar"
+        },
+        {
+          "url": "/pt/guias/perdi-um-lado-do-airpods/",
+          "title": "Perdi um lado do AirPods"
+        },
+        {
+          "url": "/pt/guias/encontrar-airpods-descarregado/",
+          "title": "AirPods descarregado ou desligado"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-airpods-sem-app-buscar",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "AirPods sem o app Buscar",
+      "meta_title": "Como encontrar AirPods sem o app Buscar e sem iCloud",
+      "meta_description": "Nunca ativou o Buscar, comprou AirPods usados ou está sem acesso ao iCloud? Veja como localizar AirPods pelo sinal Bluetooth com o iPhone, passo a passo.",
+      "keywords": "encontrar airpods sem o app buscar, airpods sem icloud, achar airpods sem buscar, airpods usado perdido, airpods não aparece no buscar, localizar airpods sem conta apple",
+      "h1": "Como encontrar AirPods sem o app Buscar",
+      "quick_answer": "Dá, sim. O app Buscar só funciona com AirPods vinculados à sua Conta Apple, mas qualquer AirPods ligado e fora do estojo transmite um sinal Bluetooth. Um app localizador Bluetooth, como o Localizar Bluetooth Perdido, lê esse sinal diretamente e leva você até os fones com a indicação quente e frio – sem iCloud, sem conta e sem configurar nada antes.",
+      "sections": [
+        {
+          "title": "Quando o app Buscar não ajuda",
+          "paragraphs": [
+            "O Buscar só mostra AirPods que foram vinculados antes à sua Conta Apple. Eles não aparecem lá se você comprou usados e continuam no nome do dono anterior, se nunca ativou o Buscar, se está usando o iPhone de outra pessoa ou se não lembra a senha da Conta Apple.",
+            "Mesmo quando estão no Buscar, muitas vezes aparecem sem localização ou com a posição de horas atrás. Em todos esses casos, sobra uma coisa que funciona independentemente de conta: o sinal Bluetooth que os próprios fones transmitem."
+          ]
+        },
+        {
+          "title": "Como funciona a busca pelo sinal Bluetooth",
+          "paragraphs": [
+            "Fora do estojo e com bateria, os AirPods enviam pequenos pacotes Bluetooth Low Energy o tempo todo. Qualquer celular por perto consegue captar – não é preciso ser o dono nem estar pareado.",
+            "O Localizar Bluetooth Perdido mede a força desse sinal ao vivo e transforma em uma porcentagem de proximidade e nos níveis frio, morno, quente e muito quente. Você não vê um ponto no mapa, mas num raio de 10–30 metros chega aos fones bem mais rápido do que revirando a casa."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar AirPods sem o Buscar com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Instale o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+). Você não precisa da Conta Apple vinculada aos AirPods nem de iCloud."
+        },
+        {
+          "title": "Volte para onde perdeu",
+          "description": "Vá até o último lugar onde estava com os AirPods – casa, escritório, carro. O sinal Bluetooth alcança só 10–30 metros."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Todos os dispositivos Bluetooth ligados por perto aparecem na lista. AirPods normalmente têm nome e mostram a Apple como fabricante."
+        },
+        {
+          "title": "Siga a indicação quente e frio",
+          "description": "Escolha os AirPods e ande devagar. Se o indicador vai de frio para quente e a porcentagem sobe, você está no caminho certo."
+        },
+        {
+          "title": "Procure em volta no “muito quente”",
+          "description": "Acima de 90%, os fones estão bem do seu lado – confira as frestas do sofá, bolsos, bolsas e embaixo dos móveis."
+        }
+      ],
+      "tips": [
+        "Se os AirPods estão no estojo fechado, eles não transmitem – aí ajudam a última localização e uma busca com calma onde você estava com o estojo.",
+        "AirPods usados vinculados à conta do dono anterior continuam transmitindo Bluetooth – o scanner vê eles.",
+        "Desligue por um momento outros fones por perto para reconhecer mais fácil o aparelho certo na lista.",
+        "Depois de achar, ative o Buscar na sua Conta Apple – na próxima vez você também vê a última localização."
+      ],
+      "faq": [
+        {
+          "question": "Dá para localizar AirPods sem Conta Apple?",
+          "answer": "Sim, por perto. O sinal Bluetooth é transmitido independentemente da conta, então um app localizador detecta AirPods ligados fora do estojo sem login e sem iCloud."
+        },
+        {
+          "question": "Dá para encontrar AirPods comprados usados?",
+          "answer": "Sim, se estiverem ligados e no alcance. O vínculo com a conta do dono anterior bloqueia só o app Buscar – não o sinal Bluetooth que o Localizar Bluetooth Perdido lê."
+        },
+        {
+          "question": "Funciona se os AirPods estiverem longe?",
+          "answer": "Não. O Bluetooth funciona num raio de cerca de 10–30 metros em ambientes internos. Para localizar AirPods perdidos longe, é preciso a rede Buscar e o vínculo prévio com a Conta Apple."
+        }
+      ],
+      "cta_title": "Sem conta, sem iCloud – só o sinal",
+      "cta_text": "Faça a varredura e siga a indicação quente e frio até os seus AirPods. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/como-encontrar-airpods-perdidos/",
+          "title": "Como encontrar AirPods perdidos"
+        },
+        {
+          "url": "/pt/guias/perdi-um-lado-do-airpods/",
+          "title": "Perdi um lado do AirPods"
+        },
+        {
+          "url": "/pt/guias/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth para iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "perdi-um-lado-do-airpods",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "Um lado do AirPods",
+      "meta_title": "Perdi um lado do AirPods: como encontrar",
+      "meta_description": "Perdeu um lado do AirPods? Cada lado transmite o próprio sinal Bluetooth. Veja como achar o AirPod esquerdo ou direito com o iPhone, passo a passo.",
+      "keywords": "perdi um lado do airpods, como encontrar um lado do airpods, airpod esquerdo perdido, airpod direito perdido, perdi só um airpod, um lado do fone perdido",
+      "h1": "Perdi um lado do AirPods – como encontrar",
+      "quick_answer": "Cada lado do AirPods transmite o próprio sinal Bluetooth enquanto está fora do estojo e com bateria. Guarde o outro lado no estojo e feche a tampa para ele não atrapalhar, depois faça a varredura com o Localizar Bluetooth Perdido e siga a indicação quente e frio – a porcentagem de proximidade dispara quando você está bem perto do lado perdido.",
+      "sections": [
+        {
+          "title": "O que o app Buscar faz com um lado só",
+          "paragraphs": [
+            "No app Buscar dá para reproduzir um som só no lado esquerdo ou só no direito – é um bom primeiro passo se os AirPods estão vinculados à sua Conta Apple e o lado tem bateria.",
+            "Mas o som é baixo, e um lado sozinho se esconde fácil na fresta do sofá, no bolso do casaco ou na roupa de cama, onde você não escuta. O mapa mostra no máximo o prédio. É aí que entra o sinal Bluetooth, que o AirPod transmite mesmo sem fazer barulho."
+          ]
+        },
+        {
+          "title": "Por que o outro lado deve ficar no estojo",
+          "paragraphs": [
+            "Os dois lados transmitem com o mesmo nome. Se o outro estiver do seu lado, o app pode mostrar o sinal forte dele em vez do que você procura.",
+            "Coloque o lado que você tem no estojo e feche a tampa – AirPods no estojo fechado param de transmitir. Assim, só o lado perdido fica na lista, e cada mudança na porcentagem é dele."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar um lado do AirPods com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Guarde o outro lado no estojo",
+          "description": "Coloque o AirPod que você tem no estojo e feche a tampa, para só o sinal do perdido ficar na lista."
+        },
+        {
+          "title": "Abra o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+) e inicie a varredura onde você estava com o fone por último."
+        },
+        {
+          "title": "Escolha os AirPods na lista",
+          "description": "O lado perdido aparece com o nome dos seus AirPods ou com a Apple como fabricante."
+        },
+        {
+          "title": "Reduza a área aos poucos",
+          "description": "Ande devagar, parando a cada poucos passos. Vá para onde o indicador passa de morno para quente."
+        },
+        {
+          "title": "Procure rente ao chão no “muito quente”",
+          "description": "Acima de 90%, o AirPod está ao alcance da mão – confira frestas do sofá, embaixo da cama, bolsos e capuz do casaco."
+        }
+      ],
+      "tips": [
+        "Um AirPod no chão ou no sofá tem sinal mais fraco – abaixe o iPhone quando a porcentagem parar de subir.",
+        "Procure logo: um lado sozinho tem bateria pequena e para de transmitir depois de algumas horas.",
+        "Confira também onde você tirou boné, cachecol ou moletom – é aí que os fones costumam cair.",
+        "Se não der para achar, a Apple oferece a troca paga de um lado só do AirPods."
+      ],
+      "faq": [
+        {
+          "question": "Um lado só do AirPods transmite sinal?",
+          "answer": "Sim. Cada lado tem o próprio módulo Bluetooth e transmite enquanto está fora do estojo e com bateria – por isso o scanner consegue detectar ele separado."
+        },
+        {
+          "question": "Como diferenciar o lado esquerdo do direito no app?",
+          "answer": "Os dois transmitem com o mesmo nome. O mais simples é guardar o que você tem no estojo fechado – aí o único sinal de AirPods na lista é o do lado perdido."
+        },
+        {
+          "question": "E se o lado estiver descarregado?",
+          "answer": "Um AirPod descarregado não transmite e não dá para localizar ao vivo. Procure ao redor da última localização conhecida no app Buscar e repita a varredura de vez em quando."
+        }
+      ],
+      "cta_title": "Fone pequeno, pista forte",
+      "cta_text": "Faça a varredura e deixe a porcentagem de proximidade levar você até o lado perdido. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/como-encontrar-airpods-perdidos/",
+          "title": "Como encontrar AirPods perdidos"
+        },
+        {
+          "url": "/pt/guias/encontrar-airpods-descarregado/",
+          "title": "AirPods descarregado ou desligado"
+        },
+        {
+          "url": "/pt/guias/encontrar-estojo-airpods-perdido/",
+          "title": "Estojo do AirPods perdido"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-airpods-descarregado",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "AirPods descarregado",
+      "meta_title": "AirPods descarregado: como encontrar? A resposta honesta",
+      "meta_description": "Perdeu AirPods ou fone com a bateria descarregada? Localizar ao vivo não dá. O que funciona: última localização, nova varredura e uma busca inteligente.",
+      "keywords": "airpods descarregado como encontrar, como achar fone descarregado, fone bluetooth desligado como encontrar, airpods sem localização, airpods offline, fone sem fio sem bateria perdido",
+      "h1": "AirPods descarregado ou desligado – como encontrar",
+      "quick_answer": "Sendo honesto: AirPods descarregados ou desligados não podem ser localizados ao vivo – eles não transmitem nenhum sinal que um app consiga usar, nem o Buscar. Veja a última localização conhecida no app Buscar, procure com método nesse lugar e faça a varredura com o Localizar Bluetooth Perdido de vez em quando: fones com um restinho de bateria costumam acordar por alguns instantes, e aí você pega o sinal.",
+      "sections": [
+        {
+          "title": "O que acontece quando a bateria acaba",
+          "paragraphs": [
+            "Os AirPods só transmitem Bluetooth quando têm energia. Quando a bateria chega a zero, o fone fica mudo: não toca som, não atualiza a localização na rede Buscar e não aparece em nenhum scanner. No app Buscar, aparece então só a última posição conhecida, ou nenhuma localização.",
+            "A boa notícia: “descarregado” raramente é zero absoluto. Os fones costumam desligar com poucos por cento e acordar rapidinho, por exemplo quando são mexidos. Por isso vale fazer a varredura várias vezes, e não só uma."
+          ]
+        },
+        {
+          "title": "A última localização é o seu melhor ponto de partida",
+          "paragraphs": [
+            "Se os AirPods estavam no Buscar, o app mostra onde eles tiveram conexão pela última vez. Isso reduz a busca a uma casa, um carro ou um escritório.",
+            "Depois, procure com método: comece pelos lugares onde você sentou ou trocou de roupa, olhe embaixo e nas frestas e, a cada poucos minutos, faça uma nova varredura com o Localizar Bluetooth Perdido. Um único lampejo de sinal com a porcentagem de proximidade já indica o cômodo certo."
+          ]
+        }
+      ],
+      "steps_title": "Como procurar AirPods descarregados com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Veja a última localização",
+          "description": "Abra Buscar > Dispositivos > AirPods e anote o último lugar e horário conhecidos."
+        },
+        {
+          "title": "Instale o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+) para pegar na hora qualquer lampejo de sinal."
+        },
+        {
+          "title": "Faça varreduras em intervalos",
+          "description": "Inicie a varredura na última localização e repita a cada poucos minutos enquanto revista o ambiente."
+        },
+        {
+          "title": "Se os AirPods aparecerem – siga o sinal",
+          "description": "Se os fones acordarem por um momento, escolha eles e siga a indicação quente e frio antes que apaguem de novo."
+        },
+        {
+          "title": "Prepare-se para a próxima vez",
+          "description": "Depois de achar, carregue, ative o Buscar e deixe o Localizar Bluetooth Perdido no iPhone – a próxima busca leva dois minutos."
+        }
+      ],
+      "tips": [
+        "Procure onde a bateria pode ter acabado: num treino longo, numa viagem ou dormindo de fone.",
+        "Um estojo fechado com os fones dentro também não transmite – procure com os olhos e as mãos em bolsas e bolsos.",
+        "Peça para o pessoal de casa não mexer nas coisas do cômodo até você revistar tudo com calma.",
+        "Se nada der certo, pergunte nos achados e perdidos dos lugares por onde passou – café, academia, metrô, ônibus."
+      ],
+      "faq": [
+        {
+          "question": "O app encontra AirPods totalmente descarregados?",
+          "answer": "Não. Sem energia, os fones não transmitem sinal Bluetooth, então nenhum app nem a rede Buscar consegue vê-los ao vivo. O que ajuda é a última localização e uma busca com método."
+        },
+        {
+          "question": "O que significa quando o app Buscar não mostra a localização?",
+          "answer": "Que os AirPods não se conectam a nenhum aparelho faz um tempo – na maioria das vezes por bateria descarregada ou estojo fechado. O mapa mostra só o último lugar conhecido."
+        },
+        {
+          "question": "Dá para achar fones Bluetooth desligados de outras marcas?",
+          "answer": "Não ao vivo. Fones JBL, QCY, Sony ou Samsung desligados não transmitem. Veja o último lugar de conexão no app do fabricante, se ele tiver essa função, e faça a varredura de novo quando o fone voltar a ligar."
+        }
+      ],
+      "cta_title": "Na próxima vez, você acha em dois minutos",
+      "cta_text": "Instale o Localizar Bluetooth Perdido agora – com os fones ligados, ele leva você até eles com a indicação quente e frio. Grátis.",
+      "related": [
+        {
+          "url": "/pt/guias/como-encontrar-airpods-perdidos/",
+          "title": "Como encontrar AirPods perdidos"
+        },
+        {
+          "url": "/pt/guias/encontrar-estojo-airpods-perdido/",
+          "title": "Estojo do AirPods perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-fone-bluetooth-perdido/",
+          "title": "Fone de ouvido Bluetooth perdido"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-fone-bluetooth-perdido",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Fone de ouvido Bluetooth perdido",
+      "meta_title": "Como encontrar fone de ouvido Bluetooth perdido (JBL, Sony)",
+      "meta_description": "Perdi meu fone Bluetooth: veja como achar com o iPhone fones de ouvido JBL, Sony, Bose ou Beats pelo sinal Bluetooth – mesmo fora do app Buscar.",
+      "keywords": "como encontrar fone de ouvido bluetooth perdido, perdi meu fone bluetooth, como achar fone bluetooth, fone de ouvido perdido, headphone perdido, fone jbl perdido, fone sony perdido, aplicativo para encontrar fone bluetooth",
+      "h1": "Como encontrar fone de ouvido Bluetooth perdido",
+      "quick_answer": "Se o fone estiver ligado e dentro do alcance, dá para achar pelo sinal Bluetooth. Todo fone ligado – JBL, Sony, Bose, Beats, Sennheiser – transmite um sinal que fica mais forte conforme você chega perto. Faça a varredura com o Localizar Bluetooth Perdido, escolha o fone na lista e siga a indicação quente e frio até a porcentagem de proximidade passar de 90%.",
+      "sections": [
+        {
+          "title": "Por que a maioria dos fones não está no app Buscar",
+          "paragraphs": [
+            "O app Buscar da Apple funciona com AirPods, alguns modelos Beats e poucos acessórios certificados para a rede Buscar. Fones JBL, Sony, Bose ou Sennheiser normalmente não aparecem nele, e os apps dos fabricantes mostram no máximo o último lugar em que o fone se conectou ao celular.",
+            "Por isso, quem pesquisa “perdi meu fone” geralmente cai em dicas que terminam no app Buscar. Se o seu fone não está lá, você precisa de um método que funcione com qualquer marca: o sinal Bluetooth."
+          ]
+        },
+        {
+          "title": "Como o sinal leva você até o fone",
+          "paragraphs": [
+            "Fones Bluetooth ligados transmitem sinal o tempo todo – principalmente quando não estão conectados ao celular e ficam procurando conexão. Em ambientes internos, ele alcança 10–30 metros.",
+            "O Localizar Bluetooth Perdido mostra esse sinal com nome, fabricante e modelo e converte a força dele em porcentagem de proximidade e nos níveis frio, morno, quente e muito quente. Headphones têm antenas maiores que fones intra-auriculares, então costumam ser detectados de mais longe."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar o fone com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Desconecte o fone do celular",
+          "description": "Em Ajustes > Bluetooth, desconecte o fone (sem esquecer o dispositivo). Fones desconectados transmitem com mais frequência e são mais fáceis de detectar."
+        },
+        {
+          "title": "Abra o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+) e inicie a varredura."
+        },
+        {
+          "title": "Encontre o fone na lista",
+          "description": "Procure o nome do modelo (ex.: JBL Tune 510BT, WH-1000XM5, QC45) ou o fabricante – JBL, Sony, Bose."
+        },
+        {
+          "title": "Siga a indicação quente e frio",
+          "description": "Passe de um cômodo para outro. Onde o indicador muda de frio para quente, você está mais perto."
+        },
+        {
+          "title": "Procure em volta no “muito quente”",
+          "description": "Acima de 90%, o fone está bem do seu lado – olhe embaixo das almofadas, atrás do sofá, na mochila e no armário."
+        }
+      ],
+      "tips": [
+        "Se o fone desliga sozinho, procure rápido – depois de alguns minutos sem conexão ele pode desligar.",
+        "Confira o app do fabricante (ex.: JBL Headphones, Sony Headphones Connect): às vezes ele mostra o último lugar de conexão.",
+        "Um headphone ligado dentro do case ou da mochila continua transmitindo – o tecido enfraquece o sinal só um pouco.",
+        "Quando a porcentagem parar de subir, mude a altura do iPhone e gire devagar no lugar."
+      ],
+      "faq": [
+        {
+          "question": "Dá para achar um fone que não está no app Buscar?",
+          "answer": "Sim, se estiver ligado e no alcance. O Localizar Bluetooth Perdido lê o sinal Bluetooth de qualquer marca – não precisa de cadastro no Buscar nem de conta do fabricante."
+        },
+        {
+          "question": "O fone precisa estar pareado com o meu iPhone?",
+          "answer": "Não. O scanner vê qualquer dispositivo Bluetooth ligado no alcance. Desconectar o fone do celular muitas vezes até ajuda, porque ele passa a transmitir com mais frequência."
+        },
+        {
+          "question": "Como achar um fone desligado?",
+          "answer": "Fone desligado não transmite, então não dá para localizar ao vivo. Veja o último lugar de conexão no app do fabricante e procure ali com método."
+        }
+      ],
+      "cta_title": "Encontre o seu fone – de qualquer marca",
+      "cta_text": "Faça a varredura e siga o sinal até o seu fone JBL, Sony, Bose ou Beats. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/encontrar-fone-sem-fio-perdido/",
+          "title": "Fone sem fio perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-airpods-descarregado/",
+          "title": "Fone descarregado ou desligado"
+        },
+        {
+          "url": "/pt/guias/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth para iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-fone-sem-fio-perdido",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Fone sem fio perdido",
+      "meta_title": "Fone sem fio perdido: como achar QCY, Galaxy Buds e mais",
+      "meta_description": "Perdeu o fone sem fio QCY, Galaxy Buds, Redmi Buds ou AirPods? Veja como achar com o iPhone pelo sinal Bluetooth – um método para qualquer marca.",
+      "keywords": "fone sem fio perdido, como achar fone sem fio, fone bluetooth perdido, fone qcy perdido, galaxy buds perdido, redmi buds perdido, fone tws perdido, perdi meu fone sem fio",
+      "h1": "Fone sem fio perdido – como achar",
+      "quick_answer": "Fones sem fio ligados e fora do estojo transmitem sinal Bluetooth enquanto têm bateria – de qualquer marca. Faça a varredura com o Localizar Bluetooth Perdido, escolha o fone pelo nome ou fabricante e siga a indicação quente e frio. Quando a porcentagem de proximidade passar de 90%, o fone está ao alcance da mão.",
+      "sections": [
+        {
+          "title": "Um método para qualquer marca",
+          "paragraphs": [
+            "Galaxy Buds podem ser procurados no SmartThings Find, AirPods no app Buscar, e várias marcas têm apps próprios – mas só se você usa um celular da mesma marca e configurou tudo antes. Com iPhone e fones QCY, Xiaomi, Samsung ou JBL, normalmente você fica sem ferramenta.",
+            "O sinal Bluetooth é igual para todos. Todo fone sem fio transmite do mesmo jeito, então o Localizar Bluetooth Perdido funciona igual com QCY, Redmi Buds, Galaxy Buds, JBL Wave, Sony WF, Edifier, Soundcore e AirPods."
+          ]
+        },
+        {
+          "title": "Onde os fones sem fio mais somem",
+          "paragraphs": [
+            "Fones sem fio são pequenos e leves: caem quando você tira o capuz, o boné ou o moletom, escorregam nas frestas do sofá e do banco do carro, ficam esquecidos em bolsos de casaco e na mochila da academia.",
+            "Na maioria das vezes, estão num raio de poucos metros de onde você usou por último. É o alcance perfeito para procurar pelo sinal Bluetooth."
+          ]
+        }
+      ],
+      "steps_title": "Como achar o fone sem fio com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Baixe o Localizar Bluetooth Perdido",
+          "description": "Instale o app pela App Store (grátis, 24,2 MB, iOS 17.1+) e permita o acesso ao Bluetooth."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Todos os dispositivos Bluetooth ligados por perto aparecem com a força do sinal. Procure o nome do modelo ou o fabricante: QCY, Xiaomi, Samsung, JBL."
+        },
+        {
+          "title": "Escolha o seu fone",
+          "description": "Se perdeu só um lado, guarde o outro no estojo fechado para ele não atrapalhar o resultado."
+        },
+        {
+          "title": "Siga a indicação quente e frio",
+          "description": "Ande devagar. O indicador vai de frio para morno e quente, e a porcentagem de proximidade sobe."
+        },
+        {
+          "title": "Procure em volta no “muito quente”",
+          "description": "Acima de 90%, confira frestas do sofá, bolsos, capuz, assoalho do carro e mochila."
+        }
+      ],
+      "tips": [
+        "Desconecte o fone do celular em Ajustes > Bluetooth – desconectado, ele transmite com mais frequência.",
+        "No carro, faça a varredura de cada banco, um de cada vez: a lataria mexe bastante no sinal.",
+        "Fones no estojo fechado normalmente não transmitem – se perdeu junto com o estojo, procure no último lugar em que usou.",
+        "Procure logo: a bateria de fones sem fio dura só algumas horas em espera."
+      ],
+      "faq": [
+        {
+          "question": "Dá para achar fone QCY ou Galaxy Buds com o iPhone?",
+          "answer": "Sim, se estiverem ligados e fora do estojo. QCY e Galaxy Buds transmitem Bluetooth como qualquer fone, e o Localizar Bluetooth Perdido detecta eles sem o app da marca."
+        },
+        {
+          "question": "Dá para detectar fones dentro do estojo?",
+          "answer": "Normalmente não. A maioria dos fones desliga o Bluetooth no estojo fechado. Com o estojo aberto, eles acordam e podem ser detectados."
+        },
+        {
+          "question": "Quão perto preciso estar para ver o fone na lista?",
+          "answer": "Normalmente 10–30 metros em ambientes internos. Fones intra-auriculares têm antenas mais fracas que headphones, então comece a varredura perto de onde usou por último."
+        }
+      ],
+      "cta_title": "Qualquer marca, um app só",
+      "cta_text": "Faça a varredura e siga o sinal até o seu fone sem fio. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/encontrar-fone-bluetooth-perdido/",
+          "title": "Fone de ouvido Bluetooth perdido"
+        },
+        {
+          "url": "/pt/guias/perdi-um-lado-do-airpods/",
+          "title": "Perdi um lado do AirPods"
+        },
+        {
+          "url": "/pt/guias/como-encontrar-airpods-perdidos/",
+          "title": "Como encontrar AirPods perdidos"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-smartwatch-perdido",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Smartwatch perdido",
+      "meta_title": "Smartwatch ou Mi Band perdido: como encontrar",
+      "meta_description": "Perdeu o smartwatch, a Mi Band, o Amazfit ou o Galaxy Watch? Veja como achar com o iPhone em casa, no carro ou na mochila da academia pelo sinal Bluetooth.",
+      "keywords": "smartwatch perdido, como encontrar smartwatch, mi band perdida, como achar mi band, amazfit perdido, relógio bluetooth perdido, pulseira inteligente perdida",
+      "h1": "Smartwatch ou pulseira inteligente perdida – como encontrar",
+      "quick_answer": "Smartwatches e pulseiras inteligentes transmitem Bluetooth quase o tempo todo para sincronizar com o celular – por isso são fáceis de detectar. Faça a varredura com o Localizar Bluetooth Perdido, escolha o relógio pelo nome ou fabricante (Xiaomi, Amazfit, Samsung, Garmin) e siga a indicação quente e frio até o sinal mais forte.",
+      "sections": [
+        {
+          "title": "O que os apps dos fabricantes oferecem",
+          "paragraphs": [
+            "O Apple Watch aparece no app Buscar, o Galaxy Watch no SmartThings Find. Mi Band, Amazfit, Garmin ou Fitbit normalmente oferecem no máximo uma função “encontrar pulseira”, que faz ela vibrar – mas só se estiver conectada ao celular, e a vibração é difícil de ouvir embaixo de uma almofada.",
+            "Se a pulseira perdeu a conexão, o app do fabricante não ajuda mais. Mas o sinal Bluetooth que o relógio continua transmitindo ainda pode ser lido."
+          ]
+        },
+        {
+          "title": "Por que relógios são fáceis de achar pelo sinal",
+          "paragraphs": [
+            "Dispositivos vestíveis transmitem com frequência porque estão sempre tentando enviar passos, batimentos e notificações. No Localizar Bluetooth Perdido, costumam aparecer com o nome completo, como “Xiaomi Smart Band 8” ou “Amazfit Bip”.",
+            "A bateria deles dura vários dias, então até um relógio perdido ontem normalmente continua transmitindo. Isso dá a você mais tempo do que com fones."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar o smartwatch com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Instale o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Desconecte o app do relógio",
+          "description": "Desative por um momento a sincronização ou o Bluetooth no app do relógio – desconectado, ele transmite com mais frequência e é mais fácil de detectar."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Procure o nome do modelo ou o fabricante: Xiaomi, Amazfit, Samsung, Garmin, Huawei."
+        },
+        {
+          "title": "Siga a indicação quente e frio",
+          "description": "Passe de um cômodo para outro observando a porcentagem de proximidade. Escolha o cômodo com o valor mais alto."
+        },
+        {
+          "title": "Procure em volta no “muito quente”",
+          "description": "Confira a mochila da academia, bolsos, roupa de cama, banheiro e os lugares onde você tira o relógio para carregar."
+        }
+      ],
+      "tips": [
+        "Relógios costumam sumir no banheiro, perto da pia e no criado-mudo – comece por lá.",
+        "Se for um Apple Watch, use primeiro Buscar > Dispositivos > Reproduzir Som.",
+        "No vestiário da academia muita gente usa relógio – confira nome e modelo para seguir o certo.",
+        "Um relógio embaixo do colchão ou dentro da gaveta tem sinal mais fraco – abaixe o iPhone."
+      ],
+      "faq": [
+        {
+          "question": "Dá para achar uma Mi Band com o iPhone?",
+          "answer": "Sim, se estiver carregada e no alcance. A Mi Band transmite Bluetooth como qualquer pulseira, e o Localizar Bluetooth Perdido detecta ela sem o app da Xiaomi."
+        },
+        {
+          "question": "Dá para achar um Amazfit ou Garmin sem o app do fabricante?",
+          "answer": "Sim. Um app localizador Bluetooth lê o sinal do relógio diretamente, então você não precisa de conexão com o Zepp ou o Garmin Connect."
+        },
+        {
+          "question": "Por quanto tempo um smartwatch perdido continua transmitindo?",
+          "answer": "Normalmente enquanto durar a bateria – de um dia a algumas semanas, conforme o modelo. Pulseiras inteligentes costumam durar mais que smartwatches de tela grande."
+        }
+      ],
+      "cta_title": "Seu relógio continua transmitindo",
+      "cta_text": "Faça a varredura e siga o sinal até o seu smartwatch ou pulseira. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth para iPhone"
+        },
+        {
+          "url": "/pt/guias/encontrar-fone-sem-fio-perdido/",
+          "title": "Fone sem fio perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-caixa-de-som-bluetooth/",
+          "title": "Caixa de som Bluetooth perdida"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-caixa-de-som-bluetooth",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Caixa de som Bluetooth perdida",
+      "meta_title": "Caixa de som JBL perdida: como encontrar pelo Bluetooth",
+      "meta_description": "Dá para localizar uma caixa de som JBL? Sim, se estiver ligada. Veja como achar uma caixa de som Bluetooth perdida com o iPhone pela força do sinal.",
+      "keywords": "caixa de som jbl perdida, como encontrar caixa de som bluetooth, caixa de som bluetooth perdida, localizar caixa de som jbl, caixa de som portátil perdida, jbl go perdida",
+      "h1": "Caixa de som Bluetooth perdida – como encontrar",
+      "quick_answer": "Se a caixa de som estiver ligada, dá para localizar. Caixas JBL, Sony, Bose ou Anker têm transmissores Bluetooth fortes e costumam aparecer na lista de qualquer lugar da casa ou do quintal. Faça a varredura com o Localizar Bluetooth Perdido, escolha a caixa e siga a indicação quente e frio até a porcentagem de proximidade chegar ao máximo.",
+      "sections": [
+        {
+          "title": "Primeiro, tente o som",
+          "paragraphs": [
+            "Se a caixa está no alcance e ainda pareada com o seu celular, conecte e coloque uma música – é o jeito mais rápido. Apps como JBL Portable ou Sony Music Center também ajudam, mas só com conexão ativa.",
+            "Quando a caixa não conecta, está sem volume ou outra pessoa está conectada nela, você precisa de outro jeito: seguir o sinal Bluetooth dela."
+          ]
+        },
+        {
+          "title": "Por que caixas de som são fáceis de detectar",
+          "paragraphs": [
+            "Caixas portáteis têm baterias maiores e antenas mais fortes que os fones, então o sinal vai mais longe – dentro de casa, muitas vezes atravessa várias paredes; no quintal, chega a dezenas de metros.",
+            "Isso faz a caixa aparecer rápido na lista, mas a força do sinal muda de forma mais suave. Por isso, com caixas de som, o melhor é comparar a porcentagem de proximidade entre cômodos, e não passo a passo."
+          ]
+        }
+      ],
+      "steps_title": "Como encontrar a caixa de som com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Baixe o Localizar Bluetooth Perdido",
+          "description": "Instale o app pela App Store (grátis, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Procure o nome do modelo (ex.: JBL Go 3, JBL Flip 6, JBL Charge 5, SRS-XB) ou o fabricante."
+        },
+        {
+          "title": "Compare os cômodos",
+          "description": "Pare em cada cômodo e anote a porcentagem de proximidade. Escolha o que tiver o valor mais alto."
+        },
+        {
+          "title": "Reduza a área com o quente e frio",
+          "description": "No melhor cômodo, ande devagar até o indicador mostrar “muito quente”."
+        },
+        {
+          "title": "Confira os esconderijos",
+          "description": "Caixas de som costumam parar em armários, embaixo da cama, no porta-malas, na bolsa de praia ou na edícula."
+        }
+      ],
+      "tips": [
+        "Muitas caixas desligam sozinhas depois de alguns minutos paradas – procure rápido enquanto ela transmite.",
+        "Ao ar livre o alcance é maior, então comece dando uma volta pelo terreno e veja onde a porcentagem sobe.",
+        "Se o vizinho tem o mesmo modelo, confira o nome que você deu ao aparelho.",
+        "Uma caixa ligada dentro do porta-malas fechado tem sinal bem mais fraco – chegue mais perto."
+      ],
+      "faq": [
+        {
+          "question": "Dá para localizar uma caixa de som JBL?",
+          "answer": "Sim, se estiver ligada e no alcance do Bluetooth. O Localizar Bluetooth Perdido mostra o sinal dela e leva você até lá com a indicação quente e frio. Caixa desligada não dá para localizar ao vivo."
+        },
+        {
+          "question": "De que distância dá para ver uma caixa de som Bluetooth?",
+          "answer": "Dentro de casa, normalmente 15–30 metros; ao ar livre, sem obstáculos, muitas vezes mais. Caixas de som têm antenas mais fortes que fones."
+        },
+        {
+          "question": "O app da JBL mostra onde a caixa está?",
+          "answer": "Os apps dos fabricantes funcionam principalmente com conexão ativa e normalmente não mostram localização no mapa. O scanner Bluetooth funciona sem conexão."
+        }
+      ],
+      "cta_title": "A caixa continua lá – em silêncio",
+      "cta_text": "Faça a varredura e siga o sinal forte dela. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth para iPhone"
+        },
+        {
+          "url": "/pt/guias/encontrar-fone-bluetooth-perdido/",
+          "title": "Fone de ouvido Bluetooth perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-smartwatch-perdido/",
+          "title": "Smartwatch ou Mi Band perdido"
+        }
+      ]
+    },
+    {
+      "slug": "scanner-bluetooth-iphone",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Scanner Bluetooth para iPhone",
+      "meta_title": "Scanner Bluetooth para iPhone: veja dispositivos próximos",
+      "meta_description": "Scanner Bluetooth para iPhone: veja todos os dispositivos Bluetooth próximos com força do sinal, fabricante e modelo – e encontre o que você procura.",
+      "keywords": "scanner bluetooth iphone, scanner bluetooth, dispositivos bluetooth próximos, como ver dispositivos bluetooth por perto, localizar dispositivo bluetooth, detectar dispositivos bluetooth, app scanner bluetooth",
+      "h1": "Scanner Bluetooth para iPhone: veja os dispositivos por perto",
+      "quick_answer": "Em Ajustes > Bluetooth, o iPhone só mostra aparelhos pareados ou em modo de pareamento. Para ver todos os dispositivos Bluetooth ligados por perto – com força do sinal, nome, fabricante e modelo – você precisa de um app scanner, como o Localizar Bluetooth Perdido. Escolha qualquer aparelho da lista, e a indicação quente e frio leva você até ele.",
+      "sections": [
+        {
+          "title": "O que os Ajustes do iPhone não mostram",
+          "paragraphs": [
+            "A lista em Ajustes > Bluetooth é uma lista de conexões, não um scanner. Nela aparecem os seus aparelhos pareados e os que estão em modo de pareamento no momento – mas você não vê os fones do vizinho, o relógio esquecido na gaveta nem a força do sinal.",
+            "Um app scanner lê todos os pacotes Bluetooth Low Energy dentro do alcance. Assim você vê o que realmente está transmitindo ao seu redor e consegue medir o quanto está perto."
+          ]
+        },
+        {
+          "title": "Como ler a força do sinal",
+          "paragraphs": [
+            "A força do sinal (RSSI) cai com a distância, mas também é afetada por paredes, pelo corpo e por metal. O Localizar Bluetooth Perdido converte esse valor em uma porcentagem de proximidade fácil de entender e nos níveis frio, morno, quente e muito quente, para você não precisar interpretar números em dBm.",
+            "O mais importante é a tendência: se a porcentagem sobe quando você anda numa direção, está chegando perto. Acima de 90%, o aparelho normalmente está ao alcance da mão."
+          ]
+        }
+      ],
+      "steps_title": "Como escanear dispositivos Bluetooth com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Instale o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+) e permita o acesso ao Bluetooth."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Em poucos segundos você vê a lista de todos os dispositivos Bluetooth ligados no alcance, com a força do sinal ao vivo."
+        },
+        {
+          "title": "Confira os dados do dispositivo",
+          "description": "Toque em um aparelho para ver nome, fabricante e modelo – é assim que você reconhece fones, relógios, caixas de som e outros aparelhos."
+        },
+        {
+          "title": "Escolha o aparelho para encontrar",
+          "description": "Quando achar o que procura, entre no modo de busca com a indicação quente e frio."
+        },
+        {
+          "title": "Siga a porcentagem de proximidade",
+          "description": "Ande na direção em que a porcentagem sobe até o indicador mostrar “muito quente”."
+        }
+      ],
+      "tips": [
+        "Aparelhos sem nome costumam ser acessórios em modo de economia de energia – confira o fabricante nos dados do dispositivo.",
+        "Dê alguns passos e veja quais sinais mudam – isso ajuda a separar o seu aparelho dos aparelhos dos vizinhos.",
+        "O scanner só vê aparelhos ligados num raio de 10–30 metros em ambientes internos.",
+        "O Localizar Bluetooth Perdido não se conecta a aparelhos de outras pessoas – só lê sinais transmitidos publicamente."
+      ],
+      "faq": [
+        {
+          "question": "Como ver todos os dispositivos Bluetooth por perto no iPhone?",
+          "answer": "Use um app scanner Bluetooth, como o Localizar Bluetooth Perdido. Os Ajustes do iPhone só mostram aparelhos pareados ou em modo de pareamento; o scanner mostra todos os aparelhos ligados no alcance."
+        },
+        {
+          "question": "O scanner Bluetooth mostra a distância em metros?",
+          "answer": "Não com exatidão. A força do sinal depende dos obstáculos, então o app mostra uma porcentagem de proximidade e níveis quente e frio em vez de metros. Isso basta para chegar até o aparelho."
+        },
+        {
+          "question": "Usar um scanner Bluetooth é legal e seguro?",
+          "answer": "Sim. O app só recebe sinais que os próprios aparelhos transmitem publicamente e não se conecta a eles. Não exige conta nem pareamento."
+        }
+      ],
+      "cta_title": "Veja o que está transmitindo ao seu redor",
+      "cta_text": "Escaneie os dispositivos Bluetooth próximos e encontre o que você procura. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/encontrar-fone-bluetooth-perdido/",
+          "title": "Fone de ouvido Bluetooth perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-smartwatch-perdido/",
+          "title": "Smartwatch ou Mi Band perdido"
+        },
+        {
+          "url": "/pt/guias/encontrar-airpods-sem-app-buscar/",
+          "title": "Encontrar AirPods sem o app Buscar"
+        }
+      ]
+    },
+    {
+      "slug": "encontrar-estojo-airpods-perdido",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "Estojo do AirPods perdido",
+      "meta_title": "Estojo do AirPods perdido: como encontrar? Resposta honesta",
+      "meta_description": "Perdeu o estojo do AirPods? Quando dá para localizar, quando não dá e o que fazer – com o app Buscar e um scanner Bluetooth no iPhone.",
+      "keywords": "estojo do airpods perdido, como encontrar estojo do airpods, case do airpods perdido, perdi o estojo do airpods, estojo airpods pro perdido, estojo de carregamento airpods",
+      "h1": "Estojo do AirPods perdido – como encontrar",
+      "quick_answer": "Depende do modelo e do que está dentro. O estojo dos AirPods Pro 2 e mais novos tem alto-falante próprio e pode ser localizado no app Buscar. Um estojo fechado com os fones dentro normalmente não transmite nada, e um estojo padrão vazio não tem transmissor ativo. Se a tampa estiver aberta ou os fones estiverem perto, o Localizar Bluetooth Perdido detecta os AirPods e leva você até o estojo.",
+      "sections": [
+        {
+          "title": "Quais estojos dá para localizar",
+          "paragraphs": [
+            "O estojo de carregamento dos AirPods Pro 2, AirPods 4 com cancelamento de ruído e modelos mais novos tem módulo próprio da rede Buscar e alto-falante: no app Buscar você vê ele separado no mapa e pode reproduzir um som. É o melhor caminho se você tem um desses modelos.",
+            "Estojos mais antigos (AirPods 1–3, AirPods Pro de 1ª geração) não transmitem sozinhos. Só dá para descobrir onde estão de forma indireta – pelos fones, quando estão dentro com a tampa aberta, ou pela última localização, quando o estojo se conectou ao iPhone pela última vez."
+          ]
+        },
+        {
+          "title": "Quando o scanner Bluetooth ajuda",
+          "paragraphs": [
+            "Com o estojo aberto, os AirPods acordam e transmitem sinal Bluetooth – aí o Localizar Bluetooth Perdido detecta eles, e você chega ao estojo com a indicação quente e frio. O mesmo vale se os fones caíram do estojo e estão por perto.",
+            "Sendo honesto: um estojo fechado com os fones dentro ou um estojo antigo vazio é invisível para qualquer scanner. Nesse caso, ajudam a última localização no app Buscar e uma busca com método no lugar."
+          ]
+        }
+      ],
+      "steps_title": "Como procurar o estojo do AirPods com o Localizar Bluetooth Perdido",
+      "steps": [
+        {
+          "title": "Confira o app Buscar",
+          "description": "Buscar > Dispositivos: nos AirPods Pro 2 e mais novos, o estojo aparece separado – reproduza um som nele."
+        },
+        {
+          "title": "Instale o Localizar Bluetooth Perdido",
+          "description": "Baixe o app na App Store (grátis, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Inicie a varredura",
+          "description": "Se os AirPods estiverem no estojo aberto ou perto dele, aparecem na lista com a Apple como fabricante."
+        },
+        {
+          "title": "Siga a indicação quente e frio",
+          "description": "Escolha os AirPods e vá para onde o indicador muda de frio para quente."
+        },
+        {
+          "title": "Se nada aparecer, procure com método",
+          "description": "Comece pela última localização: bolsas, bolsos de casacos, carro, frestas do sofá – e repita a varredura de vez em quando."
+        }
+      ],
+      "tips": [
+        "O estojo costuma sumir junto com o casaco ou a bolsa – confira todos os bolsos, inclusive os internos.",
+        "Se você tem os fones e perdeu só o estojo, a Apple oferece a troca paga apenas do estojo.",
+        "Depois de achar, ative no app Buscar o aviso de item deixado para trás, se o seu modelo tiver.",
+        "No carro, o estojo gosta de cair embaixo dos bancos e nos porta-objetos das portas."
+      ],
+      "faq": [
+        {
+          "question": "O estojo fechado do AirPods transmite sinal?",
+          "answer": "Os estojos antigos, não. Um estojo fechado com os fones dentro normalmente coloca os fones em repouso. A exceção são os estojos dos AirPods Pro 2 e modelos mais novos, que podem ser localizados no app Buscar."
+        },
+        {
+          "question": "Dá para encontrar um estojo do AirPods vazio?",
+          "answer": "Um estojo vazio de modelos antigos não tem transmissor ativo, então o scanner não detecta. Ajudam a última localização no app Buscar e uma busca com método."
+        },
+        {
+          "question": "Dá para comprar só o estojo do AirPods?",
+          "answer": "Sim, a Apple oferece a troca paga do estojo de carregamento perdido para a maioria dos modelos de AirPods."
+        }
+      ],
+      "cta_title": "Fones perto do estojo? Você acha",
+      "cta_text": "Faça a varredura – se os AirPods estiverem transmitindo, eles levam você até o estojo. Grátis, sem configurar.",
+      "related": [
+        {
+          "url": "/pt/guias/como-encontrar-airpods-perdidos/",
+          "title": "Como encontrar AirPods perdidos"
+        },
+        {
+          "url": "/pt/guias/encontrar-airpods-descarregado/",
+          "title": "AirPods descarregado ou desligado"
+        },
+        {
+          "url": "/pt/guias/perdi-um-lado-do-airpods/",
+          "title": "Perdi um lado do AirPods"
+        }
+      ]
+    }
+  ]
+}

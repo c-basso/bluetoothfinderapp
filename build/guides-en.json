@@ -1,6 +1,13 @@
 {
   "shared": {
+    "lang": "en",
+    "og_locale": "en_US",
+    "date_locale": "en-US",
+    "home_url": "/",
+    "guides_url": "/guides/",
+    "guides_path": "guides",
     "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Finder",
     "labels": {
       "home": "Home",
       "guides": "Guides",
@@ -101,10 +108,20 @@
       "cta_title": "Your AirPods are probably in Bluetooth range right now",
       "cta_text": "Scan for them and follow the hot–cold guidance until you're right on top of them. Free download, no setup.",
       "related": [
-        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" },
-        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
-        { "url": "/guides/find-dead-airpods/", "title": "How to Find Dead AirPods" }
-      ]
+        {
+          "url": "/guides/find-airpods-without-find-my/",
+          "title": "Find AirPods Without Find My"
+        },
+        {
+          "url": "/guides/find-one-lost-airpod/",
+          "title": "Find One Lost AirPod"
+        },
+        {
+          "url": "/guides/find-dead-airpods/",
+          "title": "How to Find Dead AirPods"
+        }
+      ],
+      "es_slug": "como-encontrar-airpods-perdidos"
     },
     {
       "slug": "find-airpods-without-find-my",
@@ -181,10 +198,20 @@
       "cta_title": "No iCloud needed — just the live signal",
       "cta_text": "Scan, pick your AirPods, and follow the signal. Most searches end in a few minutes.",
       "related": [
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
-        { "url": "/guides/find-lost-airpods-case/", "title": "Find a Lost AirPods Case" },
-        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" }
-      ]
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        },
+        {
+          "url": "/guides/find-lost-airpods-case/",
+          "title": "Find a Lost AirPods Case"
+        },
+        {
+          "url": "/guides/find-lost-earbuds/",
+          "title": "Find Lost Earbuds (Any Brand)"
+        }
+      ],
+      "es_slug": "encontrar-airpods-sin-buscar"
     },
     {
       "slug": "find-one-lost-airpod",
@@ -255,10 +282,20 @@
       "cta_title": "That earbud is still broadcasting",
       "cta_text": "Put the found bud in its case, scan, and follow the signal to the missing one.",
       "related": [
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
-        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" },
-        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" }
-      ]
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        },
+        {
+          "url": "/guides/find-airpods-without-find-my/",
+          "title": "Find AirPods Without Find My"
+        },
+        {
+          "url": "/guides/find-lost-earbuds/",
+          "title": "Find Lost Earbuds (Any Brand)"
+        }
+      ],
+      "es_slug": "encontrar-un-airpod-perdido"
     },
     {
       "slug": "find-dead-airpods",
@@ -340,10 +377,20 @@
       "cta_title": "Catch the signal the moment it comes back",
       "cta_text": "Keep Find Bluetooth Device installed and scan your search zone daily — and next time, catch your devices while they're still broadcasting.",
       "related": [
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" },
-        { "url": "/guides/find-lost-airpods-case/", "title": "Find a Lost AirPods Case" },
-        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" }
-      ]
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        },
+        {
+          "url": "/guides/find-lost-airpods-case/",
+          "title": "Find a Lost AirPods Case"
+        },
+        {
+          "url": "/guides/find-one-lost-airpod/",
+          "title": "Find One Lost AirPod"
+        }
+      ],
+      "es_slug": "encontrar-airpods-sin-bateria"
     },
     {
       "slug": "find-lost-bluetooth-headphones",
@@ -423,10 +470,20 @@
       "cta_title": "30–60 hour batteries mean they're probably still on",
       "cta_text": "Scan now, pick your headphones from the list, and follow the signal to wherever you left them.",
       "related": [
-        { "url": "/guides/find-lost-earbuds/", "title": "Find Lost Earbuds (Any Brand)" },
-        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
-      ]
+        {
+          "url": "/guides/find-lost-earbuds/",
+          "title": "Find Lost Earbuds (Any Brand)"
+        },
+        {
+          "url": "/guides/bluetooth-scanner-iphone/",
+          "title": "Bluetooth Scanner for iPhone"
+        },
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        }
+      ],
+      "es_slug": "encontrar-auriculares-bluetooth-perdidos"
     },
     {
       "slug": "find-lost-earbuds",
@@ -492,10 +549,20 @@
       "cta_title": "One method, every earbud brand",
       "cta_text": "Scan, identify, follow the signal. Find Bluetooth Device is free on the App Store.",
       "related": [
-        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
-        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
-        { "url": "/guides/find-airpods-without-find-my/", "title": "Find AirPods Without Find My" }
-      ]
+        {
+          "url": "/guides/find-one-lost-airpod/",
+          "title": "Find One Lost AirPod"
+        },
+        {
+          "url": "/guides/find-lost-bluetooth-headphones/",
+          "title": "Find Lost Bluetooth Headphones"
+        },
+        {
+          "url": "/guides/find-airpods-without-find-my/",
+          "title": "Find AirPods Without Find My"
+        }
+      ],
+      "es_slug": "encontrar-auriculares-inalambricos-perdidos"
     },
     {
       "slug": "find-lost-smartwatch",
@@ -556,10 +623,20 @@
       "cta_title": "Your watch is broadcasting right now",
       "cta_text": "Days of battery life mean a lost watch stays findable. Scan and follow the signal.",
       "related": [
-        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
-        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
-        { "url": "/guides/find-lost-bluetooth-speaker/", "title": "Find a Lost Bluetooth Speaker" }
-      ]
+        {
+          "url": "/guides/bluetooth-scanner-iphone/",
+          "title": "Bluetooth Scanner for iPhone"
+        },
+        {
+          "url": "/guides/find-lost-bluetooth-headphones/",
+          "title": "Find Lost Bluetooth Headphones"
+        },
+        {
+          "url": "/guides/find-lost-bluetooth-speaker/",
+          "title": "Find a Lost Bluetooth Speaker"
+        }
+      ],
+      "es_slug": "encontrar-reloj-inteligente-perdido"
     },
     {
       "slug": "find-lost-bluetooth-speaker",
@@ -632,10 +709,20 @@
       "cta_title": "If it's on, you'll find it in minutes",
       "cta_text": "Speakers have the strongest signals of any Bluetooth gadget. Scan and follow the trail.",
       "related": [
-        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
-        { "url": "/guides/bluetooth-scanner-iphone/", "title": "Bluetooth Scanner for iPhone" },
-        { "url": "/guides/find-lost-smartwatch/", "title": "Find a Lost Smartwatch" }
-      ]
+        {
+          "url": "/guides/find-lost-bluetooth-headphones/",
+          "title": "Find Lost Bluetooth Headphones"
+        },
+        {
+          "url": "/guides/bluetooth-scanner-iphone/",
+          "title": "Bluetooth Scanner for iPhone"
+        },
+        {
+          "url": "/guides/find-lost-smartwatch/",
+          "title": "Find a Lost Smartwatch"
+        }
+      ],
+      "es_slug": "encontrar-altavoz-bluetooth-perdido"
     },
     {
       "slug": "bluetooth-scanner-iphone",
@@ -703,10 +790,20 @@
       "cta_title": "See what's really around you",
       "cta_text": "Every powered-on Bluetooth device, with signal strength and details — one scan away.",
       "related": [
-        { "url": "/guides/find-lost-bluetooth-headphones/", "title": "Find Lost Bluetooth Headphones" },
-        { "url": "/guides/find-lost-smartwatch/", "title": "Find a Lost Smartwatch" },
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
-      ]
+        {
+          "url": "/guides/find-lost-bluetooth-headphones/",
+          "title": "Find Lost Bluetooth Headphones"
+        },
+        {
+          "url": "/guides/find-lost-smartwatch/",
+          "title": "Find a Lost Smartwatch"
+        },
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        }
+      ],
+      "es_slug": "escaner-bluetooth-iphone"
     },
     {
       "slug": "find-lost-airpods-case",
@@ -776,10 +873,20 @@
       "cta_title": "Catch the case in its talkative moments",
       "cta_text": "Scan while you search — an open lid is all it takes for the buds inside to give themselves away.",
       "related": [
-        { "url": "/guides/find-one-lost-airpod/", "title": "Find One Lost AirPod" },
-        { "url": "/guides/find-dead-airpods/", "title": "How to Find Dead AirPods" },
-        { "url": "/guides/how-to-find-lost-airpods/", "title": "How to Find Lost AirPods" }
-      ]
+        {
+          "url": "/guides/find-one-lost-airpod/",
+          "title": "Find One Lost AirPod"
+        },
+        {
+          "url": "/guides/find-dead-airpods/",
+          "title": "How to Find Dead AirPods"
+        },
+        {
+          "url": "/guides/how-to-find-lost-airpods/",
+          "title": "How to Find Lost AirPods"
+        }
+      ],
+      "es_slug": "encontrar-estuche-airpods-perdido"
     }
   ]
 }

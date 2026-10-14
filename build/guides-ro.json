@@ -1,0 +1,892 @@
+{
+  "shared": {
+    "lang": "ro",
+    "og_locale": "ro_RO",
+    "date_locale": "ro-RO",
+    "home_url": "/ro/",
+    "guides_url": "/ro/ghiduri/",
+    "guides_path": "ro/ghiduri",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Finder",
+    "labels": {
+      "home": "Acasă",
+      "guides": "Ghiduri",
+      "logo_alt": "Pictograma aplicației Bluetooth Finder",
+      "nav_cta": "Descarcă aplicația",
+      "quick_answer": "Răspuns scurt",
+      "tips_title": "Sfaturi care cresc șansele",
+      "faq_title": "Întrebări frecvente",
+      "related_title": "Ghiduri similare",
+      "read_label": "Citește ghidul →",
+      "updated": "Ultima actualizare",
+      "cta_button": "Descarcă din App Store",
+      "cta_aria": "Descarcă Bluetooth Finder din App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Toate drepturile rezervate.",
+      "privacy_link": "Politica de confidențialitate",
+      "terms_link": "Termeni de utilizare"
+    },
+    "hub": {
+      "h1": "Ghiduri: cum găsești dispozitivele pierdute",
+      "meta_title": "Ghiduri: cum găsești căștile, AirPods și smartwatch-ul pierdute",
+      "meta_description": "Ghiduri pas cu pas pentru a găsi cu iPhone-ul AirPods, căști wireless și over-ear, smartwatch-uri și boxe pierdute – inclusiv dispozitive care nu sunt în Găsire.",
+      "intro_label": "Ce găsești aici",
+      "intro": "Ghiduri practice și sincere pentru fiecare situație: AirPods cu sau fără aplicația Găsire, o singură cască pierdută, căști Sony, JBL și Bose, smartwatch-uri, boxe și baterii descărcate. Fiecare ghid explică ce funcționează cu adevărat și arată cum găsești dispozitivul cu aplicația Bluetooth Finder pe iPhone.",
+      "cta_title": "O singură aplicație pentru toate ghidurile de pe această pagină",
+      "cta_text": "Bluetooth Finder scanează semnalele Bluetooth din apropiere și te duce la orice dispozitiv pornit cu indicațiile cald–rece și procentul de apropiere. Gratuit, 24,2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "cum-gasesti-airpods-pierdute",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "AirPods pierdute",
+      "meta_title": "Cum găsești AirPods pierdute (cu și fără aplicația Găsire)",
+      "meta_description": "Ai pierdut AirPods? Verifică locația în aplicația Găsire, apoi urmează semnalul Bluetooth în timp real până le ai în mână – chiar și complet fără Găsire.",
+      "keywords": "airpods pierdute, cum găsesc airpods, am pierdut airpods, cum găsești airpods pierdute, airpods pierdute în casă, găsire airpods cu iphone",
+      "h1": "Cum găsești rapid AirPods pierdute",
+      "quick_answer": "Dacă Găsire era activat, deschide mai întâi aplicația Găsire: îți arată AirPods pe hartă și poate reda un sunet, cât timp sunt în afara carcasei și au baterie. Dacă Găsire nu e disponibil, arată doar o locație veche sau sunetul e prea slab, folosește o aplicație de căutare Bluetooth: AirPods pornite emit un semnal Bluetooth, iar urmărindu-i puterea ajungi exact la ele.",
+      "sections": [
+        {
+          "title": "Începe cu aplicația Găsire – și cunoaște-i limitele",
+          "paragraphs": [
+            "Pentru AirPods asociate cu iPhone-ul tău, aplicația Găsire de la Apple este primul pas: Găsire → Dispozitive → AirPods, uită-te pe hartă și atinge Redare sunet dacă sunt în apropiere. AirPods Pro 2 și modelele mai noi oferă chiar Găsire în apropiere, cu o săgeată de direcție.",
+            "În trei situații frecvente, Găsire nu te ajută. Locația de pe hartă e de obicei precisă doar la nivel de clădire – sub care pernă a canapelei, nu-ți spune. Sunetul e slab și nu funcționează când AirPods sunt în carcasă. Iar dacă AirPods n-au fost niciodată adăugate în Găsire, aparțin altui Cont Apple (cumpărate second-hand) sau apar offline, aplicația nu poate face nimic."
+          ]
+        },
+        {
+          "title": "De ce semnalul Bluetooth găsește ce nu vede Găsire",
+          "paragraphs": [
+            "Cât timp AirPods sunt în afara carcasei și au baterie, fiecare cască emite semnale Bluetooth Low Energy. În interior ajung la aproximativ 10–30 de metri, iar puterea lor crește clar pe măsură ce te apropii.",
+            "O aplicație de căutare Bluetooth citește acest semnal direct – fără Cont Apple, fără configurare și fără rețeaua Găsire. De aceea e instrumentul ideal pentru ultimii 30 de metri: Găsire te duce în camera potrivită, semnalul – la perna potrivită."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești AirPods cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Descarcă și deschide aplicația",
+          "description": "Instalează Bluetooth Finder din App Store (gratuit, 24,2 MB, iOS 17.1+) și permite accesul la Bluetooth când aplicația îl cere."
+        },
+        {
+          "title": "Scanează dispozitivele din apropiere",
+          "description": "Pornește scanarea. Toate dispozitivele Bluetooth pornite din rază apar într-o listă cu puterea semnalului în timp real – caută-ți AirPods după nume."
+        },
+        {
+          "title": "Alege-ți AirPods",
+          "description": "Atinge AirPods în listă. Dacă nu apare un nume, verifică în datele dispozitivului dacă producătorul afișat e Apple."
+        },
+        {
+          "title": "Mergi încet prin cameră",
+          "description": "Treci prin camerele în care le-ai avut ultima dată. Indicatorul trece de la rece la călduț și cald pe măsură ce semnalul se întărește."
+        },
+        {
+          "title": "Ridică-le la „foarte cald”",
+          "description": "Când aplicația arată „foarte cald”, iar procentul de apropiere trece de 90%, AirPods sunt la îndemână: uită-te sub perne, în buzunare, genți și sub mobilă."
+        }
+      ],
+      "tips": [
+        "Caută cameră cu cameră, reține cel mai mare procent din fiecare și concentrează-te pe cea mai bună.",
+        "Ține iPhone-ul la înălțimi diferite: semnalul e cel mai puternic când nimic nu stă între tine și dispozitiv.",
+        "În carcasa închisă, AirPods dorm. Dacă crezi că sunt în carcasă, verifică ultima locație cunoscută în Găsire.",
+        "Caută cât mai repede: o cască scoasă din carcasă emite doar până se termină bateria."
+      ],
+      "faq": [
+        {
+          "question": "Pot găsi AirPods pierdute fără aplicația Găsire?",
+          "answer": "Da, dacă sunt în afara carcasei și au baterie. AirPods emit semnale Bluetooth a căror putere o poate urmări o aplicație de căutare – fără setări Găsire și fără cont iCloud."
+        },
+        {
+          "question": "De la ce distanță se văd AirPods pierdute?",
+          "answer": "Raza Bluetooth în interior e de obicei 10–30 de metri, în funcție de pereți și interferențe. Afară, fără obstacole, poate fi mai mare. Dacă nu vezi nimic, treci în camera următoare și scanează din nou."
+        },
+        {
+          "question": "Trebuie ca AirPods să aibă baterie ca să le găsesc?",
+          "answer": "Da. O cască complet descărcată nu mai emite nimic și nicio aplicație – nici Găsire – n-o poate vedea în timp real. Dacă bateria s-ar fi putut termina, caută în jurul ultimei locații din Găsire și scanează din nou din când în când."
+        }
+      ],
+      "cta_title": "AirPods tale sunt probabil acum în rază",
+      "cta_text": "Scanează-le și urmează indicațiile cald–rece până le vezi. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/airpods-fara-aplicatia-gasire/",
+          "title": "AirPods fără aplicația Găsire"
+        },
+        {
+          "url": "/ro/ghiduri/o-casca-airpods-pierduta/",
+          "title": "Ai pierdut o cască AirPods"
+        },
+        {
+          "url": "/ro/ghiduri/airpods-descarcate-cum-le-gasesti/",
+          "title": "AirPods descărcate sau oprite"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-fara-aplicatia-gasire",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "AirPods fără aplicația Găsire",
+      "meta_title": "Cum găsești AirPods fără aplicația Găsire și fără iCloud",
+      "meta_description": "N-ai activat niciodată Găsire, ai AirPods second-hand sau n-ai acces la iCloud? Iată cum găsești AirPods cu iPhone-ul după semnalul Bluetooth, pas cu pas.",
+      "keywords": "găsire airpods fără aplicația găsire, airpods fără icloud, cum găsesc airpods fără găsire, airpods second-hand pierdute, airpods nu apar în găsire, găsire airpods fără cont apple",
+      "h1": "Cum găsești AirPods fără aplicația Găsire",
+      "quick_answer": "Se poate. Aplicația Găsire funcționează doar cu AirPods asociate cu Contul tău Apple, dar orice AirPods pornite și scoase din carcasă emit un semnal Bluetooth. O aplicație de căutare Bluetooth, precum Bluetooth Finder, citește direct acest semnal și te duce la căști cu indicațiile cald–rece – fără iCloud, fără cont și fără configurare prealabilă.",
+      "sections": [
+        {
+          "title": "Când aplicația Găsire nu te ajută",
+          "paragraphs": [
+            "Găsire afișează AirPods doar dacă au fost asociate dinainte cu Contul tău Apple. Nu apar acolo dacă le-ai cumpărat second-hand și sunt încă legate de fostul proprietar, dacă n-ai activat niciodată Găsire, dacă folosești iPhone-ul altcuiva sau dacă nu-ți amintești parola Contului Apple.",
+            "Chiar și când AirPods sunt în Găsire, apar adesea offline sau cu o locație de acum câteva ore. În toate aceste cazuri rămâne un singur lucru care funcționează indiferent de cont: semnalul Bluetooth pe care îl emit chiar căștile."
+          ]
+        },
+        {
+          "title": "Cum funcționează căutarea după semnal Bluetooth",
+          "paragraphs": [
+            "Scoase din carcasă și încărcate, AirPods trimit regulat pachete scurte Bluetooth Low Energy. Orice telefon din apropiere le poate recepționa – nu trebuie să fii proprietarul și nici să le ai asociate.",
+            "Bluetooth Finder măsoară puterea acestui semnal în timp real și o transformă în procent de apropiere și în treptele rece, călduț, cald și foarte cald. Nu vezi un punct pe hartă, dar într-o rază de 10–30 de metri ajungi la căști mult mai repede decât dacă răscolești casa la întâmplare."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești AirPods fără Găsire cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Instalează Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+). Nu ai nevoie de Contul Apple asociat cu AirPods și nici de iCloud."
+        },
+        {
+          "title": "Întoarce-te unde le-ai pierdut",
+          "description": "Mergi acolo unde ai avut ultima dată AirPods – acasă, la birou, în mașină. Semnalul Bluetooth ajunge doar la 10–30 de metri."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "Toate dispozitivele Bluetooth pornite din apropiere apar în listă. AirPods au de obicei un nume, iar ca producător apare Apple."
+        },
+        {
+          "title": "Urmează indicațiile cald–rece",
+          "description": "Alege AirPods și deplasează-te încet. Dacă indicatorul trece de la rece la cald și procentul crește, mergi în direcția bună."
+        },
+        {
+          "title": "Caută în jur la „foarte cald”",
+          "description": "Peste 90%, căștile sunt chiar lângă tine – verifică spațiile din canapea, buzunarele, gențile și sub mobilă."
+        }
+      ],
+      "tips": [
+        "Dacă AirPods sunt în carcasa închisă, nu emit semnal – atunci ajută ultima locație și o căutare atentă acolo unde ai avut carcasa.",
+        "AirPods second-hand legate de contul fostului proprietar emit în continuare Bluetooth – scannerul le vede.",
+        "Oprește pentru moment alte căști din apropiere, ca să recunoști mai ușor dispozitivul potrivit în listă.",
+        "După ce le găsești, activează Găsire în Contul tău Apple – data viitoare vei vedea și ultima locație."
+      ],
+      "faq": [
+        {
+          "question": "Se pot găsi AirPods fără Cont Apple?",
+          "answer": "Da, în apropiere. Semnalul Bluetooth e emis independent de cont, așa că o aplicație de căutare Bluetooth detectează AirPods pornite, scoase din carcasă, fără autentificare și fără iCloud."
+        },
+        {
+          "question": "Pot găsi AirPods cumpărate second-hand?",
+          "answer": "Da, dacă sunt pornite și în rază. Legătura cu contul fostului proprietar blochează doar aplicația Găsire – nu și semnalul Bluetooth pe care îl citește Bluetooth Finder."
+        },
+        {
+          "question": "Funcționează dacă AirPods sunt departe?",
+          "answer": "Nu. Bluetooth funcționează pe o rază de aproximativ 10–30 de metri în interior. Pentru AirPods pierdute departe ai nevoie de rețeaua Găsire și de asocierea prealabilă cu Contul Apple."
+        }
+      ],
+      "cta_title": "Fără cont, fără iCloud – doar semnalul",
+      "cta_text": "Scanează zona și urmează indicațiile cald–rece până la AirPods. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/cum-gasesti-airpods-pierdute/",
+          "title": "Cum găsești AirPods pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/o-casca-airpods-pierduta/",
+          "title": "Ai pierdut o cască AirPods"
+        },
+        {
+          "url": "/ro/ghiduri/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth pentru iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "o-casca-airpods-pierduta",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "O cască AirPods",
+      "meta_title": "Ai pierdut o cască AirPods? Cum o găsești",
+      "meta_description": "Ai pierdut o cască AirPods? Fiecare cască emite propriul semnal Bluetooth. Iată cum găsești casca stângă sau dreaptă cu iPhone-ul – pas cu pas.",
+      "keywords": "am pierdut o cască airpods, cum găsesc o cască airpods, cască airpods stângă pierdută, cască airpods dreaptă pierdută, o singură cască airpods",
+      "h1": "Ai pierdut o cască AirPods – cum o găsești",
+      "quick_answer": "Fiecare cască AirPods emite propriul semnal Bluetooth cât timp e în afara carcasei și are baterie. Pune cealaltă cască în carcasă și închide capacul, ca să nu încurce semnalul, apoi scanează zona cu Bluetooth Finder și urmează indicațiile cald–rece – procentul de apropiere crește brusc când ești chiar lângă casca pierdută.",
+      "sections": [
+        {
+          "title": "Ce poate face aplicația Găsire pentru o singură cască",
+          "paragraphs": [
+            "În aplicația Găsire poți reda un sunet separat pe casca stângă sau pe cea dreaptă – e un prim pas bun dacă AirPods sunt asociate cu Contul tău Apple și casca are baterie.",
+            "Sunetul e însă slab, iar o singură cască se ascunde ușor în canapea, în buzunarul gecii sau în așternut, unde nu-l auzi. Harta arată cel mult clădirea. Aici intervine semnalul Bluetooth, pe care casca îl emite chiar dacă nu se aude nimic."
+          ]
+        },
+        {
+          "title": "De ce cealaltă cască trebuie să stea în carcasă",
+          "paragraphs": [
+            "Ambele căști emit sub același nume. Dacă cealaltă e lângă tine, aplicația poate afișa semnalul ei puternic în locul celui pe care îl cauți.",
+            "Pune casca pe care o ai în carcasă și închide capacul – AirPods din carcasa închisă nu mai emit. Așa, în listă rămâne doar casca pierdută, iar orice schimbare a procentului îi aparține ei."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești o cască AirPods cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Pune cealaltă cască în carcasă",
+          "description": "Introdu casca pe care o ai în carcasă și închide capacul, ca în listă să rămână doar semnalul celei pierdute."
+        },
+        {
+          "title": "Deschide Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+) și pornește scanarea acolo unde ai avut casca ultima dată."
+        },
+        {
+          "title": "Alege AirPods din listă",
+          "description": "Casca pierdută apare sub numele AirPods tale sau cu Apple ca producător."
+        },
+        {
+          "title": "Restrânge zona pas cu pas",
+          "description": "Mergi încet, oprindu-te la fiecare câțiva pași. Du-te acolo unde indicatorul trece de la călduț la cald."
+        },
+        {
+          "title": "Caută jos la „foarte cald”",
+          "description": "Peste 90%, casca e la îndemână – verifică spațiile din canapea, sub pat, buzunarele și gluga gecii."
+        }
+      ],
+      "tips": [
+        "O cască pe podea sau în canapea are semnal mai slab – coboară iPhone-ul când procentul nu mai crește.",
+        "Caută imediat: o singură cască are baterie mică și nu mai emite după câteva ore.",
+        "Verifică și locurile unde ți-ai scos căciula, fularul sau hanoracul – atunci cad cel mai des căștile.",
+        "Dacă nu reușești s-o găsești, Apple oferă înlocuirea contra cost a unei singure căști."
+      ],
+      "faq": [
+        {
+          "question": "O singură cască AirPods emite semnal?",
+          "answer": "Da. Fiecare cască are propriul modul Bluetooth și emite cât timp e în afara carcasei și are baterie – de aceea scannerul o poate detecta separat."
+        },
+        {
+          "question": "Cum deosebesc casca stângă de cea dreaptă în aplicație?",
+          "answer": "Ambele emit sub același nume. Cel mai simplu e să pui casca pe care o ai în carcasa închisă – atunci singurul semnal AirPods din listă aparține căștii pierdute."
+        },
+        {
+          "question": "Ce fac dacă casca e descărcată?",
+          "answer": "O cască descărcată nu emite și nu poate fi găsită în timp real. Caută în jurul ultimei locații cunoscute din aplicația Găsire și scanează din nou din când în când."
+        }
+      ],
+      "cta_title": "Cască mică, indiciu puternic",
+      "cta_text": "Scanează zona și lasă procentul de apropiere să te ducă la casca pierdută. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/cum-gasesti-airpods-pierdute/",
+          "title": "Cum găsești AirPods pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/airpods-descarcate-cum-le-gasesti/",
+          "title": "AirPods descărcate sau oprite"
+        },
+        {
+          "url": "/ro/ghiduri/carcasa-airpods-pierduta/",
+          "title": "Carcasa AirPods pierdută"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-descarcate-cum-le-gasesti",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "AirPods descărcate",
+      "meta_title": "AirPods descărcate – cum le găsești? Răspunsul sincer",
+      "meta_description": "Ai pierdut AirPods sau căști cu bateria descărcată? În timp real nu se poate. Ce funcționează: ultima locație, scanări repetate și o căutare inteligentă.",
+      "keywords": "airpods descărcate cum le găsesc, căști descărcate pierdute, căști bluetooth oprite cum le găsesc, airpods offline, airpods fără locație, căști wireless descărcate",
+      "h1": "AirPods descărcate sau oprite – cum le găsești",
+      "quick_answer": "Sincer: AirPods descărcate sau oprite nu pot fi găsite în timp real – nu emit niciun semnal pe care să-l poată folosi vreo aplicație, nici măcar Găsire. Verifică ultima locație cunoscută în aplicația Găsire, caută metodic acolo și scanează din când în când cu Bluetooth Finder: căștile cu un rest de baterie se trezesc adesea pentru câteva momente, iar atunci le prinzi semnalul.",
+      "sections": [
+        {
+          "title": "Ce se întâmplă când se termină bateria",
+          "paragraphs": [
+            "AirPods emit Bluetooth doar cât au energie. Când bateria ajunge la zero, casca amuțește: nu redă sunet, nu-și actualizează locația în rețeaua Găsire și nu apare în niciun scanner. În aplicația Găsire vezi atunci că e offline sau doar ultima poziție.",
+            "Vestea bună: „descărcat” înseamnă rar zero absolut. Căștile se opresc adesea la câteva procente și se trezesc scurt, de exemplu când sunt mișcate. De aceea merită să scanezi de mai multe ori, nu doar o dată."
+          ]
+        },
+        {
+          "title": "Ultima locație e cel mai bun punct de plecare",
+          "paragraphs": [
+            "Dacă AirPods erau în Găsire, aplicația arată unde au avut ultima dată conexiune. Asta restrânge căutarea la o locuință, o mașină sau un birou.",
+            "Apoi caută metodic: începe cu locurile unde ai stat sau te-ai schimbat, verifică jos și prin spații înguste, iar la fiecare câteva minute scanează din nou cu Bluetooth Finder. O singură sclipire de semnal cu procentul de apropiere e suficientă ca să-ți arate camera potrivită."
+          ]
+        }
+      ],
+      "steps_title": "Cum cauți AirPods descărcate cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Verifică ultima locație",
+          "description": "Deschide Găsire → Dispozitive → AirPods și notează ultimul loc și ora cunoscute."
+        },
+        {
+          "title": "Instalează Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+), ca să prinzi imediat orice sclipire de semnal."
+        },
+        {
+          "title": "Scanează la intervale",
+          "description": "Pornește scanarea la ultima locație și repet-o la fiecare câteva minute în timp ce cauți prin cameră."
+        },
+        {
+          "title": "Când apar AirPods – urmează semnalul",
+          "description": "Dacă AirPods se trezesc pentru o clipă, alege-le și urmează indicațiile cald–rece înainte să se stingă din nou."
+        },
+        {
+          "title": "Pregătește-te pentru data viitoare",
+          "description": "După ce le găsești, încarcă-le, activează Găsire și păstrează Bluetooth Finder pe iPhone – următoarea căutare durează două minute."
+        }
+      ],
+      "tips": [
+        "Caută acolo unde bateria s-ar fi putut termina: la un antrenament lung, într-o călătorie sau dormind cu căștile.",
+        "O carcasă închisă cu căștile înăuntru nu emite nici ea – caut-o cu ochii și cu mâna prin genți și buzunare.",
+        "Roagă-i pe cei din casă să nu mute lucrurile din cameră până nu o verifici metodic.",
+        "Dacă nimic nu funcționează, întreabă la obiecte pierdute în locurile prin care ai trecut – cafenele, săli, transport public."
+      ],
+      "faq": [
+        {
+          "question": "Găsește aplicația AirPods complet descărcate?",
+          "answer": "Nu. Fără energie, căștile nu emit semnal Bluetooth, așa că nicio aplicație și nici rețeaua Găsire nu le pot vedea în timp real. Te ajută ultima locație și căutarea metodică."
+        },
+        {
+          "question": "Ce înseamnă când AirPods apar offline în Găsire?",
+          "answer": "Că AirPods nu s-au mai conectat de ceva timp la niciun dispozitiv – cel mai des din cauza bateriei descărcate sau a carcasei închise. Harta arată doar ultimul loc cunoscut."
+        },
+        {
+          "question": "Pot găsi căști Bluetooth oprite de alte mărci?",
+          "answer": "Nu în timp real. Căștile Sony, JBL sau Samsung oprite nu emit. Verifică ultimul loc de conectare în aplicația producătorului, dacă oferă așa ceva, și scanează din nou după ce căștile pornesc."
+        }
+      ],
+      "cta_title": "Data viitoare le găsești în două minute",
+      "cta_text": "Instalează Bluetooth Finder acum – cât căștile sunt pornite, te duce la ele cu indicațiile cald–rece. Gratuit.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/cum-gasesti-airpods-pierdute/",
+          "title": "Cum găsești AirPods pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/carcasa-airpods-pierduta/",
+          "title": "Carcasa AirPods pierdută"
+        },
+        {
+          "url": "/ro/ghiduri/casti-bluetooth-pierdute/",
+          "title": "Căști Bluetooth pierdute"
+        }
+      ]
+    },
+    {
+      "slug": "casti-bluetooth-pierdute",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Căști Bluetooth pierdute",
+      "meta_title": "Cum găsești căștile Bluetooth pierdute (Sony, JBL, Bose)",
+      "meta_description": "Am pierdut căștile: iată cum găsești cu iPhone-ul căști Bluetooth Sony, JBL, Bose sau Beats după semnalul Bluetooth – chiar dacă nu sunt în Găsire.",
+      "keywords": "cum găsesc căștile bluetooth pierdute, am pierdut căștile, căști bluetooth pierdute, cum găsești căștile pierdute, căști sony pierdute, căști jbl pierdute, căști over-ear pierdute, aplicație găsire căști",
+      "h1": "Cum găsești căștile Bluetooth pierdute",
+      "quick_answer": "Dacă sunt pornite și în rază, le găsești după semnalul Bluetooth. Orice căști pornite – Sony, JBL, Bose, Beats, Sennheiser – emit un semnal care crește pe măsură ce te apropii. Scanează zona cu Bluetooth Finder, alege căștile din listă și urmează indicațiile cald–rece până când procentul de apropiere trece de 90%.",
+      "sections": [
+        {
+          "title": "De ce majoritatea căștilor nu sunt în aplicația Găsire",
+          "paragraphs": [
+            "Aplicația Găsire de la Apple funcționează cu AirPods, unele căști Beats și puține accesorii certificate pentru rețeaua Găsire. Căștile Sony, JBL, Bose sau Sennheiser de obicei nu apar acolo, iar aplicațiile producătorilor arată cel mult locul ultimei conectări la telefon.",
+            "De aceea, când cauți „am pierdut căștile”, dai mai ales de sfaturi care se opresc la aplicația Găsire. Dacă ale tale nu sunt acolo, ai nevoie de o metodă care funcționează cu orice marcă: semnalul Bluetooth."
+          ]
+        },
+        {
+          "title": "Cum te duce semnalul la căști",
+          "paragraphs": [
+            "Căștile Bluetooth pornite emit regulat semnal – mai ales când nu sunt conectate la telefon și caută o conexiune. În interior, acesta ajunge la 10–30 de metri.",
+            "Bluetooth Finder îți arată acest semnal cu nume, producător și model, apoi îi transformă puterea în procent de apropiere și în treptele rece, călduț, cald, foarte cald. Căștile over-ear au antene mai mari decât cele in-ear, așa că le detectezi de obicei de la o distanță mai mare."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești căștile cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Deconectează căștile de la telefon",
+          "description": "În Configurări → Bluetooth, deconectează căștile (fără să le ștergi). Căștile neconectate emit mai des și sunt mai ușor de detectat."
+        },
+        {
+          "title": "Deschide Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+) și pornește scanarea."
+        },
+        {
+          "title": "Găsește căștile în listă",
+          "description": "Caută numele modelului (de ex. WH-1000XM5, Tune 510BT, QC45) sau producătorul – Sony, JBL, Bose."
+        },
+        {
+          "title": "Urmează indicațiile cald–rece",
+          "description": "Treci dintr-o cameră în alta. Acolo unde indicatorul trece de la rece la cald, ești mai aproape."
+        },
+        {
+          "title": "Caută în jur la „foarte cald”",
+          "description": "Peste 90%, căștile sunt chiar lângă tine – verifică sub perne, după canapea, în rucsac și în dulap."
+        }
+      ],
+      "tips": [
+        "Dacă au oprire automată, caută repede – după câteva minute fără conexiune se pot opri.",
+        "Verifică aplicația producătorului (de ex. Sony Headphones Connect): uneori arată locul ultimei conectări.",
+        "Căștile over-ear pornite, aflate în husă sau rucsac, emit în continuare – materialul slăbește semnalul doar puțin.",
+        "Când procentul nu mai crește, schimbă înălțimea iPhone-ului și rotește-te încet pe loc."
+      ],
+      "faq": [
+        {
+          "question": "Pot găsi căști care nu sunt în aplicația Găsire?",
+          "answer": "Da, dacă sunt pornite și în rază. Bluetooth Finder citește semnalul Bluetooth al oricărei mărci – nu are nevoie de înregistrare în Găsire sau de un cont la producător."
+        },
+        {
+          "question": "Trebuie să fie căștile asociate cu iPhone-ul meu?",
+          "answer": "Nu. Scannerul vede orice dispozitiv Bluetooth pornit din rază. Deconectarea căștilor de la telefon chiar ajută adesea, pentru că încep să emită mai des."
+        },
+        {
+          "question": "Cum găsesc căștile oprite?",
+          "answer": "Căștile oprite nu emit, așa că nu pot fi găsite în timp real. Verifică ultimul loc de conectare în aplicația producătorului și caută acolo metodic."
+        }
+      ],
+      "cta_title": "Găsește-ți căștile – de orice marcă",
+      "cta_text": "Scanează zona și urmează semnalul până la căștile Sony, JBL, Bose sau Beats. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/casti-wireless-pierdute/",
+          "title": "Căști wireless pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/airpods-descarcate-cum-le-gasesti/",
+          "title": "Căști descărcate sau oprite"
+        },
+        {
+          "url": "/ro/ghiduri/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth pentru iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "casti-wireless-pierdute",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Căști wireless pierdute",
+      "meta_title": "Căști wireless pierdute – cum le găsești (Galaxy Buds, JBL)",
+      "meta_description": "Ai pierdut căștile wireless Galaxy Buds, Xiaomi, JBL sau AirPods? Iată cum le găsești cu iPhone-ul după semnalul Bluetooth – o metodă pentru orice marcă.",
+      "keywords": "căști wireless pierdute, cum găsesc căștile wireless, căști in-ear pierdute, căști true wireless pierdute, galaxy buds pierdute, căști xiaomi pierdute, am pierdut căștile wireless",
+      "h1": "Căști wireless pierdute – cum le găsești",
+      "quick_answer": "Căștile wireless pornite și scoase din carcasă emit semnal Bluetooth cât au baterie – indiferent de marcă. Scanează zona cu Bluetooth Finder, alege căștile după nume sau producător și urmează indicațiile cald–rece. Când procentul de apropiere trece de 90%, căștile sunt la îndemână.",
+      "sections": [
+        {
+          "title": "O singură metodă pentru orice marcă",
+          "paragraphs": [
+            "Galaxy Buds le poți căuta în SmartThings Find, AirPods în aplicația Găsire, iar multe mărci au aplicații proprii – dar doar dacă folosești un telefon de la același producător și ai configurat totul dinainte. Cu un iPhone și căști Samsung, Xiaomi sau JBL rămâi de obicei fără unealtă.",
+            "Semnalul Bluetooth e comun tuturor. Orice căști wireless îl emit la fel, așa că Bluetooth Finder funcționează la fel cu Galaxy Buds, Redmi Buds, JBL Tune, Sony WF, Jabra, Soundcore și AirPods."
+          ]
+        },
+        {
+          "title": "Unde se pierd cel mai des căștile wireless",
+          "paragraphs": [
+            "Căștile wireless sunt mici și ușoare: cad când îți dai jos gluga, căciula sau hanoracul, alunecă printre pernele canapelei și între scaunele mașinii, rămân uitate în buzunarele gecilor și în geanta de sală.",
+            "În cele mai multe cazuri, sunt la câțiva metri de locul unde le-ai folosit ultima dată. Exact raza potrivită pentru căutarea după semnal Bluetooth."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești căștile wireless cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Descarcă Bluetooth Finder",
+          "description": "Instalează aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+) și permite accesul la Bluetooth."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "Toate dispozitivele Bluetooth pornite din apropiere apar cu puterea semnalului. Caută numele modelului sau producătorul: Samsung, Xiaomi, JBL."
+        },
+        {
+          "title": "Alege-ți căștile",
+          "description": "Dacă ai pierdut o singură cască, pune-o pe cealaltă în carcasa închisă, ca să nu încurce rezultatul."
+        },
+        {
+          "title": "Urmează indicațiile cald–rece",
+          "description": "Mergi încet. Indicatorul trece de la rece la călduț și cald, iar procentul de apropiere crește."
+        },
+        {
+          "title": "Caută în jur la „foarte cald”",
+          "description": "Peste 90%, verifică spațiile din canapea, buzunarele, gluga, podeaua mașinii și geanta."
+        }
+      ],
+      "tips": [
+        "Deconectează căștile de la telefon în Configurări → Bluetooth – neconectate, emit mai des.",
+        "În mașină, scanează pe rând de pe fiecare scaun: caroseria metalică schimbă mult semnalul.",
+        "Căștile din carcasa închisă de obicei nu emit – dacă le-ai pierdut împreună cu carcasa, caută la ultimul loc unde le-ai folosit.",
+        "Caută imediat: bateria căștilor wireless ține doar câteva ore în așteptare."
+      ],
+      "faq": [
+        {
+          "question": "Pot găsi Galaxy Buds cu iPhone-ul?",
+          "answer": "Da, dacă sunt pornite și în afara carcasei. Galaxy Buds emit Bluetooth ca orice alte căști, iar Bluetooth Finder le detectează fără aplicația Samsung."
+        },
+        {
+          "question": "Pot fi detectate căștile din carcasă?",
+          "answer": "De obicei nu. Majoritatea căștilor își opresc Bluetooth în carcasa închisă. Cu carcasa deschisă se trezesc și pot fi detectate."
+        },
+        {
+          "question": "Cât de aproape trebuie să fiu ca să văd căștile în listă?",
+          "answer": "De obicei 10–30 de metri în interior. Căștile in-ear au antene mai slabe decât cele over-ear, așa că începe scanarea aproape de locul unde le-ai folosit ultima dată."
+        }
+      ],
+      "cta_title": "Orice marcă, o singură aplicație",
+      "cta_text": "Scanează zona și urmează semnalul până la căștile tale wireless. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/casti-bluetooth-pierdute/",
+          "title": "Căști Bluetooth pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/o-casca-airpods-pierduta/",
+          "title": "Ai pierdut o cască AirPods"
+        },
+        {
+          "url": "/ro/ghiduri/cum-gasesti-airpods-pierdute/",
+          "title": "Cum găsești AirPods pierdute"
+        }
+      ]
+    },
+    {
+      "slug": "smartwatch-pierdut",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Smartwatch pierdut",
+      "meta_title": "Smartwatch sau brățară Mi Band pierdută – cum le găsești",
+      "meta_description": "Ai pierdut smartwatch-ul, brățara Mi Band, ceasul Garmin sau Fitbit? Iată cum le găsești cu iPhone-ul acasă, în mașină sau în geanta de sală.",
+      "keywords": "smartwatch pierdut, cum găsesc smartwatch-ul, brățară mi band pierdută, cum găsesc brățara xiaomi, ceas garmin pierdut, fitbit pierdut, ceas bluetooth pierdut",
+      "h1": "Smartwatch sau brățară fitness pierdută – cum le găsești",
+      "quick_answer": "Smartwatch-urile și brățările fitness emit Bluetooth aproape continuu ca să se sincronizeze cu telefonul – de aceea sunt ușor de detectat. Scanează zona cu Bluetooth Finder, alege ceasul după nume sau producător (Xiaomi, Garmin, Fitbit, Huawei) și urmează indicațiile cald–rece spre semnalul cel mai puternic.",
+      "sections": [
+        {
+          "title": "Ce oferă aplicațiile producătorilor",
+          "paragraphs": [
+            "Apple Watch îl găsești în aplicația Găsire, Galaxy Watch în SmartThings Find. Brățările Mi Band, Garmin, Fitbit sau Amazfit oferă de obicei cel mult o funcție „găsește brățara” care o face să vibreze – dar doar dacă e conectată la telefon, iar vibrația se aude greu sub o pernă.",
+            "Dacă brățara a pierdut conexiunea, aplicația producătorului nu mai ajută. Semnalul Bluetooth pe care ceasul îl emite în continuare poate fi însă citit."
+          ]
+        },
+        {
+          "title": "De ce ceasurile se găsesc ușor după semnal",
+          "paragraphs": [
+            "Dispozitivele purtabile emit des și regulat, pentru că încearcă mereu să trimită pașii, pulsul și notificările. În Bluetooth Finder apar de obicei cu numele complet, de exemplu „Mi Smart Band 8” sau „Forerunner 255”.",
+            "Bateria lor ține mai multe zile, așa că și un ceas pierdut ieri emite de obicei în continuare. Asta îți dă mai mult timp decât în cazul căștilor."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești smartwatch-ul cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Instalează Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Deconectează aplicația ceasului",
+          "description": "Oprește pentru moment sincronizarea sau Bluetooth în aplicația ceasului – neconectat, ceasul emite mai des și e mai ușor de detectat."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "Caută numele modelului sau producătorul: Xiaomi, Garmin, Fitbit, Huawei, Amazfit."
+        },
+        {
+          "title": "Urmează indicațiile cald–rece",
+          "description": "Treci dintr-o cameră în alta urmărind procentul de apropiere. Alege camera cu valoarea cea mai mare."
+        },
+        {
+          "title": "Caută în jur la „foarte cald”",
+          "description": "Verifică geanta de sală, buzunarele, așternutul, baia și locurile unde îți scoți ceasul la încărcat."
+        }
+      ],
+      "tips": [
+        "Ceasurile se pierd des în baie, lângă chiuvetă și pe noptieră – începe cu ele.",
+        "Dacă e un Apple Watch, folosește mai întâi Găsire → Dispozitive → Redare sunet.",
+        "În vestiarul sălii mulți poartă ceasuri – verifică numele și modelul ca să-l urmărești pe cel corect.",
+        "Un ceas sub saltea sau în sertar are semnal mai slab – coboară iPhone-ul."
+      ],
+      "faq": [
+        {
+          "question": "Pot găsi o brățară Mi Band cu iPhone-ul?",
+          "answer": "Da, dacă e încărcată și în rază. Mi Band emite Bluetooth ca orice brățară, iar Bluetooth Finder o detectează fără aplicația Xiaomi."
+        },
+        {
+          "question": "Pot găsi un ceas Garmin sau Fitbit fără aplicația producătorului?",
+          "answer": "Da. O aplicație de căutare Bluetooth citește direct semnalul ceasului, așa că nu ai nevoie de conexiune cu Garmin Connect sau Fitbit."
+        },
+        {
+          "question": "Cât timp mai emite un smartwatch pierdut?",
+          "answer": "De obicei cât ține bateria – de la o zi la câteva săptămâni, în funcție de model. Brățările fitness rezistă de regulă mai mult decât smartwatch-urile cu ecran mare."
+        }
+      ],
+      "cta_title": "Ceasul tău încă emite",
+      "cta_text": "Scanează zona și urmează semnalul până la smartwatch sau brățară. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth pentru iPhone"
+        },
+        {
+          "url": "/ro/ghiduri/casti-wireless-pierdute/",
+          "title": "Căști wireless pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/boxa-bluetooth-pierduta/",
+          "title": "Boxă Bluetooth pierdută"
+        }
+      ]
+    },
+    {
+      "slug": "boxa-bluetooth-pierduta",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Boxă Bluetooth pierdută",
+      "meta_title": "Boxă Bluetooth sau JBL pierdută – cum o găsești",
+      "meta_description": "Poți găsi o boxă JBL? Da, dacă e pornită. Iată cum găsești cu iPhone-ul o boxă Bluetooth pierdută după puterea semnalului – pas cu pas.",
+      "keywords": "boxă bluetooth pierdută, cum găsesc boxa jbl, boxă jbl pierdută, cum găsesc o boxă bluetooth, boxă portabilă pierdută, boxă sony pierdută",
+      "h1": "Boxă Bluetooth pierdută – cum o găsești",
+      "quick_answer": "Dacă boxa e pornită, o poți găsi. Boxele JBL, Sony, Bose sau Anker au emițătoare Bluetooth puternice și apar adesea în listă din orice colț al casei sau al curții. Scanează zona cu Bluetooth Finder, alege boxa și urmează indicațiile cald–rece până când procentul de apropiere atinge valoarea maximă.",
+      "sections": [
+        {
+          "title": "Încearcă mai întâi sunetul",
+          "paragraphs": [
+            "Dacă boxa e în rază și încă asociată cu telefonul tău, conectează-te la ea și pornește muzica – e cea mai rapidă cale. Aplicațiile JBL Portable sau Sony Music Center ajută și ele, dar doar cu o conexiune activă.",
+            "Când boxa nu se conectează, are volumul la zero sau altcineva e conectat la ea, ai nevoie de altă metodă: urmărirea semnalului ei Bluetooth."
+          ]
+        },
+        {
+          "title": "De ce boxele sunt ușor de detectat",
+          "paragraphs": [
+            "Boxele portabile au baterii mai mari și antene mai puternice decât căștile, așa că semnalul lor ajunge mai departe – în casă adesea prin mai mulți pereți, în curte chiar zeci de metri.",
+            "Asta înseamnă că boxa apare repede în listă, dar puterea semnalului se schimbă mai lin. De aceea, la boxe e mai bine să compari procentul de apropiere între camere, nu pas cu pas."
+          ]
+        }
+      ],
+      "steps_title": "Cum găsești boxa cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Descarcă Bluetooth Finder",
+          "description": "Instalează aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "Caută numele modelului (de ex. JBL Flip 6, JBL Charge 5, JBL Go 3, SRS-XB) sau producătorul."
+        },
+        {
+          "title": "Compară camerele",
+          "description": "Oprește-te în fiecare cameră și notează procentul de apropiere. Alege camera cu valoarea cea mai mare."
+        },
+        {
+          "title": "Restrânge zona cu indicațiile cald–rece",
+          "description": "În camera cea mai bună, mergi încet până când indicatorul arată „foarte cald”."
+        },
+        {
+          "title": "Verifică ascunzătorile",
+          "description": "Boxele ajung des în dulapuri, sub pat, în portbagaj, în geanta de plajă sau în magazia de la curte."
+        }
+      ],
+      "tips": [
+        "Multe boxe se opresc singure după câteva minute de inactivitate – caută repede cât încă emite.",
+        "Afară raza e mai mare, așa că începe prin a ocoli terenul și urmărește unde crește procentul.",
+        "Dacă vecinii au același model, verifică numele pe care i l-ai dat dispozitivului.",
+        "O boxă pornită în portbagajul închis are semnal mult mai slab – apropie-te."
+      ],
+      "faq": [
+        {
+          "question": "Pot găsi o boxă JBL?",
+          "answer": "Da, dacă e pornită și în raza Bluetooth. Bluetooth Finder îi arată semnalul și te duce la ea cu indicațiile cald–rece. O boxă oprită nu poate fi găsită în timp real."
+        },
+        {
+          "question": "De la ce distanță se vede o boxă Bluetooth?",
+          "answer": "În casă, de obicei 15–30 de metri; afară, fără obstacole, adesea mai mult. Boxele au antene mai puternice decât căștile."
+        },
+        {
+          "question": "Îmi arată aplicația JBL unde e boxa?",
+          "answer": "Aplicațiile producătorilor funcționează în principal cu o conexiune activă și de obicei nu arată locația pe hartă. Scannerul Bluetooth funcționează fără conexiune."
+        }
+      ],
+      "cta_title": "Boxa e tot acolo – doar că tace",
+      "cta_text": "Scanează zona și urmează-i semnalul puternic. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/scanner-bluetooth-iphone/",
+          "title": "Scanner Bluetooth pentru iPhone"
+        },
+        {
+          "url": "/ro/ghiduri/casti-bluetooth-pierdute/",
+          "title": "Căști Bluetooth pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/smartwatch-pierdut/",
+          "title": "Smartwatch sau brățară pierdută"
+        }
+      ]
+    },
+    {
+      "slug": "scanner-bluetooth-iphone",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Scanner Bluetooth pentru iPhone",
+      "meta_title": "Scanner Bluetooth pentru iPhone: dispozitivele din apropiere",
+      "meta_description": "Scanner Bluetooth pentru iPhone: vezi toate dispozitivele Bluetooth din apropiere cu puterea semnalului, producătorul și modelul – și găsește-l pe cel căutat.",
+      "keywords": "scanner bluetooth iphone, scanner bluetooth, dispozitive bluetooth din apropiere, cum văd dispozitivele bluetooth din jur, detectare dispozitive bluetooth, găsire dispozitiv bluetooth, aplicație scanner bluetooth",
+      "h1": "Scanner Bluetooth pentru iPhone: vezi dispozitivele din apropiere",
+      "quick_answer": "În Configurări → Bluetooth, iPhone-ul arată doar dispozitivele asociate sau aflate în modul de asociere. Ca să vezi toate dispozitivele Bluetooth pornite din apropiere – cu puterea semnalului, nume, producător și model – ai nevoie de o aplicație de scanare, precum Bluetooth Finder. Alege orice dispozitiv din listă, iar indicațiile cald–rece te duc la el.",
+      "sections": [
+        {
+          "title": "Ce nu arată Configurările iPhone-ului",
+          "paragraphs": [
+            "Lista din Configurări → Bluetooth e o listă de conexiuni, nu un scanner. Vezi acolo dispozitivele tale asociate și pe cele aflate chiar atunci în modul de asociere – dar nu vezi căștile vecinului, ceasul uitat în sertar și nici puterea semnalului.",
+            "O aplicație de scanare citește toate pachetele Bluetooth Low Energy din rază. Așa vezi ce emite cu adevărat în jurul tău și poți măsura cât de departe e."
+          ]
+        },
+        {
+          "title": "Cum citești puterea semnalului",
+          "paragraphs": [
+            "Puterea semnalului (RSSI) scade cu distanța, dar e influențată și de pereți, de corp și de metal. Bluetooth Finder o transformă într-un procent de apropiere ușor de înțeles și în treptele rece, călduț, cald, foarte cald, ca să nu fie nevoie să interpretezi valori în dBm.",
+            "Cel mai important e trendul: dacă procentul crește când mergi într-o direcție, te apropii. Peste 90%, dispozitivul e de obicei la îndemână."
+          ]
+        }
+      ],
+      "steps_title": "Cum scanezi dispozitivele Bluetooth cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Instalează Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+) și permite accesul la Bluetooth."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "În câteva secunde vezi lista tuturor dispozitivelor Bluetooth pornite din rază, cu puterea semnalului în timp real."
+        },
+        {
+          "title": "Verifică datele dispozitivului",
+          "description": "Atinge un dispozitiv ca să vezi numele, producătorul și modelul – așa recunoști căști, ceasuri, boxe și alte aparate."
+        },
+        {
+          "title": "Alege dispozitivul de găsit",
+          "description": "Când îl găsești pe cel căutat, intră în modul de căutare cu indicațiile cald–rece."
+        },
+        {
+          "title": "Urmează procentul de apropiere",
+          "description": "Mergi în direcția în care procentul crește, până când indicatorul arată „foarte cald”."
+        }
+      ],
+      "tips": [
+        "Dispozitivele fără nume sunt adesea accesorii în mod de economisire a energiei – verifică producătorul în datele dispozitivului.",
+        "Fă câțiva pași și vezi ce semnale se schimbă – te ajută să-ți deosebești dispozitivul de cele ale vecinilor.",
+        "Scannerul vede doar dispozitivele pornite într-o rază de 10–30 de metri în interior.",
+        "Bluetooth Finder nu se conectează la dispozitivele altora – doar citește semnalele emise public."
+      ],
+      "faq": [
+        {
+          "question": "Cum văd toate dispozitivele Bluetooth din apropiere pe iPhone?",
+          "answer": "Folosește o aplicație de scanare Bluetooth, precum Bluetooth Finder. Configurările iPhone-ului arată doar dispozitivele asociate sau în modul de asociere, iar scannerul – toate dispozitivele pornite din rază."
+        },
+        {
+          "question": "Arată scannerul Bluetooth distanța în metri?",
+          "answer": "Nu exact. Puterea semnalului depinde de obstacole, așa că aplicația arată un procent de apropiere și trepte cald–rece în loc de metri. E suficient ca să ajungi la dispozitiv."
+        },
+        {
+          "question": "E legal și sigur un scanner Bluetooth?",
+          "answer": "Da. Aplicația doar recepționează semnalele pe care dispozitivele le emit singure, public, și nu se conectează la ele. Nu necesită cont sau asociere."
+        }
+      ],
+      "cta_title": "Vezi ce emite în jurul tău",
+      "cta_text": "Scanează dispozitivele Bluetooth din apropiere și găsește-l pe cel căutat. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/casti-bluetooth-pierdute/",
+          "title": "Căști Bluetooth pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/smartwatch-pierdut/",
+          "title": "Smartwatch sau brățară pierdută"
+        },
+        {
+          "url": "/ro/ghiduri/airpods-fara-aplicatia-gasire/",
+          "title": "AirPods fără aplicația Găsire"
+        }
+      ]
+    },
+    {
+      "slug": "carcasa-airpods-pierduta",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "Carcasa AirPods pierdută",
+      "meta_title": "Carcasa AirPods pierdută – cum o găsești? Răspunsul sincer",
+      "meta_description": "Ai pierdut carcasa AirPods? Când o poți găsi, când nu și ce faci atunci – cu aplicația Găsire și un scanner Bluetooth pe iPhone.",
+      "keywords": "carcasă airpods pierdută, cum găsesc carcasa airpods, cutia airpods pierdută, am pierdut carcasa airpods, carcasă airpods pro pierdută, carcasa de încărcare airpods",
+      "h1": "Carcasa AirPods pierdută – cum o găsești",
+      "quick_answer": "Depinde de model și de ce e înăuntru. Carcasa AirPods Pro 2 și a modelelor mai noi are difuzor propriu și poate fi găsită în aplicația Găsire. O carcasă închisă cu căștile înăuntru de obicei nu emite nimic, iar o carcasă standard goală nu are emițător activ. Dacă capacul e deschis sau căștile sunt aproape, Bluetooth Finder detectează AirPods și te duce la carcasă.",
+      "sections": [
+        {
+          "title": "Ce carcase pot fi găsite",
+          "paragraphs": [
+            "Carcasa de încărcare a AirPods Pro 2, AirPods 4 cu anulare activă a zgomotului și a modelelor mai noi are modul propriu pentru rețeaua Găsire și difuzor: în aplicația Găsire o vezi separat pe hartă și poți reda un sunet. E cea mai bună cale dacă ai un astfel de model.",
+            "Carcasele mai vechi (AirPods 1–3, AirPods Pro de prima generație) nu emit singure. Locul lor poate fi aflat doar indirect – prin căști, când sunt înăuntru și capacul e deschis, sau prin ultima locație, când carcasa s-a conectat ultima dată la iPhone."
+          ]
+        },
+        {
+          "title": "Când ajută scannerul Bluetooth",
+          "paragraphs": [
+            "Cu carcasa deschisă, AirPods se trezesc și emit semnal Bluetooth – atunci Bluetooth Finder le detectează, iar tu ajungi la carcasă cu indicațiile cald–rece. La fel și dacă AirPods au căzut din carcasă și stau lângă ea.",
+            "Sincer: o carcasă închisă cu căștile înăuntru sau o carcasă veche goală e invizibilă pentru orice scanner. Atunci ajută ultima locație din aplicația Găsire și o căutare metodică la fața locului."
+          ]
+        }
+      ],
+      "steps_title": "Cum cauți carcasa AirPods cu Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Verifică aplicația Găsire",
+          "description": "Găsire → Dispozitive: la AirPods Pro 2 și modelele mai noi, carcasa apare separat – redă un sunet pe ea."
+        },
+        {
+          "title": "Instalează Bluetooth Finder",
+          "description": "Descarcă aplicația din App Store (gratuit, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Pornește scanarea",
+          "description": "Dacă AirPods sunt în carcasa deschisă sau lângă ea, apar în listă cu Apple ca producător."
+        },
+        {
+          "title": "Urmează indicațiile cald–rece",
+          "description": "Alege AirPods și mergi acolo unde indicatorul trece de la rece la cald."
+        },
+        {
+          "title": "Dacă nu apare nimic, caută metodic",
+          "description": "Începe cu ultima locație: genți, buzunarele gecilor, mașina, spațiile din canapea – și scanează din nou din când în când."
+        }
+      ],
+      "tips": [
+        "Carcasa se pierde des odată cu geaca sau geanta – verifică toate buzunarele, inclusiv pe cele interioare.",
+        "Dacă ai căștile și ai pierdut doar carcasa, Apple oferă înlocuirea contra cost doar a carcasei.",
+        "După ce o găsești, activează Notificare la separare în aplicația Găsire, dacă modelul tău o permite.",
+        "În mașină, carcasa alunecă des sub scaune și în buzunarele din uși."
+      ],
+      "faq": [
+        {
+          "question": "Emite semnal carcasa AirPods închisă?",
+          "answer": "Carcasele mai vechi – nu. O carcasă închisă cu căștile înăuntru le pune de obicei în repaus. Excepție fac carcasele AirPods Pro 2 și ale modelelor mai noi, care pot fi găsite în aplicația Găsire."
+        },
+        {
+          "question": "Pot găsi o carcasă AirPods goală?",
+          "answer": "O carcasă goală de model mai vechi nu are emițător activ, așa că scannerul n-o detectează. Ajută ultima locație din aplicația Găsire și căutarea metodică."
+        },
+        {
+          "question": "Pot cumpăra doar carcasa AirPods?",
+          "answer": "Da, Apple oferă înlocuirea contra cost a carcasei de încărcare pierdute pentru majoritatea modelelor AirPods."
+        }
+      ],
+      "cta_title": "Căștile lângă carcasă? O găsești",
+      "cta_text": "Scanează zona – dacă AirPods emit, te duc la carcasă. Gratuit, fără configurare.",
+      "related": [
+        {
+          "url": "/ro/ghiduri/cum-gasesti-airpods-pierdute/",
+          "title": "Cum găsești AirPods pierdute"
+        },
+        {
+          "url": "/ro/ghiduri/airpods-descarcate-cum-le-gasesti/",
+          "title": "AirPods descărcate sau oprite"
+        },
+        {
+          "url": "/ro/ghiduri/o-casca-airpods-pierduta/",
+          "title": "Ai pierdut o cască AirPods"
+        }
+      ]
+    }
+  ]
+}

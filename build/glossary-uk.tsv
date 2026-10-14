@@ -1,0 +1,30 @@
+key	en	uk-UA	notes
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Finder	Український App Store показує англійську назву; на /uk/ бренд Bluetooth Finder, alternateName = Find Bluetooth Device
+address	you	ви (з малої літери)	Як Apple UA і стара сторінка /uk/
+hot_cold_guidance	hot & cold (guidance)	підказки «холодно — гаряче»; рівні: холодно, тепло, гаряче, дуже гаряче	Як в інтерфейсі застосунку
+proximity_percent	proximity %	відсоток близькості	Запис «90%»
+signal_strength	signal strength	сила сигналу	
+device_id_field	manufacturer, model, and name	назва, виробник і модель; дані пристрою	
+scan	start a scan	запустіть сканування	
+app	app	застосунок	Не «додаток» у новому тексті
+find_my	Find My	Локатор	Apple UA: програма «Локатор», мережа Локатора
+find_my_play_sound	Play Sound	Відтворити звук	Apple UA (support.apple.com/uk-ua/109020)
+precision_finding	Precision Finding	Пошук неподалік	Apple UA
+left_behind	Notify When Left Behind	Сповіщати, коли не взято із собою	Apple UA
+devices_tab	Devices	Пристрої	Вкладка в «Локаторі»
+offline	offline / no location found	Офлайн / Жодної геопозиції не знайдено	Apple UA
+settings_bluetooth	Settings → Bluetooth	Параметри → Bluetooth	Українська iOS: «Параметри»
+apple_account	Apple Account	обліковий запис Apple	
+left_right	left / right AirPod	лівий або правий навушник	Apple UA
+case	charging case	зарядний футляр; футляр; кейс	Apple UA: футляр
+app_store_cta	Download on the App Store	Завантажте в App Store	Офіційний значок Apple українською
+nav_cta	Get the app	Завантажити застосунок	
+bluetooth_tech	Bluetooth	Bluetooth (латиницею); «блютуз» лише в title/keywords	
+headphones	headphones	навушники; повнорозмірні навушники	
+earbuds	earbuds	бездротові навушники; TWS-навушники; вкладиші	«один навушник»
+speaker	Bluetooth speaker	колонка; Bluetooth-колонка	«колонка JBL»
+smartwatch	smartwatch / fitness tracker	смарт-годинник; фітнес-браслет	«Mi Band»
+dead	dead battery	розряджені; вимкнені	
+lost	lost	загубив(-ла); загубились; як знайти; пошук	
+category_productivity	Productivity	Продуктивність	
+guides	guides	інструкції	URL /uk/instrukciyi/

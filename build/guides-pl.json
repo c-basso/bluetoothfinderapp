@@ -1,0 +1,892 @@
+{
+  "shared": {
+    "lang": "pl",
+    "og_locale": "pl_PL",
+    "date_locale": "pl-PL",
+    "home_url": "/pl/",
+    "guides_url": "/pl/poradniki/",
+    "guides_path": "pl/poradniki",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Finder",
+    "labels": {
+      "home": "Strona główna",
+      "guides": "Poradniki",
+      "logo_alt": "Ikona aplikacji Bluetooth Finder",
+      "nav_cta": "Pobierz aplikację",
+      "quick_answer": "Krótka odpowiedź",
+      "tips_title": "Wskazówki, które zwiększają szanse",
+      "faq_title": "Najczęściej zadawane pytania",
+      "related_title": "Powiązane poradniki",
+      "read_label": "Czytaj poradnik →",
+      "updated": "Ostatnia aktualizacja",
+      "cta_button": "Pobierz w App Store",
+      "cta_aria": "Pobierz Bluetooth Finder w App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Wszelkie prawa zastrzeżone.",
+      "privacy_link": "Polityka prywatności",
+      "terms_link": "Warunki korzystania"
+    },
+    "hub": {
+      "h1": "Poradniki: jak odnaleźć zgubione urządzenia",
+      "meta_title": "Poradniki: jak znaleźć zgubione słuchawki, AirPods i smartwatch",
+      "meta_description": "Poradniki krok po kroku: jak iPhone’em znaleźć zgubione AirPods, słuchawki douszne i nauszne, smartwatch lub głośnik – także sprzęt spoza aplikacji Znajdź.",
+      "intro_label": "Co tu znajdziesz",
+      "intro": "Praktyczne i uczciwe poradniki na każdą sytuację: AirPods z aplikacją Znajdź i bez niej, jedna zgubiona słuchawka, słuchawki Sony, JBL i Bose, smartwatche, głośniki i rozładowane baterie. Każdy poradnik wyjaśnia, co naprawdę działa, i pokazuje, jak namierzyć urządzenie aplikacją Bluetooth Finder na iPhonie.",
+      "cta_title": "Jedna aplikacja do wszystkich poradników na tej stronie",
+      "cta_text": "Bluetooth Finder skanuje sygnały Bluetooth w pobliżu i prowadzi cię do każdego włączonego urządzenia wskazówkami gorąco–zimno i procentem bliskości. Za darmo, 24,2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "jak-znalezc-zgubione-airpods",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "Zgubione AirPods",
+      "meta_title": "Zgubione AirPods? Jak je znaleźć (z aplikacją Znajdź i bez)",
+      "meta_description": "Zgubiłeś AirPods? Sprawdź lokalizację w aplikacji Znajdź, a potem idź za sygnałem Bluetooth na żywo, aż weźmiesz je do ręki – także całkiem bez Znajdź.",
+      "keywords": "zgubione airpods, jak znaleźć airpods, zgubiłem airpods, szukanie airpods, airpods zgubione w domu, jak namierzyć airpods, znaleźć airpods iphone",
+      "h1": "Zgubione AirPods? Jak szybko je znaleźć",
+      "quick_answer": "Jeśli funkcja Znajdź była włączona, najpierw otwórz aplikację Znajdź: pokaże AirPods na mapie i odtworzy dźwięk, o ile są poza etui i mają baterię. Jeśli Znajdź jest niedostępna, pokazuje tylko starą lokalizację albo dźwięk jest za cichy, użyj aplikacji do szukania urządzeń Bluetooth: włączone AirPods nadają sygnał Bluetooth, a śledząc jego siłę, dojdziesz dokładnie do nich.",
+      "sections": [
+        {
+          "title": "Zacznij od aplikacji Znajdź – i poznaj jej ograniczenia",
+          "paragraphs": [
+            "W przypadku AirPods sparowanych z twoim iPhone’em pierwszym krokiem jest aplikacja Znajdź od Apple: Znajdź → Urządzenia → twoje AirPods, sprawdź mapę i stuknij Odtwórz dźwięk, jeśli są w pobliżu. AirPods Pro 2 i nowsze oferują nawet Precyzyjne znajdowanie ze strzałką kierunku.",
+            "W trzech częstych sytuacjach Znajdź nie pomoże. Lokalizacja na mapie jest zwykle dokładna tylko do poziomu budynku – pod którą poduszką kanapy, tego nie powie. Dźwięk jest cichy i nie działa, gdy AirPods leżą w etui. A jeśli AirPods nigdy nie zostały dodane do Znajdź, należą do innego konta Apple (kupione jako używane) albo mają status offline, aplikacja nic nie zrobi."
+          ]
+        },
+        {
+          "title": "Dlaczego sygnał Bluetooth znajduje to, czego nie widzi Znajdź",
+          "paragraphs": [
+            "Dopóki AirPods są poza etui i mają baterię, każda słuchawka nadaje sygnały Bluetooth Low Energy. W pomieszczeniach sięgają one około 10–30 metrów, a ich siła wyraźnie rośnie, gdy się zbliżasz.",
+            "Aplikacja do szukania urządzeń Bluetooth odczytuje ten sygnał bezpośrednio – bez konta Apple, bez konfiguracji i bez sieci Znajdź. Dlatego to najlepsze narzędzie na ostatnie 30 metrów: Znajdź doprowadzi cię do właściwego pokoju, sygnał – do właściwej poduszki."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć AirPods w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Pobierz i otwórz aplikację",
+          "description": "Zainstaluj Bluetooth Finder z App Store (za darmo, 24,2 MB, iOS 17.1+) i zezwól na dostęp do Bluetooth, gdy aplikacja o to poprosi."
+        },
+        {
+          "title": "Zeskanuj urządzenia w pobliżu",
+          "description": "Rozpocznij skanowanie. Wszystkie włączone urządzenia Bluetooth w zasięgu pojawią się na liście z siłą sygnału na żywo – znajdź swoje AirPods po nazwie."
+        },
+        {
+          "title": "Wybierz swoje AirPods",
+          "description": "Stuknij AirPods na liście. Jeśli nie widać nazwy, sprawdź w danych urządzenia, czy jako producent wyświetla się Apple."
+        },
+        {
+          "title": "Spokojnie przejdź przez pomieszczenie",
+          "description": "Chodź po pokojach, w których miałeś je ostatnio. Wskaźnik zmienia się z zimno przez ciepło na gorąco, gdy sygnał się wzmacnia."
+        },
+        {
+          "title": "Podnieś je przy „bardzo gorąco”",
+          "description": "Gdy aplikacja pokazuje „bardzo gorąco”, a procent bliskości przekracza 90%, AirPods są w zasięgu ręki: sprawdź pod poduszkami, w kieszeniach, torbach i pod meblami."
+        }
+      ],
+      "tips": [
+        "Szukaj pokój po pokoju, zapamiętaj najwyższy procent w każdym i skup się na najlepszym.",
+        "Trzymaj iPhone’a na różnych wysokościach: sygnał jest najsilniejszy, gdy między tobą a urządzeniem nic nie ma.",
+        "W zamkniętym etui AirPods śpią. Jeśli myślisz, że są w etui, sprawdź ostatnią znaną lokalizację w aplikacji Znajdź.",
+        "Szukaj jak najszybciej: słuchawka poza etui nadaje tylko do wyczerpania baterii."
+      ],
+      "faq": [
+        {
+          "question": "Czy znajdę zgubione AirPods bez aplikacji Znajdź?",
+          "answer": "Tak, jeśli są poza etui i mają baterię. AirPods nadają sygnały Bluetooth, których siłę może śledzić aplikacja do szukania urządzeń – bez ustawień Znajdź i bez konta iCloud."
+        },
+        {
+          "question": "Z jakiej odległości widać zgubione AirPods?",
+          "answer": "Zasięg Bluetooth w pomieszczeniach to zwykle 10–30 metrów, zależnie od ścian i zakłóceń. Na zewnątrz, bez przeszkód, może być większy. Jeśli nic nie widzisz, przejdź do kolejnego pokoju i zeskanuj ponownie."
+        },
+        {
+          "question": "Czy AirPods muszą mieć baterię, żeby je znaleźć?",
+          "answer": "Tak. Całkowicie rozładowana słuchawka nic nie nadaje i żadna aplikacja – także Znajdź – nie zobaczy jej na żywo. Jeśli bateria mogła się wyczerpać, szukaj wokół ostatniej znanej lokalizacji w aplikacji Znajdź i co jakiś czas skanuj ponownie."
+        }
+      ],
+      "cta_title": "Twoje AirPods prawdopodobnie są teraz w zasięgu",
+      "cta_text": "Zeskanuj je i idź za wskazówkami gorąco–zimno, aż je zobaczysz. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/airpods-bez-aplikacji-znajdz/",
+          "title": "Jak znaleźć AirPods bez aplikacji Znajdź"
+        },
+        {
+          "url": "/pl/poradniki/zgubiona-jedna-sluchawka-airpods/",
+          "title": "Zgubiona jedna słuchawka AirPods"
+        },
+        {
+          "url": "/pl/poradniki/rozladowane-airpods-jak-znalezc/",
+          "title": "Rozładowane lub wyłączone AirPods"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-bez-aplikacji-znajdz",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "AirPods bez aplikacji Znajdź",
+      "meta_title": "Jak znaleźć AirPods bez aplikacji Znajdź i bez iCloud",
+      "meta_description": "Znajdź nigdy niewłączone, używane AirPods albo brak dostępu do iCloud? Tak namierzysz AirPods iPhone’em po sygnale Bluetooth – krok po kroku.",
+      "keywords": "jak znaleźć airpods bez aplikacji znajdź, airpods bez icloud, znaleźć airpods bez znajdź, używane airpods zgubione, airpods nie ma w znajdź, namierzyć airpods bez konta apple",
+      "h1": "Jak znaleźć AirPods bez aplikacji Znajdź",
+      "quick_answer": "Tak, da się. Aplikacja Znajdź działa tylko z AirPods powiązanymi z twoim kontem Apple, ale każde włączone AirPods poza etui nadają sygnał Bluetooth. Aplikacja do szukania urządzeń Bluetooth, taka jak Bluetooth Finder, odczytuje ten sygnał bezpośrednio i prowadzi cię do słuchawek wskazówkami gorąco–zimno – bez iCloud, bez konta i bez wcześniejszej konfiguracji.",
+      "sections": [
+        {
+          "title": "Kiedy aplikacja Znajdź nie pomoże",
+          "paragraphs": [
+            "Znajdź pokazuje AirPods tylko wtedy, gdy zostały wcześniej powiązane z twoim kontem Apple. Brakuje ich tam, jeśli kupiłeś je jako używane i nadal są przypisane do poprzedniego właściciela, jeśli nigdy nie włączyłeś funkcji Znajdź, jeśli korzystasz z cudzego iPhone’a albo nie pamiętasz hasła do konta Apple.",
+            "Nawet gdy AirPods są w Znajdź, często widnieje przy nich status offline albo lokalizacja sprzed kilku godzin. W każdym z tych przypadków pozostaje jedna rzecz, która działa niezależnie od konta: sygnał Bluetooth, który słuchawki nadają same."
+          ]
+        },
+        {
+          "title": "Jak działa szukanie po sygnale Bluetooth",
+          "paragraphs": [
+            "Wyjęte z etui i naładowane AirPods regularnie wysyłają krótkie pakiety Bluetooth Low Energy. Każdy telefon w pobliżu może je odebrać – nie trzeba być ich właścicielem ani mieć ich sparowanych.",
+            "Bluetooth Finder mierzy siłę tego sygnału na żywo i zamienia ją na procent bliskości oraz poziomy zimno, ciepło, gorąco i bardzo gorąco. Nie zobaczysz punktu na mapie, ale w promieniu 10–30 metrów dojdziesz do słuchawek szybciej niż przeszukując mieszkanie na ślepo."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć AirPods bez Znajdź w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Zainstaluj Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+). Nie potrzebujesz konta Apple przypisanego do AirPods ani iCloud."
+        },
+        {
+          "title": "Wróć tam, gdzie je zgubiłeś",
+          "description": "Idź do miejsca, w którym ostatnio miałeś AirPods – mieszkanie, biuro, samochód. Sygnał Bluetooth sięga tylko 10–30 metrów."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Na liście pojawią się wszystkie włączone urządzenia Bluetooth w pobliżu. AirPods zwykle mają nazwę, a jako producent wyświetla się Apple."
+        },
+        {
+          "title": "Idź za wskazówkami gorąco–zimno",
+          "description": "Wybierz AirPods i powoli się przemieszczaj. Gdy wskaźnik zmienia się z zimno na gorąco, a procent rośnie, idziesz w dobrą stronę."
+        },
+        {
+          "title": "Przeszukaj miejsce przy „bardzo gorąco”",
+          "description": "Powyżej 90% słuchawki są tuż obok – sprawdź szczeliny w kanapie, kieszenie, torby i pod meblami."
+        }
+      ],
+      "tips": [
+        "Jeśli AirPods leżą w zamkniętym etui, nie nadają sygnału – wtedy pomoże ostatnia lokalizacja i przeszukanie miejsca, w którym miałeś etui.",
+        "Używane AirPods powiązane z kontem poprzedniego właściciela nadal nadają Bluetooth – skaner je widzi.",
+        "Wyłącz na chwilę inne słuchawki w pobliżu, żeby łatwiej rozpoznać właściwe urządzenie na liście.",
+        "Po odnalezieniu włącz Znajdź na swoim koncie Apple – następnym razem zobaczysz też ostatnią lokalizację."
+      ],
+      "faq": [
+        {
+          "question": "Czy można namierzyć AirPods bez konta Apple?",
+          "answer": "Tak, w pobliżu. Sygnał Bluetooth jest nadawany niezależnie od konta, więc aplikacja do szukania urządzeń Bluetooth wykryje włączone AirPods poza etui bez logowania i bez iCloud."
+        },
+        {
+          "question": "Czy znajdę AirPods kupione jako używane?",
+          "answer": "Tak, jeśli są włączone i w zasięgu. Powiązanie z kontem poprzedniego właściciela blokuje tylko aplikację Znajdź – nie sygnał Bluetooth, który odczytuje Bluetooth Finder."
+        },
+        {
+          "question": "Czy to działa, gdy AirPods są daleko?",
+          "answer": "Nie. Bluetooth działa w promieniu około 10–30 metrów w pomieszczeniach. Do lokalizowania AirPods zgubionych daleko potrzebna jest sieć Znajdź i wcześniejsze powiązanie z kontem Apple."
+        }
+      ],
+      "cta_title": "Bez konta, bez iCloud – po prostu sygnał",
+      "cta_text": "Zeskanuj okolicę i idź za wskazówkami gorąco–zimno do swoich AirPods. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/jak-znalezc-zgubione-airpods/",
+          "title": "Zgubione AirPods? Jak je znaleźć"
+        },
+        {
+          "url": "/pl/poradniki/zgubiona-jedna-sluchawka-airpods/",
+          "title": "Zgubiona jedna słuchawka AirPods"
+        },
+        {
+          "url": "/pl/poradniki/skaner-bluetooth-iphone/",
+          "title": "Skaner Bluetooth na iPhone’a"
+        }
+      ]
+    },
+    {
+      "slug": "zgubiona-jedna-sluchawka-airpods",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "Jedna słuchawka AirPods",
+      "meta_title": "Zgubiona jedna słuchawka AirPods – jak ją znaleźć",
+      "meta_description": "Zgubiłeś jedną słuchawkę AirPods? Każda nadaje własny sygnał Bluetooth. Tak namierzysz lewą lub prawą słuchawkę iPhone’em – krok po kroku.",
+      "keywords": "zgubiona jedna słuchawka airpods, jak znaleźć jedną słuchawkę airpods, zgubiona lewa słuchawka airpods, zgubiona prawa słuchawka airpods, jedna słuchawka airpods zgubiona w domu",
+      "h1": "Zgubiona jedna słuchawka AirPods – jak ją znaleźć",
+      "quick_answer": "Każda słuchawka AirPods nadaje własny sygnał Bluetooth, dopóki jest poza etui i ma baterię. Włóż drugą słuchawkę do etui i zamknij wieczko, żeby nie zagłuszała sygnału, a potem zeskanuj okolicę aplikacją Bluetooth Finder i idź za wskazówkami gorąco–zimno – procent bliskości gwałtownie rośnie, gdy jesteś tuż przy zgubionej słuchawce.",
+      "sections": [
+        {
+          "title": "Co potrafi aplikacja Znajdź przy jednej słuchawce",
+          "paragraphs": [
+            "W aplikacji Znajdź możesz odtworzyć dźwięk osobno na lewej lub prawej słuchawce – to dobry pierwszy krok, jeśli AirPods są powiązane z twoim kontem Apple i słuchawka ma baterię.",
+            "Dźwięk jest jednak cichy, a pojedyncza słuchawka łatwo chowa się w szczelinie kanapy, w kieszeni kurtki albo w pościeli, gdzie go nie usłyszysz. Mapa pokaże najwyżej budynek. Tu sprawdza się sygnał Bluetooth, który słuchawka nadaje niezależnie od tego, czy coś słychać."
+          ]
+        },
+        {
+          "title": "Dlaczego druga słuchawka powinna być w etui",
+          "paragraphs": [
+            "Obie słuchawki nadają pod tą samą nazwą. Jeśli druga leży obok ciebie, aplikacja może pokazywać jej silny sygnał zamiast tego, którego szukasz.",
+            "Włóż słuchawkę, którą masz, do etui i zamknij wieczko – zamknięte AirPods przestają nadawać. Wtedy na liście zostaje tylko zgubiona słuchawka i każda zmiana procentu dotyczy właśnie jej."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć jedną słuchawkę AirPods w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Schowaj drugą słuchawkę do etui",
+          "description": "Włóż słuchawkę, którą masz, do etui i zamknij wieczko, żeby na liście został tylko sygnał zgubionej."
+        },
+        {
+          "title": "Otwórz Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+) i rozpocznij skanowanie w miejscu, gdzie ostatnio miałeś słuchawkę."
+        },
+        {
+          "title": "Wybierz AirPods z listy",
+          "description": "Zgubiona słuchawka pojawi się pod nazwą twoich AirPods lub z Apple jako producentem."
+        },
+        {
+          "title": "Zawężaj obszar krok po kroku",
+          "description": "Przechodź powoli, zatrzymując się co kilka kroków. Idź tam, gdzie wskaźnik zmienia się z ciepło na gorąco."
+        },
+        {
+          "title": "Szukaj nisko przy „bardzo gorąco”",
+          "description": "Powyżej 90% słuchawka jest w zasięgu ręki – sprawdź szczeliny kanapy, podłogę pod łóżkiem, kieszenie i kaptur kurtki."
+        }
+      ],
+      "tips": [
+        "Słuchawka na podłodze lub w kanapie ma słabszy sygnał – opuść iPhone’a niżej, gdy procent przestaje rosnąć.",
+        "Szukaj od razu: pojedyncza słuchawka ma małą baterię i po kilku godzinach przestaje nadawać.",
+        "Sprawdź też miejsca, w których zdejmowałeś czapkę, szalik lub bluzę – słuchawki często wypadają właśnie wtedy.",
+        "Jeśli słuchawki nie da się znaleźć, Apple oferuje odpłatną wymianę pojedynczej słuchawki."
+      ],
+      "faq": [
+        {
+          "question": "Czy pojedyncza słuchawka AirPods nadaje sygnał?",
+          "answer": "Tak. Każda słuchawka ma własny moduł Bluetooth i nadaje, dopóki jest poza etui i ma baterię – dlatego skaner może ją wykryć osobno."
+        },
+        {
+          "question": "Jak odróżnić lewą słuchawkę od prawej w aplikacji?",
+          "answer": "Obie nadają pod tą samą nazwą. Najprościej schować tę, którą masz, do zamkniętego etui – wtedy jedyny sygnał AirPods na liście należy do zgubionej słuchawki."
+        },
+        {
+          "question": "Co, jeśli słuchawka jest rozładowana?",
+          "answer": "Rozładowana słuchawka nie nadaje i nie da się jej namierzyć na żywo. Szukaj wokół ostatniej znanej lokalizacji z aplikacji Znajdź i skanuj ponownie co jakiś czas."
+        }
+      ],
+      "cta_title": "Mała słuchawka, mocna wskazówka",
+      "cta_text": "Zeskanuj okolicę i pozwól, by procent bliskości doprowadził cię do zgubionej słuchawki. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/jak-znalezc-zgubione-airpods/",
+          "title": "Zgubione AirPods? Jak je znaleźć"
+        },
+        {
+          "url": "/pl/poradniki/rozladowane-airpods-jak-znalezc/",
+          "title": "Rozładowane lub wyłączone AirPods"
+        },
+        {
+          "url": "/pl/poradniki/zgubione-etui-airpods/",
+          "title": "Zgubione etui od AirPods"
+        }
+      ]
+    },
+    {
+      "slug": "rozladowane-airpods-jak-znalezc",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "Rozładowane AirPods",
+      "meta_title": "Rozładowane AirPods – jak je znaleźć? Uczciwa odpowiedź",
+      "meta_description": "Zgubione AirPods lub słuchawki z rozładowaną baterią? Namierzyć ich na żywo się nie da. Co działa: ostatnia lokalizacja, ponowne skanowanie, mądre szukanie.",
+      "keywords": "rozładowane airpods jak znaleźć, jak znaleźć rozładowane słuchawki, wyłączone słuchawki bluetooth jak znaleźć, airpods offline, airpods brak lokalizacji, rozładowane słuchawki douszne",
+      "h1": "Rozładowane lub wyłączone AirPods – jak je znaleźć",
+      "quick_answer": "Uczciwie: rozładowanych lub wyłączonych AirPods nie da się namierzyć na żywo – nie nadają sygnału, którego mogłaby użyć jakakolwiek aplikacja, także Znajdź. Sprawdź ostatnią znaną lokalizację w aplikacji Znajdź, przeszukaj systematycznie to miejsce i co jakiś czas skanuj aplikacją Bluetooth Finder: słuchawki z resztką baterii często na chwilę się budzą i wtedy je wykryjesz.",
+      "sections": [
+        {
+          "title": "Co się dzieje, gdy bateria się wyczerpie",
+          "paragraphs": [
+            "AirPods nadają Bluetooth tylko wtedy, gdy mają zasilanie. Gdy bateria spadnie do zera, słuchawka milknie: nie odtworzy dźwięku, nie zaktualizuje lokalizacji w sieci Znajdź i nie pojawi się w żadnym skanerze. W aplikacji Znajdź zobaczysz wtedy status offline albo ostatnią lokalizację.",
+            "Dobra wiadomość: „rozładowane” rzadko znaczy zero. Słuchawki często wyłączają się przy kilku procentach i budzą się na krótko, np. gdy się poruszą. Dlatego warto skanować kilka razy, a nie tylko raz."
+          ]
+        },
+        {
+          "title": "Ostatnia lokalizacja to twój najlepszy punkt startu",
+          "paragraphs": [
+            "Jeśli AirPods były w aplikacji Znajdź, pokazuje ona miejsce, w którym ostatnio miały połączenie. To zawęża szukanie do jednego mieszkania, samochodu czy biura.",
+            "Potem przeszukuj systematycznie: zacznij od miejsc, w których siedziałeś lub się przebierałeś, sprawdzaj nisko i w szczelinach, a co kilka minut zeskanuj ponownie aplikacją Bluetooth Finder. Jeden przebłysk sygnału z procentem bliskości wystarczy, żeby wskazać właściwy pokój."
+          ]
+        }
+      ],
+      "steps_title": "Jak szukać rozładowanych AirPods z aplikacją Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Sprawdź ostatnią lokalizację",
+          "description": "Otwórz Znajdź → Urządzenia → AirPods i zanotuj ostatnie znane miejsce i godzinę."
+        },
+        {
+          "title": "Zainstaluj Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+), żeby od razu wychwycić każdy przebłysk sygnału."
+        },
+        {
+          "title": "Skanuj w odstępach",
+          "description": "Rozpocznij skanowanie w ostatniej lokalizacji, a potem powtarzaj je co kilka minut, przeszukując pomieszczenie."
+        },
+        {
+          "title": "Gdy AirPods się pojawią – idź za sygnałem",
+          "description": "Jeśli słuchawki na chwilę się obudzą, wybierz je i idź za wskazówkami gorąco–zimno, zanim znów zgasną."
+        },
+        {
+          "title": "Przygotuj się na następny raz",
+          "description": "Po odnalezieniu naładuj je, włącz Znajdź i zostaw Bluetooth Finder na iPhonie – kolejne szukanie zajmie dwie minuty."
+        }
+      ],
+      "tips": [
+        "Szukaj tam, gdzie bateria mogła się wyczerpać: podczas długiego treningu, podróży albo snu ze słuchawkami.",
+        "Zamknięte etui ze słuchawkami w środku również nie nadaje – szukaj go wzrokiem i dotykiem w torbach i kieszeniach.",
+        "Poproś domowników, by nie ruszali rzeczy w pomieszczeniu, dopóki nie przeszukasz go systematycznie.",
+        "Jeśli nic nie działa, sprawdź rzeczy znalezione w miejscach, które odwiedziłeś – kawiarnie, siłownie, komunikacja miejska."
+      ],
+      "faq": [
+        {
+          "question": "Czy aplikacja znajdzie całkowicie rozładowane AirPods?",
+          "answer": "Nie. Bez zasilania słuchawki nie nadają sygnału Bluetooth, więc żadna aplikacja ani sieć Znajdź nie zobaczy ich na żywo. Pomaga ostatnia lokalizacja i systematyczne szukanie."
+        },
+        {
+          "question": "Co znaczy status offline w aplikacji Znajdź?",
+          "answer": "Że AirPods od jakiegoś czasu nie łączyły się z żadnym urządzeniem – najczęściej przez rozładowaną baterię lub zamknięte etui. Mapa pokazuje wtedy tylko ostatnie znane miejsce."
+        },
+        {
+          "question": "Czy wyłączone słuchawki Bluetooth innych marek da się znaleźć?",
+          "answer": "Nie na żywo. Wyłączone słuchawki Sony, JBL czy Samsung nie nadają. Sprawdź ostatnią lokalizację w aplikacji producenta, jeśli ją oferuje, i skanuj ponownie po włączeniu zasilania w pobliżu."
+        }
+      ],
+      "cta_title": "Następnym razem znajdziesz je w dwie minuty",
+      "cta_text": "Zainstaluj Bluetooth Finder teraz – gdy słuchawki są włączone, prowadzi cię do nich wskazówkami gorąco–zimno. Za darmo.",
+      "related": [
+        {
+          "url": "/pl/poradniki/jak-znalezc-zgubione-airpods/",
+          "title": "Zgubione AirPods? Jak je znaleźć"
+        },
+        {
+          "url": "/pl/poradniki/zgubione-etui-airpods/",
+          "title": "Zgubione etui od AirPods"
+        },
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-bluetooth/",
+          "title": "Zgubione słuchawki Bluetooth"
+        }
+      ]
+    },
+    {
+      "slug": "zgubione-sluchawki-bluetooth",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Zgubione słuchawki Bluetooth",
+      "meta_title": "Jak znaleźć zgubione słuchawki bezprzewodowe (Sony, JBL, Bose)",
+      "meta_description": "Znajdź moje słuchawki: jak iPhone’em odnaleźć zgubione słuchawki bezprzewodowe Sony, JBL, Bose czy Beats po sygnale Bluetooth – także spoza aplikacji Znajdź.",
+      "keywords": "jak znaleźć słuchawki bezprzewodowe, znajdź moje słuchawki, zgubione słuchawki bluetooth, zgubione słuchawki bezprzewodowe, jak znaleźć zgubione słuchawki, zgubione słuchawki sony, zgubione słuchawki jbl, zgubione słuchawki nauszne",
+      "h1": "Jak znaleźć zgubione słuchawki bezprzewodowe",
+      "quick_answer": "Jeśli słuchawki są włączone i w zasięgu, znajdziesz je po sygnale Bluetooth. Każde włączone słuchawki bezprzewodowe – Sony, JBL, Bose, Beats, Sennheiser – nadają sygnał, który rośnie, gdy się zbliżasz. Zeskanuj okolicę aplikacją Bluetooth Finder, wybierz słuchawki z listy i idź za wskazówkami gorąco–zimno, aż procent bliskości przekroczy 90%.",
+      "sections": [
+        {
+          "title": "Dlaczego większości słuchawek nie ma w aplikacji Znajdź",
+          "paragraphs": [
+            "Aplikacja Znajdź od Apple obsługuje AirPods, część słuchawek Beats i nieliczne akcesoria z certyfikatem sieci Znajdź. Słuchawki Sony, JBL, Bose czy Sennheiser zwykle w niej nie występują, a aplikacje producentów pokazują co najwyżej miejsce ostatniego połączenia z telefonem.",
+            "Dlatego wpisując „znajdź moje słuchawki”, zwykle trafiasz na porady, które kończą się na aplikacji Znajdź. Jeśli twoich słuchawek tam nie ma, potrzebujesz metody, która działa z każdą marką – sygnału Bluetooth."
+          ]
+        },
+        {
+          "title": "Jak sygnał prowadzi cię do słuchawek",
+          "paragraphs": [
+            "Włączone słuchawki bezprzewodowe regularnie nadają sygnał Bluetooth – zwłaszcza gdy nie są połączone z telefonem i szukają połączenia. W pomieszczeniach sięga on 10–30 metrów.",
+            "Bluetooth Finder pokazuje ten sygnał z nazwą, producentem i modelem, a potem przelicza jego siłę na procent bliskości i poziomy zimno, ciepło, gorąco, bardzo gorąco. Słuchawki nauszne mają większe anteny niż douszne, więc zwykle wykryjesz je z dalszej odległości."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć słuchawki w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Odłącz słuchawki od telefonu",
+          "description": "W Ustawienia → Bluetooth rozłącz słuchawki (nie usuwaj ich). Niepołączone słuchawki częściej nadają i łatwiej je wykryć."
+        },
+        {
+          "title": "Otwórz Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+) i rozpocznij skanowanie."
+        },
+        {
+          "title": "Znajdź słuchawki na liście",
+          "description": "Szukaj nazwy modelu (np. WH-1000XM5, Tune 510BT, QC45) lub producenta – Sony, JBL, Bose."
+        },
+        {
+          "title": "Idź za wskazówkami gorąco–zimno",
+          "description": "Przechodź z pokoju do pokoju. Tam, gdzie wskaźnik zmienia się z zimno na gorąco, jesteś bliżej."
+        },
+        {
+          "title": "Przeszukaj miejsce przy „bardzo gorąco”",
+          "description": "Powyżej 90% słuchawki są tuż obok – sprawdź pod poduszkami, za kanapą, w plecaku i szafie."
+        }
+      ],
+      "tips": [
+        "Jeśli słuchawki mają funkcję automatycznego wyłączania, szukaj szybko – po kilkunastu minutach bez połączenia mogą się wyłączyć.",
+        "Sprawdź aplikację producenta (np. Sony Headphones Connect): czasem pokazuje miejsce ostatniego połączenia.",
+        "Włączone słuchawki nauszne w etui lub torbie nadal nadają – materiał tylko nieznacznie osłabia sygnał.",
+        "Gdy procent przestaje rosnąć, zmień wysokość iPhone’a i obróć się powoli wokół własnej osi."
+      ],
+      "faq": [
+        {
+          "question": "Czy znajdę słuchawki, których nie ma w aplikacji Znajdź?",
+          "answer": "Tak, jeśli są włączone i w zasięgu. Bluetooth Finder odczytuje sygnał Bluetooth każdej marki – nie potrzebuje rejestracji w Znajdź ani konta producenta."
+        },
+        {
+          "question": "Czy słuchawki muszą być sparowane z moim iPhone’em?",
+          "answer": "Nie. Skaner widzi każde włączone urządzenie Bluetooth w zasięgu. Odłączenie słuchawek od telefonu często nawet pomaga, bo zaczynają nadawać częściej."
+        },
+        {
+          "question": "Jak znaleźć wyłączone słuchawki?",
+          "answer": "Wyłączone słuchawki nie nadają, więc nie da się ich namierzyć na żywo. Sprawdź ostatnie miejsce połączenia w aplikacji producenta i przeszukaj je systematycznie."
+        }
+      ],
+      "cta_title": "Znajdź swoje słuchawki – każdej marki",
+      "cta_text": "Zeskanuj okolicę i idź za sygnałem do słuchawek Sony, JBL, Bose czy Beats. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-douszne/",
+          "title": "Zgubione słuchawki douszne"
+        },
+        {
+          "url": "/pl/poradniki/rozladowane-airpods-jak-znalezc/",
+          "title": "Rozładowane lub wyłączone słuchawki"
+        },
+        {
+          "url": "/pl/poradniki/skaner-bluetooth-iphone/",
+          "title": "Skaner Bluetooth na iPhone’a"
+        }
+      ]
+    },
+    {
+      "slug": "zgubione-sluchawki-douszne",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Zgubione słuchawki douszne",
+      "meta_title": "Zgubione słuchawki douszne Bluetooth – jak je znaleźć",
+      "meta_description": "Zgubione słuchawki douszne Galaxy Buds, Xiaomi, JBL lub AirPods? Tak znajdziesz je iPhone’em po sygnale Bluetooth – jedna metoda dla każdej marki.",
+      "keywords": "zgubione słuchawki douszne, zgubione słuchawki douszne bluetooth, jak znaleźć słuchawki douszne, zgubione słuchawki dokanałowe, zgubione galaxy buds, zgubione słuchawki xiaomi, zgubiona słuchawka bezprzewodowa",
+      "h1": "Zgubione słuchawki douszne – jak je znaleźć",
+      "quick_answer": "Włączone słuchawki douszne poza etui nadają sygnał Bluetooth, dopóki mają baterię – niezależnie od marki. Zeskanuj okolicę aplikacją Bluetooth Finder, wybierz słuchawki po nazwie lub producencie i idź za wskazówkami gorąco–zimno. Gdy procent bliskości przekroczy 90%, słuchawki są w zasięgu ręki.",
+      "sections": [
+        {
+          "title": "Jedna metoda dla każdej marki",
+          "paragraphs": [
+            "Galaxy Buds można szukać w aplikacji SmartThings Find, AirPods w aplikacji Znajdź, a wiele innych marek ma własne aplikacje – ale tylko jeśli używasz telefonu tego samego producenta i wcześniej wszystko skonfigurowałeś. Z iPhone’em i słuchawkami Samsunga, Xiaomi czy JBL zwykle zostajesz bez narzędzia.",
+            "Sygnał Bluetooth jest wspólny dla wszystkich. Każde słuchawki douszne nadają go w ten sam sposób, więc Bluetooth Finder działa z Galaxy Buds, Redmi Buds, JBL Tune, Sony WF, Jabra, Soundcore i AirPods tak samo."
+          ]
+        },
+        {
+          "title": "Gdzie najczęściej giną słuchawki douszne",
+          "paragraphs": [
+            "Słuchawki douszne są małe i lekkie, więc wypadają przy zdejmowaniu kaptura, czapki lub bluzy, wsuwają się w szczeliny kanapy i fotela samochodowego, zostają w kieszeniach kurtek i torbach na siłownię.",
+            "W większości przypadków leżą w promieniu kilkunastu metrów od miejsca, w którym ostatnio ich używałeś. To idealny zasięg dla szukania po sygnale Bluetooth."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć słuchawki douszne w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Pobierz Bluetooth Finder",
+          "description": "Zainstaluj aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+) i zezwól na dostęp do Bluetooth."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Wszystkie włączone urządzenia Bluetooth w pobliżu pojawią się z siłą sygnału. Szukaj nazwy modelu lub producenta: Samsung, Xiaomi, JBL."
+        },
+        {
+          "title": "Wybierz swoje słuchawki",
+          "description": "Jeśli zgubiłeś jedną słuchawkę, schowaj drugą do zamkniętego etui, żeby nie zakłócała wyniku."
+        },
+        {
+          "title": "Idź za wskazówkami gorąco–zimno",
+          "description": "Przechodź powoli. Wskaźnik zmienia się z zimno przez ciepło na gorąco, a procent bliskości rośnie."
+        },
+        {
+          "title": "Przeszukaj miejsce przy „bardzo gorąco”",
+          "description": "Powyżej 90% sprawdź szczeliny kanapy, kieszenie, kaptur, podłogę samochodu i torbę."
+        }
+      ],
+      "tips": [
+        "Odłącz słuchawki od telefonu w Ustawienia → Bluetooth – niepołączone częściej nadają.",
+        "W samochodzie skanuj z każdego fotela po kolei: metal karoserii mocno zmienia sygnał.",
+        "Słuchawki w zamkniętym etui zwykle nie nadają – jeśli zgubiłeś je razem z etui, szukaj w ostatnim miejscu ich użycia.",
+        "Szukaj od razu: bateria słuchawek dousznych wystarcza na kilka godzin czuwania."
+      ],
+      "faq": [
+        {
+          "question": "Czy znajdę Galaxy Buds iPhone’em?",
+          "answer": "Tak, jeśli są włączone i poza etui. Galaxy Buds nadają Bluetooth jak każde inne słuchawki, a Bluetooth Finder wykrywa je bez aplikacji Samsunga."
+        },
+        {
+          "question": "Czy słuchawki douszne w etui da się wykryć?",
+          "answer": "Zwykle nie. Większość słuchawek w zamkniętym etui wyłącza Bluetooth. Gdy etui jest otwarte, słuchawki się budzą i można je wykryć."
+        },
+        {
+          "question": "Jak blisko muszę być, żeby zobaczyć słuchawki na liście?",
+          "answer": "Zwykle 10–30 metrów w pomieszczeniach. Małe słuchawki douszne mają słabsze anteny niż słuchawki nauszne, więc zacznij skanowanie blisko miejsca, gdzie ich ostatnio używałeś."
+        }
+      ],
+      "cta_title": "Każda marka, jedna aplikacja",
+      "cta_text": "Zeskanuj okolicę i idź za sygnałem do swoich słuchawek dousznych. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-bluetooth/",
+          "title": "Zgubione słuchawki Bluetooth"
+        },
+        {
+          "url": "/pl/poradniki/zgubiona-jedna-sluchawka-airpods/",
+          "title": "Zgubiona jedna słuchawka AirPods"
+        },
+        {
+          "url": "/pl/poradniki/jak-znalezc-zgubione-airpods/",
+          "title": "Zgubione AirPods? Jak je znaleźć"
+        }
+      ]
+    },
+    {
+      "slug": "zgubiony-smartwatch",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Zgubiony smartwatch",
+      "meta_title": "Zgubiony smartwatch lub opaska Mi Band – jak je znaleźć",
+      "meta_description": "Zgubiony smartwatch, opaska Mi Band, Garmin lub Fitbit? Tak znajdziesz je iPhone’em w domu, w samochodzie lub w torbie na siłownię po sygnale Bluetooth.",
+      "keywords": "zgubiony smartwatch, jak znaleźć smartwatch, zgubiona opaska mi band, jak znaleźć opaskę xiaomi, zgubiony garmin, zgubiony fitbit, zgubiony zegarek bluetooth",
+      "h1": "Zgubiony smartwatch lub opaska sportowa – jak je znaleźć",
+      "quick_answer": "Smartwatche i opaski sportowe nadają Bluetooth niemal bez przerwy, żeby synchronizować się z telefonem – dlatego łatwo je wykryć. Zeskanuj okolicę aplikacją Bluetooth Finder, wybierz zegarek po nazwie lub producencie (Xiaomi, Garmin, Fitbit, Huawei) i idź za wskazówkami gorąco–zimno do najsilniejszego sygnału.",
+      "sections": [
+        {
+          "title": "Co oferują aplikacje producentów",
+          "paragraphs": [
+            "Apple Watch znajdziesz w aplikacji Znajdź, Galaxy Watch w SmartThings Find. Opaski Mi Band, Garmin, Fitbit czy Amazfit zwykle oferują najwyżej funkcję „znajdź opaskę”, która ją wibruje – ale tylko gdy jest połączona z telefonem, a wibrację trudno usłyszeć pod poduszką.",
+            "Jeśli opaska straciła połączenie, aplikacja producenta przestaje pomagać. Sygnał Bluetooth, który zegarek nadaje dalej, nadal da się odczytać."
+          ]
+        },
+        {
+          "title": "Dlaczego zegarki łatwo namierzyć po sygnale",
+          "paragraphs": [
+            "Urządzenia do noszenia nadają często i regularnie, bo stale próbują przesłać kroki, tętno i powiadomienia. W aplikacji Bluetooth Finder zwykle pojawiają się z pełną nazwą, np. „Mi Smart Band 8” czy „Forerunner 255”.",
+            "Ich bateria starcza na wiele dni, więc nawet zegarek zgubiony wczoraj zwykle nadal nadaje. To daje ci więcej czasu niż w przypadku słuchawek."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć smartwatch w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Zainstaluj Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Zamknij aplikację producenta",
+          "description": "Wyłącz na chwilę synchronizację lub Bluetooth w aplikacji zegarka – niepołączony zegarek częściej nadaje i łatwiej go wykryć."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Szukaj nazwy modelu lub producenta: Xiaomi, Garmin, Fitbit, Huawei, Amazfit."
+        },
+        {
+          "title": "Idź za wskazówkami gorąco–zimno",
+          "description": "Przechodź z pokoju do pokoju, obserwując procent bliskości. Wybierz pomieszczenie z najwyższą wartością."
+        },
+        {
+          "title": "Przeszukaj miejsce przy „bardzo gorąco”",
+          "description": "Sprawdź torbę na siłownię, kieszenie, pościel, łazienkę i miejsca, gdzie zdejmujesz zegarek do ładowania."
+        }
+      ],
+      "tips": [
+        "Zegarki często giną w łazience, przy umywalce i na nocnej szafce – zacznij od nich.",
+        "Jeśli to Apple Watch, najpierw użyj Znajdź → Urządzenia → Odtwórz dźwięk.",
+        "W szatni siłowni wiele osób nosi zegarki – sprawdzaj nazwę i model, by śledzić właściwy.",
+        "Zegarek pod materacem lub w szufladzie ma słabszy sygnał – opuść iPhone’a niżej."
+      ],
+      "faq": [
+        {
+          "question": "Czy znajdę opaskę Mi Band iPhone’em?",
+          "answer": "Tak, jeśli jest naładowana i w zasięgu. Mi Band nadaje Bluetooth jak każda opaska, a Bluetooth Finder wykrywa ją bez aplikacji Xiaomi."
+        },
+        {
+          "question": "Czy można znaleźć zegarek Garmin lub Fitbit bez aplikacji producenta?",
+          "answer": "Tak. Aplikacja do szukania urządzeń Bluetooth odczytuje sygnał zegarka bezpośrednio, więc nie potrzebujesz połączenia z Garmin Connect ani Fitbit."
+        },
+        {
+          "question": "Jak długo zgubiony smartwatch będzie nadawał?",
+          "answer": "Zwykle tyle, ile starcza bateria – od jednego dnia do kilku tygodni, zależnie od modelu. Opaski sportowe wytrzymują zwykle dłużej niż smartwatche z dużym ekranem."
+        }
+      ],
+      "cta_title": "Twój zegarek nadal nadaje",
+      "cta_text": "Zeskanuj okolicę i idź za sygnałem do smartwatcha lub opaski. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/skaner-bluetooth-iphone/",
+          "title": "Skaner Bluetooth na iPhone’a"
+        },
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-douszne/",
+          "title": "Zgubione słuchawki douszne"
+        },
+        {
+          "url": "/pl/poradniki/zgubiony-glosnik-bluetooth/",
+          "title": "Zgubiony głośnik Bluetooth"
+        }
+      ]
+    },
+    {
+      "slug": "zgubiony-glosnik-bluetooth",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Zgubiony głośnik Bluetooth",
+      "meta_title": "Zgubiony głośnik Bluetooth lub JBL – jak go znaleźć",
+      "meta_description": "Czy da się namierzyć głośnik JBL? Tak, jeśli jest włączony. Tak znajdziesz zgubiony głośnik Bluetooth iPhone’em po sile sygnału – krok po kroku.",
+      "keywords": "zgubiony głośnik bluetooth, jak znaleźć głośnik jbl, zgubiony głośnik jbl, jak namierzyć głośnik bluetooth, zgubiony głośnik sony, zgubiony głośnik przenośny",
+      "h1": "Zgubiony głośnik Bluetooth – jak go znaleźć",
+      "quick_answer": "Jeśli głośnik jest włączony, możesz go namierzyć. Głośniki JBL, Sony, Bose czy Anker mają mocne nadajniki Bluetooth i często widać je na liście z każdego miejsca w domu lub na działce. Zeskanuj okolicę aplikacją Bluetooth Finder, wybierz głośnik i idź za wskazówkami gorąco–zimno, aż procent bliskości osiągnie najwyższą wartość.",
+      "sections": [
+        {
+          "title": "Najpierw spróbuj dźwięku",
+          "paragraphs": [
+            "Jeśli głośnik jest w zasięgu i nadal sparowany z twoim telefonem, połącz się z nim i włącz muzykę – to najszybszy sposób. Aplikacje JBL Portable czy Sony Music Center też pomagają, ale tylko przy aktywnym połączeniu.",
+            "Gdy głośnik nie chce się połączyć, ma wyciszony dźwięk albo ktoś inny jest z nim połączony, potrzebny jest inny sposób: śledzenie jego sygnału Bluetooth."
+          ]
+        },
+        {
+          "title": "Dlaczego głośniki łatwo wykryć",
+          "paragraphs": [
+            "Głośniki przenośne mają większe baterie i mocniejsze anteny niż słuchawki, więc ich sygnał sięga dalej – w domu często przez kilka ścian, w ogrodzie nawet kilkadziesiąt metrów.",
+            "To znaczy, że głośnik pojawi się na liście szybko, ale siła sygnału zmienia się łagodniej. Dlatego przy głośnikach najlepiej porównywać procent bliskości między pomieszczeniami, a nie z kroku na krok."
+          ]
+        }
+      ],
+      "steps_title": "Jak znaleźć głośnik w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Pobierz Bluetooth Finder",
+          "description": "Zainstaluj aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Szukaj nazwy modelu (np. JBL Flip 6, JBL Charge 5, SRS-XB) lub producenta."
+        },
+        {
+          "title": "Porównaj pomieszczenia",
+          "description": "Zatrzymaj się w każdym pokoju i zanotuj procent bliskości. Wybierz ten z najwyższą wartością."
+        },
+        {
+          "title": "Zawęź obszar wskazówkami gorąco–zimno",
+          "description": "W najlepszym pomieszczeniu chodź powoli, aż wskaźnik pokaże „bardzo gorąco”."
+        },
+        {
+          "title": "Sprawdź schowki",
+          "description": "Głośniki często lądują w szafkach, pod łóżkiem, w bagażniku, w torbie plażowej lub w szopie na działce."
+        }
+      ],
+      "tips": [
+        "Wiele głośników wyłącza się po kilkunastu minutach bezczynności – szukaj szybko, póki nadaje.",
+        "Na zewnątrz zasięg jest większy, więc zacznij od obejścia terenu, obserwując, gdzie procent rośnie.",
+        "Jeśli sąsiedzi mają ten sam model, sprawdzaj nazwę urządzenia, którą sam nadałeś.",
+        "Włączony głośnik w zamkniętym bagażniku samochodu ma wyraźnie słabszy sygnał – podejdź bliżej."
+      ],
+      "faq": [
+        {
+          "question": "Czy da się namierzyć głośnik JBL?",
+          "answer": "Tak, jeśli jest włączony i w zasięgu Bluetooth. Bluetooth Finder pokazuje jego sygnał i prowadzi do niego wskazówkami gorąco–zimno. Wyłączonego głośnika nie da się namierzyć na żywo."
+        },
+        {
+          "question": "Jak daleko widać głośnik Bluetooth?",
+          "answer": "W domu zwykle 15–30 metrów, na zewnątrz bez przeszkód często więcej. Głośniki mają mocniejsze anteny niż słuchawki."
+        },
+        {
+          "question": "Czy aplikacja JBL pokaże lokalizację głośnika?",
+          "answer": "Aplikacje producentów działają głównie przy aktywnym połączeniu i zwykle nie pokazują lokalizacji na mapie. Skaner Bluetooth działa bez połączenia."
+        }
+      ],
+      "cta_title": "Głośnik gra dalej – po cichu",
+      "cta_text": "Zeskanuj okolicę i idź za jego silnym sygnałem. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/skaner-bluetooth-iphone/",
+          "title": "Skaner Bluetooth na iPhone’a"
+        },
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-bluetooth/",
+          "title": "Zgubione słuchawki Bluetooth"
+        },
+        {
+          "url": "/pl/poradniki/zgubiony-smartwatch/",
+          "title": "Zgubiony smartwatch lub opaska"
+        }
+      ]
+    },
+    {
+      "slug": "skaner-bluetooth-iphone",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Skaner Bluetooth na iPhone’a",
+      "meta_title": "Skaner Bluetooth na iPhone’a: urządzenia Bluetooth w pobliżu",
+      "meta_description": "Skaner Bluetooth na iPhone’a: zobacz wszystkie urządzenia Bluetooth w pobliżu z siłą sygnału, producentem i modelem – i znajdź to, którego szukasz.",
+      "keywords": "skaner bluetooth iphone, skaner bluetooth, urządzenia bluetooth w pobliżu, wykrywanie urządzeń bluetooth, jak zobaczyć urządzenia bluetooth w pobliżu, wyszukiwarka urządzeń bluetooth, aplikacja skaner bluetooth",
+      "h1": "Skaner Bluetooth na iPhone’a: zobacz urządzenia w pobliżu",
+      "quick_answer": "iPhone w Ustawienia → Bluetooth pokazuje tylko urządzenia sparowane lub w trybie parowania. Żeby zobaczyć wszystkie włączone urządzenia Bluetooth w pobliżu – z siłą sygnału, nazwą, producentem i modelem – potrzebujesz aplikacji skanera, takiej jak Bluetooth Finder. Wybierz dowolne urządzenie z listy, a wskazówki gorąco–zimno doprowadzą cię do niego.",
+      "sections": [
+        {
+          "title": "Czego nie pokazują ustawienia iPhone’a",
+          "paragraphs": [
+            "Lista w Ustawienia → Bluetooth to lista połączeń, a nie skaner. Widzisz w niej swoje sparowane urządzenia oraz te, które są akurat w trybie parowania – ale nie zobaczysz tam słuchawek sąsiada, zegarka leżącego w szufladzie ani siły sygnału.",
+            "Aplikacja skanera odczytuje wszystkie pakiety Bluetooth Low Energy w zasięgu. Dzięki temu widzisz, co faktycznie nadaje wokół ciebie, i możesz zmierzyć, jak daleko to jest."
+          ]
+        },
+        {
+          "title": "Jak czytać siłę sygnału",
+          "paragraphs": [
+            "Siła sygnału (RSSI) maleje wraz z odległością, ale wpływają na nią też ściany, ciało i metal. Bluetooth Finder przelicza ją na zrozumiały procent bliskości i poziomy zimno, ciepło, gorąco, bardzo gorąco, żeby nie trzeba było interpretować liczb w dBm.",
+            "Najważniejszy jest trend: jeśli procent rośnie, gdy idziesz w jakimś kierunku, zbliżasz się. Powyżej 90% urządzenie jest zwykle w odległości ręki."
+          ]
+        }
+      ],
+      "steps_title": "Jak skanować urządzenia Bluetooth w aplikacji Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Zainstaluj Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+) i zezwól na dostęp do Bluetooth."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Po kilku sekundach zobaczysz listę wszystkich włączonych urządzeń Bluetooth w zasięgu z siłą sygnału na żywo."
+        },
+        {
+          "title": "Sprawdź dane urządzenia",
+          "description": "Stuknij urządzenie, by zobaczyć nazwę, producenta i model – tak rozpoznasz słuchawki, zegarki, głośniki i inne sprzęty."
+        },
+        {
+          "title": "Wybierz urządzenie do odnalezienia",
+          "description": "Gdy znajdziesz to, którego szukasz, przejdź do trybu szukania ze wskazówkami gorąco–zimno."
+        },
+        {
+          "title": "Idź za procentem bliskości",
+          "description": "Poruszaj się w kierunku, w którym procent rośnie, aż wskaźnik pokaże „bardzo gorąco”."
+        }
+      ],
+      "tips": [
+        "Urządzenia bez nazwy to często akcesoria w trybie oszczędzania energii – sprawdź producenta w danych urządzenia.",
+        "Przejdź kilka kroków i zobacz, które sygnały się zmieniają – pomaga to odróżnić twoje urządzenie od sprzętu sąsiadów.",
+        "Skaner widzi tylko włączone urządzenia w zasięgu 10–30 metrów w pomieszczeniach.",
+        "Bluetooth Finder nie łączy się z cudzymi urządzeniami – tylko odczytuje publicznie nadawane sygnały."
+      ],
+      "faq": [
+        {
+          "question": "Jak zobaczyć wszystkie urządzenia Bluetooth w pobliżu na iPhonie?",
+          "answer": "Użyj aplikacji skanera Bluetooth, takiej jak Bluetooth Finder. Ustawienia iPhone’a pokazują tylko urządzenia sparowane lub w trybie parowania, a skaner – wszystkie włączone urządzenia w zasięgu."
+        },
+        {
+          "question": "Czy skaner Bluetooth pokaże odległość w metrach?",
+          "answer": "Nie dokładnie. Siła sygnału zależy od przeszkód, więc aplikacja pokazuje procent bliskości i poziomy gorąco–zimno zamiast metrów. To w zupełności wystarcza, by dojść do urządzenia."
+        },
+        {
+          "question": "Czy skaner Bluetooth jest legalny i bezpieczny?",
+          "answer": "Tak. Aplikacja tylko odbiera sygnały, które urządzenia same publicznie nadają, i nie łączy się z nimi. Nie wymaga konta ani parowania."
+        }
+      ],
+      "cta_title": "Zobacz, co nadaje wokół ciebie",
+      "cta_text": "Zeskanuj urządzenia Bluetooth w pobliżu i znajdź to, którego szukasz. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/zgubione-sluchawki-bluetooth/",
+          "title": "Zgubione słuchawki Bluetooth"
+        },
+        {
+          "url": "/pl/poradniki/zgubiony-smartwatch/",
+          "title": "Zgubiony smartwatch lub opaska"
+        },
+        {
+          "url": "/pl/poradniki/airpods-bez-aplikacji-znajdz/",
+          "title": "Jak znaleźć AirPods bez aplikacji Znajdź"
+        }
+      ]
+    },
+    {
+      "slug": "zgubione-etui-airpods",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "Zgubione etui od AirPods",
+      "meta_title": "Zgubione etui od AirPods – jak je znaleźć? Uczciwa odpowiedź",
+      "meta_description": "Zgubione etui od AirPods? Kiedy da się je namierzyć, kiedy nie i co wtedy zrobić – z aplikacją Znajdź i skanerem Bluetooth na iPhonie.",
+      "keywords": "zgubione etui airpods, jak znaleźć etui od airpods, zgubione etui od słuchawek, etui airpods zgubione w domu, znaleźć etui airpods pro, zgubione etui ładujące airpods",
+      "h1": "Zgubione etui od AirPods – jak je znaleźć",
+      "quick_answer": "To zależy od modelu i tego, co jest w środku. Etui AirPods Pro 2 i nowszych ma własny głośnik i można je namierzyć w aplikacji Znajdź. Zamknięte etui ze słuchawkami w środku zwykle nic nie nadaje, a puste standardowe etui nie ma aktywnego nadajnika. Jeśli wieczko jest otwarte lub słuchawki leżą obok, aplikacja Bluetooth Finder wykryje AirPods i doprowadzi cię do etui.",
+      "sections": [
+        {
+          "title": "Które etui da się namierzyć",
+          "paragraphs": [
+            "Etui ładujące AirPods Pro 2, AirPods 4 z ANC i nowszych modeli ma własny moduł sieci Znajdź i głośnik: w aplikacji Znajdź zobaczysz je osobno na mapie i odtworzysz dźwięk. To najlepsza droga, jeśli masz taki model.",
+            "Starsze etui (AirPods 1–3, AirPods Pro pierwszej generacji) same nie nadają. Lokalizację da się ustalić tylko pośrednio – przez słuchawki, gdy są w środku i wieczko jest otwarte, albo przez ostatnią lokalizację, gdy etui ostatnio łączyło się z iPhone’em."
+          ]
+        },
+        {
+          "title": "Kiedy pomaga skaner Bluetooth",
+          "paragraphs": [
+            "AirPods w otwartym etui się budzą i nadają sygnał Bluetooth – wtedy Bluetooth Finder je wykryje, a ty dojdziesz do etui wskazówkami gorąco–zimno. To samo dotyczy sytuacji, gdy słuchawki wypadły z etui i leżą obok.",
+            "Uczciwie: zamknięte etui ze słuchawkami w środku lub puste starsze etui są niewidoczne dla każdego skanera. Wtedy pomaga ostatnia lokalizacja z aplikacji Znajdź i systematyczne przeszukanie miejsca."
+          ]
+        }
+      ],
+      "steps_title": "Jak szukać etui od AirPods z aplikacją Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Sprawdź aplikację Znajdź",
+          "description": "Znajdź → Urządzenia: przy AirPods Pro 2 i nowszych etui widnieje osobno – odtwórz dźwięk z etui."
+        },
+        {
+          "title": "Zainstaluj Bluetooth Finder",
+          "description": "Pobierz aplikację z App Store (za darmo, 24,2 MB, iOS 17.1+)."
+        },
+        {
+          "title": "Rozpocznij skanowanie",
+          "description": "Jeśli AirPods są w otwartym etui lub obok niego, pojawią się na liście z Apple jako producentem."
+        },
+        {
+          "title": "Idź za wskazówkami gorąco–zimno",
+          "description": "Wybierz AirPods i idź tam, gdzie wskaźnik zmienia się z zimno na gorąco."
+        },
+        {
+          "title": "Jeśli nic się nie pojawia, przeszukaj systematycznie",
+          "description": "Zacznij od ostatniej lokalizacji: torby, kieszenie kurtek, samochód, szczeliny kanapy – i co jakiś czas skanuj ponownie."
+        }
+      ],
+      "tips": [
+        "Etui często ginie razem z kurtką lub torbą – sprawdź wszystkie kieszenie, także wewnętrzne.",
+        "Jeśli masz słuchawki, a zgubiłeś tylko etui, Apple oferuje odpłatną wymianę samego etui.",
+        "Po odnalezieniu włącz w aplikacji Znajdź powiadomienia o pozostawieniu, jeśli twój model je obsługuje.",
+        "Etui w samochodzie lubi wpadać pod fotele i do schowków w drzwiach."
+      ],
+      "faq": [
+        {
+          "question": "Czy zamknięte etui od AirPods nadaje sygnał?",
+          "answer": "Starsze etui – nie. Zamknięte etui ze słuchawkami w środku zwykle usypia słuchawki. Wyjątkiem są etui AirPods Pro 2 i nowszych modeli, które można namierzyć w aplikacji Znajdź."
+        },
+        {
+          "question": "Czy znajdę puste etui od AirPods?",
+          "answer": "Puste etui starszych modeli nie ma aktywnego nadajnika, więc skaner go nie wykryje. Pomaga ostatnia lokalizacja z aplikacji Znajdź i systematyczne szukanie."
+        },
+        {
+          "question": "Czy można kupić samo etui od AirPods?",
+          "answer": "Tak, Apple oferuje odpłatną wymianę zgubionego etui ładującego dla większości modeli AirPods."
+        }
+      ],
+      "cta_title": "Słuchawki obok etui? Znajdziesz je",
+      "cta_text": "Zeskanuj okolicę – jeśli AirPods nadają, doprowadzą cię do etui. Za darmo, bez konfiguracji.",
+      "related": [
+        {
+          "url": "/pl/poradniki/jak-znalezc-zgubione-airpods/",
+          "title": "Zgubione AirPods? Jak je znaleźć"
+        },
+        {
+          "url": "/pl/poradniki/rozladowane-airpods-jak-znalezc/",
+          "title": "Rozładowane lub wyłączone AirPods"
+        },
+        {
+          "url": "/pl/poradniki/zgubiona-jedna-sluchawka-airpods/",
+          "title": "Zgubiona jedna słuchawka AirPods"
+        }
+      ]
+    }
+  ]
+}

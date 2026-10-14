@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { SITE_URL, URLS, ADDITIONAL_URLS, GUIDE_URLS } = require('./constants');
+const { SITE_URL, URLS, ADDITIONAL_URLS, GUIDE_GROUPS, GUIDE_LOCALES } = require('./constants');
 const BUILD_DATE_ISO = new Date().toISOString().slice(0, 10);
 
 (function main() {
@@ -32,13 +32,24 @@ const BUILD_DATE_ISO = new Date().toISOString().slice(0, 10);
     lines.push('');
   }
 
-  for (const loc of GUIDE_URLS) {
-    lines.push('  <url>');
-    lines.push(`    <loc>${loc}</loc>`);
-    lines.push(`    <lastmod>${BUILD_DATE_ISO}</lastmod>`);
-    lines.push('    <priority>0.8</priority>');
-    lines.push('  </url>');
-    lines.push('');
+  // Guide pages: every locale version, each listing all its hreflang alternates.
+  for (const group of GUIDE_GROUPS) {
+    for (const loc of Object.values(group)) {
+      lines.push('  <url>');
+      lines.push(`    <loc>${loc}</loc>`);
+      lines.push(`    <lastmod>${BUILD_DATE_ISO}</lastmod>`);
+      for (const { code, hreflang } of GUIDE_LOCALES) {
+        if (group[code]) {
+          lines.push(`    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${group[code]}" />`);
+        }
+      }
+      if (group.en) {
+        lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${group.en}" />`);
+      }
+      lines.push('    <priority>0.8</priority>');
+      lines.push('  </url>');
+      lines.push('');
+    }
   }
 
   for (const loc of ADDITIONAL_URLS) {

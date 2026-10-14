@@ -1,0 +1,883 @@
+{
+  "shared": {
+    "lang": "nl",
+    "og_locale": "nl_NL",
+    "date_locale": "nl-NL",
+    "home_url": "/nl/",
+    "guides_url": "/nl/gidsen/",
+    "guides_path": "nl/gidsen",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Apparaat Zoeker",
+    "labels": {
+      "home": "Home",
+      "guides": "Gidsen",
+      "logo_alt": "App-icoon van Bluetooth Apparaat Zoeker",
+      "nav_cta": "Download de app",
+      "quick_answer": "Kort antwoord",
+      "tips_title": "Tips voor een grotere kans",
+      "faq_title": "Veelgestelde vragen",
+      "related_title": "Gerelateerde gidsen",
+      "read_label": "Lees de gids →",
+      "updated": "Laatst bijgewerkt",
+      "cta_button": "Download in de App Store",
+      "cta_aria": "Download Bluetooth Apparaat Zoeker in de App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Alle rechten voorbehouden.",
+      "privacy_link": "Privacyverklaring",
+      "terms_link": "Gebruiksvoorwaarden"
+    },
+    "hub": {
+      "h1": "Gidsen: verloren apparaten terugvinden",
+      "meta_title": "Gidsen: verloren bluetooth-apparaten terugvinden – AirPods & oortjes",
+      "meta_description": "Stap-voor-stapgidsen om verloren AirPods, bluetooth-oortjes, koptelefoons, smartwatches en speakers terug te vinden met je iPhone – ook apparaten die niet in Zoek mijn staan.",
+      "intro_label": "Wat je hier vindt",
+      "intro": "Praktische, eerlijke gidsen voor elke situatie: AirPods met of zonder Zoek mijn, één los oortje, koptelefoons van Sony, Bose en JBL, smartwatches, speakers en lege batterijen. Elke gids legt uit wat echt werkt en laat zien hoe je je apparaat opspoort met de app Bluetooth Apparaat Zoeker op je iPhone.",
+      "cta_title": "Eén app voor alle gidsen op deze pagina",
+      "cta_text": "Bluetooth Apparaat Zoeker scant bluetooth-signalen in de buurt en brengt je met de warm-koudindicator en het nabijheidspercentage naar elk ingeschakeld apparaat. Gratis, 24,2 MB, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "airpods-kwijt-terugvinden",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "AirPods kwijt",
+      "meta_title": "AirPods kwijt? Zo vind je ze terug (met én zonder Zoek mijn)",
+      "meta_description": "AirPods kwijt? Bekijk de locatie in Zoek mijn en volg daarna het live bluetooth-signaal tot je ze kunt pakken – ook helemaal zonder Zoek mijn.",
+      "keywords": "airpods kwijt, airpods terugvinden, airpods zoeken, airpods opsporen, verloren airpods vinden, airpods kwijt in huis, airpods vinden met iphone",
+      "h1": "AirPods kwijt? Zo vind je ze snel terug",
+      "quick_answer": "Stond Zoek mijn aan, open dan eerst de Zoek mijn-app: die toont je AirPods op een kaart en kan een geluid afspelen, zolang ze buiten de case zijn en batterij hebben. Is Zoek mijn niet beschikbaar, toont het alleen een oude locatie of is het geluid te zacht, gebruik dan een bluetooth finder-app: ingeschakelde AirPods zenden een bluetooth-signaal uit, en als je de sterkte daarvan volgt, kom je precies bij ze uit.",
+      "sections": [
+        {
+          "title": "Begin met Zoek mijn – en ken de grenzen",
+          "paragraphs": [
+            "Voor AirPods die aan je iPhone gekoppeld zijn, is Zoek mijn van Apple de eerste stap: Zoek mijn → Apparaten → je AirPods, bekijk de kaart en tik op Speel geluid af als ze in de buurt zijn. AirPods Pro 2 en nieuwer bieden zelfs Nauwkeurig zoeken met een richtingspijl.",
+            "In drie veelvoorkomende situaties helpt Zoek mijn je niet verder. De locatie op de kaart is meestal alleen op gebouwniveau nauwkeurig – onder welk bankkussen, dat vertelt hij niet. Het geluid is zacht en werkt niet als de AirPods in de case liggen. En zijn de AirPods nooit in Zoek mijn gezet, horen ze bij een ander Apple Account (tweedehands gekocht) of staan ze op Offline, dan kan de app niets."
+          ]
+        },
+        {
+          "title": "Waarom het bluetooth-signaal vindt wat Zoek mijn mist",
+          "paragraphs": [
+            "Zolang AirPods buiten de case zijn en batterij hebben, zendt elk oortje bluetooth low energy-signalen uit. Binnenshuis reiken die zo’n 10–30 meter, en de sterkte neemt duidelijk toe naarmate je dichterbij komt.",
+            "Een bluetooth finder-app leest dat signaal rechtstreeks – zonder Apple Account, zonder instellen en zonder Zoek mijn-netwerk. Daarom is het hét hulpmiddel voor de laatste 30 meter: Zoek mijn brengt je naar de goede kamer, het signaal naar het goede kussen."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je je AirPods met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Download en open de app",
+          "description": "Installeer Bluetooth Apparaat Zoeker uit de App Store (gratis, 24,2 MB, iOS 17.1+) en geef toegang tot bluetooth als de app daarom vraagt."
+        },
+        {
+          "title": "Scan apparaten in de buurt",
+          "description": "Start een scan. Alle ingeschakelde bluetooth-apparaten binnen bereik verschijnen met hun live signaalsterkte in een lijst – zoek je AirPods op naam."
+        },
+        {
+          "title": "Kies je AirPods",
+          "description": "Tik op je AirPods in de lijst. Staat er geen naam bij, kijk dan in de apparaatgegevens of Apple als fabrikant wordt getoond."
+        },
+        {
+          "title": "Loop rustig door de ruimte",
+          "description": "Loop door de kamers waar je ze het laatst had. De indicator gaat van Koud via Warm naar Heet naarmate het signaal sterker wordt."
+        },
+        {
+          "title": "Pak ze bij Extra heet",
+          "description": "Toont de app Extra heet en ligt het nabijheidspercentage boven de 90 %, dan liggen je AirPods binnen handbereik: kijk onder kussens, in zakken, tassen en onder meubels."
+        }
+      ],
+      "tips": [
+        "Zoek kamer voor kamer, onthoud het hoogste percentage per kamer en concentreer je op de beste.",
+        "Houd je iPhone op verschillende hoogtes: het signaal is het sterkst als er niets tussen jou en het apparaat zit.",
+        "In een gesloten case slapen AirPods. Denk je dat ze in de case zitten, kijk dan naar de laatst bekende locatie in Zoek mijn.",
+        "Zoek zo snel mogelijk: een AirPod buiten de case zendt uit tot de batterij leeg is."
+      ],
+      "faq": [
+        {
+          "question": "Kan ik verloren AirPods vinden zonder de Zoek mijn-app?",
+          "answer": "Ja, zolang ze buiten de case zijn en batterij hebben. AirPods zenden bluetooth-signalen uit waarvan een finder-app de sterkte kan volgen – zonder Zoek mijn-instellingen en zonder iCloud-account."
+        },
+        {
+          "question": "Vanaf welke afstand zie je verloren AirPods?",
+          "answer": "Het bluetooth-bereik is binnenshuis meestal 10–30 meter, afhankelijk van muren en storing. Buiten zonder obstakels kan het verder zijn. Zie je niets, ga dan naar de volgende kamer en scan opnieuw."
+        },
+        {
+          "question": "Moeten de AirPods batterij hebben om ze te vinden?",
+          "answer": "Ja. Een helemaal lege AirPod zendt niets meer uit, en geen enkele app – ook Zoek mijn niet – kan hem live zien. Kan de batterij leeg zijn, zoek dan rond de laatst bekende locatie in Zoek mijn en scan tussendoor opnieuw."
+        }
+      ],
+      "cta_title": "Je AirPods liggen waarschijnlijk nu binnen bereik",
+      "cta_text": "Scan ze en volg de warm-koudindicator tot je ze voor je ziet. Gratis, zonder instellen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/airpods-vinden-zonder-zoek-mijn/",
+          "title": "AirPods vinden zonder Zoek mijn"
+        },
+        {
+          "url": "/nl/gidsen/een-airpod-kwijt/",
+          "title": "Eén AirPod kwijt"
+        },
+        {
+          "url": "/nl/gidsen/lege-airpods-vinden/",
+          "title": "Lege of uitgeschakelde AirPods vinden"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-vinden-zonder-zoek-mijn",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "AirPods zonder Zoek mijn",
+      "meta_title": "AirPods vinden zonder Zoek mijn of iCloud – zo werkt het",
+      "meta_description": "Zoek mijn nooit aangezet, tweedehands AirPods of geen toegang tot iCloud? Zo spoor je AirPods toch op via hun bluetooth-signaal, met je iPhone.",
+      "keywords": "airpods zoeken zonder zoek mijn, airpods vinden zonder zoek mijn, airpods vinden zonder icloud, tweedehands airpods vinden, airpods offline vinden, airpods zonder apple account vinden",
+      "h1": "AirPods vinden zonder Zoek mijn: zo gaat het",
+      "quick_answer": "Je kunt verloren AirPods zonder Zoek mijn vinden door hun bluetooth-signaal te volgen. Zolang ze buiten de case zijn en batterij hebben, zenden ze bluetooth low energy-signalen uit met een bereik van zo’n 10–30 meter binnenshuis. Een bluetooth finder-app op je iPhone leest de live signaalsterkte en brengt je naar de oortjes – zonder iCloud, zonder Apple Account en zonder dat Zoek mijn ooit is ingesteld.",
+      "sections": [
+        {
+          "title": "Waarom Zoek mijn vaak geen optie is",
+          "paragraphs": [
+            "Zoek mijn werkt alleen met AirPods die vóór het kwijtraken aan je Apple Account gekoppeld waren. Daardoor staan veel mensen zonder officiële oplossing:"
+          ],
+          "list": [
+            "Zoek mijn is nooit aangezet of de AirPods zijn opnieuw ingesteld",
+            "De AirPods zijn tweedehands en nog gekoppeld aan het Apple Account van de vorige eigenaar",
+            "Je bent uitgelogd bij iCloud of kunt niet bij je account",
+            "De AirPods staan in Zoek mijn op Offline of Geen locatie gevonden",
+            "Je zoekt AirPods die met een Android-telefoon of een computer gekoppeld zijn"
+          ]
+        },
+        {
+          "title": "Het signaal is er nog – je hebt alleen een ontvanger nodig",
+          "paragraphs": [
+            "Geen van deze situaties houdt AirPods tegen om uit te zenden. Het bluetooth-signaal maakt AirPods vindbaar, en het is niet afhankelijk van het netwerk van Apple. Zolang een oortje buiten de case is en batterij heeft, meldt het zich meerdere keren per seconde.",
+            "Een bluetooth finder-app maakt van je iPhone de ontvanger van die meldingen. De signaalsterkte (RSSI) stijgt betrouwbaar naarmate je dichterbij komt – de app vertelt je dus met warm en koud of elke stap je dichterbij brengt of niet."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je AirPods zonder Zoek mijn",
+      "steps": [
+        {
+          "title": "Installeer Bluetooth Apparaat Zoeker",
+          "description": "Gratis in de App Store, 24,2 MB, iOS 17.1+. Geen account, geen inloggen – de app werkt alleen met de live bluetooth-scan."
+        },
+        {
+          "title": "Scan waar je ze het laatst had",
+          "description": "Begin in de meest waarschijnlijke kamer. De scan toont alle ingeschakelde bluetooth-apparaten binnen bereik met hun signaalsterkte."
+        },
+        {
+          "title": "Herken je AirPods in de lijst",
+          "description": "Let op de naam of op Apple als fabrikant in de apparaatgegevens. Apple-apparaten zonder naam met een stabiel signaal zijn goede kandidaten."
+        },
+        {
+          "title": "Volg de warm-koudindicator",
+          "description": "Kies het apparaat en loop langzaam rond. Koud betekent: ergens anders zoeken; Heet betekent: je komt dichterbij; het percentage bevestigt de richting."
+        },
+        {
+          "title": "Doorzoek de hete plek",
+          "description": "Bij Extra heet / boven de 90 % blijf je staan en zoek je binnen een meter: onder kussens, in jaszakken, tussen autostoelen, in tassen."
+        }
+      ],
+      "tips": [
+        "Zet muziek of andere bluetooth-apparaten in de buurt even uit, zodat de lijst overzichtelijker wordt.",
+        "Tweedehands AirPods gekocht? Je kunt ze fysiek terugvinden, maar voor Zoek mijn moet de vorige eigenaar ze eerst uit zijn account verwijderen.",
+        "Werkt de scan, overweeg dan om Zoek mijn alsnog aan te zetten voor de volgende keer."
+      ],
+      "faq": [
+        {
+          "question": "Kan ik AirPods vinden die aan het Apple Account van iemand anders gekoppeld zijn?",
+          "answer": "Ja. Zoeken via bluetooth komt niet aan het Apple Account: de app leest de openbare bluetooth-meldingen die AirPods uitzenden als ze aan staan. Zo vind je ook tweedehands gekochte AirPods fysiek terug."
+        },
+        {
+          "question": "Heb ik een internetverbinding nodig?",
+          "answer": "Nee. De bluetooth-scan draait volledig op je iPhone – ook in de kelder, de parkeergarage of overal zonder bereik."
+        },
+        {
+          "question": "Werkt het als de AirPods in de case zitten?",
+          "answer": "Niet betrouwbaar. In een gesloten case gaan AirPods in slaapstand en zenden ze niet meer uit. Is de hele case weg, lees dan onze gids over de AirPods-case."
+        }
+      ],
+      "cta_title": "Geen Zoek mijn? Dan nog steeds een signaal",
+      "cta_text": "Bluetooth Apparaat Zoeker leest het signaal van je AirPods rechtstreeks. Geen account, geen instellingen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/airpods-kwijt-terugvinden/",
+          "title": "AirPods kwijt? Zo vind je ze terug"
+        },
+        {
+          "url": "/nl/gidsen/airpods-case-kwijt/",
+          "title": "AirPods-case kwijt"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-oortjes-kwijt/",
+          "title": "Bluetooth-oortjes kwijt"
+        }
+      ]
+    },
+    {
+      "slug": "een-airpod-kwijt",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "Eén AirPod kwijt",
+      "meta_title": "Eén AirPod kwijt? Zo vind je je linker of rechter oortje",
+      "meta_description": "Eén AirPod kwijt? Elk oortje zendt zijn eigen bluetooth-signaal uit. Zo spoor je je linker of rechter AirPod op met je iPhone – stap voor stap.",
+      "keywords": "één airpod kwijt, een airpod kwijt, airpod oortje kwijt, linker airpod kwijt, rechter airpod kwijt, losse airpod vinden, airpod pro oortje kwijt",
+      "h1": "Eén AirPod kwijt? Zo vind je het losse oortje terug",
+      "quick_answer": "Een losse AirPod vind je het snelst door zijn eigen bluetooth-signaal te volgen. Leg het oortje dat je nog hebt in de case en sluit het deksel, zodat alleen het verloren oortje uitzendt. Scan dan met een bluetooth finder-app en volg de warm-koudindicator: buiten de case en met batterij zendt elke AirPod los uit, ook als de andere al in de case zit. In Zoek mijn kun je bovendien een geluid afspelen op alleen de linker of rechter AirPod.",
+      "sections": [
+        {
+          "title": "Waarom één oortje lastiger is",
+          "paragraphs": [
+            "Een losse AirPod is klein, wit en stil. Hij rolt onder de bank, verdwijnt in een capuchon of glijdt tussen de autostoelen. Het geluid van Zoek mijn is bij één oortje nog zachter, en op de kaart zie je vaak alleen dat het ‘ergens bij je huis’ ligt.",
+            "Het goede nieuws: elke AirPod heeft een eigen bluetooth-chip en zendt zelfstandig uit. Ook als je het andere oortje nog hebt, is het verloren exemplaar gewoon in de lucht – zolang het batterij heeft."
+          ]
+        },
+        {
+          "title": "De truc: zet het andere oortje stil",
+          "paragraphs": [
+            "Leg de AirPod die je nog hebt in de case en sluit het deksel. Dan zendt alleen nog het verloren oortje uit, en alles wat de app als je AirPods ziet, komt van het oortje dat je zoekt.",
+            "Werk daarna rustig: één kamer tegelijk, iPhone laag bij de grond in de buurt van banken, bedden en tassen. Een AirPod op de vloer geeft een duidelijk sterker signaal als je iPhone ook laag is."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je één AirPod met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Leg het andere oortje in de case",
+          "description": "Sluit het deksel, zodat alleen de verloren AirPod nog uitzendt."
+        },
+        {
+          "title": "Start een scan",
+          "description": "Open Bluetooth Apparaat Zoeker en start een scan. Zoek je AirPods in de lijst, of een Apple-apparaat met een duidelijk signaal."
+        },
+        {
+          "title": "Kies het apparaat",
+          "description": "Tik erop om het nabijheidspercentage en de warm-koudindicator te openen."
+        },
+        {
+          "title": "Loop laag en langzaam",
+          "description": "Houd je iPhone laag bij banken, bedden en de vloer. Het signaal van een AirPod op de grond wordt veel sterker als je iPhone dichtbij komt."
+        },
+        {
+          "title": "Zoek binnen een meter",
+          "description": "Bij Extra heet en meer dan 90 % ligt het oortje binnen handbereik: in kussens, kieren, zakken of tussen de autostoelen."
+        }
+      ],
+      "tips": [
+        "Gebruik in Zoek mijn Speel geluid af en zet dan alleen de linker of rechter AirPod aan – dat is in een stille kamer soms net genoeg.",
+        "Kijk ook in je capuchon, je kraag en je jaszak: een AirPod valt vaak bij het uittrekken van een jas.",
+        "Vind je het oortje niet, dan kun je bij Apple een losse vervangende AirPod kopen."
+      ],
+      "faq": [
+        {
+          "question": "Zendt een losse AirPod uit als de andere in de case zit?",
+          "answer": "Ja. Elke AirPod zendt zelfstandig uit zolang hij buiten de case is en batterij heeft. Zit het andere oortje in de gesloten case, dan komt het signaal dat je ziet alleen van het verloren oortje."
+        },
+        {
+          "question": "Kan ik in Zoek mijn alleen de linker of rechter AirPod laten piepen?",
+          "answer": "Ja. Bij Speel geluid af kun je één kant dempen, zodat alleen de verloren AirPod geluid maakt. Het geluid is wel zacht en werkt niet als de batterij leeg is."
+        },
+        {
+          "question": "Hoe lang blijft een losse AirPod uitzenden?",
+          "answer": "Buiten de case houdt een AirPod het in rust doorgaans een paar uur vol, afhankelijk van model en batterijconditie. Zoek dus zo snel mogelijk."
+        }
+      ],
+      "cta_title": "Je oortje zendt nog uit. Volg het signaal.",
+      "cta_text": "Scan, kies je AirPod en volg de warm-koudindicator tot hij binnen handbereik ligt. Gratis, zonder instellen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/airpods-kwijt-terugvinden/",
+          "title": "AirPods kwijt? Zo vind je ze terug"
+        },
+        {
+          "url": "/nl/gidsen/airpods-case-kwijt/",
+          "title": "AirPods-case kwijt"
+        },
+        {
+          "url": "/nl/gidsen/lege-airpods-vinden/",
+          "title": "Lege of uitgeschakelde AirPods vinden"
+        }
+      ]
+    },
+    {
+      "slug": "lege-airpods-vinden",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "Lege AirPods vinden",
+      "meta_title": "Lege of uitgeschakelde AirPods vinden: wat werkt nog?",
+      "meta_description": "AirPods of oortjes kwijt met een lege batterij? Eerlijk antwoord: live opsporen kan niet. Dit helpt wél – laatste locatie, opnieuw scannen en slim zoeken.",
+      "keywords": "lege airpods vinden, airpods kwijt batterij leeg, airpods offline vinden, uitgeschakelde oortjes vinden, uitgeschakelde koptelefoon vinden, uitgeschakeld bluetooth apparaat vinden",
+      "h1": "Lege of uitgeschakelde AirPods en oortjes vinden",
+      "quick_answer": "Uitgeschakelde oortjes of AirPods met een helemaal lege batterij kun je niet live opsporen: ze zenden geen bluetooth meer uit, dus geen enkele app – ook Zoek mijn niet – kan ze zien. Wat wel helpt: de laatst bekende locatie in Zoek mijn of de app van de fabrikant bekijken en daar zoeken; regelmatig opnieuw scannen met een bluetooth-finder, omdat apparaten met een restje batterij even wakker worden; en de bekende verstopplekken systematisch doorzoeken. Deze gids legt alle drie uit.",
+      "sections": [
+        {
+          "title": "De eerlijke natuurkunde van een uitgeschakeld apparaat",
+          "paragraphs": [
+            "Elke zoekmethode – Zoek mijn, Nauwkeurig zoeken, geluid afspelen, bluetooth-scan – gaat ervan uit dat het apparaat een radiosignaal uitzendt. Geen stroom, geen signaal; geen signaal, niets te zien. Elke app die belooft een helemaal lege AirPod live te vinden, belooft te veel.",
+            "Zoeken is daarom niet zinloos. De strategie verandert alleen: van het signaal volgen naar het zoekgebied verkleinen – en het signaal meteen oppikken zodra het terugkomt."
+          ]
+        },
+        {
+          "title": "Leeg, uit of alleen buiten bereik?",
+          "paragraphs": [
+            "Controleer eerst of de batterij echt het probleem is. Lege AirPods geven duidelijke signalen: Zoek mijn toont Offline of Geen locatie gevonden met een oudere tijd, Speel geluid af lukt niet, ze ontbreken in de bluetooth-lijst en in de batterijwidget van je iPhone, en een bluetooth-scan vindt ze niet.",
+            "Toont Zoek mijn een live locatie of een recente tijd als ‘Nu’ of ‘2 minuten geleden’, dan is de batterij niet leeg: speel een geluid af en scan meteen. Ligt de laatste tijd uren terug, ga er dan van uit dat de batterij toen leeg raakte – die plek en tijd zijn je zoekgebied. Koptelefoons van Sony, Bose of JBL schakelen meestal na 5–30 minuten zonder muziek automatisch uit en liggen dan bijna altijd binnen een of twee kamers van waar je ze het laatst gebruikte."
+          ]
+        },
+        {
+          "title": "Drie dingen die echt werken",
+          "paragraphs": [
+            "Eén: de laatst bekende locatie. Stond Zoek mijn aan, dan heeft het opgeslagen waar de AirPods het laatst verbonden waren; veel fabrikant-apps (Sony, Bose, JBL) slaan minstens het tijdstip van de laatste verbinding op. Die plek is je zoekgebied.",
+            "Twee: het restje batterij. ‘Lege’ batterijen herstellen na een pauze vaak een beetje, en AirPods die even in een opgeladen case komen, zenden weer uit. Het gebied om de paar uur scannen met een bluetooth-finder kost niets en werkt vaak.",
+            "Drie: de kans. Lege oortjes duiken steeds op dezelfde plekken op: in de was (check de trommel van de wasmachine!), in kieren van bank en auto, in jas- en tasvakken, onder het bed en in schoenen. Zoek daar eerst."
+          ]
+        }
+      ],
+      "steps_title": "Zo zoek je lege of uitgeschakelde oortjes met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Noteer de laatste locatie",
+          "description": "Open Zoek mijn → Apparaten → je AirPods (of de app van je koptelefoon). Noteer tijd en plek van de laatste verbinding, ook als er Offline staat."
+        },
+        {
+          "title": "Scan daar met de app",
+          "description": "Start op de laatst bekende plek een bluetooth-scan. Heeft het apparaat nog wat batterij en staat het aan, dan verschijnt het in de lijst – volg meteen de warm-koudindicator."
+        },
+        {
+          "title": "Zoek systematisch",
+          "description": "Geen signaal? Check de meest waarschijnlijke plekken: kussens, tassen, de was, onder meubels, de rails van autostoelen en tasvoering."
+        },
+        {
+          "title": "Scan regelmatig opnieuw",
+          "description": "Herhaal de scan een paar dagen ’s ochtends en ’s avonds. Een kort batterijherstel of iemand die de oortjes verplaatst of aanzet, brengt het signaal terug."
+        },
+        {
+          "title": "Wees voorbereid op de volgende keer",
+          "description": "Houd een bluetooth-finder geïnstalleerd en zet in Zoek mijn meldingen bij achterlaten aan. Apparaten die nog uitzenden, vind je in minuten in plaats van dagen."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Toont Zoek mijn mijn AirPods als de batterij leeg is?",
+          "answer": "Het toont waar ze het laatst verbonden waren, met tijd – niet waar ze nu zijn. Lege AirPods kunnen geen geluid afspelen en hun locatie niet bijwerken. Zoek dus rond de laatst bekende locatie en scan opnieuw met een bluetooth-finder voor het geval ze wakker worden."
+        },
+        {
+          "question": "Kun je een uitgeschakeld bluetooth-apparaat opsporen?",
+          "answer": "Niet live. Een uitgeschakeld apparaat zendt geen signaal uit, dus live opsporen is voor elke app natuurkundig onmogelijk. Wat wel kan: de laatst bekende locatie, en opnieuw scannen zodra het apparaat weer aangaat – bijvoorbeeld als iemand het vindt of het aan een oplader komt."
+        },
+        {
+          "question": "Hoe lang gaat de batterij van verloren AirPods mee?",
+          "answer": "Een oortje buiten de case houdt het in rust, afhankelijk van model en batterijconditie, zo’n 5–7 uur. In een opgeladen case blijven ze wekenlang geladen – maar een gesloten case zendt niet uit, dus zoek die via de locatie, niet via het signaal."
+        },
+        {
+          "question": "Heeft scannen nog zin als het apparaat al dagen uit staat?",
+          "answer": "Ja, af en toe. Komen de oortjes terug in een opgeladen case, zet iemand de koptelefoon aan of maakt de restspanning een apparaat even wakker, dan ziet de scan het. 30 seconden scannen kost niets."
+        }
+      ],
+      "cta_title": "Klaar voor het moment dat het signaal terugkomt",
+      "cta_text": "Installeer Bluetooth Apparaat Zoeker nu, zodat je het apparaat ziet zodra het weer uitzendt. Gratis, zonder instellen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/airpods-kwijt-terugvinden/",
+          "title": "AirPods kwijt? Zo vind je ze terug"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-koptelefoon-kwijt/",
+          "title": "Bluetooth-koptelefoon kwijt"
+        },
+        {
+          "url": "/nl/gidsen/airpods-case-kwijt/",
+          "title": "AirPods-case kwijt"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-koptelefoon-kwijt",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Bluetooth-koptelefoon kwijt",
+      "meta_title": "Koptelefoon kwijt? Sony, Bose of JBL opsporen via bluetooth",
+      "meta_description": "Bluetooth-koptelefoon kwijt? Sony, Bose, JBL en Beats staan meestal niet in Zoek mijn. Zo spoor je je koptelefoon op via zijn signaalsterkte met je iPhone.",
+      "keywords": "bluetooth koptelefoon kwijt, koptelefoon kwijt, koptelefoon opsporen, bluetooth koptelefoon terugvinden, sony koptelefoon kwijt, bose koptelefoon kwijt, jbl koptelefoon kwijt, hoofdtelefoon kwijt",
+      "h1": "Bluetooth-koptelefoon kwijt? Zo vind je hem terug",
+      "quick_answer": "Een ingeschakelde bluetooth-koptelefoon kun je opsporen door zijn signaal te volgen. Elke koptelefoon – Sony, Bose, JBL, Beats, Sennheiser – zendt bluetooth uit zolang hij aan staat, ook als hij niet met je telefoon verbonden is. Een bluetooth finder-app op je iPhone toont dat signaal met zijn sterkte en brengt je met warm en koud naar de koptelefoon. Staat hij uit, kijk dan eerst in de app van de fabrikant naar de laatste verbinding.",
+      "sections": [
+        {
+          "title": "Waarom de meeste koptelefoons niet in Zoek mijn staan",
+          "paragraphs": [
+            "Zoek mijn is gemaakt voor Apple-apparaten en een kleine groep gecertificeerde accessoires. Je Sony WH-1000XM, Bose QuietComfort of JBL Tune staat er meestal niet in. De apps van de fabrikanten tonen soms de laatste verbindingsplek, maar geen live begeleiding naar de koptelefoon.",
+            "Daardoor heb je bij een kwijte koptelefoon vaak alleen je geheugen. Maar zolang de koptelefoon aan staat, zendt hij een bluetooth-signaal uit dat je wél kunt volgen – onafhankelijk van merk of account."
+          ]
+        },
+        {
+          "title": "Let op automatisch uitschakelen",
+          "paragraphs": [
+            "Veel koptelefoons schakelen na 5–30 minuten zonder geluid automatisch uit om batterij te sparen. Ben je hem net kwijt, zoek dan meteen: de kans dat hij nog uitzendt is het grootst in het eerste halfuur.",
+            "Is hij al uit, dan ligt een koptelefoon bijna altijd binnen een of twee kamers van waar je hem het laatst gebruikte. Zoek daar, en scan opnieuw zodra iemand hem misschien heeft aangezet of opgeladen."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je je koptelefoon met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Open de app en scan",
+          "description": "Start een scan in Bluetooth Apparaat Zoeker. Ingeschakelde koptelefoons binnen bereik verschijnen met hun naam en signaalsterkte."
+        },
+        {
+          "title": "Herken je koptelefoon",
+          "description": "Zoek op naam (bijv. WH-1000XM5, QC Ultra, Tune 770NC) of op de fabrikant in de apparaatgegevens."
+        },
+        {
+          "title": "Volg de warm-koudindicator",
+          "description": "Kies je koptelefoon en loop rond. De indicator wordt warmer en het nabijheidspercentage stijgt naarmate je dichterbij komt."
+        },
+        {
+          "title": "Wissel van kamer als het koud blijft",
+          "description": "Blijft het percentage laag, loop dan naar de volgende kamer en scan opnieuw. Muren dempen het signaal flink."
+        },
+        {
+          "title": "Zoek rond de hete plek",
+          "description": "Bij Extra heet ligt de koptelefoon binnen een paar meter: op kasten, achter de bank, in een tas of onder jassen."
+        }
+      ],
+      "tips": [
+        "Zet je koptelefoon los van je telefoon als je weet dat hij verbonden is: sommige modellen zenden dan duidelijker uit.",
+        "Bekijk in de app van de fabrikant (Sony | Sound Connect, Bose, JBL Headphones) het tijdstip van de laatste verbinding.",
+        "Probeer muziek naar de koptelefoon te sturen: is hij verbonden, dan hoor je misschien zacht geluid."
+      ],
+      "faq": [
+        {
+          "question": "Kan ik een koptelefoon vinden die niet met mijn iPhone gekoppeld is?",
+          "answer": "Ja. De app leest het bluetooth-signaal dat de koptelefoon uitzendt als hij aan staat – koppelen is niet nodig. Zo vind je ook de koptelefoon van je kind of partner."
+        },
+        {
+          "question": "Werkt dit met Sony, Bose, JBL en Beats?",
+          "answer": "Ja. Elke bluetooth-koptelefoon die aan staat, verschijnt in de scan, ongeacht het merk. Beats-koptelefoons kun je daarnaast vaak ook in Zoek mijn vinden."
+        },
+        {
+          "question": "Kan ik een koptelefoon op de kaart zien?",
+          "answer": "Niet met bluetooth alleen: dat geeft afstand, geen gps-positie. Een kaart is alleen mogelijk bij modellen met Zoek mijn of een locatiefunctie van de fabrikant. Voor de laatste meters is signaalsterkte juist het handigst."
+        }
+      ],
+      "cta_title": "Je koptelefoon zendt nog uit. Ga erachteraan.",
+      "cta_text": "Scan, kies je koptelefoon en volg de warm-koudindicator. Werkt met elk merk, gratis.",
+      "related": [
+        {
+          "url": "/nl/gidsen/bluetooth-oortjes-kwijt/",
+          "title": "Bluetooth-oortjes kwijt"
+        },
+        {
+          "url": "/nl/gidsen/lege-airpods-vinden/",
+          "title": "Lege of uitgeschakelde AirPods vinden"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-apparaten-in-de-buurt-zoeken/",
+          "title": "Bluetooth-apparaten in de buurt zoeken"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-oortjes-kwijt",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Bluetooth-oortjes kwijt",
+      "meta_title": "Bluetooth-oortjes kwijt? Oordopjes terugvinden met je iPhone",
+      "meta_description": "Bluetooth-oortjes of draadloze oordopjes kwijt? Galaxy Buds, JBL, Jabra, Xiaomi: zo vind je ze terug via hun signaal, zolang ze aan staan.",
+      "keywords": "bluetooth oortjes kwijt, bluetooth oordopjes terugvinden, kan ik mijn verloren bluetooth oordopjes terugvinden, draadloze oortjes kwijt, oordopjes kwijt, galaxy buds kwijt, earbuds kwijt",
+      "h1": "Bluetooth-oortjes kwijt? Zo vind je je oordopjes terug",
+      "quick_answer": "Ja, je kunt verloren bluetooth-oordopjes terugvinden zolang ze aan staan en batterij hebben. Draadloze oortjes van elk merk – Galaxy Buds, JBL, Jabra, Sony, Xiaomi, Soundcore – zenden buiten hun case bluetooth uit. Een bluetooth finder-app op je iPhone ziet dat signaal en brengt je met de warm-koudindicator en het nabijheidspercentage tot binnen handbereik. Zitten ze in een gesloten case, dan zenden de meeste niet uit.",
+      "sections": [
+        {
+          "title": "Eén methode voor elk merk",
+          "paragraphs": [
+            "Samsung heeft SmartThings Find, Apple heeft Zoek mijn, en de meeste andere merken hebben niets. Bovendien werkt SmartThings Find niet vanaf een iPhone. Heb je Galaxy Buds en een iPhone, of oortjes van een merk zonder zoekfunctie, dan sta je er zonder officiële hulp voor.",
+            "Bluetooth is wel overal hetzelfde. Ingeschakelde oortjes melden zich voortdurend bij apparaten in de buurt, en die meldingen kan een finder-app lezen – met signaalsterkte, en vaak met naam en fabrikant."
+          ]
+        },
+        {
+          "title": "Waar oortjes meestal liggen",
+          "paragraphs": [
+            "Oortjes zijn klein en vallen geruisloos. De meeste worden teruggevonden op een paar vaste plekken:"
+          ],
+          "list": [
+            "Tussen of onder de kussens van de bank",
+            "In jaszakken, capuchons en tassen",
+            "Tussen of onder de autostoelen",
+            "In het bed, tussen dekbed en matras",
+            "In de sporttas of kleedkamer van de sportschool"
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je je oortjes met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Scan apparaten in de buurt",
+          "description": "Open Bluetooth Apparaat Zoeker en start een scan. Je oortjes verschijnen met naam of fabrikant en hun signaalsterkte."
+        },
+        {
+          "title": "Kies je oortjes",
+          "description": "Tik op je oortjes. Twee items met dezelfde naam zijn vaak het linker en rechter oortje – kies het oortje dat je mist."
+        },
+        {
+          "title": "Loop warmer",
+          "description": "Loop langzaam rond en volg de indicator van Koud naar Heet. Het nabijheidspercentage laat zien of je dichterbij komt."
+        },
+        {
+          "title": "Ga laag bij Heet",
+          "description": "Oortjes liggen vaak laag. Houd je iPhone dicht bij de bank, het bed of de vloer zodra het warm wordt."
+        },
+        {
+          "title": "Pak ze bij Extra heet",
+          "description": "Bij Extra heet en meer dan 90 % liggen ze binnen een meter. Voel in kieren, zakken en tasvakken."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Werkt dit met Galaxy Buds op een iPhone?",
+          "answer": "Ja. Galaxy Buds zenden gewoon bluetooth uit als ze aan staan. Bluetooth Apparaat Zoeker ziet ze op je iPhone, ook al werkt SmartThings Find daar niet."
+        },
+        {
+          "question": "Zenden oortjes uit als ze in de case zitten?",
+          "answer": "Bij de meeste modellen niet als het deksel dicht is: dan schakelen ze uit of gaan ze laden. Ligt de case met deksel open, dan zijn ze vaak wel zichtbaar."
+        },
+        {
+          "question": "Hoe weet ik welk item in de lijst mijn oortjes zijn?",
+          "answer": "Kijk naar naam, fabrikant en model in de apparaatgegevens. Geen naam? Loop een paar meter: het item waarvan het signaal duidelijk verandert terwijl andere gelijk blijven, is meestal het apparaat dat je zoekt."
+        }
+      ],
+      "cta_title": "Je oortjes liggen waarschijnlijk dichterbij dan je denkt",
+      "cta_text": "Scan ze en volg de warm-koudindicator tot je ze vindt. Elk merk, gratis.",
+      "related": [
+        {
+          "url": "/nl/gidsen/een-airpod-kwijt/",
+          "title": "Eén AirPod kwijt"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-koptelefoon-kwijt/",
+          "title": "Bluetooth-koptelefoon kwijt"
+        },
+        {
+          "url": "/nl/gidsen/lege-airpods-vinden/",
+          "title": "Lege of uitgeschakelde AirPods vinden"
+        }
+      ]
+    },
+    {
+      "slug": "smartwatch-kwijt",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Smartwatch kwijt",
+      "meta_title": "Smartwatch of fitnesstracker kwijt? Zo vind je hem terug",
+      "meta_description": "Smartwatch, Fitbit, Garmin of Xiaomi Band kwijt? Ze zenden bijna continu bluetooth uit. Zo vind je je horloge in huis of in je sporttas met je iPhone.",
+      "keywords": "smartwatch kwijt, smartwatch terugvinden, fitnesstracker kwijt, fitbit kwijt, garmin kwijt, xiaomi band kwijt, horloge kwijt bluetooth, apple watch kwijt",
+      "h1": "Smartwatch of fitnesstracker kwijt? Zo vind je hem terug",
+      "quick_answer": "Smartwatches en fitnesstrackers zijn goed terug te vinden via bluetooth, omdat ze bijna continu uitzenden om met je telefoon te synchroniseren. Scan met een bluetooth finder-app, kies je horloge op naam of fabrikant (Fitbit, Garmin, Xiaomi, Samsung, Huawei) en volg de warm-koudindicator. Een Apple Watch zoek je eerst in Zoek mijn; een Fitbit of Garmin vind je met de app van de fabrikant hooguit op de laatste synchronisatieplek.",
+      "sections": [
+        {
+          "title": "Waarom horloges makkelijker te vinden zijn",
+          "paragraphs": [
+            "Een smartwatch of tracker moet steeds stappen, hartslag en meldingen uitwisselen met je telefoon. Daarom blijft de bluetooth-verbinding vrijwel altijd actief, ook als het scherm uit is. De batterij gaat bovendien dagen mee – je hebt dus meer tijd dan bij oortjes.",
+            "De apps van Fitbit, Garmin Connect en Zepp tonen soms wanneer het horloge het laatst synchroniseerde. Dat vertelt je in welke ruimte je moet beginnen. Daarna doet de signaalsterkte de rest."
+          ]
+        },
+        {
+          "title": "Verbonden horloges en de scan",
+          "paragraphs": [
+            "Een horloge dat actief met een andere telefoon verbonden is, zendt soms minder vaak uit. Lukt het niet om het in de lijst te zien, zet bluetooth op die andere telefoon dan even uit en scan opnieuw.",
+            "Liggen er meer horloges in huis, kijk dan naar het model in de apparaatgegevens – zo volg je zeker je eigen tracker."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je je smartwatch met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Check de laatste synchronisatie",
+          "description": "Kijk in de app van je horloge (Fitbit, Garmin Connect, Zepp, Galaxy Wearable) waar en wanneer het laatst gesynchroniseerd is."
+        },
+        {
+          "title": "Scan in die ruimte",
+          "description": "Open Bluetooth Apparaat Zoeker en start een scan. Je horloge verschijnt meestal met naam of fabrikant."
+        },
+        {
+          "title": "Kies het horloge",
+          "description": "Tik erop en controleer het model in de apparaatgegevens."
+        },
+        {
+          "title": "Volg het signaal",
+          "description": "Loop rond en volg de indicator van Koud naar Extra heet. Het nabijheidspercentage stijgt als je dichterbij komt."
+        },
+        {
+          "title": "Zoek de directe omgeving af",
+          "description": "Horloges liggen vaak in sporttassen, bij de wastafel, naast het bed of in jaszakken."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Werkt dit met Fitbit, Garmin en Xiaomi?",
+          "answer": "Ja. Alle trackers die bluetooth uitzenden, verschijnen in de scan zolang ze aan staan en binnen bereik zijn."
+        },
+        {
+          "question": "Kan ik een Apple Watch vinden?",
+          "answer": "Gebruik eerst Zoek mijn: daar kun je een geluid afspelen. Ligt hij in de buurt maar hoor je niets, dan kan de scan je helpen om de juiste kamer te vinden."
+        },
+        {
+          "question": "Wat als de batterij van mijn horloge leeg is?",
+          "answer": "Dan zendt het niet meer uit en kan geen app het live zien. Zoek op de plek van de laatste synchronisatie en scan opnieuw zodra het misschien weer aan staat."
+        }
+      ],
+      "cta_title": "Je horloge zendt de hele dag uit",
+      "cta_text": "Gebruik dat in je voordeel: scan en volg de warm-koudindicator. Gratis.",
+      "related": [
+        {
+          "url": "/nl/gidsen/bluetooth-apparaten-in-de-buurt-zoeken/",
+          "title": "Bluetooth-apparaten in de buurt zoeken"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-oortjes-kwijt/",
+          "title": "Bluetooth-oortjes kwijt"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-speaker-kwijt/",
+          "title": "Bluetooth-speaker kwijt"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-speaker-kwijt",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Bluetooth-speaker kwijt",
+      "meta_title": "Bluetooth-speaker kwijt? Zo spoor je je JBL-speaker op",
+      "meta_description": "JBL-speaker of andere bluetooth-speaker kwijt? Zolang hij aan staat, zendt hij een sterk signaal uit. Zo vind je hem terug met je iPhone.",
+      "keywords": "bluetooth speaker kwijt, jbl speaker kwijt, jbl speaker terugvinden, speaker opsporen, bluetooth box kwijt, jbl flip kwijt, bose speaker kwijt",
+      "h1": "Bluetooth-speaker kwijt? Zo vind je hem terug",
+      "quick_answer": "Een ingeschakelde bluetooth-speaker is een van de makkelijkste apparaten om op te sporen: speakers van JBL, Bose, Sony, Marshall of Anker hebben een sterke bluetooth-zender en verschijnen vaak vanuit het hele huis of de hele tuin in de scan. Kies je speaker in een bluetooth finder-app en volg de warm-koudindicator kamer voor kamer. Staat hij uit, dan kan geen app hem live zien – zoek dan waar je hem het laatst gebruikte.",
+      "sections": [
+        {
+          "title": "Kun je een JBL-speaker opsporen?",
+          "paragraphs": [
+            "Ja, zolang hij aan staat. JBL, Bose en de meeste andere merken hebben geen eigen zoekfunctie op een kaart, maar een ingeschakelde speaker zendt bluetooth uit, ook als hij niet met je telefoon verbonden is. Dat signaal kun je volgen.",
+            "Omdat een speaker een sterkere zender heeft dan oortjes, kan hij al op grotere afstand in de lijst staan. Dat is handig in een tuin, op de camping of in een groot huis: je weet meteen of hij binnen bereik is."
+          ]
+        },
+        {
+          "title": "Wanneer het lastig wordt",
+          "paragraphs": [
+            "Veel speakers schakelen na een tijd zonder geluid automatisch uit. Een uitgeschakelde speaker zendt niets uit. Probeer dan of iemand hem nog verbonden heeft, of zoek op de laatste plek waar muziek speelde.",
+            "Is hij nog verbonden met jouw telefoon, speel dan gewoon muziek af: vaak de snelste manier. Lukt dat niet, dan is de scan je volgende stap."
+          ]
+        }
+      ],
+      "steps_title": "Zo vind je je speaker met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Start een scan",
+          "description": "Open Bluetooth Apparaat Zoeker en scan. Speakers verschijnen vaak met een duidelijke naam, zoals JBL Flip 6 of Charge 5."
+        },
+        {
+          "title": "Kies je speaker",
+          "description": "Tik op je speaker om de warm-koudindicator en het nabijheidspercentage te openen."
+        },
+        {
+          "title": "Loop van kamer naar kamer",
+          "description": "Het signaal is sterk, dus het percentage verandert duidelijk per kamer. Ga naar waar het het hoogst is."
+        },
+        {
+          "title": "Volg tot Extra heet",
+          "description": "Loop langzaam verder tot de indicator Extra heet toont."
+        },
+        {
+          "title": "Kijk achter en onder",
+          "description": "Speakers liggen vaak achter de bank, onder kussens, in kasten of in een tas bij de deur."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan ik een JBL-speaker vinden die niet met mijn telefoon verbonden is?",
+          "answer": "Ja. Een ingeschakelde speaker zendt bluetooth uit, ook zonder verbinding. De scan toont hem met zijn naam en signaalsterkte."
+        },
+        {
+          "question": "Hoe ver kan ik een speaker zien?",
+          "answer": "Vaak verder dan oortjes: binnenshuis meestal door meerdere kamers, buiten soms tientallen meters, afhankelijk van model en obstakels."
+        },
+        {
+          "question": "Kan ik een uitgeschakelde speaker vinden?",
+          "answer": "Niet live. Zonder stroom geen signaal. Zoek waar hij het laatst speelde en scan opnieuw zodra iemand hem aanzet."
+        }
+      ],
+      "cta_title": "Een speaker die aan staat, vind je snel",
+      "cta_text": "Scan, kies je speaker en volg het signaal. Gratis, zonder instellen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/bluetooth-koptelefoon-kwijt/",
+          "title": "Bluetooth-koptelefoon kwijt"
+        },
+        {
+          "url": "/nl/gidsen/bluetooth-apparaten-in-de-buurt-zoeken/",
+          "title": "Bluetooth-apparaten in de buurt zoeken"
+        },
+        {
+          "url": "/nl/gidsen/smartwatch-kwijt/",
+          "title": "Smartwatch of fitnesstracker kwijt"
+        }
+      ]
+    },
+    {
+      "slug": "bluetooth-apparaten-in-de-buurt-zoeken",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Bluetooth-apparaten in de buurt",
+      "meta_title": "Bluetooth-apparaten in de buurt zoeken met je iPhone (scanner)",
+      "meta_description": "Bluetooth-apparaten zoeken op je iPhone: zie alle apparaten in de buurt met signaalsterkte, fabrikant en model – meer dan Instellingen je laat zien.",
+      "keywords": "bluetooth apparaten zoeken, bluetooth apparaat zoeken, bluetooth apparaten in de buurt, bluetooth scanner iphone, bluetooth scanner app, verborgen bluetooth apparaten vinden, bluetooth apparaten opsporen",
+      "h1": "Bluetooth-apparaten in de buurt zoeken met je iPhone",
+      "quick_answer": "In Instellingen → Bluetooth toont je iPhone alleen gekoppelde apparaten en apparaten in koppelmodus, niet het hele plaatje. Een bluetooth-scanner-app zoals Bluetooth Apparaat Zoeker toont alle apparaten die in de buurt uitzenden – met naam, fabrikant, model en live signaalsterkte. Zo vind je verloren apparaten terug, herken je onbekende apparaten en zie je wat er om je heen echt uitzendt.",
+      "sections": [
+        {
+          "title": "Wat je iPhone-instellingen je niet laten zien",
+          "paragraphs": [
+            "iOS houdt de bluetooth-lijst in Instellingen bewust kort: je gekoppelde apparaten en accessoires in koppelmodus. Om je heen zenden echter veel meer apparaten uit: oortjes in rust, smartwatches, tv’s, fitnesstrackers, speakers en apparaten van anderen. Niets daarvan zie je in Instellingen.",
+            "Een scanner-app luistert naar dezelfde bluetooth low energy-meldingen die je iPhone toch al ontvangt en toont ze allemaal: elk apparaat, de signaalsterkte en de herkenningsgegevens, als het apparaat die meestuurt."
+          ]
+        },
+        {
+          "title": "Wat je met een volledige scan kunt doen",
+          "paragraphs": [
+            "De scanlijst is in veel dagelijkse situaties handig:"
+          ],
+          "list": [
+            "Verloren apparaten vinden: je oortjes of horloge herkennen in de lijst en opsporen via de signaalsterkte",
+            "Onbekende apparaten herkennen: fabrikant en model verraden wat er achter een naamloos signaal zit",
+            "Een ruimte controleren: zien wat er uitzendt in een vakantiehuis, hotelkamer of vergaderruimte – ook verborgen bluetooth-apparaten",
+            "Bevestigen dat een apparaat aan staat: zendt het uit, dan is het aan en binnen bereik – dat verkleint elke zoektocht meteen",
+            "Het signaal volgen: stijgt de sterkte terwijl je loopt, dan kom je dichter bij de bron"
+          ]
+        }
+      ],
+      "steps_title": "Zo zoek je bluetooth-apparaten met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Open de app en scan",
+          "description": "Bluetooth Apparaat Zoeker begint meteen: alle apparaten die binnen bereik uitzenden, verschijnen in een live lijst."
+        },
+        {
+          "title": "Lees de signaalsterkte",
+          "description": "De sterkste signalen zijn fysiek het dichtstbij. Je eigen apparaten in je zak staan bovenaan, verre apparaten onderaan."
+        },
+        {
+          "title": "Bekijk de apparaatgegevens",
+          "description": "Tik op een item om naam, fabrikant en model te zien, als die beschikbaar zijn – meestal genoeg om precies te weten wat het is."
+        },
+        {
+          "title": "Spoor het apparaat op",
+          "description": "Kies een apparaat en gebruik de warm-koudindicator en het nabijheidspercentage om er recht naartoe te lopen."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Waarom toont mijn iPhone niet alle bluetooth-apparaten in Instellingen?",
+          "answer": "Dat is zo bedoeld: Instellingen toont alleen gekoppelde apparaten en accessoires in koppelmodus. Om alle signalen in de buurt te zien, heb je een scanner-app nodig die bluetooth low energy-meldingen rechtstreeks leest."
+        },
+        {
+          "question": "Ziet een bluetooth-scanner ook apparaten die niet in koppelmodus staan?",
+          "answer": "Ja, daar is hij juist voor. De meeste bluetooth-apparaten melden zich voortdurend als ze aan staan, niet alleen bij het koppelen. Een scanner toont die meldingen met signaalsterkte en apparaatgegevens."
+        },
+        {
+          "question": "Is scannen naar bluetooth-apparaten legaal en privé?",
+          "answer": "Ja. De scan ontvangt passief openbare meldingen die apparaten bewust voor iedereen uitzenden – dezelfde signalen die je telefoon toch al voortdurend verwerkt. De app maakt geen verbinding met andermans apparaten en verandert niets. De scan draait op je iPhone."
+        }
+      ],
+      "cta_title": "Zie wat er om je heen uitzendt",
+      "cta_text": "Scan alle bluetooth-apparaten in de buurt met signaalsterkte, fabrikant en model. Gratis, 24,2 MB.",
+      "related": [
+        {
+          "url": "/nl/gidsen/bluetooth-koptelefoon-kwijt/",
+          "title": "Bluetooth-koptelefoon kwijt"
+        },
+        {
+          "url": "/nl/gidsen/smartwatch-kwijt/",
+          "title": "Smartwatch of fitnesstracker kwijt"
+        },
+        {
+          "url": "/nl/gidsen/airpods-kwijt-terugvinden/",
+          "title": "AirPods kwijt? Zo vind je ze terug"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-case-kwijt",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "AirPods-case kwijt",
+      "meta_title": "AirPods-case kwijt? Zo vind je je oplaadcase terug",
+      "meta_description": "AirPods-case of hoesje kwijt? Eerlijk antwoord: wanneer je de oplaadcase kunt opsporen (Zoek mijn, deksel open) en wanneer niet – en wat je dan doet.",
+      "keywords": "airpods case kwijt, airpod case kwijt, airpods hoesje kwijt, airpods oplaadcase kwijt, airpods case terugvinden, airpods case zoeken, airpods case zonder oortjes vinden",
+      "h1": "AirPods-case kwijt? Zo vind je je oplaadcase terug",
+      "quick_answer": "Of je een verloren AirPods-case kunt opsporen, hangt af van het model. De case van de AirPods Pro 2 heeft een eigen speaker en is op te sporen in Zoek mijn – gebruik Zoek mijn en speel een geluid af. Standaardcases hebben geen zoekelektronica, en een gesloten case laat de AirPods erin slapen, dus er wordt niets uitgezonden. Je opties: momenten met het deksel open (dan zenden de AirPods kort uit), zoeken via de oortjes als die buiten de case zijn, en slim fysiek zoeken.",
+      "sections": [
+        {
+          "title": "Waarom de case het lastigste is om kwijt te raken",
+          "paragraphs": [
+            "De oplaadcase is eigenlijk een batterij met een deksel. Bij alle modellen behalve de case van de AirPods Pro 2 (en nieuwer) heeft hij geen speaker en geen eigen plek in Zoek mijn – Apple spoort de oortjes op, niet het doosje. Liggen de oortjes erin met het deksel dicht, dan gaan ze in slaapstand en zetten ze daarmee de enige zenders van de set stil.",
+            "Daarom is ‘case met AirPods erin kwijt’ het lastigste geval, en telt eerlijk advies: geen bluetooth-finder kan een volledig gesloten, slapende case zien. Je kunt wel de momenten benutten waarop de set wél uitzendt."
+          ]
+        },
+        {
+          "title": "Wanneer een verloren case WEL te vinden is",
+          "paragraphs": [
+            "Drie situaties brengen weer een signaal in de lucht:"
+          ],
+          "list": [
+            "Case van de AirPods Pro 2 of nieuwer: rechtstreeks in Zoek mijn – speel een geluid af en volg het piepen",
+            "Deksel open: staat het deksel open (of in een tas op een kier), dan worden de oortjes erin wakker en zenden ze bluetooth uit – een scanner kan ze zien",
+            "Lege case, oortjes bij jou: er is niets op te sporen, maar de case ligt waar je hem het laatst oplaadde of in je zak stak – dat verkleint de zoektocht flink"
+          ]
+        }
+      ],
+      "steps_title": "Zo zoek je je AirPods-case met Bluetooth Apparaat Zoeker",
+      "steps": [
+        {
+          "title": "Kijk eerst in Zoek mijn",
+          "description": "Bij AirPods Pro 2 en nieuwer kies je de case en speel je een geluid af. Bij andere modellen noteer je de laatst bekende locatie van de oortjes – de case ligt meestal bij ze."
+        },
+        {
+          "title": "Scan met de app",
+          "description": "Scan het zoekgebied. Staat het deksel open of op een kier, dan zenden de oortjes erin misschien uit – verschijnen ze, volg dan de warm-koudindicator."
+        },
+        {
+          "title": "Check oplaadplekken en zakken",
+          "description": "Geen signaal? Cases belanden op voorspelbare plekken: opladers, bureaurandjes, jas- en broekzakken, zijvakken van tassen, bekerhouders in de auto en kieren in de bank."
+        },
+        {
+          "title": "Scan opnieuw na het opruimen",
+          "description": "Een geschudde tas of verschoven kussens kunnen een deksel openen. Scan na elk doorzocht gebied opnieuw."
+        },
+        {
+          "title": "Voorkom de volgende keer",
+          "description": "Houd een bluetooth-finder geïnstalleerd en overweeg een case met Zoek mijn-ondersteuning – bij het terugvinden een groot verschil."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan ik een lege AirPods-case opsporen?",
+          "answer": "Standaardcases (AirPods 2/3, eerste AirPods Pro) niet: een lege, gesloten case heeft geen actieve zender. De uitzondering is de case van de AirPods Pro 2 en nieuwer: die werkt met Zoek mijn en heeft een ingebouwde speaker voor geluiden."
+        },
+        {
+          "question": "Zendt de case bluetooth uit als de AirPods erin zitten?",
+          "answer": "Alleen met het deksel open: dan worden de oortjes wakker en zenden ze kort uit. Met het deksel dicht slaapt alles en is niets te zien. Daarom kan een scan werken bij een case in een tas met het deksel open, maar niet bij een gesloten case."
+        },
+        {
+          "question": "Ik heb de case gevonden, maar er ontbreekt een oortje – wat nu?",
+          "answer": "Dat is de makkelijke variant: het ontbrekende oortje zendt zelf uit zolang het batterij heeft. Lees onze gids over één AirPod kwijt: leg het gevonden oortje in de case en spoor het ontbrekende op via zijn signaal."
+        }
+      ],
+      "cta_title": "Benut elk moment dat je case uitzendt",
+      "cta_text": "Scan het zoekgebied en zie meteen of je AirPods signaal geven. Gratis, zonder instellen.",
+      "related": [
+        {
+          "url": "/nl/gidsen/een-airpod-kwijt/",
+          "title": "Eén AirPod kwijt"
+        },
+        {
+          "url": "/nl/gidsen/lege-airpods-vinden/",
+          "title": "Lege of uitgeschakelde AirPods vinden"
+        },
+        {
+          "url": "/nl/gidsen/airpods-kwijt-terugvinden/",
+          "title": "AirPods kwijt? Zo vind je ze terug"
+        }
+      ]
+    }
+  ]
+}

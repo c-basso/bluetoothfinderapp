@@ -1,8 +1,28 @@
-key	en	pt-PT	notes
-hot_cold	guidance	indicações quente e frio; quatro níveis: frio, morno, quente, muito quente	Consistente com a UI; evitar a anglicismo desnecessário *feedback* em títulos
-proximity_percent	proximity %	percentagem de proximidade	% como auxiliar, não “precisão a laser”
-find_my	Find My	Localizar; rede Localizar	Nomenclatura da Apple (PT-PT/PT-BR: Localizar)
-app_cta	Descarregar na App Store	Descarregar na App Store	Botão/marketing, como a Apple
-app_role	bluetooth finder app	localização de dispositivos via Bluetooth; a app	Concordância com *a app* (feminino em PT comum)
-category	Productivity	Produtividade	Categoria da App Store
-currency schema	EUR	Oferta 0, schema em EUR	Alinhado com a página /pt/ (pt_PT) entre locales EU
+key	en	pt-BR	notes
+app_name	Find Bluetooth Device (App Store name)	Localizar Bluetooth Perdido	Nome na App Store do Brasil; marca „Bluetooth Finder" só em og:site_name/Organization/copyright
+variant	locale	pt-BR (português do Brasil)	URL /pt/, hreflang pt, html lang pt-BR, og:locale pt_BR
+address	you	você	Padrão brasileiro
+hot_cold_guidance	hot & cold (guidance)	indicação quente e frio; níveis: frio, morno, quente, muito quente	Subtítulo da loja: „Mais quente, mais perto"
+proximity_percent	proximity %	porcentagem de proximidade	Como na loja (BR: porcentagem, não percentagem)
+signal_strength	signal strength	força do sinal	Como na loja
+device_id_field	manufacturer, model, and name	nome, fabricante e modelo; dados do dispositivo	
+scan	start a scan	iniciar a varredura; escanear	Loja usa „varredura"
+find_my	Find My	Buscar	Nome do app da Apple em pt-BR (pt-PT: Encontrar). Não usar „Localizar"
+find_my_play_sound	Play Sound	Reproduzir Som	Apple pt-BR
+precision_finding	Precision Finding	Localização Precisa	Apple pt-BR
+devices_tab	Devices	Dispositivos	Aba do app Buscar
+apple_account	Apple Account	Conta Apple	
+settings_bluetooth	Settings > Bluetooth	Ajustes > Bluetooth	iOS pt-BR
+app_store_cta	Download on the App Store	Baixar na App Store	Selo oficial pt-BR
+nav_cta	Get the app	Baixar o app	„o app" (masculino no BR)
+headphones	headphones	fone de ouvido; headphone	
+earbuds	earbuds	fone sem fio; fone bluetooth; fone TWS	Marcas populares: QCY, Redmi Buds, Galaxy Buds
+one_earbud	one earbud	um lado do fone; um lado do AirPods	„perdi um lado do AirPods"
+case	charging case	estojo; case	„estojo do AirPods"
+speaker	Bluetooth speaker	caixa de som Bluetooth	„caixa de som JBL"
+smartwatch	smartwatch / fitness tracker	smartwatch; pulseira inteligente; Mi Band	
+dead	dead battery	descarregado; sem bateria	
+lost	lost	perdido; como encontrar; como achar; localizar	
+phone	phone	celular; iPhone	
+category_productivity	Productivity	Produtividade	
+guides	guides	guias	URL /pt/guias/

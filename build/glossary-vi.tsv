@@ -1,0 +1,28 @@
+key	en	vi-VN	notes
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Finder	App Store Việt Nam hiển thị tên tiếng Anh; trên /vi/ dùng thương hiệu Bluetooth Finder, alternateName = Find Bluetooth Device
+address	you	bạn	
+hot_cold_guidance	hot & cold (guidance)	chỉ dẫn nóng–lạnh; các mức: lạnh, ấm, nóng, rất nóng	Theo giao diện ứng dụng
+proximity_percent	proximity %	phần trăm khoảng cách gần	Viết „90%"
+signal_strength	signal strength	cường độ tín hiệu	
+device_id_field	manufacturer, model, and name	tên, nhà sản xuất và kiểu máy; thông tin thiết bị	
+scan	start a scan	bắt đầu quét	
+find_my	Find My	Tìm	Apple VN: ứng dụng Tìm, mạng Tìm
+find_my_play_sound	Play Sound	Phát âm thanh	Apple VN (support.apple.com/vi-vn/109020)
+precision_finding	Precision Finding	Tìm ở gần	Apple VN
+left_behind	Notify When Left Behind	Thông báo khi bị bỏ lại	Apple VN
+devices_tab	Devices	Thiết bị	Tab trong ứng dụng Tìm
+offline	offline / no location found	Ngoại tuyến / Không tìm thấy vị trí nào	Apple VN
+settings_bluetooth	Settings > Bluetooth	Cài đặt > Bluetooth	
+apple_account	Apple Account	Tài khoản Apple	
+left_right	left / right AirPod	tai nghe bên trái / bên phải	Apple VN
+case	charging case	hộp sạc	Apple VN
+app_store_cta	Download on the App Store	Tải về trên App Store	Huy hiệu Apple tiếng Việt
+nav_cta	Get the app	Tải ứng dụng	
+headphones	headphones	tai nghe; tai nghe chụp tai	
+earbuds	earbuds	tai nghe không dây; tai nghe nhét tai; tai nghe TWS	„mất 1 bên"
+speaker	Bluetooth speaker	loa Bluetooth	„loa JBL"
+smartwatch	smartwatch / fitness tracker	đồng hồ thông minh; vòng đeo tay thông minh	„Mi Band"
+dead	dead battery	hết pin; tắt nguồn	
+lost	lost	bị mất; thất lạc; tìm lại; cách tìm	
+category_productivity	Productivity	Năng suất	
+guides	guides	hướng dẫn	URL /vi/huong-dan/

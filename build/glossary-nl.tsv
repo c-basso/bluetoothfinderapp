@@ -1,7 +1,23 @@
 key	en	nl-NL	notes
-hot_cold_guidance	hot & cold (guidance)	warm en koud; vier fasen: koud, warm, heet, extra heet	Overeen met product; niet de Engelse term ‘feedback’
-proximity_percent	proximity %	nabijheidspercentage	Geen onnodige afk. ‘prox.’; % mag in lopende tekst
-find_my	Find My	Zoek mijn	Apple-naam; Find My in haakjes kan voor SEO
-app_store_cta	download in App Store	Download in de App Store	Zoals App Store-teksten in het Nederlands
-category_productivity	Productivity	Productiviteit	App Store-categorienaam (NL)
-bluetooth_tech	Bluetooth	Bluetooth	Productnaam: Bluetooth Finder; techniek: Bluetooth- of bluetooth-apparaten
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Apparaat Zoeker	Naam in de Nederlandse App Store; ook het belangrijkste zoekwoord (bluetooth apparaat zoeken). Merk „Bluetooth Finder“ alleen als og:site_name/Organization/copyright
+address	you	je / jij	Zoals de Nederlandse storetekst (je, jouw); niet „u“
+hot_cold_guidance	hot & cold (guidance)	warm-koudindicator; standen Koud, Warm, Heet, Extra heet	Ondertitel store: „Loop Warmer, Vind Sneller“
+proximity_percent	proximity %	nabijheidspercentage; nabijheidsindicator in procenten	Store gebruikt „Nabijheidsindicator in procenten“
+signal_strength	signal strength	signaalsterkte	
+device_id_field	manufacturer, model, and (device) name	naam, fabrikant en model; apparaatgegevens	Store: „Duidelijke apparaatgegevens“
+scan	start a scan	start een scan	Zoals in de store
+find_my	Find My	Zoek mijn	Apple-naam (zonder aanhalingstekens); Zoek mijn-netwerk, Zoek mijn-app
+find_my_play_sound	Play Sound	Speel geluid af	Apple NL
+precision_finding	Precision Finding	Nauwkeurig zoeken	Apple NL
+apple_account	Apple Account	Apple Account	Huidige Apple-term (vroeger Apple ID)
+app_store_cta	Download on the App Store	Download in de App Store	Tekst van de officiële Nederlandse Apple-badge
+nav_cta	Get the app	Download de app	
+earbuds	earbuds	oortjes; oordopjes	Beide worden gezocht („bluetooth oordopjes terugvinden“); store: oortjes / earbuds
+headphones	headphones	koptelefoon	NL; „hoofdtelefoon“ (BE/retail) alleen in keywords
+case	charging case	case; oplaadcase	„AirPods-case“, „airpods hoesje“ in keywords
+speaker	Bluetooth speaker	bluetooth-speaker	„JBL-speaker“; niet „luidspreker“
+smartwatch	smartwatch / fitness tracker	smartwatch / fitnesstracker	
+lost	lost	kwijt; verloren; terugvinden; opsporen	„[apparaat] kwijt“ is de meest gezochte vorm
+category_productivity	Productivity	Productiviteit	App Store-categorienaam (NL)
+bluetooth_tech	Bluetooth	bluetooth (lopende tekst); bluetooth-apparaat	Zoals de storetekst (kleine letter in samenstellingen)
+guides	guides	gidsen	URL-pad /nl/gidsen/

@@ -1,0 +1,886 @@
+{
+  "shared": {
+    "lang": "fr",
+    "og_locale": "fr_FR",
+    "date_locale": "fr-FR",
+    "home_url": "/fr/",
+    "guides_url": "/fr/guides/",
+    "guides_path": "fr/guides",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Retrouver appareil Bluetooth",
+    "labels": {
+      "home": "Accueil",
+      "guides": "Guides",
+      "logo_alt": "Icône de l'app « Retrouver appareil Bluetooth »",
+      "nav_cta": "Télécharger",
+      "quick_answer": "Réponse rapide",
+      "tips_title": "Astuces pour mettre toutes les chances de votre côté",
+      "faq_title": "Questions fréquentes",
+      "related_title": "Guides associés",
+      "read_label": "Lire le guide →",
+      "updated": "Dernière mise à jour",
+      "cta_button": "Télécharger dans l'App Store",
+      "cta_aria": "Télécharger Retrouver appareil Bluetooth dans l'App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Tous droits réservés.",
+      "privacy_link": "Politique de confidentialité",
+      "terms_link": "Conditions d'utilisation"
+    },
+    "hub": {
+      "h1": "Guides : retrouver vos appareils perdus",
+      "meta_title": "Guides : retrouver un appareil Bluetooth perdu",
+      "meta_description": "Guides pas à pas pour retrouver AirPods, écouteurs, casque, montre connectée ou enceinte perdus avec l'iPhone – même hors de « Localiser ».",
+      "intro_label": "Ce que vous trouverez ici",
+      "intro": "Des guides pratiques et honnêtes pour chaque situation : AirPods avec ou sans « Localiser », un seul écouteur perdu, casques Sony, Bose et JBL, montres connectées, enceintes et batteries vides. Chaque guide explique ce qui marche vraiment et vous montre comment retrouver votre appareil avec l'app « Retrouver appareil Bluetooth » sur iPhone.",
+      "cta_title": "Une seule app pour tous les guides de cette page",
+      "cta_text": "« Retrouver appareil Bluetooth » scanne les signaux Bluetooth à proximité et vous guide vers tout appareil allumé grâce au guidage chaud-froid et au pourcentage de proximité. Gratuit, 24,2 Mo, iOS 17.1+."
+    }
+  },
+  "guides": [
+    {
+      "slug": "retrouver-airpods-perdus",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "Retrouver des AirPods perdus",
+      "meta_title": "Retrouver des AirPods perdus (avec ou sans Localiser)",
+      "meta_description": "AirPods perdus ? Vérifiez leur position dans « Localiser », puis suivez leur signal Bluetooth en direct jusqu'à portée de main – même sans « Localiser ».",
+      "keywords": "retrouver airpods perdus, localiser airpods, airpods perdus, comment retrouver ses airpods, airpods perdus maison, retrouver airpods avec iphone, chercher airpods",
+      "h1": "Retrouver des AirPods perdus : la méthode qui marche",
+      "quick_answer": "Si « Localiser » était activé, ouvrez d'abord l'app « Localiser » : elle affiche vos AirPods sur une carte et peut émettre un son, tant qu'ils sont hors du boîtier et chargés. Si « Localiser » n'est pas disponible, n'affiche qu'une ancienne position ou si le son est trop faible, utilisez une app de localisation Bluetooth : allumés, les AirPods émettent un signal Bluetooth, et en suivant son intensité vous arrivez droit sur eux.",
+      "sections": [
+        {
+          "title": "Commencez par « Localiser » – et connaissez ses limites",
+          "paragraphs": [
+            "Pour des AirPods associés à votre iPhone, « Localiser » d'Apple est le premier réflexe : « Localiser » → Appareils → vos AirPods, consultez la carte et touchez « Émettre un son » s'ils sont à proximité. Les AirPods Pro 2 et plus récents proposent même une localisation précise avec flèche de direction.",
+            "Dans trois situations courantes, « Localiser » ne suffit pourtant pas. La position sur la carte n'est généralement précise qu'à l'échelle du bâtiment – elle ne dit pas sous quel coussin. Le son est faible et ne fonctionne pas quand les AirPods sont dans le boîtier. Et si les AirPods n'ont jamais été ajoutés à « Localiser », appartiennent à un autre compte Apple (achetés d'occasion) ou apparaissent « Hors ligne », l'app ne peut rien faire."
+          ]
+        },
+        {
+          "title": "Pourquoi le signal Bluetooth trouve ce que « Localiser » ne trouve pas",
+          "paragraphs": [
+            "Tant que les AirPods sont hors du boîtier et ont de la batterie, chaque écouteur émet des signaux Bluetooth Low Energy. Leur portée est d'environ 10 à 30 mètres en intérieur, et leur intensité augmente nettement à mesure que vous vous rapprochez.",
+            "Une app de localisation Bluetooth lit ce signal directement – sans compte Apple, sans configuration et sans réseau « Localiser ». C'est donc l'outil idéal pour les 30 derniers mètres : « Localiser » vous mène dans la bonne pièce, le signal sous le bon coussin."
+          ]
+        }
+      ],
+      "steps_title": "Comment retrouver vos AirPods avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Téléchargez et ouvrez l'app",
+          "description": "Installez « Retrouver appareil Bluetooth » depuis l'App Store (gratuit, 24,2 Mo, iOS 17.1+) et autorisez l'accès au Bluetooth lorsque l'app le demande."
+        },
+        {
+          "title": "Scannez les appareils à proximité",
+          "description": "Lancez un scan. Tous les appareils Bluetooth allumés à portée apparaissent dans une liste avec l'intensité de leur signal en direct – cherchez vos AirPods par leur nom."
+        },
+        {
+          "title": "Sélectionnez vos AirPods",
+          "description": "Touchez vos AirPods dans la liste. S'ils n'affichent pas de nom, vérifiez dans les détails que le fabricant indiqué est Apple."
+        },
+        {
+          "title": "Parcourez lentement la zone",
+          "description": "Traversez les pièces où vous les aviez en dernier. L'indicateur passe de Froid à Tiède puis à Chaud à mesure que le signal se renforce."
+        },
+        {
+          "title": "À Très chaud, cherchez autour de vous",
+          "description": "Quand l'app affiche Très chaud et que le pourcentage de proximité dépasse 90 %, vos AirPods sont à portée de main : regardez sous les coussins, dans les poches, les sacs, les sacs à dos et sous les meubles."
+        }
+      ],
+      "tips": [
+        "Cherchez pièce par pièce, notez le pourcentage le plus élevé dans chacune et concentrez-vous sur la meilleure.",
+        "Tenez l'iPhone à différentes hauteurs : le signal est le plus fort quand rien ne se trouve entre vous et l'appareil.",
+        "Dans un boîtier fermé, les AirPods sont en veille. Si vous pensez qu'ils sont dans le boîtier, consultez la dernière position connue dans « Localiser ».",
+        "Cherchez le plus tôt possible : un AirPod hors du boîtier émet jusqu'à ce que sa batterie soit vide."
+      ],
+      "faq": [
+        {
+          "question": "Peut-on retrouver des AirPods perdus sans l'app « Localiser » ?",
+          "answer": "Oui, tant qu'ils sont hors du boîtier et chargés. Les AirPods émettent des signaux Bluetooth dont une app de localisation peut suivre l'intensité – sans configuration de « Localiser » et sans compte iCloud."
+        },
+        {
+          "question": "À quelle distance peut-on détecter des AirPods perdus ?",
+          "answer": "La portée Bluetooth est généralement de 10 à 30 mètres en intérieur, selon les murs et les interférences. En extérieur, sans obstacle, elle peut être plus grande. Si rien n'apparaît, passez dans la pièce suivante et relancez un scan."
+        },
+        {
+          "question": "Les AirPods doivent-ils avoir de la batterie pour être retrouvés ?",
+          "answer": "Oui. Un AirPod complètement déchargé n'émet plus rien, et aucune app – pas même « Localiser » – ne peut le détecter en direct. Si la batterie est peut-être vide, cherchez à la dernière position connue dans « Localiser » et relancez un scan de temps en temps."
+        }
+      ],
+      "cta_title": "Vos AirPods sont très probablement à portée en ce moment",
+      "cta_text": "Scannez-les et suivez le guidage chaud-froid jusqu'à les avoir sous les yeux. Gratuit, sans configuration.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-airpods-sans-localiser/",
+          "title": "Retrouver des AirPods sans « Localiser »"
+        },
+        {
+          "url": "/fr/guides/retrouver-un-airpod-perdu/",
+          "title": "Retrouver un seul AirPod perdu"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-eteints/",
+          "title": "Retrouver des écouteurs éteints ou déchargés"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-airpods-sans-localiser",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "Retrouver des AirPods sans « Localiser »",
+      "meta_title": "Retrouver des AirPods sans « Localiser » ni iCloud",
+      "meta_description": "AirPods absents de « Localiser », d'occasion ou sans iCloud ? Retrouvez-les en suivant leur signal Bluetooth avec l'iPhone. Méthode pas à pas.",
+      "keywords": "retrouver airpods sans localiser, localiser airpods sans localiser, airpods pas dans localiser, retrouver airpods sans icloud, airpods d'occasion perdus, airpods hors ligne localiser",
+      "h1": "Retrouver des AirPods sans « Localiser »",
+      "quick_answer": "Vous pouvez retrouver des AirPods perdus sans « Localiser » en suivant leur signal Bluetooth. Tant qu'ils sont hors du boîtier et chargés, ils émettent des signaux Bluetooth Low Energy d'une portée d'environ 10 à 30 mètres en intérieur. Une app de localisation Bluetooth sur iPhone lit l'intensité du signal en direct et vous guide jusqu'aux écouteurs – sans iCloud, sans compte Apple et sans que « Localiser » ait jamais été configuré.",
+      "sections": [
+        {
+          "title": "Pourquoi « Localiser » n'est souvent pas une option",
+          "paragraphs": [
+            "« Localiser » ne fonctionne qu'avec des AirPods associés à votre compte Apple avant la perte. Beaucoup de gens se retrouvent donc sans solution officielle :"
+          ],
+          "list": [
+            "« Localiser » n'a jamais été activé ou les AirPods ont été réinitialisés",
+            "Les AirPods sont d'occasion et encore associés au compte Apple de l'ancien propriétaire",
+            "Vous êtes déconnecté d'iCloud ou n'avez plus accès à votre compte",
+            "Les AirPods apparaissent « Hors ligne » ou « Aucune position trouvée » dans « Localiser »",
+            "Vous cherchez des AirPods jumelés à un téléphone Android ou à un ordinateur"
+          ]
+        },
+        {
+          "title": "Le signal est toujours là – il suffit d'un récepteur",
+          "paragraphs": [
+            "Aucune de ces situations n'empêche les AirPods d'émettre. C'est le signal Bluetooth qui les rend détectables, et il ne dépend pas du réseau d'Apple. Tant qu'un écouteur est hors du boîtier et chargé, il se signale plusieurs fois par seconde.",
+            "Une app de localisation Bluetooth transforme votre iPhone en récepteur de ces signaux. L'intensité du signal (RSSI) augmente de façon fiable à mesure que vous vous rapprochez : l'app vous dit donc, en Chaud et Froid, si chaque pas vous rapproche ou non."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver des AirPods sans « Localiser », étape par étape",
+      "steps": [
+        {
+          "title": "Installez « Retrouver appareil Bluetooth »",
+          "description": "Gratuit dans l'App Store, 24,2 Mo, iOS 17.1+. Ni compte ni inscription – l'app fonctionne uniquement avec le scan Bluetooth en direct."
+        },
+        {
+          "title": "Scannez là où vous les aviez en dernier",
+          "description": "Commencez par la pièce la plus probable. Le scan affiche tous les appareils Bluetooth allumés à portée avec l'intensité de leur signal."
+        },
+        {
+          "title": "Repérez vos AirPods dans la liste",
+          "description": "Cherchez leur nom ou Apple comme fabricant dans les détails de l'appareil. Un appareil Apple sans nom au signal stable est un bon candidat."
+        },
+        {
+          "title": "Suivez le guidage chaud-froid",
+          "description": "Sélectionnez l'appareil et déplacez-vous lentement. Froid : cherchez ailleurs ; Chaud : vous vous rapprochez ; le pourcentage confirme la direction."
+        },
+        {
+          "title": "Fouillez le point chaud",
+          "description": "À Très chaud / au-delà de 90 %, arrêtez-vous et cherchez dans un rayon d'un mètre : sous les coussins, dans les poches de veste, entre les sièges de voiture, dans les sacs."
+        }
+      ],
+      "tips": [
+        "Si plusieurs appareils Apple apparaissent, rangez vos autres appareils connectés à l'iPhone dans un tiroir et relancez un scan.",
+        "Un scan depuis le centre de la pièce donne des valeurs plus claires que depuis la porte.",
+        "Dans un boîtier fermé, les AirPods n'émettent pas. Si vous avez le boîtier et qu'il ne manque qu'un écouteur, cette méthode retrouvera l'écouteur."
+      ],
+      "faq": [
+        {
+          "question": "Peut-on retrouver des AirPods associés au compte Apple de quelqu'un d'autre ?",
+          "answer": "Oui. La localisation Bluetooth ne touche pas au compte Apple : elle lit les signaux Bluetooth publics que les AirPods émettent quand ils sont allumés. Vous pouvez donc retrouver physiquement des AirPods achetés d'occasion."
+        },
+        {
+          "question": "Faut-il une connexion Internet ?",
+          "answer": "Non. Le scan Bluetooth s'effectue entièrement sur votre iPhone – même à la cave, dans un parking souterrain ou partout sans réseau."
+        },
+        {
+          "question": "Est-ce que ça marche si les AirPods sont dans le boîtier ?",
+          "answer": "Pas de façon fiable. Dans un boîtier fermé, les AirPods se mettent en veille et n'émettent plus. Si c'est tout le boîtier qui a disparu, lisez notre guide sur le boîtier AirPods."
+        }
+      ],
+      "cta_title": "Pas de « Localiser » ? Pas de problème.",
+      "cta_text": "Suivez le signal en direct de vos AirPods – sans compte et sans configuration. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-airpods-perdus/",
+          "title": "Retrouver des AirPods perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-boitier-airpods-perdu/",
+          "title": "Retrouver un boîtier AirPods perdu"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-sans-fil-perdus/",
+          "title": "Retrouver des écouteurs sans fil perdus"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-un-airpod-perdu",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "Retrouver un seul AirPod",
+      "meta_title": "Un seul AirPod perdu ? Retrouver l'écouteur gauche ou droit",
+      "meta_description": "Un seul AirPod perdu ? Chaque écouteur émet son propre signal Bluetooth. Faites-le sonner avec « Localiser » ou suivez son signal avec l'iPhone.",
+      "keywords": "retrouver un seul airpod, un airpod perdu, airpod perdu, retrouver airpod gauche, retrouver airpod droit, écouteur airpod perdu, comment retrouver un seul airpod",
+      "h1": "Un seul AirPod perdu ? Voici comment le retrouver",
+      "quick_answer": "On peut retrouver un AirPod seul, car chaque écouteur émet son propre signal Bluetooth tant qu'il est hors du boîtier et chargé. Utilisez « Émettre un son » dans « Localiser » si les AirPods étaient enregistrés (le son peut ne faire sonner que l'écouteur manquant), et une app de localisation Bluetooth pour suivre l'intensité de son signal si le son est trop faible, étouffé par un coussin ou si « Localiser » n'est pas une option.",
+      "sections": [
+        {
+          "title": "Le problème de l'écouteur seul",
+          "paragraphs": [
+            "Perdre un seul AirPod est le cas le plus fréquent : il tombe dans le canapé, glisse dans une poche de veste ou roule sous le siège de la voiture. C'est aussi le plus difficile à retrouver à l'oreille : minuscule, il atterrit généralement sur quelque chose de mou, haut-parleur tourné n'importe où. Le son de « Émettre un son » est absorbé par les tissus mêmes dans lesquels il tombe.",
+            "La bonne nouvelle : chaque AirPod est un émetteur Bluetooth indépendant. Gauche et droit émettent séparément, donc l'écouteur perdu continue de se signaler tant qu'il a de l'énergie – en veille, généralement plusieurs heures après sa chute."
+          ]
+        },
+        {
+          "title": "D'abord le son, ensuite le signal",
+          "paragraphs": [
+            "Si vos AirPods sont dans « Localiser », essayez d'abord « Émettre un son » en coupant l'écouteur que vous avez encore, pour que seul l'écouteur perdu sonne. Parcourez la zone en silence et tendez l'oreille.",
+            "Si vous n'entendez rien ou si « Localiser » n'est pas disponible, passez à la localisation par le signal. Les coussins ne faussent pas l'intensité du signal : elle augmente à mesure que vous vous rapprochez physiquement – que l'écouteur soit dans le canapé, dans une chaussure ou dans une poche de manteau."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver un seul AirPod avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Rangez l'écouteur que vous avez",
+          "description": "Mettez l'AirPod restant dans le boîtier et fermez le couvercle : il se met en veille et seul l'écouteur perdu continue d'émettre."
+        },
+        {
+          "title": "Lancez un scan",
+          "description": "Ouvrez « Retrouver appareil Bluetooth » et scannez dans la pièce où vous pensez l'avoir perdu. Vos AirPods apparaissent dans la liste avec l'intensité de leur signal."
+        },
+        {
+          "title": "Sélectionnez vos AirPods",
+          "description": "Touchez l'entrée de vos AirPods. Le signal que vous suivez provient désormais uniquement de l'écouteur perdu."
+        },
+        {
+          "title": "Suivez le guidage chaud-froid",
+          "description": "Avancez lentement, en tenant l'iPhone devant vous. Le pourcentage de proximité augmente nettement quand vous approchez de l'écouteur."
+        },
+        {
+          "title": "Cherchez dans un rayon d'un mètre",
+          "description": "À Très chaud, fouillez en profondeur autour de vous : entre les coussins, dans les plis des vêtements, sous les meubles bas et entre les sièges."
+        }
+      ],
+      "tips": [
+        "Un AirPod perdu tombe rarement loin : commencez là où vous l'avez porté pour la dernière fois.",
+        "Accroupissez-vous en approchant du point chaud – un écouteur au sol se repère mieux à hauteur de genou.",
+        "Si rien n'apparaît, l'écouteur est peut-être déchargé : consultez sa dernière position dans « Localiser » et relancez un scan plus tard."
+      ],
+      "faq": [
+        {
+          "question": "Peut-on faire sonner un seul AirPod ?",
+          "answer": "Oui, si vos AirPods sont dans « Localiser » : dans « Émettre un son », vous pouvez couper l'écouteur gauche ou droit pour ne faire sonner que celui qui manque. Le son reste faible et peut être étouffé par un tissu."
+        },
+        {
+          "question": "Combien de temps un AirPod perdu continue-t-il d'émettre ?",
+          "answer": "Tant que sa batterie tient. En veille hors du boîtier, un AirPod émet généralement encore plusieurs heures. Cherchez donc le plus tôt possible."
+        },
+        {
+          "question": "Peut-on acheter un seul AirPod de remplacement ?",
+          "answer": "Oui, Apple vend des écouteurs de remplacement à l'unité. Mais avant de payer, scannez la zone : la plupart des écouteurs « perdus » sont à moins de quelques mètres de l'endroit où on les a portés en dernier."
+        }
+      ],
+      "cta_title": "Votre AirPod émet encore. Allez le chercher.",
+      "cta_text": "Scannez, sélectionnez vos AirPods et suivez le guidage chaud-froid jusqu'à l'écouteur. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-airpods-perdus/",
+          "title": "Retrouver des AirPods perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-boitier-airpods-perdu/",
+          "title": "Retrouver un boîtier AirPods perdu"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-eteints/",
+          "title": "Retrouver des écouteurs éteints ou déchargés"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-ecouteurs-eteints",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "Retrouver des écouteurs éteints",
+      "meta_title": "AirPods sans batterie ou écouteurs éteints : que faire ?",
+      "meta_description": "AirPods déchargés ou écouteurs éteints ? Ce qui marche vraiment : dernière position connue, scans réguliers et recherche ciblée. La réponse honnête.",
+      "keywords": "localiser airpods sans batterie, retrouver écouteurs éteints, airpods déchargés perdus, retrouver airpods hors ligne, localiser casque éteint, appareil bluetooth éteint",
+      "h1": "Retrouver des écouteurs éteints ou des AirPods sans batterie",
+      "quick_answer": "Des écouteurs éteints ou complètement déchargés ne peuvent pas être localisés en direct : ils n'émettent plus de Bluetooth, donc aucune app – pas même « Localiser » – ne peut les détecter. Ce qui aide : consulter la dernière position connue dans « Localiser » ou dans l'app du fabricant et chercher à cet endroit ; relancer régulièrement un scan avec une app de localisation Bluetooth, car les appareils qui gardent un reste de batterie se réveillent brièvement ; et fouiller méthodiquement les cachettes habituelles. Ce guide détaille ces trois étapes.",
+      "sections": [
+        {
+          "title": "La physique honnête d'un appareil éteint",
+          "paragraphs": [
+            "Toutes les méthodes de recherche – « Localiser », localisation précise, émettre un son, scan Bluetooth – supposent que l'appareil émet un signal radio. Sans énergie, pas de signal ; sans signal, rien à détecter. Toute app qui promet de localiser en direct un AirPod complètement déchargé promet trop.",
+            "La recherche n'est pas vaine pour autant. Seule la stratégie change : on passe du suivi du signal à la réduction de la zone de recherche – et à la capacité de capter le signal dès qu'il revient."
+          ]
+        },
+        {
+          "title": "Éteint, déchargé ou simplement hors de portée ?",
+          "paragraphs": [
+            "Vérifiez d'abord si c'est vraiment la batterie. Des AirPods déchargés donnent des signes clairs : « Localiser » indique « Hors ligne » ou « Aucune position trouvée » avec une heure ancienne, « Émettre un son » échoue, ils n'apparaissent ni dans la liste Bluetooth ni dans le widget Batteries de l'iPhone, et un scan Bluetooth ne les trouve pas.",
+            "Si « Localiser » affiche une position en direct ou une heure récente comme « Maintenant » ou « Il y a 2 minutes », la batterie n'est pas vide : émettez un son et scannez immédiatement. Si la dernière heure remonte à plusieurs heures, partez du principe que la batterie s'est vidée à ce moment-là – ce lieu et cette heure définissent votre zone de recherche. Les casques Sony, Bose ou JBL, eux, s'éteignent généralement automatiquement 5 à 30 minutes après la fin de la musique et se trouvent presque toujours à une ou deux pièces de l'endroit où vous les avez utilisés."
+          ]
+        },
+        {
+          "title": "Trois choses qui marchent vraiment",
+          "paragraphs": [
+            "Un : la dernière position connue. Si « Localiser » était configuré, il a enregistré l'endroit où les AirPods étaient connectés pour la dernière fois ; beaucoup d'apps de fabricants (Sony, Bose, JBL) enregistrent au moins l'heure de la dernière connexion. Ce lieu est votre zone de recherche.",
+            "Deux : le reste de batterie. Une batterie « vide » récupère souvent un peu après une pause, et des AirPods remis brièvement dans un boîtier chargé émettent de nouveau. Scanner la zone toutes les quelques heures avec une app de localisation Bluetooth ne coûte rien et réussit souvent.",
+            "Trois : les probabilités. Les écouteurs déchargés réapparaissent toujours aux mêmes endroits : dans le linge (vérifiez le tambour de la machine à laver !), dans les interstices du canapé et de la voiture, dans les poches de veste et de sac, sous le lit et dans les chaussures. Cherchez là en premier."
+          ]
+        }
+      ],
+      "steps_title": "La marche à suivre avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Notez la dernière position",
+          "description": "Ouvrez « Localiser » → Appareils → vos AirPods (ou l'app du fabricant de votre casque). Notez l'heure et le lieu de la dernière connexion, même si « Hors ligne » est affiché."
+        },
+        {
+          "title": "Scannez sur place avec l'app",
+          "description": "Lancez un scan Bluetooth à la dernière position connue. Si l'appareil a encore un peu de batterie et est allumé, il apparaît dans la liste – suivez immédiatement le guidage chaud-froid."
+        },
+        {
+          "title": "Fouillez méthodiquement",
+          "description": "Pas de signal ? Vérifiez les endroits les plus probables : coussins, sacs, linge, sous les meubles, rails de sièges de voiture et doublures de sacs."
+        },
+        {
+          "title": "Relancez des scans régulièrement",
+          "description": "Répétez le scan matin et soir pendant quelques jours. Une brève récupération de la batterie, ou quelqu'un qui déplace ou rallume les écouteurs, fait revenir le signal."
+        },
+        {
+          "title": "Préparez-vous pour la prochaine fois",
+          "description": "Gardez une app de localisation Bluetooth installée et activez les alertes d'oubli dans « Localiser ». Un appareil qui émet encore se retrouve en quelques minutes au lieu de quelques jours."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on localiser des AirPods avec 0 % de batterie ?",
+          "answer": "Pas en direct. À 0 %, les AirPods n'émettent plus aucun signal. « Localiser » peut seulement afficher la dernière position enregistrée avant l'extinction ; c'est là qu'il faut chercher."
+        },
+        {
+          "question": "« Localiser » indique « Hors ligne » : mes AirPods sont-ils déchargés ?",
+          "answer": "Le plus souvent, oui – ou ils sont dans un boîtier fermé, ou hors de portée de tout appareil Apple. Regardez l'heure de la dernière position : si elle date de plusieurs heures, la batterie s'est probablement vidée à ce moment-là."
+        },
+        {
+          "question": "Un casque Bluetooth éteint peut-il être détecté ?",
+          "answer": "Non. Un casque éteint (souvent par extinction automatique après quelques minutes sans musique) n'émet rien. Cherchez près du dernier lieu d'utilisation et relancez un scan si quelqu'un a pu le rallumer."
+        },
+        {
+          "question": "Mes AirPods sont-ils passés à la machine à laver ?",
+          "answer": "C'est l'une des cachettes les plus fréquentes. Vérifiez le tambour, le filtre et les poches du linge. Des AirPods lavés réémettent parfois une fois secs et rechargés – mais leur fonctionnement n'est plus garanti."
+        }
+      ],
+      "cta_title": "Soyez prêt dès que le signal revient",
+      "cta_text": "Gardez « Retrouver appareil Bluetooth » sur votre iPhone : dès que vos écouteurs se réveillent, un scan les trouve. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-airpods-perdus/",
+          "title": "Retrouver des AirPods perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-casque-bluetooth-perdu/",
+          "title": "Retrouver un casque ou des écouteurs Bluetooth"
+        },
+        {
+          "url": "/fr/guides/retrouver-un-airpod-perdu/",
+          "title": "Retrouver un seul AirPod perdu"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-casque-bluetooth-perdu",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Retrouver un casque Bluetooth",
+      "meta_title": "Casque Bluetooth perdu : le localiser (Sony, Bose, JBL)",
+      "meta_description": "Casque ou écouteurs Bluetooth perdus ? Sony, Bose, JBL ne sont pas dans « Localiser ». Suivez leur signal Bluetooth avec l'iPhone jusqu'à les retrouver.",
+      "keywords": "casque bluetooth perdu, retrouver casque bluetooth, localiser casque bluetooth, retrouver écouteurs bluetooth perdus, peut-on localiser un casque bluetooth, localiser casque bose, retrouver casque sony, casque jbl perdu",
+      "h1": "Casque ou écouteurs Bluetooth perdus : comment les retrouver",
+      "quick_answer": "La plupart des casques Bluetooth – Sony, Bose, JBL, Sennheiser et beaucoup de Beats – ne sont pas dans le réseau « Localiser » d'Apple : pas de carte. Mais tant qu'ils sont allumés, ils émettent un signal Bluetooth d'une portée de 10 à 30 mètres en intérieur. Une app de localisation Bluetooth sur iPhone suit l'intensité de ce signal et vous guide jusqu'au casque grâce au guidage chaud-froid.",
+      "sections": [
+        {
+          "title": "Peut-on localiser un casque Bluetooth ?",
+          "paragraphs": [
+            "Sur une carte, généralement non : « Localiser » d'Apple couvre les appareils audio Apple et une courte liste d'accessoires certifiés. Presque tout le reste, y compris la plupart des casques haut de gamme Sony, Bose et Sennheiser, n'a pas de localisation réseau. Certaines apps de fabricants indiquent l'heure de la dernière connexion, mais rien qui vous y conduise.",
+            "À proximité, en revanche, oui : tout casque Bluetooth possède un module radio. Allumé, il émet en permanence – c'est ainsi que votre téléphone le trouve pour se connecter – et beaucoup restent allumés des heures après avoir été posés : les minuteurs d'extinction automatique vont de 15 minutes à plusieurs heures, et certains modèles ne s'éteignent jamais par défaut."
+          ]
+        },
+        {
+          "title": "Un casque se retrouve facilement grâce à son signal",
+          "paragraphs": [
+            "Comparé à un petit écouteur intra-auriculaire, un casque est le cas idéal : antennes plus grandes, puissance d'émission plus élevée et batteries de 30 à 60 heures d'autonomie. S'il était allumé quand vous l'avez perdu, il émet très probablement en ce moment même.",
+            "Le signal contient en plus des informations utiles comme le nom (souvent « WH-1000XM5 », « Bose QC » ou « JBL Tune »), le fabricant et le modèle. Vous savez ainsi avec certitude que vous suivez votre casque et non l'enceinte des voisins."
+          ]
+        },
+        {
+          "title": "Et si le casque est éteint ?",
+          "paragraphs": [
+            "Soyons honnêtes : un casque éteint n'émet rien, aucune app ne peut donc le détecter en direct. Vous pouvez en revanche réduire la zone de recherche et le capter dès qu'il se rallume.",
+            "Partez de l'heure et du lieu : votre iPhone et la plupart des apps de fabricants savent quand le casque a été connecté pour la dernière fois. L'extinction automatique intervient généralement 5 à 30 minutes après la fin de la musique, le casque se trouve donc presque toujours à une ou deux pièces du dernier lieu d'utilisation. Regardez dans les sacs, sacs à dos, la voiture, sous le lit, dans le canapé et près des chargeurs – et relancez un scan régulièrement."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver votre casque avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Installez l'app et lancez un scan",
+          "description": "Téléchargez « Retrouver appareil Bluetooth » dans l'App Store (gratuit, iOS 17.1+), ouvrez l'app et lancez un scan là où vous pensez avoir laissé le casque."
+        },
+        {
+          "title": "Trouvez votre modèle dans la liste",
+          "description": "Les casques apparaissent généralement avec leur nom de modèle. Si le nom est générique, vérifiez le fabricant et le modèle dans les détails de l'appareil."
+        },
+        {
+          "title": "Sélectionnez-le et suivez le guidage chaud-froid",
+          "description": "Parcourez lentement la zone. L'indicateur devient plus chaud à mesure que le signal se renforce ; le pourcentage de proximité confirme la direction."
+        },
+        {
+          "title": "Trouvez l'endroit exact",
+          "description": "À Très chaud / au-delà de 90 %, il est à portée de main. Vérifiez les sacs, tiroirs de bureau, sièges arrière, casiers de salle de sport et portemanteaux."
+        }
+      ],
+      "tips": [
+        "Si rien n'apparaît, le casque s'est peut-être éteint automatiquement. Cherchez au dernier lieu d'utilisation et relancez un scan plus tard.",
+        "Beaucoup de casques émettent aussi pendant la charge – pensez au câble de charge derrière le bureau.",
+        "Dans un bureau plein d'appareils Bluetooth, le champ fabricant aide à écarter écrans, souris et appareils des collègues."
+      ],
+      "faq": [
+        {
+          "question": "Peut-on localiser un casque Bose perdu ?",
+          "answer": "Pas sur une carte : les casques Bose ne sont pas dans « Localiser » d'Apple et l'app Bose ne propose pas de localisation en direct. Tant qu'il est allumé et à environ 10–30 mètres, vous pouvez suivre son signal Bluetooth jusqu'à lui avec une app de localisation."
+        },
+        {
+          "question": "Peut-on utiliser « Localiser » pour un casque Sony ou JBL ?",
+          "answer": "Non. Les casques d'autres marques ne sont pas dans le réseau « Localiser » (Beats est la principale exception). Pour tous les autres, le signal Bluetooth en direct est le moyen de les retrouver physiquement."
+        },
+        {
+          "question": "Existe-t-il des casques Bluetooth avec localisation GPS ?",
+          "answer": "Les casques n'ont pas de GPS intégré. Seuls les modèles reliés à un réseau comme « Localiser » (AirPods, Beats) ou à un réseau de fabricant peuvent être localisés sur une carte. Pour tous les autres, la recherche par intensité du signal Bluetooth à proximité fonctionne."
+        },
+        {
+          "question": "À quelle distance faut-il être pour le détecter ?",
+          "answer": "En général 10 à 30 mètres en intérieur – à peu près un appartement ou un plateau de bureau. Passez d'une pièce à l'autre en scannant ; dès qu'il est à portée, il apparaît dans la liste."
+        }
+      ],
+      "cta_title": "Votre casque émet probablement en ce moment",
+      "cta_text": "Scannez, sélectionnez-le et suivez le guidage chaud-froid. Fonctionne avec toutes les marques. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-sans-fil-perdus/",
+          "title": "Retrouver des écouteurs sans fil perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-eteints/",
+          "title": "Retrouver des écouteurs éteints ou déchargés"
+        },
+        {
+          "url": "/fr/guides/retrouver-enceinte-bluetooth-perdue/",
+          "title": "Retrouver une enceinte Bluetooth"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-ecouteurs-sans-fil-perdus",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Retrouver des écouteurs sans fil",
+      "meta_title": "Écouteurs sans fil perdus : Galaxy Buds, Xiaomi, JBL, JVC",
+      "meta_description": "Écouteurs sans fil perdus ? Galaxy Buds, Xiaomi, JBL, JVC ou Jabra : une seule méthode les retrouve tous depuis l'iPhone, sans l'app du fabricant.",
+      "keywords": "écouteurs sans fil perdus, retrouver écouteurs sans fil, retrouver écouteurs bluetooth, galaxy buds perdus, retrouver galaxy buds avec iphone, oreillette bluetooth perdue, écouteurs jvc perdus, écouteurs xiaomi perdus",
+      "h1": "Écouteurs sans fil perdus : comment les retrouver, quelle que soit la marque",
+      "quick_answer": "On peut retrouver des écouteurs sans fil perdus tant qu'ils sont hors du boîtier et chargés : tous émettent des signaux Bluetooth Low Energy dont une app de localisation peut suivre l'intensité. Cela fonctionne avec les Galaxy Buds, Xiaomi, JBL, JVC, Jabra, Anker Soundcore, Nothing Ear et toute autre marque – depuis l'iPhone, sans l'app du fabricant et sans compte.",
+      "sections": [
+        {
+          "title": "Le problème des marques multiples",
+          "paragraphs": [
+            "Chaque marque cherche à sa façon : SmartThings Find de Samsung fonctionne surtout avec les téléphones Galaxy, l'app Jabra affiche un point avec la dernière position, et beaucoup de marques économiques ne proposent rien du tout. Si vous utilisez un iPhone avec des écouteurs d'une autre marque – une combinaison très courante –, vous n'avez souvent aucune option : pas de « Localiser », et la fonction de recherche de la marque est pensée pour Android ou absente.",
+            "Le dénominateur commun, c'est le Bluetooth lui-même. Tous les écouteurs sans fil l'utilisent, et tous ceux qui sont allumés se signalent plusieurs fois par seconde. Une seule méthode de localisation par le signal fonctionne pour toutes les marques."
+          ]
+        },
+        {
+          "title": "Ce qu'il faut savoir avant de chercher",
+          "paragraphs": [
+            "Les écouteurs émettent quand ils sont hors du boîtier et chargés ; dans un boîtier fermé, ils sont en veille. Une oreillette tombée seule émet généralement encore plusieurs heures en veille.",
+            "La portée est de 10 à 30 mètres en intérieur : assez courte pour chercher pièce par pièce, assez grande pour qu'un scan couvre généralement tout l'appartement ou votre espace de bureau."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver vos écouteurs avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Scannez la zone probable",
+          "description": "Ouvrez l'app dans la pièce où vous aviez vos écouteurs en dernier et lancez un scan. Tous les appareils Bluetooth allumés à portée apparaissent avec l'intensité de leur signal."
+        },
+        {
+          "title": "Identifiez vos écouteurs",
+          "description": "Cherchez le nom du produit (par ex. « Galaxy Buds3 Pro », « Redmi Buds », « JVC HA-A » ou « Jabra Elite ») ou vérifiez le fabricant dans les détails de l'appareil."
+        },
+        {
+          "title": "Réduisez les interférences",
+          "description": "Si la liste est longue, emportez vos autres appareils connectés dans une autre pièce : ce qui reste stable dans la liste est votre cible."
+        },
+        {
+          "title": "Suivez le guidage chaud-froid jusqu'à la source",
+          "description": "Sélectionnez les écouteurs et déplacez-vous lentement. L'indicateur devient plus chaud et le pourcentage augmente à mesure que vous approchez."
+        },
+        {
+          "title": "Fouillez le point chaud",
+          "description": "À Très chaud, cherchez en profondeur et dans le mou à portée de main : les écouteurs s'enfoncent dans les coussins, les sacs, les sacs à dos et les interstices de la voiture."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Faut-il l'app du fabricant ?",
+          "answer": "Non. Le signal Bluetooth fait partie du standard utilisé par tous les écouteurs. Une app de localisation Bluetooth le lit directement – quelle que soit la marque et le téléphone auquel ils sont jumelés."
+        },
+        {
+          "question": "Peut-on retrouver des Galaxy Buds avec un iPhone ?",
+          "answer": "Oui. Le jumelage n'a pas d'importance : l'app détecte le signal émis par les écouteurs, pas leur connexion. Un iPhone avec une app de localisation aide donc aussi à retrouver des écouteurs jumelés à un téléphone Android – ceux de votre famille, par exemple."
+        },
+        {
+          "question": "Et si les écouteurs sont dans leur boîtier ?",
+          "answer": "Dans un boîtier fermé, les écouteurs sont en veille et n'apparaissent pas dans le scan. Cherchez le boîtier des yeux aux endroits habituels, et relancez un scan si le boîtier a pu s'ouvrir ou si un écouteur est tombé séparément."
+        }
+      ],
+      "cta_title": "Une app pour toutes les marques d'écouteurs",
+      "cta_text": "Scannez et suivez le signal de vos écouteurs, quelle que soit la marque. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-casque-bluetooth-perdu/",
+          "title": "Retrouver un casque ou des écouteurs Bluetooth"
+        },
+        {
+          "url": "/fr/guides/retrouver-un-airpod-perdu/",
+          "title": "Retrouver un seul AirPod perdu"
+        },
+        {
+          "url": "/fr/guides/detecter-appareils-bluetooth-a-proximite/",
+          "title": "Détecter les appareils Bluetooth à proximité"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-montre-connectee-perdue",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Retrouver une montre connectée",
+      "meta_title": "Montre connectée perdue : localiser Fitbit, Garmin, Xiaomi",
+      "meta_description": "Montre connectée ou bracelet d'activité perdu ? Fitbit, Garmin, Xiaomi Band ou Apple Watch émettent en Bluetooth : retrouvez-les avec l'iPhone.",
+      "keywords": "montre connectée perdue, localiser montre connectée, retrouver montre connectée, bracelet connecté perdu, retrouver fitbit perdu, localiser montre garmin, xiaomi band perdu, apple watch perdue maison",
+      "h1": "Montre connectée ou bracelet d'activité perdu : comment le retrouver",
+      "quick_answer": "Les montres connectées et bracelets d'activité font partie des appareils les plus faciles à retrouver : ils émettent en Bluetooth presque en continu, et leur batterie tient des jours, voire des semaines. Scannez avec une app de localisation Bluetooth, choisissez votre montre dans la liste et suivez le guidage chaud-froid. Pour une Apple Watch, essayez d'abord « Localiser » ; pour Fitbit, Garmin, Xiaomi, Amazfit et la plupart des autres, la localisation par le signal est la principale option.",
+      "sections": [
+        {
+          "title": "Les montres n'arrêtent jamais d'émettre",
+          "paragraphs": [
+            "Contrairement aux écouteurs qui dorment dans leur boîtier, une montre connectée est conçue pour rester connectée – elle émet donc en Bluetooth presque en permanence, qu'elle soit sur la table de nuit, dans le sac de sport ou entre les coussins du canapé. Avec une batterie de plusieurs jours (souvent 5 à 14 jours pour un bracelet d'activité), une montre égarée reste détectable longtemps.",
+            "Les outils des marques sont très inégaux : l'Apple Watch prend en charge « Localiser » avec son et carte ; l'app Fitbit affiche parfois une position approximative de la dernière synchronisation ; beaucoup de montres Garmin, Xiaomi, Amazfit et de bracelets économiques n'offrent guère plus que l'heure de la dernière connexion. La localisation par le signal fonctionne de la même façon pour toutes."
+          ]
+        },
+        {
+          "title": "Où atterrissent vraiment les montres",
+          "paragraphs": [
+            "On retire sa montre à des moments prévisibles : pour la recharger, se doucher, faire la vaisselle, dormir et faire du sport. Les suspects habituels sont donc les chargeurs (y compris derrière les meubles), les étagères de la salle de bain, le plan de travail de la cuisine, la table de nuit, le sac de sport et les manches de veste. Scannez d'abord pour confirmer que la montre est à portée, puis laissez le guidage chaud-froid choisir la pièce pour vous."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver votre montre avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Scannez l'appartement ou le sac de sport",
+          "description": "Ouvrez l'app et lancez un scan. Les montres apparaissent de façon fiable car elles émettent souvent – cherchez le nom du modèle ou le fabricant."
+        },
+        {
+          "title": "Sélectionnez votre montre",
+          "description": "Confirmez grâce aux détails de l'appareil (nom, fabricant, modèle) qu'il s'agit bien de la vôtre – pratique dans un foyer avec plusieurs objets connectés."
+        },
+        {
+          "title": "Passez de pièce en pièce",
+          "description": "Déplacez-vous d'une pièce à l'autre en observant l'indicateur. La pièce où il passe de Tiède à Chaud est la bonne."
+        },
+        {
+          "title": "Localisez-la et vérifiez les endroits habituels",
+          "description": "À Très chaud / au-delà de 90 %, vérifiez les chargeurs, étagères, sacs, poches de sac à dos et sous le lit à portée de main."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on faire sonner une Fitbit ou une Garmin ?",
+          "answer": "La plupart des modèles Fitbit et Garmin n'ont pas de sonnerie à distance (certaines montres Garmin peuvent déclencher une alerte via leur app si elles sont encore connectées). Sans son, suivre l'intensité du signal est le moyen pratique de retrouver la montre."
+        },
+        {
+          "question": "Combien de temps un bracelet d'activité perdu continue-t-il d'émettre ?",
+          "answer": "Aussi longtemps que sa batterie tient : en général 5 à 14 jours pour un bracelet d'activité, 1 à 3 jours pour une montre connectée complète. Cherchez donc vite une montre connectée ; un bracelet vous laisse plus de temps."
+        },
+        {
+          "question": "Faut-il utiliser « Localiser » pour une Apple Watch perdue ?",
+          "answer": "Oui, commencez par là : « Localiser » affiche une carte et émet un son. Si la montre est hors ligne, en mode silencieux ou si le son est inaudible, un scan Bluetooth peut détecter son signal et le suivre tant qu'elle est allumée et à portée."
+        }
+      ],
+      "cta_title": "Votre montre émet encore – suivez-la",
+      "cta_text": "Scannez, sélectionnez votre montre et laissez le guidage chaud-froid vous mener jusqu'à elle. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/detecter-appareils-bluetooth-a-proximite/",
+          "title": "Détecter les appareils Bluetooth à proximité"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-sans-fil-perdus/",
+          "title": "Retrouver des écouteurs sans fil perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-enceinte-bluetooth-perdue/",
+          "title": "Retrouver une enceinte Bluetooth"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-enceinte-bluetooth-perdue",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Retrouver une enceinte Bluetooth",
+      "meta_title": "Enceinte Bluetooth perdue : localiser une enceinte JBL",
+      "meta_description": "Peut-on localiser une enceinte JBL, Bose ou Sony perdue ? Oui, tant qu'elle est allumée et à portée : suivez son signal Bluetooth avec l'iPhone.",
+      "keywords": "enceinte bluetooth perdue, localiser enceinte jbl, retrouver enceinte jbl, retrouver enceinte bluetooth, peut-on localiser une enceinte jbl, enceinte bose perdue, localiser enceinte bluetooth",
+      "h1": "Enceinte Bluetooth perdue : comment la retrouver",
+      "quick_answer": "Oui, vous pouvez localiser une enceinte JBL perdue (ou une enceinte Bose, Anker, Sony) tant qu'elle est allumée et à portée Bluetooth – environ 30 mètres. La plupart des enceintes n'ont ni GPS ni localisation sur carte, mais émettent en permanence un signal Bluetooth puissant. Scannez avec une app de localisation Bluetooth, choisissez l'enceinte et suivez le guidage chaud-froid. Si elle est éteinte, rien ne peut la détecter : cherchez au dernier lieu d'utilisation et relancez un scan plus tard.",
+      "sections": [
+        {
+          "title": "Peut-on localiser une enceinte JBL ?",
+          "paragraphs": [
+            "Oui, à une condition : qu'elle soit allumée. La plupart des enceintes JBL (Flip, Charge, Clip, Go, Xtreme) n'ont pas de GPS et ne sont ni dans « Localiser » d'Apple ni dans « Localiser mon appareil » de Google : aucune carte ne montre où elles sont. L'app JBL règle le son et les paramètres – ce n'est pas un outil de localisation.",
+            "Ce que toutes les enceintes JBL ont, c'est un module Bluetooth qui émet quand elles sont allumées. Une app de localisation Bluetooth lit l'intensité de ce signal et vous dit si vous vous rapprochez ou vous éloignez – vous arrivez ainsi jusqu'à l'enceinte, même si aucune app ne peut la placer sur une carte. C'est pareil pour les Bose SoundLink, Anker Soundcore, Sony, UE et Marshall."
+          ]
+        },
+        {
+          "title": "Les enceintes : le cas le plus favorable",
+          "paragraphs": [
+            "Les enceintes Bluetooth sont conçues pour être jointes depuis n'importe où dans la pièce et à travers les meubles – leur signal est puissant et stable. Là où le signal d'un écouteur vacille à 20 mètres, celui d'une enceinte reste souvent lisible sur tout un étage. La recherche chaud-froid est donc rapide et sans ambiguïté.",
+            "Elles sont aussi faciles à identifier : les enceintes émettent presque toujours le nom du produit (« JBL Flip 6 », « Bose SoundLink »), vous n'avez donc pas à deviner quelle entrée est la vôtre."
+          ]
+        },
+        {
+          "title": "Le seul piège : l'extinction automatique",
+          "paragraphs": [
+            "Beaucoup d'enceintes s'éteignent après 10 à 20 minutes sans lecture pour économiser la batterie – c'est typique chez JBL et Anker. Si le scan ne trouve rien, l'enceinte est probablement éteinte, pas partie. Cherchez là où elle a joué en dernier ; et si quelqu'un la trouve et l'allume, votre prochain scan la détectera aussitôt.",
+            "Astuce bonus : si l'enceinte est allumée et encore jumelée à votre téléphone, lancez n'importe quel son. Une enceinte qui joue de la musique à fond dans un placard se trahit toute seule."
+          ]
+        }
+      ],
+      "steps_title": "Retrouver votre enceinte avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Essayez d'abord l'astuce du jumelage",
+          "description": "Si votre iPhone affiche encore l'enceinte comme connectée, lancez de l'audio dessus et tendez l'oreille. Souvent, la recherche s'arrête là."
+        },
+        {
+          "title": "Scannez avec l'app",
+          "description": "Pas de son ? Scannez la zone. Une enceinte allumée apparaît avec un signal fort et généralement son nom de produit complet."
+        },
+        {
+          "title": "Suivez la piste chaud-froid",
+          "description": "Sélectionnez l'enceinte et avancez. Le signal fort rend la direction évidente – le pourcentage grimpe vite à mesure que vous approchez."
+        },
+        {
+          "title": "Ouvrez ce qui est fermé au point chaud",
+          "description": "Les enceintes finissent sur des étagères et dans des sacs : placards, meubles, coffre de voiture, sacs de pique-nique ou sous des serviettes. À Très chaud, ouvrez tout ce qui est à proximité."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on localiser une enceinte JBL par GPS ?",
+          "answer": "Non. Les enceintes JBL n'ont pas de GPS et la plupart ne sont pas compatibles « Localiser » : on ne peut pas les trouver sur une carte. Tant qu'une enceinte JBL est allumée et à environ 30 mètres, une app de localisation Bluetooth peut suivre son signal jusqu'à l'endroit exact."
+        },
+        {
+          "question": "Peut-on retrouver une enceinte Bluetooth éteinte ?",
+          "answer": "Non : une enceinte éteinte n'émet pas et n'est pas détectable. Cherchez au dernier lieu d'utilisation et relancez un scan plus tard ; dès que quelqu'un l'allume dans un rayon d'environ 30 mètres, le scan la détecte."
+        },
+        {
+          "question": "À quelle distance détecte-t-on une enceinte ?",
+          "answer": "De plus loin que la plupart des appareils : souvent les 30 mètres complets en intérieur, davantage en extérieur, grâce à des émetteurs Bluetooth plus puissants. Un seul scan peut couvrir toute la maison."
+        },
+        {
+          "question": "On m'a volé mon enceinte – puis-je la localiser avec ça ?",
+          "answer": "Seulement si elle est à portée Bluetooth (environ 30 mètres). Les apps de localisation Bluetooth sont faites pour les appareils égarés, pas pour la localisation à distance. En cas de vol, vérifiez si la marque propose une localisation réseau et portez plainte."
+        }
+      ],
+      "cta_title": "Le signal de votre enceinte est le plus facile à suivre",
+      "cta_text": "Scannez, sélectionnez votre enceinte et suivez le guidage chaud-froid. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-casque-bluetooth-perdu/",
+          "title": "Retrouver un casque ou des écouteurs Bluetooth"
+        },
+        {
+          "url": "/fr/guides/detecter-appareils-bluetooth-a-proximite/",
+          "title": "Détecter les appareils Bluetooth à proximité"
+        },
+        {
+          "url": "/fr/guides/retrouver-ecouteurs-eteints/",
+          "title": "Retrouver des écouteurs éteints ou déchargés"
+        }
+      ]
+    },
+    {
+      "slug": "detecter-appareils-bluetooth-a-proximite",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Détecter les appareils Bluetooth à proximité",
+      "meta_title": "Détecter les appareils Bluetooth à proximité sur iPhone",
+      "meta_description": "Voyez tous les appareils Bluetooth autour de vous sur iPhone : nom, fabricant, modèle et intensité du signal. Retrouvez ou identifiez un appareil.",
+      "keywords": "détecter appareils bluetooth à proximité, scanner bluetooth iphone, appareils bluetooth à proximité, voir appareils bluetooth autour de moi, détecter appareil bluetooth caché, application scanner bluetooth, localiser appareil bluetooth",
+      "h1": "Détecter les appareils Bluetooth à proximité avec l'iPhone",
+      "quick_answer": "Dans Réglages → Bluetooth, l'iPhone n'affiche que les appareils jumelés et ceux en mode jumelage – pas la vue d'ensemble. Une app de scanner Bluetooth comme « Retrouver appareil Bluetooth » affiche tous les appareils qui émettent à proximité, avec leur nom, fabricant, modèle et l'intensité du signal en direct. Vous pouvez ainsi retrouver des appareils perdus, identifier des appareils inconnus et voir ce qui émet réellement autour de vous.",
+      "sections": [
+        {
+          "title": "Ce que les Réglages de l'iPhone ne vous montrent pas",
+          "paragraphs": [
+            "iOS garde volontairement la liste Bluetooth des Réglages courte : vos appareils jumelés et les accessoires en mode jumelage. Autour de vous, beaucoup d'autres appareils émettent pourtant : écouteurs en veille, montres connectées, téléviseurs, bracelets d'activité, enceintes et appareils d'autres personnes. Rien de tout cela n'apparaît dans les Réglages.",
+            "Une app de scanner écoute les mêmes signaux Bluetooth Low Energy que votre iPhone reçoit de toute façon et les affiche tous : chaque appareil, l'intensité de son signal et ses informations d'identification lorsque l'appareil les transmet."
+          ]
+        },
+        {
+          "title": "Ce que vous pouvez faire avec un scan complet",
+          "paragraphs": [
+            "La liste du scan est utile dans de nombreuses situations du quotidien :"
+          ],
+          "list": [
+            "Retrouver un appareil perdu : repérer vos écouteurs ou votre montre dans la liste et les localiser grâce à l'intensité du signal",
+            "Identifier un appareil inconnu : le fabricant et le modèle révèlent ce qui se cache derrière un signal sans nom",
+            "Vérifier une pièce : voir ce qui émet dans une location de vacances, une chambre d'hôtel ou une salle de réunion – y compris des appareils Bluetooth cachés",
+            "Confirmer qu'un appareil est actif : s'il émet, il est allumé et à portée – cela réduit immédiatement toute recherche",
+            "Observer le signal : si l'intensité augmente quand vous marchez, vous vous rapprochez de la source"
+          ]
+        }
+      ],
+      "steps_title": "Scanner les appareils à proximité avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Ouvrez l'app et scannez",
+          "description": "« Retrouver appareil Bluetooth » détecte immédiatement : tous les appareils qui émettent à portée apparaissent dans une liste en direct."
+        },
+        {
+          "title": "Lisez selon l'intensité du signal",
+          "description": "Les signaux les plus forts sont physiquement les plus proches. Les appareils dans votre poche sont en haut, les appareils éloignés en bas."
+        },
+        {
+          "title": "Consultez les détails de l'appareil",
+          "description": "Touchez une entrée pour voir le nom, le fabricant et le modèle quand ils sont disponibles – en général suffisant pour savoir exactement de quoi il s'agit."
+        },
+        {
+          "title": "Localisez l'appareil recherché",
+          "description": "Sélectionnez un appareil et utilisez le guidage chaud-froid et le pourcentage de proximité pour aller droit à son emplacement."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Pourquoi mon iPhone n'affiche-t-il pas tous les appareils Bluetooth dans les Réglages ?",
+          "answer": "C'est voulu : les Réglages d'iOS n'affichent que les appareils jumelés et les accessoires en mode jumelage. Pour voir tous les signaux à proximité, il faut une app de scanner qui lit directement les signaux Bluetooth Low Energy."
+        },
+        {
+          "question": "Un scanner Bluetooth voit-il les appareils qui ne sont pas en mode jumelage ?",
+          "answer": "Oui, c'est précisément son rôle. La plupart des appareils Bluetooth se signalent en continu quand ils sont allumés, pas seulement lors du jumelage. Un scanner affiche ces signaux avec leur intensité et les détails de l'appareil."
+        },
+        {
+          "question": "Scanner les appareils Bluetooth est-il légal et respectueux de la vie privée ?",
+          "answer": "Oui. Le scan reçoit passivement des signaux publics que les appareils émettent volontairement pour tous – les mêmes que votre téléphone traite en permanence. L'app ne se connecte pas aux appareils des autres et ne modifie rien. Le scan s'effectue sur votre iPhone."
+        }
+      ],
+      "cta_title": "Voyez tout ce qui émet autour de vous",
+      "cta_text": "Scannez, identifiez et localisez n'importe quel appareil Bluetooth à proximité. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-airpods-perdus/",
+          "title": "Retrouver des AirPods perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-montre-connectee-perdue/",
+          "title": "Retrouver une montre connectée perdue"
+        },
+        {
+          "url": "/fr/guides/retrouver-casque-bluetooth-perdu/",
+          "title": "Retrouver un casque ou des écouteurs Bluetooth"
+        }
+      ]
+    },
+    {
+      "slug": "retrouver-boitier-airpods-perdu",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "Retrouver un boîtier AirPods",
+      "meta_title": "Boîtier AirPods perdu : peut-on le localiser ?",
+      "meta_description": "Boîtier AirPods perdu, avec ou sans écouteurs ? Quand on peut le localiser (AirPods Pro 2, couvercle ouvert), quand on ne peut pas, et que faire.",
+      "keywords": "boîtier airpods perdu, retrouver boîtier airpods, localiser boîtier airpods, étui airpods perdu, boîtier de charge airpods perdu, retrouver boîtier airpods sans écouteurs, localiser boîtier airpods pro",
+      "h1": "Boîtier AirPods perdu : peut-on le retrouver ?",
+      "quick_answer": "Tout dépend du modèle. Le boîtier des AirPods Pro 2 possède son propre haut-parleur et se localise dans « Localiser » – utilisez « Localiser » et émettez un son. Les boîtiers standard n'ont aucune électronique de localisation, et un boîtier fermé met les AirPods qu'il contient en veille : rien n'émet. Vos options : les moments où le couvercle est ouvert (les AirPods émettent alors brièvement), la recherche via les écouteurs s'ils sont dehors, et une recherche physique bien menée.",
+      "sections": [
+        {
+          "title": "Pourquoi le boîtier est la perte la plus difficile",
+          "paragraphs": [
+            "Le boîtier de charge n'est au fond qu'une batterie avec un couvercle. Sur tous les modèles sauf le boîtier des AirPods Pro 2 (et plus récents), il n'a ni haut-parleur ni entrée propre dans « Localiser » – Apple localise les écouteurs, pas la boîte. Quand les écouteurs sont dedans, couvercle fermé, ils passent en veille et coupent ainsi les seuls émetteurs de l'ensemble.",
+            "C'est pourquoi « boîtier perdu avec les AirPods dedans » est le cas le plus difficile, et un conseil honnête compte : aucune app de localisation Bluetooth ne peut détecter un boîtier complètement fermé et endormi. Vous pouvez en revanche profiter des moments où l'ensemble émet."
+          ]
+        },
+        {
+          "title": "Quand un boîtier perdu PEUT être retrouvé",
+          "paragraphs": [
+            "Trois situations remettent un signal dans l'air :"
+          ],
+          "list": [
+            "Boîtier des AirPods Pro 2 ou plus récent : directement dans « Localiser » – émettez un son et suivez les bips",
+            "Couvercle ouvert : si le couvercle est ouvert (ou entrouvert dans un sac), les écouteurs se réveillent et émettent en Bluetooth – un scanner peut les détecter",
+            "Boîtier vide, écouteurs avec vous : il n'y a rien à localiser, mais le boîtier est là où vous l'avez rechargé ou rangé en dernier – cela réduit fortement la recherche"
+          ]
+        }
+      ],
+      "steps_title": "Retrouver un boîtier AirPods avec « Retrouver appareil Bluetooth »",
+      "steps": [
+        {
+          "title": "Vérifiez d'abord « Localiser »",
+          "description": "Pour les AirPods Pro 2 et plus récents, sélectionnez le boîtier et émettez un son. Pour les autres modèles, notez la dernière position connue des écouteurs – le boîtier est généralement avec eux."
+        },
+        {
+          "title": "Scannez avec l'app",
+          "description": "Scannez la zone de recherche. Si le couvercle est ouvert ou entrouvert, les écouteurs à l'intérieur émettent peut-être – s'ils apparaissent, suivez le guidage chaud-froid."
+        },
+        {
+          "title": "Vérifiez les points de charge et les poches",
+          "description": "Pas de signal ? Les boîtiers finissent dans des endroits prévisibles : chargeurs, bords de bureau, poches de veste et de pantalon, poches latérales de sac, porte-gobelets de voiture et interstices du canapé."
+        },
+        {
+          "title": "Relancez un scan après chaque zone fouillée",
+          "description": "Un sac secoué ou des coussins déplacés peuvent ouvrir un couvercle. Relancez un scan après chaque zone fouillée."
+        },
+        {
+          "title": "Évitez la prochaine perte",
+          "description": "Gardez une app de localisation Bluetooth installée et pensez à un boîtier compatible « Localiser » – une énorme différence le jour où il faut chercher."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on localiser un boîtier AirPods vide ?",
+          "answer": "Pas les boîtiers standard (AirPods 2/3, AirPods Pro de première génération) : un boîtier vide et fermé n'a pas d'émetteur actif. L'exception est le boîtier des AirPods Pro 2 et plus récents : il est compatible « Localiser » et dispose d'un haut-parleur intégré pour émettre un son."
+        },
+        {
+          "question": "Le boîtier émet-il en Bluetooth quand les AirPods sont dedans ?",
+          "answer": "Seulement couvercle ouvert : les écouteurs se réveillent alors et émettent brièvement. Couvercle fermé, tout dort et rien n'est détectable. C'est pourquoi un scan peut fonctionner pour un boîtier ouvert dans un sac, mais pas pour un boîtier fermé."
+        },
+        {
+          "question": "J'ai retrouvé le boîtier mais il manque un écouteur – que faire ?",
+          "answer": "C'est le cas facile : l'écouteur manquant émet lui-même tant qu'il a de la batterie. Lisez notre guide sur l'AirPod seul : rangez l'écouteur retrouvé dans le boîtier et localisez l'autre grâce à son signal."
+        }
+      ],
+      "cta_title": "Mettez toutes les chances de votre côté",
+      "cta_text": "Scannez dès que le couvercle a pu s'ouvrir et suivez le guidage chaud-froid. Gratuit dans l'App Store.",
+      "related": [
+        {
+          "url": "/fr/guides/retrouver-un-airpod-perdu/",
+          "title": "Retrouver un seul AirPod perdu"
+        },
+        {
+          "url": "/fr/guides/retrouver-airpods-perdus/",
+          "title": "Retrouver des AirPods perdus"
+        },
+        {
+          "url": "/fr/guides/retrouver-airpods-sans-localiser/",
+          "title": "Retrouver des AirPods sans « Localiser »"
+        }
+      ]
+    }
+  ]
+}

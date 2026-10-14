@@ -922,3 +922,13 @@
       }
     }
   
+/* Japanese pages: CJK font fallbacks (Inter / Space Grotesk have no kana/kanji) + Japanese line breaking */
+html:lang(ja) body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', 'Meiryo', sans-serif;
+      line-break: strict;
+      overflow-wrap: anywhere;
+}
+html:lang(ja) h1, html:lang(ja) h2, html:lang(ja) h3, html:lang(ja) h4 {
+      font-family: 'Space Grotesk', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', 'Meiryo', sans-serif;
+      letter-spacing: 0;
+}

@@ -1,0 +1,892 @@
+{
+  "shared": {
+    "lang": "vi",
+    "og_locale": "vi_VN",
+    "date_locale": "vi-VN",
+    "home_url": "/vi/",
+    "guides_url": "/vi/huong-dan/",
+    "guides_path": "vi/huong-dan",
+    "site_name": "Bluetooth Finder",
+    "nav_name": "Bluetooth Finder",
+    "labels": {
+      "home": "Trang chủ",
+      "guides": "Hướng dẫn",
+      "logo_alt": "Biểu tượng ứng dụng Bluetooth Finder",
+      "nav_cta": "Tải ứng dụng",
+      "quick_answer": "Trả lời nhanh",
+      "tips_title": "Mẹo tăng khả năng tìm thấy",
+      "faq_title": "Câu hỏi thường gặp",
+      "related_title": "Hướng dẫn liên quan",
+      "read_label": "Đọc hướng dẫn →",
+      "updated": "Cập nhật lần cuối",
+      "cta_button": "Tải về trên App Store",
+      "cta_aria": "Tải Bluetooth Finder về trên App Store"
+    },
+    "footer": {
+      "copyright": "© {year} Bluetooth Finder. Bảo lưu mọi quyền.",
+      "privacy_link": "Chính sách quyền riêng tư",
+      "terms_link": "Điều khoản sử dụng"
+    },
+    "hub": {
+      "h1": "Hướng dẫn: cách tìm thiết bị bị mất",
+      "meta_title": "Hướng dẫn tìm tai nghe Bluetooth, AirPods và đồng hồ bị mất",
+      "meta_description": "Hướng dẫn từng bước tìm AirPods, tai nghe không dây và chụp tai, đồng hồ thông minh và loa bị mất bằng iPhone – kể cả thiết bị không có trong ứng dụng Tìm.",
+      "intro_label": "Bạn sẽ thấy gì ở đây",
+      "intro": "Những hướng dẫn thực tế và trung thực cho mọi tình huống: AirPods có hoặc không có ứng dụng Tìm, mất 1 bên tai nghe, tai nghe Sony, JBL và Xiaomi, đồng hồ thông minh, loa và tình trạng hết pin. Mỗi hướng dẫn giải thích cách nào thực sự hiệu quả và chỉ cách tìm thiết bị bằng ứng dụng Bluetooth Finder trên iPhone.",
+      "cta_title": "Một ứng dụng cho mọi hướng dẫn trên trang này",
+      "cta_text": "Bluetooth Finder quét tín hiệu Bluetooth xung quanh và dẫn bạn tới mọi thiết bị đang bật bằng chỉ dẫn nóng–lạnh và phần trăm khoảng cách gần. Miễn phí, 24,2 MB, iOS 17.1 trở lên."
+    }
+  },
+  "guides": [
+    {
+      "slug": "cach-tim-airpods-bi-mat",
+      "en_slug": "how-to-find-lost-airpods",
+      "breadcrumb": "AirPods bị mất",
+      "meta_title": "Cách tìm AirPods bị mất (có và không có ứng dụng Tìm)",
+      "meta_description": "Mất AirPods? Xem vị trí trong ứng dụng Tìm, rồi đi theo tín hiệu Bluetooth theo thời gian thực cho đến khi cầm được chúng – kể cả khi không có Tìm.",
+      "keywords": "cách tìm airpods bị mất, tìm airpods, airpods thất lạc, airpods bị mất trong nhà, tìm airpods bằng iphone",
+      "h1": "Cách tìm AirPods bị mất nhanh nhất",
+      "quick_answer": "Nếu đã bật Tìm, hãy mở ứng dụng Tìm trước: ứng dụng hiển thị AirPods trên bản đồ và phát âm thanh, miễn là chúng ở ngoài hộp và còn pin. Nếu không dùng được Tìm, chỉ thấy vị trí cũ hoặc âm thanh quá nhỏ, hãy dùng ứng dụng tìm Bluetooth: AirPods đang bật phát tín hiệu Bluetooth, và khi đi theo cường độ tín hiệu, bạn sẽ tới đúng chỗ của chúng.",
+      "sections": [
+        {
+          "title": "Bắt đầu với ứng dụng Tìm – và hiểu giới hạn của nó",
+          "paragraphs": [
+            "Với AirPods đã ghép đôi với iPhone, bước đầu tiên là ứng dụng Tìm của Apple: Tìm > Thiết bị > AirPods của bạn, xem bản đồ và chạm Phát âm thanh nếu chúng ở gần. AirPods Pro 2 và đời mới hơn còn có Tìm ở gần với mũi tên chỉ hướng.",
+            "Có ba trường hợp thường gặp mà Tìm không giúp được. Vị trí trên bản đồ thường chỉ chính xác tới mức tòa nhà – không cho biết nằm dưới chiếc gối nào. Âm thanh nhỏ và không phát được khi AirPods nằm trong hộp. Còn nếu AirPods chưa từng được thêm vào Tìm, đang liên kết với Tài khoản Apple khác (mua lại) hoặc hiện Ngoại tuyến, ứng dụng đành chịu."
+          ]
+        },
+        {
+          "title": "Vì sao tín hiệu Bluetooth tìm được thứ Tìm không thấy",
+          "paragraphs": [
+            "Khi AirPods ở ngoài hộp và còn pin, mỗi bên tai nghe đều phát tín hiệu Bluetooth Low Energy. Trong nhà, tín hiệu đi được khoảng 10–30 mét và mạnh lên rõ rệt khi bạn lại gần.",
+            "Ứng dụng tìm Bluetooth đọc tín hiệu này trực tiếp – không cần Tài khoản Apple, không cần cài đặt và không cần mạng Tìm. Vì vậy đây là công cụ lý tưởng cho 30 mét cuối cùng: Tìm đưa bạn tới đúng phòng, tín hiệu đưa bạn tới đúng chiếc gối."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm AirPods bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Tải và mở ứng dụng",
+          "description": "Cài Bluetooth Finder từ App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên) và cho phép truy cập Bluetooth khi ứng dụng yêu cầu."
+        },
+        {
+          "title": "Quét thiết bị ở gần",
+          "description": "Bắt đầu quét. Mọi thiết bị Bluetooth đang bật trong phạm vi hiện ra kèm cường độ tín hiệu theo thời gian thực – tìm AirPods của bạn theo tên."
+        },
+        {
+          "title": "Chọn AirPods của bạn",
+          "description": "Chạm vào AirPods trong danh sách. Nếu không có tên, hãy xem trong thông tin thiết bị nhà sản xuất có phải Apple không."
+        },
+        {
+          "title": "Đi chậm quanh phòng",
+          "description": "Đi qua những phòng bạn dùng AirPods lần cuối. Chỉ báo chuyển từ lạnh sang ấm rồi nóng khi tín hiệu mạnh lên."
+        },
+        {
+          "title": "Nhặt lên khi hiện „rất nóng”",
+          "description": "Khi ứng dụng hiện „rất nóng” và phần trăm khoảng cách gần vượt 90%, AirPods nằm trong tầm tay: xem dưới gối, trong túi, túi xách và dưới đồ đạc."
+        }
+      ],
+      "tips": [
+        "Tìm từng phòng, ghi nhớ phần trăm cao nhất của mỗi phòng và tập trung vào phòng tốt nhất.",
+        "Cầm iPhone ở nhiều độ cao khác nhau: tín hiệu mạnh nhất khi không có gì chắn giữa bạn và thiết bị.",
+        "Trong hộp đóng nắp, AirPods ở chế độ nghỉ. Nếu nghĩ chúng nằm trong hộp, hãy xem vị trí cuối cùng trong ứng dụng Tìm.",
+        "Tìm càng sớm càng tốt: tai nghe ở ngoài hộp chỉ phát tín hiệu cho đến khi hết pin."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được AirPods bị mất mà không cần ứng dụng Tìm không?",
+          "answer": "Được, nếu chúng ở ngoài hộp và còn pin. AirPods phát tín hiệu Bluetooth mà ứng dụng tìm kiếm có thể theo dõi cường độ – không cần cài đặt Tìm và không cần tài khoản iCloud."
+        },
+        {
+          "question": "AirPods bị mất có thể thấy từ xa bao nhiêu?",
+          "answer": "Phạm vi Bluetooth trong nhà thường là 10–30 mét, tùy tường và nhiễu. Ngoài trời không có vật cản có thể xa hơn. Nếu không thấy gì, hãy sang phòng tiếp theo và quét lại."
+        },
+        {
+          "question": "AirPods có cần còn pin mới tìm được không?",
+          "answer": "Có. AirPods hết sạch pin không phát gì nữa, và không ứng dụng nào – kể cả Tìm – có thể thấy chúng theo thời gian thực. Nếu pin có thể đã hết, hãy tìm quanh vị trí cuối cùng trong Tìm và thỉnh thoảng quét lại."
+        }
+      ],
+      "cta_title": "AirPods của bạn có lẽ đang ở trong phạm vi",
+      "cta_text": "Quét rồi đi theo chỉ dẫn nóng–lạnh cho đến khi nhìn thấy chúng. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/tim-airpods-khong-can-ung-dung-tim/",
+          "title": "Tìm AirPods không cần ứng dụng Tìm"
+        },
+        {
+          "url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+          "title": "Mất 1 bên tai nghe AirPods"
+        },
+        {
+          "url": "/vi/huong-dan/tim-airpods-het-pin/",
+          "title": "AirPods hết pin hoặc đã tắt"
+        }
+      ]
+    },
+    {
+      "slug": "tim-airpods-khong-can-ung-dung-tim",
+      "en_slug": "find-airpods-without-find-my",
+      "breadcrumb": "AirPods không cần Tìm",
+      "meta_title": "Tìm AirPods không cần ứng dụng Tìm và không cần iCloud",
+      "meta_description": "Chưa từng bật Tìm, AirPods mua lại hay không vào được iCloud? Đây là cách tìm AirPods bằng iPhone qua tín hiệu Bluetooth, từng bước một.",
+      "keywords": "tìm airpods không cần ứng dụng tìm, airpods không có icloud, airpods mua lại bị mất, airpods không hiện trong tìm, tìm airpods không cần tài khoản apple",
+      "h1": "Cách tìm AirPods không cần ứng dụng Tìm",
+      "quick_answer": "Hoàn toàn được. Ứng dụng Tìm chỉ hoạt động với AirPods đã liên kết với Tài khoản Apple của bạn, nhưng AirPods nào đang bật và ở ngoài hộp cũng phát tín hiệu Bluetooth. Ứng dụng tìm Bluetooth như Bluetooth Finder đọc trực tiếp tín hiệu đó và dẫn bạn tới tai nghe bằng chỉ dẫn nóng–lạnh – không cần iCloud, không cần tài khoản và không cần cài đặt trước.",
+      "sections": [
+        {
+          "title": "Khi ứng dụng Tìm không giúp được",
+          "paragraphs": [
+            "Tìm chỉ hiển thị AirPods nếu chúng đã được liên kết trước với Tài khoản Apple của bạn. Chúng sẽ không có ở đó nếu bạn mua lại và vẫn còn gắn với chủ cũ, nếu bạn chưa từng bật Tìm, nếu bạn đang dùng iPhone của người khác hoặc quên mật khẩu Tài khoản Apple.",
+            "Ngay cả khi AirPods có trong Tìm, chúng thường hiện Ngoại tuyến hoặc vị trí từ nhiều giờ trước. Trong mọi trường hợp đó, vẫn còn một thứ hoạt động không phụ thuộc tài khoản: tín hiệu Bluetooth do chính tai nghe phát ra."
+          ]
+        },
+        {
+          "title": "Tìm theo tín hiệu Bluetooth hoạt động thế nào",
+          "paragraphs": [
+            "Khi ra khỏi hộp và còn pin, AirPods liên tục gửi các gói Bluetooth Low Energy ngắn. Bất kỳ điện thoại nào ở gần cũng nhận được – không cần là chủ sở hữu hay đã ghép đôi.",
+            "Bluetooth Finder đo cường độ tín hiệu này theo thời gian thực và chuyển thành phần trăm khoảng cách gần cùng các mức lạnh, ấm, nóng và rất nóng. Bạn sẽ không thấy chấm trên bản đồ, nhưng trong bán kính 10–30 mét bạn sẽ tới được tai nghe nhanh hơn nhiều so với lục tung nhà một cách ngẫu nhiên."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm AirPods không cần Tìm bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Cài Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên). Bạn không cần Tài khoản Apple liên kết với AirPods hay iCloud."
+        },
+        {
+          "title": "Quay lại nơi làm mất",
+          "description": "Đến nơi bạn dùng AirPods lần cuối – nhà, văn phòng, xe. Tín hiệu Bluetooth chỉ đi được 10–30 mét."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Mọi thiết bị Bluetooth đang bật ở gần hiện trong danh sách. AirPods thường có tên và nhà sản xuất hiển thị là Apple."
+        },
+        {
+          "title": "Đi theo chỉ dẫn nóng–lạnh",
+          "description": "Chọn AirPods và di chuyển chậm. Nếu chỉ báo chuyển từ lạnh sang nóng và phần trăm tăng, bạn đang đi đúng hướng."
+        },
+        {
+          "title": "Tìm quanh khi hiện „rất nóng”",
+          "description": "Trên 90%, tai nghe ở ngay cạnh bạn – xem khe sofa, túi áo, túi xách và dưới đồ đạc."
+        }
+      ],
+      "tips": [
+        "Nếu AirPods nằm trong hộp đóng nắp, chúng không phát tín hiệu – lúc đó vị trí cuối cùng và việc tìm kỹ chỗ đặt hộp sẽ giúp ích.",
+        "AirPods mua lại còn liên kết với tài khoản chủ cũ vẫn phát Bluetooth – ứng dụng quét vẫn thấy.",
+        "Tạm tắt các tai nghe khác ở gần để dễ nhận ra đúng thiết bị trong danh sách.",
+        "Sau khi tìm thấy, hãy bật Tìm trong Tài khoản Apple của bạn – lần sau bạn cũng sẽ thấy vị trí cuối cùng."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được AirPods mà không cần Tài khoản Apple không?",
+          "answer": "Được, khi ở gần. Tín hiệu Bluetooth được phát độc lập với tài khoản, nên ứng dụng tìm Bluetooth phát hiện AirPods đang bật ngoài hộp mà không cần đăng nhập hay iCloud."
+        },
+        {
+          "question": "Có tìm được AirPods mua lại không?",
+          "answer": "Được, nếu chúng đang bật và trong phạm vi. Việc liên kết với tài khoản chủ cũ chỉ chặn ứng dụng Tìm – không chặn tín hiệu Bluetooth mà Bluetooth Finder đọc."
+        },
+        {
+          "question": "Có dùng được nếu AirPods ở xa không?",
+          "answer": "Không. Bluetooth hoạt động trong bán kính khoảng 10–30 mét trong nhà. Để tìm AirPods bị mất ở xa, bạn cần mạng Tìm và liên kết trước với Tài khoản Apple."
+        }
+      ],
+      "cta_title": "Không tài khoản, không iCloud – chỉ cần tín hiệu",
+      "cta_text": "Quét xung quanh và đi theo chỉ dẫn nóng–lạnh tới AirPods của bạn. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+          "title": "Cách tìm AirPods bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+          "title": "Mất 1 bên tai nghe AirPods"
+        },
+        {
+          "url": "/vi/huong-dan/quet-bluetooth-iphone/",
+          "title": "Quét Bluetooth trên iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "mat-mot-ben-tai-nghe-airpods",
+      "en_slug": "find-one-lost-airpod",
+      "breadcrumb": "Mất 1 bên AirPods",
+      "meta_title": "Mất 1 bên tai nghe AirPods: cách tìm lại",
+      "meta_description": "Mất 1 bên tai nghe AirPods? Mỗi bên phát tín hiệu Bluetooth riêng. Đây là cách tìm tai nghe bên trái hoặc bên phải bằng iPhone, từng bước.",
+      "keywords": "mất 1 bên tai nghe airpods, mất một bên airpods, mất tai nghe airpods bên trái, mất tai nghe airpods bên phải, tìm 1 bên airpods",
+      "h1": "Mất 1 bên tai nghe AirPods – cách tìm lại",
+      "quick_answer": "Mỗi bên AirPods phát tín hiệu Bluetooth riêng khi ở ngoài hộp và còn pin. Cất bên còn lại vào hộp và đóng nắp để không bị nhiễu, sau đó quét xung quanh bằng Bluetooth Finder và đi theo chỉ dẫn nóng–lạnh – phần trăm khoảng cách gần tăng vọt khi bạn ở ngay cạnh bên tai nghe bị mất.",
+      "sections": [
+        {
+          "title": "Ứng dụng Tìm làm được gì với một bên tai nghe",
+          "paragraphs": [
+            "Trong ứng dụng Tìm, bạn có thể phát âm thanh riêng trên tai nghe bên trái hoặc bên phải – một bước đầu hữu ích nếu AirPods liên kết với Tài khoản Apple của bạn và bên đó còn pin.",
+            "Nhưng âm thanh khá nhỏ, và một bên tai nghe dễ dàng lẩn vào khe sofa, túi áo khoác hay chăn gối, nơi bạn không nghe thấy. Bản đồ cũng chỉ cho biết tới mức tòa nhà. Đây là lúc tín hiệu Bluetooth phát huy tác dụng, vì tai nghe vẫn phát tín hiệu dù không có tiếng."
+          ]
+        },
+        {
+          "title": "Vì sao bên còn lại nên nằm trong hộp",
+          "paragraphs": [
+            "Hai bên phát tín hiệu dưới cùng một tên. Nếu bên kia ở gần bạn, ứng dụng có thể hiển thị tín hiệu mạnh của nó thay vì bên bạn đang tìm.",
+            "Hãy cho bên còn lại vào hộp và đóng nắp – AirPods trong hộp đóng nắp sẽ ngừng phát. Như vậy danh sách chỉ còn bên bị mất, và mọi thay đổi phần trăm đều thuộc về nó."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm 1 bên AirPods bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Cất bên còn lại vào hộp",
+          "description": "Cho bên AirPods còn lại vào hộp và đóng nắp, để danh sách chỉ còn tín hiệu của bên bị mất."
+        },
+        {
+          "title": "Mở Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên) và bắt đầu quét ở nơi bạn dùng tai nghe lần cuối."
+        },
+        {
+          "title": "Chọn AirPods trong danh sách",
+          "description": "Bên bị mất hiện với tên AirPods của bạn hoặc nhà sản xuất là Apple."
+        },
+        {
+          "title": "Thu hẹp khu vực từng bước",
+          "description": "Đi chậm, dừng lại sau mỗi vài bước. Đi về phía chỉ báo chuyển từ ấm sang nóng."
+        },
+        {
+          "title": "Tìm thấp khi hiện „rất nóng”",
+          "description": "Trên 90%, tai nghe nằm trong tầm tay – xem khe sofa, gầm giường, túi áo và mũ áo khoác."
+        }
+      ],
+      "tips": [
+        "Tai nghe nằm trên sàn hay trong sofa có tín hiệu yếu hơn – hạ iPhone thấp xuống khi phần trăm ngừng tăng.",
+        "Tìm ngay: một bên tai nghe có pin nhỏ và sẽ ngừng phát sau vài giờ.",
+        "Kiểm tra cả những chỗ bạn tháo mũ, khăn hay áo hoodie – tai nghe hay rơi đúng lúc đó.",
+        "Nếu không tìm được, Apple có dịch vụ thay riêng một bên AirPods có tính phí."
+      ],
+      "faq": [
+        {
+          "question": "Một bên AirPods có phát tín hiệu không?",
+          "answer": "Có. Mỗi bên có mô-đun Bluetooth riêng và phát tín hiệu khi ở ngoài hộp và còn pin – vì vậy ứng dụng quét có thể phát hiện riêng từng bên."
+        },
+        {
+          "question": "Làm sao phân biệt bên trái và bên phải trong ứng dụng?",
+          "answer": "Hai bên phát dưới cùng một tên. Cách dễ nhất là cất bên còn lại vào hộp đóng nắp – khi đó tín hiệu AirPods duy nhất trong danh sách là của bên bị mất."
+        },
+        {
+          "question": "Nếu bên đó hết pin thì sao?",
+          "answer": "Tai nghe hết pin không phát tín hiệu nên không thể tìm theo thời gian thực. Hãy tìm quanh vị trí cuối cùng trong ứng dụng Tìm và thỉnh thoảng quét lại."
+        }
+      ],
+      "cta_title": "Tai nghe nhỏ, manh mối rõ",
+      "cta_text": "Quét xung quanh và để phần trăm khoảng cách gần dẫn bạn tới bên tai nghe bị mất. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+          "title": "Cách tìm AirPods bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-airpods-het-pin/",
+          "title": "AirPods hết pin hoặc đã tắt"
+        },
+        {
+          "url": "/vi/huong-dan/tim-hop-sac-airpods-bi-mat/",
+          "title": "Mất hộp sạc AirPods"
+        }
+      ]
+    },
+    {
+      "slug": "tim-airpods-het-pin",
+      "en_slug": "find-dead-airpods",
+      "breadcrumb": "AirPods hết pin",
+      "meta_title": "AirPods hết pin có tìm được không? Câu trả lời thật",
+      "meta_description": "Mất AirPods hay tai nghe khi đã hết pin? Không thể tìm theo thời gian thực. Điều thực sự hiệu quả: vị trí cuối cùng, quét lại và tìm có phương pháp.",
+      "keywords": "tìm airpods hết pin, tai nghe hết pin bị mất, tìm tai nghe bluetooth đã tắt, airpods ngoại tuyến, airpods không tìm thấy vị trí",
+      "h1": "AirPods hết pin hoặc đã tắt – có tìm được không",
+      "quick_answer": "Nói thật: AirPods đã hết pin hoặc tắt nguồn không thể tìm theo thời gian thực – chúng không phát tín hiệu nào mà ứng dụng có thể dùng, kể cả ứng dụng Tìm. Hãy xem vị trí cuối cùng trong Tìm, tìm kỹ ở đó và thỉnh thoảng quét bằng Bluetooth Finder: tai nghe còn chút pin thường thức dậy trong giây lát, đó là lúc bạn bắt được tín hiệu.",
+      "sections": [
+        {
+          "title": "Điều gì xảy ra khi hết pin",
+          "paragraphs": [
+            "AirPods chỉ phát Bluetooth khi còn điện. Khi pin về 0, tai nghe im lặng: không phát âm thanh, không cập nhật vị trí trên mạng Tìm và không xuất hiện trong bất kỳ ứng dụng quét nào. Trong ứng dụng Tìm, bạn sẽ thấy Ngoại tuyến, Không tìm thấy vị trí nào hoặc chỉ vị trí cuối cùng.",
+            "Tin tốt: „hết pin” hiếm khi là cạn kiệt hoàn toàn. Tai nghe thường tự tắt khi còn vài phần trăm và thức dậy chốc lát, ví dụ khi bị xê dịch. Vì vậy nên quét nhiều lần, không chỉ một lần."
+          ]
+        },
+        {
+          "title": "Vị trí cuối cùng là điểm xuất phát tốt nhất",
+          "paragraphs": [
+            "Nếu AirPods có trong Tìm, ứng dụng sẽ cho biết lần kết nối cuối ở đâu. Điều đó thu hẹp việc tìm kiếm về một căn nhà, một chiếc xe hay một văn phòng.",
+            "Sau đó hãy tìm có phương pháp: bắt đầu từ chỗ bạn ngồi hoặc thay đồ, kiểm tra chỗ thấp và các khe, và cứ vài phút lại quét lại bằng Bluetooth Finder. Chỉ một lần tín hiệu lóe lên kèm phần trăm khoảng cách gần là đủ để biết đúng phòng."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm AirPods hết pin với Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Xem vị trí cuối cùng",
+          "description": "Mở Tìm > Thiết bị > AirPods và ghi lại địa điểm, thời gian cuối cùng."
+        },
+        {
+          "title": "Cài đặt Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên)."
+        },
+        {
+          "title": "Quét theo từng đợt",
+          "description": "Bắt đầu quét tại vị trí cuối cùng và lặp lại sau mỗi vài phút trong lúc tìm quanh phòng."
+        },
+        {
+          "title": "AirPods hiện ra – đi theo tín hiệu ngay",
+          "description": "Nếu tai nghe thức dậy trong giây lát, hãy chọn và đi theo chỉ dẫn nóng–lạnh trước khi chúng tắt lại."
+        },
+        {
+          "title": "Chuẩn bị cho lần sau",
+          "description": "Khi tìm thấy, hãy sạc, bật Tìm và giữ Bluetooth Finder trên iPhone – lần sau chỉ mất hai phút."
+        }
+      ],
+      "tips": [
+        "Tìm ở nơi pin có thể đã cạn: trong buổi tập dài, trên chuyến đi hay khi ngủ quên đeo tai nghe.",
+        "Hộp sạc đóng nắp có tai nghe bên trong cũng không phát tín hiệu – hãy tìm bằng mắt và bằng tay trong túi xách, túi áo.",
+        "Nhờ người nhà đừng xê dịch đồ trong phòng cho đến khi bạn tìm kỹ xong.",
+        "Nếu vẫn không thấy, hãy hỏi quầy đồ thất lạc ở những nơi bạn đã đến – quán cà phê, phòng gym, phương tiện công cộng."
+      ],
+      "faq": [
+        {
+          "question": "Ứng dụng có tìm được AirPods hết sạch pin không?",
+          "answer": "Không. Không có điện, tai nghe không phát tín hiệu Bluetooth, nên không ứng dụng nào hay mạng Tìm có thể thấy chúng theo thời gian thực. Điều giúp được là vị trí cuối cùng và tìm kiếm có phương pháp."
+        },
+        {
+          "question": "„Ngoại tuyến” trong ứng dụng Tìm nghĩa là gì?",
+          "answer": "Nghĩa là AirPods đã không kết nối với thiết bị nào một thời gian – thường do hết pin hoặc nằm trong hộp đóng nắp. Bản đồ chỉ hiện địa điểm cuối cùng được biết."
+        },
+        {
+          "question": "Có tìm được tai nghe Bluetooth hãng khác đã tắt không?",
+          "answer": "Không theo thời gian thực. Tai nghe Sony, JBL hay Samsung đã tắt không phát tín hiệu. Hãy xem nơi kết nối cuối cùng trong ứng dụng của nhà sản xuất nếu có, rồi quét lại khi tai nghe được bật."
+        }
+      ],
+      "cta_title": "Lần sau, tìm thấy trong hai phút",
+      "cta_text": "Cài Bluetooth Finder ngay – khi tai nghe đang bật, ứng dụng dẫn bạn tới bằng chỉ dẫn nóng–lạnh. Miễn phí.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+          "title": "Cách tìm AirPods bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-hop-sac-airpods-bi-mat/",
+          "title": "Mất hộp sạc AirPods"
+        },
+        {
+          "url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+          "title": "Cách tìm tai nghe Bluetooth bị mất"
+        }
+      ]
+    },
+    {
+      "slug": "cach-tim-tai-nghe-bluetooth-bi-mat",
+      "en_slug": "find-lost-bluetooth-headphones",
+      "breadcrumb": "Tai nghe Bluetooth bị mất",
+      "meta_title": "Cách tìm tai nghe Bluetooth bị mất (Sony, JBL, Bose)",
+      "meta_description": "Cách tìm tai nghe Bluetooth bị mất bằng iPhone: lần theo tín hiệu Bluetooth của tai nghe Sony, JBL, Bose hay Beats – kể cả khi không có trong ứng dụng Tìm.",
+      "keywords": "cách tìm tai nghe bluetooth bị mất, tìm lại tai nghe bluetooth, tìm tai nghe bị mất, ứng dụng tìm tai nghe, tai nghe sony bị mất, tai nghe jbl bị mất, tai nghe chụp tai bị mất",
+      "h1": "Cách tìm tai nghe Bluetooth bị mất",
+      "quick_answer": "Nếu tai nghe còn bật và trong phạm vi, bạn có thể tìm qua tín hiệu Bluetooth. Mọi tai nghe đang bật – Sony, JBL, Bose, Beats, Sennheiser – đều phát tín hiệu mạnh dần khi bạn lại gần. Quét xung quanh bằng Bluetooth Finder, chọn tai nghe trong danh sách và đi theo chỉ dẫn nóng–lạnh cho đến khi phần trăm khoảng cách gần vượt 90%.",
+      "sections": [
+        {
+          "title": "Vì sao phần lớn tai nghe không có trong ứng dụng Tìm",
+          "paragraphs": [
+            "Ứng dụng Tìm của Apple hỗ trợ AirPods, một số mẫu Beats và một ít phụ kiện được chứng nhận cho mạng Tìm. Tai nghe Sony, JBL, Bose hay Sennheiser thường không có ở đó, còn ứng dụng của nhà sản xuất cùng lắm chỉ cho biết nơi kết nối với điện thoại lần cuối.",
+            "Vì vậy khi tìm „cách tìm tai nghe bluetooth bị mất”, bạn thường gặp những bài viết dừng lại ở ứng dụng Tìm. Nếu tai nghe của bạn không có trong đó, bạn cần một cách dùng được với mọi hãng: tín hiệu Bluetooth."
+          ]
+        },
+        {
+          "title": "Tín hiệu dẫn bạn tới tai nghe như thế nào",
+          "paragraphs": [
+            "Tai nghe Bluetooth đang bật phát tín hiệu đều đặn – nhất là khi không kết nối với điện thoại và đang tìm kết nối. Trong nhà, tín hiệu đi được 10–30 mét.",
+            "Bluetooth Finder hiển thị tín hiệu này kèm tên, nhà sản xuất và kiểu máy, rồi chuyển cường độ thành phần trăm khoảng cách gần và các mức lạnh, ấm, nóng, rất nóng. Tai nghe chụp tai có ăng-ten lớn hơn tai nghe nhét tai nên thường phát hiện được từ xa hơn."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm tai nghe bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Ngắt kết nối tai nghe với điện thoại",
+          "description": "Trong Cài đặt > Bluetooth, ngắt kết nối tai nghe (đừng xóa). Tai nghe không kết nối phát tín hiệu dày hơn và dễ phát hiện hơn."
+        },
+        {
+          "title": "Mở Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên) và bắt đầu quét."
+        },
+        {
+          "title": "Tìm tai nghe trong danh sách",
+          "description": "Tìm tên mẫu (ví dụ WH-1000XM5, Tune 510BT, QC45) hoặc nhà sản xuất – Sony, JBL, Bose."
+        },
+        {
+          "title": "Đi theo chỉ dẫn nóng–lạnh",
+          "description": "Đi từ phòng này sang phòng khác. Chỗ nào chỉ báo chuyển từ lạnh sang nóng là bạn đang lại gần."
+        },
+        {
+          "title": "Tìm quanh khi hiện „rất nóng”",
+          "description": "Trên 90%, tai nghe ở ngay cạnh bạn – xem dưới gối, sau sofa, trong balo và tủ."
+        }
+      ],
+      "tips": [
+        "Nếu tai nghe tự tắt, hãy tìm nhanh – sau vài phút không kết nối nó có thể tắt.",
+        "Xem ứng dụng của nhà sản xuất (ví dụ Sony Headphones Connect): đôi khi có hiển thị nơi kết nối cuối cùng.",
+        "Tai nghe chụp tai đang bật trong túi đựng hay balo vẫn phát tín hiệu – vải chỉ làm tín hiệu yếu đi một chút.",
+        "Khi phần trăm ngừng tăng, hãy đổi độ cao của iPhone và xoay chậm tại chỗ."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được tai nghe không có trong ứng dụng Tìm không?",
+          "answer": "Được, nếu tai nghe đang bật và trong phạm vi. Bluetooth Finder đọc tín hiệu Bluetooth của mọi hãng – không cần đăng ký trong Tìm hay tài khoản nhà sản xuất."
+        },
+        {
+          "question": "Tai nghe có cần ghép đôi với iPhone của tôi không?",
+          "answer": "Không. Ứng dụng quét thấy mọi thiết bị Bluetooth đang bật trong phạm vi. Ngắt kết nối tai nghe khỏi điện thoại thậm chí còn giúp ích, vì tai nghe sẽ phát tín hiệu dày hơn."
+        },
+        {
+          "question": "Làm sao tìm tai nghe đã tắt?",
+          "answer": "Tai nghe đã tắt không phát tín hiệu nên không thể tìm theo thời gian thực. Hãy xem nơi kết nối cuối cùng trong ứng dụng của nhà sản xuất và tìm kỹ ở đó."
+        }
+      ],
+      "cta_title": "Tìm tai nghe của bạn – mọi hãng",
+      "cta_text": "Quét xung quanh và đi theo tín hiệu tới tai nghe Sony, JBL, Bose hay Beats. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/tim-tai-nghe-khong-day-bi-mat/",
+          "title": "Tai nghe không dây bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-airpods-het-pin/",
+          "title": "AirPods hết pin hoặc đã tắt"
+        },
+        {
+          "url": "/vi/huong-dan/quet-bluetooth-iphone/",
+          "title": "Quét Bluetooth trên iPhone"
+        }
+      ]
+    },
+    {
+      "slug": "tim-tai-nghe-khong-day-bi-mat",
+      "en_slug": "find-lost-earbuds",
+      "breadcrumb": "Tai nghe không dây",
+      "meta_title": "Tai nghe không dây bị mất: tìm Galaxy Buds, Xiaomi, JBL",
+      "meta_description": "Mất tai nghe không dây Galaxy Buds, Xiaomi, JBL hay AirPods? Đây là cách tìm bằng iPhone qua tín hiệu Bluetooth – một cách cho mọi hãng.",
+      "keywords": "tai nghe không dây bị mất, tìm tai nghe không dây, tai nghe tws bị mất, galaxy buds bị mất, tai nghe xiaomi bị mất, mất 1 bên tai nghe không dây",
+      "h1": "Cách tìm tai nghe không dây bị mất",
+      "quick_answer": "Tai nghe không dây đang bật và ở ngoài hộp sẽ phát tín hiệu Bluetooth khi còn pin – bất kể hãng nào. Quét xung quanh bằng Bluetooth Finder, chọn tai nghe theo tên hoặc nhà sản xuất và đi theo chỉ dẫn nóng–lạnh. Khi phần trăm khoảng cách gần vượt 90%, tai nghe nằm trong tầm tay.",
+      "sections": [
+        {
+          "title": "Một cách cho mọi hãng",
+          "paragraphs": [
+            "Galaxy Buds có thể tìm bằng SmartThings Find, AirPods bằng ứng dụng Tìm, nhiều hãng khác cũng có ứng dụng riêng – nhưng chỉ khi bạn dùng điện thoại cùng hãng và đã thiết lập từ trước. Dùng iPhone với tai nghe Samsung, Xiaomi hay JBL thì thường không có công cụ nào.",
+            "Tín hiệu Bluetooth là điểm chung của tất cả. Mọi tai nghe không dây đều phát theo cùng một cách, nên Bluetooth Finder hoạt động như nhau với Galaxy Buds, Redmi Buds, JBL Tune, Sony WF, Soundcore và AirPods."
+          ]
+        },
+        {
+          "title": "Tai nghe không dây hay bị mất ở đâu",
+          "paragraphs": [
+            "Tai nghe không dây nhỏ và nhẹ: rơi ra khi bạn cởi mũ áo, mũ bảo hiểm hay áo hoodie, lọt vào khe sofa và giữa các ghế xe, bị bỏ quên trong túi áo khoác hay túi tập gym.",
+            "Phần lớn trường hợp, chúng nằm cách nơi bạn dùng lần cuối chỉ vài mét. Đó chính là phạm vi lý tưởng để tìm qua tín hiệu Bluetooth."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm tai nghe không dây bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Tải Bluetooth Finder",
+          "description": "Cài ứng dụng từ App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên) và cho phép truy cập Bluetooth."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Mọi thiết bị Bluetooth đang bật ở gần hiện ra kèm cường độ tín hiệu. Tìm tên mẫu hoặc nhà sản xuất: Samsung, Xiaomi, JBL."
+        },
+        {
+          "title": "Chọn tai nghe của bạn",
+          "description": "Nếu chỉ mất một bên, hãy cất bên còn lại vào hộp đóng nắp để không làm nhiễu kết quả."
+        },
+        {
+          "title": "Đi theo chỉ dẫn nóng–lạnh",
+          "description": "Di chuyển chậm. Chỉ báo chuyển từ lạnh sang ấm rồi nóng, và phần trăm khoảng cách gần tăng lên."
+        },
+        {
+          "title": "Tìm quanh khi hiện „rất nóng”",
+          "description": "Trên 90%, hãy xem khe sofa, túi áo, mũ áo, sàn xe và túi xách."
+        }
+      ],
+      "tips": [
+        "Ngắt kết nối tai nghe khỏi điện thoại trong Cài đặt > Bluetooth – khi không kết nối, tai nghe phát tín hiệu dày hơn.",
+        "Trên ô tô, hãy quét lần lượt từ từng ghế: thân xe bằng kim loại làm tín hiệu thay đổi nhiều.",
+        "Tai nghe trong hộp đóng nắp thường không phát tín hiệu – nếu mất cả hộp, hãy tìm ở nơi dùng lần cuối.",
+        "Tìm ngay: pin tai nghe không dây ở chế độ chờ chỉ kéo dài vài giờ."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được Galaxy Buds bằng iPhone không?",
+          "answer": "Được, nếu đang bật và ở ngoài hộp. Galaxy Buds phát Bluetooth như mọi tai nghe khác, và Bluetooth Finder phát hiện được mà không cần ứng dụng của Samsung."
+        },
+        {
+          "question": "Có phát hiện được tai nghe trong hộp không?",
+          "answer": "Thường là không. Phần lớn tai nghe không dây tắt Bluetooth khi ở trong hộp đóng nắp. Khi mở nắp hộp, tai nghe thức dậy và có thể được phát hiện."
+        },
+        {
+          "question": "Cần ở gần đến đâu để thấy tai nghe trong danh sách?",
+          "answer": "Thường là 10–30 mét trong nhà. Tai nghe nhét tai có ăng-ten yếu hơn tai nghe chụp tai, nên hãy bắt đầu quét gần nơi bạn dùng lần cuối."
+        }
+      ],
+      "cta_title": "Mọi hãng, một ứng dụng",
+      "cta_text": "Quét xung quanh và đi theo tín hiệu tới tai nghe không dây của bạn. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+          "title": "Cách tìm tai nghe Bluetooth bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+          "title": "Mất 1 bên tai nghe AirPods"
+        },
+        {
+          "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+          "title": "Cách tìm AirPods bị mất"
+        }
+      ]
+    },
+    {
+      "slug": "tim-dong-ho-thong-minh-bi-mat",
+      "en_slug": "find-lost-smartwatch",
+      "breadcrumb": "Đồng hồ thông minh",
+      "meta_title": "Đồng hồ thông minh hoặc Mi Band bị mất: cách tìm",
+      "meta_description": "Mất đồng hồ thông minh, Mi Band, Huawei hay Garmin? Đây là cách tìm bằng iPhone trong nhà, trên xe hoặc trong túi tập gym qua tín hiệu Bluetooth.",
+      "keywords": "đồng hồ thông minh bị mất, tìm đồng hồ thông minh, mi band bị mất, tìm mi band, vòng đeo tay thông minh bị mất, đồng hồ garmin bị mất",
+      "h1": "Cách tìm đồng hồ thông minh hoặc vòng đeo tay bị mất",
+      "quick_answer": "Đồng hồ thông minh và vòng đeo tay phát Bluetooth gần như liên tục để đồng bộ với điện thoại – nên rất dễ phát hiện. Quét xung quanh bằng Bluetooth Finder, chọn đồng hồ theo tên hoặc nhà sản xuất (Xiaomi, Huawei, Garmin, Amazfit) và đi theo chỉ dẫn nóng–lạnh tới tín hiệu mạnh nhất.",
+      "sections": [
+        {
+          "title": "Ứng dụng của nhà sản xuất làm được gì",
+          "paragraphs": [
+            "Apple Watch có thể tìm trong ứng dụng Tìm, Galaxy Watch trong SmartThings Find. Mi Band, Huawei, Garmin hay Amazfit thường chỉ có chức năng „tìm vòng đeo” để làm nó rung – nhưng chỉ khi còn kết nối với điện thoại, và tiếng rung rất khó nghe khi nằm dưới gối.",
+            "Nếu vòng đeo đã mất kết nối, ứng dụng của nhà sản xuất không giúp được nữa. Nhưng tín hiệu Bluetooth mà đồng hồ vẫn tiếp tục phát thì vẫn đọc được."
+          ]
+        },
+        {
+          "title": "Vì sao đồng hồ dễ tìm qua tín hiệu",
+          "paragraphs": [
+            "Thiết bị đeo phát tín hiệu thường xuyên và đều đặn vì luôn cố gửi số bước, nhịp tim và thông báo. Trong Bluetooth Finder, chúng thường hiện tên đầy đủ, ví dụ „Xiaomi Smart Band 8” hoặc „HUAWEI WATCH FIT”.",
+            "Pin của chúng dùng được nhiều ngày, nên kể cả đồng hồ mất từ hôm qua thường vẫn đang phát tín hiệu. Điều đó cho bạn nhiều thời gian hơn so với tai nghe."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm đồng hồ thông minh bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Cài đặt Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên)."
+        },
+        {
+          "title": "Ngắt kết nối ứng dụng đồng hồ",
+          "description": "Tạm tắt đồng bộ hoặc Bluetooth trong ứng dụng đồng hồ – đồng hồ không kết nối phát tín hiệu dày hơn và dễ tìm hơn."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Tìm tên mẫu hoặc nhà sản xuất: Xiaomi, Huawei, Garmin, Amazfit."
+        },
+        {
+          "title": "Đi theo chỉ dẫn nóng–lạnh",
+          "description": "Đi từ phòng này sang phòng khác và theo dõi phần trăm khoảng cách gần. Chọn phòng có giá trị cao nhất."
+        },
+        {
+          "title": "Tìm quanh khi hiện „rất nóng”",
+          "description": "Xem túi tập gym, túi áo, chăn gối, phòng tắm và chỗ bạn tháo đồng hồ ra sạc."
+        }
+      ],
+      "tips": [
+        "Đồng hồ hay bị bỏ quên trong phòng tắm, cạnh bồn rửa và trên tủ đầu giường – hãy bắt đầu từ đó.",
+        "Nếu là Apple Watch, hãy dùng Tìm > Thiết bị > Phát âm thanh trước.",
+        "Trong phòng thay đồ ở phòng gym có nhiều người đeo đồng hồ – hãy kiểm tra tên và kiểu máy để theo đúng chiếc của mình.",
+        "Đồng hồ dưới nệm hoặc trong ngăn kéo có tín hiệu yếu hơn – hãy hạ iPhone thấp xuống."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được Mi Band bằng iPhone không?",
+          "answer": "Được, nếu còn pin và trong phạm vi. Mi Band phát Bluetooth như mọi vòng đeo khác, và Bluetooth Finder phát hiện được mà không cần ứng dụng của Xiaomi."
+        },
+        {
+          "question": "Có tìm được đồng hồ Huawei hay Garmin mà không cần ứng dụng của hãng không?",
+          "answer": "Được. Ứng dụng tìm Bluetooth đọc tín hiệu của đồng hồ trực tiếp, nên không cần kết nối với Huawei Health hay Garmin Connect."
+        },
+        {
+          "question": "Đồng hồ thông minh bị mất sẽ phát tín hiệu trong bao lâu?",
+          "answer": "Thường là cho đến khi hết pin – từ một ngày đến vài tuần, tùy mẫu. Vòng đeo tay thông minh thường dùng lâu hơn đồng hồ thông minh màn hình lớn."
+        }
+      ],
+      "cta_title": "Đồng hồ của bạn vẫn đang phát tín hiệu",
+      "cta_text": "Quét xung quanh và đi theo tín hiệu tới đồng hồ hoặc vòng đeo tay. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/quet-bluetooth-iphone/",
+          "title": "Quét Bluetooth trên iPhone"
+        },
+        {
+          "url": "/vi/huong-dan/tim-tai-nghe-khong-day-bi-mat/",
+          "title": "Tai nghe không dây bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-loa-bluetooth-bi-mat/",
+          "title": "Loa Bluetooth bị mất"
+        }
+      ]
+    },
+    {
+      "slug": "tim-loa-bluetooth-bi-mat",
+      "en_slug": "find-lost-bluetooth-speaker",
+      "breadcrumb": "Loa Bluetooth bị mất",
+      "meta_title": "Loa Bluetooth hoặc loa JBL bị mất: cách tìm",
+      "meta_description": "Có tìm được loa JBL không? Có, nếu loa còn bật. Đây là cách tìm loa Bluetooth bị mất bằng iPhone qua cường độ tín hiệu, từng bước.",
+      "keywords": "loa bluetooth bị mất, tìm loa jbl, loa jbl bị mất, tìm loa bluetooth, loa di động bị mất, loa sony bị mất",
+      "h1": "Cách tìm loa Bluetooth bị mất",
+      "quick_answer": "Nếu loa còn bật, bạn có thể tìm được. Loa JBL, Sony, Bose hay Anker có bộ phát Bluetooth mạnh và thường hiện trong danh sách từ hầu hết mọi nơi trong nhà hoặc ngoài sân. Quét xung quanh bằng Bluetooth Finder, chọn loa và đi theo chỉ dẫn nóng–lạnh cho đến khi phần trăm khoảng cách gần đạt mức cao nhất.",
+      "sections": [
+        {
+          "title": "Thử âm thanh trước",
+          "paragraphs": [
+            "Nếu loa trong phạm vi và vẫn ghép đôi với điện thoại, hãy kết nối và bật nhạc – đó là cách nhanh nhất. Ứng dụng JBL Portable hay Sony Music Center cũng giúp được, nhưng chỉ khi đang kết nối.",
+            "Khi loa không kết nối được, đang tắt tiếng hoặc người khác đang kết nối, bạn cần cách khác: đi theo tín hiệu Bluetooth của nó."
+          ]
+        },
+        {
+          "title": "Vì sao loa dễ phát hiện",
+          "paragraphs": [
+            "Loa di động có pin lớn hơn và ăng-ten mạnh hơn tai nghe, nên tín hiệu đi xa hơn – trong nhà thường xuyên qua nhiều bức tường, ngoài sân có thể tới vài chục mét.",
+            "Điều đó có nghĩa loa sẽ hiện trong danh sách nhanh, nhưng cường độ tín hiệu thay đổi chậm hơn. Vì vậy với loa, nên so sánh phần trăm khoảng cách gần giữa các phòng thay vì từng bước."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm loa bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Cài đặt Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên)."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Tìm tên mẫu (ví dụ JBL Flip 6, JBL Charge 5, JBL Go 3, SRS-XB) hoặc nhà sản xuất."
+        },
+        {
+          "title": "So sánh các phòng",
+          "description": "Dừng ở mỗi phòng và ghi lại phần trăm khoảng cách gần. Chọn phòng có giá trị cao nhất."
+        },
+        {
+          "title": "Thu hẹp bằng chỉ dẫn nóng–lạnh",
+          "description": "Trong phòng tốt nhất, đi chậm cho đến khi chỉ báo hiện „rất nóng”."
+        },
+        {
+          "title": "Kiểm tra chỗ khuất",
+          "description": "Loa hay nằm trong tủ, gầm giường, cốp xe, túi đi biển hoặc nhà kho ngoài sân."
+        }
+      ],
+      "tips": [
+        "Nhiều loa tự tắt sau vài phút không dùng – hãy tìm nhanh khi loa còn phát tín hiệu.",
+        "Ngoài trời phạm vi rộng hơn, nên hãy đi một vòng quanh khu vực trước và xem phần trăm tăng ở đâu.",
+        "Nếu hàng xóm có cùng mẫu loa, hãy kiểm tra tên bạn đã đặt cho thiết bị.",
+        "Loa đang bật trong cốp xe đóng kín có tín hiệu yếu hơn hẳn – hãy lại gần hơn."
+      ],
+      "faq": [
+        {
+          "question": "Có tìm được loa JBL không?",
+          "answer": "Được, nếu loa đang bật và trong phạm vi Bluetooth. Bluetooth Finder hiển thị tín hiệu và dẫn bạn tới loa bằng chỉ dẫn nóng–lạnh. Loa đã tắt thì không thể tìm theo thời gian thực."
+        },
+        {
+          "question": "Loa Bluetooth có thể thấy từ xa bao nhiêu?",
+          "answer": "Trong nhà thường 15–30 mét, ngoài trời không vật cản thường xa hơn. Loa có ăng-ten mạnh hơn tai nghe."
+        },
+        {
+          "question": "Ứng dụng JBL có cho biết loa ở đâu không?",
+          "answer": "Ứng dụng của nhà sản xuất chủ yếu hoạt động khi đang kết nối và thường không hiển thị vị trí trên bản đồ. Ứng dụng quét Bluetooth hoạt động mà không cần kết nối."
+        }
+      ],
+      "cta_title": "Loa vẫn ở đó – chỉ đang im lặng",
+      "cta_text": "Quét xung quanh và đi theo tín hiệu mạnh của nó. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/quet-bluetooth-iphone/",
+          "title": "Quét Bluetooth trên iPhone"
+        },
+        {
+          "url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+          "title": "Cách tìm tai nghe Bluetooth bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-dong-ho-thong-minh-bi-mat/",
+          "title": "Đồng hồ thông minh hoặc Mi Band bị mất"
+        }
+      ]
+    },
+    {
+      "slug": "quet-bluetooth-iphone",
+      "en_slug": "bluetooth-scanner-iphone",
+      "breadcrumb": "Quét Bluetooth",
+      "meta_title": "Quét Bluetooth trên iPhone: xem thiết bị ở gần",
+      "meta_description": "Quét Bluetooth trên iPhone: xem mọi thiết bị Bluetooth ở gần kèm cường độ tín hiệu, nhà sản xuất và kiểu máy – rồi tìm thiết bị bạn cần.",
+      "keywords": "quét bluetooth iphone, ứng dụng quét bluetooth, thiết bị bluetooth gần đây, xem thiết bị bluetooth xung quanh, tìm thiết bị bluetooth, bluetooth scanner",
+      "h1": "Quét Bluetooth trên iPhone: xem các thiết bị quanh bạn",
+      "quick_answer": "Trong Cài đặt > Bluetooth, iPhone chỉ hiển thị thiết bị đã ghép đôi hoặc đang ở chế độ ghép đôi. Để thấy mọi thiết bị Bluetooth đang bật ở gần – kèm cường độ tín hiệu, tên, nhà sản xuất và kiểu máy – bạn cần ứng dụng quét như Bluetooth Finder. Chọn bất kỳ thiết bị nào trong danh sách, chỉ dẫn nóng–lạnh sẽ dẫn bạn tới đó.",
+      "sections": [
+        {
+          "title": "Những gì Cài đặt của iPhone không hiển thị",
+          "paragraphs": [
+            "Danh sách trong Cài đặt > Bluetooth là danh sách kết nối, không phải công cụ quét. Bạn thấy các thiết bị đã ghép đôi và những thiết bị đang ở chế độ ghép đôi – nhưng không thấy tai nghe của hàng xóm, chiếc đồng hồ quên trong ngăn kéo hay cường độ tín hiệu.",
+            "Ứng dụng quét đọc mọi gói Bluetooth Low Energy trong phạm vi. Nhờ vậy bạn thấy thực sự có gì đang phát quanh mình và ước lượng được nó gần đến mức nào."
+          ]
+        },
+        {
+          "title": "Cách đọc cường độ tín hiệu",
+          "paragraphs": [
+            "Cường độ tín hiệu (RSSI) giảm theo khoảng cách, nhưng cũng bị ảnh hưởng bởi tường, cơ thể và kim loại. Bluetooth Finder chuyển giá trị này thành phần trăm khoảng cách gần dễ hiểu và các mức lạnh, ấm, nóng, rất nóng, nên bạn không cần đọc số dBm.",
+            "Quan trọng nhất là xu hướng: nếu phần trăm tăng khi bạn đi về một hướng, bạn đang lại gần. Trên 90%, thiết bị thường nằm trong tầm tay."
+          ]
+        }
+      ],
+      "steps_title": "Cách quét thiết bị Bluetooth bằng Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Cài Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên) và cho phép truy cập Bluetooth."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Sau vài giây, bạn sẽ thấy danh sách mọi thiết bị Bluetooth đang bật trong phạm vi kèm cường độ tín hiệu theo thời gian thực."
+        },
+        {
+          "title": "Xem thông tin thiết bị",
+          "description": "Chạm vào thiết bị để xem tên, nhà sản xuất và kiểu máy – nhờ đó bạn nhận ra tai nghe, đồng hồ, loa và các thiết bị khác."
+        },
+        {
+          "title": "Chọn thiết bị cần tìm",
+          "description": "Khi thấy thiết bị bạn cần, chuyển sang chế độ tìm với chỉ dẫn nóng–lạnh."
+        },
+        {
+          "title": "Theo dõi phần trăm khoảng cách gần",
+          "description": "Đi về hướng phần trăm tăng cho đến khi chỉ báo hiện „rất nóng”."
+        }
+      ],
+      "tips": [
+        "Thiết bị không có tên thường là phụ kiện ở chế độ tiết kiệm pin – hãy xem nhà sản xuất trong thông tin thiết bị.",
+        "Đi vài bước và xem tín hiệu nào thay đổi – điều này giúp phân biệt thiết bị của bạn với thiết bị của hàng xóm.",
+        "Ứng dụng quét chỉ thấy thiết bị đang bật trong bán kính 10–30 mét trong nhà.",
+        "Bluetooth Finder không kết nối với thiết bị của người khác – chỉ đọc tín hiệu mà thiết bị phát công khai."
+      ],
+      "faq": [
+        {
+          "question": "Làm sao xem mọi thiết bị Bluetooth ở gần trên iPhone?",
+          "answer": "Dùng ứng dụng quét Bluetooth như Bluetooth Finder. Cài đặt của iPhone chỉ hiển thị thiết bị đã ghép đôi hoặc đang ở chế độ ghép đôi, còn ứng dụng quét hiển thị mọi thiết bị đang bật trong phạm vi."
+        },
+        {
+          "question": "Ứng dụng quét Bluetooth có hiển thị khoảng cách bằng mét không?",
+          "answer": "Không chính xác. Cường độ tín hiệu phụ thuộc vật cản, nên ứng dụng hiển thị phần trăm khoảng cách gần và mức nóng–lạnh thay cho mét. Như vậy là đủ để đi tới thiết bị."
+        },
+        {
+          "question": "Ứng dụng quét Bluetooth có hợp pháp và an toàn không?",
+          "answer": "Có. Ứng dụng chỉ nhận tín hiệu mà thiết bị tự phát công khai và không kết nối với chúng. Không cần tài khoản hay ghép đôi."
+        }
+      ],
+      "cta_title": "Xem những gì đang phát quanh bạn",
+      "cta_text": "Quét thiết bị Bluetooth ở gần và tìm thiết bị bạn cần. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-tai-nghe-bluetooth-bi-mat/",
+          "title": "Cách tìm tai nghe Bluetooth bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-dong-ho-thong-minh-bi-mat/",
+          "title": "Đồng hồ thông minh hoặc Mi Band bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-airpods-khong-can-ung-dung-tim/",
+          "title": "Tìm AirPods không cần ứng dụng Tìm"
+        }
+      ]
+    },
+    {
+      "slug": "tim-hop-sac-airpods-bi-mat",
+      "en_slug": "find-lost-airpods-case",
+      "breadcrumb": "Hộp sạc AirPods",
+      "meta_title": "Mất hộp sạc AirPods: có tìm được không? Câu trả lời thật",
+      "meta_description": "Mất hộp sạc AirPods? Khi nào tìm được, khi nào không và nên làm gì – với ứng dụng Tìm và ứng dụng quét Bluetooth trên iPhone.",
+      "keywords": "mất hộp sạc airpods, tìm hộp sạc airpods, mất hộp airpods, hộp sạc airpods pro bị mất, tìm hộp airpods bị mất",
+      "h1": "Mất hộp sạc AirPods – cách tìm",
+      "quick_answer": "Còn tùy đời máy và thứ bên trong. Hộp sạc của AirPods Pro 2 và đời mới hơn có loa riêng và có thể tìm trong ứng dụng Tìm. Hộp đóng nắp có tai nghe bên trong thường không phát gì, còn hộp sạc thường để trống không có bộ phát. Nếu nắp đang mở hoặc tai nghe ở gần, Bluetooth Finder sẽ phát hiện AirPods và dẫn bạn tới hộp.",
+      "sections": [
+        {
+          "title": "Hộp sạc nào tìm được",
+          "paragraphs": [
+            "Hộp sạc của AirPods Pro 2, AirPods 4 có chống ồn chủ động và các đời mới hơn có mô-đun mạng Tìm và loa riêng: trong ứng dụng Tìm bạn thấy hộp riêng trên bản đồ và có thể phát âm thanh. Nếu bạn có các mẫu này, đây là cách tốt nhất.",
+            "Hộp đời cũ (AirPods 1–3, AirPods Pro thế hệ 1) không tự phát tín hiệu. Chỉ có thể biết vị trí gián tiếp – qua tai nghe khi nằm bên trong và nắp mở, hoặc qua vị trí cuối cùng khi hộp kết nối với iPhone lần gần nhất."
+          ]
+        },
+        {
+          "title": "Khi nào ứng dụng quét Bluetooth giúp được",
+          "paragraphs": [
+            "Khi mở nắp hộp, AirPods thức dậy và phát tín hiệu Bluetooth – lúc đó Bluetooth Finder sẽ phát hiện, và bạn tới được hộp nhờ chỉ dẫn nóng–lạnh. Điều tương tự áp dụng khi tai nghe rơi ra khỏi hộp và nằm gần đó.",
+            "Nói thật: hộp đóng nắp có tai nghe bên trong hoặc hộp đời cũ để trống là thứ mà không ứng dụng quét nào nhìn thấy được. Khi đó, vị trí cuối cùng trong ứng dụng Tìm và việc tìm kỹ tại chỗ mới giúp được."
+          ]
+        }
+      ],
+      "steps_title": "Cách tìm hộp sạc AirPods với Bluetooth Finder",
+      "steps": [
+        {
+          "title": "Kiểm tra ứng dụng Tìm",
+          "description": "Tìm > Thiết bị: với AirPods Pro 2 và đời mới hơn, hộp sạc hiện riêng – hãy phát âm thanh trên hộp."
+        },
+        {
+          "title": "Cài đặt Bluetooth Finder",
+          "description": "Tải ứng dụng trên App Store (miễn phí, 24,2 MB, iOS 17.1 trở lên)."
+        },
+        {
+          "title": "Bắt đầu quét",
+          "description": "Nếu AirPods nằm trong hộp đang mở nắp hoặc ở gần hộp, chúng sẽ hiện trong danh sách với nhà sản xuất là Apple."
+        },
+        {
+          "title": "Đi theo chỉ dẫn nóng–lạnh",
+          "description": "Chọn AirPods và đi về phía chỉ báo chuyển từ lạnh sang nóng."
+        },
+        {
+          "title": "Không thấy gì thì tìm có phương pháp",
+          "description": "Bắt đầu từ vị trí cuối cùng: túi xách, túi áo khoác, xe, khe sofa – và thỉnh thoảng quét lại."
+        }
+      ],
+      "tips": [
+        "Hộp sạc thường mất cùng áo khoác hoặc túi xách – hãy kiểm tra mọi ngăn, kể cả ngăn trong.",
+        "Nếu vẫn còn tai nghe và chỉ mất hộp sạc, Apple có dịch vụ thay riêng hộp sạc có tính phí.",
+        "Khi tìm thấy, hãy bật Thông báo khi bị bỏ lại trong ứng dụng Tìm nếu mẫu của bạn hỗ trợ.",
+        "Trên xe, hộp sạc hay trượt xuống gầm ghế và hộc cửa."
+      ],
+      "faq": [
+        {
+          "question": "Hộp sạc AirPods đóng nắp có phát tín hiệu không?",
+          "answer": "Hộp đời cũ thì không. Hộp đóng nắp có tai nghe bên trong thường đưa tai nghe vào chế độ nghỉ. Ngoại lệ là hộp sạc của AirPods Pro 2 và đời mới hơn, có thể tìm trong ứng dụng Tìm."
+        },
+        {
+          "question": "Có tìm được hộp sạc AirPods để trống không?",
+          "answer": "Hộp trống của đời cũ không có bộ phát nên ứng dụng quét không phát hiện được. Điều giúp được là vị trí cuối cùng trong ứng dụng Tìm và tìm kiếm có phương pháp."
+        },
+        {
+          "question": "Có mua riêng hộp sạc AirPods được không?",
+          "answer": "Được, Apple có dịch vụ thay hộp sạc bị mất có tính phí cho hầu hết các mẫu AirPods."
+        }
+      ],
+      "cta_title": "Tai nghe ở gần hộp? Bạn sẽ tìm thấy",
+      "cta_text": "Quét xung quanh – nếu AirPods đang phát tín hiệu, chúng sẽ dẫn bạn tới hộp. Miễn phí, không cần cài đặt.",
+      "related": [
+        {
+          "url": "/vi/huong-dan/cach-tim-airpods-bi-mat/",
+          "title": "Cách tìm AirPods bị mất"
+        },
+        {
+          "url": "/vi/huong-dan/tim-airpods-het-pin/",
+          "title": "AirPods hết pin hoặc đã tắt"
+        },
+        {
+          "url": "/vi/huong-dan/mat-mot-ben-tai-nghe-airpods/",
+          "title": "Mất 1 bên tai nghe AirPods"
+        }
+      ]
+    }
+  ]
+}

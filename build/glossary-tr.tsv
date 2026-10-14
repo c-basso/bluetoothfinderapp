@@ -1,0 +1,29 @@
+key	en	tr-TR	notes
+app_name	Find Bluetooth Device (App Store name)	Bluetooth Finder	TR mağazası İngilizce adı gösteriyor; /tr/ üzerinde marka Bluetooth Finder, alternateName = Find Bluetooth Device
+address	you	siz	Apple TR ve eski /tr/ sayfası gibi
+hot_cold_guidance	hot & cold (guidance)	sıcak–soğuk yönlendirmesi; seviyeler: soğuk, ılık, sıcak, çok sıcak	Uygulama arayüzündeki gibi
+proximity_percent	proximity %	yakınlık yüzdesi	Yazım: %90
+signal_strength	signal strength	sinyal gücü	
+device_id_field	manufacturer, model, and name	ad, üretici ve model; cihaz bilgileri	
+scan	start a scan	taramayı başlatın	
+device	device	cihaz (metin); aygıt (yalnızca Apple arayüz etiketlerinde)	Aramalar „cihaz" kullanıyor; Apple „aygıt"
+find_my	Find My	Bul	Apple TR: Bul uygulaması, Bul ağı
+find_my_play_sound	Play Sound	Ses Çal	Apple TR
+precision_finding	Precision Finding	Yakındakini Bul	Apple TR (support.apple.com/tr-tr/109020)
+left_behind	Notify When Left Behind	Unutulduğunda Bildir	Apple TR
+devices_tab	Devices	Aygıtlar	Bul uygulamasındaki sekme
+offline	offline / no location found	Çevrimdışı / Konum bulunamadı	Apple TR
+apple_account	Apple Account	Apple Hesabı	
+settings_bluetooth	Settings > Bluetooth	Ayarlar > Bluetooth	
+left_right	left / right AirPod	sol / sağ kulaklık; sol teki / sağ teki	Aramalarda „sağ teki kayboldu"
+case	charging case	şarj kutusu; AirPods kutusu	Aramalar „airpods kutusu"
+app_store_cta	Download on the App Store	App Store'dan İndirin	Apple TR rozet metni
+nav_cta	Get the app	Uygulamayı indirin	
+headphones	headphones	kulaklık; kulak üstü kulaklık	
+earbuds	earbuds	kablosuz kulaklık; kulak içi kulaklık; TWS	
+speaker	Bluetooth speaker	Bluetooth hoparlör	„JBL hoparlör"
+smartwatch	smartwatch / fitness tracker	akıllı saat; akıllı bileklik	„Mi Band"
+dead	dead battery	şarjı bitmiş; kapalı	
+lost	lost	kaybolan; kayıp; kayboldu; nasıl bulunur	
+category_productivity	Productivity	Verimlilik	
+guides	guides	rehberler	URL /tr/rehberler/
