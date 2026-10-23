@@ -1,7 +1,10 @@
 /**
  * Google Search Console export → gsc/ (git-ignored).
  *
- * Usage: node build/gsc-report.js [days=90]
+ * Usage: node build/gsc-report.js [days=90]                 → last N days into gsc/
+ *        node build/gsc-report.js 2026-10-15 2026-11-12     → fixed range into gsc/2026-10-15_2026-11-12/
+ *        npm run gsc -- 2026-10-15 2026-11-12
+ * Fixed ranges go to their own folder so before/after exports can be compared side by side.
  * Auth: service_account.json (the service account must be a user of the Search Console property,
  *       and the Search Console API must be enabled in its GCP project).
  * Output (CSV + JSON, overwritten on each run):
@@ -17,7 +20,8 @@ const { google } = require('googleapis');
 const { SITE_URL } = require('./constants');
 
 const ROOT = path.join(__dirname, '..');
-const OUT_DIR = path.join(ROOT, 'gsc');
+const GSC_DIR = path.join(ROOT, 'gsc');
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const KEY_PATH = path.join(ROOT, 'service_account.json');
 const SCOPE = 'https://www.googleapis.com/auth/webmasters.readonly';
 const SITE_HOST = new URL(SITE_URL).hostname;
@@ -69,7 +73,15 @@ async function query(sc, siteUrl, startDate, endDate, dimensions) {
 }
 
 async function main() {
-    const days = Number(process.argv[2]) || 90;
+    const [arg1, arg2] = process.argv.slice(2);
+    const fixedRange = DATE_RE.test(arg1 || '') && DATE_RE.test(arg2 || '');
+    if (DATE_RE.test(arg1 || '') !== fixedRange) {
+        throw new Error('Pass both dates: node build/gsc-report.js YYYY-MM-DD YYYY-MM-DD');
+    }
+    if (fixedRange && arg1 > arg2) {
+        throw new Error(`Start date ${arg1} is after end date ${arg2}`);
+    }
+    const days = fixedRange ? null : Number(arg1) || 90;
     if (!fs.existsSync(KEY_PATH)) throw new Error(`Missing ${KEY_PATH}`);
     const key = require(KEY_PATH);
     const auth = new google.auth.JWT({ email: key.client_email, key: key.private_key, scopes: [SCOPE] });
@@ -77,12 +89,19 @@ async function main() {
     const sc = google.searchconsole({ version: 'v1', auth });
 
     const siteUrl = await pickProperty(sc);
-    const end = new Date();
-    end.setDate(end.getDate() - 2); // GSC data lags ~2 days
-    const start = new Date(end);
-    start.setDate(start.getDate() - days + 1);
-    const [startDate, endDate] = [isoDate(start), isoDate(end)];
-    console.log(`📊 ${siteUrl}  ${startDate} → ${endDate}`);
+    let startDate;
+    let endDate;
+    if (fixedRange) {
+        [startDate, endDate] = [arg1, arg2];
+    } else {
+        const end = new Date();
+        end.setDate(end.getDate() - 2); // GSC data lags ~2 days
+        const start = new Date(end);
+        start.setDate(start.getDate() - days + 1);
+        [startDate, endDate] = [isoDate(start), isoDate(end)];
+    }
+    const OUT_DIR = fixedRange ? path.join(GSC_DIR, `${startDate}_${endDate}`) : GSC_DIR;
+    console.log(`📊 ${siteUrl}  ${startDate} → ${endDate}  →  ${path.relative(ROOT, OUT_DIR)}/`);
 
     fs.mkdirSync(OUT_DIR, { recursive: true });
     const metrics = ['clicks', 'impressions', 'ctr_%', 'position'];
@@ -98,7 +117,7 @@ async function main() {
         rows.sort((a, b) => b[dims.length + 1] - a[dims.length + 1]); // by impressions
         fs.writeFileSync(path.join(OUT_DIR, `${name}.csv`), toCsv([...dims, ...metrics], rows));
         counts[name] = rows.length;
-        console.log(`  ✅ gsc/${name}.csv  ${rows.length} rows`);
+        console.log(`  ✅ ${path.relative(ROOT, OUT_DIR)}/${name}.csv  ${rows.length} rows`);
     }
     fs.writeFileSync(
         path.join(OUT_DIR, 'meta.json'),
