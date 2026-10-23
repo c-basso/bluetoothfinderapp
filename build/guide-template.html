@@ -3,6 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- Platform class for download prompts: is-ios / is-android / is-desktop (set before first paint) -->
+  <script>
+    (function (d, n) {
+      var ua = n.userAgent || '';
+      var ios = /iPhone|iPad|iPod/.test(ua) || (n.platform === 'MacIntel' && n.maxTouchPoints > 1);
+      var android = /Android/i.test(ua);
+      var mobile = ios || android || /Mobi|Tablet|Silk|Kindle/i.test(ua);
+      d.className += ios ? ' is-ios' : android ? ' is-android' : mobile ? ' is-mobile' : ' is-desktop';
+    })(document.documentElement, navigator);
+  </script>
   <link rel="preconnect" href="https://apps.apple.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +75,7 @@
         <img src="/img/appstore/icon-192.webp" alt="{{shared.labels.logo_alt}}" width="40" height="40" loading="eager" decoding="async">
         <span>{{shared.nav_name}}</span>
       </a>
-      <a class="cta-button guide-nav-cta" href="{{meta.app_store_url}}" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
+      <a class="cta-button guide-nav-cta" href="{{meta.app_store_url_nav}}" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
         <span>{{shared.labels.nav_cta}}</span>
       </a>
     </nav>
@@ -90,6 +100,17 @@
         <div class="tldr-box guide-answer">
           <p class="tldr-label">{{shared.labels.quick_answer}}</p>
           <p class="tldr-text">{{guide.quick_answer}}</p>
+        </div>
+
+        <!-- Early download button right after the answer -->
+        <div class="guide-inline-cta">
+          <a href="{{meta.app_store_url_top}}" class="cta-button" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
+            <span>{{shared.labels.cta_button}}</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <p class="android-note">{{cta.android_note}}</p>
         </div>
 
         {{#each guide.sections as |section|}}
@@ -139,12 +160,17 @@
             <h2>{{guide.cta_title}}</h2>
             <p>{{guide.cta_text}}</p>
           </div>
-          <a href="{{meta.app_store_url}}" class="cta-button" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
+          <a href="{{meta.app_store_url_box}}" class="cta-button" rel="noopener noreferrer" aria-label="{{shared.labels.cta_aria}}">
             <span>{{shared.labels.cta_button}}</span>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
+          <p class="android-note">{{cta.android_note}}</p>
+          <div class="qr-card">
+          {{cta.qr_svg}}
+          <p><strong>{{cta.qr_title}}</strong><span>{{cta.qr_text}}</span></p>
+        </div>
         </aside>
 
         <!-- FAQ -->
@@ -184,6 +210,14 @@
     </footer>
   </div>
 
+  <!-- Sticky download bar (shown on iPhone when no other download button is on screen) -->
+  <div class="sticky-cta">
+    <img src="/img/appstore/icon-192.webp" alt="" width="44" height="44" loading="lazy" decoding="async">
+    <a href="{{cta.sticky_url}}" class="cta-button" aria-label="{{shared.labels.cta_aria}}" rel="noopener noreferrer">
+      <span>{{shared.labels.cta_button}}</span>
+    </a>
+  </div>
+
   <!-- Structured Data (JSON-LD) for SEO -->
   <script type="application/ld+json">
     {{structured_data.article|json}}
@@ -199,6 +233,41 @@
 
   <script type="application/ld+json">
     {{structured_data.breadcrumb_list|json}}
+  </script>
+
+  <!-- Download prompts: sticky App Store bar (iOS) + Metrica goal per App Store click -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var bar = document.querySelector('.sticky-cta');
+      if (bar && d.classList.contains('is-ios') && 'IntersectionObserver' in window) {
+        var inView = new Set();
+        var scrolled = false;
+        var update = function () {
+          bar.classList.toggle('is-shown', scrolled && inView.size === 0);
+        };
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { inView.add(e.target); } else { inView.delete(e.target); }
+          });
+          update();
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('.cta-button'), function (el) {
+          if (!bar.contains(el)) { io.observe(el); }
+        });
+        window.addEventListener('scroll', function () {
+          var next = window.scrollY > 300;
+          if (next !== scrolled) { scrolled = next; update(); }
+        }, { passive: true });
+      }
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href*="apps.apple.com"]');
+        if (!a || !window.ym) { return; }
+        var ct = '';
+        try { ct = new URL(a.href).searchParams.get('ct') || ''; } catch (err) {}
+        window.ym(106104643, 'reachGoal', 'app_store_click', { ct: ct });
+      }, true);
+    })();
   </script>
 
   <!-- Yandex.Metrika counter -->

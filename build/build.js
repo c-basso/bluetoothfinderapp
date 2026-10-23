@@ -11,8 +11,48 @@ const {
     GUIDE_URLS,
     GUIDE_LOCALES,
     GUIDE_GROUPS,
+    appStoreCampaignUrl,
 } = require('./constants');
 const { readImageDimensions } = require('./lib/imageDimensions');
+const { qrSvg } = require('./lib/qr');
+const PLATFORM_STRINGS = require('./platform-strings.json');
+
+/**
+ * Short campaign codes for guides (keeps App Store `ct` under 40 chars).
+ * Non-EN guides use their `en_slug`, so every locale of a guide shares the code.
+ */
+const GUIDE_CAMPAIGN_CODES = {
+    'how-to-find-lost-airpods': 'aplost',
+    'find-airpods-without-find-my': 'apnofm',
+    'find-one-lost-airpod': 'ap1',
+    'find-dead-airpods': 'apdead',
+    'find-lost-airpods-case': 'apcase',
+    'find-lost-bluetooth-headphones': 'phones',
+    'find-lost-earbuds': 'earbuds',
+    'find-lost-smartwatch': 'watch',
+    'find-lost-bluetooth-speaker': 'speaker',
+    'bluetooth-scanner-iphone': 'scanner',
+};
+
+function guideCampaignCode(guide) {
+    const enSlug = guide.en_slug || guide.slug;
+    return GUIDE_CAMPAIGN_CODES[enSlug] || enSlug.slice(0, 16);
+}
+
+/**
+ * Per-page download prompts: campaign URL per button position, QR for desktop,
+ * localized QR/Android copy. `base` is e.g. `de-home` or `ru-g-speaker`.
+ */
+function buildCtaData(base, lang) {
+    const strings = PLATFORM_STRINGS[lang] || PLATFORM_STRINGS[DEFAULT_LANGUAGE];
+    return {
+        sticky_url: appStoreCampaignUrl(`${base}-sticky`),
+        qr_svg: qrSvg(appStoreCampaignUrl(`${base}-qr`)),
+        qr_title: strings.qr_title,
+        qr_text: strings.qr_text,
+        android_note: strings.android_note,
+    };
+}
 
 const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
@@ -320,14 +360,16 @@ function ensureSeoShape(data) {
  * `meta.app_store_id`, `header.download_url`, `final_cta.cta_url` and
  * any `__APP_STORE_URL__` in strings come from constants, not from JSON.
  */
-function applyAppStoreFromConstants(data) {
+function applyAppStoreFromConstants(data, lang) {
     data.meta = data.meta || {};
     data.meta.app_store_id = String(APP_ID);
     data.header = data.header || {};
-    data.header.download_url = APP_STORE_URL;
+    data.header.download_url = appStoreCampaignUrl(`${lang}-home-hero`);
     if (data.final_cta) {
-        data.final_cta.cta_url = APP_STORE_URL;
+        data.final_cta.cta_url = appStoreCampaignUrl(`${lang}-home-final`);
     }
+    data.cta = buildCtaData(`${lang}-home`, lang);
+    const inlineUrl = appStoreCampaignUrl(`${lang}-home-text`);
 
     function visit(node) {
         if (Array.isArray(node)) {
@@ -340,7 +382,7 @@ function applyAppStoreFromConstants(data) {
             for (const k of Object.keys(node)) {
                 const v = node[k];
                 if (typeof v === 'string' && v.includes(APP_STORE_PLACEHOLDER)) {
-                    node[k] = v.split(APP_STORE_PLACEHOLDER).join(APP_STORE_URL);
+                    node[k] = v.split(APP_STORE_PLACEHOLDER).join(inlineUrl);
                 } else {
                     visit(v);
                 }
@@ -392,7 +434,7 @@ function buildSoftwareApplicationStructuredData(data) {
         return;
     }
     app.url = data.meta?.canonical;
-    app.downloadUrl = data.header?.download_url;
+    app.downloadUrl = APP_STORE_URL;
     if (app.offers && typeof app.offers === 'object') {
         app.offers.url = APP_STORE_URL;
     }
@@ -502,7 +544,7 @@ async function preparePageData(data, lang) {
     await normalizeMeta(data, lang);
     normalizeFooter(data);
     ensureSeoShape(data);
-    applyAppStoreFromConstants(data);
+    applyAppStoreFromConstants(data, lang);
     setSeoLastUpdatedFromBuild(data, lang);
     buildOrganizationStructuredData(data);
     buildSoftwareApplicationStructuredData(data);
@@ -808,8 +850,11 @@ function guideLastUpdatedLabel(shared) {
     }
 }
 
-function buildGuideMeta({ title, description, keywords, canonical, ogImageAlt, shared }) {
+function buildGuideMeta({ title, description, keywords, canonical, ogImageAlt, shared, campaign }) {
     return {
+        app_store_url_nav: appStoreCampaignUrl(`${campaign}-nav`),
+        app_store_url_top: appStoreCampaignUrl(`${campaign}-top`),
+        app_store_url_box: appStoreCampaignUrl(`${campaign}-box`),
         title,
         description,
         keywords: keywords || '',
@@ -932,9 +977,11 @@ function buildGuidePages(code) {
                 canonical,
                 ogImageAlt: guide.h1,
                 shared,
+                campaign: `${code}-g-${guideCampaignCode(guide)}`,
             }),
             shared,
             guide,
+            cta: buildCtaData(`${code}-g-${guideCampaignCode(guide)}`, languageCode),
             footer_languages: footerLanguageLinks(languageCode),
             structured_data: buildGuideStructuredData(guide, canonical, shared, code),
         };
@@ -955,8 +1002,10 @@ function buildGuidePages(code) {
             canonical: guidesBaseUrl(code),
             ogImageAlt: shared.hub.h1,
             shared,
+            campaign: `${code}-hub`,
         }),
         shared,
+        cta: buildCtaData(`${code}-hub`, languageCode),
         footer_languages: footerLanguageLinks(languageCode),
         hub_items: guides.map((g) => ({
             url: `/${loc.path}/${g.slug}/`,

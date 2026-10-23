@@ -729,6 +729,109 @@
       margin-bottom: 24px;
     }
 
+    /* ---------- Platform-specific download prompts ---------- */
+    /* <html> gets is-ios / is-android / is-desktop / is-mobile from an inline head script. */
+    .qr-card,
+    .android-note,
+    .sticky-cta {
+      display: none;
+    }
+
+    /* Desktop: QR code to open the App Store on the visitor's iPhone */
+    .is-desktop .qr-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      width: fit-content;
+      max-width: 100%;
+      margin: 28px auto 0;
+      padding: 12px 20px 12px 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(0, 212, 255, 0.25);
+      border-radius: 18px;
+      text-align: left;
+    }
+    .qr-card .qr-code {
+      width: 112px;
+      height: 112px;
+      flex: none;
+      border-radius: 10px;
+    }
+    .qr-card p {
+      margin: 0;
+      max-width: 240px;
+    }
+    .qr-card strong {
+      display: block;
+      color: var(--text-primary);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+    }
+    .qr-card span {
+      display: block;
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+    .guide-cta .qr-card {
+      margin: 0;
+    }
+
+    /* Android: say upfront that the app is iPhone-only */
+    .is-android .android-note {
+      display: block;
+      margin: 16px 0 0;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+    .guide-cta .android-note {
+      flex-basis: 100%;
+      margin: 0;
+    }
+
+    /* Guides: early download button right after the quick answer */
+    .guide-inline-cta {
+      margin: -24px 0 48px;
+    }
+
+    /* iPhone: sticky download bar, shown when no other download button is on screen */
+    .is-ios .sticky-cta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 50;
+      padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+      background: rgba(10, 14, 39, 0.92);
+      -webkit-backdrop-filter: blur(14px);
+      backdrop-filter: blur(14px);
+      border-top: 1px solid rgba(0, 212, 255, 0.2);
+      transform: translateY(110%);
+      transition: transform 0.25s ease;
+    }
+    .is-ios .sticky-cta.is-shown {
+      transform: none;
+    }
+    .sticky-cta img {
+      border-radius: 10px;
+      flex: none;
+    }
+    .sticky-cta .cta-button {
+      flex: 1;
+      justify-content: center;
+      padding: 14px 20px;
+      font-size: 1rem;
+      border-radius: 14px;
+    }
+    .is-ios body {
+      padding-bottom: 84px;
+    }
+
     @media (max-width: 600px) {
       .guide-cta {
         flex-direction: column;

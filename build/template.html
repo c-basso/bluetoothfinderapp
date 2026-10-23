@@ -3,6 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- Platform class for download prompts: is-ios / is-android / is-desktop (set before first paint) -->
+  <script>
+    (function (d, n) {
+      var ua = n.userAgent || '';
+      var ios = /iPhone|iPad|iPod/.test(ua) || (n.platform === 'MacIntel' && n.maxTouchPoints > 1);
+      var android = /Android/i.test(ua);
+      var mobile = ios || android || /Mobi|Tablet|Silk|Kindle/i.test(ua);
+      d.className += ios ? ' is-ios' : android ? ' is-android' : mobile ? ' is-mobile' : ' is-desktop';
+    })(document.documentElement, navigator);
+  </script>
   
   <!-- Preconnect to external domains for performance -->
   <link rel="preconnect" href="https://apps.apple.com">
@@ -101,6 +111,11 @@
         {{#if header.meta_line}}
         <p class="hero-meta">{{header.meta_line}}</p>
         {{/if}}
+        <p class="android-note">{{cta.android_note}}</p>
+        <div class="qr-card">
+          {{cta.qr_svg}}
+          <p><strong>{{cta.qr_title}}</strong><span>{{cta.qr_text}}</span></p>
+        </div>
       </div>
     </section>
 
@@ -310,6 +325,11 @@
                 <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </a>
+            <p class="android-note">{{cta.android_note}}</p>
+            <div class="qr-card">
+          {{cta.qr_svg}}
+          <p><strong>{{cta.qr_title}}</strong><span>{{cta.qr_text}}</span></p>
+        </div>
           </div>
         </div>
       </section>
@@ -322,6 +342,14 @@
       <p>{{#if footer.guides_url}}<a href="{{footer.guides_url}}">{{footer.guides_link}}</a> | {{/if}}<a href="{{footer.privacy_url}}">{{footer.privacy_link}}</a> | <a href="{{footer.terms_url}}">{{footer.terms_link}}</a></p>
       <p class="last-updated" aria-label="{{seo.last_updated_label}}">{{seo.last_updated_label}} {{seo.last_updated}}</p>
     </footer>
+  </div>
+
+  <!-- Sticky download bar (shown on iPhone after scrolling past the hero button) -->
+  <div class="sticky-cta" aria-hidden="false">
+    <img src="/img/appstore/icon-192.webp" alt="" width="44" height="44" loading="lazy" decoding="async">
+    <a href="{{cta.sticky_url}}" class="cta-button" aria-label="{{header.download_aria_label}}" rel="noopener noreferrer">
+      <span>{{header.download_text}}</span>
+    </a>
   </div>
 
   <!-- Structured Data (JSON-LD) for SEO -->
@@ -368,6 +396,41 @@
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
     });
+  </script>
+
+  <!-- Download prompts: sticky App Store bar (iOS) + Metrica goal per App Store click -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var bar = document.querySelector('.sticky-cta');
+      if (bar && d.classList.contains('is-ios') && 'IntersectionObserver' in window) {
+        var inView = new Set();
+        var scrolled = false;
+        var update = function () {
+          bar.classList.toggle('is-shown', scrolled && inView.size === 0);
+        };
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { inView.add(e.target); } else { inView.delete(e.target); }
+          });
+          update();
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('.cta-button'), function (el) {
+          if (!bar.contains(el)) { io.observe(el); }
+        });
+        window.addEventListener('scroll', function () {
+          var next = window.scrollY > 300;
+          if (next !== scrolled) { scrolled = next; update(); }
+        }, { passive: true });
+      }
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href*="apps.apple.com"]');
+        if (!a || !window.ym) { return; }
+        var ct = '';
+        try { ct = new URL(a.href).searchParams.get('ct') || ''; } catch (err) {}
+        window.ym(106104643, 'reachGoal', 'app_store_click', { ct: ct });
+      }, true);
+    })();
   </script>
 
   <!-- Yandex.Metrika counter -->

@@ -1,0 +1,83 @@
+{
+  "_comment": "Short strings for platform-specific download prompts: QR card for desktop visitors, note for Android visitors. Keyed by site language code. Read by build.js.",
+  "en": {
+    "qr_title": "On your computer?",
+    "qr_text": "Scan with your iPhone camera to open the app in the App Store.",
+    "android_note": "This app is for iPhone only — there is no Android version."
+  },
+  "es": {
+    "qr_title": "¿Estás en el ordenador?",
+    "qr_text": "Escanea el código con la cámara del iPhone para abrir la app en el App Store.",
+    "android_note": "La app es solo para iPhone; no hay versión para Android."
+  },
+  "de": {
+    "qr_title": "Am Computer?",
+    "qr_text": "Scanne den Code mit der iPhone-Kamera, um die App im App Store zu öffnen.",
+    "android_note": "Die App gibt es nur für das iPhone – eine Android-Version gibt es nicht."
+  },
+  "fr": {
+    "qr_title": "Vous êtes sur ordinateur ?",
+    "qr_text": "Scannez le code avec l’appareil photo de votre iPhone pour ouvrir l’app dans l’App Store.",
+    "android_note": "L’app est disponible uniquement sur iPhone : il n’existe pas de version Android."
+  },
+  "it": {
+    "qr_title": "Sei al computer?",
+    "qr_text": "Inquadra il codice con la fotocamera dell’iPhone per aprire l’app nell’App Store.",
+    "android_note": "L’app è disponibile solo per iPhone: non esiste una versione per Android."
+  },
+  "jp": {
+    "qr_title": "パソコンでご覧ですか？",
+    "qr_text": "iPhoneのカメラでコードを読み取ると、App Storeでアプリが開きます。",
+    "android_note": "このアプリはiPhone専用です。Android版はありません。"
+  },
+  "ko": {
+    "qr_title": "컴퓨터로 보고 계신가요?",
+    "qr_text": "iPhone 카메라로 코드를 스캔하면 App Store에서 앱이 열립니다.",
+    "android_note": "이 앱은 iPhone 전용이며 Android 버전은 없습니다."
+  },
+  "nl": {
+    "qr_title": "Op je computer?",
+    "qr_text": "Scan de code met de camera van je iPhone om de app in de App Store te openen.",
+    "android_note": "De app is alleen beschikbaar voor iPhone – er is geen Android-versie."
+  },
+  "pl": {
+    "qr_title": "Jesteś przy komputerze?",
+    "qr_text": "Zeskanuj kod aparatem iPhone’a, aby otworzyć aplikację w App Store.",
+    "android_note": "Aplikacja jest dostępna tylko na iPhone’a – nie ma wersji na Androida."
+  },
+  "pt": {
+    "qr_title": "Está no computador?",
+    "qr_text": "Escaneie o código com a câmera do iPhone para abrir o app na App Store.",
+    "android_note": "O app é exclusivo para iPhone — não existe versão para Android."
+  },
+  "ro": {
+    "qr_title": "Ești la calculator?",
+    "qr_text": "Scanează codul cu camera iPhone-ului ca să deschizi aplicația în App Store.",
+    "android_note": "Aplicația este disponibilă doar pentru iPhone – nu există versiune pentru Android."
+  },
+  "ru": {
+    "qr_title": "Вы за компьютером?",
+    "qr_text": "Наведите камеру iPhone на код — приложение откроется в App Store.",
+    "android_note": "Приложение только для iPhone — версии для Android нет."
+  },
+  "th": {
+    "qr_title": "กำลังใช้คอมพิวเตอร์อยู่ใช่ไหม",
+    "qr_text": "สแกนโค้ดด้วยกล้อง iPhone เพื่อเปิดแอปใน App Store",
+    "android_note": "แอปนี้ใช้ได้เฉพาะบน iPhone ไม่มีเวอร์ชัน Android"
+  },
+  "tr": {
+    "qr_title": "Bilgisayardan mı bakıyorsunuz?",
+    "qr_text": "Uygulamayı App Store'da açmak için kodu iPhone kameranızla tarayın.",
+    "android_note": "Uygulama yalnızca iPhone içindir; Android sürümü yoktur."
+  },
+  "uk": {
+    "qr_title": "Ви за комп’ютером?",
+    "qr_text": "Наведіть камеру iPhone на код — застосунок відкриється в App Store.",
+    "android_note": "Застосунок лише для iPhone — версії для Android немає."
+  },
+  "vi": {
+    "qr_title": "Bạn đang dùng máy tính?",
+    "qr_text": "Quét mã bằng camera iPhone để mở ứng dụng trên App Store.",
+    "android_note": "Ứng dụng chỉ dành cho iPhone, không có phiên bản Android."
+  }
+}

@@ -8,6 +8,20 @@ const DEFAULT_LANGUAGE = 'en';
 const APP_ID = '6756609274';
 const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
 
+/**
+ * App Store Connect campaign links: every visible "Download" button gets its own
+ * `ct` (campaign) so App Analytics → Acquisition → Campaigns shows page views
+ * and installs per page and per button. `pt` is the provider token.
+ * Apple limits `ct` to 40 characters.
+ * Structured data, llms.txt and the web manifest keep the clean APP_STORE_URL.
+ */
+const APP_STORE_PROVIDER_TOKEN = '118672082';
+
+function appStoreCampaignUrl(campaign) {
+    const ct = String(campaign).toLowerCase().replace(/[^a-z0-9-]+/g, '-').slice(0, 40);
+    return `https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${APP_STORE_PROVIDER_TOKEN}&ct=${ct}&mt=8`;
+}
+
 const LANGUAGES = [
     DEFAULT_LANGUAGE,
     'es',
@@ -146,4 +160,6 @@ module.exports = {
     GUIDE_GROUPS,
     APP_ID,
     APP_STORE_URL,
+    APP_STORE_PROVIDER_TOKEN,
+    appStoreCampaignUrl,
 };

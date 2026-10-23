@@ -3,6 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- Platform class for download prompts: is-ios / is-android / is-desktop (set before first paint) -->
+  <script>
+    (function (d, n) {
+      var ua = n.userAgent || '';
+      var ios = /iPhone|iPad|iPod/.test(ua) || (n.platform === 'MacIntel' && n.maxTouchPoints > 1);
+      var android = /Android/i.test(ua);
+      var mobile = ios || android || /Mobi|Tablet|Silk|Kindle/i.test(ua);
+      d.className += ios ? ' is-ios' : android ? ' is-android' : mobile ? ' is-mobile' : ' is-desktop';
+    })(document.documentElement, navigator);
+  </script>
   <link rel="preconnect" href="https://apps.apple.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,7 +80,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/site.css?v=1791961768868">
+  <link rel="stylesheet" href="/site.css?v=1792768355856">
 </head>
 
 <body>
@@ -81,7 +91,7 @@
         <img src="/img/appstore/icon-192.webp" alt="Bluetooth Finder 앱 아이콘" width="40" height="40" loading="eager" decoding="async">
         <span>Bluetooth Finder</span>
       </a>
-      <a class="cta-button guide-nav-cta" href="https://apps.apple.com/app/id6756609274" rel="noopener noreferrer" aria-label="App Store에서 Bluetooth Finder 다운로드">
+      <a class="cta-button guide-nav-cta" href="https://apps.apple.com/app/apple-store/id6756609274?pt=118672082&ct=ko-g-speaker-nav&mt=8" rel="noopener noreferrer" aria-label="App Store에서 Bluetooth Finder 다운로드">
         <span>다운로드</span>
       </a>
     </nav>
@@ -99,13 +109,24 @@
 
         <header class="guide-header">
           <h1>잃어버린 블루투스 스피커 찾는법</h1>
-          <p class="guide-updated">최종 업데이트 2026년 10월 14일</p>
+          <p class="guide-updated">최종 업데이트 2026년 10월 23일</p>
         </header>
 
         <!-- Quick answer for featured snippets -->
         <div class="tldr-box guide-answer">
           <p class="tldr-label">결론부터</p>
           <p class="tldr-text">네, 잃어버린 JBL(또는 보스, 앤커, 소니) 스피커도 추적할 수 있습니다. 단, 전원이 켜져 있고 블루투스 범위(약 30미터) 안에 있어야 합니다. 대부분의 스피커는 GPS도 지도 추적도 없지만 강한 블루투스 신호를 계속 보냅니다. 블루투스 찾기 앱으로 스캔하고, 스피커를 선택해 핫·콜드 안내를 따라가세요. 전원이 꺼져 있다면 어떤 것도 탐지할 수 없으니, 마지막으로 쓴 곳을 찾고 나중에 다시 스캔하세요.</p>
+        </div>
+
+        <!-- Early download button right after the answer -->
+        <div class="guide-inline-cta">
+          <a href="https://apps.apple.com/app/apple-store/id6756609274?pt=118672082&ct=ko-g-speaker-top&mt=8" class="cta-button" rel="noopener noreferrer" aria-label="App Store에서 Bluetooth Finder 다운로드">
+            <span>App Store에서 다운로드</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <p class="android-note">이 앱은 iPhone 전용이며 Android 버전은 없습니다.</p>
         </div>
 
         
@@ -177,12 +198,17 @@
             <h2>켜져 있다면 몇 분이면 찾습니다</h2>
             <p>스피커는 블루투스 기기 중 신호가 가장 강합니다. 스캔하고 신호를 따라가세요.</p>
           </div>
-          <a href="https://apps.apple.com/app/id6756609274" class="cta-button" rel="noopener noreferrer" aria-label="App Store에서 Bluetooth Finder 다운로드">
+          <a href="https://apps.apple.com/app/apple-store/id6756609274?pt=118672082&ct=ko-g-speaker-box&mt=8" class="cta-button" rel="noopener noreferrer" aria-label="App Store에서 Bluetooth Finder 다운로드">
             <span>App Store에서 다운로드</span>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
+          <p class="android-note">이 앱은 iPhone 전용이며 Android 버전은 없습니다.</p>
+          <div class="qr-card">
+          <svg class="qr-code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" shape-rendering="crispEdges" role="img" aria-hidden="true"><rect width="100%" height="100%" fill="#fff"/><path d="M2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM5,2h1v1h-1zM6,2h1v1h-1zM7,2h1v1h-1zM8,2h1v1h-1zM12,2h1v1h-1zM13,2h1v1h-1zM14,2h1v1h-1zM15,2h1v1h-1zM18,2h1v1h-1zM19,2h1v1h-1zM20,2h1v1h-1zM24,2h1v1h-1zM26,2h1v1h-1zM27,2h1v1h-1zM30,2h1v1h-1zM34,2h1v1h-1zM36,2h1v1h-1zM37,2h1v1h-1zM38,2h1v1h-1zM39,2h1v1h-1zM40,2h1v1h-1zM41,2h1v1h-1zM42,2h1v1h-1zM2,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM12,3h1v1h-1zM13,3h1v1h-1zM14,3h1v1h-1zM17,3h1v1h-1zM20,3h1v1h-1zM22,3h1v1h-1zM23,3h1v1h-1zM24,3h1v1h-1zM31,3h1v1h-1zM36,3h1v1h-1zM42,3h1v1h-1zM2,4h1v1h-1zM4,4h1v1h-1zM5,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM10,4h1v1h-1zM11,4h1v1h-1zM12,4h1v1h-1zM16,4h1v1h-1zM25,4h1v1h-1zM28,4h1v1h-1zM29,4h1v1h-1zM30,4h1v1h-1zM31,4h1v1h-1zM32,4h1v1h-1zM36,4h1v1h-1zM38,4h1v1h-1zM39,4h1v1h-1zM40,4h1v1h-1zM42,4h1v1h-1zM2,5h1v1h-1zM4,5h1v1h-1zM5,5h1v1h-1zM6,5h1v1h-1zM8,5h1v1h-1zM10,5h1v1h-1zM12,5h1v1h-1zM15,5h1v1h-1zM17,5h1v1h-1zM18,5h1v1h-1zM20,5h1v1h-1zM28,5h1v1h-1zM30,5h1v1h-1zM34,5h1v1h-1zM36,5h1v1h-1zM38,5h1v1h-1zM39,5h1v1h-1zM40,5h1v1h-1zM42,5h1v1h-1zM2,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM12,6h1v1h-1zM17,6h1v1h-1zM18,6h1v1h-1zM21,6h1v1h-1zM25,6h1v1h-1zM26,6h1v1h-1zM28,6h1v1h-1zM30,6h1v1h-1zM32,6h1v1h-1zM33,6h1v1h-1zM34,6h1v1h-1zM36,6h1v1h-1zM38,6h1v1h-1zM39,6h1v1h-1zM40,6h1v1h-1zM42,6h1v1h-1zM2,7h1v1h-1zM8,7h1v1h-1zM11,7h1v1h-1zM12,7h1v1h-1zM13,7h1v1h-1zM17,7h1v1h-1zM18,7h1v1h-1zM20,7h1v1h-1zM22,7h1v1h-1zM23,7h1v1h-1zM24,7h1v1h-1zM26,7h1v1h-1zM30,7h1v1h-1zM32,7h1v1h-1zM36,7h1v1h-1zM42,7h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM4,8h1v1h-1zM5,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM12,8h1v1h-1zM14,8h1v1h-1zM16,8h1v1h-1zM18,8h1v1h-1zM20,8h1v1h-1zM22,8h1v1h-1zM24,8h1v1h-1zM26,8h1v1h-1zM28,8h1v1h-1zM30,8h1v1h-1zM32,8h1v1h-1zM34,8h1v1h-1zM36,8h1v1h-1zM37,8h1v1h-1zM38,8h1v1h-1zM39,8h1v1h-1zM40,8h1v1h-1zM41,8h1v1h-1zM42,8h1v1h-1zM10,9h1v1h-1zM12,9h1v1h-1zM13,9h1v1h-1zM14,9h1v1h-1zM15,9h1v1h-1zM21,9h1v1h-1zM22,9h1v1h-1zM25,9h1v1h-1zM28,9h1v1h-1zM34,9h1v1h-1zM2,10h1v1h-1zM8,10h1v1h-1zM10,10h1v1h-1zM12,10h1v1h-1zM13,10h1v1h-1zM15,10h1v1h-1zM17,10h1v1h-1zM18,10h1v1h-1zM19,10h1v1h-1zM24,10h1v1h-1zM26,10h1v1h-1zM27,10h1v1h-1zM28,10h1v1h-1zM31,10h1v1h-1zM35,10h1v1h-1zM36,10h1v1h-1zM39,10h1v1h-1zM40,10h1v1h-1zM41,10h1v1h-1zM6,11h1v1h-1zM7,11h1v1h-1zM9,11h1v1h-1zM12,11h1v1h-1zM13,11h1v1h-1zM15,11h1v1h-1zM21,11h1v1h-1zM24,11h1v1h-1zM25,11h1v1h-1zM26,11h1v1h-1zM29,11h1v1h-1zM31,11h1v1h-1zM33,11h1v1h-1zM35,11h1v1h-1zM38,11h1v1h-1zM41,11h1v1h-1zM2,12h1v1h-1zM4,12h1v1h-1zM5,12h1v1h-1zM8,12h1v1h-1zM11,12h1v1h-1zM12,12h1v1h-1zM13,12h1v1h-1zM16,12h1v1h-1zM17,12h1v1h-1zM18,12h1v1h-1zM22,12h1v1h-1zM24,12h1v1h-1zM28,12h1v1h-1zM29,12h1v1h-1zM31,12h1v1h-1zM34,12h1v1h-1zM36,12h1v1h-1zM38,12h1v1h-1zM3,13h1v1h-1zM4,13h1v1h-1zM5,13h1v1h-1zM7,13h1v1h-1zM10,13h1v1h-1zM12,13h1v1h-1zM17,13h1v1h-1zM18,13h1v1h-1zM20,13h1v1h-1zM21,13h1v1h-1zM22,13h1v1h-1zM29,13h1v1h-1zM30,13h1v1h-1zM33,13h1v1h-1zM34,13h1v1h-1zM35,13h1v1h-1zM39,13h1v1h-1zM41,13h1v1h-1zM6,14h1v1h-1zM7,14h1v1h-1zM8,14h1v1h-1zM9,14h1v1h-1zM10,14h1v1h-1zM12,14h1v1h-1zM13,14h1v1h-1zM16,14h1v1h-1zM20,14h1v1h-1zM22,14h1v1h-1zM24,14h1v1h-1zM25,14h1v1h-1zM28,14h1v1h-1zM30,14h1v1h-1zM34,14h1v1h-1zM36,14h1v1h-1zM37,14h1v1h-1zM2,15h1v1h-1zM3,15h1v1h-1zM5,15h1v1h-1zM7,15h1v1h-1zM11,15h1v1h-1zM13,15h1v1h-1zM14,15h1v1h-1zM15,15h1v1h-1zM16,15h1v1h-1zM18,15h1v1h-1zM19,15h1v1h-1zM22,15h1v1h-1zM23,15h1v1h-1zM24,15h1v1h-1zM26,15h1v1h-1zM27,15h1v1h-1zM28,15h1v1h-1zM30,15h1v1h-1zM31,15h1v1h-1zM35,15h1v1h-1zM36,15h1v1h-1zM37,15h1v1h-1zM38,15h1v1h-1zM41,15h1v1h-1zM42,15h1v1h-1zM3,16h1v1h-1zM4,16h1v1h-1zM5,16h1v1h-1zM6,16h1v1h-1zM7,16h1v1h-1zM8,16h1v1h-1zM9,16h1v1h-1zM10,16h1v1h-1zM14,16h1v1h-1zM15,16h1v1h-1zM16,16h1v1h-1zM17,16h1v1h-1zM18,16h1v1h-1zM19,16h1v1h-1zM20,16h1v1h-1zM21,16h1v1h-1zM23,16h1v1h-1zM24,16h1v1h-1zM28,16h1v1h-1zM32,16h1v1h-1zM35,16h1v1h-1zM38,16h1v1h-1zM39,16h1v1h-1zM41,16h1v1h-1zM2,17h1v1h-1zM4,17h1v1h-1zM7,17h1v1h-1zM14,17h1v1h-1zM15,17h1v1h-1zM17,17h1v1h-1zM21,17h1v1h-1zM26,17h1v1h-1zM29,17h1v1h-1zM32,17h1v1h-1zM34,17h1v1h-1zM35,17h1v1h-1zM37,17h1v1h-1zM39,17h1v1h-1zM40,17h1v1h-1zM42,17h1v1h-1zM2,18h1v1h-1zM3,18h1v1h-1zM5,18h1v1h-1zM7,18h1v1h-1zM8,18h1v1h-1zM12,18h1v1h-1zM16,18h1v1h-1zM17,18h1v1h-1zM19,18h1v1h-1zM21,18h1v1h-1zM24,18h1v1h-1zM26,18h1v1h-1zM27,18h1v1h-1zM28,18h1v1h-1zM30,18h1v1h-1zM31,18h1v1h-1zM32,18h1v1h-1zM33,18h1v1h-1zM34,18h1v1h-1zM35,18h1v1h-1zM37,18h1v1h-1zM39,18h1v1h-1zM40,18h1v1h-1zM3,19h1v1h-1zM5,19h1v1h-1zM7,19h1v1h-1zM9,19h1v1h-1zM10,19h1v1h-1zM12,19h1v1h-1zM17,19h1v1h-1zM19,19h1v1h-1zM20,19h1v1h-1zM21,19h1v1h-1zM22,19h1v1h-1zM24,19h1v1h-1zM25,19h1v1h-1zM27,19h1v1h-1zM29,19h1v1h-1zM30,19h1v1h-1zM33,19h1v1h-1zM35,19h1v1h-1zM36,19h1v1h-1zM37,19h1v1h-1zM38,19h1v1h-1zM39,19h1v1h-1zM40,19h1v1h-1zM42,19h1v1h-1zM4,20h1v1h-1zM5,20h1v1h-1zM8,20h1v1h-1zM12,20h1v1h-1zM15,20h1v1h-1zM18,20h1v1h-1zM21,20h1v1h-1zM23,20h1v1h-1zM24,20h1v1h-1zM25,20h1v1h-1zM29,20h1v1h-1zM31,20h1v1h-1zM32,20h1v1h-1zM33,20h1v1h-1zM34,20h1v1h-1zM36,20h1v1h-1zM37,20h1v1h-1zM38,20h1v1h-1zM40,20h1v1h-1zM42,20h1v1h-1zM2,21h1v1h-1zM5,21h1v1h-1zM6,21h1v1h-1zM9,21h1v1h-1zM10,21h1v1h-1zM11,21h1v1h-1zM12,21h1v1h-1zM14,21h1v1h-1zM19,21h1v1h-1zM20,21h1v1h-1zM22,21h1v1h-1zM24,21h1v1h-1zM27,21h1v1h-1zM29,21h1v1h-1zM33,21h1v1h-1zM35,21h1v1h-1zM38,21h1v1h-1zM41,21h1v1h-1zM42,21h1v1h-1zM3,22h1v1h-1zM7,22h1v1h-1zM8,22h1v1h-1zM10,22h1v1h-1zM11,22h1v1h-1zM13,22h1v1h-1zM18,22h1v1h-1zM22,22h1v1h-1zM23,22h1v1h-1zM25,22h1v1h-1zM28,22h1v1h-1zM29,22h1v1h-1zM32,22h1v1h-1zM34,22h1v1h-1zM35,22h1v1h-1zM39,22h1v1h-1zM40,22h1v1h-1zM42,22h1v1h-1zM6,23h1v1h-1zM7,23h1v1h-1zM9,23h1v1h-1zM11,23h1v1h-1zM13,23h1v1h-1zM17,23h1v1h-1zM20,23h1v1h-1zM21,23h1v1h-1zM22,23h1v1h-1zM25,23h1v1h-1zM26,23h1v1h-1zM28,23h1v1h-1zM29,23h1v1h-1zM33,23h1v1h-1zM37,23h1v1h-1zM38,23h1v1h-1zM40,23h1v1h-1zM3,24h1v1h-1zM4,24h1v1h-1zM5,24h1v1h-1zM7,24h1v1h-1zM8,24h1v1h-1zM11,24h1v1h-1zM12,24h1v1h-1zM14,24h1v1h-1zM15,24h1v1h-1zM16,24h1v1h-1zM18,24h1v1h-1zM20,24h1v1h-1zM29,24h1v1h-1zM30,24h1v1h-1zM32,24h1v1h-1zM34,24h1v1h-1zM39,24h1v1h-1zM3,25h1v1h-1zM4,25h1v1h-1zM5,25h1v1h-1zM6,25h1v1h-1zM7,25h1v1h-1zM9,25h1v1h-1zM11,25h1v1h-1zM12,25h1v1h-1zM15,25h1v1h-1zM18,25h1v1h-1zM20,25h1v1h-1zM21,25h1v1h-1zM24,25h1v1h-1zM29,25h1v1h-1zM30,25h1v1h-1zM32,25h1v1h-1zM33,25h1v1h-1zM36,25h1v1h-1zM37,25h1v1h-1zM38,25h1v1h-1zM39,25h1v1h-1zM2,26h1v1h-1zM5,26h1v1h-1zM8,26h1v1h-1zM9,26h1v1h-1zM15,26h1v1h-1zM16,26h1v1h-1zM21,26h1v1h-1zM22,26h1v1h-1zM25,26h1v1h-1zM26,26h1v1h-1zM30,26h1v1h-1zM33,26h1v1h-1zM34,26h1v1h-1zM35,26h1v1h-1zM36,26h1v1h-1zM41,26h1v1h-1zM3,27h1v1h-1zM4,27h1v1h-1zM5,27h1v1h-1zM9,27h1v1h-1zM11,27h1v1h-1zM15,27h1v1h-1zM16,27h1v1h-1zM17,27h1v1h-1zM19,27h1v1h-1zM21,27h1v1h-1zM25,27h1v1h-1zM28,27h1v1h-1zM29,27h1v1h-1zM33,27h1v1h-1zM35,27h1v1h-1zM36,27h1v1h-1zM38,27h1v1h-1zM39,27h1v1h-1zM42,27h1v1h-1zM2,28h1v1h-1zM3,28h1v1h-1zM6,28h1v1h-1zM7,28h1v1h-1zM8,28h1v1h-1zM9,28h1v1h-1zM13,28h1v1h-1zM16,28h1v1h-1zM19,28h1v1h-1zM22,28h1v1h-1zM23,28h1v1h-1zM26,28h1v1h-1zM27,28h1v1h-1zM28,28h1v1h-1zM29,28h1v1h-1zM30,28h1v1h-1zM31,28h1v1h-1zM32,28h1v1h-1zM34,28h1v1h-1zM37,28h1v1h-1zM38,28h1v1h-1zM41,28h1v1h-1zM4,29h1v1h-1zM7,29h1v1h-1zM10,29h1v1h-1zM12,29h1v1h-1zM13,29h1v1h-1zM14,29h1v1h-1zM17,29h1v1h-1zM24,29h1v1h-1zM28,29h1v1h-1zM29,29h1v1h-1zM30,29h1v1h-1zM32,29h1v1h-1zM33,29h1v1h-1zM36,29h1v1h-1zM38,29h1v1h-1zM39,29h1v1h-1zM40,29h1v1h-1zM3,30h1v1h-1zM4,30h1v1h-1zM8,30h1v1h-1zM14,30h1v1h-1zM17,30h1v1h-1zM18,30h1v1h-1zM19,30h1v1h-1zM21,30h1v1h-1zM22,30h1v1h-1zM25,30h1v1h-1zM26,30h1v1h-1zM27,30h1v1h-1zM29,30h1v1h-1zM30,30h1v1h-1zM31,30h1v1h-1zM33,30h1v1h-1zM34,30h1v1h-1zM35,30h1v1h-1zM39,30h1v1h-1zM40,30h1v1h-1zM41,30h1v1h-1zM2,31h1v1h-1zM4,31h1v1h-1zM6,31h1v1h-1zM7,31h1v1h-1zM11,31h1v1h-1zM13,31h1v1h-1zM14,31h1v1h-1zM18,31h1v1h-1zM24,31h1v1h-1zM27,31h1v1h-1zM28,31h1v1h-1zM32,31h1v1h-1zM33,31h1v1h-1zM35,31h1v1h-1zM36,31h1v1h-1zM37,31h1v1h-1zM38,31h1v1h-1zM41,31h1v1h-1zM42,31h1v1h-1zM2,32h1v1h-1zM3,32h1v1h-1zM4,32h1v1h-1zM8,32h1v1h-1zM9,32h1v1h-1zM10,32h1v1h-1zM12,32h1v1h-1zM14,32h1v1h-1zM15,32h1v1h-1zM17,32h1v1h-1zM18,32h1v1h-1zM19,32h1v1h-1zM21,32h1v1h-1zM24,32h1v1h-1zM26,32h1v1h-1zM28,32h1v1h-1zM29,32h1v1h-1zM32,32h1v1h-1zM33,32h1v1h-1zM35,32h1v1h-1zM37,32h1v1h-1zM38,32h1v1h-1zM39,32h1v1h-1zM40,32h1v1h-1zM42,32h1v1h-1zM2,33h1v1h-1zM5,33h1v1h-1zM9,33h1v1h-1zM10,33h1v1h-1zM11,33h1v1h-1zM14,33h1v1h-1zM24,33h1v1h-1zM25,33h1v1h-1zM28,33h1v1h-1zM32,33h1v1h-1zM34,33h1v1h-1zM36,33h1v1h-1zM38,33h1v1h-1zM39,33h1v1h-1zM2,34h1v1h-1zM5,34h1v1h-1zM7,34h1v1h-1zM8,34h1v1h-1zM17,34h1v1h-1zM18,34h1v1h-1zM19,34h1v1h-1zM24,34h1v1h-1zM25,34h1v1h-1zM26,34h1v1h-1zM27,34h1v1h-1zM28,34h1v1h-1zM29,34h1v1h-1zM31,34h1v1h-1zM32,34h1v1h-1zM33,34h1v1h-1zM34,34h1v1h-1zM35,34h1v1h-1zM36,34h1v1h-1zM37,34h1v1h-1zM38,34h1v1h-1zM39,34h1v1h-1zM40,34h1v1h-1zM41,34h1v1h-1zM10,35h1v1h-1zM13,35h1v1h-1zM15,35h1v1h-1zM17,35h1v1h-1zM21,35h1v1h-1zM23,35h1v1h-1zM25,35h1v1h-1zM26,35h1v1h-1zM28,35h1v1h-1zM29,35h1v1h-1zM31,35h1v1h-1zM32,35h1v1h-1zM33,35h1v1h-1zM34,35h1v1h-1zM38,35h1v1h-1zM40,35h1v1h-1zM2,36h1v1h-1zM3,36h1v1h-1zM4,36h1v1h-1zM5,36h1v1h-1zM6,36h1v1h-1zM7,36h1v1h-1zM8,36h1v1h-1zM12,36h1v1h-1zM14,36h1v1h-1zM16,36h1v1h-1zM17,36h1v1h-1zM20,36h1v1h-1zM24,36h1v1h-1zM29,36h1v1h-1zM31,36h1v1h-1zM33,36h1v1h-1zM34,36h1v1h-1zM36,36h1v1h-1zM38,36h1v1h-1zM39,36h1v1h-1zM41,36h1v1h-1zM2,37h1v1h-1zM8,37h1v1h-1zM11,37h1v1h-1zM17,37h1v1h-1zM18,37h1v1h-1zM23,37h1v1h-1zM25,37h1v1h-1zM28,37h1v1h-1zM29,37h1v1h-1zM30,37h1v1h-1zM31,37h1v1h-1zM32,37h1v1h-1zM34,37h1v1h-1zM38,37h1v1h-1zM2,38h1v1h-1zM4,38h1v1h-1zM5,38h1v1h-1zM6,38h1v1h-1zM8,38h1v1h-1zM12,38h1v1h-1zM14,38h1v1h-1zM15,38h1v1h-1zM18,38h1v1h-1zM19,38h1v1h-1zM20,38h1v1h-1zM21,38h1v1h-1zM23,38h1v1h-1zM27,38h1v1h-1zM28,38h1v1h-1zM29,38h1v1h-1zM30,38h1v1h-1zM31,38h1v1h-1zM33,38h1v1h-1zM34,38h1v1h-1zM35,38h1v1h-1zM36,38h1v1h-1zM37,38h1v1h-1zM38,38h1v1h-1zM41,38h1v1h-1zM42,38h1v1h-1zM2,39h1v1h-1zM4,39h1v1h-1zM5,39h1v1h-1zM6,39h1v1h-1zM8,39h1v1h-1zM11,39h1v1h-1zM12,39h1v1h-1zM13,39h1v1h-1zM14,39h1v1h-1zM17,39h1v1h-1zM21,39h1v1h-1zM23,39h1v1h-1zM25,39h1v1h-1zM26,39h1v1h-1zM28,39h1v1h-1zM29,39h1v1h-1zM32,39h1v1h-1zM33,39h1v1h-1zM34,39h1v1h-1zM37,39h1v1h-1zM41,39h1v1h-1zM2,40h1v1h-1zM4,40h1v1h-1zM5,40h1v1h-1zM6,40h1v1h-1zM8,40h1v1h-1zM11,40h1v1h-1zM12,40h1v1h-1zM13,40h1v1h-1zM14,40h1v1h-1zM15,40h1v1h-1zM18,40h1v1h-1zM20,40h1v1h-1zM22,40h1v1h-1zM24,40h1v1h-1zM29,40h1v1h-1zM30,40h1v1h-1zM32,40h1v1h-1zM33,40h1v1h-1zM35,40h1v1h-1zM36,40h1v1h-1zM37,40h1v1h-1zM38,40h1v1h-1zM40,40h1v1h-1zM2,41h1v1h-1zM8,41h1v1h-1zM11,41h1v1h-1zM12,41h1v1h-1zM14,41h1v1h-1zM15,41h1v1h-1zM16,41h1v1h-1zM17,41h1v1h-1zM22,41h1v1h-1zM25,41h1v1h-1zM28,41h1v1h-1zM32,41h1v1h-1zM33,41h1v1h-1zM35,41h1v1h-1zM38,41h1v1h-1zM40,41h1v1h-1zM42,41h1v1h-1zM2,42h1v1h-1zM3,42h1v1h-1zM4,42h1v1h-1zM5,42h1v1h-1zM6,42h1v1h-1zM7,42h1v1h-1zM8,42h1v1h-1zM10,42h1v1h-1zM13,42h1v1h-1zM14,42h1v1h-1zM16,42h1v1h-1zM17,42h1v1h-1zM18,42h1v1h-1zM19,42h1v1h-1zM20,42h1v1h-1zM21,42h1v1h-1zM24,42h1v1h-1zM26,42h1v1h-1zM27,42h1v1h-1zM28,42h1v1h-1zM29,42h1v1h-1zM30,42h1v1h-1zM31,42h1v1h-1zM33,42h1v1h-1zM37,42h1v1h-1zM38,42h1v1h-1zM40,42h1v1h-1z" fill="#0A0E27"/></svg>
+          <p><strong>컴퓨터로 보고 계신가요?</strong><span>iPhone 카메라로 코드를 스캔하면 App Store에서 앱이 열립니다.</span></p>
+        </div>
         </aside>
 
         <!-- FAQ -->
@@ -243,13 +269,21 @@
       <nav class="footer-languages" aria-label="Languages"><ul><li><a href="/" hreflang="en" lang="en">English</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/jp/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" aria-current="true">한국어</a></li><li><a href="/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/th/" hreflang="th" lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li></ul></nav>
       <p>© 2026 Bluetooth Finder. All rights reserved.</p>
       <p><a href="/ko/guides/">가이드</a> | <a href="/privacy.html">개인정보 처리방침</a> | <a href="/terms.html">이용 약관</a></p>
-      <p class="last-updated">최종 업데이트 2026년 10월 14일</p>
+      <p class="last-updated">최종 업데이트 2026년 10월 23일</p>
     </footer>
+  </div>
+
+  <!-- Sticky download bar (shown on iPhone when no other download button is on screen) -->
+  <div class="sticky-cta">
+    <img src="/img/appstore/icon-192.webp" alt="" width="44" height="44" loading="lazy" decoding="async">
+    <a href="https://apps.apple.com/app/apple-store/id6756609274?pt=118672082&ct=ko-g-speaker-sticky&mt=8" class="cta-button" aria-label="App Store에서 Bluetooth Finder 다운로드" rel="noopener noreferrer">
+      <span>App Store에서 다운로드</span>
+    </a>
   </div>
 
   <!-- Structured Data (JSON-LD) for SEO -->
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Article","headline":"잃어버린 블루투스 스피커 찾는법","description":"가능합니다. JBL, 보스, 앤커 스피커가 켜져 있고 약 30미터 안에 있다면 iPhone으로 블루투스 신호를 따라가 바로 찾을 수 있습니다. 꺼져 있을 때의 대처법도 알려 드립니다.","mainEntityOfPage":"https://bluetoothfinderapp.com/ko/guides/find-lost-bluetooth-speaker/","url":"https://bluetoothfinderapp.com/ko/guides/find-lost-bluetooth-speaker/","inLanguage":"ko","dateModified":"2026-10-14","image":"https://bluetoothfinderapp.com/site_preview.png","author":{"@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/","logo":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/appstore/icon-512.webp"}},"publisher":{"@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/","logo":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/appstore/icon-512.webp"}}}
+    {"@context":"https://schema.org","@type":"Article","headline":"잃어버린 블루투스 스피커 찾는법","description":"가능합니다. JBL, 보스, 앤커 스피커가 켜져 있고 약 30미터 안에 있다면 iPhone으로 블루투스 신호를 따라가 바로 찾을 수 있습니다. 꺼져 있을 때의 대처법도 알려 드립니다.","mainEntityOfPage":"https://bluetoothfinderapp.com/ko/guides/find-lost-bluetooth-speaker/","url":"https://bluetoothfinderapp.com/ko/guides/find-lost-bluetooth-speaker/","inLanguage":"ko","dateModified":"2026-10-23","image":"https://bluetoothfinderapp.com/site_preview.png","author":{"@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/","logo":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/appstore/icon-512.webp"}},"publisher":{"@type":"Organization","name":"Bluetooth Finder","url":"https://bluetoothfinderapp.com/","logo":{"@type":"ImageObject","url":"https://bluetoothfinderapp.com/img/appstore/icon-512.webp"}}}
   </script>
 
   <script type="application/ld+json">
@@ -262,6 +296,41 @@
 
   <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://bluetoothfinderapp.com/ko/"},{"@type":"ListItem","position":2,"name":"가이드","item":"https://bluetoothfinderapp.com/ko/guides/"},{"@type":"ListItem","position":3,"name":"블루투스 스피커 찾기","item":"https://bluetoothfinderapp.com/ko/guides/find-lost-bluetooth-speaker/"}]}
+  </script>
+
+  <!-- Download prompts: sticky App Store bar (iOS) + Metrica goal per App Store click -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var bar = document.querySelector('.sticky-cta');
+      if (bar && d.classList.contains('is-ios') && 'IntersectionObserver' in window) {
+        var inView = new Set();
+        var scrolled = false;
+        var update = function () {
+          bar.classList.toggle('is-shown', scrolled && inView.size === 0);
+        };
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { inView.add(e.target); } else { inView.delete(e.target); }
+          });
+          update();
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('.cta-button'), function (el) {
+          if (!bar.contains(el)) { io.observe(el); }
+        });
+        window.addEventListener('scroll', function () {
+          var next = window.scrollY > 300;
+          if (next !== scrolled) { scrolled = next; update(); }
+        }, { passive: true });
+      }
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href*="apps.apple.com"]');
+        if (!a || !window.ym) { return; }
+        var ct = '';
+        try { ct = new URL(a.href).searchParams.get('ct') || ''; } catch (err) {}
+        window.ym(106104643, 'reachGoal', 'app_store_click', { ct: ct });
+      }, true);
+    })();
   </script>
 
   <!-- Yandex.Metrika counter -->
