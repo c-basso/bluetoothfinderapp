@@ -300,8 +300,8 @@
     {
       "slug": "find-dead-airpods",
       "breadcrumb": "Find Dead AirPods",
-      "meta_title": "How to Find a Dead AirPod – Last Location, Signs & What Works",
-      "meta_description": "Dead AirPods stop broadcasting, so no app can track them live. Here's how to tell if your AirPods are dead, use Find My's last location, and catch them the moment they get any charge.",
+      "meta_title": "How to Find a Dead AirPod (and Tell If It's Really Dead)",
+      "meta_description": "Find My says Offline? Here's how to tell if your AirPods are dead, search their last location and get alerted the moment they get any charge.",
       "keywords": "how to find a dead airpod, find dead airpods, how to know if airpods are dead, find airpods if they are dead, will find my find dead airpods, dead airpods location",
       "h1": "How to Find Dead AirPods",
       "quick_answer": "AirPods with a fully dead battery cannot be tracked in real time — they stop broadcasting Bluetooth, so no app (including Find My) can detect them live. You can tell they're dead when Find My shows Offline or \"No location found\" with an old timestamp and Play Sound fails. What works: search around Find My's last known location, turn on Lost Mode so you're notified the moment they reconnect, re-scan with a Bluetooth finder in case residual charge wakes them, and check the places dead AirPods usually end up.",
@@ -428,8 +428,8 @@
     {
       "slug": "find-lost-bluetooth-headphones",
       "breadcrumb": "Find Lost Bluetooth Headphones",
-      "meta_title": "How to Find Lost Bluetooth Headphones (On or Turned Off)",
-      "meta_description": "Lost Bose, Sony, Beats or JBL headphones? If they're on, follow their Bluetooth signal with your iPhone. If they're turned off, here's how to narrow the search and catch them when they wake.",
+      "meta_title": "Lost Bluetooth Headphones? How to Find Them, Even If Off",
+      "meta_description": "No Find My for Bose, Sony or JBL? If they're on, your iPhone follows their Bluetooth signal. If they're turned off, here's where to look first.",
       "keywords": "find lost bluetooth headphones, how to find lost bluetooth headphones that are turned off, can you track bose headphones, find my bose headphones, lost sony headphones, find beats headphones, track bluetooth headphones",
       "h1": "How to Find Lost Bluetooth Headphones",
       "quick_answer": "Most Bluetooth headphones — Sony, Bose, JBL, Sennheiser and many Beats models — are not in Apple's Find My network, so there's no map to check. But while they're powered on, they broadcast a Bluetooth signal with a 10–30 meter indoor range. A Bluetooth finder app on your iPhone tracks that signal's strength and guides you to the headphones with hot–cold feedback.",
