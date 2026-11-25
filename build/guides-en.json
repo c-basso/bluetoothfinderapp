@@ -304,7 +304,7 @@
       "meta_description": "Find My says Offline? Here's how to tell if your AirPods are dead, search their last location and get alerted the moment they get any charge.",
       "keywords": "how to find a dead airpod, find dead airpods, how to know if airpods are dead, find airpods if they are dead, will find my find dead airpods, dead airpods location",
       "h1": "How to Find Dead AirPods",
-      "quick_answer": "AirPods with a fully dead battery cannot be tracked in real time — they stop broadcasting Bluetooth, so no app (including Find My) can detect them live. You can tell they're dead when Find My shows Offline or \"No location found\" with an old timestamp and Play Sound fails. What works: search around Find My's last known location, turn on Lost Mode so you're notified the moment they reconnect, re-scan with a Bluetooth finder in case residual charge wakes them, and check the places dead AirPods usually end up.",
+      "quick_answer": "You can't track a dead AirPod live, but you can still find it. Open Find My and note the last location and time, even if it says Offline: that's roughly where the battery ran out. Turn on Notify When Found (and Mark As Lost on supported models) so your iPhone alerts you the moment they get any charge. Search that spot by hand, starting where dead AirPods usually end up: couch and car-seat gaps, pockets, laundry, under the bed. Then re-scan with a Bluetooth finder a few times a day, because a resting battery can recover enough charge to broadcast briefly.",
       "sections": [
         {
           "title": "How to Tell If Your AirPods Are Dead",
@@ -323,6 +323,13 @@
           "paragraphs": [
             "If Find My shows a live location or a recent time like \"Now\" or \"2 minutes ago\", they aren't dead — use Play Sound and a Bluetooth scan right away. If the last time is hours old, assume the battery ran out around then, and treat that place and time as your search zone.",
             "A single earbud dies faster than one sitting in its case, so it's common for one AirPod to be dead while the other still shows up. If that's your situation, the one-lost-AirPod guide below walks through finding the missing side."
+          ]
+        },
+        {
+          "title": "Dead AirPod Out of the Case, or Inside a Dead Case?",
+          "paragraphs": [
+            "A loose earbud that died out of its case is the common case. It can't play a sound, so work from Find My's last location and the time it went offline, then search the places listed below. Earbuds are small and usually end up within a few meters of where you last wore them.",
+            "AirPods sitting inside a closed case usually don't show up in a Bluetooth scan, even when charged. On AirPods Pro 2 and later and AirPods 4 with Active Noise Cancellation, the case appears in Find My on its own and has a speaker you can ring, but only while the case has charge. If the case is dead too, nothing transmits: use the last location from Find My and search by hand."
           ]
         },
         {
@@ -383,8 +390,16 @@
           "answer": "It shows where they were last online, with a timestamp — not where they are now. Dead AirPods can't play a sound or update their location until they get some charge, so search around that last location and re-scan with a Bluetooth finder in case they wake up."
         },
         {
+          "question": "Can I find a dead AirPod in my house?",
+          "answer": "Yes, but by searching, not by signal. If Find My's last location is your home, the earbud is usually within a few meters of where you last wore it. Check couch and bed gaps, the laundry basket and washing machine drum, coat pockets and the floor along your usual routes. Scan with a Bluetooth finder each morning and evening in case it briefly wakes up."
+        },
+        {
           "question": "Will I get a notification when my dead AirPods turn back on?",
           "answer": "Yes, if they're linked to your Apple Account in Find My: when offline AirPods reconnect, Apple notifies the devices they're paired with. Turning on Mark As Lost (on supported models) also shows your contact details to whoever finds them."
+        },
+        {
+          "question": "What if my AirPods and the case are both dead?",
+          "answer": "Then nothing is transmitting, so neither Find My nor any app can locate them right now. Find My still shows where the case or AirPods were last online. Search there, and keep Notify When Found on: if someone charges the case, you'll get an alert with the new location."
         },
         {
           "question": "How do I know if my AirPods are dead or just out of range?",
